@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ConceptQizzer | Learn • Practice • Master</title>
+
+  <meta
+    name="description"
+    content="ConceptQizzer is an interactive learning platform for students from Classes 6 to 10 with chapter-wise notes, quizzes and practice exercises."
+  >
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #3730a3;
+      --secondary: #7c3aed;
+      --background: #f6f7fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --border: #e4e7ec;
+      --success: #16a34a;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    /* =========================
+       HEADER
+    ========================== */
+
+    .site-header {
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      width: min(1100px, 92%);
+      min-height: 70px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+    }
+
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 13px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-size: 21px;
+      font-weight: 800;
+      background: linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+      );
+    }
+
+    .brand-name {
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+    }
+
+    .header-badge {
+      padding: 8px 13px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: var(--primary-dark);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    /* =========================
+       MAIN AREA
+    ========================== */
+
+    main {
+      width: min(1100px, 92%);
+      margin: auto;
+      padding: 38px 0 60px;
+    }
+
+    .hero {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 35px;
+    }
+
+    .hero-label {
+      display: inline-block;
+      margin-bottom: 13px;
+      padding: 7px 13px;
+      border-radius: 999px;
+      background: #ede9fe;
+      color: #5b21b6;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      line-height: 1.08;
+      letter-spacing: -1.5px;
+      margin-bottom: 14px;
+    }
+
+    .hero h1 span {
+      color: var(--primary);
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    /* =========================
+       SELECTION AREA
+    ========================== */
+
+    .selection-panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: var(--shadow);
+    }
+
+    .section-heading {
+      margin-bottom: 22px;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      font-size: 1.55rem;
+      margin-bottom: 7px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .class-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .class-card {
+      min-height: 125px;
+      padding: 18px 12px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      background: #ffffff;
+      cursor: pointer;
+      transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .class-card:hover {
+      transform: translateY(-3px);
+      border-color: #a5b4fc;
+      box-shadow: 0 10px 20px rgba(79, 70, 229, 0.10);
+    }
+
+    .class-card.active {
+      color: white;
+      border-color: var(--primary);
+      background: linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+      );
+    }
+
+    .class-number {
+      display: block;
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+
+    .class-text {
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    /* =========================
+       SUBJECT AREA
+    ========================== */
+
+    .subject-section {
+      display: none;
+      margin-top: 30px;
+    }
+
+    .subject-section.show {
+      display: block;
+    }
+
+    .subject-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .subject-card {
+      min-height: 105px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: #ffffff;
+      cursor: pointer;
+      text-align: left;
+      transition: 0.2s ease;
+    }
+
+    .subject-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .subject-icon {
+      display: block;
+      font-size: 1.7rem;
+      margin-bottom: 10px;
+    }
+
+    .subject-name {
+      font-size: 1rem;
+      font-weight: 750;
+      color: var(--text);
+    }
+
+    /* =========================
+       MOBILE RESPONSIVE
+    ========================== */
+
+    @media (max-width: 800px) {
+      .class-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .subject-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 520px) {
+      main {
+        width: 94%;
+        padding-top: 26px;
+      }
+
+      .header-inner {
+        width: 94%;
+      }
+
+      .header-badge {
+        display: none;
+      }
+
+      .selection-panel {
+        padding: 18px 14px;
+        border-radius: 20px;
+      }
+
+      .class-grid {
+        gap: 10px;
+      }
+
+      .class-card {
+        min-height: 105px;
+      }
+
+      .subject-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero p {
+        font-size: 0.94rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+
+      <div class="brand">
+        <div class="brand-logo">CQ</div>
+        <div class="brand-name">ConceptQizzer</div>
+      </div>
+
+      <div class="header-badge">
+        Classes 6–10
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-label">
+        Learn smarter, chapter by chapter
+      </div>
+
+      <h1>
+        Master concepts with
+        <span>ConceptQizzer</span>
+      </h1>
+
+      <p>
+        Choose your class and subject to explore chapter-wise
+        notes, practice exercises and quizzes designed to
+        strengthen your understanding.
+      </p>
+
+    </section>
+
+    <section class="selection-panel">
+
+      <div class="section-heading">
+        <h2>Choose Your Class</h2>
+        <p>Select your class to continue.</p>
+      </div>
+
+      <div class="class-grid">
+
+        <button class="class-card" onclick="selectClass(6)">
+          <span class="class-number">6</span>
+          <span class="class-text">Class 6</span>
+        </button>
+
+        <button class="class-card" onclick="selectClass(7)">
+          <span class="class-number">7</span>
+          <span class="class-text">Class 7</span>
+        </button>
+
+        <button class="class-card" onclick="selectClass(8)">
+          <span class="class-number">8</span>
+          <span class="class-text">Class 8</span>
+        </button>
+
+        <button class="class-card" onclick="selectClass(9)">
+          <span class="class-number">9</span>
+          <span class="class-text">Class 9</span>
+        </button>
+
+        <button class="class-card" onclick="selectClass(10)">
+          <span class="class-number">10</span>
+          <span class="class-text">Class 10</span>
+        </button>
+
+      </div>
+
+      <div id="subjectSection" class="subject-section">
+
+        <div class="section-heading">
+          <h2 id="subjectHeading">Choose a Subject</h2>
+          <p>
+            Select a subject to see all available chapters.
+          </p>
+        </div>
+
+        <div id="subjectGrid" class="subject-grid"></div>
+
+      </div>
+
+    </section>
+
+  </main>
+  <script>
+  const subjectsByClass = {
+    6: [
+      { name: "Mathematics", icon: "➗" },
+      { name: "Science", icon: "🔬" },
+      { name: "History", icon: "🏛️" },
+      { name: "Geography", icon: "🌍" },
+      { name: "Social & Political Life", icon: "⚖️" }
+    ],
+
+    7: [
+      { name: "Mathematics", icon: "➗" },
+      { name: "Science", icon: "🔬" },
+      { name: "History", icon: "🏛️" },
+      { name: "Geography", icon: "🌍" },
+      { name: "Social & Political Life", icon: "⚖️" }
+    ],
+
+    8: [
+      { name: "Mathematics", icon: "➗" },
+      { name: "Science", icon: "🔬" },
+      { name: "History", icon: "🏛️" },
+      { name: "Geography", icon: "🌍" },
+      { name: "Social & Political Life", icon: "⚖️" },
+      { name: "English", icon: "📖" },
+      { name: "Hindi", icon: "✍️" },
+      { name: "Sanskrit / Third Language", icon: "📜" }
+    ],
+
+    9: [
+      { name: "Mathematics", icon: "➗" },
+      { name: "Physics", icon: "⚛️" },
+      { name: "Chemistry", icon: "🧪" },
+      { name: "Biology", icon: "🧬" },
+      { name: "History", icon: "🏛️" },
+      { name: "Geography", icon: "🌍" },
+      { name: "Political Science", icon: "⚖️" },
+      { name: "Economics", icon: "📊" },
+      { name: "Information Technology", icon: "💻" },
+      { name: "AI", icon: "🤖" }
+    ],
+
+    10: [
+      { name: "Mathematics Standard", icon: "📐" },
+      { name: "Mathematics Basic", icon: "➗" },
+      { name: "Physics", icon: "⚛️" },
+      { name: "Chemistry", icon: "🧪" },
+      { name: "Biology", icon: "🧬" },
+      { name: "History", icon: "🏛️" },
+      { name: "Geography", icon: "🌍" },
+      { name: "Political Science", icon: "⚖️" },
+      { name: "Economics", icon: "📊" },
+      { name: "Information Technology", icon: "💻" },
+      { name: "AI", icon: "🤖" }
+    ]
+  };
+
+  let selectedClass = null;
+  let selectedSubject = null;
+
+  function selectClass(classNumber) {
+    selectedClass = classNumber;
+    selectedSubject = null;
+
+    const classCards = document.querySelectorAll(".class-card");
+
+    classCards.forEach((card) => {
+      card.classList.remove("active");
+    });
+
+    const clickedCard = Array.from(classCards).find((card) =>
+      card.getAttribute("onclick") === `selectClass(${classNumber})`
+    );
+
+    if (clickedCard) {
+      clickedCard.classList.add("active");
+    }
+
+    const subjectSection = document.getElementById("subjectSection");
+    const subjectHeading = document.getElementById("subjectHeading");
+    const subjectGrid = document.getElementById("subjectGrid");
+
+    subjectHeading.textContent = `Choose a Subject — Class ${classNumber}`;
+
+    subjectGrid.innerHTML = "";
+
+    subjectsByClass[classNumber].forEach((subject) => {
+      const button = document.createElement("button");
+
+      button.className = "subject-card";
+      button.type = "button";
+
+      button.innerHTML = `
+        <span class="subject-icon">${subject.icon}</span>
+        <span class="subject-name">${subject.name}</span>
+      `;
+
+      button.addEventListener("click", () => {
+        selectSubject(subject.name);
+      });
+
+      subjectGrid.appendChild(button);
+    });
+
+    subjectSection.classList.add("show");
+
+    setTimeout(() => {
+      subjectSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }, 100);
+  }
+
+  function selectSubject(subjectName) {
+    selectedSubject = subjectName;
+
+    /*
+      In the next part, this function will open
+      the chapter selection screen.
+    */
+
+    console.log(
+      `Selected: Class ${selectedClass} - ${selectedSubject}`
+    );
+  }
+</script>
+
+</body>
+</html>
