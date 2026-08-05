@@ -170,6 +170,127 @@
         padding: 13px;
     }
 }
+        /* ===== Creative Chapter Notes ===== */
+
+.notes-card {
+    background: linear-gradient(145deg, #ffffff, #f8f7ff);
+    border: 1px solid #ebe8ff;
+    overflow: hidden;
+}
+
+.notes-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.notes-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background: linear-gradient(135deg, #ede9fe, #ddd6fe);
+    border-radius: 17px;
+}
+
+.notes-title small {
+    color: #7c3aed;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.notes-title h2 {
+    margin: 3px 0 0;
+    font-size: 25px;
+    color: #172033;
+}
+
+.notes-overview {
+    padding: 18px;
+    background: linear-gradient(135deg, #f5f3ff, #eef2ff);
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.notes-overview h3,
+.key-concepts h3 {
+    margin: 0 0 10px;
+    color: #312e81;
+    font-size: 18px;
+}
+
+.notes-overview p {
+    margin: 0;
+    line-height: 1.7;
+    color: #596579;
+}
+
+.key-concepts {
+    margin-top: 20px;
+}
+
+.concept-list {
+    display: grid;
+    gap: 10px;
+}
+
+.concept-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: #ffffff;
+    border: 1px solid #eceaf5;
+    border-radius: 13px;
+}
+
+.concept-item span {
+    min-width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    color: white;
+    font-weight: 800;
+}
+
+.concept-item p {
+    margin: 0;
+    color: #374151;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.fact-box {
+    display: flex;
+    gap: 13px;
+    margin-top: 22px;
+    padding: 17px;
+    background: linear-gradient(135deg, #fff7d6, #fffbea);
+    border: 1px solid #fde68a;
+    border-radius: 16px;
+}
+
+.bulb {
+    font-size: 27px;
+}
+
+.fact-box strong {
+    color: #92400e;
+    font-size: 16px;
+}
+
+.fact-box p {
+    margin: 5px 0 0;
+    color: #6b5a35;
+    line-height: 1.5;
+}
     </style>
 </head>
 
@@ -233,15 +354,81 @@ document.getElementById("breadcrumb").textContent =
   </script>
     <script>
 const contentBox = document.getElementById("chapterContent");
+        const chapterNotes = {
+  "Judiciary": {
+    icon: "⚖️",
+    intro: "The Judiciary is an important organ of the Indian government. It protects the Constitution, safeguards Fundamental Rights and ensures that laws are applied fairly.",
+    concepts: [
+      "Independent Judiciary",
+      "Supreme Court, High Courts & District Courts",
+      "Civil and Criminal Law",
+      "Public Interest Litigation (PIL)",
+      "Protection of Fundamental Rights"
+    ],
+    fact: "The Supreme Court of India is the highest court in the country."
+  },
+
+  "Polynomials": {
+    icon: "📐",
+    intro: "A polynomial is an algebraic expression made up of variables, constants and whole-number powers of variables.",
+    concepts: [
+      "Terms and coefficients",
+      "Degree of a polynomial",
+      "Types of polynomials",
+      "Zeroes of a polynomial",
+      "Remainder and Factor Theorem"
+    ],
+    fact: "A polynomial with degree 2 is called a quadratic polynomial."
+  }
+};
+
+const currentNotes = chapterNotes[chapter];
 
 contentBox.innerHTML = `
-    <section class="learning-card">
-        <h2>📚 Chapter Notes</h2>
+<section class="learning-card notes-card">
+    <div class="notes-title">
+        <span class="notes-icon">${currentNotes?.icon || "📚"}</span>
+        <div>
+            <small>CHAPTER NOTES</small>
+            <h2>${chapter || "Chapter"}</h2>
+        </div>
+    </div>
+
+    <div class="notes-overview">
+        <h3>✨ Quick Overview</h3>
         <p>
-            Notes for <strong>${chapter || "this chapter"}</strong>
-            will appear here.
+            ${currentNotes?.intro ||
+            "Detailed notes for this chapter are coming soon."}
         </p>
-    </section>
+    </div>
+
+    ${
+        currentNotes
+        ? `
+        <div class="key-concepts">
+            <h3>🎯 Key Concepts</h3>
+
+            <div class="concept-list">
+                ${currentNotes.concepts.map((item, index) => `
+                    <div class="concept-item">
+                        <span>${index + 1}</span>
+                        <p>${item}</p>
+                    </div>
+                `).join("")}
+            </div>
+        </div>
+
+        <div class="fact-box">
+            <span class="bulb">💡</span>
+            <div>
+                <strong>Did You Know?</strong>
+                <p>${currentNotes.fact}</p>
+            </div>
+        </div>
+        `
+        : ""
+    }
+</section>
 
     <section class="learning-card">
         <h2>🧠 Take a Quiz</h2>
