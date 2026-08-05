@@ -90,7 +90,7 @@
             test your knowledge.
         </p>
     </section>
-
+<div id="chapterContent"></div>
     </main>
   <script>
 const params = new URLSearchParams(window.location.search);
@@ -113,6 +113,37 @@ document.getElementById("breadcrumb").textContent =
     " • " + (subject || "Subject") +
     " • " + (chapter || "Chapter");
   </script>
+    <script>
+const contentBox = document.getElementById("chapterContent");
+
+contentBox.innerHTML = `
+    <section class="learning-card">
+        <h2>📚 Chapter Notes</h2>
+        <p>
+            Notes for <strong>${chapter || "this chapter"}</strong>
+            will appear here.
+        </p>
+    </section>
+
+    <section class="learning-card">
+        <h2>🧠 Take a Quiz</h2>
+        <p>
+            Test your understanding of
+            <strong>${chapter || "this chapter"}</strong>.
+        </p>
+        <button>Start Quiz</button>
+    </section>
+
+    <section class="learning-card">
+        <h2>✍️ Practice Exercises</h2>
+        <p>
+            Practice important questions from
+            <strong>${chapter || "this chapter"}</strong>.
+        </p>
+        <button>Start Practice</button>
+    </section>
+`;
+    </script>
 
 </body>
 </html>
