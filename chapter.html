@@ -52,6 +52,124 @@
         align-items: flex-start;
     }
 }
+        /* ===== Chapter Page Premium Design ===== */
+
+.chapter-container {
+    width: 92%;
+    max-width: 900px;
+    margin: 28px auto 60px;
+}
+
+.breadcrumb {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.chapter-hero {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    padding: 28px 22px;
+    border-radius: 22px;
+    margin-bottom: 22px;
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.20);
+}
+
+.chapter-hero h1 {
+    font-size: 34px;
+    margin: 8px 0;
+    line-height: 1.1;
+}
+
+.chapter-hero p {
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+.class-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.30);
+    padding: 7px 13px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.learning-card {
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    margin: 18px 0;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.08);
+    border: 1px solid #e8eaf2;
+}
+
+.learning-card h2 {
+    font-size: 23px;
+    color: #172033;
+    margin-bottom: 10px;
+}
+
+.learning-card p {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+.learning-card button {
+    margin-top: 16px;
+    border: none;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.22);
+}
+
+.learning-card button:active {
+    transform: scale(0.97);
+}
+
+#chapterContent {
+    margin-top: 18px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .chapter-container {
+        width: auto;
+        margin: 20px 16px 45px;
+    }
+
+    .chapter-hero {
+        padding: 23px 18px;
+        border-radius: 18px;
+    }
+
+    .chapter-hero h1 {
+        font-size: 30px;
+    }
+
+    .learning-card {
+        padding: 19px 17px;
+        border-radius: 16px;
+        margin: 15px 0;
+    }
+
+    .learning-card h2 {
+        font-size: 21px;
+    }
+
+    .learning-card button {
+        width: 100%;
+        padding: 13px;
+    }
+}
     </style>
 </head>
 
