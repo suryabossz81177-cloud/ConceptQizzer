@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!    font-size: 14px;
+    font-weight: bold;DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -93,8 +94,7 @@
     border: 1px solid rgba(255,255,255,0.30);
     padding: 7px 13px;
     border-radius: 30px;
-    font-size: 14px;
-    font-weight: bold;
+
 }
 
 .learning-card {
@@ -291,6 +291,160 @@
     color: #6b5a35;
     line-height: 1.5;
 }
+        /* ===== Full Chapter Notes ===== */
+
+.read-notes-btn {
+    width: 100%;
+    margin-top: 22px;
+    padding: 15px 18px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 7px 18px rgba(79, 70, 229, 0.22);
+}
+
+.read-notes-btn:active {
+    transform: scale(0.98);
+}
+
+.full-notes-container {
+    display: none;
+    margin-top: 24px;
+    animation: notesOpen 0.35s ease;
+}
+
+.full-notes-container.show {
+    display: block;
+}
+
+.full-notes h3 {
+    margin: 28px 0 10px;
+    color: #312e81;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.full-notes > p {
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.note-point,
+.court-level {
+    background: #f8faff;
+    border: 1px solid #e5e7f2;
+    border-radius: 15px;
+    padding: 16px;
+    margin: 12px 0;
+}
+
+.note-point strong,
+.court-level strong {
+    color: #312e81;
+}
+
+.note-point p,
+.court-level p {
+    margin: 7px 0 0;
+    line-height: 1.65;
+}
+
+.court-level {
+    display: flex;
+    gap: 13px;
+}
+
+.court-level > span {
+    min-width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    font-weight: 800;
+}
+
+.highlight-note {
+    padding: 17px;
+    margin: 18px 0;
+    border-radius: 15px;
+    background: #eef2ff;
+    border-left: 4px solid #4f46e5;
+}
+
+.highlight-note strong {
+    color: #3730a3;
+}
+
+.highlight-note p {
+    margin: 7px 0 0;
+    line-height: 1.65;
+}
+
+.law-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 16px 0;
+}
+
+.law-comparison > div {
+    padding: 17px;
+    background: #f8faff;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+}
+
+.law-comparison p {
+    margin-top: 8px;
+    line-height: 1.6;
+}
+
+.revision-box {
+    background: linear-gradient(135deg, #ecfdf5, #f0fdf4);
+    border: 1px solid #bbf7d0;
+    padding: 18px;
+    border-radius: 16px;
+    margin: 16px 0;
+}
+
+.revision-box ul {
+    padding-left: 22px;
+}
+
+.revision-box li {
+    margin: 10px 0;
+    line-height: 1.55;
+}
+
+@keyframes notesOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .law-comparison {
+        grid-template-columns: 1fr;
+    }
+
+    .full-notes h3 {
+        font-size: 19px;
+    }
+                              }
     </style>
 </head>
 
@@ -365,7 +519,365 @@ const contentBox = document.getElementById("chapterContent");
       "Public Interest Litigation (PIL)",
       "Protection of Fundamental Rights"
     ],
-    fact: "The Supreme Court of India is the highest court in the country."
+    fact: "The Supreme Court of India is the highest court in the country.",
+      details: `
+    <div class="full-notes">
+
+        <h3>⚖️ 1. What is the Judiciary?</h3>
+
+        <p>
+            The judiciary is the system of courts that interprets and
+            applies the law. In a democracy like India, courts play an
+            important role in ensuring justice, settling disputes and
+            protecting the rights guaranteed by the Constitution.
+        </p>
+
+        <div class="highlight-note">
+            <strong>📌 Remember</strong>
+            <p>
+                The judiciary is one of the key organs of government,
+                along with the Legislature and the Executive.
+            </p>
+        </div>
+
+        <h3>🏛️ 2. What is the Role of the Judiciary?</h3>
+
+        <p>
+            The judiciary performs several important functions.
+            Its work is not limited to deciding whether a person is
+            guilty or innocent. Courts also resolve disputes, examine
+            government actions and protect constitutional rights.
+        </p>
+
+        <div class="note-point">
+            <strong>⚖️ Dispute Resolution</strong>
+            <p>
+                Courts settle disputes between citizens, between
+                citizens and the government, between different state
+                governments, and between the Union and State governments.
+            </p>
+        </div>
+
+        <div class="note-point">
+            <strong>📜 Judicial Review</strong>
+            <p>
+                Higher courts can examine laws and government actions
+                to determine whether they are consistent with the
+                Constitution.
+            </p>
+        </div>
+
+        <div class="note-point">
+            <strong>🛡️ Protection of Fundamental Rights</strong>
+            <p>
+                Citizens can approach the courts when they believe
+                that their Fundamental Rights have been violated.
+                Courts can issue appropriate directions and orders
+                according to the Constitution and law.
+            </p>
+        </div>
+                <h3>🛡️ 3. Independent Judiciary</h3>
+
+        <p>
+            For courts to provide justice fairly, the judiciary needs
+            to function independently. This means that the judiciary
+            should be able to perform its duties without improper
+            interference from the Legislature or the Executive.
+        </p>
+
+        <p>
+            Judges are expected to decide cases according to the
+            Constitution, laws and evidence before the court rather
+            than according to pressure from powerful individuals
+            or institutions.
+        </p>
+
+        <div class="highlight-note">
+            <strong>💡 Why is judicial independence important?</strong>
+            <p>
+                It helps courts protect citizens' rights and examine
+                government actions fairly. Even the government can
+                be questioned before a court when required by law.
+            </p>
+        </div>
+
+        <h3>🏢 4. Structure of Courts in India</h3>
+
+        <p>
+            India has a hierarchy of courts. Courts at different
+            levels are connected to one another, forming an integrated
+            judicial system.
+        </p>
+
+        <div class="court-level">
+            <span>1</span>
+            <div>
+                <strong>🇮🇳 Supreme Court</strong>
+                <p>
+                    The Supreme Court is the highest court in India.
+                    It stands at the top of the judicial system and
+                    its decisions are binding on all other courts
+                    in India.
+                </p>
+            </div>
+        </div>
+
+        <div class="court-level">
+            <span>2</span>
+            <div>
+                <strong>🏛️ High Courts</strong>
+                <p>
+                    High Courts operate mainly at the state level.
+                    They supervise and hear matters from courts
+                    subordinate to them within their jurisdiction.
+                </p>
+            </div>
+        </div>
+
+        <div class="court-level">
+            <span>3</span>
+            <div>
+                <strong>🏢 District & Subordinate Courts</strong>
+                <p>
+                    District and other subordinate courts function
+                    closer to local communities and deal with many
+                    civil and criminal cases.
+                </p>
+            </div>
+        </div>
+
+        <h3>⬆️ Appellate System</h3>
+
+        <p>
+            Since courts are organised in a hierarchy, decisions of
+            lower courts can, in appropriate cases and according to
+            legal rules, be challenged before higher courts. This is
+            known as the appellate system.
+        </p>
+                <h3>⚔️ 5. Civil Law and Criminal Law</h3>
+
+        <p>
+            The legal system deals with different kinds of disputes
+            and offences. Two important branches discussed in this
+            chapter are criminal law and civil law.
+        </p>
+
+        <div class="law-comparison">
+
+            <div>
+                <strong>🚨 Criminal Law</strong>
+                <p>
+                    Criminal law deals with conduct that the law
+                    considers an offence, such as theft or causing
+                    serious physical harm.
+                </p>
+                <p>
+                    A criminal case generally involves investigation
+                    and prosecution according to the procedure
+                    established by law. If the accused is found guilty,
+                    the court may impose a legally prescribed punishment.
+                </p>
+            </div>
+
+            <div>
+                <strong>📄 Civil Law</strong>
+                <p>
+                    Civil law deals mainly with disputes concerning
+                    rights and obligations between individuals or
+                    organisations.
+                </p>
+                <p>
+                    Examples can include certain disputes relating to
+                    property, contracts, rent or family matters.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="highlight-note">
+            <strong>🧠 Easy Way to Remember</strong>
+            <p>
+                Criminal law mainly deals with offences, while civil
+                law generally deals with disputes over rights and
+                obligations.
+            </p>
+        </div>
+
+        <h3>🚪 6. Access to Courts</h3>
+
+        <p>
+            An important feature of the judicial system is that people
+            can approach courts when they seek legal remedies. Courts
+            therefore provide an important means through which people
+            can seek justice and protection of their rights.
+        </p>
+
+        <p>
+            However, access to courts may not always be equally easy
+            for everyone. Legal expenses, distance, lack of awareness
+            and lengthy procedures can make it difficult for some
+            people to approach the judicial system.
+        </p>
+
+        <h3>📢 7. Public Interest Litigation (PIL)</h3>
+
+        <p>
+            Public Interest Litigation, commonly called PIL, developed
+            as an important way of improving access to the higher
+            judiciary in matters concerning public interest.
+        </p>
+
+        <p>
+            It made it possible in appropriate cases for issues
+            affecting groups of people, particularly disadvantaged
+            sections of society, to be brought before the courts even
+            when every affected person could not approach the court
+            individually.
+        </p>
+
+        <div class="highlight-note">
+            <strong>💡 Why is PIL important?</strong>
+            <p>
+                PIL has helped make the judicial process more accessible
+                in matters involving wider public concerns and the
+                rights of disadvantaged groups.
+            </p>
+        </div>
+                <h3>🛡️ 8. Judiciary and Fundamental Rights</h3>
+
+        <p>
+            The judiciary plays an important role in protecting the
+            Fundamental Rights guaranteed by the Constitution.
+            If citizens believe that their Fundamental Rights have
+            been violated, they can approach the courts for legal
+            remedies.
+        </p>
+
+        <p>
+            This power of the courts is particularly important in a
+            democracy because rights written in the Constitution need
+            institutions that can protect and enforce them.
+        </p>
+
+        <div class="highlight-note">
+            <strong>⚖️ Constitution + Courts</strong>
+            <p>
+                The Constitution guarantees Fundamental Rights, while
+                the judiciary provides an important mechanism through
+                which these rights can be protected.
+            </p>
+        </div>
+
+        <h3>📚 9. Important Terms</h3>
+
+        <div class="note-point">
+            <strong>Judiciary</strong>
+            <p>
+                The system of courts responsible for interpreting and
+                applying law and administering justice.
+            </p>
+        </div>
+
+        <div class="note-point">
+            <strong>Independent Judiciary</strong>
+            <p>
+                A judiciary that can perform its judicial functions
+                without improper interference from other organs of
+                government.
+            </p>
+        </div>
+
+        <div class="note-point">
+            <strong>Judicial Review</strong>
+            <p>
+                The power of the judiciary to examine laws and
+                government actions in relation to the Constitution.
+            </p>
+        </div>
+
+        <div class="note-point">
+            <strong>Appeal</strong>
+            <p>
+                A request made according to law for a higher court
+                to review a decision of a lower court.
+            </p>
+        </div>
+
+        <div class="note-point">
+            <strong>Public Interest Litigation (PIL)</strong>
+            <p>
+                Litigation concerning matters of wider public interest,
+                which has helped improve access to courts in appropriate
+                cases.
+            </p>
+        </div>
+
+        <h3>⚡ 10. Quick Revision</h3>
+
+        <div class="revision-box">
+            <ul>
+                <li>
+                    India has an integrated system of courts.
+                </li>
+
+                <li>
+                    The Supreme Court is the highest court in India.
+                </li>
+
+                <li>
+                    High Courts operate mainly at the state level.
+                </li>
+
+                <li>
+                    District and subordinate courts function at
+                    lower levels of the judicial hierarchy.
+                </li>
+
+                <li>
+                    The judiciary resolves disputes and protects
+                    constitutional rights.
+                </li>
+
+                <li>
+                    Judicial independence is important for fair
+                    and impartial decision-making.
+                </li>
+
+                <li>
+                    Higher courts can exercise judicial review.
+                </li>
+
+                <li>
+                    Civil and criminal law deal with different
+                    types of legal matters.
+                </li>
+
+                <li>
+                    The appellate system allows certain decisions
+                    to be challenged before higher courts.
+                </li>
+
+                <li>
+                    PIL has contributed to improving access to
+                    justice in matters involving public interest.
+                </li>
+            </ul>
+        </div>
+
+        <div class="fact-box">
+            <span class="bulb">🎯</span>
+            <div>
+                <strong>Chapter in One Line</strong>
+                <p>
+                    An independent judiciary helps uphold the
+                    Constitution, resolve disputes, protect rights
+                    and ensure that the rule of law is maintained.
+                </p>
+            </div>
+        </div>
+
+    </div>
+`
   },
 
   "Polynomials": {
@@ -428,6 +940,21 @@ contentBox.innerHTML = `
         `
         : ""
     }
+    <button class="read-notes-btn" onclick="toggleFullNotes()">
+    📖 Read Full Chapter Notes
+</button>
+
+<div id="fullNotes" class="full-notes-container">
+    ${currentNotes?.details || `
+        <div class="coming-soon-note">
+            <h3>📚 Detailed Notes Coming Soon</h3>
+            <p>
+                Detailed chapter notes for
+                ${chapter || "this chapter"} are being prepared.
+            </p>
+        </div>
+    `}
+</div>
 </section>
 
     <section class="learning-card">
@@ -448,6 +975,25 @@ contentBox.innerHTML = `
         <button>Start Practice</button>
     </section>
 `;
+        function toggleFullNotes() {
+    const fullNotes = document.getElementById("fullNotes");
+    const button = document.querySelector(".read-notes-btn");
+
+    if (fullNotes.classList.contains("show")) {
+        fullNotes.classList.remove("show");
+        button.innerHTML = "📖 Read Full Chapter Notes";
+    } else {
+        fullNotes.classList.add("show");
+        button.innerHTML = "✖ Close Full Chapter Notes";
+
+        setTimeout(() => {
+            fullNotes.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }, 150);
+    }
+        }
     </script>
 
 </body>
