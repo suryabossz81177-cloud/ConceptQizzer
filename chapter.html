@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ConceptQizzer | Chapter Learning</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f7fb;
+            color: #172033;
+        }
+      .site-header {
+    background: #4f46e5;
+    color: white;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.site-header strong {
+    font-size: 22px;
+}
+
+.site-header span {
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: rgba(255,255,255,0.15);
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+    </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div>
+        <strong>ConceptQizzer</strong>
+        <span> • Learn • Practice • Master</span>
+    </div>
+
+    <a href="index.html">← Back to Home</a>
+  </header>
+
+    <main class="chapter-container">
+
+    <div class="breadcrumb" id="breadcrumb">
+        Class • Subject • Chapter
+    </div>
+
+    <section class="chapter-hero">
+        <div class="class-badge" id="classBadge">Class</div>
+
+        <h1 id="chapterTitle">Chapter Name</h1>
+
+        <p id="subjectName">
+            Subject
+        </p>
+    </section>
+
+    <section class="learning-card">
+        <h2>📖 About This Chapter</h2>
+
+        <p>
+            Welcome to your chapter learning space. Here you will
+            understand important concepts, revise key points and
+            test your knowledge.
+        </p>
+    </section>
+
+    </main>
+  <script>
+const params = new URLSearchParams(window.location.search);
+
+const classNumber = params.get("class");
+const subject = params.get("subject");
+const chapter = params.get("chapter");
+
+document.getElementById("classBadge").textContent =
+    classNumber ? "Class " + classNumber : "Class";
+
+document.getElementById("subjectName").textContent =
+    subject || "Subject";
+
+document.getElementById("chapterTitle").textContent =
+    chapter || "Chapter Name";
+
+document.getElementById("breadcrumb").textContent =
+    "Class " + (classNumber || "") +
+    " • " + (subject || "Subject") +
+    " • " + (chapter || "Chapter");
+  </script>
+
+</body>
+</html>
