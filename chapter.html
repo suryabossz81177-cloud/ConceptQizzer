@@ -1769,30 +1769,8 @@ contentBox.innerHTML = `
 function selectDifficulty(level) {
     const settings = quizSettings[level];
 
-    const attemptStatus = localStorage.getItem(attemptKey);
-
-if (attemptStatus === "completed") {
-    alert(
-        `🏆 You have already completed the ${settings.name} quiz for this chapter.`
-    );
-    return;
-}
-
-if (attemptStatus === "started") {
-    alert(
-        `⚠️ Your ${settings.name} attempt has already been used.\n\n` +
-        `A quiz cannot be restarted after it has begun.`
-    );
-    return;
-}
-
     const attemptKey =
         `conceptqizzer_${classNumber}_${subject}_${chapter}_${level}`;
-
-    if (localStorage.getItem(attemptKey) === "completed") {
-        alert(`You have already completed the ${settings.name} quiz for this chapter.`);
-        return;
-    }
 
     const confirmStart = confirm(
         `${settings.icon} ${settings.name} Quiz\n\n` +
@@ -1806,11 +1784,8 @@ if (attemptStatus === "started") {
     if (confirmStart) {
     const quizStarted = startQuiz(level);
 
-    if (quizStarted) {
-        localStorage.setItem(attemptKey, "started");
     }
-    }
-}let currentQuizLevel = "";
+        let currentQuizLevel = "";
 let quizTimeLeft = 0;
 let quizTimerInterval = null;
 
@@ -1844,7 +1819,6 @@ function startQuiz(level) {
     document.getElementById("quizProgressBar").style.width = "4%";
 
     updateTimerDisplay();
-
     if (quizTimerInterval) {
         clearInterval(quizTimerInterval);
     }
@@ -1863,7 +1837,6 @@ function startQuiz(level) {
             submitQuiz(true);
         }
     }, 1000);
-
     setTimeout(() => {
         quizScreen.scrollIntoView({
             behavior: "smooth",
@@ -2240,8 +2213,8 @@ function prepareQuiz(level) {
 
     let questionPool = [];
 
-    if (chapter === "Judiciary" && level === "easy") {
-        questionPool = judiciaryQuizBank.easy;
+    if (chapter === "Judiciary" && judiciaryQuizBank[level]) {
+        questionPool = judiciaryQuizBank[level];
     }
 
     if (questionPool.length < 25) {
@@ -2261,36 +2234,6 @@ function prepareQuiz(level) {
 
     return true;
 }
-        function startQuizTimer() {
-            updateTimerDisplay();
-
-    if (quizTimerInterval) {
-        clearInterval(quizTimerInterval);
-    }
-
-    quizTimerInterval = setInterval(() => {
-        quizTimeLeft--;
-
-        updateTimerDisplay();
-
-        if (quizTimeLeft <= 0) {
-            clearInterval(quizTimerInterval);
-            quizTimerInterval = null;
-
-            alert("⏰ Time is over! Your quiz will now be submitted.");
-            submitQuiz(true);
-        }
-    }, 1000);
-        }
-        function updateTimerDisplay() {
-    const minutes = Math.floor(quizTimeLeft / 60);
-    const seconds = quizTimeLeft % 60;
-
-    document.getElementById("timerDisplay").textContent =
-        String(minutes).padStart(2, "0") +
-        ":" +
-        String(seconds).padStart(2, "0");
-        }
 
 function displayQuestion() {
 
