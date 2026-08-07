@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible"
+content="IE=edge">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+ConceptQizzer • Learn Beyond Books
+</title>
+
+<meta name="description"
+content="ConceptQizzer is a premium interactive learning platform for Classes 6–10.">
+
+<meta name="theme-color"
+content="#4F46E5">
+
+<meta name="author"
+content="ConceptQizzer">
+
+<meta name="keywords"
+content="NCERT, Quiz, Notes, Class 6, Class 7, Class 8, Class 9, Class 10">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="preloader">
+
+<div class="loader-book">
+
+<div class="book">
+
+<div class="page"></div>
+
+<div class="page"></div>
+
+<div class="page"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<header class="header">
+
+<div class="container">
+
+<nav class="navbar">
+
+<a href="#"
+class="logo">
+
+<span class="material-icons-round">
+
+school
+
+</span>
+
+<h2>
+
+ConceptQizzer
+
+</h2>
+
+</a>
+
+<button
+id="menuButton"
+class="menu-button">
+
+<span class="material-icons-round">
+
+menu
+
+</span>
+
+</button>
+
+<ul
+id="navigation"
+class="navigation">
+
+<li>
+
+<a href="#home">
+
+Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#classes">
+
+Classes
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#about">
+
+About
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#contact">
+
+Contact
+
+</a>
+
+</li>
+
+</ul>
+
+<div class="navigation-actions">
+
+<button
+id="themeToggle"
+class="theme-toggle">
+
+<span class="material-icons-round">
+
+dark_mode
+
+</span>
+
+</button>
+
+<button
+class="login-button">
+
+Login
+
+</button>
+
+</div>
+
+</nav>
+
+</div>
+
+</header>
+
+<main>
+
+<section
+id="home"
+class="hero">
+
+<div class="hero-background">
+
+<div class="gradient-circle circle-one"></div>
+
+<div class="gradient-circle circle-two"></div>
+
+<div class="floating-book"></div>
+
+<div class="floating-atom"></div>
+
+<div class="floating-earth"></div>
+
+<div class="floating-equation">
+
+π
+
+</div>
+
+<div class="floating-equation">
+
+√
+
+</div>
+
+<div class="floating-equation">
+
+Σ
+
+</div>
+
+<div class="floating-star"></div>
+
+<div class="floating-star"></div>
+
+</div>
+
+<div class="container hero-layout">
+
+<div class="hero-content">
+
+<div class="hero-badge">
+
+<span
+class="material-icons-round">
+
+auto_awesome
+
+</span>
+
+India's Smart Learning Platform
+
+</div>
+
+<h1>
+
+Learn.
+
+Practice.
+
+Master.
+
+Repeat.
+
+</h1>
+
+<p>
+
+One beautiful platform for every NCERT chapter,
+interactive learning,
+notes,
+quizzes,
+chapter tests,
+flashcards,
+bookmarks
+and smart progress tracking.
+
+</p>
+
+<div class="hero-search">
+
+<span
+class="material-icons-round">
+
+search
+
+</span>
+
+<input
+type="text"
+id="globalSearch"
+placeholder="Search Class, Subject or Chapter...">
+
+<button>
+
+Search
+
+</button>
+
+</div>
+
+<div class="hero-buttons">
+
+<button
+id="startLearning"
+class="primary-button">
+
+Start Learning
+
+</button>
+
+<button
+class="secondary-button">
+
+Explore Platform
+
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-illustration">
+
+<div class="main-book-card">
+
+<span
+class="material-icons-round">
+
+menu_book
+
+</span>
+
+<h3>
+
+Choose Class
+
+</h3>
+
+<p>
+
+Select your class to begin.
+
+</p>
+
+</div>
+
+<div class="floating-card science-card">
+
+🧪 Science
+
+</div>
+
+<div class="floating-card maths-card">
+
+🧮 Maths
+
+</div>
+
+<div class="floating-card history-card">
+
+🏛 History
+
+</div>
+
+<div class="floating-card geography-card">
+
+🌍 Geography
+
+</div>
+
+<div class="floating-card civics-card">
+
+⚖ Civics
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="learningFlow"
+class="learning-flow">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Start Your Learning Journey
+
+</h2>
+
+<p>
+
+Choose your Class → Subject → Chapter
+
+</p>
+
+  </div>
+
+  <div class="learning-steps">
+
+<div class="step-card active"
+id="classStep">
+
+<div class="step-header">
+
+<div class="step-number">
+
+01
+
+</div>
+
+<div>
+
+<h3>
+
+Choose Class
+
+</h3>
+
+<p>
+
+Select your class.
+
+</p>
+
+</div>
+
+</div>
+
+<div
+id="classGrid"
+class="class-grid">
+
+<button
+class="class-card"
+data-class="6">
+
+<span class="material-icons-round">
+
+looks_6
+
+</span>
+
+<h4>
+
+Class 6
+
+</h4>
+
+</button>
+
+<button
+class="class-card"
+data-class="7">
+
+<span class="material-icons-round">
+
+filter_7
+
+</span>
+
+<h4>
+
+Class 7
+
+</h4>
+
+</button>
+
+<button
+class="class-card"
+data-class="8">
+
+<span class="material-icons-round">
+
+filter_8
+
+</span>
+
+<h4>
+
+Class 8
+
+</h4>
+
+</button>
+
+<button
+class="class-card"
+data-class="9">
+
+<span class="material-icons-round">
+
+filter_9_plus
+
+</span>
+
+<h4>
+
+Class 9
+
+</h4>
+
+</button>
+
+<button
+class="class-card"
+data-class="10">
+
+<span class="material-icons-round">
+
+school
+
+</span>
+
+<h4>
+
+Class 10
+
+</h4>
+
+</button>
+
+</div>
+
+</div>
+
+<div class="flow-arrow">
+
+<span class="material-icons-round">
+
+arrow_downward
+
+</span>
+
+</div>
+
+<div
+class="step-card"
+id="subjectStep">
+
+<div class="step-header">
+
+<div class="step-number">
+
+02
+
+</div>
+
+<div>
+
+<h3>
+
+Choose Subject
+
+</h3>
+
+<p>
+
+Appears after selecting a class.
+
+</p>
+
+</div>
+
+</div>
+
+<div
+id="subjectGrid"
+class="subject-grid">
+
+<div class="empty-state">
+
+<span
+class="material-icons-round">
+
+category
+
+</span>
+
+<p>
+
+Select a class first.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="flow-arrow">
+
+<span class="material-icons-round">
+
+arrow_downward
+
+</span>
+
+</div>
+
+<div
+class="step-card"
+id="chapterStep">
+
+<div class="step-header">
+
+<div class="step-number">
+
+03
+
+</div>
+
+<div>
+
+<h3>
+
+Choose Chapter
+
+</h3>
+
+<p>
+
+Chapters will load automatically.
+
+</p>
+
+</div>
+
+</div>
+
+<div
+id="chapterGrid"
+class="chapter-grid">
+
+<div class="empty-state">
+
+<span
+class="material-icons-round">
+
+menu_book
+
+</span>
+
+<p>
+
+Select a subject.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="chapterPreview"
+class="chapter-preview">
+
+<div class="container">
+
+<div class="preview-card">
+
+<div class="preview-left">
+
+<h2>
+
+Ready to Learn?
+
+</h2>
+
+<p>
+
+After selecting a chapter, ConceptQizzer will open a beautiful chapter dashboard containing notes, quizzes, flashcards, chapter tests, bookmarks, PDF download, performance analysis and much more.
+
+</p>
+
+<ul class="preview-list">
+
+<li>
+
+<span class="material-icons-round">
+
+check_circle
+
+</span>
+
+Detailed Notes
+
+</li>
+
+<li>
+
+<span class="material-icons-round">
+
+check_circle
+
+</span>
+
+125 Quiz Questions
+
+</li>
+
+<li>
+
+<span class="material-icons-round">
+
+check_circle
+
+</span>
+
+Chapter Test
+
+</li>
+
+<li>
+
+<span class="material-icons-round">
+
+check_circle
+
+</span>
+
+Instant Result
+
+</li>
+
+<li>
+
+<span class="material-icons-round">
+
+check_circle
+
+</span>
+
+Bookmark
+
+</li>
+
+<li>
+
+<span class="material-icons-round">
+
+check_circle
+
+</span>
+
+Continue Learning
+
+</li>
+
+</ul>
+
+</div>
+
+<div
+id="chapterPreviewCard"
+class="preview-right">
+
+<div class="preview-placeholder">
+
+<span class="material-icons-round">
+
+school
+
+</span>
+
+<h3>
+
+No Chapter Selected
+
+</h3>
+
+<p>
+
+Choose a class, subject and chapter to continue.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+  <section
+id="features"
+class="features-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>
+
+WHY CONCEPTQUIZZER
+
+</span>
+
+<h2>
+
+Designed For Modern Learning
+
+</h2>
+
+<p>
+
+Everything is built to help students understand concepts instead of memorising them.
+
+</p>
+
+</div>
+
+<div class="features-grid">
+
+<div class="feature-card">
+
+<div class="feature-icon maths">
+
+🧮
+
+</div>
+
+<h3>
+
+Interactive Learning
+
+</h3>
+
+<p>
+
+Learn chapter-by-chapter with structured explanations.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon science">
+
+🧪
+
+</div>
+
+<h3>
+
+Smart Quizzes
+
+</h3>
+
+<p>
+
+Difficulty increases as your performance improves.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon history">
+
+🏛
+
+</div>
+
+<h3>
+
+Revision Tools
+
+</h3>
+
+<p>
+
+Flashcards, summaries and quick revision notes.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon geography">
+
+🌍
+
+</div>
+
+<h3>
+
+Visual Learning
+
+</h3>
+
+<p>
+
+Mind maps, diagrams and flowcharts for every chapter.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon civics">
+
+⚖️
+
+</div>
+
+<h3>
+
+Performance Analysis
+
+</h3>
+
+<p>
+
+Track your strengths and improve weak topics.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon ai">
+
+🤖
+
+</div>
+
+<h3>
+
+AI Powered Future
+
+</h3>
+
+<p>
+
+Ready for AI explanations and personalised recommendations.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="subjectsShowcase"
+class="subjects-showcase">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>
+
+EXPLORE
+
+</span>
+
+<h2>
+
+Subjects Come Alive
+
+</h2>
+
+<p>
+
+Each subject has its own unique design, colours and animations.
+
+</p>
+
+</div>
+
+<div class="subject-showcase-grid">
+
+<div class="showcase-card maths-theme">
+
+<div class="showcase-icon">
+
+🧮
+
+</div>
+
+<h3>
+
+Mathematics
+
+</h3>
+
+<p>
+
+Numbers, Geometry, Algebra and Practice.
+
+</p>
+
+</div>
+
+<div class="showcase-card science-theme">
+
+<div class="showcase-icon">
+
+🧪
+
+</div>
+
+<h3>
+
+Science
+
+</h3>
+
+<p>
+
+Physics, Chemistry and Biology together.
+
+</p>
+
+</div>
+
+<div class="showcase-card history-theme">
+
+<div class="showcase-icon">
+
+🏛
+
+</div>
+
+<h3>
+
+History
+
+</h3>
+
+<p>
+
+Explore the journey of civilizations.
+
+</p>
+
+</div>
+
+<div class="showcase-card geography-theme">
+
+<div class="showcase-icon">
+
+🌍
+
+</div>
+
+<h3>
+
+Geography
+
+</h3>
+
+<p>
+
+Maps, Earth and Natural Resources.
+
+</p>
+
+</div>
+
+<div class="showcase-card civics-theme">
+
+<div class="showcase-icon">
+
+⚖️
+
+</div>
+
+<h3>
+
+Civics
+
+</h3>
+
+<p>
+
+Rights, Constitution and Democracy.
+
+</p>
+
+</div>
+
+<div class="showcase-card computer-theme">
+
+<div class="showcase-icon">
+
+💻
+
+</div>
+
+<h3>
+
+IT & AI
+
+</h3>
+
+<p>
+
+Technology, Coding and Artificial Intelligence.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="appPreview"
+class="app-preview">
+
+<div class="container">
+
+<div class="preview-window">
+
+<div class="window-top">
+
+<div class="dots">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+
+</div>
+
+<div class="window-body">
+
+<div
+id="dynamicContent">
+
+<h2>
+
+Your Learning Dashboard Will Appear Here
+
+</h2>
+
+<p>
+
+Once a class, subject and chapter are selected, JavaScript will dynamically load the complete chapter experience.
+
+</p>
+
+<button
+id="openChapter"
+class="primary-button">
+
+Open Chapter
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+  <section
+id="experience"
+class="experience-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>
+
+LEARNING EXPERIENCE
+
+</span>
+
+<h2>
+
+Everything You Need In One Place
+
+</h2>
+
+<p>
+
+Every chapter opens a complete learning dashboard with powerful study tools.
+
+</p>
+
+</div>
+
+<div class="experience-grid">
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+description
+
+</span>
+
+<h3>
+
+Detailed Notes
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+account_tree
+
+</span>
+
+<h3>
+
+Mind Maps
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+schema
+
+</span>
+
+<h3>
+
+Flowcharts
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+image
+
+</span>
+
+<h3>
+
+Diagrams
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+quiz
+
+</span>
+
+<h3>
+
+125 Quiz Questions
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+fact_check
+
+</span>
+
+<h3>
+
+Chapter Test
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+download
+
+</span>
+
+<h3>
+
+Download PDF
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+bookmark
+
+</span>
+
+<h3>
+
+Bookmark
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+insights
+
+</span>
+
+<h3>
+
+Performance Analysis
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+history
+
+</span>
+
+<h3>
+
+Continue Learning
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+emoji_events
+
+</span>
+
+<h3>
+
+Achievements
+
+</h3>
+
+</div>
+
+<div class="experience-card">
+
+<span class="material-icons-round">
+
+auto_awesome
+
+</span>
+
+<h3>
+
+Smart Revision
+
+</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="roadmap"
+class="roadmap-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>
+
+LEARNING PATH
+
+</span>
+
+<h2>
+
+How ConceptQizzer Works
+
+</h2>
+
+</div>
+
+<div class="roadmap">
+
+<div class="roadmap-item">
+
+<div class="roadmap-icon">
+
+1
+
+</div>
+
+<div>
+
+<h3>
+
+Choose Class
+
+</h3>
+
+<p>
+
+Select Class 6–10.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="roadmap-line"></div>
+
+<div class="roadmap-item">
+
+<div class="roadmap-icon">
+
+2
+
+</div>
+
+<div>
+
+<h3>
+
+Choose Subject
+
+</h3>
+
+<p>
+
+Only subjects of the selected class will appear.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="roadmap-line"></div>
+
+<div class="roadmap-item">
+
+<div class="roadmap-icon">
+
+3
+
+</div>
+
+<div>
+
+<h3>
+
+Choose Chapter
+
+</h3>
+
+<p>
+
+All chapters will load dynamically.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="roadmap-line"></div>
+
+<div class="roadmap-item">
+
+<div class="roadmap-icon">
+
+4
+
+</div>
+
+<div>
+
+<h3>
+
+Start Learning
+
+</h3>
+
+<p>
+
+Notes, quizzes, tests and revision tools open instantly.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="newsletter"
+class="newsletter-section">
+
+<div class="container">
+
+<div class="newsletter-card">
+
+<h2>
+
+Start Your Learning Journey Today
+
+</h2>
+
+<p>
+
+Select your class and begin exploring NCERT chapters with an immersive learning experience.
+
+</p>
+
+<div class="newsletter-buttons">
+
+<button
+id="beginLearning"
+class="primary-button">
+
+Choose Class
+
+</button>
+
+<button
+id="explorePlatform"
+class="secondary-button">
+
+Explore Features
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+  <footer
+id="contact"
+class="footer">
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div class="footer-brand">
+
+<a
+href="#"
+class="footer-logo">
+
+<span class="material-icons-round">
+
+school
+
+</span>
+
+<h2>
+
+ConceptQizzer
+
+</h2>
+
+</a>
+
+<p>
+
+Learn Beyond Books.
+
+A premium learning experience designed for Classes 6–10 with interactive notes, quizzes, chapter dashboards and smart learning tools.
+
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<h3>
+
+Platform
+
+</h3>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#classes">Classes</a></li>
+
+<li><a href="#features">Features</a></li>
+
+<li><a href="#experience">Learning Tools</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-links">
+
+<h3>
+
+Learning
+
+</h3>
+
+<ul>
+
+<li><a href="#">Notes</a></li>
+
+<li><a href="#">Quiz</a></li>
+
+<li><a href="#">Chapter Test</a></li>
+
+<li><a href="#">Flashcards</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-links">
+
+<h3>
+
+Support
+
+</h3>
+
+<ul>
+
+<li><a href="#">Help Center</a></li>
+
+<li><a href="#">Privacy Policy</a></li>
+
+<li><a href="#">Terms & Conditions</a></li>
+
+<li><a href="#">Contact Us</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 ConceptQizzer. All Rights Reserved.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- Dynamic Overlay -->
+
+<div
+id="overlay"
+class="overlay hidden">
+
+</div>
+
+<!-- Dynamic Subject Panel -->
+
+<section
+id="dynamicSubjects"
+class="dynamic-panel hidden">
+
+</section>
+
+<!-- Dynamic Chapter Panel -->
+
+<section
+id="dynamicChapters"
+class="dynamic-panel hidden">
+
+</section>
+
+<!-- Dynamic Chapter Dashboard -->
+
+<section
+id="chapterDashboard"
+class="dashboard hidden">
+
+</section>
+
+</main>
+
+<script src="js/data.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
