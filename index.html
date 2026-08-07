@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+ConceptQizzer
+
+</title>
+
+<meta name="theme-color"
+content="#5B3DF5">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="app">
+
+<header class="topbar">
+
+<div class="logo">
+
+<div class="logoBox">
+
+CQ
+
+</div>
+
+<div>
+
+<h2>
+
+ConceptQizzer
+
+</h2>
+
+<p>
+
+Learn Beyond Books
+
+</p>
+
+</div>
+
+</div>
+
+<button
+id="themeButton">
+
+<span
+class="material-icons-round">
+
+dark_mode
+
+</span>
+
+</button>
+
+</header>
+
+<section
+class="hero">
+
+<div class="heroGlow">
+
+</div>
+
+<div class="heroContent">
+
+<div class="badge">
+
+Learn smarter, chapter by chapter
+
+</div>
+
+<h1>
+
+Master Concepts With
+
+<span>
+
+ConceptQizzer
+
+</span>
+
+</h1>
+
+<p>
+
+Choose your class and subject to explore
+beautiful notes,
+practice questions,
+quizzes
+and interactive learning.
+
+</p>
+
+<div class="searchBar">
+
+<span
+class="material-icons-round">
+
+search
+
+</span>
+
+<input
+type="search"
+placeholder="Search Chapter">
+
+</div>
+
+</div>
+
+<div class="heroIllustration">
+
+<div class="floatingBook">
+
+📚
+
+</div>
+
+<div class="floatingAtom">
+
+⚛️
+
+</div>
+
+<div class="floatingEarth">
+
+🌍
+
+</div>
+
+<div class="floatingScale">
+
+⚖️
+
+</div>
+
+<div class="floatingRobot">
+
+🤖
+
+</div>
+
+</div>
+
+</section>
+
+<section
+id="classScreen">
+
+<div class="screenHeader">
+
+<h2>
+
+Choose Your Class
+
+</h2>
+
+<p>
+
+Select your class to continue.
+
+</p>
+
+</div>
+
+<div
+id="classGrid"
+class="classGrid">
+
+<button
+class="classCard"
+data-class="6">
+
+<div>
+
+6
+
+</div>
+
+<span>
+
+Class 6
+
+</span>
+
+</button>
+
+<button
+class="classCard"
+data-class="7">
+
+<div>
+
+7
+
+</div>
+
+<span>
+
+Class 7
+
+</span>
+
+</button>
+
+<button
+class="classCard"
+data-class="8">
+
+<div>
+
+8
+
+</div>
+
+<span>
+
+Class 8
+
+</span>
+
+</button>
+
+<button
+class="classCard"
+data-class="9">
+
+<div>
+
+9
+
+</div>
+
+<span>
+
+Class 9
+
+</span>
+
+</button>
+
+<button
+class="classCard"
+data-class="10">
+
+<div>
+
+10
+
+</div>
+
+<span>
+
+Class 10
+
+</span>
+
+</button>
+
+</div>
+
+</section>
+
+  <section
+id="subjectScreen"
+class="screen hidden">
+
+<div class="screenHeader">
+
+<button
+id="backToClass"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back
+
+</button>
+
+<h2
+id="selectedClassTitle">
+
+Choose Subject
+
+</h2>
+
+<p>
+
+Select a subject to see all chapters.
+
+</p>
+
+</div>
+
+<div
+id="subjectGrid"
+class="subjectGrid">
+
+<!-- JavaScript will generate subject cards here -->
+
+</div>
+
+</section>
+
+<section
+id="chapterScreen"
+class="screen hidden">
+
+<div class="screenHeader">
+
+<button
+id="backToSubject"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back
+
+</button>
+
+<h2
+id="selectedSubjectTitle">
+
+Choose Chapter
+
+</h2>
+
+<p>
+
+Select a chapter to begin learning.
+
+</p>
+
+</div>
+
+<div
+id="chapterGrid"
+class="chapterGrid">
+
+<!-- JavaScript will generate chapter cards here -->
+
+</div>
+
+</section>
+
+<section
+id="dashboardScreen"
+class="screen hidden">
+
+<div class="screenHeader">
+
+<button
+id="backToChapters"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back
+
+</button>
+
+<h2
+id="chapterTitle">
+
+Chapter
+
+</h2>
+
+<p
+id="chapterSubtitle">
+
+Ready to learn
+
+</p>
+
+</div>
+
+<div
+class="dashboardGrid">
+
+<button
+class="dashboardCard"
+id="notesButton">
+
+<div class="dashboardIcon">
+
+📖
+
+</div>
+
+<h3>
+
+Notes
+
+</h3>
+
+<p>
+
+Complete chapter notes
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="quizButton">
+
+<div class="dashboardIcon">
+
+🧠
+
+</div>
+
+<h3>
+
+Quiz
+
+</h3>
+
+<p>
+
+125 Questions
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="practiceButton">
+
+<div class="dashboardIcon">
+
+✍️
+
+</div>
+
+<h3>
+
+Practice
+
+</h3>
+
+<p>
+
+Exercises
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="testButton">
+
+<div class="dashboardIcon">
+
+🏆
+
+</div>
+
+<h3>
+
+Chapter Test
+
+</h3>
+
+<p>
+
+100 Marks
+
+</p>
+
+</button>
+
+  <button
+class="dashboardCard"
+id="flashcardButton">
+
+<div class="dashboardIcon">
+
+🃏
+
+</div>
+
+<h3>
+
+Flashcards
+
+</h3>
+
+<p>
+
+Quick Revision
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="mindMapButton">
+
+<div class="dashboardIcon">
+
+🧩
+
+</div>
+
+<h3>
+
+Mind Maps
+
+</h3>
+
+<p>
+
+Visual Learning
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="flowchartButton">
+
+<div class="dashboardIcon">
+
+🗂️
+
+</div>
+
+<h3>
+
+Flowcharts
+
+</h3>
+
+<p>
+
+Easy Understanding
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="diagramButton">
+
+<div class="dashboardIcon">
+
+📊
+
+</div>
+
+<h3>
+
+Diagrams
+
+</h3>
+
+<p>
+
+Visual Concepts
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="pdfButton">
+
+<div class="dashboardIcon">
+
+📄
+
+</div>
+
+<h3>
+
+PDF Notes
+
+</h3>
+
+<p>
+
+Download Offline
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="bookmarkButton">
+
+<div class="dashboardIcon">
+
+🔖
+
+</div>
+
+<h3>
+
+Bookmark
+
+</h3>
+
+<p>
+
+Save Progress
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="analysisButton">
+
+<div class="dashboardIcon">
+
+📈
+
+</div>
+
+<h3>
+
+Performance
+
+</h3>
+
+<p>
+
+Track Improvement
+
+</p>
+
+</button>
+
+<button
+class="dashboardCard"
+id="continueButton">
+
+<div class="dashboardIcon">
+
+🚀
+
+</div>
+
+<h3>
+
+Continue
+
+</h3>
+
+<p>
+
+Resume Learning
+
+</p>
+
+</button>
+
+</div>
+
+</section>
+
+<div
+id="bottomNavigation"
+class="bottomNavigation">
+
+<button
+class="navItem active">
+
+<span
+class="material-icons-round">
+
+home
+
+</span>
+
+<span>
+
+Home
+
+</span>
+
+</button>
+
+<button
+class="navItem">
+
+<span
+class="material-icons-round">
+
+menu_book
+
+</span>
+
+<span>
+
+Library
+
+</span>
+
+</button>
+
+<button
+class="navItem">
+
+<span
+class="material-icons-round">
+
+bookmark
+
+</span>
+
+<span>
+
+Saved
+
+</span>
+
+</button>
+
+<button
+class="navItem">
+
+<span
+class="material-icons-round">
+
+person
+
+</span>
+
+<span>
+
+Profile
+
+</span>
+
+</button>
+
+</div>
+
+  <!-- ========================= -->
+<!-- Hidden Notification Toast -->
+<!-- ========================= -->
+
+<div
+id="toast"
+class="toast hidden">
+
+<span
+id="toastMessage">
+
+Welcome to ConceptQizzer
+
+</span>
+
+</div>
+
+<!-- ========================= -->
+<!-- Loading Overlay -->
+<!-- ========================= -->
+
+<div
+id="loadingScreen"
+class="loadingScreen hidden">
+
+<div class="loadingBook">
+
+<div class="bookCover"></div>
+
+<div class="bookPage"></div>
+
+<div class="bookPage"></div>
+
+<div class="bookPage"></div>
+
+</div>
+
+<p>
+
+Loading...
+
+</p>
+
+</div>
+
+<!-- ========================= -->
+<!-- Dynamic Modal -->
+<!-- ========================= -->
+
+<div
+id="modal"
+class="modal hidden">
+
+<div class="modalContent">
+
+<button
+id="closeModal"
+class="closeButton">
+
+<span
+class="material-icons-round">
+
+close
+
+</span>
+
+</button>
+
+<div
+id="modalBody">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Floating Action Button -->
+<!-- ========================= -->
+
+<button
+id="scrollTopButton"
+class="floatingButton">
+
+<span
+class="material-icons-round">
+
+keyboard_arrow_up
+
+</span>
+
+</button>
+
+</div>
+
+<script src="js/data.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
