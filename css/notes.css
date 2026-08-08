@@ -564,3 +564,48 @@ background:#334155;
 color:#ffffff;
 
 }
+
+.definitionBox,
+.exampleBox,
+.applicationBox{
+    margin:20px 0;
+    padding:18px;
+    border-radius:16px;
+    background:#f8f9ff;
+    border-left:6px solid #6C63FF;
+}
+
+.definitionBox h4,
+.exampleBox h4,
+.applicationBox h4{
+    margin:0 0 10px;
+    color:#4f46e5;
+    font-size:20px;
+    font-weight:700;
+}
+
+.definitionBox p,
+.exampleBox p,
+.applicationBox p{
+    margin:0;
+    line-height:1.8;
+    color:#333;
+}
+
+.noteCard p{
+    line-height:1.9;
+    margin:14px 0;
+}
+
+body.dark .definitionBox,
+body.dark .exampleBox,
+body.dark .applicationBox{
+    background:#1f2937;
+    border-left-color:#7c5cff;
+}
+
+body.dark .definitionBox p,
+body.dark .exampleBox p,
+body.dark .applicationBox p{
+    color:#ffffff;
+}
