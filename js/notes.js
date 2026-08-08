@@ -95,36 +95,70 @@ function renderSections(sections){
 
 sections.forEach(section=>{
 
-const card=
-
-document.createElement("div");
+const card=document.createElement("div");
 
 card.className="noteCard";
 
-card.innerHTML=
+let html=`<h3>${section.title}</h3>`;
 
-`
+if(section.blocks){
 
-<h3>
+section.blocks.forEach(block=>{
 
-${section.title}
+if(block.type==="paragraph"){
 
-</h3>
+html+=`<p>${block.text}</p>`;
 
-<p>
+}
 
-${section.content}
+else if(block.type==="definition"){
 
-</p>
-
+html+=`
+<div class="definitionBox">
+<h4>${block.title}</h4>
+<p>${block.text}</p>
+</div>
 `;
+
+}
+
+else if(block.type==="example"){
+
+html+=`
+<div class="exampleBox">
+<h4>${block.title}</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+
+else if(block.type==="application"){
+
+html+=`
+<div class="applicationBox">
+<h4>${block.title}</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+
+});
+
+}else{
+
+html+=`<p>${section.content}</p>`;
+
+}
+
+card.innerHTML=html;
 
 notesContainer.appendChild(card);
 
 });
 
 }
-
 /*==================================================
   IMPORTANT POINTS
 ==================================================*/
