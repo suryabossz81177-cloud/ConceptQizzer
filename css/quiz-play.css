@@ -88,3 +88,17 @@ transition:.3s;
 #nextBtn:hover{
 transform:scale(1.02);
 }
+
+#timer{
+  min-width:100px;
+  padding:12px 20px;
+  border-radius:16px;
+  background:#22c55e;
+  color:#ffffff;
+  font-size:28px;
+  font-weight:800;
+  text-align:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.18);
+  transition:all .3s ease;
+  font-variant-numeric:tabular-nums;
+}
