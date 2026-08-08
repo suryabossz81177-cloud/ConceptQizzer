@@ -811,3 +811,36 @@ font-size:15px;
 #progressText{
     color:#ffffff;
 }
+
+.themeBtn{
+width:48px;
+height:48px;
+border:none;
+border-radius:50%;
+background:#ffffff;
+font-size:22px;
+cursor:pointer;
+box-shadow:0 8px 25px rgba(0,0,0,.12);
+margin-left:12px;
+}
+
+.dark{
+background:#111827;
+color:white;
+}
+
+.dark .noteCard{
+background:#1f2937;
+color:white;
+}
+
+.dark .heroCard{
+background:linear-gradient(135deg,#1f2937,#312e81);
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p{
+color:white;
+}
