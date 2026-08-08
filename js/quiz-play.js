@@ -122,3 +122,5 @@ if(score >= passMarks){
     }
 
 };
+
+loadQuestion();
