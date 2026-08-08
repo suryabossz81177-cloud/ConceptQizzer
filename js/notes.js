@@ -215,6 +215,28 @@ card.innerHTML=html;
 
 notesContainer.appendChild(card);
 
+  const searchInput = document.getElementById("chapterSearch");
+
+if (searchInput && !searchInput.dataset.bound) {
+
+    searchInput.dataset.bound = "true";
+
+    searchInput.addEventListener("input", function () {
+
+        const query = this.value.toLowerCase();
+
+        document.querySelectorAll(".noteCard").forEach(card => {
+
+            const text = card.textContent.toLowerCase();
+
+            card.style.display = text.includes(query) ? "" : "none";
+
+        });
+
+    });
+
+}
+
 });
 
 }
