@@ -89,6 +89,29 @@ chapter.keyTerms
 
   updateProgress(chapter);
 
+  const lastRead = localStorage.getItem("cq-last-read-" + chapterKey);
+
+if (lastRead !== null) {
+  const card = document.querySelector(
+    `.noteCard[data-index="${lastRead}"]`
+  );
+
+  if (card) {
+    setTimeout(() => {
+      card.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+      });
+
+      card.classList.add("lastRead");
+
+      setTimeout(() => {
+        card.classList.remove("lastRead");
+      }, 2000);
+    }, 300);
+  }
+}
+  
 }
 
 /*==================================================
@@ -97,11 +120,13 @@ chapter.keyTerms
 
 function renderSections(sections){
 
-sections.forEach(section=>{
+sections.forEach((section,index)=>{
 
 const card=document.createElement("div");
 
 card.className="noteCard";
+
+  card.dataset.index = index;
 
 let html=`<h3>${section.title}</h3>`;
 
@@ -214,6 +239,13 @@ html+=`<p>${section.content}</p>`;
 card.innerHTML=html;
 
 notesContainer.appendChild(card);
+
+  card.addEventListener("click", () => {
+    localStorage.setItem(
+        "cq-last-read-" + chapterKey,
+        index
+    );
+});
 
   const searchInput = document.getElementById("chapterSearch");
 
