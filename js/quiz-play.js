@@ -79,6 +79,59 @@ document.getElementById("options");
 const questionNumber =
 document.getElementById("questionNumber");
 
+function formatTime(seconds){
+
+    const minutes = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+
+    return `${String(minutes).padStart(2,"0")}:${String(secs).padStart(2,"0")}`;
+
+}
+
+function startTimer(){
+
+    clearInterval(timer);
+
+    timeLeft = levelInfo.time;
+
+    const timerBox = document.getElementById("timer");
+
+    timerBox.textContent = formatTime(timeLeft);
+
+    timer = setInterval(()=>{
+
+        timeLeft--;
+
+        timerBox.textContent = formatTime(timeLeft);
+
+        if(timeLeft<=60){
+
+            timerBox.style.background="#ef4444";
+
+        }else if(timeLeft<=180){
+
+            timerBox.style.background="#f59e0b";
+
+        }else{
+
+            timerBox.style.background="#22c55e";
+
+        }
+
+        if(timeLeft<=0){
+
+            clearInterval(timer);
+
+            alert("⏰ Time Over!");
+
+            nextBtn.click();
+
+        }
+
+    },1000);
+
+}
+
 function loadQuestion(){
 
   answered = false;
@@ -125,7 +178,7 @@ answered = true;
 options.appendChild(btn);
 
 });
-
+    
 }
 
 loadQuestion();
@@ -170,3 +223,5 @@ if(score >= passMarks){
 };
 
 loadQuestion();
+
+startTimer();
