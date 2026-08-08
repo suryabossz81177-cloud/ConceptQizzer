@@ -106,16 +106,38 @@ keyTerms:[
 
 sections:[
 
+  {
+title: "Introduction",
+
+blocks: [
+
 {
-
-title:"Introduction",
-
-content:
-
-"A mathematical pattern is a sequence that follows a fixed rule. Once the rule is understood, the next terms can be predicted easily."
-
+type: "paragraph",
+text: ""
 },
 
+{
+type: "definition",
+title: "Definition",
+text: ""
+},
+
+{
+type: "example",
+title: "Example",
+text: ""
+},
+
+{
+type: "application",
+title: "Real Life",
+text: ""
+}
+
+]
+
+},
+  
 {
 
 title:"Types of Patterns",
