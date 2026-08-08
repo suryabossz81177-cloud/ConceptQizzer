@@ -525,3 +525,15 @@ if (notesCard) {
     window.location.href = "notes.html";
   });
 }
+
+const quizCard = document.getElementById("quizCard");
+
+if (quizCard) {
+  quizCard.addEventListener("click", () => {
+    const key =
+      `${App.currentClass.id}-${App.currentSubject.id}-${App.currentChapter.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+
+    localStorage.setItem("cq-current-chapter", key);
+    window.location.href = "quiz.html";
+  });
+}
