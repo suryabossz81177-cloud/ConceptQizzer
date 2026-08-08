@@ -30,6 +30,12 @@ document.getElementById("keyTermsContainer");
 const summaryContainer=
 document.getElementById("chapterSummary");
 
+const progressText =
+document.getElementById("progressText");
+
+const progressFill =
+document.getElementById("progressFill");
+
 const chapterKey=
 localStorage.getItem("cq-current-chapter");
 
@@ -80,6 +86,8 @@ renderKeyTerms(
 chapter.keyTerms
 
 );
+
+  updateProgress(chapter);
 
 }
 
@@ -387,3 +395,18 @@ chapterKey
 window.location.href="notes.html";
 
 */
+
+function updateProgress(chapter){
+
+const total = chapter.sections.length;
+
+const completed = chapter.sections.filter(
+section => section.blocks && section.blocks.length > 0
+).length;
+
+const percent = Math.round((completed / total) * 100);
+
+progressText.textContent = percent + "%";
+progressFill.style.width = percent + "%";
+
+}
