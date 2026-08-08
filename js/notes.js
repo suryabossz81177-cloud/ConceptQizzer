@@ -129,7 +129,7 @@ html+=`
 
 }
 
-else if(block.type==="application"){
+  else if(block.type==="application"){
 
 html+=`
 <div class="applicationBox">
@@ -140,6 +140,61 @@ html+=`
 
 }
 
+  else if(block.type==="fact"){
+
+html+=`
+<div class="factBox">
+<h4>💡 ${block.title}</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+
+else if(block.type==="warning"){
+
+html+=`
+<div class="warningBox">
+<h4>⚠️ ${block.title}</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+
+else if(block.type==="tip"){
+
+html+=`
+<div class="tipBox">
+<h4>🧠 ${block.title}</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+
+else if(block.type==="examTip"){
+
+html+=`
+<div class="examBox">
+<h4>🎯 ${block.title}</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+
+else if(block.type==="summary"){
+
+html+=`
+<div class="infoCard">
+<h4>📌 Chapter Summary</h4>
+<p>${block.text}</p>
+</div>
+`;
+
+}
+  
 });
 
 }else{
