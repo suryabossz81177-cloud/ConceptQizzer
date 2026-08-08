@@ -51,6 +51,31 @@ title:"Real Life",
 text:"Patterns can be seen in floor tiles, rangoli designs, calendars, music rhythms, building designs, leaves, flowers and many natural objects."
 }
 
+ ,
+{
+type:"fact",
+title:"Did You Know?",
+text:"Patterns are found everywhere in nature, music, art and technology."
+},
+
+{
+type:"tip",
+title:"Quick Tip",
+text:"Always try to identify the rule before predicting the next term."
+},
+
+{
+type:"warning",
+title:"Common Mistake",
+text:"Do not guess the next term without checking the pattern carefully."
+},
+
+{
+type:"examTip",
+title:"Exam Tip",
+text:"In exams, write the rule first and then calculate the next term."
+}
+  
 ],
 },
 
