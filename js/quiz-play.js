@@ -1,51 +1,24 @@
-const questions = [
+const selectedLevel =
+localStorage.getItem("cq-selected-level") || "easy";
 
-{
+const chapterKey =
+localStorage.getItem("cq-current-chapter") || "";
 
-question:"What is a pattern?",
+let questions = [];
 
-options:[
-"Random arrangement",
-"Repeated rule",
-"Measurement",
-"Fraction"
-],
+if (
+    quizDatabase.class6 &&
+    quizDatabase.class6.mathematics &&
+    quizDatabase.class6.mathematics["patterns-in-mathematics"]
+) {
 
-answer:1
-
-},
-
-{
-
-question:"Which number comes next? 2,4,6,8,...",
-
-options:[
-"9",
-"10",
-"11",
-"12"
-],
-
-answer:1
-
-},
-
-{
-
-question:"Which is an alphabet pattern?",
-
-options:[
-"A B C D",
-"1 3 5",
-"10 20",
-"None"
-],
-
-answer:0
+    questions =
+    quizDatabase.class6
+    .mathematics
+    ["patterns-in-mathematics"]
+    [selectedLevel] || [];
 
 }
-
-];
 
 let currentQuestion = 0;
 let score = 0;
