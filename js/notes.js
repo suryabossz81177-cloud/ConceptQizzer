@@ -37,11 +37,7 @@ loadChapter(chapterKey);
 
 function loadChapter(key){
 
-let chapter=
-
-NotesData.chapters[key] ||
-
-NotesData.defaultChapter;
+let chapter = ChapterData;
 
 renderChapter(chapter);
 
