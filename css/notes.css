@@ -764,7 +764,7 @@ margin:20px 0;
 }
 .progressCard{
     margin-top:24px;
-    background:#ffffff;
+    background:rgba(255,255,255,0.15);
     border-radius:18px;
     padding:18px;
     box-shadow:0 8px 25px rgba(0,0,0,.08);
@@ -792,4 +792,17 @@ margin:20px 0;
     background:linear-gradient(90deg,#6C63FF,#8B5CF6);
     border-radius:999px;
     transition:width .5s ease;
+}
+.progressInfo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+    color:#ffffff;
+    font-weight:700;
+    font-size:15px;
+}
+
+#progressText{
+    color:#ffffff;
 }
