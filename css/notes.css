@@ -609,3 +609,110 @@ body.dark .exampleBox p,
 body.dark .applicationBox p{
     color:#ffffff;
 }
+
+/* ==========================================
+   PREMIUM LEARNING COMPONENTS
+========================================== */
+
+.infoCard{
+background:linear-gradient(135deg,#6C63FF,#8B5CF6);
+color:white;
+padding:22px;
+border-radius:18px;
+margin:20px 0;
+box-shadow:0 12px 30px rgba(108,99,255,.25);
+}
+
+.definitionBox{
+background:#EEF2FF;
+border-left:6px solid #4F46E5;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.factBox{
+background:#FFF7D6;
+border-left:6px solid #F59E0B;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.exampleBox{
+background:#ECFDF5;
+border-left:6px solid #10B981;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.warningBox{
+background:#FEF2F2;
+border-left:6px solid #EF4444;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.tipBox{
+background:#EFF6FF;
+border-left:6px solid #3B82F6;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.examBox{
+background:#F5F3FF;
+border-left:6px solid #8B5CF6;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.realLifeBox{
+background:#F0FDF4;
+border-left:6px solid #22C55E;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.memoryBox{
+background:#FFF1F2;
+border-left:6px solid #EC4899;
+padding:18px;
+margin:18px 0;
+border-radius:14px;
+}
+
+.tableCard{
+overflow-x:auto;
+margin:20px 0;
+}
+
+.tableCard table{
+width:100%;
+border-collapse:collapse;
+}
+
+.tableCard th{
+background:#4F46E5;
+color:white;
+padding:12px;
+}
+
+.tableCard td{
+padding:12px;
+border:1px solid #E5E7EB;
+}
+
+.flowCard{
+background:#FAFAFA;
+padding:18px;
+border-radius:14px;
+font-family:monospace;
+text-align:center;
+margin:20px 0;
+}
