@@ -78,3 +78,30 @@ background:#ef4444;
 .extreme{
 background:#111827;
 }
+
+.levelInfo{
+margin-top:16px;
+padding-top:12px;
+border-top:1px solid rgba(255,255,255,.25);
+font-size:15px;
+font-weight:600;
+line-height:1.8;
+opacity:.95;
+}
+
+.level h2{
+margin-bottom:10px;
+font-size:26px;
+}
+
+.level p{
+margin-bottom:8px;
+font-size:17px;
+font-weight:700;
+}
+
+.level span{
+display:block;
+font-size:14px;
+opacity:.9;
+}
