@@ -118,13 +118,19 @@ function startTimer(){
 
         }
 
-        if(timeLeft<=0){
+        if(timeLeft <= 0){
 
-            clearInterval(timer);
+    clearInterval(timer);
 
-            alert("⏰ Time Over!");
+    timeLeft = 0;
 
-            nextBtn.click();
+    timerBox.textContent = "00:00";
+
+    alert("⏰ Time Over!\n\nYour quiz will be submitted.");
+
+    currentQuestion = questions.length;
+
+    nextBtn.click();
 
         }
 
@@ -196,9 +202,10 @@ nextBtn.onclick = function(){
     }else{
 
       const passMarks =
-Math.ceil(questions.length * 0.7);
+Math.ceil(questions.length * levelInfo.pass / 100);
 
 if(score >= passMarks){
+    earnedXP = levelInfo.xp;
 
     alert(
         "🎉 Congratulations!\n\n" +
