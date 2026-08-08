@@ -207,21 +207,101 @@ Math.ceil(questions.length * levelInfo.pass / 100);
 if(score >= passMarks){
     earnedXP = levelInfo.xp;
 
-    alert(
-        "🎉 Congratulations!\n\n" +
-        "Score: " + score + "/" + questions.length +
-        "\n\nLevel Passed!"
-    );
+    const resultScreen =
+document.getElementById("resultScreen");
+
+const resultTitle =
+document.getElementById("resultTitle");
+
+const resultMessage =
+document.getElementById("resultMessage");
+
+const resultScore =
+document.getElementById("resultScore");
+
+const resultPercentage =
+document.getElementById("resultPercentage");
+
+const resultXP =
+document.getElementById("resultXP");
+
+const resultButton =
+document.getElementById("resultButton");
+
+const percentage =
+Math.round((score / questions.length) * 100);
+
+resultTitle.textContent = "🎉 Level Passed!";
+
+resultMessage.textContent =
+"Excellent work! You have unlocked the next challenge.";
+
+resultScore.textContent =
+`${score}/${questions.length}`;
+
+resultPercentage.textContent =
+`${percentage}%`;
+
+resultXP.textContent =
+`+${earnedXP} XP`;
+
+resultScreen.style.display = "flex";
+
+resultButton.textContent = "Continue →";
+
+resultButton.onclick = function(){
+    window.location.href = "quiz.html";
+};
 
     unlockNextLevel(0);
 
 }else{
 
-    alert(
-        "❌ Quiz Failed\n\n" +
-        "Score: " + score + "/" + questions.length +
-        "\n\nTry Again!"
-    );
+    const resultScreen =
+document.getElementById("resultScreen");
+
+const resultTitle =
+document.getElementById("resultTitle");
+
+const resultMessage =
+document.getElementById("resultMessage");
+
+const resultScore =
+document.getElementById("resultScore");
+
+const resultPercentage =
+document.getElementById("resultPercentage");
+
+const resultXP =
+document.getElementById("resultXP");
+
+const resultButton =
+document.getElementById("resultButton");
+
+const percentage =
+Math.round((score / questions.length) * 100);
+
+resultTitle.textContent = "❌ Quiz Failed";
+
+resultMessage.textContent =
+"Keep practicing! You can try this level again.";
+
+resultScore.textContent =
+`${score}/${questions.length}`;
+
+resultPercentage.textContent =
+`${percentage}%`;
+
+resultXP.textContent =
+"+0 XP";
+
+resultScreen.style.display = "flex";
+
+resultButton.textContent = "Try Again ↻";
+
+resultButton.onclick = function(){
+    location.reload();
+};
 
 }
 
