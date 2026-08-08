@@ -513,3 +513,15 @@ ConceptQuizzerData
 console.log(
 App
 );
+
+const notesCard = document.getElementById("notesCard");
+
+if (notesCard) {
+  notesCard.addEventListener("click", () => {
+    const key =
+      `${App.currentClass.id}-${App.currentSubject.id}-${App.currentChapter.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+
+    localStorage.setItem("cq-current-chapter", key);
+    window.location.href = "notes.html";
+  });
+}
