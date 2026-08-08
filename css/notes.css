@@ -775,7 +775,12 @@ margin:20px 0;
     justify-content:space-between;
     align-items:center;
     margin-bottom:10px;
-    font-weight:600;
+  color:#ffffff;
+font-weight:700;
+font-size:15px;
+  }
+#progressText{
+    color:#ffffff;
 }
 
 .progressBar{
