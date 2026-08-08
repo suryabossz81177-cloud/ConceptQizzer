@@ -410,3 +410,34 @@ progressText.textContent = percent + "%";
 progressFill.style.width = percent + "%";
 
 }
+
+const themeBtn=document.getElementById("themeToggle");
+
+if(themeBtn){
+
+if(localStorage.getItem("cq-theme")==="dark"){
+
+document.body.classList.add("dark");
+themeBtn.textContent="☀️";
+
+}
+
+themeBtn.addEventListener("click",()=>{
+
+document.body.classList.toggle("dark");
+
+if(document.body.classList.contains("dark")){
+
+localStorage.setItem("cq-theme","dark");
+themeBtn.textContent="☀️";
+
+}else{
+
+localStorage.setItem("cq-theme","light");
+themeBtn.textContent="🌙";
+
+}
+
+});
+
+}
