@@ -13,8 +13,15 @@ levels.forEach((level,index)=>{
 
     const btn =
     document.querySelector("." + level);
-
     if(!btn) return;
+
+    btn.addEventListener("click", () => {
+
+    localStorage.setItem("cq-selected-level", level);
+
+    window.location.href = "quiz-play.html";
+
+});
 
 if(index>unlocked){
 
