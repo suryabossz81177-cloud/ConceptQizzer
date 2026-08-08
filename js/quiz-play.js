@@ -20,9 +20,55 @@ if (
 
 }
 
+const LEVEL_CONFIG = {
+  easy: {
+    questions: 10,
+    time: 300,
+    xp: 100,
+    pass: 70,
+    next: "medium"
+  },
+
+  medium: {
+    questions: 10,
+    time: 480,
+    xp: 200,
+    pass: 75,
+    next: "hard"
+  },
+
+  hard: {
+    questions: 15,
+    time: 720,
+    xp: 350,
+    pass: 80,
+    next: "tooHard"
+  },
+
+  tooHard: {
+    questions: 20,
+    time: 1080,
+    xp: 600,
+    pass: 85,
+    next: "extreme"
+  },
+
+  extreme: {
+    questions: 25,
+    time: 1500,
+    xp: 1000,
+    pass: 90,
+    next: null
+  }
+};
+
+const levelInfo = LEVEL_CONFIG[selectedLevel];
+
 let currentQuestion = 0;
 let score = 0;
 let answered = false;
+let timer;
+let timeLeft = levelInfo.time;
 
 const question =
 document.getElementById("question");
