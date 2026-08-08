@@ -716,3 +716,49 @@ font-family:monospace;
 text-align:center;
 margin:20px 0;
 }
+
+.factBox,
+.warningBox,
+.tipBox,
+.examBox,
+.applicationBox{
+    margin:16px 0;
+    padding:18px;
+    border-radius:16px;
+    color:#222;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.factBox{
+    background:#FFF8D6;
+    border-left:6px solid #FFC107;
+}
+
+.warningBox{
+    background:#FFE6E6;
+    border-left:6px solid #F44336;
+}
+
+.tipBox{
+    background:#E8F5E9;
+    border-left:6px solid #4CAF50;
+}
+
+.examBox{
+    background:#E3F2FD;
+    border-left:6px solid #2196F3;
+}
+
+.applicationBox{
+    background:#F3E5F5;
+    border-left:6px solid #9C27B0;
+}
+
+.factBox h4,
+.warningBox h4,
+.tipBox h4,
+.examBox h4,
+.applicationBox h4{
+    margin-bottom:8px;
+    font-size:20px;
+}
