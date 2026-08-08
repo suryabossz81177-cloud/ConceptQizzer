@@ -844,3 +844,44 @@ background:linear-gradient(135deg,#1f2937,#312e81);
 .dark p{
 color:white;
 }
+
+.searchBox{
+margin:22px 0 28px;
+display:flex;
+justify-content:center;
+}
+
+.searchBox input{
+width:100%;
+padding:16px 22px;
+border:none;
+border-radius:18px;
+font-size:16px;
+font-weight:500;
+font-family:'Poppins',sans-serif;
+background:rgba(255,255,255,0.95);
+color:#222;
+box-shadow:0 12px 30px rgba(108,92,231,.18);
+outline:none;
+transition:all .35s ease;
+}
+
+.searchBox input::placeholder{
+color:#8b8b8b;
+}
+
+.searchBox input:focus{
+transform:translateY(-2px);
+box-shadow:0 18px 40px rgba(108,92,231,.35);
+border:2px solid #6c5ce7;
+}
+
+.dark .searchBox input{
+background:#1f2937;
+color:#fff;
+box-shadow:0 12px 30px rgba(0,0,0,.35);
+}
+
+.dark .searchBox input::placeholder{
+color:#b5b5b5;
+}
