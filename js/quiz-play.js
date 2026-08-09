@@ -332,6 +332,13 @@ const earnedXP = Math.round(
 resultXP.textContent =
 `+${earnedXP} XP`;
 
+        localStorage.setItem(
+    "cq-xp",
+    String(
+        Number(localStorage.getItem("cq-xp") || 0) + earnedXP
+    )
+);
+
 resultScreen.style.display = "flex";
 
 resultButton.textContent = "Try Again ↻";
