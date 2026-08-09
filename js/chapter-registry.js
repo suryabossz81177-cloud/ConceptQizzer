@@ -65,6 +65,23 @@ window.ChapterRegistry = [
 
     enabled: true
   }
+
+    {
+    id: "class6-mathematics-number-play",
+
+    class: 6,
+
+    subject: "Mathematics",
+
+    chapterNumber: 3,
+
+    title: "Number Play",
+
+    file:
+      "js/notes/class6/mathematics/number-play.js",
+
+    enabled: true
+  },
   ---------------------------------------------------
   */
 
