@@ -89,6 +89,10 @@ bookmark_border
 </button>
 
   <button id="themeToggle" class="themeBtn">🌙</button>
+
+  <button id="pdfButton" class="themeBtn" onclick="downloadChapterPDF()">
+  📄 PDF
+  </button>
   
 </header>
 
@@ -244,6 +248,12 @@ arrow_forward
 <script src="js/notes/class6/mathematics/patterns-in-mathematics.js"></script>
 
 <script src="js/notes.js"></script>
+
+  <script>
+function downloadChapterPDF() {
+    window.print();
+}
+  </script>
 
 </body>
 
