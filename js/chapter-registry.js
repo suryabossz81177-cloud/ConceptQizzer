@@ -28,6 +28,22 @@ window.ChapterRegistry = [
     enabled: true
   },
 
+  {
+  id: "class6-mathematics-lines-and-angles",
+
+  class: 6,
+
+  subject: "Mathematics",
+
+  chapterNumber: 2,
+
+  title: "Lines and Angles",
+
+  file:
+    "js/notes/class6/mathematics/lines-and-angles.js",
+
+  enabled: true
+},
 
   /*
   ---------------------------------------------------
