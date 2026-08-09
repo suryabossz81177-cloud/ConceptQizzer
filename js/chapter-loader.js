@@ -245,7 +245,67 @@ function getChapterId() {
   window.ConceptQuizzer.loadChapter =
     loadChapter;
 
+  /*==================================================
+    UNIVERSAL CHAPTER SWITCHER
+  ==================================================*/
 
+  window.ConceptQuizzer.selectChapter = async function (chapterId) {
+
+    if (!chapterId) {
+      console.warn("No chapter ID provided.");
+      return null;
+    }
+
+    const chapter = findChapter(chapterId);
+
+    if (!chapter) {
+      console.error(
+        "Chapter not found:",
+        chapterId
+      );
+      return null;
+    }
+
+    localStorage.setItem(
+      "cq-current-chapter",
+      chapter.id
+    );
+
+    const url = new URL(window.location.href);
+
+    url.searchParams.set(
+      "chapter",
+      chapter.id
+    );
+
+    window.history.replaceState(
+      {},
+      "",
+      url
+    );
+
+    return await loadChapter();
+  };
+
+
+  /*==================================================
+    UNIVERSAL CHAPTER LIST
+  ==================================================*/
+
+  window.ConceptQuizzer.getAllChapters = function () {
+
+    if (!Array.isArray(window.ChapterRegistry)) {
+      return [];
+    }
+
+    return window.ChapterRegistry.filter(
+      chapter =>
+        chapter &&
+        chapter.enabled !== false
+    );
+
+  };
+  
   /* Automatically load on pages that need chapter data */
 
   if (
