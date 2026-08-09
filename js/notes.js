@@ -498,16 +498,17 @@ themeBtn.textContent="🌙";
 
 /*==================================================
   PACKAGE 12
-  AI DOUBT SOLVER — STEP 1
+  AI DOUBT SOLVER — WORKING VERSION
 ==================================================*/
 
 const doubtQuestion = document.getElementById("doubtQuestion");
 const askDoubtBtn = document.getElementById("askDoubtBtn");
 const doubtAnswer = document.getElementById("doubtAnswer");
 
-if (askDoubtBtn) {
+if (askDoubtBtn && doubtQuestion && doubtAnswer) {
 
   askDoubtBtn.addEventListener("click", function (e) {
+
     e.preventDefault();
 
     const question = doubtQuestion.value.trim();
@@ -515,7 +516,7 @@ if (askDoubtBtn) {
     if (!question) {
       doubtAnswer.innerHTML = `
         <div class="answerPlaceholder">
-          ⚠️
+          <div style="font-size:50px;">⚠️</div>
           <h3>Please type a question</h3>
           <p>Ask something related to this chapter.</p>
         </div>
@@ -524,20 +525,104 @@ if (askDoubtBtn) {
     }
 
     askDoubtBtn.disabled = true;
-    askDoubtBtn.innerHTML = "⏳ Thinking...";
+    askDoubtBtn.innerHTML = "⏳ Solving...";
 
+    /* Show loading message */
     doubtAnswer.innerHTML = `
       <div class="answerPlaceholder">
-        🤖
-        <h3>AI is preparing your answer...</h3>
+        <div style="font-size:50px;">🤖</div>
+        <h3>Finding your answer...</h3>
         <p>Your question: "${question}"</p>
       </div>
     `;
 
-    setTimeout(() => {
+    /* Generate answer */
+    setTimeout(function () {
 
-  askDoubtBtn.disabled = false;
-askDoubtBtn.innerHTML = "🤖 Ask AI";
+      let answer = "";
+
+      const q = question.toLowerCase();
+
+      if (
+        q.includes("pattern") ||
+        q.includes("what is pattern")
+      ) {
+        answer = `
+          <h3>📘 What is a Pattern?</h3>
+          <p>
+            A pattern is a repeated or regular arrangement of
+            numbers, shapes, objects, colours or other things.
+          </p>
+          <div class="exampleBox">
+            <h4>Example</h4>
+            <p>2, 4, 6, 8, 10...</p>
+            <p>Here, 2 is added each time.</p>
+          </div>
+        `;
+      }
+
+      else if (
+        q.includes("mathematics") ||
+        q.includes("math")
+      ) {
+        answer = `
+          <h3>🧮 Mathematics</h3>
+          <p>
+            Mathematics helps us understand numbers, shapes,
+            patterns, measurements and logical relationships.
+          </p>
+        `;
+      }
+
+      else if (
+        q.includes("example")
+      ) {
+        answer = `
+          <h3>💡 Example of a Pattern</h3>
+          <p>
+            5, 10, 15, 20, 25...
+          </p>
+          <p>
+            The rule is: <strong>add 5 each time.</strong>
+          </p>
+        `;
+      }
+
+      else {
+        answer = `
+          <h3>🤖 Concept Quizzer Answer</h3>
+          <p>
+            Your question was:
+            <strong>${question}</strong>
+          </p>
+
+          <p>
+            This question is related to the chapter.
+            Read the chapter notes and examples carefully
+            to understand the concept.
+          </p>
+
+          <div class="tipBox">
+            <h4>🧠 Study Tip</h4>
+            <p>
+              Try identifying the rule, definition or example
+              connected with your question.
+            </p>
+          </div>
+        `;
+      }
+
+      /* IMPORTANT: Keep answer visible */
+      doubtAnswer.innerHTML = `
+        <div class="answerPlaceholder">
+          ${answer}
+        </div>
+      `;
+
+      askDoubtBtn.disabled = false;
+      askDoubtBtn.innerHTML = "🤖 Ask AI";
+
+    }, 700);
 
   });
 
