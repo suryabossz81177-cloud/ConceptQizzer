@@ -240,6 +240,11 @@ function unlockNextLevel(percentage) {
             "cq-unlocked-" + levelInfo.next,
             "true"
         );
+        /* Compatibility key for older/newer quiz pages. */
+        localStorage.setItem(
+            "cq-level-unlocked-" + levelInfo.next,
+            "true"
+        );
     }
 
     return passed;
