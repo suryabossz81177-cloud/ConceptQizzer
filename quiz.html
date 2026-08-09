@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Concept Quizzer - Quiz</title>
+<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+<div class="quizContainer">
+<h1 id="quizTitle">Quiz Loading...</h1>
+<p id="quizLevel">Choose Difficulty</p>
+<div class="levelGrid">
+
+<button class="level easy" data-level="easy">
+<div class="recommended">⭐ START HERE</div>
+<h2>🟢 Easy</h2><p>10 Questions</p><span>Beginner Level</span>
+<div class="levelInfo">⭐ Reward: 100 XP<br>⏱ 5 Minutes</div>
+</button>
+
+<button class="level medium locked" data-level="medium">
+<div class="lockBadge">🔒 Locked</div>
+<h2>🔵 Medium</h2><p>10 Questions</p><span>2× Tougher than Easy</span>
+<div class="levelInfo">⭐ Reward: 200 XP<br>⏱ 8 Minutes</div>
+</button>
+
+<button class="level hard locked" data-level="hard">
+<div class="lockBadge">🔒 Locked</div>
+<h2>🟠 Hard</h2><p>15 Questions</p><span>Concept + Logic</span>
+<div class="levelInfo">⭐ Reward: 350 XP<br>⏱ 12 Minutes</div>
+</button>
+
+<button class="level tooHard locked" data-level="tooHard">
+<div class="lockBadge">🔒 Locked</div>
+<h2>🔴 Too Hard</h2><p>20 Questions</p><span>Olympiad Level</span>
+<div class="levelInfo">⭐ Reward: 600 XP<br>⏱ 18 Minutes</div>
+</button>
+
+<button class="level extreme locked" data-level="extreme">
+<div class="lockBadge">🔒 Locked</div>
+<h2>⚫ Extreme</h2><p>25 Questions</p><span>Ultimate Challenge</span>
+<div class="levelInfo">⭐ Reward: 1000 XP<br>⏱ 25 Minutes</div>
+</button>
+
+</div></div>
+
+<script src="js/quiz.js"></script>
+<script>
+(function(){
+  const levels=["easy","medium","hard","tooHard","extreme"];
+  const buttons={};
+  levels.forEach(l=>buttons[l]=document.querySelector(".level."+l));
+
+  const raw=localStorage.getItem("cq-current-chapter")||"patterns-in-mathematics";
+  const chapterKey=String(raw).toLowerCase()
+    .replace(/_/g,"-")
+    .replace(/^class\d+-mathematics-/,"")
+    .replace(/^class\d+-math-/,"")
+    .replace(/^class\d+-/,"");
+
+  function isUnlocked(level){
+    if(level==="easy") return true;
+    return localStorage.getItem("cq-unlocked-"+chapterKey+"-"+level)==="true" ||
+           localStorage.getItem("cq-level-unlocked-"+chapterKey+"-"+level)==="true";
+  }
+
+  function refresh(){
+    levels.forEach(level=>{
+      const btn=buttons[level]; if(!btn)return;
+      const unlocked=isUnlocked(level);
+      btn.classList.toggle("locked",!unlocked);
+      btn.setAttribute("aria-disabled",String(!unlocked));
+      btn.disabled=false;
+      btn.style.opacity=unlocked?"1":"";
+      btn.style.pointerEvents="auto";
+      btn.style.cursor=unlocked?"pointer":"not-allowed";
+      btn.style.filter=unlocked?"none":"";
+      let badge=btn.querySelector(".lockBadge");
+      if(!unlocked){
+        if(!badge){ badge=document.createElement("div"); badge.className="lockBadge"; btn.prepend(badge); }
+        badge.textContent="🔒 Locked";
+      }else if(badge) badge.remove();
+    });
+  }
+
+  refresh();
+
+  document.querySelectorAll(".level").forEach(btn=>{
+    btn.addEventListener("click",function(e){
+      e.preventDefault(); e.stopImmediatePropagation();
+      const level=btn.dataset.level;
+      if(!isUnlocked(level)){
+        alert("🔒 Level Locked\n\nComplete the previous level of this chapter with the required score.");
+        return;
+      }
+      localStorage.setItem("cq-selected-level",level);
+      location.href="quiz-play.html";
+    },true);
+  });
+
+  document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
+})();
+</script>
+</body>
+</html>
