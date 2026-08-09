@@ -496,272 +496,62 @@ themeBtn.textContent="🌙";
 
 /*==================================================
   PACKAGE 12
-  AI DOUBT SOLVER — STEP 3
-  SMART PATTERN SOLVER
+  AI DOUBT SOLVER — FINAL
 ==================================================*/
 
-const doubtQuestion = document.getElementById("doubtQuestion");
-const askDoubtBtn = document.getElementById("askDoubtBtn");
-const doubtAnswer = document.getElementById("doubtAnswer");
+document.addEventListener("DOMContentLoaded", function () {
 
-if (askDoubtBtn && doubtQuestion && doubtAnswer) {
+  const doubtQuestion = document.getElementById("doubtQuestion");
+  const askDoubtBtn = document.getElementById("askDoubtBtn");
+  const doubtAnswer = document.getElementById("doubtAnswer");
 
-  function escapeHTML(text) {
-    return String(text)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;");
+  if (!doubtQuestion || !askDoubtBtn || !doubtAnswer) {
+    console.warn("AI Doubt Solver elements not found.");
+    return;
   }
 
-  function showAnswer(content) {
+  function showAnswer(html) {
+    doubtAnswer.style.display = "block";
+    doubtAnswer.style.visibility = "visible";
+    doubtAnswer.style.opacity = "1";
+
     doubtAnswer.innerHTML = `
-      <div class="answerPlaceholder">
-        ${content}
+      <div class="answerContent">
+        ${html}
       </div>
     `;
-  }
 
-  function numberFormat(num) {
-    if (!Number.isFinite(num)) return String(num);
-
-    if (Number.isInteger(num)) {
-      return String(num);
-    }
-
-    return Number(num.toFixed(6)).toString();
+    doubtAnswer.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest"
+    });
   }
 
   function getNumbers(text) {
-
-    const matches = text.match(
-      /[-+]?(?:\d+(?:\.\d+)?|\.\d+)/g
-    );
-
-    if (!matches) return [];
-
-    return matches
-      .map(Number)
-      .filter(Number.isFinite);
+    const matches = text.match(/[-+]?(?:\d+(?:\.\d+)?|\.\d+)/g);
+    return matches ? matches.map(Number).filter(Number.isFinite) : [];
   }
 
-  function detectPattern(numbers) {
-
-    if (numbers.length < 2) {
-      return {
-        type: "insufficient",
-        rule: "Not enough numbers",
-        next: null
-      };
-    }
-
-    /* -------------------------------------------
-       1. CONSTANT DIFFERENCE
-    ------------------------------------------- */
-
-    const differences = [];
-
-    for (let i = 1; i < numbers.length; i++) {
-      differences.push(numbers[i] - numbers[i - 1]);
-    }
-
-    const sameDifference = differences.every(
-      d => Math.abs(d - differences[0]) < 0.000001
-    );
-
-    if (sameDifference) {
-
-      const difference = differences[0];
-      const next = numbers[numbers.length - 1] + difference;
-
-      if (difference > 0) {
-        return {
-          type: "addition",
-          rule: `Add ${numberFormat(difference)} each time`,
-          next: next,
-          difference: difference
-        };
-      }
-
-      if (difference < 0) {
-        return {
-          type: "subtraction",
-          rule: `Subtract ${numberFormat(Math.abs(difference))} each time`,
-          next: next,
-          difference: difference
-        };
-      }
-
-      return {
-        type: "constant",
-        rule: "The number stays the same",
-        next: numbers[numbers.length - 1]
-      };
-    }
-
-    /* -------------------------------------------
-       2. CONSTANT RATIO
-    ------------------------------------------- */
-
-    if (!numbers.includes(0)) {
-
-      const ratios = [];
-
-      for (let i = 1; i < numbers.length; i++) {
-        ratios.push(numbers[i] / numbers[i - 1]);
-      }
-
-      const sameRatio = ratios.every(
-        r => Math.abs(r - ratios[0]) < 0.000001
-      );
-
-      if (sameRatio && Number.isFinite(ratios[0])) {
-
-        const ratio = ratios[0];
-        const next = numbers[numbers.length - 1] * ratio;
-
-        if (ratio > 1) {
-          return {
-            type: "multiplication",
-            rule: `Multiply by ${numberFormat(ratio)} each time`,
-            next: next,
-            ratio: ratio
-          };
-        }
-
-        if (ratio > 0 && ratio < 1) {
-          return {
-            type: "division",
-            rule: `Divide by ${numberFormat(1 / ratio)} each time`,
-            next: next,
-            ratio: ratio
-          };
-        }
-
-        if (ratio < 0) {
-          return {
-            type: "multiplication",
-            rule: `Multiply by ${numberFormat(ratio)} each time`,
-            next: next,
-            ratio: ratio
-          };
-        }
-      }
-    }
-
-    /* -------------------------------------------
-       3. ALTERNATING DIFFERENCES
-    ------------------------------------------- */
-
-    if (differences.length >= 2) {
-
-      const evenDiffs = [];
-      const oddDiffs = [];
-
-      differences.forEach((d, i) => {
-        if (i % 2 === 0) {
-          evenDiffs.push(d);
-        } else {
-          oddDiffs.push(d);
-        }
-      });
-
-      const evenSame =
-        evenDiffs.length > 0 &&
-        evenDiffs.every(
-          d => Math.abs(d - evenDiffs[0]) < 0.000001
-        );
-
-      const oddSame =
-        oddDiffs.length > 0 &&
-        oddDiffs.every(
-          d => Math.abs(d - oddDiffs[0]) < 0.000001
-        );
-
-      if (evenSame && oddSame && differences.length >= 2) {
-
-        const nextDifference =
-          differences.length % 2 === 0
-            ? evenDiffs[0]
-            : oddDiffs[0];
-
-        const next =
-          numbers[numbers.length - 1] + nextDifference;
-
-        return {
-          type: "alternating",
-          rule:
-            `Alternating differences: ` +
-            `${numberFormat(evenDiffs[0])}, ` +
-            `${numberFormat(oddDiffs[0])}`,
-          next: next,
-          difference: nextDifference
-        };
-      }
-    }
-
-    /* -------------------------------------------
-       4. REPEATING CYCLE
-    ------------------------------------------- */
-
-    for (let size = 1; size <= Math.floor(numbers.length / 2); size++) {
-
-      let valid = true;
-
-      for (let i = size; i < numbers.length; i++) {
-        if (
-          Math.abs(numbers[i] - numbers[i % size]) >
-          0.000001
-        ) {
-          valid = false;
-          break;
-        }
-      }
-
-      if (valid) {
-
-        const nextIndex = numbers.length % size;
-        const next = numbers[nextIndex];
-
-        return {
-          type: "repeating",
-          rule: `Repeating cycle of ${size} number(s)`,
-          next: next,
-          cycle: numbers.slice(0, size)
-        };
-      }
-    }
-
-    return {
-      type: "unknown",
-      rule: "No simple pattern detected",
-      next: null
-    };
+  function formatNumber(n) {
+    if (!Number.isFinite(n)) return String(n);
+    return Number(n.toFixed(6)).toString();
   }
 
-  function solveQuestion(question) {
+  function solvePattern(question) {
 
     const numbers = getNumbers(question);
 
-    /* -------------------------------------------
-       NO NUMBERS
-    ------------------------------------------- */
-
-    if (numbers.length === 0) {
-
-      const q = question.toLowerCase();
+    if (numbers.length < 2) {
 
       if (
-        q.includes("what is pattern") ||
-        q.includes("define pattern") ||
-        q === "pattern"
+        question.toLowerCase().includes("what is pattern") ||
+        question.toLowerCase().includes("define pattern") ||
+        question.toLowerCase().trim() === "pattern"
       ) {
 
         return `
           <div class="answerContent">
-
-            <div style="font-size:52px;">📘</div>
+            <div style="font-size:55px;">📘</div>
 
             <h2>What is a Pattern?</h2>
 
@@ -771,10 +561,9 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
             </p>
 
             <div class="exampleBox">
-
               <h3>💡 Example</h3>
 
-              <p style="font-size:22px;">
+              <p style="font-size:23px;">
                 <strong>2, 4, 6, 8, 10...</strong>
               </p>
 
@@ -782,16 +571,109 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
                 The rule is:
                 <strong>Add 2 each time.</strong>
               </p>
-
             </div>
 
             <div class="tipBox">
-
               <h3>🧠 Remember</h3>
+              <p>
+                Compare consecutive numbers to find the rule.
+              </p>
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="answerContent">
+          <div style="font-size:55px;">🔢</div>
+
+          <h2>Enter a Number Pattern</h2>
+
+          <p>
+            Give me a sequence of numbers and I will find
+            the next number.
+          </p>
+
+          <div class="exampleBox">
+            <h3>Try this:</h3>
+            <p style="font-size:22px;">
+              <strong>2, 4, 6, 8</strong>
+            </p>
+          </div>
+        </div>
+      `;
+    }
+
+    const differences = [];
+
+    for (let i = 1; i < numbers.length; i++) {
+      differences.push(numbers[i] - numbers[i - 1]);
+    }
+
+    /* ADDITION / SUBTRACTION */
+
+    if (
+      differences.every(
+        d => Math.abs(d - differences[0]) < 0.000001
+      )
+    ) {
+
+      const difference = differences[0];
+
+      const next =
+        numbers[numbers.length - 1] + difference;
+
+      if (difference > 0) {
+
+        return `
+          <div class="answerContent">
+
+            <div style="font-size:55px;">🎯</div>
+
+            <h2>Pattern Solved!</h2>
+
+            <div class="exampleBox">
+              <h3>🔢 Your Pattern</h3>
+
+              <p style="font-size:22px;">
+                <strong>
+                  ${numbers.map(formatNumber).join(" → ")}
+                </strong>
+              </p>
+            </div>
+
+            <div class="tipBox">
+              <h3>📐 Rule</h3>
 
               <p>
-                To solve a number pattern, compare the
-                numbers and find the rule.
+                Add
+                <strong>${formatNumber(difference)}</strong>
+                each time.
+              </p>
+            </div>
+
+            <div class="answerResult">
+              <p>Next Number</p>
+
+              <div style="
+                font-size:46px;
+                font-weight:900;
+                margin:12px 0;
+              ">
+                ${formatNumber(next)}
+              </div>
+            </div>
+
+            <div class="explanationBox">
+
+              <h3>🧠 Explanation</h3>
+
+              <p>
+                ${formatNumber(numbers[numbers.length - 1])}
+                +
+                ${formatNumber(difference)}
+                =
+                <strong>${formatNumber(next)}</strong>
               </p>
 
             </div>
@@ -800,296 +682,208 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
         `;
       }
 
-      return `
-        <div class="answerContent">
+      if (difference < 0) {
 
-          <div style="font-size:52px;">🔢</div>
+        return `
+          <div class="answerContent">
 
-          <h2>Enter a Number Pattern</h2>
+            <div style="font-size:55px;">🎯</div>
 
-          <p>
-            I can find the next number when you give me
-            a sequence.
-          </p>
+            <h2>Pattern Solved!</h2>
 
-          <div class="exampleBox">
+            <div class="exampleBox">
+              <h3>🔢 Your Pattern</h3>
 
-            <h3>Try this:</h3>
+              <p style="font-size:22px;">
+                <strong>
+                  ${numbers.map(formatNumber).join(" → ")}
+                </strong>
+              </p>
+            </div>
 
-            <p style="font-size:22px;">
-              <strong>2, 4, 6, 8</strong>
-            </p>
+            <div class="tipBox">
+              <h3>📐 Rule</h3>
 
-            <p>
-              or
-            </p>
+              <p>
+                Subtract
+                <strong>${formatNumber(Math.abs(difference))}</strong>
+                each time.
+              </p>
+            </div>
 
-            <p style="font-size:22px;">
-              <strong>5, 10, 15, 20</strong>
-            </p>
+            <div class="answerResult">
+              <p>Next Number</p>
+
+              <div style="
+                font-size:46px;
+                font-weight:900;
+                margin:12px 0;
+              ">
+                ${formatNumber(next)}
+              </div>
+            </div>
+
+            <div class="explanationBox">
+
+              <h3>🧠 Explanation</h3>
+
+              <p>
+                ${formatNumber(numbers[numbers.length - 1])}
+                −
+                ${formatNumber(Math.abs(difference))}
+                =
+                <strong>${formatNumber(next)}</strong>
+              </p>
+
+            </div>
 
           </div>
-
-        </div>
-      `;
+        `;
+      }
     }
 
-    /* -------------------------------------------
-       TOO FEW NUMBERS
-    ------------------------------------------- */
+    /* MULTIPLICATION / DIVISION */
 
-    if (numbers.length < 2) {
+    if (!numbers.includes(0)) {
 
-      return `
-        <div class="answerContent">
+      const ratios = [];
 
-          <div style="font-size:52px;">⚠️</div>
+      for (let i = 1; i < numbers.length; i++) {
+        ratios.push(numbers[i] / numbers[i - 1]);
+      }
 
-          <h2>Need More Numbers</h2>
+      if (
+        ratios.every(
+          r => Math.abs(r - ratios[0]) < 0.000001
+        )
+      ) {
 
-          <p>
-            Please enter at least <strong>2 numbers</strong>
-            so I can look for a pattern.
-          </p>
+        const ratio = ratios[0];
 
-          <div class="exampleBox">
+        const next =
+          numbers[numbers.length - 1] * ratio;
 
-            <h3>Example</h3>
+        if (ratio > 1) {
 
-            <p>
-              <strong>2, 4, 6, 8</strong>
-            </p>
+          return `
+            <div class="answerContent">
 
-          </div>
+              <div style="font-size:55px;">✖️</div>
 
-        </div>
-      `;
-    }
+              <h2>Multiplication Pattern</h2>
 
-    /* -------------------------------------------
-       DETECT PATTERN
-    ------------------------------------------- */
+              <div class="exampleBox">
 
-    const result = detectPattern(numbers);
+                <h3>🔢 Pattern</h3>
 
-    /* -------------------------------------------
-       UNKNOWN PATTERN
-    ------------------------------------------- */
+                <p style="font-size:22px;">
+                  <strong>
+                    ${numbers.map(formatNumber).join(" → ")}
+                  </strong>
+                </p>
 
-    if (result.type === "unknown") {
+              </div>
 
-      return `
-        <div class="answerContent">
+              <div class="tipBox">
 
-          <div style="font-size:52px;">🧠</div>
+                <h3>📐 Rule</h3>
 
-          <h2>Pattern Not Clear</h2>
+                <p>
+                  Multiply by
+                  <strong>${formatNumber(ratio)}</strong>
+                  each time.
+                </p>
 
-          <p>
-            I couldn't identify a simple arithmetic pattern
-            in:
-          </p>
+              </div>
 
-          <div class="exampleBox">
+              <div class="answerResult">
 
-            <p style="font-size:21px;">
-              <strong>${numbers
-                .map(numberFormat)
-                .join(", ")}</strong>
-            </p>
+                <p>Next Number</p>
 
-          </div>
+                <div style="
+                  font-size:46px;
+                  font-weight:900;
+                ">
+                  ${formatNumber(next)}
+                </div>
 
-          <div class="tipBox">
+              </div>
 
-            <h3>💡 Try</h3>
+            </div>
+          `;
+        }
 
-            <p>
-              Enter 3 or more numbers and check whether
-              they are increasing, decreasing, multiplying,
-              dividing or repeating.
-            </p>
+        if (ratio > 0 && ratio < 1) {
 
-          </div>
+          const divisor = 1 / ratio;
 
-        </div>
-      `;
-    }
+          return `
+            <div class="answerContent">
 
-    /* -------------------------------------------
-       SUCCESSFUL ANSWER
-    ------------------------------------------- */
+              <div style="font-size:55px;">➗</div>
 
-    let explanation = "";
+              <h2>Division Pattern</h2>
 
-    if (result.type === "addition") {
+              <div class="exampleBox">
 
-      explanation = `
-        <p>
-          Each number increases by
-          <strong>${numberFormat(result.difference)}</strong>.
-        </p>
+                <h3>🔢 Pattern</h3>
 
-        <p>
-          Therefore:
-          <strong>
-            ${numberFormat(numbers[numbers.length - 1])}
-            + ${numberFormat(result.difference)}
-            =
-            ${numberFormat(result.next)}
-          </strong>
-        </p>
-      `;
+                <p style="font-size:22px;">
+                  <strong>
+                    ${numbers.map(formatNumber).join(" → ")}
+                  </strong>
+                </p>
 
-    } else if (result.type === "subtraction") {
+              </div>
 
-      explanation = `
-        <p>
-          Each number decreases by
-          <strong>${numberFormat(
-            Math.abs(result.difference)
-          )}</strong>.
-        </p>
+              <div class="tipBox">
 
-        <p>
-          Therefore:
-          <strong>
-            ${numberFormat(numbers[numbers.length - 1])}
-            − ${numberFormat(
-              Math.abs(result.difference)
-            )}
-            =
-            ${numberFormat(result.next)}
-          </strong>
-        </p>
-      `;
+                <h3>📐 Rule</h3>
 
-    } else if (result.type === "multiplication") {
+                <p>
+                  Divide by
+                  <strong>${formatNumber(divisor)}</strong>
+                  each time.
+                </p>
 
-      explanation = `
-        <p>
-          Each number is multiplied by
-          <strong>${numberFormat(result.ratio)}</strong>.
-        </p>
+              </div>
 
-        <p>
-          Therefore:
-          <strong>
-            ${numberFormat(numbers[numbers.length - 1])}
-            × ${numberFormat(result.ratio)}
-            =
-            ${numberFormat(result.next)}
-          </strong>
-        </p>
-      `;
+              <div class="answerResult">
 
-    } else if (result.type === "division") {
+                <p>Next Number</p>
 
-      explanation = `
-        <p>
-          Each number is divided by
-          <strong>${numberFormat(1 / result.ratio)}</strong>.
-        </p>
+                <div style="
+                  font-size:46px;
+                  font-weight:900;
+                ">
+                  ${formatNumber(next)}
+                </div>
 
-        <p>
-          Therefore:
-          <strong>
-            ${numberFormat(numbers[numbers.length - 1])}
-            ÷ ${numberFormat(1 / result.ratio)}
-            =
-            ${numberFormat(result.next)}
-          </strong>
-        </p>
-      `;
+              </div>
 
-    } else if (result.type === "alternating") {
-
-      explanation = `
-        <p>
-          The pattern uses alternating differences.
-        </p>
-
-        <p>
-          The next change is
-          <strong>${numberFormat(
-            result.difference
-          )}</strong>.
-        </p>
-      `;
-
-    } else if (result.type === "repeating") {
-
-      explanation = `
-        <p>
-          The sequence repeats a fixed cycle:
-        </p>
-
-        <p>
-          <strong>
-            ${result.cycle.map(numberFormat).join(" → ")}
-          </strong>
-        </p>
-      `;
+            </div>
+          `;
+        }
+      }
     }
 
     return `
       <div class="answerContent">
 
-        <div style="font-size:52px;">🎯</div>
+        <div style="font-size:55px;">🧠</div>
 
-        <h2>Pattern Solved!</h2>
+        <h2>Pattern Not Clear</h2>
+
+        <p>
+          I could not identify a simple pattern.
+        </p>
 
         <div class="exampleBox">
 
-          <h3>🔢 Your Pattern</h3>
+          <h3>Try a clearer sequence</h3>
 
-          <p style="font-size:21px;">
-            <strong>
-              ${numbers.map(numberFormat).join(" → ")}
-            </strong>
-          </p>
-
-        </div>
-
-        <div class="tipBox">
-
-          <h3>📐 Rule</h3>
-
-          <p>
-            <strong>${result.rule}</strong>
-          </p>
-
-        </div>
-
-        <div class="answerResult">
-
-          <p>Next Number</p>
-
-          <div style="
-            font-size:42px;
-            font-weight:800;
-            margin:10px 0;
-          ">
-            ${numberFormat(result.next)}
-          </div>
-
-        </div>
-
-        <div class="explanationBox">
-
-          <h3>🧠 Explanation</h3>
-
-          ${explanation}
-
-        </div>
-
-        <div class="tipBox">
-
-          <h3>💡 Study Tip</h3>
-
-          <p>
-            Always compare consecutive numbers first.
-            This helps you discover the rule quickly.
+          <p style="font-size:22px;">
+            <strong>2, 4, 6, 8</strong>
           </p>
 
         </div>
@@ -1098,22 +892,26 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
     `;
   }
 
-  askDoubtBtn.addEventListener("click", function (e) {
 
-    e.preventDefault();
+  /* ASK AI BUTTON */
 
-    const question = doubtQuestion.value.trim();
+  askDoubtBtn.addEventListener("click", function (event) {
+
+    event.preventDefault();
+
+    const question =
+      doubtQuestion.value.trim();
 
     if (!question) {
 
       showAnswer(`
-        <div style="font-size:52px;">⚠️</div>
+        <div style="font-size:55px;">⚠️</div>
 
         <h2>Please type a question</h2>
 
         <p>
-          Try:
-          <strong>2, 4, 6, 8</strong>
+          Example:
+          <strong>2, 4, 6, 8, ?</strong>
         </p>
       `);
 
@@ -1121,49 +919,63 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
     }
 
     askDoubtBtn.disabled = true;
-    askDoubtBtn.innerHTML = "⏳ Solving...";
+
+    askDoubtBtn.innerHTML =
+      "⏳ Solving...";
+
+
+    /* SHOW ANSWER AREA */
 
     showAnswer(`
-      <div style="font-size:52px;">🤖</div>
+      <div style="font-size:55px;">🤖</div>
 
       <h2>Analysing Pattern...</h2>
 
       <p>
-        Checking the numbers and finding the rule.
+        Finding the rule...
       </p>
     `);
+
 
     setTimeout(function () {
 
       try {
 
-        const resultHTML = solveQuestion(question);
+        const answer =
+          solvePattern(question);
 
-        showAnswer(resultHTML);
+        /* IMPORTANT:
+           ANSWER STAYS ON SCREEN
+        */
+
+        showAnswer(answer);
 
       } catch (error) {
 
+        console.error(
+          "AI Solver Error:",
+          error
+        );
+
         showAnswer(`
-          <div style="font-size:52px;">⚠️</div>
+          <div style="font-size:55px;">⚠️</div>
 
           <h2>Something went wrong</h2>
 
           <p>
-            Please try the question again.
+            Please try again.
           </p>
         `);
-
-        console.error(
-          "Package 12 Error:",
-          error
-        );
       }
 
-      askDoubtBtn.disabled = false;
-      askDoubtBtn.innerHTML = "🤖 Ask AI";
 
-    }, 700);
+      askDoubtBtn.disabled = false;
+
+      askDoubtBtn.innerHTML =
+        "🤖 Ask AI";
+
+    }, 500);
 
   });
 
-        }
+});
