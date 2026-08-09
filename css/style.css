@@ -1276,3 +1276,60 @@ color:white;
     flex: 1 1 auto !important;
   }
 }
+
+/* ===== FINAL MOBILE HEADER FIT ===== */
+
+@media screen and (max-width: 700px) {
+
+  .header .container {
+    width: 100% !important;
+    padding: 10px 8px !important;
+    gap: 4px !important;
+  }
+
+  .logo {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    gap: 6px !important;
+  }
+
+  .logoIcon {
+    width: 48px !important;
+    height: 48px !important;
+    min-width: 48px !important;
+  }
+
+  .logoText {
+    min-width: 0 !important;
+  }
+
+  .logoText h2 {
+    font-size: 1.05rem !important;
+  }
+
+  .logoText span {
+    font-size: .72rem !important;
+  }
+
+  .headerActions {
+    flex: 0 0 auto !important;
+    display: flex !important;
+    gap: 4px !important;
+    width: auto !important;
+  }
+
+  .headerActions .iconButton {
+    width: 42px !important;
+    height: 42px !important;
+    min-width: 42px !important;
+    flex: 0 0 42px !important;
+    padding: 0 !important;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .headerActions .material-icons-round {
+    font-size: 21px !important;
+  }
+}
