@@ -10,16 +10,18 @@
 
   window.ConceptQuizzer = window.ConceptQuizzer || {};
 
-  function getChapterId() {
+function getChapterId() {
 
-    return (
-      localStorage.getItem("cq-current-chapter") ||
-      new URLSearchParams(window.location.search).get("chapter") ||
-      null
-    );
+  const params = new URLSearchParams(window.location.search);
 
-  }
+  return (
+    params.get("chapter") ||
+    localStorage.getItem("cq-current-chapter") ||
+    document.body.dataset.chapter ||
+    null
+  );
 
+}
 
   function findChapter(id) {
 
