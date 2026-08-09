@@ -1368,3 +1368,89 @@ color:white;
     font-size: 16px;
   }
 }
+
+/* ===== PACKAGE 11E — AI READING MODE ===== */
+
+.readingMode {
+  margin: 24px auto;
+  width: min(92%, 900px);
+  padding: 24px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #5b4bea, #8b4df5);
+  color: white;
+  box-shadow: 0 12px 35px rgba(80, 50, 180, .25);
+}
+
+.readingTitle {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.readingMode p {
+  margin: 6px 0 20px;
+  font-size: 15px;
+  opacity: .9;
+}
+
+.readingControls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.readMainBtn,
+.readControlBtn {
+  border: none;
+  border-radius: 16px;
+  padding: 15px 20px;
+  min-height: 54px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.readMainBtn {
+  width: 100%;
+  background: white;
+  color: #5b4bea;
+  font-size: 18px;
+}
+
+.readControlBtn {
+  flex: 1;
+  background: rgba(255,255,255,.18);
+  color: white;
+  border: 1px solid rgba(255,255,255,.3);
+}
+
+.readMainBtn:active,
+.readControlBtn:active {
+  transform: scale(.97);
+}
+
+.readingStatus {
+  margin-top: 15px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  background: rgba(0,0,0,.12);
+  text-align: center;
+  font-size: 14px;
+}
+
+@media(max-width:600px) {
+  .readingMode {
+    width: 92%;
+    padding: 20px;
+  }
+
+  .readingTitle {
+    font-size: 21px;
+  }
+
+  .readMainBtn,
+  .readControlBtn {
+    min-height: 52px;
+  }
+}
