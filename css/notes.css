@@ -1151,3 +1151,226 @@ color:#b5b5b5;
   }
 
 }
+
+/* ==================================================
+   CREATIVE UNIVERSAL CHAPTER SELECTOR
+   Step 1 — Premium Mobile Design
+================================================== */
+
+.chapterSelectorBox {
+  position: relative;
+  width: min(360px, 88vw);
+  margin: 14px auto 20px;
+  padding: 16px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.98),
+      rgba(245,243,255,0.96)
+    );
+
+  border: 1px solid rgba(255,255,255,0.9);
+  border-radius: 24px;
+
+  box-shadow:
+    0 12px 30px rgba(65, 45, 150, 0.16),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-sizing: border-box;
+}
+
+/* Decorative glow */
+
+.chapterSelectorBox::before {
+  content: "";
+  position: absolute;
+
+  width: 70px;
+  height: 70px;
+
+  top: -20px;
+  right: -18px;
+
+  background: rgba(124, 77, 255, 0.12);
+
+  border-radius: 50%;
+  filter: blur(5px);
+
+  pointer-events: none;
+}
+
+
+/* Label */
+
+.chapterSelectorBox label {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 10px;
+
+  color: #292544;
+
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+
+/* Add book icon before label */
+
+.chapterSelectorBox label::before {
+  content: "📚";
+
+  font-size: 20px;
+}
+
+
+/* Select */
+
+#universalChapterSelect {
+  position: relative;
+
+  width: 100%;
+  min-height: 56px;
+
+  padding: 0 46px 0 16px;
+
+  border: 2px solid rgba(112, 76, 255, 0.22);
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #f7f5ff
+    );
+
+  color: #27233d;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+
+  outline: none;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+  appearance: auto;
+  -webkit-appearance: auto;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+/* Hover */
+
+#universalChapterSelect:hover {
+  border-color: rgba(112, 76, 255, 0.55);
+
+  box-shadow:
+    0 6px 18px rgba(112, 76, 255, 0.12);
+}
+
+
+/* Focus */
+
+#universalChapterSelect:focus {
+  border-color: #704cff;
+
+  box-shadow:
+    0 0 0 4px rgba(112, 76, 255, 0.12);
+
+  transform: translateY(-1px);
+}
+
+
+/* Disabled */
+
+#universalChapterSelect:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .chapterSelectorBox {
+    width: calc(100% - 32px);
+
+    margin: 12px auto 18px;
+    padding: 15px;
+
+    border-radius: 22px;
+  }
+
+  .chapterSelectorBox label {
+    font-size: 14px;
+  }
+
+  #universalChapterSelect {
+    min-height: 54px;
+
+    font-size: 14px;
+
+    border-radius: 15px;
+  }
+
+}
+
+
+/* ==================================================
+   DARK MODE
+================================================== */
+
+body.dark .chapterSelectorBox {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(31, 34, 55, 0.98),
+      rgba(38, 34, 70, 0.98)
+    );
+
+  border-color: rgba(255,255,255,0.08);
+
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.35);
+}
+
+body.dark .chapterSelectorBox label {
+  color: #ffffff;
+}
+
+body.dark #universalChapterSelect {
+  background:
+    linear-gradient(
+      135deg,
+      #292b46,
+      #202238
+    );
+
+  color: #ffffff;
+
+  border-color:
+    rgba(150,120,255,0.35);
+}
+
+body.dark #universalChapterSelect:focus {
+  border-color: #9275ff;
+
+  box-shadow:
+    0 0 0 4px rgba(146,117,255,0.15);
+}
