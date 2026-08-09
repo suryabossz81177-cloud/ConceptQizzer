@@ -323,6 +323,152 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const listenBtn = document.getElementById("listenNotesBtn");
+  const pauseBtn = document.getElementById("pauseNotesBtn");
+  const stopBtn = document.getElementById("stopNotesBtn");
+  const notesContent = document.getElementById("notesContent");
+  const status = document.getElementById("readingStatus");
+
+  if (!listenBtn || !notesContent) {
+    console.log("AI Reading Mode elements not found");
+    return;
+  }
+
+  let chunks = [];
+  let currentChunk = 0;
+  let reading = false;
+
+  function getNotesText() {
+    const copy = notesContent.cloneNode(true);
+
+    copy.querySelectorAll(
+      "button,input,textarea,select,script,style"
+    ).forEach(el => el.remove());
+
+    return copy.innerText
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function splitText(text) {
+    const words = text.split(" ");
+    const result = [];
+    let part = "";
+
+    words.forEach(word => {
+      if ((part + " " + word).length > 180) {
+        if (part.trim()) result.push(part.trim());
+        part = word;
+      } else {
+        part += " " + word;
+      }
+    });
+
+    if (part.trim()) result.push(part.trim());
+
+    return result;
+  }
+
+  function speakNext() {
+
+    if (!reading || currentChunk >= chunks.length) {
+      reading = false;
+      listenBtn.textContent = "▶️ Listen Again";
+      status.textContent = "✅ Reading completed";
+      return;
+    }
+
+    const voice = new SpeechSynthesisUtterance(
+      chunks[currentChunk]
+    );
+
+    voice.rate = 0.9;
+    voice.pitch = 1;
+    voice.volume = 1;
+
+    const voices = speechSynthesis.getVoices();
+
+    const selectedVoice =
+      voices.find(v => v.lang === "en-IN") ||
+      voices.find(v => v.lang.startsWith("en"));
+
+    if (selectedVoice) {
+      voice.voice = selectedVoice;
+    }
+
+    status.textContent =
+      "🔊 Reading " +
+      (currentChunk + 1) +
+      " / " +
+      chunks.length;
+
+    voice.onend = function () {
+      currentChunk++;
+      setTimeout(speakNext, 100);
+    };
+
+    voice.onerror = function () {
+      reading = false;
+      status.textContent =
+        "⚠️ Voice error. Tap Listen Again.";
+    };
+
+    speechSynthesis.speak(voice);
+  }
+
+  listenBtn.addEventListener("click", function () {
+
+    speechSynthesis.cancel();
+
+    const text = getNotesText();
+
+    if (!text) {
+      status.textContent = "⚠️ No notes available.";
+      return;
+    }
+
+    chunks = splitText(text);
+    currentChunk = 0;
+    reading = true;
+
+    listenBtn.textContent = "🔊 Reading...";
+    status.textContent = "Starting...";
+
+    setTimeout(speakNext, 200);
+  });
+
+  pauseBtn.addEventListener("click", function () {
+
+    if (speechSynthesis.speaking) {
+
+      if (speechSynthesis.paused) {
+        speechSynthesis.resume();
+        status.textContent = "🔊 Reading resumed";
+      } else {
+        speechSynthesis.pause();
+        status.textContent = "⏸️ Reading paused";
+      }
+
+    }
+  });
+
+  stopBtn.addEventListener("click", function () {
+
+    speechSynthesis.cancel();
+
+    reading = false;
+    currentChunk = 0;
+
+    listenBtn.textContent = "▶️ Listen to Notes";
+    status.textContent = "⏹️ Reading stopped";
+  });
+
+});
+  </script>
   
 </body>
 
