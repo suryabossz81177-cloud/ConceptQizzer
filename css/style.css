@@ -1231,3 +1231,48 @@ color:white;
     font-size:25px;
   }
 }
+
+/* MOBILE HEADER - FINAL FIX */
+
+@media screen and (max-width: 700px) {
+
+  .header .container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+  }
+
+  .headerActions {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 5px !important;
+    width: auto !important;
+    flex: 0 0 auto !important;
+    overflow: visible !important;
+  }
+
+  .headerActions .iconButton {
+    width: 48px !important;
+    height: 48px !important;
+    min-width: 48px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .headerActions .material-icons-round {
+    font-size: 24px !important;
+  }
+
+  .logo {
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+  }
+}
