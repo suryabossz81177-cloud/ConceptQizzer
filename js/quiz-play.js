@@ -61,64 +61,110 @@ const levelInfo = LEVEL_CONFIG[level] || LEVEL_CONFIG.easy;
 
 let questions = [];
 
-if (
-    typeof quizDatabase !== "undefined" &&
-    quizDatabase.class6 &&
-    quizDatabase.class6.mathematics
-) {
+let questions = [];
 
-    const mathematics =
-        quizDatabase.class6.mathematics;
-
-    let chapter =
-        mathematics[chapterKey];
-
-    /*
-     * Support both:
-     * class6-mathematics-lines-and-angles
-     * lines-and-angles
-     */
-
-    if (!chapter) {
-
-        const shortKey =
-            chapterKey
-                .replace(/^class\d+-[^-]+-/, "");
-
-        chapter =
-            mathematics[shortKey];
-    }
-
-    /*
-     * If still not found, try matching the
-     * ending of the registered chapter ID.
-     */
-
-    if (!chapter) {
-
-        const keys =
-            Object.keys(mathematics);
-
-        const matchedKey =
-            keys.find(function (key) {
-
-                return (
-                    key === chapterKey ||
-                    key.endsWith("-" + chapterKey)
-                );
-
-            });
-
-        if (matchedKey) {
-            chapter = mathematics[matchedKey];
-        }
-    }
-
-    if (chapter) {
-        questions =
-            chapter[level] || [];
-    }
+function normalizeChapterKey(key) {
+    return String(key || "")
+        .toLowerCase()
+        .replace(/_/g, "-")
+        .replace(/^class\d+-mathematics-/, "")
+        .replace(/^class\d+-math-/, "")
+        .replace(/^class\d+-/, "");
 }
+
+function findChapterData(database, wantedKey) {
+
+    const wanted =
+        normalizeChapterKey(wantedKey);
+
+    const visited = new WeakSet();
+
+    function search(obj) {
+
+        if (!obj || typeof obj !== "object") {
+            return null;
+        }
+
+        if (visited.has(obj)) {
+            return null;
+        }
+
+        visited.add(obj);
+
+        /* First: search exact chapter key */
+        for (const key of Object.keys(obj)) {
+
+            const value = obj[key];
+
+            if (
+                value &&
+                typeof value === "object" &&
+                !Array.isArray(value)
+            ) {
+
+                const normalized =
+                    normalizeChapterKey(key);
+
+                const hasQuizLevels =
+                    Array.isArray(value.easy) ||
+                    Array.isArray(value.medium) ||
+                    Array.isArray(value.hard) ||
+                    Array.isArray(value.tooHard) ||
+                    Array.isArray(value.extreme);
+
+                if (
+                    normalized === wanted &&
+                    hasQuizLevels
+                ) {
+                    return value;
+                }
+            }
+        }
+
+        /* Second: search nested objects */
+        for (const key of Object.keys(obj)) {
+
+            const value = obj[key];
+
+            if (
+                value &&
+                typeof value === "object"
+            ) {
+
+                const result =
+                    search(value);
+
+                if (result) {
+                    return result;
+                }
+            }
+        }
+
+        return null;
+    }
+
+    return search(database);
+}
+
+
+/* Find the chapter anywhere inside quizDatabase */
+const chapter =
+    findChapterData(
+        quizDatabase,
+        chapterKey
+    );
+
+
+/* Load selected difficulty */
+if (chapter) {
+
+    questions =
+        Array.isArray(chapter[level])
+            ? chapter[level]
+            : [];
+
+}
+
 
 if (questions.length === 0) {
     questionBox.textContent =
