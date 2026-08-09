@@ -66,11 +66,57 @@ if (
     quizDatabase.class6 &&
     quizDatabase.class6.mathematics
 ) {
-    const chapter =
-        quizDatabase.class6.mathematics[chapterKey];
+
+    const mathematics =
+        quizDatabase.class6.mathematics;
+
+    let chapter =
+        mathematics[chapterKey];
+
+    /*
+     * Support both:
+     * class6-mathematics-lines-and-angles
+     * lines-and-angles
+     */
+
+    if (!chapter) {
+
+        const shortKey =
+            chapterKey
+                .replace(/^class\d+-[^-]+-/, "");
+
+        chapter =
+            mathematics[shortKey];
+    }
+
+    /*
+     * If still not found, try matching the
+     * ending of the registered chapter ID.
+     */
+
+    if (!chapter) {
+
+        const keys =
+            Object.keys(mathematics);
+
+        const matchedKey =
+            keys.find(function (key) {
+
+                return (
+                    key === chapterKey ||
+                    key.endsWith("-" + chapterKey)
+                );
+
+            });
+
+        if (matchedKey) {
+            chapter = mathematics[matchedKey];
+        }
+    }
 
     if (chapter) {
-        questions = chapter[level] || [];
+        questions =
+            chapter[level] || [];
     }
 }
 
