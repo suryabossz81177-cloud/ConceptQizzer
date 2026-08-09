@@ -16,9 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
        GET CHAPTER
     ----------------------------- */
 
-    const chapterKey =
-        localStorage.getItem("cq-current-chapter") ||
-        "patterns-in-mathematics";
+    const rawChapterKey =
+    localStorage.getItem("cq-current-chapter") ||
+    "patterns-in-mathematics";
+
+const chapterKey =
+    rawChapterKey
+        .replace(/^\d+-[^-]+-/, "");
 
     const rawLevel =
         localStorage.getItem("cq-selected-level") ||
