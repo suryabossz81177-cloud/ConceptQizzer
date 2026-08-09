@@ -1,6 +1,6 @@
 "use strict";
 
-const ChapterData = {
+window.ChapterData = {
 
 id:"class6-mathematics-patterns-in-mathematics",
 
