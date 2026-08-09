@@ -512,6 +512,94 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
   </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const askBtn = document.getElementById("askDoubtBtn");
+  const questionBox = document.getElementById("doubtQuestion");
+  const answerBox = document.getElementById("doubtAnswer");
+
+  if (!askBtn || !questionBox || !answerBox) return;
+
+  askBtn.addEventListener("click", function () {
+
+    const question = questionBox.value.trim();
+
+    if (!question) {
+      answerBox.innerHTML = `
+        <div class="answerPlaceholder">
+          ⚠️
+          <h3>Please type your question</h3>
+          <p>Ask something related to this chapter.</p>
+        </div>
+      `;
+      return;
+    }
+
+    const notes = document.getElementById("notesContent");
+    const chapterText = notes ? notes.innerText.trim() : "";
+
+    if (!chapterText) {
+      answerBox.innerHTML = `
+        <div class="answerPlaceholder">
+          ⚠️
+          <h3>Chapter content isn't ready</h3>
+          <p>Please wait for the chapter notes to load.</p>
+        </div>
+      `;
+      return;
+    }
+
+    answerBox.innerHTML = `
+      <div class="answerPlaceholder">
+        🤖
+        <h3>Thinking...</h3>
+        <p>Checking this chapter's notes...</p>
+      </div>
+    `;
+
+    setTimeout(function () {
+
+      const words = question.toLowerCase()
+        .split(/\s+/)
+        .filter(word => word.length > 3);
+
+      const sentences = chapterText
+        .split(/[.!?]+/)
+        .map(s => s.trim())
+        .filter(Boolean);
+
+      const matches = sentences.filter(sentence => {
+        const lower = sentence.toLowerCase();
+        return words.some(word => lower.includes(word));
+      });
+
+      let answer;
+
+      if (matches.length) {
+        answer = matches.slice(0, 4).join(". ") + ".";
+      } else {
+        answer =
+          "I couldn't find a direct answer in this chapter. " +
+          "Try asking with keywords from the chapter.";
+      }
+
+      answerBox.innerHTML = `
+        <div class="answerContent">
+          <div style="font-size:32px;">🤖</div>
+          <h3>AI Chapter Answer</h3>
+          <p style="font-size:17px;line-height:1.8;">
+            ${answer}
+          </p>
+        </div>
+      `;
+
+    }, 500);
+  });
+
+});
+</script>
   
 </body>
 
