@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Concept Quizzer - Quiz</title>
+<link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+
+<div class="quizContainer">
+
+<h1 id="quizTitle">Quiz Loading...</h1>
+
+<p id="quizLevel">Choose Difficulty</p>
+
+<div class="levelGrid">
+
+<button class="level easy" data-level="easy">
+  <div class="recommended">⭐ START HERE</div>
+  <h2>🟢 Easy</h2>
+  <p>10 Questions</p>
+  <span>Beginner Level</span>
+  <div class="levelInfo">⭐ Reward: 100 XP<br>⏱ 5 Minutes</div>
+</button>
+
+<button class="level medium locked" data-level="medium">
+  <div class="lockBadge">🔒 Locked</div>
+  <h2>🔵 Medium</h2>
+  <p>10 Questions</p>
+  <span>2× Tougher than Easy</span>
+  <div class="levelInfo">⭐ Reward: 200 XP<br>⏱ 8 Minutes</div>
+</button>
+
+<button class="level hard locked" data-level="hard">
+  <div class="lockBadge">🔒 Locked</div>
+  <h2>🟠 Hard</h2>
+  <p>15 Questions</p>
+  <span>Concept + Logic</span>
+  <div class="levelInfo">⭐ Reward: 350 XP<br>⏱ 12 Minutes</div>
+</button>
+
+<button class="level tooHard locked" data-level="tooHard">
+  <div class="lockBadge">🔒 Locked</div>
+  <h2>🔴 Too Hard</h2>
+  <p>20 Questions</p>
+  <span>Olympiad Level</span>
+  <div class="levelInfo">⭐ Reward: 600 XP<br>⏱ 18 Minutes</div>
+</button>
+
+<button class="level extreme locked" data-level="extreme">
+  <div class="lockBadge">🔒 Locked</div>
+  <h2>⚫ Extreme</h2>
+  <p>25 Questions</p>
+  <span>Ultimate Challenge</span>
+  <div class="levelInfo">⭐ Reward: 1000 XP<br>⏱ 25 Minutes</div>
+</button>
+
+</div>
+</div>
+
+<script src="js/quiz.js"></script>
+
+<script>
+(function () {
+    const levels = ["easy", "medium", "hard", "tooHard", "extreme"];
+
+    const buttons = {
+        easy: document.querySelector(".level.easy"),
+        medium: document.querySelector(".level.medium"),
+        hard: document.querySelector(".level.hard"),
+        tooHard: document.querySelector(".level.tooHard"),
+        extreme: document.querySelector(".level.extreme")
+    };
+
+    function isUnlocked(level) {
+        if (level === "easy") return true;
+        return localStorage.getItem("cq-unlocked-" + level) === "true";
+    }
+
+    function refreshLocks() {
+        levels.forEach(function (level) {
+            const btn = buttons[level];
+            if (!btn) return;
+
+            const unlocked = isUnlocked(level);
+            btn.classList.toggle("locked", !unlocked);
+            btn.setAttribute("aria-disabled", String(!unlocked));
+
+            let badge = btn.querySelector(".lockBadge");
+
+            if (!unlocked) {
+                if (!badge) {
+                    badge = document.createElement("div");
+                    badge.className = "lockBadge";
+                    btn.prepend(badge);
+                }
+                badge.textContent = "🔒 Locked";
+            } else if (badge) {
+                badge.remove();
+            }
+        });
+    }
+
+    refreshLocks();
+
+    /*
+     * SELF-CONTAINED LEVEL LAUNCHER
+     * Do not depend on js/quiz.js for level navigation.
+     */
+    document.querySelectorAll(".level").forEach(function (btn) {
+        btn.addEventListener("click", function (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+
+            const level = btn.dataset.level;
+
+            if (!isUnlocked(level)) {
+                alert(
+                    "🔒 Level Locked\n\n" +
+                    "Complete the previous level with the required score to unlock this level."
+                );
+                return;
+            }
+
+            localStorage.setItem("cq-selected-level", level);
+
+            // Keep the currently selected chapter intact.
+            // quiz-play.js reads cq-current-chapter.
+            window.location.href = "quiz-play.html";
+        }, true);
+    });
+
+    /* Re-check locks whenever this page becomes visible again. */
+    document.addEventListener("visibilitychange", function () {
+        if (!document.hidden) refreshLocks();
+    });
+})();
+</script>
+
+</body>
+</html>
