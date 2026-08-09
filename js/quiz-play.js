@@ -204,8 +204,14 @@ nextBtn.onclick = function(){
       const passMarks =
 Math.ceil(questions.length * levelInfo.pass / 100);
 
-if(score >= passMarks){
-    earnedXP = levelInfo.xp;
+if(levelInfo.next){
+
+    localStorage.setItem(
+        "cq-unlocked-" + levelInfo.next,
+        "true"
+    );
+
+}
 
     const resultScreen =
 document.getElementById("resultScreen");
@@ -250,6 +256,9 @@ resultScreen.style.display = "flex";
 resultButton.textContent = "Continue →";
 
 resultButton.onclick = function(){
+
+    unlockNextLevel(0);
+
     window.location.href = "quiz.html";
 };
 
