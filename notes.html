@@ -147,17 +147,29 @@ Easy-to-understand notes with important concepts and key points.
   </div>
 
 <div class="readingMode">
-  <button id="listenNotesBtn" class="listenButton">
-    🔊 Listen to Notes
-  </button>
+  <div class="readingTitle">
+    🔊 <span>AI Reading Mode</span>
+  </div>
 
-  <button id="pauseNotesBtn" class="listenButton secondary">
-    ⏸️ Pause
-  </button>
+  <p>Listen to this chapter instead of reading it.</p>
 
-  <button id="stopNotesBtn" class="listenButton secondary">
-    ⏹️ Stop
-  </button>
+  <div class="readingControls">
+    <button id="listenNotesBtn" class="readMainBtn">
+      ▶️ Listen to Notes
+    </button>
+
+    <button id="pauseNotesBtn" class="readControlBtn">
+      ⏸️ Pause
+    </button>
+
+    <button id="stopNotesBtn" class="readControlBtn">
+      ⏹️ Stop
+    </button>
+  </div>
+
+  <div id="readingStatus" class="readingStatus">
+    Ready to read
+  </div>
 </div>
   
 <section
