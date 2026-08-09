@@ -10,8 +10,7 @@ const rawChapterKey =
     localStorage.getItem("cq-current-chapter") ||
     "patterns-in-mathematics";
 
-const chapterKey =
-    rawChapterKey.replace(/^\d+-[^-]+-/, "");
+const chapterKey = rawChapterKey;
 
 const rawLevel =
     localStorage.getItem("cq-selected-level") ||
