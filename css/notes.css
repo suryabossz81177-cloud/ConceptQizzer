@@ -1374,3 +1374,84 @@ body.dark #universalChapterSelect:focus {
   box-shadow:
     0 0 0 4px rgba(146,117,255,0.15);
 }
+
+/* ==================================================
+   CREATIVE CHAPTER SELECTOR — STEP 2
+   Chapter Badge + Premium Select
+================================================== */
+
+.chapterSelectorBox {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Small top accent */
+.chapterSelectorBox::after {
+  content: "LEARNING HUB";
+
+  position: absolute;
+  top: 10px;
+  right: 16px;
+
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+
+  opacity: 0.45;
+}
+
+/* Label becomes a chapter badge */
+.chapterSelectorBox label {
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+
+  padding: 7px 12px;
+  margin-bottom: 12px;
+
+  border-radius: 50px;
+
+  background: rgba(112, 76, 255, 0.10);
+
+  color: #5b3fc4;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* Remove duplicate emoji from previous CSS */
+.chapterSelectorBox label::before {
+  content: none;
+}
+
+/* Select container feel */
+#universalChapterSelect {
+  padding-left: 18px;
+
+  box-shadow:
+    0 5px 15px rgba(112, 76, 255, 0.08);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+/* Make it feel interactive */
+#universalChapterSelect:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 9px 22px rgba(112, 76, 255, 0.14);
+}
+
+/* Dark mode */
+body.dark .chapterSelectorBox label {
+  background: rgba(146, 117, 255, 0.15);
+  color: #b9a8ff;
+}
+
+body.dark .chapterSelectorBox::after {
+  color: #ffffff;
+}
