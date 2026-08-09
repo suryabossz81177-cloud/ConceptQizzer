@@ -1746,3 +1746,93 @@ body.dark .chapterCounter {
   }
 
 }
+
+/* =========================================
+   CHAPTER SELECTOR — FINAL HEADER FIX
+========================================= */
+
+.chapterSelectorBox {
+  position: relative !important;
+
+  width: 270px !important;
+  max-width: 270px !important;
+  min-width: 270px !important;
+
+  flex: 0 0 270px !important;
+
+  margin: 0 !important;
+  padding: 14px !important;
+
+  box-sizing: border-box !important;
+
+  overflow: visible !important;
+
+  border-radius: 22px !important;
+}
+
+
+/* Keep selector contents horizontal */
+
+.chapterSelectorBox label {
+  display: flex !important;
+
+  width: auto !important;
+
+  white-space: nowrap !important;
+
+  margin: 0 0 9px 0 !important;
+
+  padding: 6px 10px !important;
+}
+
+
+/* Actual dropdown */
+
+#universalChapterSelect {
+  display: block !important;
+
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+
+  min-height: 52px !important;
+
+  box-sizing: border-box !important;
+
+  white-space: nowrap !important;
+}
+
+
+/* Remove decorative text if it causes squeezing */
+
+.chapterSelectorBox::after {
+  display: none !important;
+}
+
+
+/* =========================================
+   MOBILE HEADER
+========================================= */
+
+@media (max-width: 700px) {
+
+  .chapterSelectorBox {
+    width: 230px !important;
+    max-width: 230px !important;
+    min-width: 230px !important;
+
+    flex: 0 0 230px !important;
+
+    padding: 11px !important;
+  }
+
+  .chapterSelectorBox label {
+    font-size: 12px !important;
+  }
+
+  #universalChapterSelect {
+    min-height: 48px !important;
+    font-size: 13px !important;
+  }
+
+}
