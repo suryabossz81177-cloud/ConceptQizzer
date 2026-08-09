@@ -14,13 +14,58 @@ function getChapterId() {
 
   const params = new URLSearchParams(window.location.search);
 
-  return (
-    params.get("chapter") ||
-    localStorage.getItem("cq-current-chapter") ||
-    document.body.dataset.chapter ||
-    null
-  );
+  const urlChapter = params.get("chapter");
 
+  if (urlChapter) {
+    localStorage.setItem("cq-current-chapter", urlChapter);
+    return urlChapter;
+  }
+
+  const savedChapter =
+    localStorage.getItem("cq-current-chapter");
+
+  if (savedChapter) {
+    return savedChapter;
+  }
+
+  const bodyChapter =
+    document.body.dataset.chapter;
+
+  if (bodyChapter) {
+    localStorage.setItem(
+      "cq-current-chapter",
+      bodyChapter
+    );
+    return bodyChapter;
+  }
+
+  // Automatic fallback:
+  // use the first enabled chapter
+  // from the universal registry.
+
+  if (
+    Array.isArray(window.ChapterRegistry)
+  ) {
+
+    const firstChapter =
+      window.ChapterRegistry.find(
+        chapter =>
+          chapter &&
+          chapter.enabled !== false
+      );
+
+    if (firstChapter) {
+
+      localStorage.setItem(
+        "cq-current-chapter",
+        firstChapter.id
+      );
+
+      return firstChapter.id;
+    }
+  }
+
+  return null;
 }
 
   function findChapter(id) {
