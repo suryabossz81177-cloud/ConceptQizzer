@@ -1747,46 +1747,120 @@ body.dark .chapterCounter {
 
 }
 
-/* =========================================
-   CHAPTER SELECTOR — FINAL HEADER FIX
-========================================= */
+/* =========================================================
+   CONCEPT QUIZZER — FINAL CREATIVE HEADER
+   Mobile + Desktop Layout Fix
+========================================================= */
+
+/* ---------- DESKTOP ---------- */
+
+.topBar {
+  display: grid !important;
+
+  grid-template-columns:
+    48px
+    minmax(160px, 1fr)
+    minmax(240px, 320px)
+    48px
+    48px
+    70px;
+
+  align-items: center;
+  gap: 14px;
+
+  padding: 16px 22px !important;
+
+  min-height: 82px;
+
+  overflow: visible !important;
+}
+
+.titleArea {
+  min-width: 0 !important;
+  margin: 0 !important;
+}
+
+.titleArea h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* ---------- CREATIVE SELECTOR ---------- */
 
 .chapterSelectorBox {
   position: relative !important;
 
-  width: 270px !important;
-  max-width: 270px !important;
-  min-width: 270px !important;
-
-  flex: 0 0 270px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
 
   margin: 0 !important;
-  padding: 14px !important;
+  padding: 10px !important;
 
   box-sizing: border-box !important;
 
-  overflow: visible !important;
+  border-radius: 20px !important;
 
-  border-radius: 22px !important;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.98),
+      rgba(245,243,255,.98)
+    ) !important;
+
+  border: 1px solid rgba(112,76,255,.16) !important;
+
+  box-shadow:
+    0 8px 22px rgba(70,50,150,.12) !important;
+
+  overflow: hidden !important;
 }
-
-
-/* Keep selector contents horizontal */
 
 .chapterSelectorBox label {
   display: flex !important;
 
-  width: auto !important;
+  align-items: center;
 
-  white-space: nowrap !important;
+  width: fit-content !important;
 
-  margin: 0 0 9px 0 !important;
+  margin: 0 0 6px !important;
+  padding: 4px 9px !important;
 
-  padding: 6px 10px !important;
+  border-radius: 999px;
+
+  background: rgba(112,76,255,.10);
+
+  color: #5b3fc4 !important;
+
+  font-size: 11px !important;
+  font-weight: 800 !important;
+
+  white-space: nowrap;
 }
 
+.chapterSelectorBox label::before {
+  content: none !important;
+}
 
-/* Actual dropdown */
+.chapterSelectorBox::after {
+  content: "CHOOSE CHAPTER" !important;
+
+  position: absolute;
+
+  top: 9px;
+  right: 12px;
+
+  font-size: 7px !important;
+  font-weight: 900;
+
+  letter-spacing: 1px;
+
+  color: #704cff;
+
+  opacity: .55;
+}
 
 #universalChapterSelect {
   display: block !important;
@@ -1795,44 +1869,254 @@ body.dark .chapterCounter {
   min-width: 0 !important;
   max-width: 100% !important;
 
-  min-height: 52px !important;
+  min-height: 42px !important;
+
+  padding: 0 12px !important;
+
+  border-radius: 13px !important;
+
+  border: 2px solid rgba(112,76,255,.20) !important;
+
+  background: #ffffff !important;
+
+  color: #27233d !important;
+
+  font-family: inherit !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
 
   box-sizing: border-box !important;
-
-  white-space: nowrap !important;
 }
 
 
-/* Remove decorative text if it causes squeezing */
+/* ---------- BUTTONS ---------- */
 
-.chapterSelectorBox::after {
-  display: none !important;
+.themeBtn {
+  margin-left: 0 !important;
 }
 
 
-/* =========================================
-   MOBILE HEADER
-========================================= */
+/* =========================================================
+   MOBILE — IMPORTANT FIX
+========================================================= */
 
 @media (max-width: 700px) {
 
-  .chapterSelectorBox {
-    width: 230px !important;
-    max-width: 230px !important;
-    min-width: 230px !important;
+  .topBar {
+    display: grid !important;
 
-    flex: 0 0 230px !important;
+    grid-template-columns:
+      44px
+      minmax(0, 1fr)
+      44px
+      44px
+      58px;
 
-    padding: 11px !important;
+    grid-template-rows:
+      auto
+      auto;
+
+    gap: 10px;
+
+    padding: 12px 14px !important;
+
+    min-height: auto;
+
+    align-items: center;
+
+    overflow: visible !important;
   }
 
-  .chapterSelectorBox label {
-    font-size: 12px !important;
+
+  /* Back button */
+
+  #backButton {
+    grid-column: 1;
+    grid-row: 1;
+
+    width: 44px !important;
+    height: 44px !important;
   }
 
-  #universalChapterSelect {
-    min-height: 48px !important;
+
+  /* Title */
+
+  .titleArea {
+    grid-column: 2;
+    grid-row: 1;
+
+    min-width: 0 !important;
+
+    margin: 0 !important;
+  }
+
+  .titleArea h2 {
+    font-size: 1rem !important;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .titleArea p {
+    font-size: .72rem !important;
+
+    white-space: nowrap;
+  }
+
+
+  /* Bookmark */
+
+  #bookmarkButton {
+    grid-column: 3;
+    grid-row: 1;
+
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+
+  /* Theme */
+
+  #themeToggle {
+    grid-column: 4;
+    grid-row: 1;
+
+    width: 44px !important;
+    height: 44px !important;
+
+    margin-left: 0 !important;
+  }
+
+
+  /* PDF */
+
+  #pdfButton {
+    grid-column: 5;
+    grid-row: 1;
+
+    width: 58px !important;
+    height: 44px !important;
+
+    margin-left: 0 !important;
+
     font-size: 13px !important;
   }
 
+
+  /* SELECTOR = FULL SECOND ROW */
+
+  .chapterSelectorBox {
+    grid-column: 1 / -1;
+    grid-row: 2;
+
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+
+    margin: 2px 0 0 !important;
+
+    padding: 10px !important;
+
+    border-radius: 18px !important;
+  }
+
+
+  .chapterSelectorBox label {
+    font-size: 11px !important;
+
+    margin-bottom: 6px !important;
+  }
+
+
+  .chapterSelectorBox::after {
+    top: 9px;
+    right: 12px;
+
+    font-size: 6px !important;
+  }
+
+
+  #universalChapterSelect {
+    width: 100% !important;
+
+    min-height: 46px !important;
+
+    font-size: 13px !important;
+
+    border-radius: 13px !important;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width: 380px) {
+
+  .topBar {
+    grid-template-columns:
+      42px
+      minmax(0, 1fr)
+      42px
+      42px
+      54px;
+
+    gap: 7px;
+
+    padding: 10px !important;
+  }
+
+  #backButton,
+  #bookmarkButton,
+  #themeToggle {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  #pdfButton {
+    width: 54px !important;
+    height: 42px !important;
+
+    font-size: 11px !important;
+  }
+
+}
+
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark .chapterSelectorBox {
+  background:
+    linear-gradient(
+      135deg,
+      #202238,
+      #302956
+    ) !important;
+
+  border-color:
+    rgba(150,120,255,.20) !important;
+}
+
+body.dark .chapterSelectorBox label {
+  background: rgba(146,117,255,.15);
+
+  color: #c4b5fd !important;
+}
+
+body.dark .chapterSelectorBox::after {
+  color: #c4b5fd;
+}
+
+body.dark #universalChapterSelect {
+  background: #202238 !important;
+
+  color: #ffffff !important;
+
+  border-color:
+    rgba(150,120,255,.35) !important;
 }
