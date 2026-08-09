@@ -4,7 +4,7 @@
   Package 12.5 — Step 2
 ==================================================*/
 
-const ChapterRegistry = [
+window.ChapterRegistry = [
 
   {
     id: "patterns-in-mathematics",
