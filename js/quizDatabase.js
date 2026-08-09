@@ -487,7 +487,6 @@ extreme: [
 ]
       },
 
-,
 "class6-mathematics-lines-and-angles": {
 
   easy: [
