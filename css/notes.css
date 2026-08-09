@@ -892,3 +892,186 @@ box-shadow:0 12px 30px rgba(0,0,0,.35);
 .dark .searchBox input::placeholder{
 color:#b5b5b5;
 }
+
+/* =========================================
+   AI DOUBT SOLVER - PREMIUM LARGE DESIGN
+========================================= */
+
+.doubtSolver {
+  width: calc(100% - 40px);
+  max-width: 1000px;
+  margin: 45px auto;
+  padding: 35px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #ffffff, #f3f0ff);
+  box-shadow: 0 15px 45px rgba(70, 50, 180, 0.18);
+  border: 2px solid rgba(99, 80, 220, 0.12);
+  box-sizing: border-box;
+}
+
+.doubtHeader {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.doubtIcon {
+  width: 78px;
+  height: 78px;
+  min-width: 78px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  background: linear-gradient(135deg, #684cff, #8d5cff);
+  box-shadow: 0 10px 25px rgba(100, 70, 220, 0.3);
+}
+
+.doubtHeader h2 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 800;
+  color: #25233a;
+}
+
+.doubtHeader p {
+  margin: 7px 0 0;
+  font-size: 18px;
+  color: #77758a;
+}
+
+.doubtBox {
+  padding: 25px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(100, 80, 220, 0.08);
+}
+
+#doubtQuestion {
+  width: 100%;
+  min-height: 150px;
+  padding: 20px;
+  border: 2px solid #e2def5;
+  border-radius: 18px;
+  resize: vertical;
+  outline: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #29273a;
+  background: #faf9ff;
+}
+
+#doubtQuestion:focus {
+  border-color: #684cff;
+  box-shadow: 0 0 0 4px rgba(104, 76, 255, 0.12);
+}
+
+#doubtQuestion::placeholder {
+  color: #9996aa;
+}
+
+.askDoubtBtn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 18px 25px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #5d45ed, #814fff);
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(92, 68, 230, 0.28);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.askDoubtBtn:active {
+  transform: scale(0.98);
+}
+
+.doubtAnswer {
+  margin-top: 25px;
+  min-height: 170px;
+  padding: 28px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #f7f5ff, #ffffff);
+  border: 2px dashed #d8d1ff;
+  box-sizing: border-box;
+}
+
+.answerPlaceholder {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.answerPlaceholder:first-letter {
+  font-size: 35px;
+}
+
+.answerPlaceholder h3 {
+  margin: 12px 0 8px;
+  font-size: 22px;
+  color: #38354d;
+}
+
+.answerPlaceholder p {
+  margin: 0;
+  font-size: 17px;
+  color: #858298;
+}
+
+
+/* 📱 MOBILE */
+@media (max-width: 600px) {
+
+  .doubtSolver {
+    width: calc(100% - 24px);
+    margin: 30px auto;
+    padding: 22px 16px;
+    border-radius: 24px;
+  }
+
+  .doubtHeader {
+    gap: 15px;
+  }
+
+  .doubtIcon {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    font-size: 32px;
+    border-radius: 18px;
+  }
+
+  .doubtHeader h2 {
+    font-size: 25px;
+  }
+
+  .doubtHeader p {
+    font-size: 15px;
+  }
+
+  .doubtBox {
+    padding: 16px;
+  }
+
+  #doubtQuestion {
+    min-height: 170px;
+    font-size: 17px;
+    padding: 17px;
+  }
+
+  .askDoubtBtn {
+    font-size: 18px;
+    padding: 17px;
+  }
+
+  .doubtAnswer {
+    min-height: 180px;
+    padding: 20px 15px;
+  }
+}
