@@ -322,8 +322,12 @@ resultScore.textContent =
 resultPercentage.textContent =
 `${percentage}%`;
 
+const earnedXP = Math.round(
+    score >= passMarks ? levelInfo.xp : 0
+);
+
 resultXP.textContent =
-"+0 XP";
+`+${earnedXP} XP`;
 
 resultScreen.style.display = "flex";
 
