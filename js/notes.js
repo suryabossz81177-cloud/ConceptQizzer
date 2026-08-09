@@ -492,13 +492,12 @@ themeBtn.textContent="🌙";
 
 }
 
-});
-
-}
+});    
 
 /*==================================================
   PACKAGE 12
-  AI DOUBT SOLVER — WORKING VERSION
+  AI DOUBT SOLVER — STEP 2
+  SMART CHAPTER ANSWERS
 ==================================================*/
 
 const doubtQuestion = document.getElementById("doubtQuestion");
@@ -525,94 +524,186 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
     }
 
     askDoubtBtn.disabled = true;
-    askDoubtBtn.innerHTML = "⏳ Solving...";
+    askDoubtBtn.innerHTML = "⏳ Thinking...";
 
-    /* Show loading message */
     doubtAnswer.innerHTML = `
       <div class="answerPlaceholder">
         <div style="font-size:50px;">🤖</div>
-        <h3>Finding your answer...</h3>
-        <p>Your question: "${question}"</p>
+        <h3>Thinking...</h3>
+        <p>Finding the best explanation for your question.</p>
       </div>
     `;
 
-    /* Generate answer */
     setTimeout(function () {
 
+      const q = question.toLowerCase();
       let answer = "";
 
-      const q = question.toLowerCase();
-
+      /* WHAT IS A PATTERN */
       if (
-        q.includes("pattern") ||
-        q.includes("what is pattern")
+        q.includes("what is pattern") ||
+        q.includes("define pattern") ||
+        q === "pattern"
       ) {
+
         answer = `
           <h3>📘 What is a Pattern?</h3>
+
           <p>
-            A pattern is a repeated or regular arrangement of
-            numbers, shapes, objects, colours or other things.
+            A <strong>pattern</strong> is a repeated or regular
+            arrangement of numbers, shapes, objects, colours
+            or other things.
           </p>
+
           <div class="exampleBox">
-            <h4>Example</h4>
-            <p>2, 4, 6, 8, 10...</p>
-            <p>Here, 2 is added each time.</p>
+            <h4>💡 Example</h4>
+            <p><strong>2, 4, 6, 8, 10...</strong></p>
+            <p>Here, <strong>2 is added each time.</strong></p>
           </div>
-        `;
-      }
-
-      else if (
-        q.includes("mathematics") ||
-        q.includes("math")
-      ) {
-        answer = `
-          <h3>🧮 Mathematics</h3>
-          <p>
-            Mathematics helps us understand numbers, shapes,
-            patterns, measurements and logical relationships.
-          </p>
-        `;
-      }
-
-      else if (
-        q.includes("example")
-      ) {
-        answer = `
-          <h3>💡 Example of a Pattern</h3>
-          <p>
-            5, 10, 15, 20, 25...
-          </p>
-          <p>
-            The rule is: <strong>add 5 each time.</strong>
-          </p>
-        `;
-      }
-
-      else {
-        answer = `
-          <h3>🤖 Concept Quizzer Answer</h3>
-          <p>
-            Your question was:
-            <strong>${question}</strong>
-          </p>
-
-          <p>
-            This question is related to the chapter.
-            Read the chapter notes and examples carefully
-            to understand the concept.
-          </p>
 
           <div class="tipBox">
-            <h4>🧠 Study Tip</h4>
+            <h4>🧠 Remember</h4>
             <p>
-              Try identifying the rule, definition or example
-              connected with your question.
+              A pattern follows a particular rule.
             </p>
           </div>
         `;
       }
 
-      /* IMPORTANT: Keep answer visible */
+      /* NEXT NUMBER */
+      else if (
+        q.includes("next number") ||
+        q.includes("next term") ||
+        q.includes("what comes next")
+      ) {
+
+        answer = `
+          <h3>🔢 Finding the Next Number</h3>
+
+          <p>
+            To find the next number in a pattern,
+            first look for the <strong>rule</strong>.
+          </p>
+
+          <div class="exampleBox">
+            <h4>Example</h4>
+            <p><strong>5, 10, 15, 20, ?</strong></p>
+            <p>Rule: Add 5 each time.</p>
+            <p><strong>Answer: 25</strong></p>
+          </div>
+        `;
+      }
+
+      /* NUMBER PATTERN */
+      else if (
+        q.includes("number pattern") ||
+        q.includes("number sequence") ||
+        q.includes("sequence")
+      ) {
+
+        answer = `
+          <h3>🔢 Number Patterns</h3>
+
+          <p>
+            A number pattern is a sequence of numbers
+            that follows a particular rule.
+          </p>
+
+          <div class="exampleBox">
+            <h4>Example 1</h4>
+            <p><strong>2, 4, 6, 8, 10...</strong></p>
+            <p>Rule: Add 2.</p>
+          </div>
+
+          <div class="exampleBox">
+            <h4>Example 2</h4>
+            <p><strong>5, 10, 15, 20...</strong></p>
+            <p>Rule: Add 5.</p>
+          </div>
+        `;
+      }
+
+      /* ODD EVEN */
+      else if (
+        q.includes("odd") ||
+        q.includes("even")
+      ) {
+
+        answer = `
+          <h3>🔵 Odd and Even Number Patterns</h3>
+
+          <p>
+            Even numbers are divisible by 2.
+          </p>
+
+          <div class="exampleBox">
+            <h4>Even Pattern</h4>
+            <p><strong>2, 4, 6, 8, 10...</strong></p>
+            <p>Rule: Add 2.</p>
+          </div>
+
+          <div class="exampleBox">
+            <h4>Odd Pattern</h4>
+            <p><strong>1, 3, 5, 7, 9...</strong></p>
+            <p>Rule: Add 2.</p>
+          </div>
+        `;
+      }
+
+      /* RULE */
+      else if (
+        q.includes("rule") ||
+        q.includes("how to find")
+      ) {
+
+        answer = `
+          <h3>🧠 How to Find the Rule</h3>
+
+          <p>
+            Compare two consecutive numbers or objects.
+            Check whether something is being added,
+            subtracted, multiplied or repeated.
+          </p>
+
+          <div class="exampleBox">
+            <h4>Example</h4>
+            <p><strong>10, 15, 20, 25...</strong></p>
+            <p>15 − 10 = 5</p>
+            <p>20 − 15 = 5</p>
+            <p>So the rule is <strong>+5</strong>.</p>
+          </div>
+        `;
+      }
+
+      /* GENERAL CHAPTER QUESTION */
+      else {
+
+        answer = `
+          <h3>🤖 Concept Quizzer</h3>
+
+          <p>
+            You asked:
+            <strong>${question}</strong>
+          </p>
+
+          <div class="tipBox">
+            <h4>💡 How to solve it</h4>
+            <p>
+              Look carefully at the numbers or objects and
+              identify the rule that is repeating or changing.
+            </p>
+          </div>
+
+          <div class="exampleBox">
+            <h4>📚 Example</h4>
+            <p><strong>3, 6, 9, 12...</strong></p>
+            <p>The rule is <strong>add 3</strong>.</p>
+            <p>The next number is <strong>15</strong>.</p>
+          </div>
+        `;
+      }
+
+      /* SHOW ANSWER AND KEEP IT VISIBLE */
       doubtAnswer.innerHTML = `
         <div class="answerPlaceholder">
           ${answer}
@@ -626,4 +717,4 @@ if (askDoubtBtn && doubtQuestion && doubtAnswer) {
 
   });
 
-}
+    }
