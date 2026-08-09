@@ -507,7 +507,8 @@ const doubtAnswer = document.getElementById("doubtAnswer");
 
 if (askDoubtBtn) {
 
-  askDoubtBtn.addEventListener("click", function () {
+  askDoubtBtn.addEventListener("click", function (e) {
+    e.preventDefault();
 
     const question = doubtQuestion.value.trim();
 
@@ -535,21 +536,8 @@ if (askDoubtBtn) {
 
     setTimeout(() => {
 
-      askDoubtBtn.disabled = false;
-      askDoubtBtn.innerHTML = "🤖 Ask AI";
-
-      doubtAnswer.innerHTML = `
-        <div class="answerPlaceholder">
-          🧠
-          <h3>AI Doubt Solver is ready!</h3>
-          <p>
-            Your question has been received successfully.
-            The AI connection will be added in the next step.
-          </p>
-        </div>
-      `;
-
-    }, 1000);
+  askDoubtBtn.disabled = false;
+askDoubtBtn.innerHTML = "🤖 Ask AI";
 
   });
 
