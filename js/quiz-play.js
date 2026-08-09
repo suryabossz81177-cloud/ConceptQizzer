@@ -1,5 +1,6 @@
 const selectedLevel =
 localStorage.getItem("cq-selected-level") || "easy";
+
 console.log("Selected level:", selectedLevel);
 console.log("Questions loaded:", questions.length);
 const chapterKey =
