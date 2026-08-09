@@ -258,6 +258,9 @@ document.getElementById("resultButton");
 const percentage =
 Math.round((score / questions.length) * 100);
 
+        const earnedXP =
+    score >= passMarks ? levelInfo.xp : 0;
+
 resultTitle.textContent = "🎉 Level Passed!";
 
 resultMessage.textContent =
