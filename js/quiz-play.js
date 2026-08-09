@@ -61,8 +61,6 @@ const levelInfo = LEVEL_CONFIG[level] || LEVEL_CONFIG.easy;
 
 let questions = [];
 
-let questions = [];
-
 function normalizeChapterKey(key) {
     return String(key || "")
         .toLowerCase()
