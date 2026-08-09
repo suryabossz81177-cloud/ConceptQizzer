@@ -15,7 +15,7 @@ const selectedLevel =
     LEVEL_ALIASES[rawLevel] || "easy";
 
 console.log("Selected level:", selectedLevel);
-console.log("Questions loaded:", questions.length);
+
 const chapterKey =
 localStorage.getItem("cq-current-chapter") || "";
 
