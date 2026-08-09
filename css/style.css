@@ -1194,3 +1194,40 @@ color:white;
     background:linear-gradient(90deg,#22c55e,#4ade80);
     transition:width .5s ease;
 }
+
+/* ===== ACHIEVEMENTS HEADER BUTTON FIX ===== */
+
+.headerActions{
+  display:flex !important;
+  align-items:center;
+  gap:10px;
+  flex-wrap:nowrap !important;
+  overflow:visible !important;
+}
+
+.headerActions .iconButton{
+  display:flex !important;
+  align-items:center;
+  justify-content:center;
+  visibility:visible !important;
+  opacity:1 !important;
+  flex-shrink:0 !important;
+}
+
+/* Mobile */
+@media (max-width:600px){
+  .headerActions{
+    gap:6px;
+  }
+
+  .headerActions .iconButton{
+    width:52px;
+    height:52px;
+    min-width:52px;
+    padding:0;
+  }
+
+  .headerActions .material-icons-round{
+    font-size:25px;
+  }
+}
