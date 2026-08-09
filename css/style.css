@@ -1333,3 +1333,38 @@ color:white;
     font-size: 21px !important;
   }
 }
+
+/* ===== PACKAGE 11D — PDF DOWNLOAD ===== */
+
+.pdfDownloadButton {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #5b5cf0, #7c3aed);
+  color: white;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(91,92,240,.25);
+  transition: .25s ease;
+}
+
+.pdfDownloadButton:hover {
+  transform: translateY(-3px);
+}
+
+.pdfDownloadButton:active {
+  transform: scale(.97);
+}
+
+@media(max-width:600px) {
+  .pdfDownloadButton {
+    width: 90%;
+    font-size: 16px;
+  }
+}
