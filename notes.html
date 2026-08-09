@@ -269,6 +269,49 @@ function downloadChapterPDF() {
 }
   </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const listenBtn = document.getElementById("listenNotesBtn");
+  const pauseBtn = document.getElementById("pauseNotesBtn");
+  const stopBtn = document.getElementById("stopNotesBtn");
+  const notesContent = document.getElementById("notesContent");
+
+  if (!listenBtn || !notesContent) return;
+
+  let speech = null;
+
+  listenBtn.addEventListener("click", function () {
+    window.speechSynthesis.cancel();
+
+    const text = notesContent.innerText.trim();
+
+    if (!text) {
+      alert("No notes available to read.");
+      return;
+    }
+
+    speech = new SpeechSynthesisUtterance(text);
+    speech.rate = 0.9;
+    speech.pitch = 1;
+    speech.volume = 1;
+
+    window.speechSynthesis.speak(speech);
+  });
+
+  pauseBtn.addEventListener("click", function () {
+    if (window.speechSynthesis.speaking) {
+      window.speechSynthesis.pause();
+    }
+  });
+
+  stopBtn.addEventListener("click", function () {
+    window.speechSynthesis.cancel();
+  });
+
+});
+</script>
+  
 </body>
 
 </html>
