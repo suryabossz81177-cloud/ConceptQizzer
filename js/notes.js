@@ -495,3 +495,62 @@ themeBtn.textContent="🌙";
 });
 
 }
+
+/*==================================================
+  PACKAGE 12
+  AI DOUBT SOLVER — STEP 1
+==================================================*/
+
+const doubtQuestion = document.getElementById("doubtQuestion");
+const askDoubtBtn = document.getElementById("askDoubtBtn");
+const doubtAnswer = document.getElementById("doubtAnswer");
+
+if (askDoubtBtn) {
+
+  askDoubtBtn.addEventListener("click", function () {
+
+    const question = doubtQuestion.value.trim();
+
+    if (!question) {
+      doubtAnswer.innerHTML = `
+        <div class="answerPlaceholder">
+          ⚠️
+          <h3>Please type a question</h3>
+          <p>Ask something related to this chapter.</p>
+        </div>
+      `;
+      return;
+    }
+
+    askDoubtBtn.disabled = true;
+    askDoubtBtn.innerHTML = "⏳ Thinking...";
+
+    doubtAnswer.innerHTML = `
+      <div class="answerPlaceholder">
+        🤖
+        <h3>AI is preparing your answer...</h3>
+        <p>Your question: "${question}"</p>
+      </div>
+    `;
+
+    setTimeout(() => {
+
+      askDoubtBtn.disabled = false;
+      askDoubtBtn.innerHTML = "🤖 Ask AI";
+
+      doubtAnswer.innerHTML = `
+        <div class="answerPlaceholder">
+          🧠
+          <h3>AI Doubt Solver is ready!</h3>
+          <p>
+            Your question has been received successfully.
+            The AI connection will be added in the next step.
+          </p>
+        </div>
+      `;
+
+    }, 1000);
+
+  });
+
+}
