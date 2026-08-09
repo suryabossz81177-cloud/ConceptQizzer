@@ -1455,3 +1455,294 @@ body.dark .chapterSelectorBox label {
 body.dark .chapterSelectorBox::after {
   color: #ffffff;
 }
+
+/* ==================================================
+   UNIVERSAL CHAPTER NAVIGATION
+   CREATIVE STEP 5
+================================================== */
+
+.navigationButtons {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 30px auto 10px;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+
+  align-items: center;
+  gap: 12px;
+}
+
+
+/* =========================================
+   PREVIOUS / NEXT BUTTON
+========================================= */
+
+.navigationButtons .navButton {
+  min-height: 58px;
+
+  padding: 10px 16px;
+
+  border: 1px solid rgba(112, 76, 255, 0.16);
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #f7f5ff
+    );
+
+  color: #30274d;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 7px 20px rgba(70, 50, 150, 0.10);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+
+/* Previous */
+
+#previousChapter {
+  justify-self: start;
+}
+
+
+/* Next */
+
+#nextChapter {
+  justify-self: end;
+}
+
+
+/* Hover */
+
+.navigationButtons .navButton:not(:disabled):hover {
+
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(112, 76, 255, 0.40);
+
+  box-shadow:
+    0 12px 26px rgba(70, 50, 150, 0.16);
+}
+
+
+/* Press */
+
+.navigationButtons .navButton:not(:disabled):active {
+
+  transform: translateY(0);
+
+}
+
+
+/* Disabled */
+
+.navigationButtons .navButton:disabled {
+
+  opacity: 0.42;
+
+  cursor: not-allowed;
+
+  box-shadow: none;
+
+  transform: none;
+}
+
+
+/* =========================================
+   CHAPTER COUNTER
+========================================= */
+
+.chapterCounter {
+
+  min-width: 82px;
+
+  padding: 10px 13px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f0ebff,
+      #ffffff
+    );
+
+  border:
+    1px solid rgba(112, 76, 255, 0.16);
+
+  box-shadow:
+    0 6px 18px rgba(70, 50, 150, 0.09);
+
+  text-align: center;
+
+  color: #4a397b;
+
+  line-height: 1.1;
+}
+
+
+.chapterCounter strong {
+
+  display: inline-block;
+
+  font-size: 21px;
+
+  font-weight: 900;
+
+}
+
+
+.chapterCounter .counterDivider {
+
+  margin: 0 3px;
+
+  opacity: 0.45;
+
+  font-weight: 700;
+}
+
+
+.chapterCounter > span:last-child {
+
+  font-size: 15px;
+
+  font-weight: 800;
+
+}
+
+
+.chapterCounter .counterSmall {
+
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-size: 8px;
+
+  font-weight: 900;
+
+  letter-spacing: 1.3px;
+
+  opacity: 0.6;
+}
+
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark .navigationButtons .navButton {
+
+  background:
+    linear-gradient(
+      135deg,
+      #292b46,
+      #202238
+    );
+
+  color: #ffffff;
+
+  border-color:
+    rgba(150, 120, 255, 0.18);
+
+  box-shadow:
+    0 8px 22px rgba(0,0,0,0.25);
+}
+
+
+body.dark .chapterCounter {
+
+  background:
+    linear-gradient(
+      145deg,
+      #302956,
+      #24243b
+    );
+
+  color: #dcd2ff;
+
+  border-color:
+    rgba(150, 120, 255, 0.20);
+
+  box-shadow:
+    0 8px 22px rgba(0,0,0,0.28);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .navigationButtons {
+
+    grid-template-columns:
+      1fr auto 1fr;
+
+    gap: 7px;
+
+    margin-top: 24px;
+
+  }
+
+
+  .navigationButtons .navButton {
+
+    min-height: 52px;
+
+    padding: 8px 10px;
+
+    border-radius: 15px;
+
+    font-size: 12px;
+
+  }
+
+
+  .chapterCounter {
+
+    min-width: 65px;
+
+    padding: 8px 7px;
+
+    border-radius: 15px;
+
+  }
+
+
+  .chapterCounter strong {
+
+    font-size: 18px;
+
+  }
+
+
+  .chapterCounter .counterSmall {
+
+    font-size: 7px;
+
+  }
+
+}
