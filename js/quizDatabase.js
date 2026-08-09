@@ -1054,3 +1054,626 @@ extreme: [
     }
   }
 };
+
+/*==================================================
+  PACKAGE 13.1.3 — STEP 2
+  CLASS 6 • MATHEMATICS • NUMBER PLAY
+  Quiz database addition
+==================================================*/
+
+"use strict";
+
+/*
+  IMPORTANT:
+  Paste this block at the VERY END of quizDatabase.js,
+  AFTER the main `quizDatabase = { ... };` declaration.
+
+  It does NOT replace the existing database.
+*/
+
+quizDatabase.class6 = quizDatabase.class6 || {};
+quizDatabase.class6.mathematics =
+  quizDatabase.class6.mathematics || {};
+
+quizDatabase.class6.mathematics["number-play"] = {
+
+  easy: [
+    {
+      question: "Which number is a palindrome?",
+      options: ["1234", "1331", "1243", "1456"],
+      answer: 1
+    },
+    {
+      question: "What is the smallest 4-digit number that can be made using 2, 3, 4 and 7 once each?",
+      options: ["2347", "2374", "2437", "2734"],
+      answer: 0
+    },
+    {
+      question: "What is the largest 4-digit number that can be made using 2, 3, 4 and 7 once each?",
+      options: ["7234", "7423", "7432", "7342"],
+      answer: 2
+    },
+    {
+      question: "Which number is the same when read forwards and backwards?",
+      options: ["2451", "3443", "4512", "5632"],
+      answer: 1
+    },
+    {
+      question: "In the Collatz process, what is done to an even number?",
+      options: ["Multiply by 3", "Add 1", "Divide by 2", "Square it"],
+      answer: 2
+    },
+    {
+      question: "In the Collatz process, what is done to an odd number?",
+      options: ["Divide by 2", "Multiply by 3 and add 1", "Subtract 1", "Multiply by 2"],
+      answer: 1
+    },
+    {
+      question: "What is estimation?",
+      options: [
+        "Finding an exact answer every time",
+        "Finding a reasonable approximate value",
+        "Guessing without thinking",
+        "Ignoring the data"
+      ],
+      answer: 1
+    },
+    {
+      question: "What is Kaprekar's constant for the suitable 4-digit routine?",
+      options: ["6174", "6147", "6741", "6471"],
+      answer: 0
+    },
+    {
+      question: "Which is a useful reason for studying number puzzles?",
+      options: [
+        "They develop logical thinking",
+        "They remove the need for calculation",
+        "They make every answer exact",
+        "They are only games"
+      ],
+      answer: 0
+    },
+    {
+      question: "What should you do before deciding the rule of a number pattern?",
+      options: [
+        "Guess immediately",
+        "Check several terms",
+        "Choose the biggest number",
+        "Ignore the first term"
+      ],
+      answer: 1
+    }
+  ],
+
+  medium: [
+    {
+      question: "What is the difference between the largest and smallest numbers made from 2, 3, 4 and 7?",
+      options: ["5085", "5185", "5095", "5075"],
+      answer: 0
+    },
+    {
+      question: "Which number is NOT palindromic?",
+      options: ["1221", "2442", "3553", "1231"],
+      answer: 3
+    },
+    {
+      question: "Starting with 6, what is the next number in the Collatz process?",
+      options: ["18", "12", "3", "2"],
+      answer: 2
+    },
+    {
+      question: "After 3 in the Collatz process, what comes next?",
+      options: ["4", "8", "9", "10"],
+      answer: 3
+    },
+    {
+      question: "Which number is formed by arranging 8, 1, 5 and 3 in descending order?",
+      options: ["1358", "8531", "8513", "8351"],
+      answer: 1
+    },
+    {
+      question: "Which number is formed by arranging 8, 1, 5 and 3 in ascending order?",
+      options: ["1358", "1385", "1538", "1835"],
+      answer: 0
+    },
+    {
+      question: "A reasonable estimate should be:",
+      options: [
+        "Random",
+        "Close enough for the purpose",
+        "Always exact",
+        "Always smaller than the real value"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which time shows repeated digits?",
+      options: ["10:24", "11:11", "12:34", "09:27"],
+      answer: 1
+    },
+    {
+      question: "Why can a number string that looks like a time still be invalid?",
+      options: [
+        "Clock notation has fixed limits",
+        "All repeated digits are invalid",
+        "Times cannot contain zero",
+        "Hours never use digits"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which is the best first step in a number-puzzle problem?",
+      options: [
+        "Look for the rule or condition",
+        "Write a random answer",
+        "Skip the data",
+        "Use multiplication every time"
+      ],
+      answer: 0
+    }
+  ],
+
+  hard: [
+    {
+      question: "What is 7432 − 2347?",
+      options: ["5085", "5185", "4985", "5075"],
+      answer: 0
+    },
+    {
+      question: "What is 7432 + 2347?",
+      options: ["9679", "9779", "9789", "9879"],
+      answer: 1
+    },
+    {
+      question: "Which sequence follows a multiply-by-2 rule?",
+      options: ["3, 6, 12, 24", "2, 5, 8, 11", "20, 18, 16, 14", "1, 4, 7, 10"],
+      answer: 0
+    },
+    {
+      question: "Which sequence follows a subtract-5 rule?",
+      options: ["30, 25, 20, 15", "2, 7, 12, 17", "3, 6, 12, 24", "4, 8, 16, 32"],
+      answer: 0
+    },
+    {
+      question: "If a number is 64 and the rule is divide by 2 repeatedly, what is the next term?",
+      options: ["16", "32", "128", "62"],
+      answer: 1
+    },
+    {
+      question: "Which number is a palindrome?",
+      options: ["4004", "4014", "4104", "4401"],
+      answer: 0
+    },
+    {
+      question: "For a suitable 4-digit Kaprekar routine, what operation is repeated?",
+      options: [
+        "Add ascending and descending numbers",
+        "Subtract the smaller arrangement from the larger arrangement",
+        "Multiply both arrangements",
+        "Divide the larger by the smaller"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which statement about the Collatz conjecture is correct?",
+      options: [
+        "It has been proved for every positive integer",
+        "It is an unsolved conjecture",
+        "It applies only to even numbers",
+        "It always reaches 6174"
+      ],
+      answer: 1
+    },
+    {
+      question: "Why is estimation useful before an exact calculation?",
+      options: [
+        "It can provide a quick reasonableness check",
+        "It guarantees the exact answer",
+        "It removes the need to understand the problem",
+        "It always gives a smaller value"
+      ],
+      answer: 0
+    },
+    {
+      question: "If a pattern fits the first two terms but fails on later terms, what should you do?",
+      options: [
+        "Keep the same rule",
+        "Recheck and find a rule that fits all relevant terms",
+        "Ignore the later terms",
+        "Choose the largest term"
+      ],
+      answer: 1
+    },
+    {
+      question: "What is 3 × 3 + 1?",
+      options: ["9", "10", "11", "12"],
+      answer: 1
+    },
+    {
+      question: "Starting from 10 in the Collatz process, what is the next term?",
+      options: ["5", "20", "31", "4"],
+      answer: 0
+    },
+    {
+      question: "Which pair contains two palindromic numbers?",
+      options: ["121 and 1331", "123 and 132", "245 and 542", "120 and 121"],
+      answer: 0
+    },
+    {
+      question: "What is the smallest number using 1, 5, 8 and 9 once each?",
+      options: ["1589", "1859", "1598", "1958"],
+      answer: 0
+    },
+    {
+      question: "What is the largest number using 1, 5, 8 and 9 once each?",
+      options: ["9851", "9815", "9581", "8951"],
+      answer: 0
+    }
+  ],
+
+  tooHard: [
+    {
+      question: "Apply one Kaprekar step to 3524. What is the result?",
+      options: ["3087", "3088", "3097", "3187"],
+      answer: 0
+    },
+    {
+      question: "Apply one Kaprekar step to 2110.",
+      options: ["0999", "0990", "1089", "999"],
+      answer: 0
+    },
+    {
+      question: "Starting with 13 in the Collatz process, what is the first next term?",
+      options: ["26", "39", "40", "42"],
+      answer: 1
+    },
+    {
+      question: "Starting with 13, what is the second term after applying the Collatz rule twice?",
+      options: ["20", "40", "41", "42"],
+      answer: 1
+    },
+    {
+      question: "Which statement best describes a number pattern?",
+      options: [
+        "It must always use addition",
+        "It follows a rule connecting its terms",
+        "It must contain only even numbers",
+        "It must be increasing"
+      ],
+      answer: 1
+    },
+    {
+      question: "If a 4-digit number has all four digits equal, why is the usual Kaprekar routine not a suitable test for the 6174 result?",
+      options: [
+        "There are not four distinct arrangements producing the required difference",
+        "The number is too large",
+        "All digits become negative",
+        "Kaprekar uses only 3-digit numbers"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which is the best reason to verify an estimated answer?",
+      options: [
+        "To see whether the estimate is sensible",
+        "To make the estimate exact",
+        "To avoid understanding units",
+        "To guarantee zero error"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which number is both a palindrome and a multiple of 11?",
+      options: ["121", "123", "125", "127"],
+      answer: 0
+    },
+    {
+      question: "If the rule is 'add 3, then multiply by 2', starting from 4, what is the next term?",
+      options: ["11", "14", "8", "7"],
+      answer: 0
+    },
+    {
+      question: "For the pattern 4, 7, 13, 25, the rule from one term to the next is:",
+      options: [
+        "Multiply by 2 and subtract 1",
+        "Add 3 each time",
+        "Multiply by 3",
+        "Subtract 1 each time"
+      ],
+      answer: 0
+    },
+    {
+      question: "What is the main mathematical skill developed by digit-rearrangement puzzles?",
+      options: [
+        "Understanding place value",
+        "Memorising tables only",
+        "Drawing circles",
+        "Measuring temperature"
+      ],
+      answer: 0
+    },
+    {
+      question: "Why is a clock-pattern puzzle different from an unrestricted digit puzzle?",
+      options: [
+        "Valid times must obey hour and minute limits",
+        "Clocks cannot show repeated digits",
+        "Clocks have no numbers",
+        "All times are palindromes"
+      ],
+      answer: 0
+    },
+    {
+      question: "What is the next Collatz term after 16?",
+      options: ["8", "32", "49", "15"],
+      answer: 0
+    },
+    {
+      question: "What is the next Collatz term after 5?",
+      options: ["10", "15", "16", "11"],
+      answer: 2
+    },
+    {
+      question: "Which strategy is strongest when solving an unfamiliar number puzzle?",
+      options: [
+        "Test small cases and identify a rule",
+        "Guess the final answer",
+        "Use only multiplication",
+        "Ignore exceptions"
+      ],
+      answer: 0
+    },
+    {
+      question: "A good mathematical rule should:",
+      options: [
+        "Explain the observed terms consistently",
+        "Work for only one example",
+        "Always increase numbers",
+        "Never use subtraction"
+      ],
+      answer: 0
+    },
+    {
+      question: "What does a palindrome demonstrate about its digits?",
+      options: [
+        "A form of left-right symmetry",
+        "That all digits are even",
+        "That the number is prime",
+        "That the digits are increasing"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which is an example of estimation?",
+      options: [
+        "Saying a 198-page book has about 200 pages",
+        "Counting exactly 198 pages",
+        "Writing 198 as 189",
+        "Ignoring the number of pages"
+      ],
+      answer: 0
+    },
+    {
+      question: "Why should units be considered when estimating a quantity?",
+      options: [
+        "The unit gives meaning to the estimate",
+        "Units always make estimates exact",
+        "Units are unnecessary",
+        "Units change every number to zero"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which process is algorithmic because it follows fixed steps?",
+      options: [
+        "Kaprekar's routine",
+        "Random guessing",
+        "Choosing any number",
+        "Drawing a picture"
+      ],
+      answer: 0
+    }
+  ],
+
+  extreme: [
+    {
+      question: "What is one Kaprekar step for 6174 itself?",
+      options: ["6174", "6147", "6417", "6741"],
+      answer: 0
+    },
+    {
+      question: "Why does 6174 remain unchanged under the suitable 4-digit Kaprekar routine?",
+      options: [
+        "7641 − 1467 = 6174",
+        "6174 − 6174 = 6174",
+        "7164 − 1467 = 6174",
+        "7641 + 1467 = 6174"
+      ],
+      answer: 0
+    },
+    {
+      question: "Starting with 27, the Collatz sequence begins 27, 82, 41, ... What is the next term?",
+      options: ["82", "123", "124", "83"],
+      answer: 2
+    },
+    {
+      question: "For the Collatz sequence starting at 10, how many steps are needed to reach 1?",
+      options: ["4", "5", "6", "7"],
+      answer: 2
+    },
+    {
+      question: "If a number pattern is 2, 5, 11, 23, 47, what is the rule?",
+      options: [
+        "Multiply by 2 and add 1",
+        "Add consecutive odd numbers",
+        "Multiply by 3 and subtract 1",
+        "Add 3 each time"
+      ],
+      answer: 0
+    },
+    {
+      question: "Using digits 1, 2, 3 and 4 once each, what is the difference between the largest and smallest numbers?",
+      options: ["3087", "3086", "3078", "3187"],
+      answer: 0
+    },
+    {
+      question: "Which number is the smallest 5-digit palindrome using 1, 2, 3, 4 and 5 as its first five digits in a symmetric construction?",
+      options: ["12321", "12341", "12421", "12521"],
+      answer: 0
+    },
+    {
+      question: "What is the key idea behind a supercell puzzle?",
+      options: [
+        "Compare a cell with every required neighbour",
+        "Choose the centre cell automatically",
+        "Choose the largest number in the whole grid",
+        "Choose every even number"
+      ],
+      answer: 0
+    },
+    {
+      question: "Why is the Collatz statement called a conjecture?",
+      options: [
+        "It is believed to be true but has not been proved for all positive integers",
+        "It is known to be false",
+        "It applies only to decimals",
+        "It was proved centuries ago"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which statement about estimation is strongest?",
+      options: [
+        "The best estimate depends on the purpose and available information",
+        "Every estimate must be exact",
+        "Estimation is useful only in mathematics exams",
+        "A smaller estimate is always better"
+      ],
+      answer: 0
+    },
+    {
+      question: "If a sequence follows the rule 'multiply by 3 and subtract 2', what comes after 8?",
+      options: ["22", "24", "26", "28"],
+      answer: 0
+    },
+    {
+      question: "For the sequence 1, 4, 10, 22, 46, what is the rule?",
+      options: [
+        "Multiply by 2 and add 2",
+        "Multiply by 2 and subtract 1",
+        "Add 6 each time",
+        "Multiply by 3 and add 1"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which property makes 1221 a palindrome?",
+      options: [
+        "The first and last digits match and the middle pair matches",
+        "All digits are prime",
+        "The number is even",
+        "Its digits increase"
+      ],
+      answer: 0
+    },
+    {
+      question: "Why is testing several terms important when finding a pattern rule?",
+      options: [
+        "Different rules can fit a small number of terms",
+        "The first term is always wrong",
+        "Patterns never have rules",
+        "More terms make every answer exact"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which activity most directly combines place value and algorithmic thinking?",
+      options: [
+        "Kaprekar's routine",
+        "Colouring a shape",
+        "Reading a clock",
+        "Counting objects"
+      ],
+      answer: 0
+    },
+    {
+      question: "If an estimate is 500 and the actual value is 492, the estimate is:",
+      options: [
+        "Reasonably close",
+        "Exactly correct",
+        "Always wrong",
+        "Impossible to compare"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which is a valid 4-digit number for studying the usual Kaprekar routine?",
+      options: ["3524", "1111", "2222", "0000"],
+      answer: 0
+    },
+    {
+      question: "What is the main lesson of the number games in this chapter?",
+      options: [
+        "Simple rules can create rich mathematical patterns",
+        "All mathematics is guessing",
+        "Only calculators can solve number problems",
+        "Patterns cannot be explained"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which statement best describes computational thinking?",
+      options: [
+        "Breaking a problem into logical, testable steps",
+        "Doing calculations without a plan",
+        "Memorising every possible answer",
+        "Avoiding patterns"
+      ],
+      answer: 0
+    },
+    {
+      question: "A mathematical puzzle is most convincing when the proposed rule:",
+      options: [
+        "Explains all the relevant observations and survives checking",
+        "Works only once",
+        "Produces the biggest answer",
+        "Uses the most operations"
+      ],
+      answer: 0
+    },
+    {
+      question: "What should you do if your first rule fails on a later term?",
+      options: [
+        "Reject or revise the rule and test a better one",
+        "Ignore the later term",
+        "Change the question",
+        "Keep the rule without checking"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which pair contains two numbers with the same digits in reverse order?",
+      options: ["123 and 321", "124 and 421", "135 and 351", "All of these"],
+      answer: 3
+    },
+    {
+      question: "What is the first result when applying the Collatz rule to 7?",
+      options: ["14", "21", "22", "8"],
+      answer: 2
+    },
+    {
+      question: "What is the next result after 22 in the Collatz sequence?",
+      options: ["11", "44", "67", "10"],
+      answer: 0
+    },
+    {
+      question: "Which statement is true about number patterns?",
+      options: [
+        "A pattern may use different operations if a definite rule explains the terms",
+        "Every pattern must add the same number",
+        "Every pattern must multiply by the same number",
+        "Every pattern must increase"
+      ],
+      answer: 0
+    }
+  ]
+};
