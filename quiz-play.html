@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Quiz</title>
+
+<link rel="stylesheet" href="css/quiz-play.css">
+
+</head>
+
+<body>
+
+<div class="quizBox">
+
+<div class="topBar">
+
+<div id="questionNumber">
+Question 1 / 10
+</div>
+
+<div id="timer">05:00</div>
+
+
+</div>
+
+<h2 id="question">
+
+Loading...
+
+</h2>
+
+<div id="options">
+
+</div>
+
+<button id="nextBtn">
+
+Next →
+
+</button>
+
+  <div id="resultScreen" style="display:none;">
+  <div class="resultCard">
+
+    <div class="resultIcon">🎉</div>
+
+    <h1 id="resultTitle">Quiz Complete!</h1>
+
+    <p id="resultMessage">Great job!</p>
+
+    <div class="resultStats">
+
+      <div>
+        <strong id="resultScore">0/10</strong>
+        <span>Score</span>
+      </div>
+
+      <div>
+        <strong id="resultPercentage">0%</strong>
+        <span>Percentage</span>
+      </div>
+
+      <div>
+        <strong id="resultXP">+0 XP</strong>
+        <span>XP Earned</span>
+      </div>
+
+    </div>
+
+    <button id="resultButton">
+      Continue →
+    </button>
+
+  </div>
+  </div>
+
+</div>
+
+<script src="js/quizDatabase.js?v=4"></script>
+<script src="js/quiz-play.js?v=5"></script>
+
+</body>
+</html>
