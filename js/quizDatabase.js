@@ -485,7 +485,573 @@ extreme: [
     answer: 1
   }
 ]
+      },
+
+,
+"class6-mathematics-lines-and-angles": {
+
+  easy: [
+    {
+      question: "Which figure has two endpoints?",
+      options: [
+        "Line",
+        "Line segment",
+        "Ray",
+        "Point"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which figure has exactly one endpoint?",
+      options: [
+        "Line",
+        "Line segment",
+        "Ray",
+        "Point"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "What are three or more points on the same straight line called?",
+      options: [
+        "Parallel points",
+        "Collinear points",
+        "Angular points",
+        "Reflex points"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "The common endpoint of the two rays forming an angle is called the:",
+      options: [
+        "Arm",
+        "Side",
+        "Vertex",
+        "Line"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle measures exactly 90°?",
+      options: [
+        "Acute angle",
+        "Right angle",
+        "Obtuse angle",
+        "Straight angle"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which of these is an acute angle?",
+      options: [
+        "45°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which of these is an obtuse angle?",
+      options: [
+        "30°",
+        "75°",
+        "90°",
+        "120°"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "A straight angle measures:",
+      options: [
+        "90°",
+        "120°",
+        "180°",
+        "360°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle is greater than 180° but less than 360°?",
+      options: [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Reflex"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "In ∠ABC, which letter represents the vertex?",
+      options: [
+        "A",
+        "B",
+        "C",
+        "None"
+      ],
+      answer: 1
+    }
+  ],
+
+  medium: [
+    {
+      question: "Which statement about a ray is correct?",
+      options: [
+        "It has no endpoint",
+        "It has two endpoints",
+        "It has one endpoint",
+        "It has three endpoints"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle is smaller than a right angle?",
+      options: [
+        "120°",
+        "90°",
+        "45°",
+        "180°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle is greater than 90° but less than 180°?",
+      options: [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Reflex"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "How many endpoints does a line segment have?",
+      options: [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "How many endpoints does a line have?",
+      options: [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "If three points lie on the same straight line, they are:",
+      options: [
+        "Non-collinear",
+        "Collinear",
+        "Reflex",
+        "Parallel"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which angle is larger?",
+      options: [
+        "25°",
+        "40°",
+        "75°",
+        "15°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "What is the measure of a straight angle?",
+      options: [
+        "45°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which object can represent a line segment?",
+      options: [
+        "A ruler",
+        "An endless road",
+        "A single point",
+        "A ray of light"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "In ∠PQR, the vertex is:",
+      options: [
+        "P",
+        "Q",
+        "R",
+        "P and R"
+      ],
+      answer: 1
+    }
+  ],
+
+  hard: [
+    {
+      question: "Which angle is exactly halfway between 90° and 180°?",
+      options: [
+        "125°",
+        "135°",
+        "145°",
+        "150°"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which pair contains only acute angles?",
+      options: [
+        "30°, 60°",
+        "90°, 45°",
+        "100°, 80°",
+        "120°, 30°"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which pair contains one acute and one obtuse angle?",
+      options: [
+        "40°, 120°",
+        "90°, 180°",
+        "30°, 60°",
+        "180°, 270°"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "A 270° angle is a:",
+      options: [
+        "Right angle",
+        "Straight angle",
+        "Reflex angle",
+        "Acute angle"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which statement is false?",
+      options: [
+        "A ray has one endpoint",
+        "A line segment has two endpoints",
+        "A line has two endpoints",
+        "An angle has a vertex"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle has the widest opening?",
+      options: [
+        "30°",
+        "90°",
+        "120°",
+        "60°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "If an angle is greater than 180° but less than 360°, it is:",
+      options: [
+        "Acute",
+        "Obtuse",
+        "Straight",
+        "Reflex"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "Which set contains three collinear points?",
+      options: [
+        "A, B and C on one straight line",
+        "A, B and C forming a triangle",
+        "Three points at different locations",
+        "Three points forming an angle"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which angle is closest to a right angle?",
+      options: [
+        "10°",
+        "40°",
+        "85°",
+        "150°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which statement correctly compares 60° and 120°?",
+      options: [
+        "Both are acute",
+        "60° is acute and 120° is obtuse",
+        "Both are obtuse",
+        "60° is obtuse and 120° is acute"
+      ],
+      answer: 1
+    }
+  ],
+
+  tooHard: [
+    {
+      question: "Which classification is completely correct?",
+      options: [
+        "45° acute, 90° right, 135° obtuse",
+        "90° acute, 180° obtuse, 270° straight",
+        "120° acute, 180° reflex, 45° right",
+        "30° obtuse, 90° reflex, 180° acute"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which sequence contains only angles greater than 90° and less than 180°?",
+      options: [
+        "100°, 120°, 150°",
+        "45°, 100°, 150°",
+        "90°, 120°, 180°",
+        "120°, 180°, 150°"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which statement best distinguishes a line from a ray?",
+      options: [
+        "A line has two endpoints",
+        "A ray has no endpoint",
+        "A line extends in both directions while a ray extends in one",
+        "A ray extends in both directions"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle is exactly twice a right angle?",
+      options: [
+        "45°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle is exactly three times a right angle?",
+      options: [
+        "180°",
+        "270°",
+        "300°",
+        "360°"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which option correctly identifies the vertex in ∠XYZ?",
+      options: [
+        "X",
+        "Y",
+        "Z",
+        "X and Z"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which group contains one acute, one right and one obtuse angle?",
+      options: [
+        "30°, 90°, 120°",
+        "90°, 180°, 270°",
+        "45°, 60°, 80°",
+        "100°, 120°, 150°"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which is impossible for a standard angle classification in this chapter?",
+      options: [
+        "30°",
+        "90°",
+        "180°",
+        "400°"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "Which figure has a fixed measurable length?",
+      options: [
+        "Line",
+        "Line segment",
+        "Ray",
+        "Point"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which statement about collinear points is correct?",
+      options: [
+        "They must form a triangle",
+        "They lie on the same straight line",
+        "They always form a right angle",
+        "They must be endpoints of a ray"
+      ],
+      answer: 1
+    }
+  ],
+
+  extreme: [
+    {
+      question: "Which option contains the correct classification of all five angles?",
+      options: [
+        "45° acute, 90° right, 120° obtuse, 180° straight, 270° reflex",
+        "45° right, 90° acute, 120° straight, 180° reflex, 270° obtuse",
+        "45° obtuse, 90° right, 120° acute, 180° reflex, 270° straight",
+        "45° acute, 90° obtuse, 120° right, 180° straight, 270° reflex"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which statement correctly describes all three: line, segment and ray?",
+      options: [
+        "All have two endpoints",
+        "Line has none, ray has one, segment has two",
+        "Line has one, ray has two, segment has none",
+        "All have one endpoint"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "If ∠ABC is 135°, which statement is correct?",
+      options: [
+        "It is acute and B is not the vertex",
+        "It is right and A is the vertex",
+        "It is obtuse and B is the vertex",
+        "It is reflex and C is the vertex"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which angle is greater than a straight angle but smaller than a full turn?",
+      options: [
+        "45°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      answer: 3
+    },
+
+    {
+      question: "Which option contains only pairs of collinear points?",
+      options: [
+        "A-B on one line and C-D on another line",
+        "A-B forming an angle and C-D forming a triangle",
+        "A-B-C on one straight line",
+        "Points forming a circle"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which statement about a line segment is always true?",
+      options: [
+        "It extends endlessly in both directions",
+        "It has exactly two endpoints",
+        "It has exactly one endpoint",
+        "It cannot have a measurable length"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which angle is closest to 180° without being a straight angle?",
+      options: [
+        "179°",
+        "90°",
+        "45°",
+        "270°"
+      ],
+      answer: 0
+    },
+
+    {
+      question: "Which angle is closest to 360° without being a full turn?",
+      options: [
+        "180°",
+        "270°",
+        "359°",
+        "90°"
+      ],
+      answer: 2
+    },
+
+    {
+      question: "Which option correctly identifies the arms of ∠ABC?",
+      options: [
+        "AB and BC",
+        "BA and BC",
+        "A and C only",
+        "Only B"
+      ],
+      answer: 1
+    },
+
+    {
+      question: "Which complete statement is correct?",
+      options: [
+        "A line has two endpoints and a ray has none",
+        "A line segment has no endpoints and an angle has no vertex",
+        "A line extends both ways, a ray one way, and a segment has fixed endpoints",
+        "All three are exactly the same"
+      ],
+      answer: 2
+    }
+  ]
+
       }
+      
     }
   }
 };
