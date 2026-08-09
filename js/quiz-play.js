@@ -144,6 +144,12 @@ function loadQuestion(){
 
 const q = questions[currentQuestion];
 
+if(!q){
+    question.innerText = "Questions not loaded!";
+    options.innerHTML = "<p>Quiz data is empty for this level.</p>";
+    return;
+}
+
 question.innerText = q.question;
 
 questionNumber.innerText =
