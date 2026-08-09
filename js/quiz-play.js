@@ -1,5 +1,18 @@
-const selectedLevel =
+const rawLevel =
 localStorage.getItem("cq-selected-level") || "easy";
+
+const LEVEL_ALIASES = {
+    "easy": "easy",
+    "medium": "medium",
+    "hard": "hard",
+    "too-hard": "tooHard",
+    "tooHard": "tooHard",
+    "extreme-hard": "extreme",
+    "extreme": "extreme"
+};
+
+const selectedLevel =
+    LEVEL_ALIASES[rawLevel] || "easy";
 
 console.log("Selected level:", selectedLevel);
 console.log("Questions loaded:", questions.length);
