@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Certificate | Concept Quizzer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;padding:18px;
+  font-family:Poppins,sans-serif;
+  background:
+    radial-gradient(circle at 10% 0%,rgba(124,58,237,.18),transparent 28%),
+    radial-gradient(circle at 90% 100%,rgba(6,182,212,.16),transparent 30%),
+    linear-gradient(135deg,#eef2ff,#f8fbff);
+  color:#172033;
+}
+.toolbar{
+  width:min(1050px,100%);margin:0 auto 16px;
+  display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;
+}
+.toolbar a,.toolbar button{
+  border:0;text-decoration:none;cursor:pointer;
+  background:white;color:#4f46e5;padding:11px 15px;border-radius:13px;
+  font-weight:800;box-shadow:0 8px 22px rgba(0,0,0,.07);
+}
+.certificate{
+  position:relative;overflow:hidden;
+  width:min(1050px,100%);min-height:700px;margin:auto;
+  background:#fffdf7;
+  border:12px solid #4f46e5;
+  box-shadow:0 30px 90px rgba(31,41,55,.20);
+  padding:58px 50px;text-align:center;
+}
+.certificate:before{
+  content:"";position:absolute;inset:18px;
+  border:2px solid #d4af37;pointer-events:none;
+}
+.glow{
+  position:absolute;width:260px;height:260px;border-radius:50%;
+  background:rgba(124,58,237,.08);filter:blur(2px);
+}
+.g1{left:-130px;top:-130px}.g2{right:-130px;bottom:-130px}
+.brand{position:relative;font-size:13px;letter-spacing:5px;color:#4f46e5;font-weight:800}
+.trophy{position:relative;font-size:72px;margin:24px 0 4px}
+.kicker{position:relative;color:#6b7280;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{
+  position:relative;font-family:"Playfair Display",serif;
+  font-size:clamp(3rem,8vw,5.5rem);margin:5px 0;
+  color:#1e1b4b;
+}
+.name{
+  position:relative;font-family:"Playfair Display",serif;
+  font-size:clamp(2.2rem,6vw,4rem);color:#7c3aed;
+  margin:25px 0 8px;
+}
+.rule{width:280px;max-width:80%;height:2px;background:#d4af37;margin:0 auto 24px}
+.description{
+  position:relative;max-width:720px;margin:auto;
+  color:#4b5563;line-height:1.8;
+}
+.meta{
+  position:relative;display:flex;justify-content:center;gap:10px;
+  flex-wrap:wrap;margin:28px auto;
+}
+.meta span{
+  padding:9px 13px;border-radius:999px;
+  background:#eef2ff;color:#4f46e5;font-size:12px;font-weight:800;
+}
+.signature{
+  position:relative;margin-top:42px;
+  display:flex;justify-content:space-around;gap:20px;
+}
+.signature div{
+  width:220px;border-top:1px solid #9ca3af;
+  padding-top:8px;color:#6b7280;font-size:11px;
+}
+@media(max-width:650px){
+  body{padding:9px}
+  .certificate{padding:42px 20px;min-height:670px;border-width:9px}
+  .signature{flex-direction:column;align-items:center}
+  .signature div{width:190px}
+}
+@media print{
+  body{background:white;padding:0}
+  .toolbar{display:none}
+  .certificate{width:100%;min-height:100vh;box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <a href="index.html">🏠 Concept Quizzer</a>
+  <div>
+    <button onclick="changeName()">✏️ Change Name</button>
+    <button onclick="window.print()">🖨️ Print / Save PDF</button>
+  </div>
+</div>
+
+<section class="certificate">
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="brand">CONCEPT QUIZZER</div>
+  <div class="trophy">🏆</div>
+  <div class="kicker">Certificate of Learning Achievement</div>
+  <h1>Certificate</h1>
+  <div class="name" id="studentName">Student</div>
+  <div class="rule"></div>
+  <p class="description">
+    This certificate is proudly presented for successfully completing a
+    Concept Quizzer challenge and demonstrating dedication, understanding
+    and a commitment to learning.
+  </p>
+
+  <div class="meta">
+    <span id="chapter">📚 Chapter</span>
+    <span id="level">🎯 Level</span>
+    <span id="score">⭐ Score</span>
+    <span id="date">📅 Date</span>
+  </div>
+
+  <div class="signature">
+    <div>Concept Quizzer<br>Learning Platform</div>
+    <div>Quiz Achievement<br>Verified by Progress</div>
+  </div>
+</section>
+
+<script>
+(function(){
+  const unlocked = localStorage.getItem("cq-certificate-unlocked") === "true";
+
+  if (!unlocked) {
+    document.body.innerHTML = `
+      <div style="
+        min-height:90vh;display:flex;align-items:center;justify-content:center;
+        font-family:Poppins,sans-serif;text-align:center;padding:20px">
+        <div style="
+          max-width:520px;background:white;padding:35px;border-radius:26px;
+          box-shadow:0 25px 70px rgba(0,0,0,.12)">
+          <div style="font-size:65px">🔒</div>
+          <h1>Certificate Locked</h1>
+          <p>Complete and pass a quiz first. Your certificate will appear on the quiz result screen.</p>
+          <a href="quiz.html" style="
+            display:inline-block;margin-top:12px;padding:13px 18px;
+            border-radius:14px;background:#4f46e5;color:white;
+            text-decoration:none;font-weight:800">🎯 Take a Quiz</a>
+        </div>
+      </div>`;
+    return;
+  }
+
+  const get = key => localStorage.getItem(key) || "";
+
+  document.getElementById("studentName").textContent =
+    get("cq-student-name") || "Student";
+
+  document.getElementById("chapter").textContent =
+    "📚 " + (get("cq-last-quiz-chapter") || "Completed Quiz");
+
+  document.getElementById("level").textContent =
+    "🎯 " + ((get("cq-last-quiz-level") || "Quiz")
+      .replace("tooHard","Too Hard")
+      .replace(/^./, x => x.toUpperCase()));
+
+  document.getElementById("score").textContent =
+    "⭐ " + (get("cq-last-quiz-score") || "0") +
+    "/" + (get("cq-last-quiz-total") || "0") +
+    " (" + (get("cq-last-quiz-percentage") || "0") + "%)";
+
+  document.getElementById("date").textContent =
+    "📅 " + (get("cq-last-quiz-date") || new Date().toLocaleDateString());
+
+  window.changeName = function(){
+    const name = prompt(
+      "Enter the name to print on your certificate:",
+      get("cq-student-name") || ""
+    );
+    if(name && name.trim()){
+      localStorage.setItem("cq-student-name",name.trim());
+      document.getElementById("studentName").textContent=name.trim();
+    }
+  };
+})();
+</script>
+</body>
+</html>
