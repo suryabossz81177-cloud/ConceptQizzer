@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Achievements | Concept Quizzer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Poppins,sans-serif;min-height:100vh;color:#172033;
+background:radial-gradient(circle at 10% 0%,rgba(124,58,237,.20),transparent 28%),radial-gradient(circle at 90% 100%,rgba(6,182,212,.18),transparent 28%),linear-gradient(135deg,#eef2ff,#f8fbff)}
+.wrap{width:min(1100px,92%);margin:auto;padding:28px 0 50px}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:25px}
+.nav a{color:#4f46e5;text-decoration:none;font-weight:800;background:white;padding:10px 14px;border-radius:13px;box-shadow:0 10px 25px rgba(0,0,0,.07)}
+.hero{position:relative;overflow:hidden;color:white;padding:34px;border-radius:30px;background:radial-gradient(circle at 90% 10%,rgba(255,255,255,.22),transparent 25%),linear-gradient(135deg,#4f46e5,#7c3aed,#2563eb);box-shadow:0 25px 65px rgba(79,70,229,.25)}
+.hero h1{font-size:clamp(2rem,5vw,3.3rem);margin:8px 0}
+.hero p{opacity:.9;line-height:1.7;max-width:700px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0}
+.stat{background:white;border-radius:20px;padding:20px;box-shadow:0 12px 30px rgba(0,0,0,.07)}
+.stat b{display:block;font-size:26px;color:#4f46e5}.stat span{font-size:12px;color:#6b7280}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+.badge{position:relative;overflow:hidden;background:white;border-radius:25px;padding:24px;min-height:190px;box-shadow:0 14px 35px rgba(0,0,0,.07);border:1px solid rgba(79,70,229,.08);transition:.3s}
+.badge:hover{transform:translateY(-7px);box-shadow:0 24px 45px rgba(79,70,229,.14)}
+.badge.locked{filter:grayscale(.7);opacity:.58}
+.icon{font-size:45px}.badge h3{margin:12px 0 6px}.badge p{font-size:13px;color:#6b7280;line-height:1.6}
+.badge .tag{display:inline-block;margin-top:13px;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800;background:#eef2ff;color:#4f46e5}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.actions a,.actions button{border:0;text-decoration:none;color:white;background:linear-gradient(135deg,#4f46e5,#7c3aed);padding:13px 17px;border-radius:14px;font-weight:800;cursor:pointer}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.wrap{width:94%}.hero{padding:25px}.stats{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav"><a href="index.html">🏠 Concept Quizzer</a><a href="dashboard.html">📊 Dashboard</a></nav>
+  <header class="hero">
+    <div style="font-size:14px;font-weight:800;letter-spacing:1px;opacity:.85">🏆 REWARDS CENTRE</div>
+    <h1 id="greeting">Your Achievements</h1>
+    <p>Every quiz, every streak and every completed chapter moves you forward. Collect badges and unlock your learning milestones.</p>
+  </header>
+
+  <section class="stats">
+    <div class="stat"><b id="xp">0</b><span>Total XP</span></div>
+    <div class="stat"><b id="quizzes">0</b><span>Quizzes Completed</span></div>
+    <div class="stat"><b id="streak">0</b><span>Day Streak</span></div>
+    <div class="stat"><b id="chapters">0</b><span>Chapters Completed</span></div>
+  </section>
+
+  <main class="grid" id="badgeGrid"></main>
+
+  <div class="actions">
+    <a href="quiz.html">🎯 Take a Quiz</a>
+    <a href="certificate.html">🎓 View Certificate</a>
+    <a href="index.html">📚 Continue Learning</a>
+  </div>
+</div>
+<script>
+const badges=[
+ {icon:"🎯",title:"Quiz Starter",desc:"Complete your first quiz.",key:"cq-quiz-count",type:"min",need:1},
+ {icon:"🔥",title:"3-Day Streak",desc:"Study for three days in a row.",key:"cq-study-streak",type:"min",need:3},
+ {icon:"⚡",title:"XP Rookie",desc:"Earn your first 100 XP.",key:"cq-xp",type:"min",need:100},
+ {icon:"💎",title:"XP Champion",desc:"Reach 500 total XP.",key:"cq-xp",type:"min",need:500},
+ {icon:"👑",title:"Chapter Master",desc:"Complete a chapter by conquering Extreme.",key:"cq-chapters-completed",type:"min",need:1},
+ {icon:"🌟",title:"Perfect Score",desc:"Score 100% in a quiz.",key:"cq-ach-perfect",type:"bool"},
+ {icon:"🚀",title:"Quiz Explorer",desc:"Complete five quizzes.",key:"cq-ach-explorer",type:"bool"},
+ {icon:"🔥",title:"Extreme Challenger",desc:"Pass the Extreme level.",key:"cq-ach-extreme",type:"bool"}
+];
+function val(k){return Number(localStorage.getItem(k)||0)}
+function unlocked(b){return b.type==="bool"?localStorage.getItem(b.key)==="true":val(b.key)>=b.need}
+function render(){
+ const name=localStorage.getItem("cq-student-name")||"Learner";
+ document.getElementById("greeting").textContent=name==="Learner"?"Your Achievements":name+"'s Achievements";
+ document.getElementById("xp").textContent=val("cq-xp");
+ document.getElementById("quizzes").textContent=val("cq-quiz-count");
+ document.getElementById("streak").textContent=val("cq-study-streak");
+ document.getElementById("chapters").textContent=val("cq-chapters-completed");
+ document.getElementById("badgeGrid").innerHTML=badges.map(b=>`
+   <article class="badge ${unlocked(b)?"":"locked"}">
+     <div class="icon">${b.icon}</div>
+     <h3>${b.title}</h3>
+     <p>${b.desc}</p>
+     <span class="tag">${unlocked(b)?"✓ UNLOCKED":"🔒 LOCKED"}</span>
+   </article>`).join("");
+}
+render();window.addEventListener("storage",render);
+</script>
+</body></html>
