@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Concept Quizzer - Quiz</title>
+<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+<div class="quizContainer">
+
+<h1 id="quizTitle">Quiz Loading...</h1>
+<p id="quizLevel">Choose Difficulty</p>
+
+<div class="levelGrid">
+
+<button class="level easy" data-level="easy">
+  <div class="recommended">⭐ START HERE</div>
+  <h2>🟢 Easy</h2>
+  <p>10 Questions</p>
+  <span>Beginner Level</span>
+  <div class="levelInfo">⭐ Reward: 100 XP<br>⏱ 5 Minutes</div>
+</button>
+
+<button class="level medium" data-level="medium">
+  <h2>🔵 Medium</h2>
+  <p>10 Questions</p>
+  <span>2× Tougher than Easy</span>
+  <div class="levelInfo">⭐ Reward: 200 XP<br>⏱ 8 Minutes</div>
+</button>
+
+<button class="level hard" data-level="hard">
+  <h2>🟠 Hard</h2>
+  <p>15 Questions</p>
+  <span>Concept + Logic</span>
+  <div class="levelInfo">⭐ Reward: 350 XP<br>⏱ 12 Minutes</div>
+</button>
+
+<button class="level tooHard" data-level="tooHard">
+  <h2>🔴 Too Hard</h2>
+  <p>20 Questions</p>
+  <span>Olympiad Level</span>
+  <div class="levelInfo">⭐ Reward: 600 XP<br>⏱ 18 Minutes</div>
+</button>
+
+<button class="level extreme" data-level="extreme">
+  <h2>⚫ Extreme</h2>
+  <p>25 Questions</p>
+  <span>Ultimate Challenge</span>
+  <div class="levelInfo">⭐ Reward: 1000 XP<br>⏱ 25 Minutes</div>
+</button>
+
+</div>
+</div>
+
+<script src="js/quiz.js"></script>
+
+<script>
+(function () {
+    "use strict";
+
+    const levels = ["easy", "medium", "hard", "tooHard", "extreme"];
+
+    const buttons = {
+        easy: document.querySelector(".level.easy"),
+        medium: document.querySelector(".level.medium"),
+        hard: document.querySelector(".level.hard"),
+        tooHard: document.querySelector(".level.tooHard"),
+        extreme: document.querySelector(".level.extreme")
+    };
+
+    /*
+     * IMPORTANT:
+     * Unlocks are PER CHAPTER.
+     *
+     * Example:
+     *   cq-unlocked-lines-and-angles-medium
+     *
+     * This prevents completing Easy in one chapter from unlocking
+     * Medium in every other chapter.
+     */
+    const rawChapter =
+        localStorage.getItem("cq-current-chapter") || "";
+
+    function normalizeChapterKey(key) {
+        return String(key || "")
+            .toLowerCase()
+            .trim()
+            .replace(/_/g, "-")
+            .replace(/^class\d+-mathematics-/, "")
+            .replace(/^class\d+-math-/, "")
+            .replace(/^class\d+-/, "")
+            .replace(/^\d+-mathematics-/, "")
+            .replace(/^\d+-math-/, "")
+            .replace(/^\d+-/, "");
+    }
+
+    const chapterKey = normalizeChapterKey(rawChapter);
+
+    function scopedUnlockKey(level) {
+        return "cq-unlocked-" + chapterKey + "-" + level;
+    }
+
+    function scopedCompatKey(level) {
+        return "cq-level-unlocked-" + chapterKey + "-" + level;
+    }
+
+    function isUnlocked(level) {
+        if (level === "easy") return true;
+
+        return (
+            localStorage.getItem(scopedUnlockKey(level)) === "true" ||
+            localStorage.getItem(scopedCompatKey(level)) === "true"
+        );
+    }
+
+    function refreshLocks() {
+        levels.forEach(function (level) {
+            const btn = buttons[level];
+            if (!btn) return;
+
+            const unlocked = isUnlocked(level);
+
+            btn.classList.toggle("locked", !unlocked);
+            btn.setAttribute("aria-disabled", String(!unlocked));
+            btn.disabled = false;
+
+            if (unlocked) {
+                btn.style.opacity = "1";
+                btn.style.pointerEvents = "auto";
+                btn.style.cursor = "pointer";
+                btn.style.filter = "none";
+            } else {
+                btn.style.cursor = "not-allowed";
+            }
+
+            let badge = btn.querySelector(".lockBadge");
+
+            if (!unlocked) {
+                if (!badge) {
+                    badge = document.createElement("div");
+                    badge.className = "lockBadge";
+                    btn.prepend(badge);
+                }
+                badge.textContent = "🔒 Locked";
+            } else if (badge) {
+                badge.remove();
+            }
+        });
+    }
+
+    refreshLocks();
+
+    // Final visual sync after js/quiz.js runs on DOMContentLoaded.
+    // This prevents a stale hard-coded 🔒 badge from remaining on an
+    // already-unlocked level.
+    document.addEventListener("DOMContentLoaded", refreshLocks);
+
+    document.querySelectorAll(".level").forEach(function (btn) {
+        btn.addEventListener("click", function (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+
+            const level = btn.dataset.level;
+
+            if (!isUnlocked(level)) {
+                alert(
+                    "🔒 Level Locked\n\n" +
+                    "Complete the previous level with the required score to unlock this level."
+                );
+                return;
+            }
+
+            localStorage.setItem("cq-selected-level", level);
+            window.location.href = "quiz-play.html";
+        }, true);
+    });
+
+    document.addEventListener("visibilitychange", function () {
+        if (!document.hidden) refreshLocks();
+    });
+
+    window.addEventListener("storage", refreshLocks);
+
+})();
+</script>
+
+</body>
+</html>
