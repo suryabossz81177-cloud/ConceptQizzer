@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concept Quizzer • The Wonderful World of Science</title>
+<style>
+:root{--p:#5b45e8;--q:#159fdb;--ink:#18223f;--muted:#68728c;--bg:#f3f6ff;--card:#fff;--line:#e4e7f2;--good:#16b96a;--orange:#f59e0b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Poppins,Inter,system-ui,sans-serif;background:linear-gradient(135deg,#f5f3ff,#eefaff);color:var(--ink)}
+header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);padding:13px 18px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;gap:12px;align-items:center;font-weight:900;font-size:18px}.logo{width:50px;height:50px;border-radius:17px;background:linear-gradient(135deg,#6145e9,#1daedc);display:grid;place-items:center;color:#fff;font-size:24px}.brand small{color:#747d96;font-weight:700}.topbtn{border:0;border-radius:15px;background:#f0edff;color:var(--p);font-weight:900;padding:12px 15px;cursor:pointer}
+main{max-width:1080px;margin:auto;padding:22px 16px 70px}.hero{border-radius:32px;padding:30px;background:linear-gradient(135deg,#4f38d7,#248eea);color:#fff;box-shadow:0 22px 55px rgba(63,82,220,.18)}.hero h1{font-size:clamp(32px,7vw,58px);line-height:1.08;margin:12px 0}.hero p{font-size:17px;line-height:1.7;max-width:850px}.pill{display:inline-flex;padding:8px 13px;border-radius:999px;background:#ffffff22;border:1px solid #ffffff35;font-size:12px;font-weight:900;letter-spacing:.05em}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}.stat{background:#ffffff16;border:1px solid #ffffff2d;border-radius:18px;padding:14px}.stat b{font-size:24px;display:block}
+.nav{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:20px 0}.nav button{border:1px solid #dddff0;background:#fff;border-radius:17px;padding:14px 10px;font-weight:900;color:#39415e;cursor:pointer;box-shadow:0 7px 18px rgba(45,56,100,.05);font-size:15px}.nav button.active{background:linear-gradient(135deg,#5b45e8,#7756ee);color:#fff;border-color:transparent;box-shadow:0 10px 25px rgba(91,69,232,.2)}.panel{display:none}.panel.active{display:block}
+.noteGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.noteBlock{background:#fff;border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 12px 30px rgba(36,48,90,.07);position:relative;overflow:hidden}.noteBlock:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:linear-gradient(#5b45e8,#15aee0)}.noteBlock:nth-child(2):before{background:linear-gradient(#f59e0b,#ef5b7a)}.noteBlock:nth-child(3):before{background:linear-gradient(#10b981,#06a6d9)}.noteBlock:nth-child(4):before{background:linear-gradient(#ef5bb1,#7c3aed)}.noteBlock:nth-child(5):before{background:linear-gradient(#0ea5e9,#22c55e)}.noteBlock:nth-child(6):before{background:linear-gradient(#f97316,#eab308)}.noteBlock.full{grid-column:1/-1}.noteBlock h2{margin:0 0 10px;font-size:23px}.noteBlock h3{margin:17px 0 6px}.noteBlock p,.noteBlock li{color:#4f5872;line-height:1.75}.noteBlock ul{padding-left:22px}.keyBox{margin-top:14px;padding:15px;border-radius:16px;background:#f3f0ff;border:1px solid #ddd5ff}.readerBar{background:#fff;border:1px solid var(--line);border-radius:22px;padding:16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px;box-shadow:0 10px 25px rgba(36,48,90,.06)}.readerBar button,.aiButton{border:0;border-radius:13px;padding:11px 14px;font-weight:900;cursor:pointer}.reader{background:linear-gradient(135deg,#5b45e8,#1aaedb);color:#fff}.reader.stop{background:#f0edff;color:#5b45e8}.aiButton{background:#fff1cf;color:#a05a00;border:1px solid #f3d58d}.aiPanel{display:none;background:#fff8e7;border:1px solid #f3d58d;border-radius:20px;padding:17px;margin-bottom:16px}.aiPanel.show{display:block}
+.quizIntro,.levelCard{background:#fff;border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 12px 30px rgba(36,48,90,.06)}.levelGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:15px}.levelCard{text-align:left;cursor:pointer;transition:.2s}.levelCard:hover{transform:translateY(-3px);border-color:#7b65e9}.levelCard h3{margin:5px 0 7px}.levelCard p{margin:0;color:var(--muted)}.levelCard.easy{border-top:5px solid #20b978}.levelCard.medium{border-top:5px solid #2997e9}.levelCard.hard{border-top:5px solid #f59e0b}.levelCard.toohard{border-top:5px solid #ef6a61}.levelCard.extreme{border-top:5px solid #20263c}.quizLink{text-decoration:none;color:inherit;display:block}
+.labList{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.labCard{background:#fff;border:1px solid var(--line);border-radius:25px;padding:20px;box-shadow:0 14px 32px rgba(36,48,90,.07);scroll-margin-top:90px}.labCard.selected{border:2px solid #6549e8;box-shadow:0 18px 40px rgba(91,69,232,.16)}.labMeta{font-size:11px;color:#5b45e8;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.labCard h2{margin:7px 0}.labCard>p{color:var(--muted);line-height:1.65}.simulation{border:1px solid #dfe4f2;border-radius:19px;background:linear-gradient(180deg,#eef8ff,#f8f5ff);padding:12px;margin:14px 0}.simulationTitle{font-weight:900;color:#5b45e8;margin-bottom:8px}.figure{width:100%;height:180px;display:block;border-radius:14px;background:#eaf1fb}.experimentBox{background:#f8f9ff;border:1px solid #e3e6f2;border-radius:19px;padding:15px}.experimentTitle{font-weight:900;margin-bottom:12px}.control{background:#fff;border:1px solid #e1e4ef;border-radius:15px;padding:12px;margin:9px 0}.control label{display:flex;justify-content:space-between;gap:8px;font-weight:800;margin-bottom:8px}.control input,.control select{width:100%}.runBtn{width:100%;border:0;border-radius:14px;padding:13px;background:linear-gradient(135deg,#16b96a,#0eaa88);color:#fff;font-weight:900;cursor:pointer;margin-top:8px}.result{display:none;margin-top:12px;padding:14px;border-radius:15px;background:#eafff3;border:1px solid #a9e8c7;color:#175d3b;line-height:1.6}.result.show{display:block}.meter{height:10px;background:#e6e8f1;border-radius:999px;overflow:hidden;margin-top:10px}.meter i{display:block;height:100%;width:0;background:linear-gradient(90deg,#5b45e8,#12b5d9);transition:.5s}
+.toast{position:fixed;right:16px;bottom:16px;background:#17203a;color:#fff;padding:13px 16px;border-radius:14px;display:none;z-index:50}.toast.show{display:block}
+@media(max-width:760px){.stats,.noteGrid,.levelGrid,.labList{grid-template-columns:1fr}.nav{position:sticky;top:76px;z-index:20}.hero{padding:25px 20px}.noteBlock.full{grid-column:auto}.labCard{padding:16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="logo">🔬</div><div>Concept Quizzer<br><small>Science Lab • Class 6</small></div></div>
+  <button class="topbtn" onclick="location.href='../../../../index.html'">← Home</button>
+</header>
+<main>
+<section class="hero">
+  <span class="pill">CLASS 6 • SCIENCE • CHAPTER 1</span>
+  <h1>The Wonderful World of Science</h1>
+  <p>Science begins with curiosity. We observe what happens around us, ask clear questions, suggest explanations, test them fairly, collect evidence and use that evidence to improve our understanding.</p>
+  <div class="stats"><div class="stat"><b>5</b>Interactive Labs</div><div class="stat"><b>6</b>Note Blocks</div><div class="stat"><b>5</b>Quiz Levels</div><div class="stat"><b>∞</b>Retest</div></div>
+</section>
+
+<div class="nav">
+  <button class="active" data-tab="notes">📖 Notes</button>
+  <button data-tab="quiz">🧠 Quiz</button>
+  <button data-tab="lab">🔬 Virtual Science Laboratory</button>
+</div>
+
+<section id="notes" class="panel active">
+  <div class="readerBar">
+    <strong>Chapter Reader</strong>
+    <button class="reader" onclick="speakNotes()">🔊 Read Notes</button>
+    <button class="reader stop" onclick="stopReader()">⏹ Stop</button>
+    <button class="aiButton" onclick="toggleAI()">🤖 AI Study Helper</button>
+  </div>
+  <div id="aiPanel" class="aiPanel"><b>🤖 AI Study Helper</b><p id="aiText">Ask yourself: What did I observe? What question did I ask? What variable did I change? What evidence did I collect? These questions help you practise scientific thinking.</p><button class="aiButton" onclick="newAIHint()">✨ Give me another hint</button></div>
+  <div id="noteText" class="noteGrid">
+    <article class="noteBlock full"><h2>1. Science is a way of thinking</h2><p>Science is not simply a collection of facts to memorise. It is a systematic way of trying to understand the world. We notice things, become curious, ask questions, suggest possible explanations and then look for evidence. A scientific idea becomes stronger when observations and measurements support it.</p><div class="keyBox"><b>Remember:</b> A guess becomes useful scientifically when it can be tested.</div></article>
+    <article class="noteBlock"><h2>2. Curiosity starts an investigation</h2><p>Many investigations begin with an ordinary observation: a pen does not write, a bicycle feels different after its tyre loses air, a shadow changes during the day, or one plant grows differently from another. Instead of immediately deciding the cause, a scientist asks what could be tested.</p><h3>Good questions</h3><ul><li>Can the question be tested?</li><li>Can we observe or measure the result?</li><li>Can one important factor be changed deliberately?</li></ul></article>
+    <article class="noteBlock"><h2>3. Observation, question and hypothesis</h2><p>An <b>observation</b> is something noticed or measured. A <b>question</b> turns that observation into something we want to investigate. A <b>hypothesis</b> is a possible explanation or prediction that can be tested.</p><h3>Example</h3><p>Observation: a plant near a window looks healthier. Question: does the amount of light affect plant growth? Hypothesis: if a plant receives suitable light, it may grow more healthily.</p></article>
+    <article class="noteBlock"><h2>4. Fair testing</h2><p>A fair test tries to make the effect of one chosen variable easier to identify. If several factors are changed at the same time, it becomes difficult to know which factor caused the result.</p><h3>Three useful parts</h3><ul><li><b>Variable changed:</b> the factor you deliberately alter.</li><li><b>Things kept steady:</b> important conditions that should remain as similar as possible.</li><li><b>Result measured:</b> the observation or measurement used as evidence.</li></ul></article>
+    <article class="noteBlock"><h2>5. Evidence, results and conclusions</h2><p>Evidence can include measurements, counts, timings, visible changes or repeated observations. A conclusion should be based on the evidence actually collected, not on what we hoped would happen.</p><p>If the evidence does not support the hypothesis, that is not a failure. It is information. We can improve the question, change the hypothesis and test again. Repeating a test can also make the evidence more dependable.</p></article>
+    <article class="noteBlock"><h2>6. Science in everyday life</h2><p>Scientific thinking is useful outside a laboratory. When something does not work, we can avoid random guessing by checking possible causes one at a time. This approach helps us make observations, compare possibilities, test ideas and make decisions based on evidence.</p><div class="keyBox"><b>Scientist's habit:</b> Observe → Ask → Predict → Test → Record → Explain → Test again when needed.</div></article>
+    <article class="noteBlock full"><h2>Quick revision</h2><ul><li>Science uses evidence to build and improve explanations.</li><li>Curiosity and questions start many investigations.</li><li>A hypothesis is a testable possible explanation or prediction.</li><li>A fair test changes a main factor deliberately while keeping important conditions controlled.</li><li>Observations and measurements are recorded as evidence.</li><li>Unexpected results should be investigated rather than hidden.</li><li>Repeating trials can make conclusions more reliable.</li></ul></article>
+  </div>
+</section>
+
+<section id="quiz" class="panel">
+  <div class="quizIntro"><h2>🧠 Chapter Quiz</h2><p>Choose a level just like the main Concept Quizzer quiz system. Your chapter progress and unlocks remain separate for this chapter.</p></div>
+  <div class="levelGrid">
+    <a class="quizLink" href="../../../../quiz.html"><article class="levelCard easy"><h3>🟢 Easy</h3><p>10 Questions • Beginner Level • 100 XP</p></article></a>
+    <a class="quizLink" href="../../../../quiz.html"><article class="levelCard medium"><h3>🔵 Medium</h3><p>10 Questions • Concept Practice • 200 XP</p></article></a>
+    <a class="quizLink" href="../../../../quiz.html"><article class="levelCard hard"><h3>🟠 Hard</h3><p>15 Questions • Concept + Logic • 350 XP</p></article></a>
+    <a class="quizLink" href="../../../../quiz.html"><article class="levelCard toohard"><h3>🔴 Too Hard</h3><p>20 Questions • Olympiad Level • 600 XP</p></article></a>
+    <a class="quizLink" href="../../../../quiz.html"><article class="levelCard extreme"><h3>⚫ Extreme</h3><p>25 Questions • Ultimate Challenge • 1000 XP</p></article></a>
+  </div>
+</section>
+
+<section id="lab" class="panel">
+  <div class="quizIntro"><h2>🔬 Virtual Science Laboratory</h2><p>Only the simulation and experiment are shown here. Change a variable, make a prediction, run the experiment and observe the result. There is no separate “Open Lab” step.</p></div>
+  <div id="labs" class="labList"></div>
+</section>
+</main>
+<div id="toast" class="toast"></div>
+<script>
+const labs=[
+{
+ title:'Pen Detective',tag:'Experiment 1 • NCERT-style everyday investigation',desc:'A pen has stopped writing. Change the ink level and tip condition and use the simulated evidence to identify the likely cause.',
+ figure:`<svg class="figure" viewBox="0 0 700 240" role="img" aria-label="Pen simulation figure"><rect width="700" height="240" rx="18" fill="#eaf2ff"/><rect x="125" y="92" width="360" height="48" rx="24" fill="#f6f7fb" stroke="#77829c" stroke-width="4"/><rect x="160" y="104" width="270" height="24" rx="12" fill="#276ef1"/><path d="M485 116 L570 92 L570 140 Z" fill="#b6bdcc"/><circle cx="600" cy="116" r="28" fill="#fff" stroke="#5b45e8" stroke-width="5"/><text x="40" y="45" font-size="25" font-weight="800" fill="#283451">Ink flow simulation</text><text x="40" y="195" font-size="20" fill="#5f6b86">More ink + clear tip → stronger flow</text></svg>`,
+ controls:`<div class="control"><label>Ink level <span id="inkv">40%</span></label><input id="ink" type="range" min="0" max="100" value="40"></div><div class="control"><label>Tip condition</label><select id="tip"><option value="clear">Clear</option><option value="dry">Dry</option><option value="blocked">Blocked</option></select></div>`,
+ run(){const ink=+document.getElementById('ink').value,tip=document.getElementById('tip').value;let flow=Math.max(0,ink-(tip==='clear'?0:tip==='dry'?45:75));return `Simulated ink-flow index: <b>${flow}/100</b>. ${flow>25?'The pen is likely to write. Try lowering the ink level or worsening the tip to test the boundary.':'The pen is unlikely to write. The weak condition needs investigation.'}`}
+},
+{
+ title:'Plant Mystery',tag:'Experiment 2 • NCERT-inspired investigation',desc:'Change light, watering and soil nutrients. The simulation estimates plant health after seven days so you can compare conditions.',
+ figure:`<svg class="figure" viewBox="0 0 700 240" role="img" aria-label="Plant growth simulation figure"><rect width="700" height="240" rx="18" fill="#eaf9f1"/><circle cx="565" cy="58" r="35" fill="#ffd45a"/><rect x="300" y="145" width="100" height="45" rx="8" fill="#9b623f"/><path d="M350 145 C345 115 350 85 350 62" stroke="#26834d" stroke-width="9" fill="none"/><ellipse cx="325" cy="105" rx="45" ry="22" fill="#42b96b" transform="rotate(-20 325 105)"/><ellipse cx="380" cy="91" rx="45" ry="22" fill="#2e9e59" transform="rotate(20 380 91)"/><text x="40" y="45" font-size="25" font-weight="800" fill="#283451">7-day growth simulation</text><text x="40" y="215" font-size="20" fill="#5f6b86">Balanced light, water and nutrients → healthier growth</text></svg>`,
+ controls:`<div class="control"><label>Light per day <span id="lightv">6 h</span></label><input id="light" type="range" min="2" max="12" value="6"></div><div class="control"><label>Watering</label><select id="water"><option value="balanced">Balanced</option><option value="low">Too little</option><option value="high">Too much</option></select></div><div class="control"><label>Soil nutrients</label><select id="nutrient"><option value="good">Adequate</option><option value="low">Low</option></select></div>`,
+ run(){const l=+document.getElementById('light').value,w=document.getElementById('water').value,n=document.getElementById('nutrient').value;let score=100-Math.abs(l-8)*7-(w==='balanced'?0:w==='low'?25:30)-(n==='good'?0:25);score=Math.max(5,Math.min(100,score));let h=Math.round(score*.7),y=100-h;return `After 7 simulated days: <b>${h}% healthy-leaf index</b> and <b>${y}% yellowing risk</b>. Compare runs by changing one factor at a time.`}
+},
+{
+ title:'Paper Helicopter',tag:'Experiment 3 • Extension investigation',desc:'Change blade length and paper mass. Compare the simulated fall time and investigate which variable has the stronger effect.',
+ figure:`<svg class="figure" viewBox="0 0 700 240" role="img" aria-label="Paper helicopter simulation figure"><rect width="700" height="240" rx="18" fill="#f1efff"/><line x1="350" y1="30" x2="350" y2="200" stroke="#8b93a8" stroke-width="3" stroke-dasharray="8 8"/><path d="M350 80 L220 50 L350 105 L480 50 Z" fill="#d8d0ff" stroke="#5b45e8" stroke-width="5"/><rect x="335" y="102" width="30" height="70" rx="8" fill="#5b45e8"/><text x="40" y="42" font-size="25" font-weight="800" fill="#283451">Fall-time simulation</text><text x="40" y="215" font-size="20" fill="#5f6b86">Longer blades generally increase air resistance</text></svg>`,
+ controls:`<div class="control"><label>Blade length <span id="bladev">10 cm</span></label><input id="blade" type="range" min="4" max="16" value="10"></div><div class="control"><label>Paper mass <span id="massv">2 g</span></label><input id="mass" type="range" min="1" max="5" value="2"></div>`,
+ run(){const b=+document.getElementById('blade').value,m=+document.getElementById('mass').value;let t=1.1+Math.min(1.8,b*.09)-m*.08;return `Simulated fall time: <b>${t.toFixed(2)} s</b>. Change only one variable and run again to compare evidence fairly.`}
+},
+{
+ title:'Ramp Investigation',tag:'Experiment 4 • Physics extension',desc:'Change the ramp slope and surface. Release the simulated cart and compare how far it travels.',
+ figure:`<svg class="figure" viewBox="0 0 700 240" role="img" aria-label="Ramp simulation figure"><rect width="700" height="240" rx="18" fill="#eef7ff"/><polygon points="120,185 470,185 470,80" fill="#d7e1ef" stroke="#6f7d96" stroke-width="4"/><circle cx="390" cy="150" r="22" fill="#f59e0b"/><line x1="505" y1="185" x2="650" y2="185" stroke="#5b45e8" stroke-width="7"/><text x="40" y="42" font-size="25" font-weight="800" fill="#283451">Cart-on-ramp simulation</text><text x="40" y="215" font-size="20" fill="#5f6b86">Slope + surface change the simulated travel distance</text></svg>`,
+ controls:`<div class="control"><label>Slope <span id="slopev">15°</span></label><input id="slope" type="range" min="5" max="35" value="15"></div><div class="control"><label>Surface</label><select id="surface"><option value="smooth">Smooth</option><option value="rough">Rough</option><option value="carpet">Carpet</option></select></div>`,
+ run(){const s=+document.getElementById('slope').value,su=document.getElementById('surface').value;let f=su==='smooth'?0.9:su==='rough'?0.55:0.35;let d=Math.max(10,Math.round((s-2)*f*3));return `Simulated travel distance: <b>${d} cm</b>. Repeat the test after changing only the surface or only the slope.`}
+},
+{
+ title:'Mystery Question Lab',tag:'Experiment 5 • Scientific thinking',desc:'Start with an observation, choose one variable to investigate and construct a fair scientific test.',
+ figure:`<svg class="figure" viewBox="0 0 700 240" role="img" aria-label="Scientific question simulation figure"><rect width="700" height="240" rx="18" fill="#fff7e7"/><circle cx="190" cy="115" r="54" fill="#ffd76a"/><text x="168" y="130" font-size="55">?</text><path d="M260 115 H440" stroke="#5b45e8" stroke-width="7"/><polygon points="440,115 415,98 415,132" fill="#5b45e8"/><rect x="470" y="72" width="130" height="86" rx="15" fill="#e8e3ff" stroke="#7c65e9" stroke-width="4"/><text x="495" y="108" font-size="18" font-weight="800" fill="#4434a8">TEST</text><text x="495" y="135" font-size="16" fill="#4434a8">EVIDENCE</text><text x="40" y="42" font-size="25" font-weight="800" fill="#283451">Question-building simulation</text></svg>`,
+ controls:`<div class="control"><label>Observation</label><select id="obs"><option>Ice melts at different speeds</option><option>One plant grows better</option><option>A torch sometimes fails</option></select></div><div class="control"><label>Variable to change</label><select id="var"><option>Temperature</option><option>Light</option><option>Battery condition</option><option>Container material</option></select></div>`,
+ run(){const o=document.getElementById('obs').value,v=document.getElementById('var').value;return `Investigation plan: ask how changing <b>${v.toLowerCase()}</b> affects the observation “${o.toLowerCase()}”. Keep other important conditions steady, then record measurable evidence.`}
+}
+];
+
+function renderLabs(){
+ document.getElementById('labs').innerHTML=labs.map((x,i)=>`<article class="labCard" id="experiment-${i+1}"><div class="labMeta">${x.tag}</div><h2>${x.title}</h2><p>${x.desc}</p><div class="simulation"><div class="simulationTitle">🎬 Simulation</div>${x.figure}</div><div class="experimentBox"><div class="experimentTitle">🧪 Experiment</div>${x.controls}<button class="runBtn" onclick="runLab(${i})">▶ Run Experiment</button><div id="res${i}" class="result"></div><div class="meter"><i id="meter${i}"></i></div></div></article>`).join('');
+ bindSliders();
+}
+function bindSliders(){[['ink','inkv','%'],['light','lightv',' h'],['blade','bladev',' cm'],['mass','massv',' g'],['slope','slopev','°']].forEach(([a,b,u])=>{const e=document.getElementById(a),v=document.getElementById(b);if(e&&v)e.oninput=()=>v.textContent=e.value+u});}
+function runLab(i){const r=labs[i].run();const result=document.getElementById('res'+i);result.innerHTML=r;result.classList.add('show');document.querySelectorAll('.meter')[i].querySelector('i').style.width=(55+i*9)+'%';let k=JSON.parse(localStorage.getItem('cq-science-labs')||'{}');k['ch1-'+(i+1)]=true;localStorage.setItem('cq-science-labs',JSON.stringify(k));toast('Experiment completed • evidence saved');}
+function toast(t){const x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),1800)}
+
+function speakNotes(){if(!('speechSynthesis' in window)){toast('Reader is not supported on this device');return;}stopReader();const text=document.getElementById('noteText').innerText;const u=new SpeechSynthesisUtterance(text);u.rate=.92;u.pitch=1;window.speechSynthesis.speak(u);}
+function stopReader(){if('speechSynthesis' in window) window.speechSynthesis.cancel();}
+function toggleAI(){document.getElementById('aiPanel').classList.toggle('show')}
+const hints=['Start with an observation, not a conclusion. Ask what evidence could distinguish two possible explanations.','For a fair test, change one main factor first. Keeping important conditions steady makes the result easier to interpret.','A surprising result is useful evidence. Record it honestly and decide what you should test next.','Try to turn “Why is this happening?” into a measurable question such as “How does changing X affect Y?”'];let hi=0;function newAIHint(){hi=(hi+1)%hints.length;document.getElementById('aiText').textContent=hints[hi];}
+
+document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById(b.dataset.tab).classList.add('active');if(b.dataset.tab==='lab')setTimeout(()=>scrollToSelected(),50);}));
+function scrollToSelected(){const p=new URLSearchParams(location.search),n=Number(p.get('experiment'));if(!n)return;const el=document.getElementById('experiment-'+n);if(el){el.classList.add('selected');setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'start'}),80);}}
+localStorage.setItem('cq-current-class','6');localStorage.setItem('cq-current-subject','science');localStorage.setItem('cq-current-chapter','6-science-the-wonderful-world-of-science');
+const params=new URLSearchParams(location.search);const tab=params.get('tab');if(tab){const b=document.querySelector(`.nav button[data-tab="${tab}"]`);if(b)b.click();}renderLabs();if(tab==='lab')setTimeout(scrollToSelected,100);
+</script>
+</body>
+</html>
