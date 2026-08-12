@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Concept Quizzer
+</title>
+
+<meta
+name="description"
+content="Concept Quizzer - Interactive Learning Platform">
+
+<link
+rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link
+rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link
+href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- =========================
+     MAIN APP
+========================= -->
+
+<div
+id="app">
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header
+class="header">
+
+<div
+class="container">
+
+<a
+href="#"
+class="logo">
+
+<div
+class="logoIcon">
+
+CQ
+
+</div>
+
+<div
+class="logoText">
+
+<h2>
+
+Concept Quizzer
+
+</h2>
+
+<span>
+
+Learn • Practice • Master
+
+</span>
+
+</div>
+
+</a>
+
+<div
+class="headerActions">
+
+<button
+id="themeButton"
+class="iconButton">
+
+<span
+class="material-icons-round">
+
+dark_mode
+
+</span>
+
+</button>
+
+<button
+id="bookmarkButton"
+class="iconButton">
+
+<span
+class="material-icons-round">
+
+bookmark
+
+</span>
+
+</button>
+
+<a
+href="dashboard.html"
+class="iconButton"
+title="Student Dashboard"
+style="text-decoration:none;">
+
+<span class="material-icons-round">
+dashboard
+</span>
+
+</a>
+
+<a
+href="achievements.html"
+class="iconButton"
+title="Achievements"
+style="text-decoration:none;">
+
+<span class="material-icons-round">
+emoji_events
+</span>
+
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- =========================
+     VIRTUAL SCIENCE LABORATORY HUB
+========================= -->
+<section id="scienceLabHub" class="scienceLabHub">
+  <div class="vslHero">
+    <div class="vslHeroTop">
+      <div class="vslBadge"><span class="material-icons-round">science</span> HANDS-ON SCIENCE</div>
+      <button id="vslArrowButton" class="vslArrowButton" type="button" aria-label="Open Virtual Science Laboratory">
+        <span class="material-icons-round">arrow_forward</span>
+      </button>
+    </div>
+    <h1>Virtual Science<br>Laboratory</h1>
+    <p>Choose a class, explore a Science chapter, and perform interactive experiments instead of only reading about them.</p>
+    <div class="vslMiniStats">
+      <span>🧪 Interactive experiments</span><span>🎛️ Change variables</span>
+      <span>📊 Observe results</span><span>🧠 Learn by doing</span>
+    </div>
+  </div>
+</section>
+
+<section id="scienceLabSelectorScreen" class="screen hidden vslSelectorScreen">
+  <button id="vslBackHome" class="backButton" type="button">
+    <span class="material-icons-round">arrow_back</span> Back to Home
+  </button>
+  <div class="vslSelectorIntro">
+    <div class="vslBadge light"><span class="material-icons-round">science</span> VIRTUAL SCIENCE LABORATORY</div>
+    <h1>Choose Your Laboratory</h1>
+    <p>Select <b>Class → Chapter → Experiment</b>. Each chapter contains five practical investigations.</p>
+  </div>
+  <div class="vslSelectorCard">
+    <div class="vslSectionTitle"><span class="material-icons-round">school</span><div><h2>Select Class</h2><p>Choose your Science laboratory level</p></div></div>
+    <div id="scienceClassGrid" class="scienceClassGrid"></div>
+    <div id="scienceChapterPanel" class="scienceChapterPanel hidden">
+      <div class="vslSectionTitle"><span class="material-icons-round">menu_book</span><div><h2 id="vslClassTitle">Select a Science Chapter</h2><p>Five experiments are listed for every chapter.</p></div></div>
+      <div id="scienceChapterGrid" class="scienceChapterGrid"></div>
+      <div id="scienceExperimentPanel" class="scienceExperimentPanel hidden">
+        <div class="vslSectionTitle"><span class="material-icons-round">biotech</span><div><h2 id="vslChapterTitle">Experiments</h2><p>Tap an experiment to start it directly.</p></div></div>
+        <div id="scienceExperimentGrid" class="scienceExperimentGrid"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- =========================
+     CLASS SELECTION — START PAGE
+========================= -->
+  <!-- =========================
+     CLASS SELECTION
+========================= -->
+
+<main
+class="container">
+
+<section
+id="classScreen"
+class="screen">
+
+<div
+class="sectionHeader">
+
+<div class="classIntroBadge">📚 YOUR LEARNING JOURNEY</div>
+
+<h2>
+
+Choose Your Class
+
+</h2>
+
+<p>
+
+Pick your class and explore every subject.
+
+</p>
+
+</div>
+
+<div
+id="classGrid"
+class="classGrid">
+
+<button
+class="classCard"
+data-class="6">
+
+<div
+class="classIcon">
+
+6
+
+</div>
+
+<h3>
+
+Class 6
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="7">
+
+<div
+class="classIcon">
+
+7
+
+</div>
+
+<h3>
+
+Class 7
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="8">
+
+<div
+class="classIcon">
+
+8
+
+</div>
+
+<h3>
+
+Class 8
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="9">
+
+<div
+class="classIcon">
+
+9
+
+</div>
+
+<h3>
+
+Class 9
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="10">
+
+<div
+class="classIcon">
+
+10
+
+</div>
+
+<h3>
+
+Class 10
+
+</h3>
+
+
+</button>
+
+</div>
+
+</section>
+
+  <!-- =========================
+     SUBJECT SCREEN
+========================= -->
+
+<section
+id="subjectScreen"
+class="screen hidden">
+
+<button
+id="backToClasses"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back to Classes
+
+</button>
+
+<div
+class="sectionHeader">
+
+<h2
+id="selectedClassTitle">
+
+Select a Subject
+
+</h2>
+
+<p>
+
+Explore subjects for your class.
+
+</p>
+
+</div>
+
+<div
+id="subjectGrid"
+class="subjectGrid">
+
+<!-- Subjects will be generated by app.js -->
+
+</div>
+
+</section>
+
+<!-- =========================
+     CHAPTER SCREEN
+========================= -->
+
+<section
+id="chapterScreen"
+class="screen hidden">
+
+<button
+id="backToSubjects"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back to Subjects
+
+</button>
+
+<div
+class="sectionHeader">
+
+<h2
+id="selectedSubjectTitle">
+
+Select a Chapter
+
+</h2>
+
+<p>
+
+Select a chapter to begin learning.
+
+</p>
+
+</div>
+
+<div
+id="chapterGrid"
+class="chapterGrid">
+
+<!-- Chapters will be generated by app.js -->
+
+</div>
+
+</section>
+
+  <!-- =========================
+     DASHBOARD SCREEN
+========================= -->
+
+<section
+id="dashboardScreen"
+class="screen hidden">
+
+<button
+id="backToChapters"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back to Chapters
+
+</button>
+
+<div
+class="dashboardHeader">
+
+<h2
+id="chapterTitle">
+
+Chapter Title
+
+</h2>
+
+<p
+id="chapterSubtitle">
+
+Class • Subject
+
+</p>
+
+</div>
+
+<div
+class="dashboardGrid">
+
+<div class="dashboardCard" id="notesCard">
+
+<span
+class="material-icons-round dashboardIcon">
+
+menu_book
+
+</span>
+
+<h3>
+
+Notes
+
+</h3>
+
+<p>
+
+Study complete chapter notes.
+
+</p>
+
+</div>
+
+<div class="dashboardCard" id="quizCard">
+
+<span
+class="material-icons-round dashboardIcon">
+
+quiz
+
+</span>
+
+<h3>
+
+Quiz
+
+</h3>
+
+<p>
+
+Test your understanding.
+
+</p>
+
+</div>
+
+<div class="dashboardCard" id="scienceLabCard">
+
+<span class="material-icons-round dashboardIcon">science</span>
+
+<h3>Virtual Science Laboratory</h3>
+
+<p>Perform the experiments for this chapter.</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+</main>
+
+<script>
+/* Concept Quizzer emergency boot: never allow a loading overlay to block the app. */
+(function(){
+  try {
+    var loader=document.getElementById("preloader");
+    if(loader) loader.remove();
+  } catch(e) {}
+  window.addEventListener("error", function(){
+    var loader=document.getElementById("preloader");
+    if(loader) loader.remove();
+  });
+})();
+</script>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
