@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Concept Quizzer
+</title>
+
+<meta
+name="description"
+content="Concept Quizzer - Interactive Learning Platform">
+
+<link
+rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link
+rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link
+href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+<style id="vsl-upgrade-css">
+.vsl-app{position:relative}.vslHero{margin:0 auto 28px;max-width:1180px;border-radius:38px;padding:28px 32px 38px;background:radial-gradient(circle at 85% 15%,#ffffff22 0 9%,transparent 10%),linear-gradient(135deg,#087f7a 0%,#1e72df 52%,#6637e9 100%);color:#fff;box-shadow:0 25px 65px #3655c52e;overflow:hidden}.vslHero:after{content:'🔬';position:absolute;right:35px;bottom:18px;font-size:170px;opacity:.08;transform:rotate(-10deg)}.vslHeroTop{display:flex;align-items:center;justify-content:space-between;gap:16px;position:relative;z-index:2}.vslBadge{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:999px;background:#ffffff1d;border:1px solid #ffffff36;font-weight:900;letter-spacing:.08em}.vslArrowButton{width:76px;height:76px;border:0;border-radius:50%;display:grid;place-items:center;background:#ffffff25;color:#fff;font-size:48px;font-weight:900;cursor:pointer;box-shadow:0 10px 25px #00000016;transition:.2s}.vslArrowButton:hover{transform:scale(1.06);background:#ffffff38}.vslHero h1{position:relative;z-index:2;font-size:clamp(46px,8vw,76px);line-height:1.02;margin:35px 0 18px;max-width:800px}.vslHero p{position:relative;z-index:2;max-width:900px;font-size:20px;line-height:1.7;margin:0}.vslMiniStats{position:relative;z-index:2;display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.vslMiniStats span{padding:13px 18px;border-radius:17px;background:#ffffff1c;border:1px solid #ffffff25;font-weight:800}.vslSelectorCard{max-width:1180px;margin:0 auto 35px;padding:24px;border-radius:32px;background:linear-gradient(180deg,#fff,#f7f8ff);border:1px solid #e0e5f2;box-shadow:0 22px 55px #24305a14}.vslStepScreen{animation:vslIn .3s ease}.vslStepHead{display:flex;gap:16px;align-items:center;margin:6px 0 24px}.vslStepIcon{width:58px;height:58px;border-radius:19px;display:grid;place-items:center;background:linear-gradient(135deg,#5b45e8,#1aaedb);color:#fff;font-weight:900;font-size:19px;box-shadow:0 10px 22px #5b45e833}.vslKicker{font-size:11px;font-weight:900;letter-spacing:.1em;color:#6757d8}.vslStepHead h2{margin:3px 0 2px;font-size:30px}.vslStepHead p{margin:0;color:#69728a}.vslBackButton{border:0;border-radius:15px;background:#eef0ff;color:#5141c8;padding:11px 15px;font-weight:900;cursor:pointer;margin-bottom:18px}.scienceClassGrid,.scienceChapterGrid,.scienceExperimentGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.scienceClassCard,.scienceChapterCard{border:1px solid #e0e5f0;background:#fff;border-radius:24px;padding:22px;text-align:left;cursor:pointer;box-shadow:0 12px 30px #25345a0d;transition:.2s}.scienceClassCard:hover,.scienceChapterCard:hover{transform:translateY(-4px);border-color:#8a78ee}.scienceClassCard.active,.scienceChapterCard.active{border:2px solid #5b45e8;background:linear-gradient(135deg,#f6f3ff,#eef9ff)}.scienceClassCard span{width:55px;height:55px;display:grid;place-items:center;border-radius:17px;background:linear-gradient(135deg,#5b45e8,#18aede);color:#fff;font-size:24px;font-weight:900;margin-bottom:13px}.scienceClassCard b,.scienceChapterCard h3{display:block;font-size:21px;color:#1b2541}.scienceClassCard small{display:block;color:#737d94;margin-top:4px}.scienceChapterCard .vslChapterNo{display:inline-block;padding:7px 10px;border-radius:999px;background:#f0edff;color:#5b45e8;font-size:11px;font-weight:900}.scienceChapterCard h3{margin:13px 0 10px;line-height:1.35}.scienceChapterCard .experimentCount{color:#69728a;font-weight:700;font-size:13px}.scienceExperimentGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.scienceExperimentLink{display:block;text-decoration:none;color:inherit}.scienceExperimentCard{height:100%;border-radius:27px;padding:24px;background:#fff;border:1px solid #dfe5f1;box-shadow:0 16px 38px #24305a10;transition:.2s;position:relative;overflow:hidden}.scienceExperimentCard:before{content:'';position:absolute;left:0;top:0;right:0;height:6px;background:linear-gradient(90deg,#5b45e8,#13aee0,#17bd76)}.scienceExperimentCard:hover{transform:translateY(-5px);box-shadow:0 22px 45px #24305a18}.experimentIcon{width:72px;height:72px;border-radius:21px;display:grid;place-items:center;font-size:39px;background:linear-gradient(135deg,#f0edff,#eaf9ff);margin-bottom:15px}.experimentMeta{font-size:10px;font-weight:900;letter-spacing:.08em;color:#6555d8}.scienceExperimentCard h3{font-size:25px;margin:8px 0}.scienceExperimentCard p{color:#626c84;line-height:1.7;margin:0 0 18px}.experimentTap{display:flex;align-items:center;justify-content:space-between;color:#fff;background:linear-gradient(135deg,#5b45e8,#267ee9);padding:13px 16px;border-radius:15px;font-weight:900}.hidden{display:none!important}@keyframes vslIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}@media(max-width:760px){.vslHero{border-radius:28px;padding:22px 20px 28px}.vslHero h1{font-size:47px;margin-top:27px}.vslHero p{font-size:17px}.vslArrowButton{width:64px;height:64px;font-size:40px}.vslBadge{font-size:12px;padding:11px 14px}.scienceClassGrid,.scienceChapterGrid,.scienceExperimentGrid{grid-template-columns:1fr}.vslSelectorCard{padding:18px;border-radius:25px}.vslStepHead h2{font-size:25px}.vslMiniStats span{font-size:13px}}
+</style></head>
+
+<body>
+
+<!-- =========================
+     MAIN APP
+========================= -->
+
+<div
+id="app">
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header
+class="header">
+
+<div
+class="container">
+
+<a
+href="#"
+class="logo">
+
+<div
+class="logoIcon">
+
+CQ
+
+</div>
+
+<div
+class="logoText">
+
+<h2>
+
+Concept Quizzer
+
+</h2>
+
+<span>
+
+Learn • Practice • Master
+
+</span>
+
+</div>
+
+</a>
+
+<div
+class="headerActions">
+
+<button
+id="themeButton"
+class="iconButton">
+
+<span
+class="material-icons-round">
+
+dark_mode
+
+</span>
+
+</button>
+
+<button
+id="bookmarkButton"
+class="iconButton">
+
+<span
+class="material-icons-round">
+
+bookmark
+
+</span>
+
+</button>
+
+<a
+href="dashboard.html"
+class="iconButton"
+title="Student Dashboard"
+style="text-decoration:none;">
+
+<span class="material-icons-round">
+dashboard
+</span>
+
+</a>
+
+<a
+href="achievements.html"
+class="iconButton"
+title="Achievements"
+style="text-decoration:none;">
+
+<span class="material-icons-round">
+emoji_events
+</span>
+
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- =========================
+     VIRTUAL SCIENCE LABORATORY HUB
+========================= -->
+<section id="scienceLabHub" class="scienceLabHub vsl-app" aria-label="Virtual Science Laboratory">
+  <div id="vslHeroPanel" class="vslHero">
+    <div class="vslHeroTop">
+      <div class="vslBadge"><span class="material-icons-round">science</span> HANDS-ON SCIENCE</div>
+      <button id="vslArrowButton" class="vslArrowButton" type="button" aria-label="Open Virtual Science Laboratory"><span>→</span></button>
+    </div>
+    <h1>Virtual Science<br>Laboratory</h1>
+    <p>Choose a class, explore a Science chapter, and perform interactive experiments instead of only reading about them.</p>
+    <div class="vslMiniStats"><span>🧪 Interactive experiments</span><span>🎛️ Change variables</span><span>📊 Observe results</span><span>🧠 Learn by doing</span></div>
+  </div>
+
+  <div id="vslSelectorCard" class="vslSelectorCard hidden">
+    <div id="vslClassScreen" class="vslStepScreen">
+      <div class="vslStepHead"><span class="vslStepIcon">01</span><div><div class="vslKicker">VIRTUAL SCIENCE LABORATORY</div><h2>Choose your class</h2><p>Start by selecting a Science class.</p></div></div>
+      <div id="scienceClassGrid" class="scienceClassGrid"></div>
+    </div>
+
+    <div id="vslChapterScreen" class="vslStepScreen hidden">
+      <button id="vslBackToClasses" class="vslBackButton" type="button">← Classes</button>
+      <div class="vslStepHead"><span class="vslStepIcon">02</span><div><div class="vslKicker">CLASS SELECTED</div><h2 id="vslClassTitle">Science Chapters</h2><p>Select a chapter to see its simulations.</p></div></div>
+      <div id="scienceChapterGrid" class="scienceChapterGrid"></div>
+    </div>
+
+    <div id="vslExperimentScreen" class="vslStepScreen hidden">
+      <button id="vslBackToChapters" class="vslBackButton" type="button">← Chapters</button>
+      <div class="vslStepHead"><span class="vslStepIcon">03</span><div><div class="vslKicker">CHAPTER SELECTED</div><h2 id="vslChapterTitle">Chapter Simulations</h2><p>Choose any simulation and play it as many times as you want.</p></div></div>
+      <div id="scienceExperimentGrid" class="scienceExperimentGrid"></div>
+    </div>
+  </div>
+</section>
+
+  <!-- =========================
+     CLASS SELECTION — START PAGE
+========================= -->
+  <!-- =========================
+     CLASS SELECTION
+========================= -->
+
+<main
+class="container">
+
+<section
+id="classScreen"
+class="screen">
+
+<div
+class="sectionHeader">
+
+<div class="classIntroBadge">📚 YOUR LEARNING JOURNEY</div>
+
+<h2>
+
+Choose Your Class
+
+</h2>
+
+<p>
+
+Pick your class and explore every subject.
+
+</p>
+
+</div>
+
+<div
+id="classGrid"
+class="classGrid">
+
+<button
+class="classCard"
+data-class="6">
+
+<div
+class="classIcon">
+
+6
+
+</div>
+
+<h3>
+
+Class 6
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="7">
+
+<div
+class="classIcon">
+
+7
+
+</div>
+
+<h3>
+
+Class 7
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="8">
+
+<div
+class="classIcon">
+
+8
+
+</div>
+
+<h3>
+
+Class 8
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="9">
+
+<div
+class="classIcon">
+
+9
+
+</div>
+
+<h3>
+
+Class 9
+
+</h3>
+
+
+</button>
+
+<button
+class="classCard"
+data-class="10">
+
+<div
+class="classIcon">
+
+10
+
+</div>
+
+<h3>
+
+Class 10
+
+</h3>
+
+
+</button>
+
+</div>
+
+</section>
+
+  <!-- =========================
+     SUBJECT SCREEN
+========================= -->
+
+<section
+id="subjectScreen"
+class="screen hidden">
+
+<button
+id="backToClasses"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back to Classes
+
+</button>
+
+<div
+class="sectionHeader">
+
+<h2
+id="selectedClassTitle">
+
+Select a Subject
+
+</h2>
+
+<p>
+
+Explore subjects for your class.
+
+</p>
+
+</div>
+
+<div
+id="subjectGrid"
+class="subjectGrid">
+
+<!-- Subjects will be generated by app.js -->
+
+</div>
+
+</section>
+
+<!-- =========================
+     CHAPTER SCREEN
+========================= -->
+
+<section
+id="chapterScreen"
+class="screen hidden">
+
+<button
+id="backToSubjects"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back to Subjects
+
+</button>
+
+<div
+class="sectionHeader">
+
+<h2
+id="selectedSubjectTitle">
+
+Select a Chapter
+
+</h2>
+
+<p>
+
+Select a chapter to begin learning.
+
+</p>
+
+</div>
+
+<div
+id="chapterGrid"
+class="chapterGrid">
+
+<!-- Chapters will be generated by app.js -->
+
+</div>
+
+</section>
+
+  <!-- =========================
+     DASHBOARD SCREEN
+========================= -->
+
+<section
+id="dashboardScreen"
+class="screen hidden">
+
+<button
+id="backToChapters"
+class="backButton">
+
+<span
+class="material-icons-round">
+
+arrow_back
+
+</span>
+
+Back to Chapters
+
+</button>
+
+<div
+class="dashboardHeader">
+
+<h2
+id="chapterTitle">
+
+Chapter Title
+
+</h2>
+
+<p
+id="chapterSubtitle">
+
+Class • Subject
+
+</p>
+
+</div>
+
+<div
+class="dashboardGrid">
+
+<div class="dashboardCard" id="notesCard">
+
+<span
+class="material-icons-round dashboardIcon">
+
+menu_book
+
+</span>
+
+<h3>
+
+Notes
+
+</h3>
+
+<p>
+
+Study complete chapter notes.
+
+</p>
+
+</div>
+
+<div class="dashboardCard" id="quizCard">
+
+<span
+class="material-icons-round dashboardIcon">
+
+quiz
+
+</span>
+
+<h3>
+
+Quiz
+
+</h3>
+
+<p>
+
+Test your understanding.
+
+</p>
+
+</div>
+
+<div
+class="dashboardCard" id="practiceCard">
+
+<span
+class="material-icons-round dashboardIcon">
+
+assignment
+
+</span>
+
+<h3>
+
+Practice
+
+</h3>
+
+<p>
+
+Solve important questions.
+
+</p>
+
+</div>
+
+<div class="dashboardCard" id="scienceLabCard">
+
+<span class="material-icons-round dashboardIcon">science</span>
+
+<h3>Virtual Science Laboratory</h3>
+
+<p>Perform the experiments for this chapter.</p>
+
+</div>
+
+<div
+class="dashboardCard" id="progressCard">
+
+<span
+class="material-icons-round dashboardIcon">
+
+emoji_events
+
+</span>
+
+<h3>
+
+Progress
+
+</h3>
+
+<p>
+
+Track your learning journey.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<script>
+/* Concept Quizzer emergency boot: never allow a loading overlay to block the app. */
+(function(){
+  try {
+    var loader=document.getElementById("preloader");
+    if(loader) loader.remove();
+  } catch(e) {}
+  window.addEventListener("error", function(){
+    var loader=document.getElementById("preloader");
+    if(loader) loader.remove();
+  });
+})();
+</script>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
