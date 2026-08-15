@@ -1,4 +1,4 @@
-const quizDatabase = {
+window.quizDatabase = {
   class6: {
     mathematics: {
       "patterns-in-mathematics": {
