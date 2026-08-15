@@ -3910,3 +3910,1265 @@ quizDatabase.class6.mathematics["class6-mathematics-the-other-side-of-zero"] = {
 quizDatabase.class6 = quizDatabase.class6 || {};
 quizDatabase.class6.science = quizDatabase.class6.science || {};
 quizDatabase.class6.science["6-science-diversity-in-the-living-world"] = {"easy":[{"question":"What does biodiversity mean?","options":["Variety of living organisms","Only variety of plants","Only variety of animals","Number of habitats"],"answer":0},{"question":"What is a habitat?","options":["A place where an organism lives","A body part","A food type","A weather event"],"answer":0},{"question":"Which is a living organism?","options":["Rock","Mango tree","Plastic bottle","Water"],"answer":1},{"question":"Which is a non-living thing?","options":["Mushroom","Ant","Stone","Grass"],"answer":2},{"question":"Which feature is common to living organisms?","options":["They grow","They are always green","They can all fly","They all live on land"],"answer":0},{"question":"Which plant is generally a herb?","options":["Mint","Mango","Neem","Banyan"],"answer":0},{"question":"Which plant is generally a climber?","options":["Money plant","Wheat","Mango","Cactus"],"answer":0},{"question":"Which animal is a herbivore?","options":["Tiger","Cow","Eagle","Cat"],"answer":1},{"question":"Which animal is a carnivore?","options":["Deer","Cow","Lion","Goat"],"answer":2},{"question":"Which animal is an omnivore?","options":["Human","Cow","Deer","Rabbit"],"answer":0},{"question":"Which habitat is mainly aquatic?","options":["Desert","Pond","Mountain","Grassland"],"answer":1},{"question":"Which adaptation helps fish live in water?","options":["Gills","Fur","Hooves","Feathers"],"answer":0},{"question":"Which animal is well adapted to a desert?","options":["Camel","Penguin","Frog","Whale"],"answer":0},{"question":"Which animal is adapted to very cold regions?","options":["Polar bear","Camel","Lizard","Monkey"],"answer":0},{"question":"Why are organisms classified?","options":["To make study and identification easier","To make them identical","To stop diversity","To remove habitats"],"answer":0},{"question":"Which is a microorganism?","options":["Amoeba","Elephant","Mango tree","Sparrow"],"answer":0},{"question":"Which microorganism is commonly used in bread making?","options":["Yeast","Earthworm","Tiger","Grass"],"answer":0},{"question":"What is an ecosystem?","options":["Living and non-living components interacting","Only animals in an area","Only plants in a forest","A single organism"],"answer":0},{"question":"Which is a producer?","options":["Green plant","Tiger","Mushroom","Human"],"answer":0},{"question":"Which is a consumer?","options":["Grass","Algae","Deer","Tree"],"answer":2},{"question":"Which organism helps decompose dead matter?","options":["Fungi","Tiger","Eagle","Cow"],"answer":0},{"question":"What does a food chain show?","options":["Transfer of food and energy between organisms","Only animal movement","Only plant growth","Weather changes"],"answer":0},{"question":"Why is biodiversity important?","options":["It supports healthy ecosystems","It removes all competition","It stops adaptation","It makes every species identical"],"answer":0},{"question":"Which action can reduce biodiversity?","options":["Deforestation","Planting native trees","Protecting habitats","Reducing pollution"],"answer":0},{"question":"Which action helps conservation?","options":["Protecting wildlife habitats","Destroying forests","Overhunting","Dumping waste"],"answer":0}],"medium":[{"question":"A habitat provides an organism mainly with what?","options":["Food, water, shelter and suitable conditions","Only food","Only sunlight","Only protection from predators"],"answer":0},{"question":"Why can two organisms in different habitats have different adaptations?","options":["Their survival conditions differ","All organisms need different planets","Adaptations are random decorations","Habitats do not affect organisms"],"answer":0},{"question":"Which observation best shows diversity?","options":["A garden contains many kinds of plants and animals","A garden has one mango tree","A rock is beside a plant","One bird sits on a branch"],"answer":0},{"question":"Why is a cactus suited to a dry habitat?","options":["It has features that help conserve water","It needs no sunlight","It can breathe underwater","It has webbed feet"],"answer":0},{"question":"Why does a fish have gills?","options":["To obtain oxygen from water","To eat plants","To walk on land","To keep its body warm"],"answer":0},{"question":"Which group contains only herbivores?","options":["Cow, deer, goat","Tiger, lion, deer","Human, cow, tiger","Eagle, fox, lion"],"answer":0},{"question":"Which group contains only carnivores?","options":["Lion, tiger, eagle","Cow, goat, deer","Human, bear, cow","Rabbit, deer, horse"],"answer":0},{"question":"Which statement about omnivores is correct?","options":["They can eat both plant and animal foods","They eat only plants","They eat only animals","They cannot digest food"],"answer":0},{"question":"Why is classification useful to scientists?","options":["It organizes organisms using similarities and differences","It makes organisms evolve faster","It eliminates species","It changes habitats"],"answer":0},{"question":"A pond contains plants, fish, insects, water and mud. Which statement is best?","options":["It contains both living and non-living components","Everything in it is living","Everything in it is non-living","Only fish matter"],"answer":0},{"question":"What role do decomposers play?","options":["They break down dead organic matter and recycle nutrients","They hunt every animal","They make sunlight","They stop food chains"],"answer":0},{"question":"Which organism is most likely a producer?","options":["Algae","Frog","Fish","Bacteria-eating insect"],"answer":0},{"question":"What happens if a major plant species disappears from a food web?","options":["Consumers depending on it may be affected","Nothing can change","Only rocks are affected","The ecosystem becomes non-living instantly"],"answer":0},{"question":"Why can habitat destruction threaten species?","options":["It removes resources and places needed for survival","It always increases food","It creates unlimited shelter","It stops all competition"],"answer":0},{"question":"Which is a behavioural adaptation?","options":["A bird migrating to a warmer region","A fish having fins","A cactus having spines","A polar bear having thick fur"],"answer":0},{"question":"Which is a structural adaptation?","options":["Webbed feet in a duck","Migration","Hibernation","Changing feeding time"],"answer":0},{"question":"Why are microorganisms important?","options":["Some help in food production and decomposition","All cause diseases","They are all harmful","They live only in laboratories"],"answer":0},{"question":"Which is a useful microorganism?","options":["Lactobacillus in curd making","A disease-causing pathogen","A plastic particle","A stone"],"answer":0},{"question":"Why should food chains be viewed as connected?","options":["One organism may depend on another for food","Every organism eats every other organism","Plants do not interact","Predators are unrelated to prey"],"answer":0},{"question":"What is the best example of conservation?","options":["Creating and protecting a wildlife sanctuary","Clearing a forest","Overfishing","Poaching"],"answer":0},{"question":"How can pollution affect biodiversity?","options":["It can damage habitats and harm organisms","It always creates new species","It guarantees survival","It removes competition everywhere"],"answer":0},{"question":"Why should endangered species be protected?","options":["Their populations may be at risk of disappearing","They are always dangerous","They cannot reproduce","They do not affect ecosystems"],"answer":0},{"question":"Which is a sensible school biodiversity activity?","options":["Record and classify plants seen around the school","Remove all insects","Collect every wild animal","Cut down shrubs"],"answer":0},{"question":"Why should repeated observations be compared?","options":["They can reveal patterns more reliably","They remove all differences","They make guesses correct","They prevent recording"],"answer":0},{"question":"A camel and a fish have different body features mainly because?","options":["They are adapted to different environments","They belong to the same habitat","They eat exactly the same food","They never interact with surroundings"],"answer":0}],"hard":[{"question":"Why is it risky to classify an organism using only one visible feature?","options":["Different organisms may share one feature but differ in many others","Every organism has only one feature","Classification never uses evidence","One feature always proves a group"],"answer":0},{"question":"A forest loses many flowering plants. Which effect is most likely first?","options":["Animals depending on those plants may lose food","All predators immediately disappear","Rocks change colour","The forest becomes aquatic"],"answer":0},{"question":"Why can a food web be more stable than a single food chain?","options":["Some consumers may have alternative food sources","A food web has no producers","Food webs contain no predators","Energy is not transferred"],"answer":0},{"question":"An animal has broad feet and padded soles. Which habitat is this most likely useful in?","options":["Sandy desert","Deep ocean","Frozen lake","Dense pond"],"answer":0},{"question":"Which conclusion is strongest after observing a bird with webbed feet?","options":["Its feet are suited for swimming","It can definitely fly long distances","It must eat only fish","It cannot live on land"],"answer":0},{"question":"Why are decomposers essential after organisms die?","options":["They return nutrients to the environment","They stop decomposition","They remove all oxygen","They become producers"],"answer":0},{"question":"A pond receives too much fertilizer runoff. What could happen?","options":["Algal growth may change and disrupt the ecosystem","Every fish becomes a producer","Water becomes a desert","Biodiversity always increases"],"answer":0},{"question":"Why can an invasive species threaten native biodiversity?","options":["It may compete for food, space or other resources","It always becomes a decomposer","It removes all non-living factors","It cannot reproduce"],"answer":0},{"question":"Which investigation best tests the effect of light on plant growth?","options":["Change light while keeping plant type, water and soil similar","Change light, water and soil together","Use a different species for each trial","Measure only leaf colour once"],"answer":0},{"question":"A student says, 'This animal lives in water, so it must be a fish.' Why is this reasoning weak?","options":["Other animals such as dolphins also live in water","All aquatic animals have scales","Fish are the only aquatic organisms","Water is not a habitat"],"answer":0},{"question":"Why is adaptation different from a temporary response?","options":["An adaptation is a useful inherited characteristic, while a temporary response can occur during life","They are exactly identical","Temporary responses are always genetic","Adaptations happen only in laboratories"],"answer":0},{"question":"If a species disappears from a food web, why might another population increase?","options":["Its predator may have lost a food source and the balance can shift","All populations always decrease together","Producers become extinct automatically","Decomposers stop working"],"answer":0},{"question":"Which evidence best supports that two organisms belong to different groups?","options":["Multiple consistent differences in important characteristics","One difference in colour","Their names","Where a student first saw them"],"answer":0},{"question":"Why should conservation consider habitats as well as individual animals?","options":["Protecting habitat preserves food, shelter and breeding conditions","Animals never use habitats","Habitats are non-living only","Individual protection always restores ecosystems"],"answer":0},{"question":"A scientist finds an organism in a very salty lake with unusual tolerance. What is the best scientific response?","options":["Record its features and investigate how those features support survival","Immediately invent a new species name without evidence","Ignore the observation","Assume it can live everywhere"],"answer":0},{"question":"Why can biodiversity improve ecosystem resilience?","options":["Different organisms can perform different roles and provide alternatives after disturbance","More species always means no competition","Diversity prevents every change","Only predators contribute to resilience"],"answer":0},{"question":"A forest has producers, herbivores, carnivores and decomposers. What does this show?","options":["Different trophic roles are interconnected","Only animals matter","Plants do not provide energy","Decomposers are consumers only"],"answer":0},{"question":"Why does removing a top predator sometimes increase herbivore numbers?","options":["Reduced predation can allow prey populations to rise","Predators produce food for herbivores","Plants stop growing immediately","Herbivores become decomposers"],"answer":0},{"question":"Which is the best reason to use scientific names or clear group names in classification?","options":["They reduce confusion when different organisms have local names","They make organisms identical","They remove the need for observation","They guarantee every species is known"],"answer":0},{"question":"A plant has waxy leaves and a thick stem in a dry region. What inference is most reasonable?","options":["These features may reduce water loss or store water","The plant must be aquatic","It cannot photosynthesize","It must be a carnivore"],"answer":0},{"question":"Why might microorganisms be found in apparently clean environments?","options":["Microscopic life is widespread and can live under many conditions","Microorganisms occur only in dirty places","Clean environments contain no life","All microorganisms need sunlight"],"answer":0},{"question":"Why can an ecosystem change after one species is removed even if many species remain?","options":["Species are linked through feeding and other interactions","Species are completely independent","Only non-living factors matter","Biodiversity means no interaction"],"answer":0},{"question":"Which conservation action addresses habitat loss most directly?","options":["Restoring and protecting natural habitats","Collecting more souvenirs","Increasing hunting","Replacing native species with any crop"],"answer":0},{"question":"A student compares two habitats and finds one has more species. What should be checked before concluding it has greater biodiversity?","options":["Sampling area, effort and methods should be comparable","Only the largest animal should be counted","The weather must be ignored","Only plants should be counted"],"answer":0},{"question":"Why is a food chain represented with arrows?","options":["They show the direction of food and energy transfer","They show where animals live","They show body size","They show classification rank"],"answer":0}],"toohard":[{"question":"A desert plant has small leaves and a thick waxy surface. Which combination best explains these features?","options":["Reduced water loss and protection from drying","Better swimming and greater oxygen uptake","Increased hunting and camouflage only","Faster seed dispersal by water"],"answer":0},{"question":"A pond loses most aquatic plants. Which change is most likely?","options":["Herbivorous aquatic animals may lose food and oxygen conditions may change","All carnivores become producers","Water becomes non-living","Decomposers immediately disappear"],"answer":0},{"question":"Why is a controlled comparison important when testing habitat effects?","options":["It helps separate the effect of the chosen factor from other conditions","It guarantees the hypothesis","It removes all natural variation","It makes measurement unnecessary"],"answer":0},{"question":"A classification decision is based on feathers, wings and beak. Which conclusion is most justified?","options":["The organism is likely a bird, based on several shared features","It must live only in forests","It cannot be aquatic","It must eat seeds"],"answer":0},{"question":"A food web contains grass → deer → tiger and grass → rabbit → tiger. If deer numbers fall, what may happen?","options":["The tiger may rely more on rabbits, increasing pressure on rabbit numbers","Grass immediately disappears","The tiger becomes a producer","Rabbit numbers must become zero"],"answer":0},{"question":"Why is the loss of a decomposer community especially serious?","options":["Nutrients in dead material may not be recycled efficiently","Producers no longer need sunlight","Predators cannot see prey","Every organism becomes aquatic"],"answer":0},{"question":"Two species have similar body shapes but live in very different habitats. What should a student avoid?","options":["Assuming they must have identical adaptations","Comparing their features","Recording their habitats","Investigating their food"],"answer":0},{"question":"Which result would most strongly support habitat specialization?","options":["A species consistently survives and reproduces better under a particular set of conditions","An individual moves once","A species is seen in one place once","A habitat has a common colour"],"answer":0},{"question":"A conservation plan protects an animal but destroys its breeding habitat. What is the weakness?","options":["The plan may not protect the conditions needed for reproduction","Animal protection never matters","Breeding habitats are irrelevant","Predators will disappear automatically"],"answer":0},{"question":"Why can biodiversity decline without any species becoming immediately extinct?","options":["Population sizes and habitat ranges can shrink before extinction occurs","Biodiversity only changes at extinction","Decline means every species disappears","Biodiversity is just species names"],"answer":0},{"question":"A lake receives pollutants that kill insects. Which food-web effect is plausible?","options":["Animals that depend on those insects may decline","All producers increase forever","Every fish becomes a decomposer","Predators become plants"],"answer":0},{"question":"A learner wants to compare biodiversity in two school plots. Which design is strongest?","options":["Use equal-sized plots and the same observation method and effort","Use one large plot and one tiny plot","Count only the most colourful species","Visit one plot many times and the other once"],"answer":0},{"question":"Why does sampling effort matter in biodiversity surveys?","options":["More observation effort can reveal more species and affect counts","Effort never changes observations","Only weather matters","Sampling is not part of science"],"answer":0},{"question":"Which claim is too broad after observing one cactus?","options":["All desert plants store water in exactly the same way","This cactus has features suited to dry conditions","Its thick stem may help water storage","Its reduced leaves may limit water loss"],"answer":0},{"question":"Why can similar adaptations evolve in unrelated organisms?","options":["Similar environmental pressures can favour similar useful features","All organisms share identical ancestors","Habitats force exact body shapes","Adaptations are not linked to survival"],"answer":0},{"question":"A new organism has traits shared with two groups. What should classification do first?","options":["Collect more evidence about multiple characteristics","Choose the group with the nicer name","Use only body colour","Ignore the unusual traits"],"answer":0},{"question":"Why should ecosystem conclusions be stated with conditions?","options":["Ecosystem responses depend on species and environmental context","Conditions never matter","It makes science weaker","Every ecosystem behaves identically"],"answer":0},{"question":"A forest has many plant species but heavy habitat fragmentation. What can be inferred cautiously?","options":["Current diversity may remain high while connectivity and long-term survival are at risk","Fragmentation always increases biodiversity","All species are safe","Fragmentation affects only rocks"],"answer":0},{"question":"Which evidence best supports a claim that a feature is an adaptation?","options":["The feature is associated with improved survival or reproduction under relevant conditions","The feature looks unusual","A single individual has it","The feature is colourful"],"answer":0},{"question":"Why is conservation of genetic diversity important within a species?","options":["It can help populations retain variation that may support future adaptation","All individuals must be identical","Genetic variation stops reproduction","Genetic diversity only matters in plants"],"answer":0},{"question":"What is the best interpretation of a simulation used to study ecosystems?","options":["It illustrates a model of relationships, not every detail of a real ecosystem","It exactly predicts every real ecosystem","It replaces field observations","It proves a hypothesis automatically"],"answer":0},{"question":"A food web has several paths from plants to a predator. Why might that provide some resilience?","options":["The predator may switch among available prey when one changes","The predator never needs food","Plants are consumers","Multiple paths remove all competition"],"answer":0},{"question":"Why is habitat restoration often more sustainable than only relocating individual animals?","options":["It addresses the environmental conditions required for continued populations","Animals never need habitats","Relocation always increases biodiversity","Restoration removes all predators"],"answer":0},{"question":"A species is declining because of pollution and habitat loss together. Why is a single-factor solution likely insufficient?","options":["More than one pressure is contributing to the decline","One pressure always causes every decline","Habitat and pollution are identical","Species decline cannot have multiple causes"],"answer":0},{"question":"Which statement best distinguishes biodiversity from ecosystem balance?","options":["Biodiversity describes variety of life, while ecosystem balance concerns interactions and stability","They are exactly the same term","Biodiversity means only balance","Ecosystem balance means number of species only"],"answer":0}],"extreme":[{"question":"A habitat has 20 plant species, but after a disturbance only 12 remain. Why should biodiversity loss not be judged only by species count?","options":["Population size, functional roles and genetic variation may also have changed","Species count is never useful","All remaining species are identical","Only predators matter"],"answer":0},{"question":"Two habitats contain the same number of species but different abundances. What could differ?","options":["Their ecological structure and resilience","Their number of species","The existence of habitats","The definition of biodiversity"],"answer":0},{"question":"A food web loses a producer used by three herbivores. Why can the effect spread to higher trophic levels?","options":["Reduced primary food can lower several herbivore populations and then affect predators","Only plants are affected","Predators never depend on herbivores","Energy increases when producers disappear"],"answer":0},{"question":"A student claims a feature is an adaptation because it is useful. What additional reasoning is needed?","options":["Evidence that the feature is a heritable characteristic associated with survival or reproduction","Proof that it is colourful","Proof that it appeared once","A larger drawing"],"answer":0},{"question":"Why can a species be threatened even when some individuals remain common in one location?","options":["Its total range or populations elsewhere may be shrinking and its habitat may be fragmented","One location represents the entire species","Common individuals cannot be threatened","Threat status depends only on body size"],"answer":0},{"question":"A conservation programme increases the number of animals but reduces genetic diversity. What long-term concern remains?","options":["Low genetic diversity may reduce adaptive potential and increase vulnerability","More animals always solve every problem","Genetic diversity has no role","Population size and genetics are identical"],"answer":0},{"question":"A forest edge has the same number of species as the forest interior but fewer pollinators. What does this illustrate?","options":["Species count alone may miss changes in ecological functions","Pollinators are not part of biodiversity","Edges always have greater biodiversity","Function and diversity are unrelated"],"answer":0},{"question":"Why can invasive species cause indirect effects even without eating native species?","options":["Competition or habitat modification can change resources available to native organisms","Only predation causes ecological effects","Invasive species cannot interact with habitats","Indirect effects are impossible"],"answer":0},{"question":"A pond restoration adds native plants but leaves severe pollution unchanged. Why may recovery remain limited?","options":["Pollution can continue to stress organisms and prevent stable populations","Plants remove every pollutant automatically","Pollution never affects aquatic life","Native plants are always sufficient"],"answer":0},{"question":"A classification key groups organisms by several traits. Why is this stronger than using one trait?","options":["Multiple traits provide more reliable evidence for distinguishing groups","More traits always make organisms identical","One trait is never useful","Classification cannot use traits"],"answer":0},{"question":"A student observes frogs only during rainy evenings. What is the strongest interpretation?","options":["Observation timing may reflect activity patterns, so surveys at other times may be needed","Frogs exist only at night","Rain creates frogs","One observation proves habitat preference"],"answer":0},{"question":"Why might two ecosystems with identical species lists still function differently?","options":["Species abundances, interactions and environmental conditions can differ","Species lists always determine function completely","Abiotic factors never matter","All ecosystems with the same species are identical"],"answer":0},{"question":"A drought removes most flowers in a habitat. Which chain of effects is plausible?","options":["Pollinators lose resources, fruit production may fall, and dependent animals may be affected","Predators become producers","Water loss increases biodiversity automatically","Decomposers stop needing food"],"answer":0},{"question":"Why should conservation priorities sometimes protect common species as well as rare ones?","options":["Common species can play important ecosystem roles and may decline rapidly under new pressures","Only rare species affect ecosystems","Common species cannot become threatened","Conservation concerns only species with small body size"],"answer":0},{"question":"A species survives in captivity but declines in the wild. What does this suggest about conservation?","options":["Captive survival alone does not prove that wild habitat conditions are suitable","Captivity always reproduces natural conditions","Wild habitats are irrelevant","The species is necessarily extinct"],"answer":0},{"question":"A model predicts a food-web collapse after removing one species, but field data show little change. What is the best next step?","options":["Examine model assumptions and compare them with real interactions and measurements","Change the field data","Assume the model is infallible","Ignore the discrepancy"],"answer":0},{"question":"Why is biodiversity often measured using both richness and abundance?","options":["Richness counts types while abundance shows how populations are distributed","Both measure exactly the same thing","Abundance replaces species identification","Richness ignores species"],"answer":0},{"question":"A habitat corridor connects two fragmented forests. What ecological benefit is most plausible?","options":["It can improve movement and gene flow between populations","It guarantees no predators","It removes every invasive species","It makes habitats identical"],"answer":0},{"question":"Why can loss of one keystone-like species have an outsized effect?","options":["Its ecological role may influence many interactions relative to its abundance","All species have identical roles","Keystone species are always the largest","Only producers can affect food webs"],"answer":0},{"question":"A protected area has many species but poor water quality. What conclusion is most careful?","options":["Protection can conserve habitat while water pollution still limits ecosystem health","Protected areas automatically eliminate pollution","Species count proves the ecosystem is healthy","Water quality is unrelated to biodiversity"],"answer":0},{"question":"A learner finds more species after extending survey time. What does this suggest about the survey?","options":["Sampling effort influences detected richness and should be standardized","The extra species appeared because of observation","Longer surveys are always inaccurate","Species can be created by counting"],"answer":0},{"question":"Why is restoration using native species usually preferred to introducing unrelated species?","options":["Native species are more likely to fit existing food webs and local conditions","Unrelated species always improve ecosystems","Native species cannot reproduce","All species have identical ecological roles"],"answer":0},{"question":"Two species compete for the same food. Why might one species persist if a second food source becomes available?","options":["Resource availability can reduce direct competition and alter coexistence","Competition always causes extinction","Food sources are irrelevant","The species become decomposers"],"answer":0},{"question":"A protected species increases in number but its prey declines sharply. Why should conservation management continue monitoring both?","options":["Increasing predator numbers can change food-web relationships and create new pressures","Only protected species matter","Prey populations never affect predators","Monitoring should stop after recovery"],"answer":0},{"question":"What is the strongest overall principle for studying biodiversity scientifically?","options":["Use clear classification, comparable observations, evidence from multiple sources and cautious conclusions","Rely on one observation and broad claims","Count only large organisms","Choose conclusions before collecting evidence"],"answer":0}]};
+quizDatabase.class6.science["6-science-mindful-eating-a-path-to-a-healthy-body"] = {
+easy: [
+{
+question: "Which of the following is called a balanced diet?",
+options: [
+"A diet containing all nutrients in the right amounts",
+"A diet containing only fruits",
+"A diet containing only proteins",
+"A diet containing only fats"
+],
+answer: 0
+},
+{
+question: "Which nutrient mainly helps in body growth and repair?",
+options: [
+"Vitamins",
+"Proteins",
+"Minerals",
+"Water"
+],
+answer: 1
+},
+{
+question: "Which of the following is a rich source of carbohydrates?",
+options: [
+"Egg",
+"Fish",
+"Rice",
+"Milk"
+],
+answer: 2
+},
+{
+question: "Which vitamin is important for healthy eyesight?",
+options: [
+"Vitamin C",
+"Vitamin D",
+"Vitamin K",
+"Vitamin A"
+],
+answer: 3
+},
+{
+question: "What is the main function of fats in our body?",
+options: [
+"Store energy and keep the body warm",
+"Help in breathing",
+"Form blood only",
+"Improve hearing"
+],
+answer: 0
+},
+{
+question: "Which nutrient helps in building muscles?",
+options: [
+"Proteins",
+"Fats",
+"Carbohydrates",
+"Roughage"
+],
+answer: 0
+},
+{
+question: "Which mineral is necessary for strong bones and teeth?",
+options: [
+"Iron",
+"Calcium",
+"Iodine",
+"Sodium"
+],
+answer: 1
+},
+{
+question: "Which disease is caused by deficiency of Vitamin D?",
+options: [
+"Anaemia",
+"Scurvy",
+"Goitre",
+"Rickets"
+],
+answer: 3
+},
+{
+question: "Which of these foods is richest in protein?",
+options: [
+"Dal",
+"Sugar",
+"Butter",
+"Rice"
+],
+answer: 0
+},
+{
+question: "What should we do before eating food?",
+options: [
+"Watch television",
+"Wash our hands",
+"Run fast",
+"Sleep"
+],
+answer: 1
+},
+{
+question: "Which nutrient gives us quick energy?",
+options: [
+"Proteins",
+"Minerals",
+"Carbohydrates",
+"Water"
+],
+answer: 2
+},
+{
+question: "What is roughage also known as?",
+options: [
+"Protein",
+"Fat",
+"Mineral",
+"Dietary fibre"
+],
+answer: 3
+},
+{
+question: "Why do we need water in our body?",
+options: [
+"To help body functions work properly",
+"To replace all nutrients",
+"To build bones only",
+"To increase fat"
+],
+answer: 0
+},
+{
+question: "Which food is considered unhealthy if eaten too often?",
+options: [
+"Fresh fruits",
+"Junk food",
+"Vegetables",
+"Sprouts"
+],
+answer: 1
+},
+{
+question: "Which of the following contains plenty of vitamins?",
+options: [
+"Chips",
+"Soft drinks",
+"Fruits and vegetables",
+"Candy"
+],
+answer: 2
+},
+{
+question: "Which disease is caused by iron deficiency?",
+options: [
+"Scurvy",
+"Goitre",
+"Rickets",
+"Anaemia"
+],
+answer: 3
+},
+{
+question: "What is mindful eating?",
+options: [
+"Eating with attention and awareness",
+"Eating very fast",
+"Skipping meals",
+"Eating only sweets"
+],
+answer: 0
+},
+{
+question: "Which meal is usually called the most important meal of the day?",
+options: [
+"Lunch",
+"Breakfast",
+"Dinner",
+"Snack"
+],
+answer: 1
+},
+{
+question: "Which nutrient helps protect us from diseases?",
+options: [
+"Water",
+"Fats",
+"Vitamins",
+"Sugar"
+],
+answer: 2
+},
+{
+question: "Which vitamin deficiency causes night blindness?",
+options: [
+"Vitamin C",
+"Vitamin D",
+"Vitamin B",
+"Vitamin A"
+],
+answer: 3
+},
+{
+question: "Why should food be covered properly?",
+options: [
+"To protect it from germs and insects",
+"To reduce nutrients",
+"To increase fat",
+"To change colour"
+],
+answer: 0
+},
+{
+question: "Which mineral deficiency can cause goitre?",
+options: [
+"Iron",
+"Iodine",
+"Calcium",
+"Phosphorus"
+],
+answer: 1
+},
+{
+question: "Which food is a healthy snack option?",
+options: [
+"Chocolate",
+"Chips",
+"Sprouts",
+"Soft drink"
+],
+answer: 2
+},
+{
+question: "Why should fruits be washed before eating?",
+options: [
+"To increase sweetness",
+"To increase vitamins",
+"To improve colour",
+"To remove dirt and germs"
+],
+answer: 3
+},
+{
+question: "What is the main goal of healthy eating habits?",
+options: [
+"Maintaining good health",
+"Eating maximum food",
+"Avoiding water",
+"Skipping breakfast"
+],
+answer: 0
+}
+]
+  medium: [
+{
+question: "Why is a balanced diet important for our body?",
+options: [
+"It provides all nutrients in proper amounts",
+"It provides only carbohydrates",
+"It contains only vitamins",
+"It eliminates the need for water"
+],
+answer: 0
+},
+{
+question: "A child eats enough food but lacks Vitamin A. What problem may occur?",
+options: [
+"Anaemia",
+"Goitre",
+"Rickets",
+"Night blindness"
+],
+answer: 3
+},
+{
+question: "Which nutrient helps in growth and repair of body tissues?",
+options: [
+"Carbohydrates",
+"Proteins",
+"Minerals",
+"Water"
+],
+answer: 1
+},
+{
+question: "Which food is a rich source of carbohydrates?",
+options: [
+"Egg",
+"Milk",
+"Rice",
+"Fish"
+],
+answer: 2
+},
+{
+question: "Deficiency of iodine can lead to:",
+options: [
+"Scurvy",
+"Anaemia",
+"Rickets",
+"Goitre"
+],
+answer: 3
+},
+{
+question: "Why should we wash our hands before eating?",
+options: [
+"To remove dirt and germs",
+"To improve taste",
+"To increase nutrients",
+"To cool the food"
+],
+answer: 0
+},
+{
+question: "Which mineral is necessary for strong bones and teeth?",
+options: [
+"Iron",
+"Calcium",
+"Iodine",
+"Sodium"
+],
+answer: 1
+},
+{
+question: "Which food contains a good amount of roughage?",
+options: [
+"Butter",
+"Sugar",
+"Green vegetables",
+"Oil"
+],
+answer: 2
+},
+{
+question: "Why should breakfast not be skipped?",
+options: [
+"It provides energy after a long gap without food",
+"It replaces lunch",
+"It prevents all diseases",
+"It increases height instantly"
+],
+answer: 0
+},
+{
+question: "Which nutrient is the main source of energy for the body?",
+options: [
+"Carbohydrates",
+"Proteins",
+"Vitamins",
+"Minerals"
+],
+answer: 0
+},
+{
+question: "What may happen if food is left uncovered?",
+options: [
+"It becomes healthier",
+"It gains nutrients",
+"It becomes tastier",
+"It may get contaminated"
+],
+answer: 3
+},
+{
+question: "Which disease is caused by deficiency of Vitamin D?",
+options: [
+"Anaemia",
+"Goitre",
+"Rickets",
+"Scurvy"
+],
+answer: 2
+},
+{
+question: "Mindful eating encourages us to:",
+options: [
+"Eat very quickly",
+"Skip meals",
+"Eat while watching TV",
+"Pay attention while eating"
+],
+answer: 3
+},
+{
+question: "What can happen if fruits and vegetables are not washed properly?",
+options: [
+"They become sweeter",
+"They lose nutrients",
+"They become softer",
+"They may contain harmful germs"
+],
+answer: 3
+},
+{
+question: "Which food is a rich source of protein?",
+options: [
+"Rice",
+"Pulses",
+"Sugar",
+"Butter"
+],
+answer: 1
+},
+{
+question: "Which vitamin is produced when our skin is exposed to sunlight?",
+options: [
+"Vitamin C",
+"Vitamin D",
+"Vitamin A",
+"Vitamin K"
+],
+answer: 1
+},
+{
+question: "Why should junk food be eaten in limited amounts?",
+options: [
+"It may harm health if eaten too much",
+"It contains all nutrients",
+"It improves immunity",
+"It improves digestion"
+],
+answer: 0
+},
+{
+question: "Which nutrient helps food move through the digestive system?",
+options: [
+"Protein",
+"Fat",
+"Roughage",
+"Starch"
+],
+answer: 2
+},
+{
+question: "Which food group mainly helps protect the body from diseases?",
+options: [
+"Fats and oils",
+"Fruits and vegetables",
+"Sweets",
+"Soft drinks"
+],
+answer: 1
+},
+{
+question: "Iron deficiency may result in:",
+options: [
+"Goitre",
+"Rickets",
+"Scurvy",
+"Anaemia"
+],
+answer: 3
+},
+{
+question: "Which food is the healthiest snack?",
+options: [
+"Chocolate",
+"Chips",
+"Sprouts",
+"Soft drink"
+],
+answer: 2
+},
+{
+question: "Why do we need water every day?",
+options: [
+"To support body functions",
+"To build muscles",
+"To form bones",
+"To provide roughage"
+],
+answer: 0
+},
+{
+question: "Which habit is NOT a healthy eating habit?",
+options: [
+"Eating at regular times",
+"Skipping meals regularly",
+"Washing hands before eating",
+"Eating fresh food"
+],
+answer: 1
+},
+{
+question: "What is the main purpose of roughage?",
+options: [
+"Building muscles",
+"Helping digestion",
+"Providing energy",
+"Forming blood"
+],
+answer: 1
+},
+{
+question: "Which meal is closest to a balanced meal?",
+options: [
+"Only chips",
+"Only sweets",
+"Rice, dal, vegetables and fruit",
+"Only soft drinks"
+],
+answer: 2
+}
+]
+hard: [
+{
+question: "A child eats enough carbohydrates but very little protein. What is the most likely effect?",
+options: [
+"Poor growth and tissue repair",
+"Improved eyesight",
+"Stronger bones",
+"Better digestion"
+],
+answer: 0
+},
+{
+question: "A person regularly eats junk food and avoids fruits and vegetables. What is the most likely long-term effect?",
+options: [
+"Better immunity",
+"Stronger muscles",
+"Improved digestion",
+"Nutrient deficiencies"
+],
+answer: 3
+},
+{
+question: "Which nutrient helps in the growth and repair of body tissues?",
+options: [
+"Carbohydrates",
+"Proteins",
+"Minerals",
+"Water"
+],
+answer: 1
+},
+{
+question: "Which food is the richest source of roughage?",
+options: [
+"Butter",
+"Sugar",
+"Green leafy vegetables",
+"Oil"
+],
+answer: 2
+},
+{
+question: "A child rarely goes outside in sunlight. Which deficiency disease is most likely?",
+options: [
+"Anaemia",
+"Scurvy",
+"Night blindness",
+"Rickets"
+],
+answer: 3
+},
+{
+question: "Why should food be covered properly after cooking?",
+options: [
+"To protect it from germs and insects",
+"To increase nutrients",
+"To improve taste",
+"To increase weight"
+],
+answer: 0
+},
+{
+question: "Which mineral is essential for healthy bones and teeth?",
+options: [
+"Iron",
+"Calcium",
+"Iodine",
+"Sodium"
+],
+answer: 1
+},
+{
+question: "Which food provides the body with the most energy?",
+options: [
+"Water",
+"Vitamins",
+"Carbohydrates",
+"Minerals"
+],
+answer: 2
+},
+{
+question: "A person develops night blindness due to lack of:",
+options: [
+"Vitamin D",
+"Vitamin C",
+"Iron",
+"Vitamin A"
+],
+answer: 3
+},
+{
+question: "Which nutrient is the body's primary source of energy?",
+options: [
+"Carbohydrates",
+"Proteins",
+"Vitamins",
+"Minerals"
+],
+answer: 0
+},
+{
+question: "Why should we avoid wasting food?",
+options: [
+"It improves digestion",
+"It increases vitamins",
+"It makes food cheaper",
+"Food production requires resources and effort"
+],
+answer: 3
+},
+{
+question: "What is the main function of roughage?",
+options: [
+"Providing energy",
+"Building muscles",
+"Helping digestion",
+"Providing minerals"
+],
+answer: 2
+},
+{
+question: "Mindful eating encourages people to:",
+options: [
+"Eat quickly",
+"Skip meals",
+"Eat while distracted",
+"Pay attention while eating"
+],
+answer: 3
+},
+{
+question: "What may happen if fruits are eaten without washing them?",
+options: [
+"They may contain harmful germs",
+"They become sweeter",
+"They gain nutrients",
+"They gain vitamins"
+],
+answer: 3
+},
+{
+question: "Which food is a good source of protein?",
+options: [
+"Rice",
+"Pulses",
+"Sugar",
+"Butter"
+],
+answer: 1
+},
+{
+question: "Which vitamin is produced when the skin is exposed to sunlight?",
+options: [
+"Vitamin A",
+"Vitamin D",
+"Vitamin C",
+"Vitamin K"
+],
+answer: 1
+},
+{
+question: "Why is breakfast important for students?",
+options: [
+"It provides energy for daily activities",
+"It replaces lunch",
+"It replaces dinner",
+"It prevents all diseases"
+],
+answer: 0
+},
+{
+question: "Which nutrient helps food move through the digestive system?",
+options: [
+"Protein",
+"Fat",
+"Roughage",
+"Sugar"
+],
+answer: 2
+},
+{
+question: "Which food group mainly protects the body from diseases?",
+options: [
+"Fats and oils",
+"Fruits and vegetables",
+"Sweets",
+"Soft drinks"
+],
+answer: 1
+},
+{
+question: "Deficiency of iodine can cause:",
+options: [
+"Anaemia",
+"Scurvy",
+"Rickets",
+"Goitre"
+],
+answer: 3
+},
+{
+question: "A balanced meal should contain:",
+options: [
+"Only proteins",
+"Only carbohydrates",
+"All nutrients in proper amounts",
+"Only vitamins"
+],
+answer: 2
+},
+{
+question: "Why should we drink clean water regularly?",
+options: [
+"To support body functions",
+"To build muscles",
+"To increase fat",
+"To provide roughage"
+],
+answer: 0
+},
+{
+question: "Iron deficiency mainly affects:",
+options: [
+"Blood formation",
+"Bone growth",
+"Hair colour",
+"Skin colour"
+],
+answer: 1
+},
+{
+question: "Which habit is an example of mindful eating?",
+options: [
+"Eating while watching television",
+"Eating very fast",
+"Listening to hunger and fullness signals",
+"Skipping breakfast"
+],
+answer: 1
+},
+{
+question: "Which meal is closest to a balanced diet?",
+options: [
+"Only chips",
+"Only sweets",
+"Rice, dal, vegetables and fruit",
+"Only soft drinks"
+],
+answer: 2
+}
+]
+tooHard: [
+{
+question: "A student eats enough food daily but still feels weak because the diet lacks essential nutrients. Which statement best explains this?",
+options: [
+"The quantity of food matters more than quality",
+"The body only needs carbohydrates",
+"A balanced diet is important, not just the amount of food",
+"Water alone can provide all nutrients"
+],
+answer: 0
+},
+{
+question: "A child develops goitre despite eating sufficient food. Which dietary change would most likely help?",
+options: [
+"Increase sweets",
+"Eat more fats",
+"Drink more water",
+"Use iodised salt regularly"
+],
+answer: 3
+},
+{
+question: "Which nutrient is most directly responsible for repairing worn-out body tissues?",
+options: [
+"Vitamins",
+"Proteins",
+"Minerals",
+"Carbohydrates"
+],
+answer: 1
+},
+{
+question: "A person eats only energy-giving foods for several months. Which problem is most likely?",
+options: [
+"Improved immunity",
+"Better digestion",
+"Deficiency diseases may develop",
+"Increased vitamin levels"
+],
+answer: 2
+},
+{
+question: "A child spends most of the day indoors and avoids sunlight. Which deficiency disease is most likely?",
+options: [
+"Scurvy",
+"Anaemia",
+"Goitre",
+"Rickets"
+],
+answer: 3
+},
+{
+question: "Why is roughage important even though it is not digested by the body?",
+options: [
+"It helps move waste through the digestive system",
+"It provides maximum energy",
+"It builds muscles",
+"It forms blood cells"
+],
+answer: 0
+},
+{
+question: "Which mineral is most important for maintaining healthy bones and teeth?",
+options: [
+"Calcium",
+"Iron",
+"Iodine",
+"Potassium"
+],
+answer: 1
+},
+{
+question: "Which food combination provides the highest amount of roughage?",
+options: [
+"Butter and cheese",
+"Sugar and sweets",
+"Salad and green vegetables",
+"Oil and ghee"
+],
+answer: 2
+},
+{
+question: "A student skips breakfast and feels tired during class. What is the most likely reason?",
+options: [
+"Lack of vitamins",
+"Lack of roughage",
+"The body did not receive enough energy after a long gap",
+"Lack of minerals"
+],
+answer: 0
+},
+{
+question: "If a person stops drinking enough water for several days, which problem may occur first?",
+options: [
+"Dehydration",
+"Night blindness",
+"Goitre",
+"Rickets"
+],
+answer: 0
+},
+{
+question: "Food left uncovered in a kitchen is unsafe mainly because:",
+options: [
+"It loses colour",
+"It loses vitamins",
+"It becomes cold",
+"It may be contaminated by germs and insects"
+],
+answer: 3
+},
+{
+question: "Which deficiency disease is directly linked to lack of Vitamin D?",
+options: [
+"Scurvy",
+"Anaemia",
+"Rickets",
+"Goitre"
+],
+answer: 2
+},
+{
+question: "A person eats while watching videos and often overeats. Which healthy habit is missing?",
+options: [
+"Exercise",
+"Food storage",
+"Cooking skills",
+"Mindful eating"
+],
+answer: 3
+},
+{
+question: "What is the biggest advantage of washing fruits before eating them?",
+options: [
+"They become sweeter",
+"They become softer",
+"They gain vitamins",
+"Harmful dirt and germs can be removed"
+],
+answer: 3
+},
+{
+question: "Which food is generally richest in protein?",
+options: [
+"Pulses",
+"Sugar",
+"Butter",
+"Soft drinks"
+],
+answer: 1
+},
+{
+question: "A person gets adequate sunlight every day. Which vitamin is the body likely producing?",
+options: [
+"Vitamin C",
+"Vitamin D",
+"Vitamin B",
+"Vitamin K"
+],
+answer: 1
+},
+{
+question: "Why should junk food not replace regular meals?",
+options: [
+"It often lacks many essential nutrients",
+"It contains only water",
+"It improves digestion too much",
+"It contains excessive roughage"
+],
+answer: 0
+},
+{
+question: "Which food component mainly prevents constipation?",
+options: [
+"Protein",
+"Fat",
+"Roughage",
+"Sugar"
+],
+answer: 2
+},
+{
+question: "Why are fruits and vegetables called protective foods?",
+options: [
+"They provide only water",
+"They help protect the body from diseases",
+"They are always sweet",
+"They contain only carbohydrates"
+],
+answer: 1
+},
+{
+question: "A child with iron deficiency may suffer from:",
+options: [
+"Night blindness",
+"Scurvy",
+"Goitre",
+"Anaemia"
+],
+answer: 3
+},
+{
+question: "Which meal is most likely to be balanced?",
+options: [
+"Only chips",
+"Only sweets",
+"Rice, dal, vegetables and fruit",
+"Only soft drinks"
+],
+answer: 2
+},
+{
+question: "What is the primary role of water in the body?",
+options: [
+"Supporting many body processes",
+"Providing protein",
+"Providing roughage",
+"Providing calcium"
+],
+answer: 0
+},
+{
+question: "Which behaviour is least healthy?",
+options: [
+"Washing hands before eating",
+"Skipping meals frequently",
+"Eating fresh food",
+"Drinking clean water"
+],
+answer: 1
+},
+{
+question: "A student carefully listens to hunger signals and avoids overeating. This is an example of:",
+options: [
+"Fast eating",
+"Mindful eating",
+"Food contamination",
+"Food preservation"
+],
+answer: 1
+},
+{
+question: "Which statement best describes a balanced diet?",
+options: [
+"It contains only proteins",
+"It contains only energy-giving foods",
+"It contains all essential nutrients in suitable amounts",
+"It contains only fruits"
+],
+answer: 2
+}
+]
+extreme: [
+{
+question: "A child eats enough calories but suffers from several deficiency diseases. What is the most logical conclusion?",
+options: [
+"The diet lacks essential nutrients despite enough energy",
+"The child drinks too much water",
+"The child eats too much roughage",
+"The child sleeps too much"
+],
+answer: 0
+},
+{
+question: "A person consumes only polished rice for months. Which risk is most likely to increase?",
+options: [
+"Improved immunity",
+"Balanced nutrition",
+"Better digestion",
+"Nutrient deficiencies"
+],
+answer: 3
+},
+{
+question: "Which nutrient is most directly involved in repairing damaged tissues after an injury?",
+options: [
+"Carbohydrates",
+"Proteins",
+"Fats",
+"Minerals"
+],
+answer: 1
+},
+{
+question: "A meal contains rice, dal, vegetables, curd and fruit. This meal is best described as:",
+options: [
+"Energy-rich only",
+"Protein-rich only",
+"A balanced diet",
+"Vitamin-rich only"
+],
+answer: 2
+},
+{
+question: "A student avoids sunlight completely for a long period. Which health issue is most likely?",
+options: [
+"Anaemia",
+"Scurvy",
+"Goitre",
+"Rickets"
+],
+answer: 3
+},
+{
+question: "Why is roughage considered essential even though it is not digested?",
+options: [
+"It helps maintain healthy digestion",
+"It provides maximum energy",
+"It forms blood",
+"It builds muscles"
+],
+answer: 0
+},
+{
+question: "Which mineral is most important for maintaining strong bones and teeth?",
+options: [
+"Iron",
+"Calcium",
+"Iodine",
+"Sodium"
+],
+answer: 1
+},
+{
+question: "Which food choice would provide the greatest amount of roughage?",
+options: [
+"Butter and cheese",
+"Cake and sweets",
+"Fresh vegetables and salad",
+"Oil and ghee"
+],
+answer: 2
+},
+{
+question: "A student feels tired and unable to focus because breakfast was skipped. What is the main reason?",
+options: [
+"Lack of immediate energy supply",
+"Lack of protein only",
+"Lack of minerals only",
+"Lack of roughage only"
+],
+answer: 0
+},
+{
+question: "Which nutrient is the body's major source of energy?",
+options: [
+"Carbohydrates",
+"Proteins",
+"Vitamins",
+"Minerals"
+],
+answer: 0
+},
+{
+question: "Food contamination is most likely when food is:",
+options: [
+"Freshly cooked",
+"Properly stored",
+"Refrigerated",
+"Left uncovered"
+],
+answer: 3
+},
+{
+question: "Which disease is directly caused by deficiency of Vitamin D?",
+options: [
+"Goitre",
+"Scurvy",
+"Rickets",
+"Anaemia"
+],
+answer: 2
+},
+{
+question: "Which habit best represents mindful eating?",
+options: [
+"Eating while watching videos",
+"Skipping meals",
+"Eating very fast",
+"Paying attention to hunger and fullness"
+],
+answer: 3
+},
+{
+question: "Why should fruits be washed before eating?",
+options: [
+"They become sweeter",
+"They become softer",
+"They gain nutrients",
+"To remove dirt and harmful microorganisms"
+],
+answer: 3
+},
+{
+question: "Which food is the best source of protein among these?",
+options: [
+"Pulses",
+"Sugar",
+"Soft drinks",
+"Butter"
+],
+answer: 1
+},
+{
+question: "The human body naturally produces which vitamin when exposed to sunlight?",
+options: [
+"Vitamin A",
+"Vitamin D",
+"Vitamin C",
+"Vitamin B"
+],
+answer: 1
+},
+{
+question: "Why should junk food not replace regular meals?",
+options: [
+"It may not provide all essential nutrients",
+"It contains only water",
+"It contains too much roughage",
+"It prevents digestion"
+],
+answer: 0
+},
+{
+question: "Which food component mainly helps prevent constipation?",
+options: [
+"Protein",
+"Fat",
+"Roughage",
+"Sugar"
+],
+answer: 2
+},
+{
+question: "Why are fruits and vegetables often called protective foods?",
+options: [
+"They contain only water",
+"They help protect the body from diseases",
+"They provide only carbohydrates",
+"They contain only fats"
+],
+answer: 1
+},
+{
+question: "Iron deficiency is most closely associated with:",
+options: [
+"Night blindness",
+"Rickets",
+"Goitre",
+"Anaemia"
+],
+answer: 3
+},
+{
+question: "Which meal is most nutritionally balanced?",
+options: [
+"Only chips",
+"Only sweets",
+"Rice, dal, vegetables and fruit",
+"Only soft drinks"
+],
+answer: 2
+},
+{
+question: "What is one major function of water in the body?",
+options: [
+"Supporting important body processes",
+"Providing proteins",
+"Providing vitamins",
+"Providing roughage"
+],
+answer: 0
+},
+{
+question: "Which behaviour is least healthy for maintaining good nutrition?",
+options: [
+"Washing hands before meals",
+"Skipping meals regularly",
+"Eating fresh food",
+"Drinking clean water"
+],
+answer: 1
+},
+{
+question: "A person carefully chooses food, eats slowly and avoids overeating. This is called:",
+options: [
+"Food preservation",
+"Mindful eating",
+"Food contamination",
+"Food fortification"
+],
+answer: 1
+},
+{
+question: "Which statement best defines a balanced diet?",
+options: [
+"Only protein-rich foods",
+"Only energy-giving foods",
+"A diet containing all nutrients in proper proportions",
+"Only fruits and vegetables"
+],
+answer: 2
+}
+]
+};
