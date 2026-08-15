@@ -159,6 +159,16 @@ const chapter =
         chapterKey
     );
 
+    alert(
+  "Chapter: " + chapterKey +
+  "\nLevel: " + level +
+  "\nQuizDatabase: " + (typeof quizDatabase)
+);
+
+console.log("Chapter Key =", chapterKey);
+console.log("Level =", level);
+console.log("QuizDatabase =", quizDatabase);
+console.log("Chapter =", chapter);
 
 /* Load selected difficulty */
 if (chapter) {
