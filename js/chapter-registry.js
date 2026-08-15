@@ -127,7 +127,7 @@ window.ChapterRegistry = [
     quizFile: "js/class6/maths-quiz-database.js",
     quizId: "class6-mathematics-the-other-side-of-zero",
     enabled: true
-  }
+  },
 
   {
   id: "class6-science-the-wonderful-world-of-science",
