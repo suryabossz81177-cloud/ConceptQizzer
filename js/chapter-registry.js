@@ -221,7 +221,7 @@ window.ChapterRegistry = [
   title: "Coordinate Geometry",
   file: "js/notes/class10/mathematics/coordinate-geometry.js",
   enabled: true
-}
+},
 
  
 /* =========================
