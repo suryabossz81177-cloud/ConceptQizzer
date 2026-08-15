@@ -66,14 +66,16 @@ function normalizeChapterKey(key) {
         .toLowerCase()
         .trim()
         .replace(/_/g, "-")
-        /* Accept BOTH deployed chapter formats:
-           class6-mathematics-lines-and-angles
-           6-mathematics-lines-and-angles */
+
         .replace(/^class\d+-mathematics-/, "")
         .replace(/^class\d+-math-/, "")
-        .replace(/^class\d+-/, "")
+        .replace(/^class\d+-science-/, "")
+
         .replace(/^\d+-mathematics-/, "")
         .replace(/^\d+-math-/, "")
+        .replace(/^\d+-science-/, "")
+
+        .replace(/^class\d+-/, "")
         .replace(/^\d+-/, "");
 }
 
@@ -158,6 +160,12 @@ const chapter =
         quizDatabase,
         chapterKey
     );
+
+    alert(
+"Original: " + chapterKey +
+"\nNormalized: " + normalizeChapterKey(chapterKey) +
+"\nFound: " + (chapter ? "YES" : "NO")
+);
 
     alert(
   "Chapter: " + chapterKey +
