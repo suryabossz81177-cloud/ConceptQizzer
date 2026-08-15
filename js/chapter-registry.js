@@ -1,8 +1,6 @@
 /*==================================================
   CONCEPT QUIZZER
   UNIVERSAL CHAPTER REGISTRY
-  Package 12.5 — Step 6.4A
-  Designed for 300+ Chapters
 ==================================================*/
 
 window.ChapterRegistry = [
@@ -12,102 +10,40 @@ window.ChapterRegistry = [
   ================================================= */
 
   {
-    id: "patterns-in-mathematics",
-
+    id: "class6-mathematics-patterns-in-mathematics",
     class: 6,
-
     subject: "Mathematics",
-
     chapterNumber: 1,
-
     title: "Patterns in Mathematics",
-
-    file:
-      "js/notes/class6/mathematics/patterns-in-mathematics.js",
-
+    file: "js/notes/class6/mathematics/patterns-in-mathematics.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-patterns-in-mathematics",
     enabled: true
   },
 
   {
-  id: "class6-mathematics-lines-and-angles",
-
-  class: 6,
-
-  subject: "Mathematics",
-
-  chapterNumber: 2,
-
-  title: "Lines and Angles",
-
-  file:
-    "js/notes/class6/mathematics/lines-and-angles.js",
-
-  enabled: true
-},
-
-    {
-    id: "class6-mathematics-number-play",
-
+    id: "class6-mathematics-lines-and-angles",
     class: 6,
-
     subject: "Mathematics",
-
-    chapterNumber: 3,
-
-    title: "Number Play",
-
-    file:
-      "js/notes/class6/mathematics/number-play.js",
-
-    enabled: true
-  },
-
-  /*
-  ---------------------------------------------------
-  FUTURE CHAPTER EXAMPLE
-
-  {
-    id: "fractions",
-
-    class: 6,
-
-    subject: "Mathematics",
-
     chapterNumber: 2,
-
-    title: "Fractions",
-
-    file:
-      "js/notes/class6/mathematics/fractions.js",
-
-    enabled: true
-  }
-
-    {
-    id: "class6-mathematics-number-play",
-
-    class: 6,
-
-    subject: "Mathematics",
-
-    chapterNumber: 3,
-
-    title: "Number Play",
-
-    file:
-      "js/notes/class6/mathematics/number-play.js",
-
+    title: "Lines and Angles",
+    file: "js/notes/class6/mathematics/lines-and-angles.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-lines-and-angles",
     enabled: true
   },
-  ---------------------------------------------------
-  */
 
-
-  /*
-  ===================================================
-  ADD FUTURE CHAPTERS ABOVE THIS LINE
-  ===================================================
-  */
+  {
+    id: "class6-mathematics-number-play",
+    class: 6,
+    subject: "Mathematics",
+    chapterNumber: 3,
+    title: "Number Play",
+    file: "js/notes/class6/mathematics/number-play.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-number-play",
+    enabled: true
+  },
 
   {
     id: "class6-mathematics-data-handling-and-presentation",
@@ -115,8 +51,9 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 4,
     title: "Data Handling and Presentation",
-    file:
-      "js/notes/class6/mathematics/data-handling-and-presentation.js",
+    file: "js/notes/class6/mathematics/data-handling-and-presentation.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-data-handling-and-presentation",
     enabled: true
   },
 
@@ -126,8 +63,9 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 5,
     title: "Prime Time",
-    file:
-      "js/notes/class6/mathematics/prime-time.js",
+    file: "js/notes/class6/mathematics/prime-time.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-prime-time",
     enabled: true
   },
 
@@ -137,8 +75,9 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 6,
     title: "Perimeter and Area",
-    file:
-      "js/notes/class6/mathematics/perimeter-and-area.js",
+    file: "js/notes/class6/mathematics/perimeter-and-area.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-perimeter-and-area",
     enabled: true
   },
 
@@ -148,8 +87,9 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 7,
     title: "Fractions",
-    file:
-      "js/notes/class6/mathematics/fractions.js",
+    file: "js/notes/class6/mathematics/fractions.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-fractions",
     enabled: true
   },
 
@@ -159,11 +99,11 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 8,
     title: "Playing with Constructions",
-    file:
-      "js/notes/class6/mathematics/playing-with-constructions.js",
+    file: "js/notes/class6/mathematics/playing-with-constructions.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-playing-with-constructions",
     enabled: true
   },
-
 
   {
     id: "class6-mathematics-symmetry",
@@ -171,8 +111,9 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 9,
     title: "Symmetry",
-    file:
-      "js/notes/class6/mathematics/symmetry.js",
+    file: "js/notes/class6/mathematics/symmetry.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-symmetry",
     enabled: true
   },
 
@@ -182,12 +123,13 @@ window.ChapterRegistry = [
     subject: "Mathematics",
     chapterNumber: 10,
     title: "The Other Side of Zero",
-    file:
-      "js/notes/class6/mathematics/the-other-side-of-zero.js",
+    file: "js/notes/class6/mathematics/the-other-side-of-zero.js",
+    quizFile: "js/class6/maths-quiz-database.js",
+    quizId: "class6-mathematics-the-other-side-of-zero",
     enabled: true
-  },
-];
+  }
 
+];
 
 /*==================================================
   REGISTRY VALIDATION
@@ -197,39 +139,23 @@ window.ChapterRegistry = [
 
   "use strict";
 
-
-  const registry =
-    window.ChapterRegistry;
-
+  const registry = window.ChapterRegistry;
 
   if (!Array.isArray(registry)) {
-
-    console.error(
-      "❌ ChapterRegistry must be an array."
-    );
-
+    console.error("❌ ChapterRegistry must be an array.");
     return;
   }
 
-
   const ids = new Set();
-
 
   registry.forEach(function (chapter, index) {
 
     if (!chapter || typeof chapter !== "object") {
-
       console.error(
         `❌ Invalid chapter at registry index ${index}.`
       );
-
       return;
     }
-
-
-    /* ------------------------------------------
-       REQUIRED FIELDS
-    ------------------------------------------ */
 
     const requiredFields = [
       "id",
@@ -237,9 +163,10 @@ window.ChapterRegistry = [
       "subject",
       "chapterNumber",
       "title",
-      "file"
+      "file",
+      "quizFile",
+      "quizId"
     ];
-
 
     requiredFields.forEach(function (field) {
 
@@ -258,67 +185,31 @@ window.ChapterRegistry = [
 
     });
 
-
-    /* ------------------------------------------
-       DUPLICATE ID CHECK
-    ------------------------------------------ */
-
     if (ids.has(chapter.id)) {
-
       console.error(
         "❌ DUPLICATE CHAPTER ID:",
         chapter.id
       );
-
     } else {
-
       ids.add(chapter.id);
-
     }
-
-
-    /* ------------------------------------------
-       CHAPTER NUMBER CHECK
-    ------------------------------------------ */
 
     if (
       !Number.isFinite(
         Number(chapter.chapterNumber)
       )
     ) {
-
       console.error(
         "❌ Invalid chapter number:",
         chapter
       );
-
     }
 
-
-    /* ------------------------------------------
-       ENABLED DEFAULT
-    ------------------------------------------ */
-
-    if (
-      chapter.enabled === undefined
-    ) {
-
+    if (chapter.enabled === undefined) {
       chapter.enabled = true;
-
     }
 
   });
-
-
-  /*================================================
-    SORTING
-
-    Class
-      ↓
-    Subject
-      ↓
-    Chapter Number
-  =================================================*/
 
   registry.sort(function (a, b) {
 
@@ -326,33 +217,20 @@ window.ChapterRegistry = [
       Number(a.class || 0) -
       Number(b.class || 0);
 
-
     if (classDifference !== 0) {
-
       return classDifference;
-
     }
-
 
     const subjectA =
       String(a.subject || "")
         .toLowerCase();
 
-
     const subjectB =
       String(b.subject || "")
         .toLowerCase();
 
-
-    if (subjectA < subjectB) {
-      return -1;
-    }
-
-
-    if (subjectA > subjectB) {
-      return 1;
-    }
-
+    if (subjectA < subjectB) return -1;
+    if (subjectA > subjectB) return 1;
 
     return (
       Number(a.chapterNumber || 0) -
@@ -361,76 +239,42 @@ window.ChapterRegistry = [
 
   });
 
-
-  /*================================================
-    PUBLIC REGISTRY HELPERS
-  =================================================*/
-
   window.ConceptQuizzer =
     window.ConceptQuizzer || {};
 
-
   window.ConceptQuizzer.getRegistry =
     function () {
-
       return registry;
-
     };
-
 
   window.ConceptQuizzer.getEnabledChapters =
     function () {
-
       return registry.filter(
-        function (chapter) {
-
-          return (
-            chapter &&
-            chapter.enabled !== false
-          );
-
-        }
+        chapter => chapter &&
+        chapter.enabled !== false
       );
-
     };
-
 
   window.ConceptQuizzer.findChapter =
     function (id) {
-
       return registry.find(
-        function (chapter) {
-
-          return (
-            chapter &&
-            chapter.id === id &&
-            chapter.enabled !== false
-          );
-
-        }
+        chapter =>
+          chapter &&
+          chapter.id === id &&
+          chapter.enabled !== false
       ) || null;
-
     };
-
 
   window.ConceptQuizzer.getChaptersByClass =
     function (classNumber) {
-
       return registry.filter(
-        function (chapter) {
-
-          return (
-            chapter &&
-            Number(chapter.class) ===
-              Number(classNumber) &&
-            chapter.enabled !== false
-          );
-
-        }
+        chapter =>
+          chapter &&
+          Number(chapter.class) ===
+          Number(classNumber) &&
+          chapter.enabled !== false
       );
-
     };
-
 
   window.ConceptQuizzer.getChaptersBySubject =
     function (subject) {
@@ -440,23 +284,15 @@ window.ChapterRegistry = [
           .trim()
           .toLowerCase();
 
-
       return registry.filter(
-        function (chapter) {
-
-          return (
-            chapter &&
-            String(chapter.subject || "")
-              .trim()
-              .toLowerCase() === target &&
-            chapter.enabled !== false
-          );
-
-        }
+        chapter =>
+          chapter &&
+          String(chapter.subject || "")
+            .trim()
+            .toLowerCase() === target &&
+          chapter.enabled !== false
       );
-
     };
-
 
   console.log(
     `✅ Chapter Registry loaded: ${registry.length} chapter(s)`
