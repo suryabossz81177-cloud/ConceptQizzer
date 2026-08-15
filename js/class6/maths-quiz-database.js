@@ -3900,3 +3900,5 @@ quizDatabase.class6.mathematics["class6-mathematics-the-other-side-of-zero"] = {
     }
   ]
 };
+
+window.quizDatabase = quizDatabase;
