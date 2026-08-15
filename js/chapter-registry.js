@@ -129,6 +129,18 @@ window.ChapterRegistry = [
     enabled: true
   }
 
+  {
+  id: "class6-science-the-wonderful-world-of-science",
+  class: 6,
+  subject: "Science",
+  chapterNumber: 1,
+  title: "The Wonderful World of Science",
+  file: "js/notes/class6/science/the-wonderful-world-of-science.js",
+  quizFile: "js/class6/science-quiz-database.js",
+  quizId: "the-wonderful-world-of-science",
+  enabled: true
+    }
+
 ];
 
 /*==================================================
