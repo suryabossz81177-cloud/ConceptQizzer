@@ -18,7 +18,7 @@ window.ChapterRegistry = [
   title: "Exploring Magnets",
   file: "js/notes/class6/science/exploring-magnets.js",
   enabled: true
-  },
+  }
   
   {
     id: "6-science-mindful-eating-a-path-to-a-healthy-body",
