@@ -7,10 +7,10 @@
 
 window.ChapterRegistry = [
   {
-  id: "6-science-measurement-of-distance",
+  id: "6-science-measurement-of-length-and-motion"
   aliases: [
-    "class6-science-measurement-of-distance",
-    "measurement-of-distance"
+  "class6-science-measurement-of-length-and-motion",
+  "measurement-of-length-and-motion"
   ],
   class: 6,
   subject: "Science",
