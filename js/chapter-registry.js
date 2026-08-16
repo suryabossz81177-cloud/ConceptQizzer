@@ -6,6 +6,20 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+ {
+  id: "6-science-natures-treasures",
+  aliases: [
+    "class6-science-natures-treasures",
+    "natures-treasures"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 11,
+  title: "Nature's Treasures",
+  file: "js/notes/class6/science/natures-treasures.js",
+  enabled: true
+},
+  
   {
   id: "6-science-living-creatures-exploring-their-characteristics",
   aliases: [
