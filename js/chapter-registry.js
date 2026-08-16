@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-measurement-of-distance",
+  aliases: [
+    "class6-science-measurement-of-distance",
+    "measurement-of-distance"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 5,
+  title: "Measurement of Distance",
+  file: "js/notes/class6/science/measurement-of-distance.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-exploring-magnets",
   aliases: [
     "class6-science-exploring-magnets",
