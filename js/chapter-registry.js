@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-a-journey-through-states-of-water",
+  aliases: [
+    "class6-science-a-journey-through-states-of-water",
+    "a-journey-through-states-of-water"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 8,
+  title: "A Journey through States of Water",
+  file: "js/notes/class6/science/a-journey-through-states-of-water.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-temperature-and-its-measurement",
   aliases: [
     "class6-science-temperature-and-its-measurement",
