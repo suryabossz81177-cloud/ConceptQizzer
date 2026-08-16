@@ -6,6 +6,20 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "6-science-beyond-earth",
+  aliases: [
+    "class6-science-beyond-earth",
+    "beyond-earth"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 12,
+  title: "Beyond Earth",
+  file: "js/notes/class6/science/beyond-earth.js",
+  enabled: true
+},
+  
  {
   id: "6-science-nature-s-treasures",
   aliases: [
