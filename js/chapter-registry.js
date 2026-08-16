@@ -7,14 +7,12 @@
 
 window.ChapterRegistry = [
   {
-  id: "6-history-unity-in-diversity",
-
+  id: "6-history-unity-in-diversity-or-many-in-one",
   aliases: [
     "class6-history-unity-in-diversity",
     "unity-in-diversity",
     "history-chapter-5"
   ],
-
   class: 6,
   subject: "History",
   chapterNumber: 5,
