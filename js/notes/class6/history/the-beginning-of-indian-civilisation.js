@@ -1,5 +1,5 @@
 window.ChapterData = {
-  id: "6-history-the-beginning-of-indian-civilization",
+  id: "6-history-the-beginning-of-indian-civilisation",
   class: 6,
   subject: "History",
   chapterNumber: 3,
