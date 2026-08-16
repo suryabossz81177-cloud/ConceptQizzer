@@ -323,6 +323,13 @@ rgba(91,92,240,.25);
 
 }
 
+.logoIcon img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:18px;
+}
+
 .logoText{
 
 display:flex;
