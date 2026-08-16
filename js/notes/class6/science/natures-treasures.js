@@ -1,5 +1,5 @@
 window.ChapterData = {
-  id: "6-science-natures-treasures",
+  id: "6-science-nature-s-treasures",
   class: 6,
   subject: "Science",
   chapterNumber: 11,
