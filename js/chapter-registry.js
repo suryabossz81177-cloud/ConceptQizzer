@@ -7,6 +7,30 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-history-unity-in-diversity",
+
+  aliases: [
+    "class6-history-unity-in-diversity",
+    "unity-in-diversity",
+    "history-chapter-5"
+  ],
+
+  class: 6,
+  subject: "History",
+  chapterNumber: 5,
+
+  title: "Unity in Diversity",
+
+  description:
+    "Explore how India’s diverse cultures, languages, religions, traditions, and lifestyles come together to create a strong sense of unity and national identity.",
+
+  file:
+    "js/notes/class6/history/unity-in-diversity.js",
+
+  enabled: true
+},
+  
+  {
   id: "6-history-india-s-cultural-roots",
   aliases: [
     "class6-history-india-s-cultural-roots",
