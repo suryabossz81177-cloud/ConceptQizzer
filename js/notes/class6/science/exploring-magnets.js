@@ -521,43 +521,7 @@ window.ChapterData = {
   title: "Quick Revision",
   text: "Remember the three key facts: magnets have two poles, unlike poles attract, and a freely suspended magnet points north-south."
 }   
-],
-      
-  importantPoints: [
-  "Magnets attract magnetic materials.",
-  "Every magnet has two poles.",
-  "Like poles repel each other.",
-  "Unlike poles attract each other.",
-  "A freely suspended magnet points north-south.",
-  "A compass helps us find directions.",
-  "The Earth behaves like a giant magnet.",
-  "Magnets have many uses in daily life.",
-  "Iron can be magnetised.",
-  "Magnets should be handled carefully."
-],
-
-keyTerms: [
-  {
-    term: "Magnet",
-    definition: "An object that attracts magnetic materials."
-  },
-  {
-    term: "Magnetic Pole",
-    definition: "The end of a magnet where magnetic force is strongest."
-  },
-  {
-    term: "Compass",
-    definition: "An instrument used to find directions."
-  },
-  {
-    term: "Magnetisation",
-    definition: "The process of making a material magnetic."
-  },
-  {
-    term: "Repulsion",
-    definition: "The force that pushes objects apart."
+]
   }
-],
-
-quiz: []
+]
 };
