@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-methods-of-separation-in-everyday-life",
+  aliases: [
+    "class6-science-methods-of-separation-in-everyday-life",
+    "methods-of-separation-in-everyday-life"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 9,
+  title: "Methods of Separation in Everyday Life",
+  file: "js/notes/class6/science/methods-of-separation-in-everyday-life.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-a-journey-through-states-of-water",
   aliases: [
     "class6-science-a-journey-through-states-of-water",
