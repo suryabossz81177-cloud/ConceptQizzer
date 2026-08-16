@@ -8,10 +8,8 @@ window.ChapterData = {
   description: "Learn about measurement of length, standard units, measuring tools, and correct methods of measuring distance.",
 
   importantPoints: [],
-
-  keyTerms: [],
-
-  summary: "Measurement helps us determine the length and distance of objects accurately using standard units.",
+keyTerms: [],
+summary: "Measurement helps us determine the length and distance of objects accurately using standard units.",
 
   sections: [
 
@@ -176,12 +174,15 @@ window.ChapterData = {
     },
 
     {
-      type: "examTip",
-      title: "Exam Point",
-      text: "Always mention the unit while writing any measurement. A number without a unit is incomplete."
-    },
+  type: "examTip",
+  title: "Exam Point",
+  text: "Always mention the unit while writing any measurement. A number without a unit is incomplete."
+}
 
-  {
+]
+},
+
+{
   title: "Measuring Curved Lines, Broken Scale and Odometer",
   blocks: [
 
@@ -318,9 +319,8 @@ window.ChapterData = {
       text: "Remember the SI unit of length (metre), unit conversions, correct scale reading, thread method for curved lines, and odometer usage."
     }
 ]
-},
-
-    ],
+}
+],
 
 importantPoints: [
   "Measurement is the comparison of an unknown quantity with a standard quantity.",
