@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-temperature-and-its-measurement",
+  aliases: [
+    "class6-science-temperature-and-its-measurement",
+    "temperature-and-its-measurement"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 7,
+  title: "Temperature and Its Measurement",
+  file: "js/notes/class6/science/temperature-and-its-measurement.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-materials-around-us",
   aliases: [
     "class6-science-materials-around-us",
