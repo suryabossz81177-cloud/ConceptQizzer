@@ -314,8 +314,10 @@ window.ChapterData = {
       title: "Final Revision",
       text: "Remember the SI unit of length (metre), unit conversions, correct scale reading, thread method for curved lines, and odometer usage."
     }
+]
+    } 
 
-  ],
+    ],
 
 importantPoints: [
   "Measurement is the comparison of an unknown quantity with a standard quantity.",
