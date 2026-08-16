@@ -7,10 +7,10 @@
 
 window.ChapterRegistry = [
   {
-  id: "6-history-indias-cultural-roots",
+  id: "6-history-india-s-cultural-roots",
 
   aliases: [
-    "class6-history-indias-cultural-roots",
+    "class6-history-india-s-cultural-roots",
     "indias-cultural-roots",
     "history-chapter-4"
   ],
@@ -22,7 +22,7 @@ window.ChapterRegistry = [
   title: "India's Cultural Roots",
 
   description:
-    "Explore the origins of India's culture, traditions, beliefs, languages, arts and the cultural heritage that developed over thousands of years.",
+    "Explore the origins of India's culture, traditions, beliefs, languages, art, and heritage.",
 
   file:
     "js/notes/class6/history/indias-cultural-roots.js",
