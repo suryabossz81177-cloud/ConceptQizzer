@@ -1,5 +1,17 @@
 window.ChapterData = {
-  content: [
+  id: "diversity-in-the-living-world",
+  class: "6",
+  subject: "Science",
+  chapterNumber: 2,
+  title: "Diversity in the Living World",
+  description: "Detailed notes about biodiversity and classification.",
+  summary: "This chapter explains biodiversity, habitats, adaptation and conservation.",
+
+  sections: [
+    {
+      id: "main-section",
+      title: "Diversity in the Living World",
+      blocks: [
     {
   type: "heading",
   text: "Diversity in the Living World"
@@ -462,5 +474,26 @@ window.ChapterData = {
   title: "Remember",
   text: "If biodiversity continues to decrease due to human activities, ecosystems may become unstable and many valuable species could disappear forever."
 },
-  ]
+        ]
+    }
+  ],
+
+  importantPoints: [
+    "Diversity means variety.",
+    "Biodiversity includes all living organisms.",
+    "Adaptations help organisms survive.",
+    "Classification groups organisms.",
+    "Habitats provide food and shelter.",
+    "Conservation protects biodiversity."
+  ],
+
+  keyTerms: [
+    "Biodiversity",
+    "Habitat",
+    "Adaptation",
+    "Classification",
+    "Conservation"
+  ],
+
+  experiments: []
 };
