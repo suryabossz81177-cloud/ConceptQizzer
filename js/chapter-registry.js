@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-materials-around-us",
+  aliases: [
+    "class6-science-materials-around-us",
+    "materials-around-us"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 6,
+  title: "Materials Around Us",
+  file: "js/notes/class6/science/materials-around-us.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-measurement-of-length-and-motion",
   aliases: [
     "class6-science-measurement-of-length-and-motion",
