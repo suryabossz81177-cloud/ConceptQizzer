@@ -7,6 +7,29 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-history-timeline-and-sources-of-history",
+  aliases: [
+    "class6-history-timeline-and-sources-of-history",
+    "timeline-and-sources-of-history",
+    "history-chapter-1"
+  ],
+
+  class: 6,
+  subject: "History",
+  chapterNumber: 1,
+
+  title: "Timeline and Sources of History",
+
+  description:
+    "Learn how historians study the past using timelines and different sources of history such as artifacts, inscriptions, coins, manuscripts, monuments and archaeological remains.",
+
+  file:
+    "js/notes/class6/history/timeline-and-sources-of-history.js",
+
+  enabled: true
+},
+  
+  {
   id: "6-science-beyond-earth",
   aliases: [
     "class6-science-beyond-earth",
