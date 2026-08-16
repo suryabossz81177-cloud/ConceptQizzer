@@ -6,11 +6,12 @@
 ==================================================*/
 
 window.ChapterRegistry = [
- {
-  id: id: "6-history-the-beginning-of-indian-civilisation"
+{
+  id: "6-history-the-beginning-of-indian-civilisation",
+
   aliases: [
-    "class6-history-the-beginning-of-indian-civilisation"
-"the-beginning-of-indian-civilisation"
+    "class6-history-the-beginning-of-indian-civilisation",
+    "the-beginning-of-indian-civilisation",
     "history-chapter-3"
   ],
 
@@ -18,12 +19,13 @@ window.ChapterRegistry = [
   subject: "History",
   chapterNumber: 3,
 
-  title: "The Beginning of Indian Civilization",
+  title: "The Beginning of Indian Civilisation",
 
   description:
-    "Explore the Indus Valley Civilization, its discovery, planned cities, society, trade, culture, technology and its lasting contribution to Indian history.",
+    "Explore the earliest civilizations of the Indian subcontinent, including the Indus Valley Civilization, its cities, society, culture, trade, and achievements.",
 
-file: "js/notes/class6/history/the-beginning-of-indian-civilisation.js"
+  file:
+    "js/notes/class6/history/the-beginning-of-indian-civilisation.js",
 
   enabled: true
 },
