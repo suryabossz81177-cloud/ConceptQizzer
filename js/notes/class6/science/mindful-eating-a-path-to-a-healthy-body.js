@@ -723,6 +723,34 @@ window.ChapterData = {
   text: "Good nutrition, mindful eating, regular exercise, clean food, and healthy habits together form the foundation of a healthy life."
 }
         ]
-      }
-    ]
+      },
+
+importantPoints: [
+  "Food gives us energy.",
+  "A balanced diet keeps us healthy.",
+  "Vitamins and minerals protect us from diseases.",
+  "Water is essential for life.",
+  "Mindful eating prevents wastage."
+],
+
+keyTerms: [
+  {
+    term: "Balanced Diet",
+    definition: "A diet containing all nutrients in correct amounts."
+  },
+  {
+    term: "Nutrients",
+    definition: "Useful substances present in food."
+  },
+  {
+    term: "Proteins",
+    definition: "Body-building nutrients."
+  },
+  {
+    term: "Vitamins",
+    definition: "Protective nutrients."
+  }
+],
+    quiz: []
 };
+    
