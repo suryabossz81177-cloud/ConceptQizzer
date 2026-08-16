@@ -7,6 +7,29 @@
 
 window.ChapterRegistry = [
  {
+  id: "6-history-the-beginning-of-indian-civilization",
+  aliases: [
+    "class6-history-the-beginning-of-indian-civilization",
+    "the-beginning-of-indian-civilization",
+    "history-chapter-3"
+  ],
+
+  class: 6,
+  subject: "History",
+  chapterNumber: 3,
+
+  title: "The Beginning of Indian Civilization",
+
+  description:
+    "Explore the Indus Valley Civilization, its discovery, planned cities, society, trade, culture, technology and its lasting contribution to Indian history.",
+
+  file:
+    "js/notes/class6/history/the-beginning-of-indian-civilization.js",
+
+  enabled: true
+},
+  
+ {
   id: "6-history-india-that-is-bharat",
   aliases: [
     "class6-history-india-that-is-bharat",
