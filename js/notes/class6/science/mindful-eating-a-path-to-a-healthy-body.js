@@ -717,10 +717,12 @@ window.ChapterData = {
   text: "Food provides energy and nutrients. A balanced diet is necessary for health. Deficiency diseases result from lack of nutrients. Digestion helps absorb nutrients. Clean food and healthy habits prevent diseases."
 },
 
-{
+        {
   type: "warning",
   title: "Remember",
   text: "Good nutrition, mindful eating, regular exercise, clean food, and healthy habits together form the foundation of a healthy life."
 }
-          ]
+        ]
+      }
+    ]
 };
