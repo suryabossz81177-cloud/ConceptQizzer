@@ -24,7 +24,7 @@ window.ChapterRegistry = [
     "Explore the Indus Valley Civilization, its discovery, planned cities, society, trade, culture, technology and its lasting contribution to Indian history.",
 
   file:
-    "js/notes/class6/history/the-beginning-of-indian-civilization.js",
+    js/notes/class6/history/the-beginning-of-indian-civilization.js
 
   enabled: true
 },
