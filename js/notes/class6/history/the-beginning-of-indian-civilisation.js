@@ -1,11 +1,14 @@
 window.ChapterData = {
   id: "6-history-the-beginning-of-indian-civilisation",
+
   class: 6,
   subject: "History",
   chapterNumber: 3,
-  title: "The Beginning of Indian Civilization",
 
-  description: "Explore the earliest civilizations of the Indian subcontinent, the Indus Valley Civilization, its cities, culture, trade, technology and historical significance.",
+  title: "The Beginning of Indian Civilisation",
+
+  description:
+    "Explore the earliest civilizations of the Indian subcontinent, including the Indus Valley Civilization, its cities, society, culture, trade, and achievements.",
 
   sections: [
 
