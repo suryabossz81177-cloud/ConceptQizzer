@@ -6,6 +6,29 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+ {
+  id: "6-history-india-that-is-bharat",
+  aliases: [
+    "class6-history-india-that-is-bharat",
+    "india-that-is-bharat",
+    "history-chapter-2"
+  ],
+
+  class: 6,
+  subject: "History",
+  chapterNumber: 2,
+
+  title: "India, That Is Bharat",
+
+  description:
+    "Explore the ancient names of India, its geographical features, cultural diversity, unity and the historical sources that help us understand Bharat.",
+
+  file:
+    "js/notes/class6/history/india-that-is-bharat.js",
+
+  enabled: true
+},
+  
   {
   id: "6-history-timeline-and-sources-of-history",
   aliases: [
