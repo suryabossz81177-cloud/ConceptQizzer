@@ -1,6 +1,6 @@
 window.ChapterData = {
-  id: "6-history-unity-in-diversity",
-
+  id: "6-history-unity-in-diversity-or-many-in-one",
+  
   class: 6,
   subject: "History",
   chapterNumber: 5,
