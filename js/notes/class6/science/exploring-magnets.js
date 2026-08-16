@@ -523,5 +523,28 @@ window.ChapterData = {
 }   
 ]
   }
+],
+  importantPoints: [
+  "Magnets attract magnetic materials.",
+  "Every magnet has two poles.",
+  "Like poles repel each other.",
+  "Unlike poles attract each other."
+],
+
+keyTerms: [
+  {
+    term: "Magnet",
+    definition: "An object that attracts magnetic materials."
+  },
+  {
+    term: "Compass",
+    definition: "An instrument used to find directions."
+  }
+],
+
+summary: [
+  "Magnets attract iron, nickel and cobalt.",
+  "Every magnet has a north and south pole.",
+  "Unlike poles attract and like poles repel."
 ]
 };
