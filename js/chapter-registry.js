@@ -7,10 +7,10 @@
 
 window.ChapterRegistry = [
  {
-  id: "6-history-the-beginning-of-indian-civilization",
+  id: id: "6-history-the-beginning-of-indian-civilisation"
   aliases: [
-    "class6-history-the-beginning-of-indian-civilization",
-    "the-beginning-of-indian-civilization",
+    "class6-history-the-beginning-of-indian-civilisation"
+"the-beginning-of-indian-civilisation"
     "history-chapter-3"
   ],
 
