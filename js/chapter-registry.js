@@ -7,9 +7,10 @@
 
 window.ChapterRegistry = [
  {
-  id: "6-science-natures-treasures",
+  id: "6-science-nature-s-treasures",
   aliases: [
-    "class6-science-natures-treasures",
+    "class6-science-nature-s-treasures",
+    "nature-s-treasures",
     "natures-treasures"
   ],
   class: 6,
