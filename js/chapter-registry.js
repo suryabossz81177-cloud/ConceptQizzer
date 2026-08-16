@@ -6,6 +6,30 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "6-history-indias-cultural-roots",
+
+  aliases: [
+    "class6-history-indias-cultural-roots",
+    "indias-cultural-roots",
+    "history-chapter-4"
+  ],
+
+  class: 6,
+  subject: "History",
+  chapterNumber: 4,
+
+  title: "India's Cultural Roots",
+
+  description:
+    "Explore the origins of India's culture, traditions, beliefs, languages, arts and the cultural heritage that developed over thousands of years.",
+
+  file:
+    "js/notes/class6/history/indias-cultural-roots.js",
+
+  enabled: true
+},
+  
 {
   id: "6-history-the-beginning-of-indian-civilisation",
 
