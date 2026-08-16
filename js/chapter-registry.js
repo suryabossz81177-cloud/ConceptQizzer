@@ -15,7 +15,7 @@ window.ChapterRegistry = [
   class: 6,
   subject: "Science",
   chapterNumber: 8,
-  title: "A Journey through States of Water",
+  title: "A Journey Through States of Water",
   file: "js/notes/class6/science/a-journey-through-states-of-water.js",
   enabled: true
 },
