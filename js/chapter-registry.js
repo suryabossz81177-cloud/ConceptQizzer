@@ -7,6 +7,27 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-diversity-in-the-living-world",
+
+  aliases: [
+    "class6-science-diversity-in-the-living-world",
+    "diversity-in-the-living-world"
+  ],
+
+  class: 6,
+
+  subject: "Science",
+
+  chapterNumber: 2,
+
+  title: "Diversity in the Living World",
+
+  file: "js/notes/class6/science/Diversity in the Living World.js",
+
+  enabled: true
+},
+  
+  {
     id: "6-science-the-wonderful-world-of-science",
     aliases: ["class6-science-the-wonderful-world-of-science", "the-wonderful-world-of-science"],
     class: 6, subject: "Science", chapterNumber: 1,
