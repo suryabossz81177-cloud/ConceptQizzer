@@ -1,9 +1,9 @@
 window.ChapterData = {
-  id: "6-science-measurement-of-distance",
+  id: "6-science-measurement-of-length-and-motion",
   class: 6,
   subject: "Science",
   chapterNumber: 5,
-  title: "Measurement of Distance",
+  title: "Measurement of Length and Motion",
 
   description: "Learn about measurement of length, standard units, measuring tools, and correct methods of measuring distance.",
 
