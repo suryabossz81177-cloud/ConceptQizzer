@@ -15,8 +15,8 @@ window.ChapterRegistry = [
   class: 6,
   subject: "Science",
   chapterNumber: 5,
-  title: "Measurement of Distance",
-  file: "js/notes/class6/science/measurement-of-distance.js",
+  title: "Measurement of Length and Motion",
+  file: "js/notes/class6/science/measurement-of-length-and-motion.js"
   enabled: true
 },
   
