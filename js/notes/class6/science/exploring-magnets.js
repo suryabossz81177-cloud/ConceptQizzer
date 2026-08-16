@@ -520,8 +520,9 @@ window.ChapterData = {
   type: "examTip",
   title: "Quick Revision",
   text: "Remember the three key facts: magnets have two poles, unlike poles attract, and a freely suspended magnet points north-south."
-},   
+}   
 ],
+      
   importantPoints: [
   "Magnets attract magnetic materials.",
   "Every magnet has two poles.",
