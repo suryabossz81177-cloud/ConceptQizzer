@@ -1,4 +1,6 @@
-{
+window.ChapterData = {
+  content: [
+    {
   type: "heading",
   text: "Diversity in the Living World"
 },
@@ -460,5 +462,5 @@
   title: "Remember",
   text: "If biodiversity continues to decrease due to human activities, ecosystems may become unstable and many valuable species could disappear forever."
 },
-]
-}
+  ]
+};
