@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-measurement-of-length-and-motion",
+  aliases: [
+    "class6-science-measurement-of-length-and-motion",
+    "measurement-of-length-and-motion"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 5,
+  title: "Measurement of Length and Motion",
+  file: "js/notes/class6/science/measurement-of-length-and-motion.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-exploring-magnets",
   aliases: [
     "class6-science-exploring-magnets",
