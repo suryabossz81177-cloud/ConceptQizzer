@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+    id: "6-science-mindful-eating-a-path-to-a-healthy-body",
+    aliases: [
+        "class6-science-mindful-eating-a-path-to-a-healthy-body",
+        "mindful-eating-a-path-to-a-healthy-body"
+    ],
+    class: 6,
+    subject: "Science",
+    chapterNumber: 3,
+    title: "Mindful Eating - A Path to a Healthy Body",
+    file: "js/notes/class6/science/mindful-eating-a-path-to-a-healthy-body.js",
+    enabled: true
+},
+  
+  {
   id: "6-science-diversity-in-the-living-world",
   aliases: [
     "class6-science-diversity-in-the-living-world",
