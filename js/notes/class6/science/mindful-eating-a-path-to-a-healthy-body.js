@@ -1,5 +1,5 @@
 window.ChapterData = {
-  id: "mindful-eating-a-path-to-a-healthy-body",
+  id: "6-science-mindful-eating-a-path-to-a-healthy-body",
   class: "6",
   subject: "Science",
   chapterNumber: 3,
