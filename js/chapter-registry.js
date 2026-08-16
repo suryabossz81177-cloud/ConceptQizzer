@@ -15,16 +15,12 @@ window.ChapterRegistry = [
   ],
   class: 6,
   subject: "History",
-  chapterNumber: 5,
-
+  chapterNumber: 5,  
   title: "Unity in Diversity",
-
   description:
     "Explore how India’s diverse cultures, languages, religions, traditions, and lifestyles come together to create a strong sense of unity and national identity.",
-
   file:
     "js/notes/class6/history/unity-in-diversity.js",
-
   enabled: true
 },
   
