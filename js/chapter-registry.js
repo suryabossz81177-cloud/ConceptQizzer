@@ -8,13 +8,11 @@
 window.ChapterRegistry = [
   {
   id: "6-history-india-s-cultural-roots",
-
   aliases: [
     "class6-history-india-s-cultural-roots",
     "indias-cultural-roots",
     "history-chapter-4"
   ],
-
   class: 6,
   subject: "History",
   chapterNumber: 4,
