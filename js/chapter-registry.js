@@ -7,6 +7,20 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-science-living-creatures-exploring-their-characteristics",
+  aliases: [
+    "class6-science-living-creatures-exploring-their-characteristics",
+    "living-creatures-exploring-their-characteristics"
+  ],
+  class: 6,
+  subject: "Science",
+  chapterNumber: 10,
+  title: "Living Creatures: Exploring Their Characteristics",
+  file: "js/notes/class6/science/living-creatures-exploring-their-characteristics.js",
+  enabled: true
+},
+  
+  {
   id: "6-science-methods-of-separation-in-everyday-life",
   aliases: [
     "class6-science-methods-of-separation-in-everyday-life",
