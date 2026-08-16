@@ -67,7 +67,10 @@ window.ChapterData = {
       type: "examTip",
       title: "Important",
       text: "The SI unit of length is metre (m)."
-    },
+    }
+
+    ]
+},
 
     {
   title: "Standard Units of Length and Measuring Instruments",
@@ -315,7 +318,7 @@ window.ChapterData = {
       text: "Remember the SI unit of length (metre), unit conversions, correct scale reading, thread method for curved lines, and odometer usage."
     }
 ]
-    } 
+},
 
     ],
 
