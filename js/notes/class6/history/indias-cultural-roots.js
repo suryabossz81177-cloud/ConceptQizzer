@@ -1,5 +1,5 @@
 window.ChapterData = {
-  id: "6-history-indias-cultural-roots",
+  id: "6-history-india-s-cultural-roots",
 
   class: 6,
   subject: "History",
