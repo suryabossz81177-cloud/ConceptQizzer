@@ -8,25 +8,19 @@
 window.ChapterRegistry = [
   {
   id: "6-geography-oceans-and-continents",
-
   aliases: [
     "class6-geography-oceans-and-continents",
     "oceans-and-continents",
     "geography-chapter-2"
   ],
-
   class: 6,
   subject: "Geography",
   chapterNumber: 2,
-
   title: "Oceans and Continents",
-
   description:
     "Explore the major continents and oceans of the Earth, their features, importance, and how they shape life on our planet.",
-
   file:
     "js/notes/class6/geography/oceans-and-continents.js",
-
   enabled: true
 },
   
