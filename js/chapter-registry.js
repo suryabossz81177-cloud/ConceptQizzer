@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-civics-grassroots-democracy-part-1",
+  aliases: [
+    "class6-civics-grassroots-democracy-part-1",
+    "grassroots-democracy-part-1",
+    "civics-chapter-2"
+  ],
+  class: 6,
+  subject: "Civics",
+  chapterNumber: 2,
+  title: "Grassroots Democracy - Part 1",
+  description:
+    "Learn about local self-government, Panchayati Raj institutions and democratic participation in villages.",
+  file:
+    "js/notes/class6/civics/grassroots-democracy-part-1.js",
+  enabled: true
+},
+  
+  {
   id: "6-civics-family-and-community",
   aliases: [
     "class6-civics-family-and-community",
