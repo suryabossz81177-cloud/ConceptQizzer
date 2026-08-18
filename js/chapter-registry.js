@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-civics-family-and-community",
+  aliases: [
+    "class6-civics-family-and-community",
+    "family-and-community",
+    "civics-chapter-1"
+  ],
+  class: 6,
+  subject: "Civics",
+  chapterNumber: 1,
+  title: "Family and Community",
+  description:
+    "Learn about families, communities, cooperation, responsibilities and the importance of living together.",
+  file:
+    "js/notes/class6/civics/family-and-community.js",
+  enabled: true
+},
+  
+  {
   id: "6-geography-landforms-and-life",
   aliases: [
     "class6-geography-landforms-and-life",
