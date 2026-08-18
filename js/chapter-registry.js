@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-civics-grassroots-democracy-part-2",
+  aliases: [
+    "class6-civics-grassroots-democracy-part-2",
+    "grassroots-democracy-part-2",
+    "civics-chapter-3"
+  ],
+  class: 6,
+  subject: "Civics",
+  chapterNumber: 3,
+  title: "Grassroots Democracy - Part 2",
+  description:
+    "Learn about local self-government in urban areas, Municipalities, Municipal Corporations and citizen participation."
+  file:
+    "js/notes/class6/civics/grassroots-democracy-part-2.js",
+  enabled: true
+},
+  
+  {
   id: "6-civics-grassroots-democracy-part-1",
   aliases: [
     "class6-civics-grassroots-democracy-part-1",
