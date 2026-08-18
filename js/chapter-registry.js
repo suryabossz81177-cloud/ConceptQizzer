@@ -18,8 +18,8 @@ window.ChapterRegistry = [
   chapterNumber: 3,
   title: "Grassroots Democracy - Part 2",
   description:
-    "Learn about local self-government in urban areas, Municipalities, Municipal Corporations and citizen participation."
-  file:
+    "Learn about local self-government in urban areas, Municipalities, Municipal Corporations and citizen participation.",
+    file:
     "js/notes/class6/civics/grassroots-democracy-part-2.js",
   enabled: true
 },
