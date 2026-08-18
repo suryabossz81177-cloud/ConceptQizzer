@@ -560,5 +560,69 @@ window.ChapterData = {
 
   ]
     }
-    
-    
+    ],
+
+  importantDates: [
+  {
+    year: "Ancient Times",
+    event: "People used the Sun, stars, rivers and mountains to locate places and find directions."
+  },
+  {
+    year: "Early Civilizations",
+    event: "Maps began to be used for navigation, trade and exploration."
+  },
+  {
+    year: "Modern Era",
+    event: "GPS and satellite technology made locating places faster and more accurate."
+  }
+],
+
+importantPoints: [
+  "The Earth is a vast planet containing continents, oceans and countries.",
+  "Locating places helps in travel, navigation and geographical studies.",
+  "A globe is a three-dimensional model of the Earth.",
+  "A globe provides the most accurate representation of the Earth's shape.",
+  "A map is a representation of the Earth's surface on a flat surface.",
+  "Maps are easier to carry and use than globes.",
+  "Directions help us identify the position of places.",
+  "The four cardinal directions are North, South, East and West.",
+  "The four intermediate directions are North-East, North-West, South-East and South-West.",
+  "A compass is used to find directions.",
+  "Grids help locate places accurately on maps.",
+  "Coordinates help determine the exact location of places.",
+  "Latitudes are imaginary lines running parallel to the Equator.",
+  "The Equator is located at 0° latitude.",
+  "Longitudes are imaginary lines running from the North Pole to the South Pole.",
+  "The Prime Meridian is located at 0° longitude.",
+  "Latitudes and longitudes together form a global grid system.",
+  "Every place on Earth has a unique latitude and longitude.",
+  "GPS uses satellites and geographical coordinates to locate places.",
+  "Latitudes and longitudes help determine the exact position of any place on Earth."
+],
+
+keyTerms: [
+  "Location",
+  "Globe",
+  "Map",
+  "Direction",
+  "Cardinal Directions",
+  "Intermediate Directions",
+  "Compass",
+  "Grid",
+  "Coordinates",
+  "Latitude",
+  "Longitude",
+  "Equator",
+  "Prime Meridian",
+  "Northern Hemisphere",
+  "Southern Hemisphere",
+  "Eastern Hemisphere",
+  "Western Hemisphere",
+  "GPS",
+  "Satellite",
+  "Navigation"
+],
+
+summary: "Locating places on the Earth is an important part of geography. A globe provides a three-dimensional model of the Earth, while maps represent the Earth's surface on a flat sheet. Directions and compasses help us determine positions and movement. Grids and coordinates improve accuracy in locating places. Latitudes and longitudes form a global network of imaginary lines that help identify the exact location of any place on Earth. Modern navigation systems such as GPS rely on these geographical principles to provide accurate location information."
+
+};
