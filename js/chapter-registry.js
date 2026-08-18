@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-geography-locating-places-on-the-earth",
+  aliases: [
+    "class6-geography-locating-places-on-the-earth",
+    "locating-places-on-the-earth",
+    "geography-chapter-1"
+  ],
+  class: 6,
+  subject: "Geography",
+  chapterNumber: 1,
+  title: "Locating Places on the Earth",
+  description:
+    "Learn how maps, globes, directions, latitudes and longitudes help us locate places on Earth.",
+  file:
+    "js/notes/class6/geography/locating-places-on-the-earth.js",
+  enabled: true
+},
+  
+  {
   id: "6-history-unity-in-diversity-or-many-in-one",
   aliases: [
     "class6-history-unity-in-diversity",
