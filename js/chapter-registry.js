@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-geography-landforms-and-life",
+  aliases: [
+    "class6-geography-landforms-and-life",
+    "landforms-and-life",
+    "geography-chapter-3"
+  ],
+  class: 6,
+  subject: "Geography",
+  chapterNumber: 3,
+  title: "Landforms and Life",
+  description:
+    "Learn how mountains, plateaus and plains influence human life, settlements, occupations and culture.",
+  file:
+    "js/notes/class6/geography/landforms-and-life.js",
+  enabled: true
+},
+  
+  {
   id: "6-geography-oceans-and-continents",
   aliases: [
     "class6-geography-oceans-and-continents",
