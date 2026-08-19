@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-civics-the-value-of-work",
+  aliases: [
+    "class6-civics-the-value-of-work",
+    "the-value-of-work",
+    "civics-chapter-5"
+  ],
+  class: 6,
+  subject: "Civics",
+  chapterNumber: 5,
+  title: "The Value of Work",
+  description:
+    "Learn about different kinds of work, dignity of labour, occupations, skills and the importance of respecting all workers.",
+  file:
+    "js/notes/class6/civics/the-value-of-work.js",
+  enabled: true
+},
+  
+  {
   id: "6-civics-grassroots-democracy-part-3",
   aliases: [
     "class6-civics-grassroots-democracy-part-3",
