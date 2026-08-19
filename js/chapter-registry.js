@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "6-civics-economic-activities-around-us",
+  aliases: [
+    "class6-civics-economic-activities-around-us",
+    "economic-activities-around-us",
+    "civics-chapter-6"
+  ],
+  class: 6,
+  subject: "Civics",
+  chapterNumber: 6,
+  title: "Economic Activities Around Us",
+  description:
+    "Learn about economic activities, production, distribution, consumption, occupations and the role of economic activities in daily life.",
+  file:
+    "js/notes/class6/civics/economic-activities-around-us.js",
+  enabled: true
+},
+  
+  {
   id: "6-civics-the-value-of-work",
   aliases: [
     "class6-civics-the-value-of-work",
