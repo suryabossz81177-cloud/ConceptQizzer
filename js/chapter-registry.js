@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-parallel-and-intersecting-lines",
+  aliases: [
+    "class7-mathematics-parallel-and-intersecting-lines",
+    "parallel-and-intersecting-lines",
+    "mathematics-parallel-and-intersecting-lines"
+  ],
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 5,
+  title: "Parallel and Intersecting Lines",
+  description:
+    "Explore lines, line segments, rays, intersecting lines, parallel lines, angles and geometric relationships through clear concepts and step-by-step solved examples.",
+  file:
+    "js/notes/class7/mathematics/parallel-and-intersecting-lines.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-expressions-using-letter-numbers",
   aliases: [
     "class7-mathematics-expressions-using-letter-numbers",
