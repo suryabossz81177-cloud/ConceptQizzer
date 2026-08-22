@@ -1646,4 +1646,4 @@ keyTerms: [
 ],
 
 summary: "Parallel and Intersecting Lines develops the understanding of different types of lines and the angle relationships they create. A line extends endlessly in both directions, a ray has one fixed end point, and a line segment has two fixed end points. Intersecting lines meet at a point and form four angles, with vertically opposite angles equal and angles on a straight line adding to 180°. Perpendicular lines intersect at 90°, while parallel lines never meet and remain at a constant distance from each other. A transversal crossing parallel lines creates important relationships: corresponding angles are equal, alternate interior angles are equal, and co-interior angles have a sum of 180°. The chapter also connects these geometric properties with algebra by using expressions and equations to find unknown angles. Careful observation of diagrams, identification of the correct angle relationship and step-by-step calculation are essential for solving geometry problems accurately."
-];  
+};
