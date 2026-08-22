@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-working-with-fractions",
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 8,
+  title: "Working with Fractions",
+  file: "js/notes/class7/mathematics/working-with-fractions.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-a-tale-of-three-intersecting-lines",
   class: 7,
   subject: "Mathematics",
