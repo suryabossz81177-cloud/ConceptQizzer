@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-arithmetic-expressions",
+  aliases: [
+    "class7-mathematics-arithmetic-expressions",
+    "arithmetic-expressions",
+    "mathematics-arithmetic-expressions"
+  ],
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 2,
+  title: "Arithmetic Expressions",
+  description:
+    "Learn how arithmetic expressions are formed, represented, simplified and evaluated using numbers and operations.",
+  file:
+    "js/notes/class7/mathematics/arithmetic-expressions.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-large-numbers-around-us",
   aliases: [
     "class7-mathematics-large-numbers-around-us",
