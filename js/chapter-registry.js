@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-a-tale-of-three-intersecting-lines",
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 7,
+  title: "A Tale of Three Intersecting Lines",
+  file: "js/notes/class7/mathematics/a-tale-of-three-intersecting-lines.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-number-play",
   class: 7,
   subject: "Mathematics",
