@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-large-numbers-around-us",
+  aliases: [
+    "class7-mathematics-large-numbers-around-us",
+    "large-numbers-around-us",
+    "mathematics-chapter-1"
+  ],
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 1,
+  title: "Large Numbers Around Us",
+  description:
+    "Explore large numbers, place value, number systems, estimation, comparison and calculations used in everyday life.",
+  file:
+    "js/notes/class7/mathematics/large-numbers-around-us.js",
+  enabled: true
+},
+  
+  {
   id: "6-civics-economic-activities-around-us",
   aliases: [
     "class6-civics-economic-activities-around-us",
