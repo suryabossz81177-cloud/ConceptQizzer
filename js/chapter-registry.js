@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-expressions-using-letter-numbers",
+  aliases: [
+    "class7-mathematics-expressions-using-letter-numbers",
+    "expressions-using-letter-numbers",
+    "mathematics-expressions-using-letter-numbers"
+  ],
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 4,
+  title: "Expressions Using Letter-Numbers",
+  description:
+    "Learn how letters can represent numbers and how to form, read, simplify and evaluate algebraic expressions.",
+  file:
+    "js/notes/class7/mathematics/expressions-using-letter-numbers.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-a-peek-beyond-the-point",
   aliases: [
     "class7-mathematics-a-peek-beyond-the-point",
