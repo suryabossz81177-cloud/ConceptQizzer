@@ -7,6 +7,24 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-a-peek-beyond-the-point",
+  aliases: [
+    "class7-mathematics-a-peek-beyond-the-point",
+    "a-peek-beyond-the-point",
+    "mathematics-a-peek-beyond-the-point"
+  ],
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 3,
+  title: "A Peek Beyond the Point",
+  description:
+    "Explore decimal numbers, decimal place value, comparison, operations and their applications in everyday mathematics.",
+  file:
+    "js/notes/class7/mathematics/a-peek-beyond-the-point.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-arithmetic-expressions",
   aliases: [
     "class7-mathematics-arithmetic-expressions",
