@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-mathematics-number-play",
+  class: 7,
+  subject: "Mathematics",
+  chapterNumber: 6,
+  title: "Number Play",
+  file: "js/notes/class7/mathematics/number-play.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-parallel-and-intersecting-lines",
   aliases: [
     "class7-mathematics-parallel-and-intersecting-lines",
