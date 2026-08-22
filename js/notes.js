@@ -368,159 +368,498 @@ if (lastRead !== null) {
 /*==================================================
   RENDER SECTIONS
 ==================================================*/
-
 function renderSections(sections){
 
-sections.forEach((section,index)=>{
+  sections.forEach((section,index)=>{
 
-const card=document.createElement("div");
+    const card = document.createElement("div");
 
-card.className="noteCard";
+    card.className = "noteCard";
 
-  card.dataset.index = index;
+    card.dataset.index = index;
 
-let html=`<h3>${section.title}</h3>`;
+    let html = `
+      <h3>${section.title || ""}</h3>
+    `;
 
-if(section.blocks){
+    if(section.blocks){
 
-section.blocks.forEach(block=>{
+      section.blocks.forEach(block=>{
 
-if(block.type==="paragraph"){
+        /* ==============================
+           NORMAL PARAGRAPH
+        ============================== */
 
-html+=`<p>${block.text}</p>`;
+        if(block.type === "paragraph"){
 
-}
+          html += `
+            <p>${block.text || ""}</p>
+          `;
 
-else if(block.type==="definition"){
+        }
 
-html+=`
-<div class="definitionBox">
-<h4>${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
 
-}
+        /* ==============================
+           CONCEPT
+        ============================== */
 
-else if(block.type==="example"){
+        else if(block.type === "concept"){
 
-html+=`
-<div class="exampleBox">
-<h4>${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
+          html += `
+            <div class="infoCard">
+              <h4>💡 ${block.title || "Concept"}</h4>
+              <p>${block.text || ""}</p>
+            </div>
+          `;
 
-}
+        }
 
-  else if(block.type==="application"){
 
-html+=`
-<div class="applicationBox">
-<h4>${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
+        /* ==============================
+           DEFINITION
+        ============================== */
 
-}
+        else if(block.type === "definition"){
 
-  else if(block.type==="fact"){
+          html += `
+            <div class="definitionBox">
+              <h4>${block.title || "Definition"}</h4>
+              <p>${block.text || ""}</p>
+            </div>
+          `;
 
-html+=`
-<div class="factBox">
-<h4>💡 ${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
+        }
 
-}
 
-else if(block.type==="warning"){
+        /* ==============================
+           SOLVED EXAMPLE
+        ============================== */
 
-html+=`
-<div class="warningBox">
-<h4>⚠️ ${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
+        else if(
+          block.type === "example" ||
+          block.type === "workedExample"
+        ){
 
-}
+          let exampleHTML = "";
 
-else if(block.type==="tip"){
+          if(block.question){
 
-html+=`
-<div class="tipBox">
-<h4>🧠 ${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
+            exampleHTML += `
+              <div class="exampleQuestion">
+                <strong>❓ Question</strong>
+                <p>${block.question}</p>
+              </div>
+            `;
 
-}
+          }
 
-else if(block.type==="examTip"){
+          if(Array.isArray(block.steps)){
 
-html+=`
-<div class="examBox">
-<h4>🎯 ${block.title}</h4>
-<p>${block.text}</p>
-</div>
-`;
+            exampleHTML += `
+              <div class="solutionSteps">
+                <h5>📝 How Solved?</h5>
+                <ol>
+                  ${block.steps.map(step =>
+                    `<li>${step}</li>`
+                  ).join("")}
+                </ol>
+              </div>
+            `;
 
-}
+          }
 
-else if(block.type==="summary"){
+          if(block.answer){
 
-html+=`
-<div class="infoCard">
-<h4>📌 Chapter Summary</h4>
-<p>${block.text}</p>
-</div>
-`;
+            exampleHTML += `
+              <div class="exampleAnswer">
+                <strong>✅ Answer</strong>
+                <p>${block.answer}</p>
+              </div>
+            `;
 
-}
-  
-});
+          }
 
-}else{
+          if(block.text){
 
-html+=`<p>${section.content}</p>`;
+            exampleHTML += `
+              <div class="exampleExplanation">
+                ${block.text}
+              </div>
+            `;
 
-}
+          }
 
-card.innerHTML=html;
+          html += `
+            <div class="exampleBox solvedExample">
 
-notesContainer.appendChild(card);
+              <h4>
+                🧮 ${block.title || "Solved Example"}
+              </h4>
 
-  card.addEventListener("click", () => {
-    localStorage.setItem(
+              ${exampleHTML}
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           DIAGRAM / FIGURE
+        ============================== */
+
+        else if(block.type === "diagram"){
+
+          html += `
+            <div class="diagramBox">
+
+              <h4>
+                📐 ${block.title || "Figure"}
+              </h4>
+
+              <div class="diagramContent">
+
+                ${block.html || block.content || ""}
+
+              </div>
+
+              ${
+                block.caption
+                ? `<p class="diagramCaption">
+                    ${block.caption}
+                   </p>`
+                : ""
+              }
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           RAW HTML
+        ============================== */
+
+        else if(block.type === "html"){
+
+          html += `
+            <div class="customHTML">
+
+              ${block.content || block.html || ""}
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           FORMULA
+        ============================== */
+
+        else if(block.type === "formula"){
+
+          html += `
+            <div class="formulaBox">
+
+              <h4>📐 ${block.title || "Formula"}</h4>
+
+              <div class="formulaContent">
+                ${String(block.text || "")
+                  .replace(/\n/g,"<br>")}
+              </div>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           TABLE
+        ============================== */
+
+        else if(
+          block.type === "table" ||
+          block.type === "numberTable"
+        ){
+
+          const rows = Array.isArray(block.rows)
+            ? block.rows
+            : [];
+
+          if(rows.length){
+
+            html += `
+              <div class="tableBox">
+
+                <h4>
+                  📊 ${block.title || "Table"}
+                </h4>
+
+                <div class="tableScroll">
+
+                  <table>
+
+                    <tbody>
+
+                      ${rows.map((row,rowIndex)=>`
+
+                        <tr>
+
+                          ${row.map(cell => `
+
+                            ${
+                              rowIndex === 0
+                              ? `<th>${cell}</th>`
+                              : `<td>${cell}</td>`
+                            }
+
+                          `).join("")}
+
+                        </tr>
+
+                      `).join("")}
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+              </div>
+            `;
+
+          }
+
+        }
+
+
+        /* ==============================
+           PRACTICE QUESTIONS
+        ============================== */
+
+        else if(block.type === "practice"){
+
+          let questions = block.questions || [];
+
+          html += `
+            <div class="practiceBox">
+
+              <h4>
+                ✏️ ${block.title || "Practice Yourself"}
+              </h4>
+
+              <ol>
+
+                ${
+                  questions.map(q =>
+                    `<li>${q}</li>`
+                  ).join("")
+                }
+
+              </ol>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           APPLICATION
+        ============================== */
+
+        else if(block.type === "application"){
+
+          html += `
+            <div class="applicationBox">
+
+              <h4>
+                🔎 ${block.title || "Application"}
+              </h4>
+
+              <p>${block.text || ""}</p>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           FACT
+        ============================== */
+
+        else if(block.type === "fact"){
+
+          html += `
+            <div class="factBox">
+
+              <h4>
+                💡 ${block.title || "Fact"}
+              </h4>
+
+              <p>${block.text || ""}</p>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           WARNING
+        ============================== */
+
+        else if(block.type === "warning"){
+
+          html += `
+            <div class="warningBox">
+
+              <h4>
+                ⚠️ ${block.title || "Important"}
+              </h4>
+
+              <p>${block.text || ""}</p>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           TIP
+        ============================== */
+
+        else if(block.type === "tip"){
+
+          html += `
+            <div class="tipBox">
+
+              <h4>
+                🧠 ${block.title || "Tip"}
+              </h4>
+
+              <p>${block.text || ""}</p>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           EXAM TIP
+        ============================== */
+
+        else if(block.type === "examTip"){
+
+          html += `
+            <div class="examBox">
+
+              <h4>
+                🎯 ${block.title || "Exam Tip"}
+              </h4>
+
+              <p>${block.text || ""}</p>
+
+            </div>
+          `;
+
+        }
+
+
+        /* ==============================
+           SUMMARY
+        ============================== */
+
+        else if(block.type === "summary"){
+
+          html += `
+            <div class="infoCard">
+
+              <h4>
+                📌 Chapter Summary
+              </h4>
+
+              <p>${block.text || ""}</p>
+
+            </div>
+          `;
+
+        }
+
+      });
+
+    }
+
+    else{
+
+      html += `
+        <p>${section.content || ""}</p>
+      `;
+
+    }
+
+
+    card.innerHTML = html;
+
+    notesContainer.appendChild(card);
+
+
+    /* ==============================
+       LAST READ
+    ============================== */
+
+    card.addEventListener("click", () => {
+
+      localStorage.setItem(
         "cq-last-read-" + chapterKey,
         index
-    );
-});
-
-  const searchInput = document.getElementById("chapterSearch");
-
-if (searchInput && !searchInput.dataset.bound) {
-
-    searchInput.dataset.bound = "true";
-
-    searchInput.addEventListener("input", function () {
-
-        const query = this.value.toLowerCase();
-
-        document.querySelectorAll(".noteCard").forEach(card => {
-
-            const text = card.textContent.toLowerCase();
-
-            card.style.display = text.includes(query) ? "" : "none";
-
-        });
+      );
 
     });
 
-}
+  });
 
-});
+
+  /* ==============================
+     SEARCH
+  ============================== */
+
+  const searchInput =
+    document.getElementById("chapterSearch");
+
+  if(searchInput && !searchInput.dataset.bound){
+
+    searchInput.dataset.bound = "true";
+
+    searchInput.addEventListener(
+      "input",
+      function(){
+
+        const query =
+          this.value.toLowerCase();
+
+        document
+          .querySelectorAll(".noteCard")
+          .forEach(card=>{
+
+            const text =
+              card.textContent.toLowerCase();
+
+            card.style.display =
+              text.includes(query) ? "" : "none";
+
+          });
+
+      }
+    );
+
+  }
 
 }
 /*==================================================
