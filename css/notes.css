@@ -2169,3 +2169,129 @@ body{
 .progressCard{
   border:1px solid rgba(255,255,255,.24);
 }
+
+/* =========================================
+   ADVANCED NOTES BLOCKS
+========================================= */
+
+.infoCard,
+.solvedExample,
+.diagramBox,
+.customHTML,
+.formulaBox,
+.tableBox,
+.practiceBox {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(40,45,100,.08);
+}
+
+.infoCard h4,
+.solvedExample h4,
+.diagramBox h4,
+.formulaBox h4,
+.tableBox h4,
+.practiceBox h4 {
+  margin-top: 0;
+  color: #4f46d9;
+  font-size: 19px;
+}
+
+.exampleQuestion {
+  padding: 15px;
+  border-radius: 14px;
+  background: #f5f7ff;
+  margin: 12px 0;
+}
+
+.solutionSteps {
+  padding: 15px;
+  border-radius: 14px;
+  background: #fafafa;
+  margin: 12px 0;
+}
+
+.solutionSteps h5 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.solutionSteps li {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.exampleAnswer {
+  padding: 15px;
+  border-radius: 14px;
+  background: #eefbf2;
+  margin-top: 12px;
+}
+
+.exampleExplanation {
+  margin-top: 12px;
+  line-height: 1.7;
+}
+
+.diagramContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  padding: 15px 5px;
+}
+
+.diagramContent svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.diagramCaption {
+  text-align: center;
+  font-size: 14px;
+  opacity: .75;
+}
+
+.formulaContent {
+  padding: 18px;
+  border-radius: 14px;
+  background: #f5f3ff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.8;
+  overflow-x: auto;
+}
+
+.tableScroll {
+  overflow-x: auto;
+}
+
+.tableBox table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+.tableBox th,
+.tableBox td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tableBox th {
+  font-weight: 700;
+  background: #f5f3ff;
+}
+
+.practiceBox ol {
+  padding-left: 25px;
+}
+
+.practiceBox li {
+  margin: 12px 0;
+  line-height: 1.6;
+}
