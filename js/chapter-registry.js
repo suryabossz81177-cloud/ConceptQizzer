@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
 {
+  id: "7-science-adolescence-a-stage-of-growth-and-change",
+  class: 7,
+  subject: "Science",
+  chapter: 6,
+  title: "Adolescence: A Stage of Growth and Change",
+  file: "js/notes/class7/science/adolescence-a-stage-of-growth-and-change.js",
+},
+  
+{
   id: "7-science-changes-around-us-physical-and-chemical",
   class: 7,
   subject: "Science",
