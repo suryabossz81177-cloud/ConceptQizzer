@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class7-history-new-beginnings-cities-and-states",
+  class: 7,
+  subject: "History",
+  chapterNumber: 1,
+  title: "New Beginnings: Cities and States",
+  file: "js/notes/class7/history/new-beginnings-cities-and-states.js",
+  enabled: true
+},
+  
+  {
   id: "7-science-earth-moon-and-the-sun",
   class: 7,
   subject: "Science",
