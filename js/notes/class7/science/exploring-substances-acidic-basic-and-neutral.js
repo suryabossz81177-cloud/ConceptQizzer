@@ -21,12 +21,6 @@ window.ChapterData = {
 
       blocks: [
 
-      {
-  id: "section-1",
-  title: "🧪 Getting to Know Acids, Bases, and Neutral Substances",
-
-  blocks: [
-
     {
       type: "scienceHero",
       theme: "purple",
@@ -5505,6 +5499,8 @@ window.ChapterData = {
 
   ]
 }
+
+]
 
 };
         
