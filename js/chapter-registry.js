@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-science-electricity-circuits-and-their-components",
+  class: 7,
+  subject: "Science",
+  chapter: 4,
+  title: "Electricity: Circuits and Their Components",
+  file: "js/notes/class7/science/electricity-circuits-and-their-components.js",
+},
+  
+  {
    id: "class-7-science-the-world-of-metals-and-non-metals",
   class: 7,
   subject: "Science",
