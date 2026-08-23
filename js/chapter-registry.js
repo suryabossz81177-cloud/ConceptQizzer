@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-science-the-ever-evolving-world-of-science",
+  class: 7,
+  subject: "Science",
+  chapterNumber: 1,
+  title: "The Ever-Evolving World of Science",
+  file: "js/notes/class7/science/the-ever-evolving-world-of-science.js",
+  enabled: true
+},
+  
+  {
   id: "7-mathematics-working-with-fractions",
   class: 7,
   subject: "Mathematics",
