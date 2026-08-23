@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+ {
+  id: "7-science-light-shadows-and-reflections",
+  class: 7,
+  subject: "Science",
+  chapter: 11,
+  title: "Light: Shadows and Reflections",
+  file: "js/notes/class7/science/light-shadows-and-reflections.js",
+},
+  
   {
   id: "7-science-life-processes-in-plants",
   class: 7,
