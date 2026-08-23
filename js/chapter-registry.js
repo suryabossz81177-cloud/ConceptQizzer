@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+ {
+  id: "7-science-measurement-of-time-and-motion",
+  class: 7,
+  subject: "Science",
+  chapter: 8,
+  title: "Measurement of Time and Motion",
+  file: "js/notes/class7/science/measurement-of-time-and-motion.js",
+},
+  
   {
   id: "7-science-heat-transfer-in-nature",
   class: 7,
