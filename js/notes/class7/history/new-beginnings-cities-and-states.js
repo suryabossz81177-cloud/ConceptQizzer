@@ -347,7 +347,7 @@ const ChapterData = {
   "sections": [
     {
       "id": "section-1",
-      "title": "1. From the First Urbanisation to the Second Urbanisation",
+      "title": "From the First Urbanisation to the Second Urbanisation",
       "blocks": [
         {
           "type": "scienceHero",
@@ -363,88 +363,53 @@ const ChapterData = {
           "text": "The Harappan civilisation represented an early phase of urbanisation in the Indian subcontinent. In the early 2nd millennium BCE, that urban system broke down: many cities were abandoned and some settlements became more rural. Urban life did not simply continue in the same form. Much later, during the 1st millennium BCE, a new and vibrant phase of urbanisation developed, especially in the Ganga plains, parts of the Indus basin and neighbouring regions. Archaeological excavations and ancient literature, including late Vedic, Buddhist and Jain sources, provide evidence for this new urban phase. This is commonly called the Second Urbanisation of India."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 1 — First to Second Urbanisation",
-              "content": {
-                "kind": "diagram",
-                "visual": "HARAPPAN URBAN PHASE\n        ↓\nUrban decline / rural shift\n        ↓\nNew regional growth\n        ↓\nSECOND URBANISATION\n        ↓\nCities + states + trade",
-                "labels": [
-                  "Figure 1 — First to Second Urbanisation",
-                  "A simplified historical sequence."
-                ]
-              },
-              "caption": "A simplified historical sequence."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 2 — Evidence for the Second Urbanisation",
-              "content": {
-                "kind": "diagram",
-                "visual": "Archaeology 🏺 + Literature 📜\n          ↓\n   Ancient urban centres",
-                "labels": [
-                  "Figure 2 — Evidence for the Second Urbanisation",
-                  "Two major kinds of evidence help reconstruct the period."
-                ]
-              },
-              "caption": "Two major kinds of evidence help reconstruct the period."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 3 — Main Urbanisation Zone",
-              "content": {
-                "kind": "diagram",
-                "visual": "GANGA PLAINS\n     ↕\nINDUS BASIN + neighbouring regions",
-                "labels": [
-                  "Figure 3 — Main Urbanisation Zone",
-                  "The new urban phase began strongly in northern regions and spread gradually."
-                ]
-              },
-              "caption": "The new urban phase began strongly in northern regions and spread gradually."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 4 — City Growth",
-              "content": {
-                "kind": "diagram",
-                "visual": "Agriculture → Surplus → Crafts → Trade → Towns → Cities",
-                "labels": [
-                  "Figure 4 — City Growth",
-                  "Economic and social processes supported urban growth."
-                ]
-              },
-              "caption": "Economic and social processes supported urban growth."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "🗺️ Historical Map & Regional Connections",
+          "content": "<svg viewBox=\"0 0 760 528\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Ganga Plains and Connected Regions\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">GANGA PLAINS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MAGADHA</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">VAJJI</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">KOSALA</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">VATSA</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">AVANTI</text><text x=\"380\" y=\"413\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"416\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"441\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADE + ROUTES + POLITICAL CONNECTIONS</text>\n      <text x=\"380\" y=\"510\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified conceptual map; not to scale.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "First Urbanisation",
-              "text": "Harappan urban phase"
-            },
-            {
-              "colour": "orange",
-              "title": "Second Urbanisation",
-              "text": "new urban phase of the 1st millennium BCE"
-            },
-            {
-              "colour": "blue",
-              "title": "Archaeology",
-              "text": "excavated remains provide physical evidence"
-            },
-            {
-              "colour": "purple",
-              "title": "Literature",
-              "text": "texts preserve descriptions and references to cities"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 1 — First to Second Urbanisation",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 1 — First to Second Urbanisation\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">HARAPPAN URBAN PHASE</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Urban decline / rural shift</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">New regional growth</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SECOND URBANISATION</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Cities + states + trade</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified historical sequence.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 2 — Evidence for the Second Urbanisation",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 2 — Evidence for the Second Urbanisation\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Archaeology 🏺 + Literature 📜</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Ancient urban centres</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Two major kinds of evidence help reconstruct the period.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 3 — Main Urbanisation Zone",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 3 — Main Urbanisation Zone\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">GANGA PLAINS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">INDUS BASIN + neighbouring regions</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        The new urban phase began strongly in northern regions and spread gradually.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 4 — City Growth",
+          "content": "<svg viewBox=\"0 0 760 474\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 4 — City Growth\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Agriculture</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Surplus</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Crafts</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Trade</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Towns</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Cities</text>\n      <text x=\"380\" y=\"456\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Economic and social processes supported urban growth.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "First Urbanisation",
+          "text": "Harappan urban phase"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Second Urbanisation",
+          "text": "new urban phase of the 1st millennium BCE"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Archaeology",
+          "text": "excavated remains provide physical evidence"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Literature",
+          "text": "texts preserve descriptions and references to cities"
         },
         {
           "type": "workedExample",
@@ -491,7 +456,7 @@ const ChapterData = {
     },
     {
       "id": "section-2",
-      "title": "2. Janapadas and Mahājanapadas",
+      "title": "Janapadas and Mahājanapadas",
       "blocks": [
         {
           "type": "scienceHero",
@@ -507,88 +472,48 @@ const ChapterData = {
           "text": "Towards the end of the 2nd millennium BCE, regional cultures in northern India gradually reorganised. Groups or clans became associated with particular territories. These territorial units came to be called janapadas. The Sanskrit word janapada is commonly explained as the place where a jana, or people/group, had set foot and settled. As trade networks expanded and connected different regions, some early states grew or merged. By about the 8th or 7th centuries BCE, larger political units known as mahājanapadas had emerged. Ancient texts give lists of these states, though the lists are not identical."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 5 — Jana to Janapada",
-              "content": {
-                "kind": "diagram",
-                "visual": "JANA / CLAN\n     ↓\nSettlement in a territory\n     ↓\nJANAPADA\n     ↓\nGrowth + connections\n     ↓\nMAHĀJANAPADA",
-                "labels": [
-                  "Figure 5 — Jana to Janapada",
-                  "A simplified model of territorial political development."
-                ]
-              },
-              "caption": "A simplified model of territorial political development."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 6 — Trade Connections",
-              "content": {
-                "kind": "diagram",
-                "visual": "JANAPADA A ↔ TRADE ↔ JANAPADA B\n        ↕                 ↕\n      Crafts            Markets",
-                "labels": [
-                  "Figure 6 — Trade Connections",
-                  "Trade networks connected political regions."
-                ]
-              },
-              "caption": "Trade networks connected political regions."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 7 — Mahājanapadas",
-              "content": {
-                "kind": "diagram",
-                "visual": "MAGADHA • KOSALA • VATSA • AVANTI\nANGa • VAJJI • KURU • PANCHALA\nand others",
-                "labels": [
-                  "Figure 7 — Mahājanapadas",
-                  "Examples from ancient lists of mahājanapadas."
-                ]
-              },
-              "caption": "Examples from ancient lists of mahājanapadas."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 8 — Territory and Power",
-              "content": {
-                "kind": "diagram",
-                "visual": "LAND + PEOPLE + RESOURCES\n          ↓\n Political organisation",
-                "labels": [
-                  "Figure 8 — Territory and Power",
-                  "Territory was closely linked with political organisation."
-                ]
-              },
-              "caption": "Territory was closely linked with political organisation."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 5 — Jana to Janapada",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 5 — Jana to Janapada\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">JANA / CLAN</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Settlement in a territory</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">JANAPADA</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Growth + connections</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MAHĀJANAPADA</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified model of territorial political development.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Janapada",
-              "text": "territorial unit associated with a settled people or clan"
-            },
-            {
-              "colour": "orange",
-              "title": "Mahājanapada",
-              "text": "larger political unit"
-            },
-            {
-              "colour": "blue",
-              "title": "Trade networks",
-              "text": "connected different regions"
-            },
-            {
-              "colour": "purple",
-              "title": "Territory",
-              "text": "important basis of political organisation"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 6 — Trade Connections",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 6 — Trade Connections\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">JANAPADA A</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADE</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">JANAPADA B</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">↕                 ↕</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Crafts            Markets</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Trade networks connected political regions.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 7 — Mahājanapadas",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 7 — Mahājanapadas\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MAGADHA • KOSALA • VATSA • AVANTI</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ANGa • VAJJI • KURU • PANCHALA</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">and others</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Examples from ancient lists of mahājanapadas.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 8 — Territory and Power",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 8 — Territory and Power\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">LAND + PEOPLE + RESOURCES</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Political organisation</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Territory was closely linked with political organisation.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Janapada",
+          "text": "territorial unit associated with a settled people or clan"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Mahājanapada",
+          "text": "larger political unit"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Trade networks",
+          "text": "connected different regions"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Territory",
+          "text": "important basis of political organisation"
         },
         {
           "type": "workedExample",
@@ -635,7 +560,7 @@ const ChapterData = {
     },
     {
       "id": "section-3",
-      "title": "3. The Growth of Cities and the Geography of Power",
+      "title": "The Growth of Cities and the Geography of Power",
       "blocks": [
         {
           "type": "scienceHero",
@@ -651,88 +576,48 @@ const ChapterData = {
           "text": "Cities did not grow randomly. Geography, agriculture, water, transport, resources and trade all influenced where settlements could prosper. The fertile Ganga plains could support intensive agriculture, while rivers and routes helped movement. A productive agricultural base could generate surplus food, allowing some people to specialise in crafts, trade, administration and other occupations. Capitals and important towns could become centres of political authority, markets and cultural activity."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 9 — Fertile Plains and Cities",
-              "content": {
-                "kind": "diagram",
-                "visual": "FERTILE LAND 🌾\n      ↓\nFOOD SURPLUS\n      ↓\nSPECIALISED WORK\n      ↓\nMARKETS + TOWNS",
-                "labels": [
-                  "Figure 9 — Fertile Plains and Cities",
-                  "Agricultural surplus supported urban growth."
-                ]
-              },
-              "caption": "Agricultural surplus supported urban growth."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 10 — River and Route Network",
-              "content": {
-                "kind": "diagram",
-                "visual": "🌊 RIVER\n↕\n🚶 ROAD / TRADE ROUTE\n↕\n🏙️ TOWN",
-                "labels": [
-                  "Figure 10 — River and Route Network",
-                  "Waterways and land routes could support movement and exchange."
-                ]
-              },
-              "caption": "Waterways and land routes could support movement and exchange."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 11 — City Functions",
-              "content": {
-                "kind": "diagram",
-                "visual": "🏛️ ADMINISTRATION\n🛍️ TRADE\n🧵 CRAFTS\n🛕 RELIGIOUS LIFE\n🏠 SETTLEMENT",
-                "labels": [
-                  "Figure 11 — City Functions",
-                  "Cities could perform many functions at once."
-                ]
-              },
-              "caption": "Cities could perform many functions at once."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 12 — Magadha and Rajagriha",
-              "content": {
-                "kind": "diagram",
-                "visual": "MAGADHA\n   ↓\nRĀJAGṚIHA / RĀJGIR\n   ↓\nFORTIFIED CAPITAL REGION",
-                "labels": [
-                  "Figure 12 — Magadha and Rajagriha",
-                  "Rajagriha is associated with the early capital of Magadha."
-                ]
-              },
-              "caption": "Rajagriha is associated with the early capital of Magadha."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 9 — Fertile Plains and Cities",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 9 — Fertile Plains and Cities\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FERTILE LAND 🌾</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FOOD SURPLUS</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SPECIALISED WORK</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MARKETS + TOWNS</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Agricultural surplus supported urban growth.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Fertile land",
-              "text": "supported agriculture"
-            },
-            {
-              "colour": "orange",
-              "title": "Surplus",
-              "text": "supported non-farming occupations"
-            },
-            {
-              "colour": "blue",
-              "title": "Routes",
-              "text": "encouraged movement and trade"
-            },
-            {
-              "colour": "purple",
-              "title": "Cities",
-              "text": "centres of administration, exchange and specialised work"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 10 — River and Route Network",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 10 — River and Route Network\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🌊 RIVER</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🚶 ROAD / TRADE ROUTE</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🏙️ TOWN</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Waterways and land routes could support movement and exchange.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 11 — City Functions",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 11 — City Functions\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🏛️ ADMINISTRATION</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🛍️ TRADE</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🧵 CRAFTS</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🛕 RELIGIOUS LIFE</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🏠 SETTLEMENT</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Cities could perform many functions at once.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 12 — Magadha and Rajagriha",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 12 — Magadha and Rajagriha\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MAGADHA</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">RĀJAGṚIHA / RĀJGIR</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FORTIFIED CAPITAL REGION</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Rajagriha is associated with the early capital of Magadha.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Fertile land",
+          "text": "supported agriculture"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Surplus",
+          "text": "supported non-farming occupations"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Routes",
+          "text": "encouraged movement and trade"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Cities",
+          "text": "centres of administration, exchange and specialised work"
         },
         {
           "type": "workedExample",
@@ -779,7 +664,7 @@ const ChapterData = {
     },
     {
       "id": "section-4",
-      "title": "4. How States Were Governed",
+      "title": "How States Were Governed",
       "blocks": [
         {
           "type": "scienceHero",
@@ -795,88 +680,48 @@ const ChapterData = {
           "text": "The growth of larger states required systems for managing territory and people. In many mahājanapadas, rulers and their officials collected resources, maintained order and organised defence. Taxes or other forms of revenue supported the state. Fortifications, roads, water supply and other infrastructure could strengthen important settlements. Kauṭilya's Arthashastra, although compiled in a later historical context, is an important textual source describing ideas about administration, security, resources and the organisation of a kingdom."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 13 — State Administration",
-              "content": {
-                "kind": "diagram",
-                "visual": "RULER\n ↓\nOFFICIALS / ADMINISTRATION\n ↓\nREVENUE + ORDER + DEFENCE\n ↓\nTERRITORY + PEOPLE",
-                "labels": [
-                  "Figure 13 — State Administration",
-                  "A simplified model of state organisation."
-                ]
-              },
-              "caption": "A simplified model of state organisation."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 14 — Revenue and Services",
-              "content": {
-                "kind": "diagram",
-                "visual": "PEOPLE / PRODUCERS\n      ↓\n  TAXES / REVENUE\n      ↓\nSTATE ORGANISATION\n      ↓\nDEFENCE + ADMINISTRATION",
-                "labels": [
-                  "Figure 14 — Revenue and Services",
-                  "Revenue helped states maintain their institutions."
-                ]
-              },
-              "caption": "Revenue helped states maintain their institutions."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 15 — Fortified Capital",
-              "content": {
-                "kind": "diagram",
-                "visual": "🏰 FORTIFICATION\n   ↓\n🏛️ CAPITAL\n   ↓\nROADS • WATER • STORAGE",
-                "labels": [
-                  "Figure 15 — Fortified Capital",
-                  "Fortified centres could support security and administration."
-                ]
-              },
-              "caption": "Fortified centres could support security and administration."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 16 — Kauṭilya’s Ideal Capital",
-              "content": {
-                "kind": "diagram",
-                "visual": "FORTS + WATER + ROADS\n+ CULTIVABLE LAND\n+ RESOURCES + PASTURES\n+ PRODUCTIVE ECONOMY",
-                "labels": [
-                  "Figure 16 — Kauṭilya’s Ideal Capital",
-                  "The Arthashastra describes several features considered desirable for a kingdom."
-                ]
-              },
-              "caption": "The Arthashastra describes several features considered desirable for a kingdom."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 13 — State Administration",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 13 — State Administration\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">RULER</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">OFFICIALS / ADMINISTRATION</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REVENUE + ORDER + DEFENCE</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TERRITORY + PEOPLE</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified model of state organisation.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Administration",
-              "text": "organised management of a state"
-            },
-            {
-              "colour": "orange",
-              "title": "Revenue",
-              "text": "resources collected to support state functions"
-            },
-            {
-              "colour": "blue",
-              "title": "Fortification",
-              "text": "defensive construction"
-            },
-            {
-              "colour": "purple",
-              "title": "Arthashastra",
-              "text": "important ancient text on statecraft and administration"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 14 — Revenue and Services",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 14 — Revenue and Services\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">PEOPLE / PRODUCERS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TAXES / REVENUE</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">STATE ORGANISATION</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">DEFENCE + ADMINISTRATION</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Revenue helped states maintain their institutions.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 15 — Fortified Capital",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 15 — Fortified Capital\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🏰 FORTIFICATION</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">🏛️ CAPITAL</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ROADS • WATER • STORAGE</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Fortified centres could support security and administration.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 16 — Kauṭilya’s Ideal Capital",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 16 — Kauṭilya’s Ideal Capital\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FORTS + WATER + ROADS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">+ CULTIVABLE LAND</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">+ RESOURCES + PASTURES</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">+ PRODUCTIVE ECONOMY</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        The Arthashastra describes several features considered desirable for a kingdom.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Administration",
+          "text": "organised management of a state"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Revenue",
+          "text": "resources collected to support state functions"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Fortification",
+          "text": "defensive construction"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Arthashastra",
+          "text": "important ancient text on statecraft and administration"
         },
         {
           "type": "workedExample",
@@ -923,7 +768,7 @@ const ChapterData = {
     },
     {
       "id": "section-5",
-      "title": "5. Early Democratic Traditions",
+      "title": "Early Democratic Traditions",
       "blocks": [
         {
           "type": "scienceHero",
@@ -939,88 +784,48 @@ const ChapterData = {
           "text": "Not every early state was governed in exactly the same way. Alongside kingdoms, some political communities developed traditions in which groups of rulers or members of a community took part in collective decision-making. The chapter highlights early democratic or republican traditions associated with certain groups. These systems should not simply be equated with modern democracy: the people who could participate, the institutions and the meaning of political membership were different."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 17 — Two Broad Governance Patterns",
-              "content": {
-                "kind": "diagram",
-                "visual": "KINGDOM\nRuler → administration\n\nGANASANGHA / REPUBLICAN TRADITION\nAssembly → collective decisions",
-                "labels": [
-                  "Figure 17 — Two Broad Governance Patterns",
-                  "A simplified comparison, not a complete description of every state."
-                ]
-              },
-              "caption": "A simplified comparison, not a complete description of every state."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 18 — Assembly Concept",
-              "content": {
-                "kind": "diagram",
-                "visual": "MEMBERS\n  ↓\nASSEMBLY\n  ↓\nDISCUSSION\n  ↓\nDECISION",
-                "labels": [
-                  "Figure 18 — Assembly Concept",
-                  "Some communities used collective political institutions."
-                ]
-              },
-              "caption": "Some communities used collective political institutions."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 19 — Ancient vs Modern",
-              "content": {
-                "kind": "diagram",
-                "visual": "ANCIENT POLITICAL PARTICIPATION\n        ≠\nMODERN UNIVERSAL DEMOCRACY",
-                "labels": [
-                  "Figure 19 — Ancient vs Modern",
-                  "Historical systems must be understood in their own context."
-                ]
-              },
-              "caption": "Historical systems must be understood in their own context."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 20 — Vajji Tradition",
-              "content": {
-                "kind": "diagram",
-                "visual": "VAJJI CONFEDERACY\n      ↓\nCollective political tradition",
-                "labels": [
-                  "Figure 20 — Vajji Tradition",
-                  "Vajji is commonly discussed as an example of an early gana-sangha tradition."
-                ]
-              },
-              "caption": "Vajji is commonly discussed as an example of an early gana-sangha tradition."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 17 — Two Broad Governance Patterns",
+          "content": "<svg viewBox=\"0 0 760 474\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 17 — Two Broad Governance Patterns\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">KINGDOM</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Ruler</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">administration</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">GANASANGHA / REPUBLICAN TRADITION</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Assembly</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">collective decisions</text>\n      <text x=\"380\" y=\"456\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified comparison, not a complete description of every state.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Kingdom",
-              "text": "authority centred on a ruler"
-            },
-            {
-              "colour": "orange",
-              "title": "Assembly",
-              "text": "collective political meeting"
-            },
-            {
-              "colour": "blue",
-              "title": "Gana-sangha",
-              "text": "term used for certain ancient collective political traditions"
-            },
-            {
-              "colour": "purple",
-              "title": "Historical comparison",
-              "text": "compare systems in their own context"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 18 — Assembly Concept",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 18 — Assembly Concept\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MEMBERS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ASSEMBLY</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">DISCUSSION</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">DECISION</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Some communities used collective political institutions.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 19 — Ancient vs Modern",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 19 — Ancient vs Modern\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ANCIENT POLITICAL PARTICIPATION</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">≠</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MODERN UNIVERSAL DEMOCRACY</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Historical systems must be understood in their own context.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 20 — Vajji Tradition",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 20 — Vajji Tradition\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">VAJJI CONFEDERACY</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Collective political tradition</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Vajji is commonly discussed as an example of an early gana-sangha tradition.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Kingdom",
+          "text": "authority centred on a ruler"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Assembly",
+          "text": "collective political meeting"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Gana-sangha",
+          "text": "term used for certain ancient collective political traditions"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Historical comparison",
+          "text": "compare systems in their own context"
         },
         {
           "type": "workedExample",
@@ -1067,7 +872,7 @@ const ChapterData = {
     },
     {
       "id": "section-6",
-      "title": "6. Innovations: Iron, Agriculture, Crafts and Trade",
+      "title": "Innovations: Iron, Agriculture, Crafts and Trade",
       "blocks": [
         {
           "type": "scienceHero",
@@ -1083,88 +888,48 @@ const ChapterData = {
           "text": "The period saw important changes in technology and economic activity. Iron tools could be used in agriculture and other work. More productive farming could support population growth and surplus. Specialised crafts such as pottery, weaving and metalworking contributed to urban economies. Expanding trade connected producers, merchants and consumers across regions. These changes interacted with one another rather than acting alone."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 21 — Technology to Economy",
-              "content": {
-                "kind": "diagram",
-                "visual": "IRON TOOLS ⚒️\n      ↓\nFARMING / CRAFTS\n      ↓\nPRODUCTIVITY\n      ↓\nSURPLUS + SPECIALISATION",
-                "labels": [
-                  "Figure 21 — Technology to Economy",
-                  "Technology could influence production."
-                ]
-              },
-              "caption": "Technology could influence production."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 22 — Craft Specialisation",
-              "content": {
-                "kind": "diagram",
-                "visual": "POTTERY 🏺 | WEAVING 🧵 | METALWORK ⚒️\n             ↓\n          MARKETS 🛍️",
-                "labels": [
-                  "Figure 22 — Craft Specialisation",
-                  "Urban centres supported specialised crafts."
-                ]
-              },
-              "caption": "Urban centres supported specialised crafts."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 23 — Trade Chain",
-              "content": {
-                "kind": "diagram",
-                "visual": "PRODUCER → TRADER → MARKET → CONSUMER",
-                "labels": [
-                  "Figure 23 — Trade Chain",
-                  "Trade linked different economic roles."
-                ]
-              },
-              "caption": "Trade linked different economic roles."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 24 — Punch-Marked Coins",
-              "content": {
-                "kind": "diagram",
-                "visual": "⚪ ⚪ ⚪\nMARKED METAL PIECES\n      ↓\nFACILITATE EXCHANGE",
-                "labels": [
-                  "Figure 24 — Punch-Marked Coins",
-                  "Punch-marked coins are important archaeological evidence for ancient economies."
-                ]
-              },
-              "caption": "Punch-marked coins are important archaeological evidence for ancient economies."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 21 — Technology to Economy",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 21 — Technology to Economy\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">IRON TOOLS ⚒️</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FARMING / CRAFTS</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">PRODUCTIVITY</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SURPLUS + SPECIALISATION</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Technology could influence production.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Iron tools",
-              "text": "useful in farming and crafts"
-            },
-            {
-              "colour": "orange",
-              "title": "Specialisation",
-              "text": "people focus on particular occupations"
-            },
-            {
-              "colour": "blue",
-              "title": "Trade",
-              "text": "exchange across settlements and regions"
-            },
-            {
-              "colour": "purple",
-              "title": "Coins",
-              "text": "evidence of changing systems of exchange"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 22 — Craft Specialisation",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 22 — Craft Specialisation\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">POTTERY 🏺 | WEAVING 🧵 | METALWORK ⚒️</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MARKETS 🛍️</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Urban centres supported specialised crafts.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 23 — Trade Chain",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 23 — Trade Chain\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">PRODUCER</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADER</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MARKET</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">CONSUMER</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Trade linked different economic roles.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 24 — Punch-Marked Coins",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 24 — Punch-Marked Coins\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">⚪ ⚪ ⚪</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">MARKED METAL PIECES</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FACILITATE EXCHANGE</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Punch-marked coins are important archaeological evidence for ancient economies.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Iron tools",
+          "text": "useful in farming and crafts"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Specialisation",
+          "text": "people focus on particular occupations"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Trade",
+          "text": "exchange across settlements and regions"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Coins",
+          "text": "evidence of changing systems of exchange"
         },
         {
           "type": "workedExample",
@@ -1211,7 +976,7 @@ const ChapterData = {
     },
     {
       "id": "section-7",
-      "title": "7. The Varṇa–Jāti System and Social Organisation",
+      "title": "The Varṇa–Jāti System and Social Organisation",
       "blocks": [
         {
           "type": "scienceHero",
@@ -1227,88 +992,48 @@ const ChapterData = {
           "text": "The chapter also discusses changing forms of social organisation. The varṇa framework described in Brahmanical texts classified society into broad categories, while jāti refers to numerous social groups associated with particular communities, occupations, regions and practices. These concepts developed and operated in complex ways. Historical sources do not automatically describe the lived experience of every person, so historians compare different kinds of evidence when reconstructing social history."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 25 — Broad Varṇa Framework",
-              "content": {
-                "kind": "diagram",
-                "visual": "BRAHMANA\nKSHATRIYA\nVAISHYA\nSHUDRA",
-                "labels": [
-                  "Figure 25 — Broad Varṇa Framework",
-                  "A broad classification described in Brahmanical texts."
-                ]
-              },
-              "caption": "A broad classification described in Brahmanical texts."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 26 — Jāti as Many Groups",
-              "content": {
-                "kind": "diagram",
-                "visual": "REGION + COMMUNITY + OCCUPATION + CUSTOMS\n                 ↓\n              JĀTIS",
-                "labels": [
-                  "Figure 26 — Jāti as Many Groups",
-                  "Jāti refers to many social groups rather than a single four-part list."
-                ]
-              },
-              "caption": "Jāti refers to many social groups rather than a single four-part list."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 27 — Text and Society",
-              "content": {
-                "kind": "diagram",
-                "visual": "TEXTUAL SOURCE 📜\n       ↕\nARCHAEOLOGY 🏺\n       ↕\nOTHER EVIDENCE\n       ↓\nHISTORICAL INTERPRETATION",
-                "labels": [
-                  "Figure 27 — Text and Society",
-                  "Historians compare evidence."
-                ]
-              },
-              "caption": "Historians compare evidence."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 28 — Social Diversity",
-              "content": {
-                "kind": "diagram",
-                "visual": "FARMERS • CRAFTSPEOPLE • TRADERS • RULERS • RELIGIOUS SPECIALISTS\n             ↓\n        COMPLEX SOCIETY",
-                "labels": [
-                  "Figure 28 — Social Diversity",
-                  "Ancient societies contained many roles and communities."
-                ]
-              },
-              "caption": "Ancient societies contained many roles and communities."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 25 — Broad Varṇa Framework",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 25 — Broad Varṇa Framework\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">BRAHMANA</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">KSHATRIYA</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">VAISHYA</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SHUDRA</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A broad classification described in Brahmanical texts.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Varṇa",
-              "text": "broad social categories in Brahmanical texts"
-            },
-            {
-              "colour": "orange",
-              "title": "Jāti",
-              "text": "numerous social groups"
-            },
-            {
-              "colour": "blue",
-              "title": "Occupation",
-              "text": "one factor associated with some social groups"
-            },
-            {
-              "colour": "purple",
-              "title": "Sources",
-              "text": "must be interpreted critically"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 26 — Jāti as Many Groups",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 26 — Jāti as Many Groups\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION + COMMUNITY + OCCUPATION + CUSTOMS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">JĀTIS</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Jāti refers to many social groups rather than a single four-part list.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 27 — Text and Society",
+          "content": "<svg viewBox=\"0 0 760 366\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 27 — Text and Society\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TEXTUAL SOURCE 📜</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ARCHAEOLOGY 🏺</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">OTHER EVIDENCE</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">HISTORICAL INTERPRETATION</text>\n      <text x=\"380\" y=\"348\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Historians compare evidence.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 28 — Social Diversity",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 28 — Social Diversity\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">FARMERS • CRAFTSPEOPLE • TRADERS • RULERS • RELIGIOUS SPECIALISTS</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">COMPLEX SOCIETY</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Ancient societies contained many roles and communities.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Varṇa",
+          "text": "broad social categories in Brahmanical texts"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Jāti",
+          "text": "numerous social groups"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Occupation",
+          "text": "one factor associated with some social groups"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Sources",
+          "text": "must be interpreted critically"
         },
         {
           "type": "workedExample",
@@ -1355,7 +1080,7 @@ const ChapterData = {
     },
     {
       "id": "section-8",
-      "title": "8. Developments Elsewhere in India",
+      "title": "Developments Elsewhere in India",
       "blocks": [
         {
           "type": "scienceHero",
@@ -1371,88 +1096,48 @@ const ChapterData = {
           "text": "The new urban and political developments were not confined to the Ganga plains. Different regions of the subcontinent experienced their own cultural, economic and political changes. Local geography, resources, trade routes and social traditions shaped these developments. Studying the wider subcontinent prevents us from imagining that all regions changed at exactly the same time or in exactly the same way."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 29 — Regional Diversity",
-              "content": {
-                "kind": "diagram",
-                "visual": "NORTHWEST ↔ GANGA PLAINS ↔ CENTRAL INDIA\n      ↕             ↕\n   WESTERN & SOUTHERN REGIONS",
-                "labels": [
-                  "Figure 29 — Regional Diversity",
-                  "Different regions followed their own historical trajectories."
-                ]
-              },
-              "caption": "Different regions followed their own historical trajectories."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 30 — Networks Across Regions",
-              "content": {
-                "kind": "diagram",
-                "visual": "REGION A ↔ TRADE ↔ REGION B ↔ TRADE ↔ REGION C",
-                "labels": [
-                  "Figure 30 — Networks Across Regions",
-                  "Exchange connected different areas."
-                ]
-              },
-              "caption": "Exchange connected different areas."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 31 — Local Conditions",
-              "content": {
-                "kind": "diagram",
-                "visual": "GEOGRAPHY + RESOURCES + PEOPLE + TRADE\n                  ↓\n             REGIONAL CHANGE",
-                "labels": [
-                  "Figure 31 — Local Conditions",
-                  "Local conditions influenced historical development."
-                ]
-              },
-              "caption": "Local conditions influenced historical development."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 32 — No Single Timeline",
-              "content": {
-                "kind": "diagram",
-                "visual": "REGION A: change → change\nREGION B:   change → change\nREGION C:      change → change",
-                "labels": [
-                  "Figure 32 — No Single Timeline",
-                  "Historical change can occur at different speeds and in different forms."
-                ]
-              },
-              "caption": "Historical change can occur at different speeds and in different forms."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 29 — Regional Diversity",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 29 — Regional Diversity\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">NORTHWEST</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">GANGA PLAINS</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">CENTRAL INDIA</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">↕             ↕</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">WESTERN &amp; SOUTHERN REGIONS</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Different regions followed their own historical trajectories.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Regional diversity",
-              "text": "different historical paths"
-            },
-            {
-              "colour": "orange",
-              "title": "Trade networks",
-              "text": "connected distant communities"
-            },
-            {
-              "colour": "blue",
-              "title": "Local geography",
-              "text": "shaped economic and political choices"
-            },
-            {
-              "colour": "purple",
-              "title": "Subcontinent",
-              "text": "many interconnected regions"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 30 — Networks Across Regions",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 30 — Networks Across Regions\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION A</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADE</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION B</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADE</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION C</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Exchange connected different areas.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 31 — Local Conditions",
+          "content": "<svg viewBox=\"0 0 760 258\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 31 — Local Conditions\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">GEOGRAPHY + RESOURCES + PEOPLE + TRADE</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGIONAL CHANGE</text>\n      <text x=\"380\" y=\"240\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Local conditions influenced historical development.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 32 — No Single Timeline",
+          "content": "<svg viewBox=\"0 0 760 474\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 32 — No Single Timeline\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION A: change</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">change</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION B:   change</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">change</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">REGION C:      change</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">change</text>\n      <text x=\"380\" y=\"456\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Historical change can occur at different speeds and in different forms.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Regional diversity",
+          "text": "different historical paths"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Trade networks",
+          "text": "connected distant communities"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Local geography",
+          "text": "shaped economic and political choices"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Subcontinent",
+          "text": "many interconnected regions"
         },
         {
           "type": "workedExample",
@@ -1499,7 +1184,7 @@ const ChapterData = {
     },
     {
       "id": "section-9",
-      "title": "9. Historical Sources, Maps and How We Know",
+      "title": "Historical Sources, Maps and How We Know",
       "blocks": [
         {
           "type": "scienceHero",
@@ -1515,88 +1200,48 @@ const ChapterData = {
           "text": "History is reconstructed from evidence. Archaeological sources include buildings, fortifications, pottery, tools, coins and other remains. Literary sources include Vedic, Buddhist and Jain texts and later works such as the Arthashastra. Each source has strengths and limitations. A good historian asks who produced a source, why it was produced, what it tells us, what it leaves out and how it compares with other evidence."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 33 — Evidence Pyramid",
-              "content": {
-                "kind": "diagram",
-                "visual": "ARCHAEOLOGY 🏺\nTEXTS 📜\nCOINS 🪙\nBUILDINGS 🏰\nINSCRIPTIONS 🪨\n      ↓\nRECONSTRUCT THE PAST",
-                "labels": [
-                  "Figure 33 — Evidence Pyramid",
-                  "Different evidence types can be combined."
-                ]
-              },
-              "caption": "Different evidence types can be combined."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 34 — Source Questions",
-              "content": {
-                "kind": "diagram",
-                "visual": "WHO? → WHY? → WHEN? → WHAT?\n       ↓\nBIAS / LIMITS / CONTEXT",
-                "labels": [
-                  "Figure 34 — Source Questions",
-                  "Historians evaluate sources critically."
-                ]
-              },
-              "caption": "Historians evaluate sources critically."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 35 — Map as Historical Evidence",
-              "content": {
-                "kind": "diagram",
-                "visual": "PLACE → ROUTE → RESOURCE → SETTLEMENT → STATE",
-                "labels": [
-                  "Figure 35 — Map as Historical Evidence",
-                  "Maps help connect geography with historical change."
-                ]
-              },
-              "caption": "Maps help connect geography with historical change."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 36 — Evidence to Conclusion",
-              "content": {
-                "kind": "diagram",
-                "visual": "SOURCE A + SOURCE B + SOURCE C\n             ↓\n      COMPARISON\n             ↓\n       CONCLUSION",
-                "labels": [
-                  "Figure 36 — Evidence to Conclusion",
-                  "Historical conclusions are built from evidence."
-                ]
-              },
-              "caption": "Historical conclusions are built from evidence."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 33 — Evidence Pyramid",
+          "content": "<svg viewBox=\"0 0 760 474\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 33 — Evidence Pyramid\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ARCHAEOLOGY 🏺</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TEXTS 📜</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">COINS 🪙</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">BUILDINGS 🏰</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">INSCRIPTIONS 🪨</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">RECONSTRUCT THE PAST</text>\n      <text x=\"380\" y=\"456\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Different evidence types can be combined.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Archaeological source",
-              "text": "physical remains"
-            },
-            {
-              "colour": "orange",
-              "title": "Literary source",
-              "text": "written evidence"
-            },
-            {
-              "colour": "blue",
-              "title": "Primary evidence",
-              "text": "material or textual evidence from the period being studied"
-            },
-            {
-              "colour": "purple",
-              "title": "Historical interpretation",
-              "text": "reasoned conclusion from evidence"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 34 — Source Questions",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 34 — Source Questions\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">WHO?</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">WHY?</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">WHEN?</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">WHAT?</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">BIAS / LIMITS / CONTEXT</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Historians evaluate sources critically.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 35 — Map as Historical Evidence",
+          "content": "<svg viewBox=\"0 0 760 420\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 35 — Map as Historical Evidence\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">PLACE</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ROUTE</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">RESOURCE</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SETTLEMENT</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">STATE</text>\n      <text x=\"380\" y=\"402\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Maps help connect geography with historical change.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 36 — Evidence to Conclusion",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 36 — Evidence to Conclusion\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SOURCE A + SOURCE B + SOURCE C</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">COMPARISON</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">CONCLUSION</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Historical conclusions are built from evidence.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Archaeological source",
+          "text": "physical remains"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Literary source",
+          "text": "written evidence"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Primary evidence",
+          "text": "material or textual evidence from the period being studied"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Historical interpretation",
+          "text": "reasoned conclusion from evidence"
         },
         {
           "type": "workedExample",
@@ -1643,7 +1288,7 @@ const ChapterData = {
     },
     {
       "id": "section-10",
-      "title": "10. From Cities to States — The Big Picture",
+      "title": "From Cities to States — The Big Picture",
       "blocks": [
         {
           "type": "scienceHero",
@@ -1659,93 +1304,54 @@ const ChapterData = {
           "text": "The emergence of new cities and states was not a single event. It was a connected process. Agricultural productivity could create surplus; surplus could support specialised crafts and trade; trade could connect regions; growing settlements could require administration and defence; political organisation could in turn support urban centres. At the same time, social structures and new technologies changed the lives of different communities. The Second Urbanisation therefore marks a major transformation in the history of the Indian subcontinent."
         },
         {
-          "type": "figureGallery",
-          "title": "🗺️ Historical Visuals",
-          "figures": [
-            {
-              "type": "scienceFigure",
-              "title": "Figure 37 — The Complete Causal Chain",
-              "content": {
-                "kind": "diagram",
-                "visual": "AGRICULTURE 🌾\n      ↓\nSURPLUS\n      ↓\nCRAFTS + TRADE\n      ↓\nTOWNS / CITIES 🏙️\n      ↓\nADMINISTRATION\n      ↓\nSTATES 👑\n      ↕\nDEFENCE + REVENUE + ROUTES",
-                "labels": [
-                  "Figure 37 — The Complete Causal Chain",
-                  "A simplified network of connected developments."
-                ]
-              },
-              "caption": "A simplified network of connected developments."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 38 — City–State Relationship",
-              "content": {
-                "kind": "diagram",
-                "visual": "CITY 🏙️\n↕\nTRADE + REVENUE + ADMINISTRATION\n↕\nSTATE 🏛️",
-                "labels": [
-                  "Figure 38 — City–State Relationship",
-                  "Cities and states could strengthen one another."
-                ]
-              },
-              "caption": "Cities and states could strengthen one another."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 39 — Revision Timeline",
-              "content": {
-                "kind": "diagram",
-                "visual": "EARLY 2nd MILLENNIUM BCE\nHarappan urban decline\n        ↓\nEND OF 2nd MILLENNIUM BCE\nJanapada formation develops\n        ↓\n1st MILLENNIUM BCE\nSecond Urbanisation\n        ↓\n8th–7th centuries BCE\nMahājanapadas emerge",
-                "labels": [
-                  "Figure 39 — Revision Timeline",
-                  "A simplified chronological guide; exact dates vary by process and source."
-                ]
-              },
-              "caption": "A simplified chronological guide; exact dates vary by process and source."
-            },
-            {
-              "type": "scienceFigure",
-              "title": "Figure 40 — Final Concept Map",
-              "content": {
-                "kind": "diagram",
-                "visual": "URBANISATION\n ↙      ↓       ↘\nECONOMY  POLITICS  SOCIETY\n  ↓        ↓        ↓\nTRADE    STATES   SOCIAL GROUPS\n       ↘   ↓   ↙\n      HISTORICAL CHANGE",
-                "labels": [
-                  "Figure 40 — Final Concept Map",
-                  "The chapter connects several dimensions of change."
-                ]
-              },
-              "caption": "The chapter connects several dimensions of change."
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 37 — The Complete Causal Chain",
+          "content": "<svg viewBox=\"0 0 760 528\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 37 — The Complete Causal Chain\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">AGRICULTURE 🌾</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">SURPLUS</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">CRAFTS + TRADE</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TOWNS / CITIES 🏙️</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ADMINISTRATION</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">STATES 👑</text><text x=\"380\" y=\"413\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"416\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"441\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">DEFENCE + REVENUE + ROUTES</text>\n      <text x=\"380\" y=\"510\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified network of connected developments.\n      </text>\n    </svg>"
         },
         {
-          "type": "colourCards",
-          "title": "📌 Core Historical Ideas",
-          "cards": [
-            {
-              "colour": "purple",
-              "title": "Urbanisation",
-              "text": "growth of towns and cities"
-            },
-            {
-              "colour": "orange",
-              "title": "Economy",
-              "text": "agriculture, crafts and trade"
-            },
-            {
-              "colour": "blue",
-              "title": "Politics",
-              "text": "janapadas, mahājanapadas and governance"
-            },
-            {
-              "colour": "purple",
-              "title": "Society",
-              "text": "changing social organisation"
-            },
-            {
-              "colour": "orange",
-              "title": "Evidence",
-              "text": "archaeology + literature"
-            }
-          ]
+          "type": "scienceFigure",
+          "title": "Figure 38 — City–State Relationship",
+          "content": "<svg viewBox=\"0 0 760 312\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 38 — City–State Relationship\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">CITY 🏙️</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADE + REVENUE + ADMINISTRATION</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">STATE 🏛️</text>\n      <text x=\"380\" y=\"294\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        Cities and states could strengthen one another.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 39 — Revision Timeline",
+          "content": "<svg viewBox=\"0 0 760 582\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 39 — Revision Timeline\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">EARLY 2nd MILLENNIUM BCE</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Harappan urban decline</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">END OF 2nd MILLENNIUM BCE</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Janapada formation develops</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">1st MILLENNIUM BCE</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Second Urbanisation</text><text x=\"380\" y=\"413\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"416\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"441\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">8th–7th centuries BCE</text><text x=\"380\" y=\"467\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"470\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"495\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">Mahājanapadas emerge</text>\n      <text x=\"380\" y=\"564\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        A simplified chronological guide; exact dates vary by process and source.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "scienceFigure",
+          "title": "Figure 40 — Final Concept Map",
+          "content": "<svg viewBox=\"0 0 760 474\" width=\"100%\"\n      style=\"max-width:760px;height:auto;background:linear-gradient(135deg,#faf5ff,#eff6ff);\n      border-radius:28px;padding:8px;\">\n      <text x=\"380\" y=\"48\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#312E81\">\n        Figure 40 — Final Concept Map\n      </text>\n      \n        <rect x=\"70\" y=\"92\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"117\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">URBANISATION</text><text x=\"380\" y=\"143\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"146\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"171\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">ECONOMY  POLITICS  SOCIETY</text><text x=\"380\" y=\"197\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"200\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"225\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">TRADE    STATES   SOCIAL GROUPS</text><text x=\"380\" y=\"251\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"254\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EDE9FE\"/>\n        <text x=\"380\" y=\"279\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">↘</text><text x=\"380\" y=\"305\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"308\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#EEF2FF\"/>\n        <text x=\"380\" y=\"333\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">↙</text><text x=\"380\" y=\"359\" text-anchor=\"middle\" font-size=\"22\" fill=\"#7C3AED\">↓</text>\n        <rect x=\"70\" y=\"362\" width=\"620\" height=\"38\" rx=\"19\"\n              fill=\"#F5F3FF\"/>\n        <text x=\"380\" y=\"387\" text-anchor=\"middle\"\n              font-size=\"16\" font-weight=\"700\" fill=\"#334155\">HISTORICAL CHANGE</text>\n      <text x=\"380\" y=\"456\" text-anchor=\"middle\" font-size=\"13\" fill=\"#64748B\">\n        The chapter connects several dimensions of change.\n      </text>\n    </svg>"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Urbanisation",
+          "text": "growth of towns and cities"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Economy",
+          "text": "agriculture, crafts and trade"
+        },
+        {
+          "type": "colourCard",
+          "colour": "blue",
+          "title": "Politics",
+          "text": "janapadas, mahājanapadas and governance"
+        },
+        {
+          "type": "colourCard",
+          "colour": "purple",
+          "title": "Society",
+          "text": "changing social organisation"
+        },
+        {
+          "type": "colourCard",
+          "colour": "orange",
+          "title": "Evidence",
+          "text": "archaeology + literature"
         },
         {
           "type": "workedExample",
