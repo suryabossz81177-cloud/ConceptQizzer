@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+   id: "class-7-science-the-world-of-metals-and-non-metals",
+  class: 7,
+  subject: "Science",
+  chapter: 3,
+  title: "The World of Metals and Non-Metals",
+  file: "js/notes/class7/science/the-world-of-metals-and-non-metals.js",
+},
+  
+  {
   id: "7-science-exploring-substances-acidic-basic-and-neutral",
   class: 7,
   subject: "Science",
