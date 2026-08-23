@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "7-science-heat-transfer-in-nature",
+  class: 7,
+  subject: "Science",
+  chapter: 7,
+  title: "Heat Transfer in Nature",
+  file: "js/notes/class7/science/heat-transfer-in-nature.js",
+},
+  
 {
   id: "7-science-adolescence-a-stage-of-growth-and-change",
   class: 7,
