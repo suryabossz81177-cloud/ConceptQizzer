@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "7-science-earth-moon-and-the-sun",
+  class: 7,
+  subject: "Science",
+  chapter: 12,
+  title: "Earth, Moon and the Sun",
+  file: "js/notes/class7/science/earth-moon-and-the-sun.js",
+},
+  
  {
   id: "7-science-light-shadows-and-reflections",
   class: 7,
