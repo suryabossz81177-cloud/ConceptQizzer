@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "7-science-life-processes-in-animals",
+  class: 7,
+  subject: "Science",
+  chapter: 9,
+  title: "Life Processes in Animals",
+  file: "js/notes/class7/science/life-processes-in-animals.js",
+},
+  
  {
   id: "7-science-measurement-of-time-and-motion",
   class: 7,
