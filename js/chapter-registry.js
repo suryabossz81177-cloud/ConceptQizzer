@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+{
+  id: "7-science-changes-around-us-physical-and-chemical",
+  class: 7,
+  subject: "Science",
+  chapter: 5,
+  title: "Changes Around Us: Physical and Chemical",
+  file: "js/notes/class7/science/changes-around-us-physical-and-chemical.js",
+}, 
+  
   {
   id: "7-science-electricity-circuits-and-their-components",
   class: 7,
