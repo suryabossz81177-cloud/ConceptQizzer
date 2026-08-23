@@ -1,6 +1,6 @@
 window.ChapterData = {
 
-  id: "class-7-science-exploring-substances-acidic-basic-and-neutral",
+  id: "7-science-exploring-substances-acidic-basic-and-neutral",
 
   class: 7,
 
