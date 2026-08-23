@@ -15,6 +15,35 @@ window.ChapterData = {
 
   theme: "science",
 
+  summary:
+    "Science is a systematic way of understanding the natural world through observation, questioning, investigation, evidence and reasoning. Scientific knowledge can change when reliable new evidence becomes available. Science is connected with technology, everyday life and the future, and scientific thinking helps us evaluate claims, solve problems and make responsible decisions.",
+
+  importantPoints: [
+    "Science is based on observation, investigation, evidence and reasoning.",
+    "Observation describes what is noticed or measured.",
+    "An explanation attempts to tell why or how something happens.",
+    "Evidence supports or challenges scientific explanations.",
+    "Predictions can be tested.",
+    "Tables and graphs help organise and analyse data.",
+    "A pattern does not automatically prove cause and effect.",
+    "Scientific explanations can change when reliable new evidence appears.",
+    "Scientific instruments extend our ability to observe and measure.",
+    "Technology applies knowledge to practical problems.",
+    "Scientific claims should be evaluated critically.",
+    "Science is a continuing process of questioning, testing and learning."
+  ],
+
+  keyTerms: [
+    { term: "Science", definition: "A systematic way of studying and understanding the natural world." },
+    { term: "Observation", definition: "Information obtained through senses or suitable instruments." },
+    { term: "Evidence", definition: "Information used to support, evaluate or challenge an explanation." },
+    { term: "Investigation", definition: "A planned process of asking questions, collecting evidence and analysing results." },
+    { term: "Prediction", definition: "An expectation about what may happen based on observations, patterns or knowledge." },
+    { term: "Technology", definition: "The application of knowledge, ideas, materials and designs to practical purposes." },
+    { term: "Scientific thinking", definition: "Using curiosity, evidence, reasoning and critical thinking to understand questions about the world." },
+    { term: "Cause and effect", definition: "A relationship in which one factor produces or contributes to a change in another." }
+  ],
+
   sections: [
 
   {
