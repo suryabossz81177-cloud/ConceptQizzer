@@ -12,7 +12,8 @@ window.ChapterRegistry = [
   chapter: 2,
   title: "Exploring Substances: Acidic, Basic, and Neutral",
   file: "js/notes/class7/science/exploring-substances-acidic-basic-and-neutral.js"
-}
+},
+  
   {
   id: "7-science-the-ever-evolving-world-of-science",
   class: 7,
