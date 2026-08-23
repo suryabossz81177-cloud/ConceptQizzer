@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-science-life-processes-in-plants",
+  class: 7,
+  subject: "Science",
+  chapter: 10,
+  title: "Life Processes in Plants",
+  file: "js/notes/class7/science/life-processes-in-plants.js",
+},
+  
+  {
   id: "7-science-life-processes-in-animals",
   class: 7,
   subject: "Science",
