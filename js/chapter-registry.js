@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-history-how-land-became-sacred",
+  class: 7,
+  subject: "History",
+  chapter: 8,
+  title: "How Land Became Sacred",
+  file: "js/notes/class7/history/how-land-became-sacred.js",
+},
+
+  {
   id: "7-history-the-gupta-era-an-age-of-tireless-creativity",
   class: 7,
   subject: "History",
