@@ -1,5 +1,5 @@
 const ChapterData = {
-  id: "class7-history-new-beginnings-cities-and-states",
+  id: "7-history-new-beginnings-cities-and-states",
   class: 7,
   subject: "History",
   chapterNumber: 1,
