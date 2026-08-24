@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-history-the-rise-of-empires",
+  class: 7,
+  subject: "History",
+  chapter: 5,
+  title: "The Rise of Empires",
+  file: "js/notes/class7/history/the-rise-of-empires.js",
+},
+  
+  {
   id: "7-history-new-beginnings-cities-and-states",
   class: 7,
   subject: "History",
