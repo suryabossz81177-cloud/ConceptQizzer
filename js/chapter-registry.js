@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-history-the-age-of-reorganisation",
+  class: 7,
+  subject: "History",
+  chapter: 6,
+  title: "The Age of Reorganisation",
+  file: "js/notes/class7/history/the-age-of-reorganisation.js",
+},
+  
+  {
   id: "7-history-the-rise-of-empires",
   class: 7,
   subject: "History",
