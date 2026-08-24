@@ -1,367 +1,701 @@
-window.ChapterData = {
-  id: "7-history-new-beginnings-cities-and-states",
-  class: 7,
-  subject: "History",
-  chapterNumber: 1,
-  title: "New Beginnings: Cities and States",
-  description: "A detailed, topic-based study of India's Second Urbanisation, janapadas, mahājanapadas, early collective traditions, iron technology, social organisation and regional developments.",
-  historyFormatVersion: "2.0",
-
-  learningGoals: [
-    "Explain the transition from the First Urbanisation to the Second Urbanisation.",
-    "Understand how janapadas and mahājanapadas developed and why geography mattered.",
-    "Connect agriculture, iron technology, crafts and trade with the growth of cities.",
-    "Compare early kingdoms with gana-sangha traditions without treating them as modern democracies.",
-    "Understand the varṇa–jāti system as a historical social framework and recognise that real societies were more diverse.",
-    "Use archaeological, literary and material evidence to think like a historian."
+window.ChapterData={
+  "id": "7-history-new-beginnings-cities-and-states",
+  "class": 7,
+  "subject": "History",
+  "chapterNumber": 1,
+  "title": "New Beginnings: Cities and States",
+  "description": "A detailed, flexible Class 7 History chapter on the Second Urbanisation, janapadas and mahajanapadas, early systems of governance, urban growth, iron technology, punch-marked coins, social organisation and regional developments.",
+  "importantPoints": [
+    "After the decline of the Harappan urban phase, urban life reduced for a long period before a new phase of urbanisation developed in the first millennium BCE.",
+    "The new phase is commonly called the Second Urbanisation of India and began strongly in the Ganga plains, parts of the Indus basin and neighbouring regions before spreading more widely.",
+    "Archaeological excavations and ancient literary traditions, including late Vedic, Buddhist and Jain literature, provide important evidence for this period.",
+    "Janapadas were territorial communities associated with clans or groups and led by a raja or another political authority.",
+    "By around the 8th or 7th centuries BCE, some janapadas developed into larger mahajanapadas.",
+    "The commonly remembered list contains sixteen mahajanapadas, although ancient sources do not always give identical lists.",
+    "Many mahajanapada capitals were fortified and used walls, moats and controlled gateways for defence and movement.",
+    "Sabha and samiti are important terms associated with assemblies or councils in early political traditions.",
+    "Most mahajanapadas were monarchies, while gana-sangha traditions such as Vajji and Malla followed different forms of collective rule.",
+    "Iron technology, agricultural expansion, craft production and trade contributed to economic and urban change.",
+    "Punch-marked coins are among the earliest coin traditions associated with this period and supported exchange and trade.",
+    "The varna-jati framework became an important part of social organisation, while actual communities and occupations were more complex than a simple four-part model.",
+    "Trade routes connected northern, southern, eastern and western regions, helping people, goods, ideas and cultural practices move across the subcontinent.",
+    "Regional developments included important political and cultural traditions in Kalinga and in the Tamil regions associated with the Cholas, Cheras and Pandyas."
   ],
-
-  blocks: [
+  "keyTerms": [
+    [
+      "Urbanisation",
+      "The growth of towns and cities and the social and economic changes connected with increasing urban life."
+    ],
+    [
+      "Second Urbanisation",
+      "The major phase of renewed urban growth in the first millennium BCE after the earlier Harappan urban phase."
+    ],
+    [
+      "Janapada",
+      "A territorial community or early state associated with a settled group or clan; the word is commonly explained as jana (people) + pada (place/footing)."
+    ],
+    [
+      "Mahajanapada",
+      "A larger and more powerful territorial state that developed from the growth and consolidation of earlier janapadas."
+    ],
+    [
+      "Raja",
+      "A ruler or political leader in many early Indian states."
+    ],
+    [
+      "Sabha",
+      "An assembly or council mentioned in early Indian sources where matters could be discussed."
+    ],
+    [
+      "Samiti",
+      "A term used in early Indian traditions for an assembly or gathering."
+    ],
+    [
+      "Gana",
+      "A political community in which authority was associated with a group rather than only one hereditary monarch."
+    ],
+    [
+      "Sangha",
+      "A collective political organisation; the term is used for some early non-monarchical traditions."
+    ],
+    [
+      "Fortification",
+      "A defensive wall or structure built to protect a settlement or city."
+    ],
+    [
+      "Moat",
+      "A ditch, often filled with or designed to hold water, surrounding a fortification for defence."
+    ],
+    [
+      "Iron metallurgy",
+      "The processes used to extract, work and shape iron into tools, weapons and other objects."
+    ],
+    [
+      "Punch-marked coin",
+      "An early Indian coin type made by striking symbols or marks onto metal pieces, especially silver."
+    ],
+    [
+      "Surplus",
+      "An amount left over after immediate needs have been met, such as agricultural produce beyond household requirements."
+    ],
+    [
+      "Craft production",
+      "The making of goods by skilled specialists such as potters, metalworkers, weavers and other artisans."
+    ],
+    [
+      "Trade network",
+      "A connected system of routes and exchanges through which people, goods and ideas moved between places."
+    ],
+    [
+      "Varna",
+      "A broad social classification described in ancient Indian textual traditions."
+    ],
+    [
+      "Jati",
+      "A community-based social group often connected with particular occupations, customs and local social organisation."
+    ],
+    [
+      "Kalinga",
+      "An important eastern region of the subcontinent that developed its own political and cultural traditions."
+    ],
+    [
+      "Uttarapatha",
+      "A broad northward or northern trade-route tradition connecting regions across the subcontinent."
+    ],
+    [
+      "Dakshinapatha",
+      "A broad southern route tradition connecting northern regions with the Deccan and southern parts of the subcontinent."
+    ]
+  ],
+  "summary": "New Beginnings: Cities and States describes a major period of change in early Indian history. After the decline of the Harappan urban phase, large-scale urban life reduced for a long period. During the first millennium BCE, a renewed phase of urbanisation developed in the Ganga plains, parts of the Indus basin and neighbouring regions and gradually spread to other areas. This Second Urbanisation is known through archaeology and ancient literary traditions. During the same broad period, territorial communities known as janapadas grew and some developed into larger mahajanapadas. Fortified capitals, agriculture, craft production, trade, iron technology and coinage all supported economic and political change. Different systems of governance developed, including monarchies and collective gana-sangha traditions. Society also became more complex, with varna and jati forming important frameworks of social organisation. Trade routes connected distant regions, while Kalinga and the Tamil regions developed distinctive political and cultural traditions. The period therefore marks a transition from smaller regional communities toward increasingly interconnected cities, states and networks.",
+  "sections": [
     {
-      type: "quote",
-      quote: "A strong kingdom needed secure towns, useful resources, dependable water, roads and waterways, and a productive economy.",
-      author: "Kauṭilya, Arthaśāstra — paraphrased for study"
-    },
-
-    {
-      type: "heading",
-      title: "From the First Urbanisation to a New Urban Age",
-      level: 2,
-      text: "The Harappan or Sindhu-Sarasvatī civilisation represented India's First Urbanisation. By the early 2nd millennium BCE, that urban system had greatly declined. Many cities were abandoned or became more rural. Later, in the 1st millennium BCE, urban life expanded again in the Ganga plains, parts of the Indus basin and neighbouring regions. Historians call this renewed phase the Second Urbanisation.",
-      colour: "blue"
-    },
-    {
-      type: "figure",
-      title: "First Urbanisation → Second Urbanisation",
-      caption: "The two major phases are separated by a long period in which large-scale urban life was much less prominent.",
-      html: `<svg viewBox="0 0 900 470" role="img" aria-label="Comparison of first and second urbanisation" style="width:100%;height:auto;display:block"><defs><linearGradient id="u1" x1="0" x2="1"><stop stop-color="#6d5dfc"/><stop offset="1" stop-color="#4c8dff"/></linearGradient><linearGradient id="u2" x1="0" x2="1"><stop stop-color="#ff8a4c"/><stop offset="1" stop-color="#f4c542"/></linearGradient></defs><rect x="25" y="25" width="850" height="420" rx="34" fill="#f7f8ff"/><rect x="60" y="70" width="340" height="300" rx="25" fill="url(#u1)"/><rect x="500" y="70" width="340" height="300" rx="25" fill="url(#u2)"/><text x="230" y="115" text-anchor="middle" fill="white" font-size="28" font-weight="800">FIRST URBANISATION</text><text x="670" y="115" text-anchor="middle" fill="white" font-size="28" font-weight="800">SECOND URBANISATION</text><g fill="#fff" opacity=".95"><rect x="105" y="170" width="75" height="105" rx="5"/><rect x="205" y="150" width="80" height="125" rx="5"/><rect x="310" y="185" width="55" height="90" rx="5"/><rect x="545" y="185" width="65" height="90" rx="5"/><rect x="635" y="155" width="75" height="120" rx="5"/><rect x="740" y="175" width="55" height="100" rx="5"/></g><g stroke="#fff" stroke-width="8"><path d="M80 320H380"/><path d="M520 320H820"/><path d="M125 205h35m55-20h35m105 30h25M560 215h30m65-35h45m85 20h25"/></g><text x="230" y="335" text-anchor="middle" fill="white" font-size="20">planned cities • craft • trade</text><text x="670" y="335" text-anchor="middle" fill="white" font-size="20">new towns • states • trade</text><text x="450" y="415" text-anchor="middle" fill="#30334a" font-size="22" font-weight="700">Urban life changed form, geography and institutions over time.</text></svg>`
-    },
-    {
-      type: "concept",
-      title: "Why do we call it the Second Urbanisation?",
-      text: "Because it was a later, large-scale phase of urban growth after the decline of the Harappan urban system. It was not simply a return of the old cities: new centres, political units, technologies, routes and social arrangements developed in different regions.",
-      icon: "🏙️",
-      colour: "purple"
-    },
-    {
-      type: "source",
-      title: "How do historians know?",
-      text: "Two especially important kinds of evidence are archaeological remains and ancient literature. Excavations reveal settlement patterns, fortifications, pottery, tools, coins and other material evidence. Late Vedic, Buddhist and Jain texts contain references to places, rulers, communities and urban centres. Each source has limits, so historians compare evidence rather than relying on a single source.",
-      colour: "cyan"
-    },
-
-    {
-      type: "heading",
-      title: "Janapadas: People, Territory and Political Organisation",
-      level: 2,
-      text: "Towards the end of the 2nd millennium BCE, groups and clans in north India became increasingly associated with territories. These territories were called janapadas. The Sanskrit word can be understood through jana, meaning people or group, and pada, meaning foot or settlement — a territory where a people had settled. A rājā or ruler was associated with many such political communities.",
-      colour: "green"
-    },
-    {
-      type: "figure",
-      title: "How a Janapada Took Shape",
-      caption: "A conceptual model — political territories grew from settled communities, shared customs and organised leadership.",
-      html: `<svg viewBox="0 0 900 520" style="width:100%;height:auto;display:block"><defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".14"/></filter></defs><rect x="25" y="25" width="850" height="470" rx="35" fill="#eef8f1"/><path d="M85 355 Q210 245 340 330 T590 285 T820 350" fill="none" stroke="#67b7d8" stroke-width="24" opacity=".85"/><path d="M110 405 Q230 315 355 390 T610 360 T810 400" fill="none" stroke="#a9d77b" stroke-width="45" opacity=".7"/><g filter="url(#s)"><circle cx="190" cy="160" r="58" fill="#6d5dfc"/><circle cx="450" cy="145" r="58" fill="#ff8a4c"/><circle cx="710" cy="170" r="58" fill="#22a884"/></g><text x="190" y="168" text-anchor="middle" fill="white" font-size="22" font-weight="800">JANA</text><text x="450" y="153" text-anchor="middle" fill="white" font-size="20" font-weight="800">SHARED</text><text x="450" y="180" text-anchor="middle" fill="white" font-size="20" font-weight="800">CUSTOMS</text><text x="710" y="178" text-anchor="middle" fill="white" font-size="20" font-weight="800">LEADERSHIP</text><path d="M250 165H390M510 165H650" stroke="#45485d" stroke-width="8" stroke-linecap="round"/><rect x="250" y="235" width="400" height="95" rx="28" fill="white" stroke="#d9dce9" stroke-width="3"/><text x="450" y="275" text-anchor="middle" fill="#2d3043" font-size="30" font-weight="800">JANAPADA</text><text x="450" y="307" text-anchor="middle" fill="#5c6073" font-size="19">people settled in a territory</text><text x="450" y="455" text-anchor="middle" fill="#39405a" font-size="22" font-weight="700">Territory + community + political organisation</text></svg>`
-    },
-    {
-      type: "heading",
-      title: "From Janapadas to Mahājanapadas",
-      level: 2,
-      text: "As trade networks expanded and connected regions, some early states grew stronger or merged. By around the 8th–7th centuries BCE, larger political units known as mahājanapadas had emerged. Ancient texts give lists that differ in detail, but a frequently cited tradition names sixteen mahājanapadas. They extended across a broad area from Gandhāra in the northwest to Anga in the east, with Aśhmaka farther south.",
-      colour: "orange"
-    },
-    {
-      type: "table",
-      title: "Important Mahājanapadas and Their Centres",
-      rows: [
-        ["Mahājanapada", "Associated capital / centre", "Why it matters"],
-        ["Magadha", "Rājagṛiha; later Pāṭaliputra", "Became a major power in the eastern Ganga region."],
-        ["Kosala", "Śrāvastī / Ayodhyā traditions", "Important state of the middle Ganga region."],
-        ["Vatsa", "Kauśāmbī", "Important political and urban centre."],
-        ["Avanti", "Ujjayinī / Mahishmati traditions", "Major western-central Indian power and trade region."],
-        ["Vajji", "Vaiśālī", "Associated with a collective political tradition."],
-        ["Gandhāra", "Taxila", "Important northwestern centre and route network."],
-        ["Anga", "Campā", "Eastern region connected to Ganga trade routes."],
-        ["Aśhmaka", "Associated with the Godavari region", "A southern mahājanapada in the traditional lists."]
-      ],
-      colour: "yellow"
-    },
-    {
-      type: "map",
-      title: "Mahājanapadas — Study Map",
-      labels: ["Gandhāra", "Kosala", "Vajji", "Magadha", "Vatsa", "Avanti", "Anga", "Aśhmaka"],
-      caption: "Conceptual study map; locations are simplified for learning rather than a modern political map.",
-      svg: `<svg viewBox="0 0 900 560" style="width:100%;height:auto;display:block"><rect x="20" y="20" width="860" height="520" rx="32" fill="#fff9e8" stroke="#e3b44c" stroke-width="5"/><path d="M80 135 Q240 75 410 145 T810 120" fill="none" stroke="#56b4df" stroke-width="22"/><path d="M90 300 Q250 230 420 310 T810 270" fill="none" stroke="#76bce8" stroke-width="20"/><path d="M120 440 Q260 365 430 430 T790 390" fill="none" stroke="#8fcf7a" stroke-width="70" opacity=".55"/><g font-family="Arial" font-weight="800" font-size="22"><g fill="#6d5dfc"><circle cx="160" cy="160" r="18"/><text x="190" y="167">Gandhāra</text></g><g fill="#f05a6a"><circle cx="490" cy="220" r="18"/><text x="520" y="227">Vajji</text></g><g fill="#ff8a4c"><circle cx="560" cy="310" r="18"/><text x="590" y="317">Magadha</text></g><g fill="#22a884"><circle cx="365" cy="270" r="18"/><text x="395" y="277">Kosala</text></g><g fill="#3b82f6"><circle cx="300" cy="355" r="18"/><text x="330" y="362">Vatsa</text></g><g fill="#8b5cf6"><circle cx="215" cy="420" r="18"/><text x="245" y="427">Avanti</text></g><g fill="#f59e0b"><circle cx="700" cy="350" r="18"/><text x="730" y="357">Anga</text></g><g fill="#ef4444"><circle cx="650" cy="465" r="18"/><text x="680" y="472">Aśhmaka</text></g></g><text x="450" y="80" text-anchor="middle" font-size="26" font-weight="900" fill="#34364a">Simplified regional study map</text><text x="450" y="510" text-anchor="middle" font-size="18" fill="#62677a">Rivers, terrain and positions are schematic.</text></svg>`
-    },
-
-    {
-      type: "heading",
-      title: "Why Did Cities Grow? Geography, Food, Iron and Trade",
-      level: 2,
-      text: "The fertile Ganga plains supported expanding agriculture. Iron ore was available in nearby hills and mountains, and iron tools became increasingly important for farming and other work. Growing agricultural production could support larger populations and specialised occupations. Trade networks then connected producers, craftspeople, merchants and political centres. Urban growth therefore had several connected causes rather than one single cause.",
-      colour: "teal"
-    },
-    {
-      type: "figure",
-      title: "The Urban Growth Web",
-      caption: "Cities developed through interacting economic, technological, geographical and political factors.",
-      html: `<svg viewBox="0 0 900 560" style="width:100%;height:auto;display:block"><rect x="20" y="20" width="860" height="520" rx="34" fill="#f5f7ff"/><g font-family="Arial" text-anchor="middle" font-weight="800"><circle cx="450" cy="280" r="105" fill="#5b4bea"/><text x="450" y="270" fill="white" font-size="31">GROWING</text><text x="450" y="308" fill="white" font-size="31">CITIES</text><g><circle cx="170" cy="130" r="72" fill="#22a884"/><text x="170" y="124" fill="white" font-size="23">Fertile</text><text x="170" y="152" fill="white" font-size="23">land</text><circle cx="730" cy="130" r="72" fill="#f59e0b"/><text x="730" y="124" fill="white" font-size="23">Iron</text><text x="730" y="152" fill="white" font-size="23">tools</text><circle cx="150" cy="425" r="72" fill="#3b82f6"/><text x="150" y="419" fill="white" font-size="23">Crafts &</text><text x="150" y="447" fill="white" font-size="23">surplus</text><circle cx="750" cy="425" r="72" fill="#ef5da8"/><text x="750" y="419" fill="white" font-size="23">Trade</text><text x="750" y="447" fill="white" font-size="23">routes</text></g></g><g stroke="#656b80" stroke-width="8" stroke-linecap="round"><path d="M230 155L365 235"/><path d="M670 155L535 235"/><path d="M220 395L360 325"/><path d="M680 395L540 325"/></g><text x="450" y="505" text-anchor="middle" fill="#3d4155" font-size="20" font-weight="700">Together these factors strengthened urban economies and political centres.</text></svg>`
-    },
-    {
-      type: "figure",
-      title: "Iron Technology and Agricultural Expansion",
-      caption: "Iron tools could support more intensive cultivation and forest clearing in suitable regions.",
-      html: `<svg viewBox="0 0 900 500" style="width:100%;height:auto;display:block"><rect x="25" y="25" width="850" height="450" rx="35" fill="#eef7ff"/><path d="M60 365 Q220 285 370 355 T650 325 T850 350" fill="#9bd36a"/><path d="M65 390 Q220 320 380 385 T650 355 T845 380" fill="#74b8df" opacity=".7"/><g transform="translate(145 100)"><path d="M40 165 L120 55 L145 75 L70 185 Z" fill="#5b6272"/><path d="M108 55 L170 18 L205 52 L145 90 Z" fill="#b9c0ca"/><rect x="15" y="175" width="95" height="18" rx="9" transform="rotate(-12 15 175)" fill="#7c4a2b"/></g><g transform="translate(470 95)"><path d="M45 165 L130 70 L155 88 L75 185 Z" fill="#555d6e"/><path d="M118 68 L180 30 L213 62 L150 98 Z" fill="#c3c9d2"/><rect x="18" y="180" width="100" height="18" rx="9" transform="rotate(-10 18 180)" fill="#7c4a2b"/></g><text x="450" y="75" text-anchor="middle" fill="#293148" font-size="30" font-weight="900">IRON TOOLS</text><text x="450" y="425" text-anchor="middle" fill="#35405a" font-size="22" font-weight="700">technology → productive work → larger settlements</text></svg>`
-    },
-
-    {
-      type: "heading",
-      title: "Cities as Political and Economic Centres",
-      level: 2,
-      text: "Many mahājanapada capitals were fortified. Fortification walls, gates and moats could help rulers control movement and protect important centres. Cities also concentrated markets, crafts, administration and political authority. Their location mattered: access to fertile land, water, routes and resources could strengthen a settlement.",
-      colour: "red"
-    },
-    {
-      type: "figure",
-      title: "Inside a Fortified Ancient City — Conceptual Reconstruction",
-      caption: "A learning reconstruction showing how defence, markets, administration and water could interact in an urban centre.",
-      html: `<svg viewBox="0 0 900 600" style="width:100%;height:auto;display:block"><rect x="25" y="25" width="850" height="550" rx="35" fill="#fff8ef"/><path d="M70 480 Q450 390 830 480" fill="none" stroke="#4c8dff" stroke-width="55" opacity=".45"/><rect x="105" y="130" width="690" height="330" rx="18" fill="#e7c77d" stroke="#8d6b35" stroke-width="10"/><rect x="145" y="170" width="610" height="250" rx="10" fill="#f6e4ad" stroke="#9d7a3b" stroke-width="6"/><path d="M430 170V420M145 295H755" stroke="#bd9a58" stroke-width="6" stroke-dasharray="14 12"/><rect x="390" y="360" width="120" height="60" fill="#8c5b3d"/><path d="M375 360 L450 300 L525 360 Z" fill="#6f4631"/><rect x="190" y="205" width="125" height="70" rx="12" fill="#5b4bea"/><text x="252" y="247" text-anchor="middle" fill="white" font-size="20" font-weight="800">MARKET</text><rect x="585" y="205" width="125" height="70" rx="12" fill="#22a884"/><text x="647" y="247" text-anchor="middle" fill="white" font-size="19" font-weight="800">CRAFTS</text><rect x="190" y="325" width="125" height="70" rx="12" fill="#ef5da8"/><text x="252" y="367" text-anchor="middle" fill="white" font-size="19" font-weight="800">OFFICES</text><rect x="585" y="325" width="125" height="70" rx="12" fill="#f59e0b"/><text x="647" y="367" text-anchor="middle" fill="white" font-size="19" font-weight="800">STORES</text><text x="450" y="95" text-anchor="middle" fill="#303448" font-size="29" font-weight="900">FORTIFIED CITY</text><text x="450" y="530" text-anchor="middle" fill="#4a4f62" font-size="20">walls • gates • moat/water • market • crafts • administration</text></svg>`
-    },
-
-    {
-      type: "heading",
-      title: "Early Collective Political Traditions",
-      level: 2,
-      text: "Not every political community was organised in exactly the same way. Alongside kingdoms with rulers, some communities developed collective traditions often described as gaṇa or saṅgha traditions. Assemblies or councils could play an important role in decision-making. These systems should not simply be equated with modern democracy: political participation was limited and social inequalities existed.",
-      colour: "pink"
-    },
-    {
-      type: "compare",
-      title: "Kingdoms and Collective Traditions",
-      rows: [
-        ["Feature", "Kingdom", "Gaṇa / Saṅgha tradition"],
-        ["Political leadership", "A rājā or ruling family could hold central authority.", "Power could be shared among members of a political community or council."],
-        ["Decision-making", "Royal authority and officials were important.", "Assemblies/councils and collective discussion could be important."],
-        ["Modern comparison", "Not a modern constitutional monarchy.", "Not the same as modern universal democracy."],
-        ["Historical value", "Shows development of territorial states.", "Shows that early India had more than one political tradition."]
-      ],
-      colour: "pink"
-    },
-    {
-      type: "fact",
-      title: "Think Like a Historian",
-      text: "If a text says an assembly existed, ask: Who could participate? Who was excluded? What other evidence confirms the claim? Historical institutions should be reconstructed from multiple kinds of evidence.",
-      colour: "purple"
-    },
-
-    {
-      type: "heading",
-      title: "The Varṇa–Jāti Framework",
-      level: 2,
-      text: "Texts of the period describe social organisation using the idea of varṇa, commonly presented through four broad categories: Brahmins, Kshatriyas, Vaishyas and Shudras. Historical society, however, was not simply divided into four neat boxes. Many jāti and occupational communities existed, and social life varied by region and period. The framework is therefore useful for understanding an important historical idea, but it should not be treated as a complete description of every person or community.",
-      colour: "gold"
-    },
-    {
-      type: "table",
-      title: "Varṇa in Historical Textual Descriptions",
-      rows: [
-        ["Varṇa", "Broad association in texts", "Important caution"],
-        ["Brahmins", "Learning, ritual and teaching", "Actual social roles varied across time and place."],
-        ["Kshatriyas", "Ruling, warfare and protection", "Political power was not identical everywhere."],
-        ["Vaishyas", "Agriculture, cattle-rearing and trade", "Occupations were more diverse than a simple list suggests."],
-        ["Shudras", "Service and various forms of labour", "Historical experiences and social positions differed greatly among communities."],
-        ["Jāti communities", "Local social and occupational groups", "Jāti identities could be numerous, changing and regionally specific."]
-      ],
-      colour: "orange"
-    },
-
-    {
-      type: "heading",
-      title: "Developments Beyond the Ganga Plains",
-      level: 2,
-      text: "Urbanisation and political change did not happen only in one region. Other parts of the subcontinent developed their own settlements, trade routes, political communities and cultural traditions. In the south, urban centres and regional powers developed over time, while routes across the peninsula connected communities. The broader lesson is that ancient India contained many regional trajectories rather than a single uniform path.",
-      colour: "teal"
+      "id": "urbanisation",
+      "title": "🏙️ From the First Urbanisation to a New Urban Age",
+      "blocks": [
+        {
+          "type": "intro",
+          "title": "A New Phase of Indian History",
+          "text": "The story of early Indian cities did not end with the decline of the Harappan urban centres. After a long period in which village and rural life became more prominent, new towns and cities appeared in the first millennium BCE. This renewed urban growth is known as the Second Urbanisation."
+        },
+        {
+          "type": "timeline",
+          "title": "⏳ Big Historical Timeline",
+          "items": [
+            {
+              "year": "Earlier 3rd–2nd millennium BCE",
+              "text": "Harappan cities represent an earlier major phase of urbanisation in the subcontinent."
+            },
+            {
+              "year": "After the decline of Harappan cities",
+              "text": "Urban life reduced in many regions and rural settlements became prominent."
+            },
+            {
+              "year": "1st millennium BCE",
+              "text": "A renewed phase of urbanisation grew strongly in the Ganga plains and neighbouring regions."
+            },
+            {
+              "year": "8th–7th centuries BCE",
+              "text": "Several larger political units developed from earlier janapadas."
+            },
+            {
+              "year": "Later 1st millennium BCE",
+              "text": "Trade, political networks and urban centres became increasingly interconnected."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "title": "🖼️ Figure: Two Major Urban Phases",
+          "html": "<svg viewBox=\"0 0 900 430\" role=\"img\" aria-label=\"Conceptual comparison of first and second urbanisation\">\n          <defs><linearGradient id=\"u1\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#dbeafe\"/><stop offset=\"1\" stop-color=\"#ede9fe\"/></linearGradient><linearGradient id=\"u2\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#dcfce7\"/><stop offset=\"1\" stop-color=\"#fef3c7\"/></linearGradient></defs>\n          <rect x=\"25\" y=\"25\" width=\"400\" height=\"365\" rx=\"28\" fill=\"url(#u1)\"/><rect x=\"475\" y=\"25\" width=\"400\" height=\"365\" rx=\"28\" fill=\"url(#u2)\"/>\n          <text x=\"225\" y=\"70\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"800\" fill=\"#312e81\">First Urbanisation</text>\n          <text x=\"675\" y=\"70\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"800\" fill=\"#166534\">Second Urbanisation</text>\n          <g fill=\"#8b5e3c\"><rect x=\"85\" y=\"165\" width=\"90\" height=\"115\" rx=\"5\"/><rect x=\"205\" y=\"135\" width=\"110\" height=\"145\" rx=\"5\"/></g>\n          <g fill=\"#f59e0b\"><rect x=\"535\" y=\"175\" width=\"80\" height=\"105\" rx=\"5\"/><rect x=\"650\" y=\"140\" width=\"100\" height=\"140\" rx=\"5\"/><rect x=\"785\" y=\"180\" width=\"55\" height=\"100\" rx=\"5\"/></g>\n          <g stroke=\"#2563eb\" stroke-width=\"8\" fill=\"none\"><path d=\"M65 315 Q220 280 385 320\"/></g>\n          <g stroke=\"#16a34a\" stroke-width=\"8\" fill=\"none\"><path d=\"M510 315 Q675 250 850 315\"/></g>\n          <text x=\"225\" y=\"345\" text-anchor=\"middle\" font-size=\"18\" fill=\"#3730a3\">planned settlements • craft • trade</text>\n          <text x=\"675\" y=\"345\" text-anchor=\"middle\" font-size=\"18\" fill=\"#166534\">towns • states • markets • routes</text>\n          </svg>",
+          "caption": "A conceptual visual showing two broad phases of urban growth; it is not a map or to-scale reconstruction."
+        },
+        {
+          "type": "concept",
+          "title": "🔎 What made the new urban phase possible?",
+          "text": "Urban growth depended on several connected changes rather than one single cause. Productive agriculture could generate surplus; skilled craft workers produced goods; trade linked settlements; political centres attracted people and resources; and new technologies, including iron working, supported agriculture and other activities."
+        },
+        {
+          "type": "case_study",
+          "title": "🏺 Evidence: How do historians know?",
+          "text": "Historians combine different kinds of evidence. Archaeological excavations reveal settlement layers, buildings, pottery, tools, coins and other material remains. Literary traditions, including late Vedic, Buddhist and Jain texts, preserve references to cities, rulers, routes and communities. No single source tells the whole story, so historians compare evidence.",
+          "questions": [
+            {
+              "question": "Why is archaeology important for studying ancient cities?",
+              "answer": "It provides physical evidence of settlements, structures, objects and activities."
+            },
+            {
+              "question": "Why should historians compare different sources?",
+              "answer": "Different sources reveal different aspects of the past and can help test interpretations."
+            }
+          ]
+        }
+      ]
     },
     {
-      type: "figure",
-      title: "A Connected Subcontinent",
-      caption: "A schematic route map showing how regional centres could be connected by land and water routes.",
-      html: `<svg viewBox="0 0 900 520" style="width:100%;height:auto;display:block"><rect x="20" y="20" width="860" height="480" rx="34" fill="#edf8f7"/><path d="M130 90 Q220 60 310 110 T470 120 T650 85 T800 130" fill="none" stroke="#56b4df" stroke-width="22"/><path d="M130 400 Q230 320 340 380 T540 350 T780 410" fill="none" stroke="#8dcf78" stroke-width="90" opacity=".5"/><g fill="#fff" stroke="#37405a" stroke-width="5"><circle cx="175" cy="160" r="27"/><circle cx="410" cy="200" r="27"/><circle cx="650" cy="150" r="27"/><circle cx="300" cy="360" r="27"/><circle cx="560" cy="390" r="27"/><circle cx="760" cy="330" r="27"/></g><g stroke="#ef6b5a" stroke-width="8" stroke-dasharray="16 12" fill="none"><path d="M175 160L410 200L650 150"/><path d="M300 360L560 390L760 330"/><path d="M410 200L560 390"/></g><g font-family="Arial" font-size="18" font-weight="800" fill="#303448"><text x="175" y="166" text-anchor="middle">NW</text><text x="410" y="206" text-anchor="middle">GANGA</text><text x="650" y="156" text-anchor="middle">EAST</text><text x="300" y="366" text-anchor="middle">WEST</text><text x="560" y="396" text-anchor="middle">CENTRAL</text><text x="760" y="336" text-anchor="middle">SOUTH</text></g><text x="450" y="65" text-anchor="middle" fill="#303448" font-size="27" font-weight="900">ROUTES CONNECTED REGIONS</text><text x="450" y="465" text-anchor="middle" fill="#4e5568" font-size="20">The map is schematic, not to scale.</text></svg>`
-    },
-
-    {
-      type: "heading",
-      title: "Reading the Past: Sources and Historical Reasoning",
-      level: 2,
-      text: "A historian does not simply copy a statement from an old text. Archaeological evidence, inscriptions, coins, settlement remains, tools and literature can answer different questions. Comparing sources helps us identify what is well supported, what is uncertain and what may reflect the viewpoint of the source itself.",
-      colour: "blue"
-    },
-    {
-      type: "table",
-      title: "Source Toolkit",
-      rows: [
-        ["Source", "What it can reveal", "A historian should ask"],
-        ["Archaeological remains", "Settlement size, buildings, tools, pottery, fortifications", "Where was it found? What is its date and context?"],
-        ["Coins", "Exchange, symbols, political authority and economy", "Who issued it? Where was it found?"],
-        ["Inscriptions", "Names, titles, donations and public statements", "Who created the inscription and for what purpose?"],
-        ["Literature", "Ideas, places, rulers, social and religious life", "When was it composed and what viewpoint does it represent?"],
-        ["Maps / spatial evidence", "Connections among rivers, routes and settlements", "Are locations certain or reconstructed?" ]
-      ],
-      colour: "cyan"
-    },
-    {
-      type: "case_study",
-      title: "Case Study: Magadha",
-      text: "Magadha became one of the strongest mahājanapadas. Its position in the eastern Ganga region gave it access to fertile land, rivers and important routes. Rājagṛiha was an early capital, while Pāṭaliputra later became a major centre. The later rise of Magadha into a larger empire belongs to subsequent history, but its growth during the mahājanapada period shows how geography, resources, cities and political organisation could reinforce one another.",
-      questions: [
-        {question: "Name two geographical advantages that could support Magadha's growth.", answer: "Fertile agricultural land and access to rivers/routes; nearby resources also mattered."},
-        {question: "Why can historians not explain Magadha's rise using geography alone?", answer: "Political organisation, economic activity, military power and historical circumstances also mattered."}
-      ],
-      colour: "red"
-    },
-
-    {
-      type: "activity",
-      title: "Build a Mahājanapada City",
-      aim: "Use historical clues to design a settlement that could survive and grow.",
-      materials: ["Paper or digital drawing tool", "Labels", "Map of north India"],
-      steps: [
-        "Choose a location near a useful water source.",
-        "Mark fertile agricultural land and nearby resources.",
-        "Add a settlement, market and craft area.",
-        "Add a defensive wall, gates and a moat if appropriate.",
-        "Draw one or two trade routes and explain why they pass through your city.",
-        "Write three reasons why your location could support a growing population."
-      ],
-      observation: "A successful city needs more than buildings: food, water, movement, security and economic activity all matter.",
-      result: "Your map becomes a historical argument about why a settlement might grow.",
-      colour: "green"
-    },
-
-    {
-      type: "quiz",
-      title: "Quick Check",
-      questions: [
-        {question: "What is meant by the Second Urbanisation?", options: ["The decline of all villages", "A later phase of urban growth in the 1st millennium BCE", "The construction of only Harappan cities", "The end of trade"], answer: "A later phase of urban growth in the 1st millennium BCE"},
-        {question: "What was a janapada?", options: ["A settled territorial community", "A type of coin", "A metal tool", "A river"], answer: "A settled territorial community"},
-        {question: "What were larger political units called?", options: ["Jātis", "Mahājanapadas", "Moats", "Guilds"], answer: "Mahājanapadas"},
-        {question: "Which technology became especially important during this period?", options: ["Iron metallurgy", "Steam engines", "Printing presses", "Gunpowder"], answer: "Iron metallurgy"},
-        {question: "Why did historians use multiple sources?", options: ["Every source says exactly the same thing", "Different sources provide different kinds of evidence", "Archaeology is never useful", "Literature is always completely objective"], answer: "Different sources provide different kinds of evidence"},
-        {question: "Which statement about early collective traditions is safest?", options: ["They were exactly modern democracies", "They never used assemblies", "Some used assemblies or councils, but participation was not modern universal democracy", "They had no political organisation"], answer: "Some used assemblies or councils, but participation was not modern universal democracy"}
-      ],
-      colour: "purple"
-    },
-
-    {
-      type: "heading",
-      title: "Important Points",
-      level: 2,
-      text: "",
-      colour: "yellow"
+      "id": "janapadas",
+      "title": "🗺️ Janapadas: People, Territory and Political Organisation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Janapada — from community to territory",
+          "text": "As groups and clans became associated with particular territories, early territorial communities known as janapadas developed. The Sanskrit word is commonly explained through jana, meaning people or group, and pada, meaning foot or place of settlement."
+        },
+        {
+          "type": "figure",
+          "title": "🧭 Figure: How a Janapada Could Grow",
+          "html": "<svg viewBox=\"0 0 900 360\" aria-label=\"Janapada growth diagram\">\n          <defs><marker id=\"arr\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L0,6 L9,3 z\" fill=\"#7c3aed\"/></marker></defs>\n          <g font-family=\"Arial\" text-anchor=\"middle\">\n          <rect x=\"35\" y=\"125\" width=\"170\" height=\"90\" rx=\"22\" fill=\"#fce7f3\"/><text x=\"120\" y=\"160\" font-size=\"22\" font-weight=\"800\" fill=\"#9d174d\">Clan / Jana</text><text x=\"120\" y=\"190\" font-size=\"17\">shared identity</text>\n          <line x1=\"205\" y1=\"170\" x2=\"330\" y2=\"170\" stroke=\"#7c3aed\" stroke-width=\"5\" marker-end=\"url(#arr)\"/>\n          <rect x=\"330\" y=\"105\" width=\"210\" height=\"130\" rx=\"22\" fill=\"#ede9fe\"/><text x=\"435\" y=\"145\" font-size=\"22\" font-weight=\"800\" fill=\"#5b21b6\">Janapada</text><text x=\"435\" y=\"175\" font-size=\"17\">territory + people</text><text x=\"435\" y=\"202\" font-size=\"17\">political leadership</text>\n          <line x1=\"540\" y1=\"170\" x2=\"665\" y2=\"170\" stroke=\"#7c3aed\" stroke-width=\"5\" marker-end=\"url(#arr)\"/>\n          <rect x=\"665\" y=\"80\" width=\"200\" height=\"180\" rx=\"22\" fill=\"#dcfce7\"/><text x=\"765\" y=\"120\" font-size=\"22\" font-weight=\"800\" fill=\"#166534\">Growth</text><text x=\"765\" y=\"155\" font-size=\"17\">agriculture</text><text x=\"765\" y=\"182\" font-size=\"17\">trade</text><text x=\"765\" y=\"209\" font-size=\"17\">alliances / conflict</text><text x=\"765\" y=\"236\" font-size=\"17\">larger states</text>\n          </g></svg>",
+          "caption": "A conceptual model of how territorial political communities could become larger and more complex."
+        },
+        {
+          "type": "table",
+          "title": "Janapada: Core Features",
+          "rows": [
+            [
+              "Feature",
+              "What it tells us"
+            ],
+            [
+              "People / clan",
+              "A shared community identity was important."
+            ],
+            [
+              "Territory",
+              "Political organisation became tied to a particular area."
+            ],
+            [
+              "Raja / leadership",
+              "A ruler or political authority could lead the janapada."
+            ],
+            [
+              "Assembly",
+              "Councils and assemblies formed part of early political traditions."
+            ],
+            [
+              "Economy",
+              "Agriculture, craft production and exchange supported the community."
+            ]
+          ]
+        },
+        {
+          "type": "workedexample",
+          "title": "🧠 Think Like a Historian",
+          "question": "Why is a janapada more than just a group of people?",
+          "steps": [
+            "Look for a settled territory.",
+            "Identify the political leadership or organisation.",
+            "Consider the economic activities that support the territory.",
+            "Ask how the community interacts with neighbouring groups."
+          ],
+          "answer": "A janapada represents people organised in relation to a territory and a political system, not merely a temporary gathering."
+        }
+      ]
     },
     {
-      type: "keytakeaway",
-      title: "Remember These Connections",
-      items: [
-        "First Urbanisation → decline of the Harappan urban system.",
-        "1st millennium BCE → renewed urban growth in several regions.",
-        "Janapada → territory associated with a settled people or clan.",
-        "Mahājanapada → larger political unit formed as states expanded or merged.",
-        "Fertile land + iron technology + surplus + crafts + trade → conditions supporting urban growth.",
-        "Cities could become centres of administration, defence, trade and craft production.",
-        "Early political traditions included both kingdoms and collective gaṇa/saṅgha traditions.",
-        "Varṇa is a textual social framework; actual jāti and community life was more complex and regional.",
-        "Historians compare archaeology, literature, coins, inscriptions and spatial evidence."
-      ],
-      colour: "green"
+      "id": "mahajanapadas",
+      "title": "🏛️ Mahājanapadas: The Rise of Larger States",
+      "blocks": [
+        {
+          "type": "intro",
+          "title": "From Janapadas to Mahājanapadas",
+          "text": "As political communities expanded and became connected by trade and other networks, some grew into larger territorial states. These larger units are known as mahājanapadas. Ancient sources do not always give exactly the same list, but a commonly remembered tradition speaks of sixteen mahājanapadas."
+        },
+        {
+          "type": "table",
+          "title": "📋 The Commonly Listed Sixteen Mahājanapadas",
+          "rows": [
+            [
+              "Mahājanapada",
+              "Associated capital / centre"
+            ],
+            [
+              "Anga",
+              "Champa"
+            ],
+            [
+              "Magadha",
+              "Rajagriha; later Pataliputra"
+            ],
+            [
+              "Kashi",
+              "Varanasi"
+            ],
+            [
+              "Kosala",
+              "Shravasti"
+            ],
+            [
+              "Vajji",
+              "Vaishali"
+            ],
+            [
+              "Malla",
+              "Kushinara and Pava"
+            ],
+            [
+              "Chedi",
+              "Suktimati (traditional association)"
+            ],
+            [
+              "Vatsa",
+              "Kaushambi"
+            ],
+            [
+              "Kuru",
+              "Indraprastha (traditional association)"
+            ],
+            [
+              "Panchala",
+              "Ahichchhatra and Kampilya"
+            ],
+            [
+              "Matsya",
+              "Viratanagara (traditional association)"
+            ],
+            [
+              "Surasena",
+              "Mathura"
+            ],
+            [
+              "Assaka / Ashmaka",
+              "Region near the Godavari; capital traditions vary"
+            ],
+            [
+              "Avanti",
+              "Ujjayini; Mahishmati was another important centre"
+            ],
+            [
+              "Gandhara",
+              "Taxila"
+            ],
+            [
+              "Kamboja",
+              "North-western region; capital traditions vary"
+            ]
+          ]
+        },
+        {
+          "type": "map",
+          "title": "🗺️ Conceptual Map: Sixteen Mahājanapadas",
+          "html": "<svg viewBox=\"0 0 900 560\" aria-label=\"Conceptual map of major mahajanapadas\">\n          <rect x=\"30\" y=\"25\" width=\"840\" height=\"510\" rx=\"30\" fill=\"#fffaf0\" stroke=\"#c0841a\" stroke-width=\"5\"/>\n          <path d=\"M90 125 Q230 65 365 130 T650 110 T820 150\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"22\" opacity=\".8\"/>\n          <path d=\"M90 250 Q240 185 390 255 T680 225 T820 285\" fill=\"none\" stroke=\"#93c5fd\" stroke-width=\"18\"/>\n          <path d=\"M80 410 Q250 330 400 410 T690 370 T830 435\" fill=\"none\" stroke=\"#86efac\" stroke-width=\"34\" opacity=\".7\"/>\n          <g font-family=\"Arial\" font-size=\"18\" font-weight=\"800\" text-anchor=\"middle\">\n          <g fill=\"#f97316\"><circle cx=\"180\" cy=\"145\" r=\"22\"/><circle cx=\"280\" cy=\"195\" r=\"22\"/><circle cx=\"385\" cy=\"150\" r=\"22\"/><circle cx=\"485\" cy=\"205\" r=\"22\"/><circle cx=\"585\" cy=\"155\" r=\"22\"/><circle cx=\"700\" cy=\"200\" r=\"22\"/><circle cx=\"260\" cy=\"315\" r=\"22\"/><circle cx=\"390\" cy=\"290\" r=\"22\"/><circle cx=\"520\" cy=\"330\" r=\"22\"/><circle cx=\"650\" cy=\"305\" r=\"22\"/><circle cx=\"760\" cy=\"350\" r=\"22\"/></g>\n          <g fill=\"#1f2937\">\n          <text x=\"180\" y=\"150\">Gandhāra</text><text x=\"280\" y=\"200\">Kuru</text><text x=\"385\" y=\"155\">Panchala</text><text x=\"485\" y=\"210\">Kosala</text><text x=\"585\" y=\"160\">Vajji</text><text x=\"700\" y=\"205\">Anga</text>\n          <text x=\"260\" y=\"320\">Matsya</text><text x=\"390\" y=\"295\">Vatsa</text><text x=\"520\" y=\"335\">Magadha</text><text x=\"650\" y=\"310\">Avanti</text><text x=\"760\" y=\"355\">Assaka</text>\n          </g></g>\n          <text x=\"450\" y=\"490\" text-anchor=\"middle\" font-size=\"17\" fill=\"#4b5563\">Conceptual placement only — not a boundary-accurate historical map.</text>\n          </svg>",
+          "labels": [
+            "Gandhara",
+            "Kuru",
+            "Panchala",
+            "Kosala",
+            "Vajji",
+            "Anga",
+            "Matsya",
+            "Vatsa",
+            "Magadha",
+            "Avanti",
+            "Assaka"
+          ]
+        },
+        {
+          "type": "important",
+          "title": "⭐ Why the Mahājanapadas matter",
+          "text": "They represent a major stage in the development of territorial states, larger political networks and expanding urban centres during the first millennium BCE."
+        }
+      ]
     },
     {
-      type: "keyterms",
-      title: "Key Terms & Hard Words",
-      terms: [
-        {term: "Urbanisation", definition: "The growth and development of towns and cities."},
-        {term: "Second Urbanisation", definition: "The later major phase of urban growth in the 1st millennium BCE after the decline of the Harappan urban system."},
-        {term: "Janapada", definition: "A territory associated with a settled people or clan; literally connected with jana (people) and pada (foot/settlement)."},
-        {term: "Mahājanapada", definition: "A larger political unit that emerged as some early states expanded or merged."},
-        {term: "Rājā", definition: "A ruler or king in the political traditions of ancient India."},
-        {term: "Gaṇa / Saṅgha", definition: "A collective political tradition in which assemblies or councils could have an important role."},
-        {term: "Fortification", definition: "Defensive structures such as walls, ramparts and gates."},
-        {term: "Moat", definition: "A wide ditch around a fortified place, often containing water."},
-        {term: "Metallurgy", definition: "The knowledge and techniques used to extract, process and shape metals."},
-        {term: "Surplus", definition: "Production beyond immediate needs that can support trade, storage or specialised work."},
-        {term: "Archaeology", definition: "The study of past human life through material remains and their contexts."},
-        {term: "Inscription", definition: "Writing engraved or recorded on a durable surface such as stone or metal."},
-        {term: "Varṇa", definition: "A broad social classification described in ancient Indian texts."},
-        {term: "Jāti", definition: "A local or community-based social group; many different jāti existed across regions and periods."}
-      ],
-      colour: "cyan"
+      "id": "cities",
+      "title": "🏰 Cities, Fortifications and Urban Life",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Why were capitals fortified?",
+          "text": "Many important capitals had defensive walls, moats and carefully controlled gateways. Fortifications could protect inhabitants, political centres, stores and valuable goods, while narrow gateways made it easier to monitor movement."
+        },
+        {
+          "type": "figure",
+          "title": "🏰 Figure: Anatomy of a Fortified City",
+          "html": "<svg viewBox=\"0 0 900 500\" aria-label=\"Fortified ancient city illustration\">\n          <rect x=\"40\" y=\"40\" width=\"820\" height=\"420\" rx=\"35\" fill=\"#eef2ff\"/>\n          <path d=\"M70 365 Q450 420 830 365\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"45\"/>\n          <path d=\"M105 335 L105 165 L210 115 L315 165 L315 335 M585 335 L585 165 L690 115 L795 165 L795 335\" fill=\"#d1d5db\" stroke=\"#374151\" stroke-width=\"8\"/>\n          <rect x=\"320\" y=\"150\" width=\"265\" height=\"185\" fill=\"#fef3c7\" stroke=\"#92400e\" stroke-width=\"7\"/>\n          <rect x=\"430\" y=\"255\" width=\"45\" height=\"80\" fill=\"#92400e\"/>\n          <path d=\"M390 150 L450 90 L510 150\" fill=\"#b45309\"/>\n          <g fill=\"#ef4444\"><circle cx=\"130\" cy=\"105\" r=\"10\"/><circle cx=\"770\" cy=\"105\" r=\"10\"/></g>\n          <g font-family=\"Arial\" font-weight=\"800\" fill=\"#111827\">\n          <text x=\"450\" y=\"75\" text-anchor=\"middle\" font-size=\"25\">Fortified Capital</text>\n          <text x=\"450\" y=\"390\" text-anchor=\"middle\" font-size=\"19\">Moat / defensive ditch</text>\n          <text x=\"210\" y=\"145\" text-anchor=\"middle\" font-size=\"18\">Walls</text>\n          <text x=\"690\" y=\"145\" text-anchor=\"middle\" font-size=\"18\">Walls</text>\n          <text x=\"450\" y=\"210\" text-anchor=\"middle\" font-size=\"19\">Administrative &amp; urban centre</text>\n          <text x=\"450\" y=\"445\" text-anchor=\"middle\" font-size=\"17\" fill=\"#4b5563\">Conceptual reconstruction, not a site-specific archaeological drawing.</text>\n          </g></svg>",
+          "caption": "Large conceptual visual showing walls, moat, gateway and an urban centre."
+        },
+        {
+          "type": "comparetable",
+          "title": "🏙️ Village and Growing City",
+          "rows": [
+            [
+              "Feature",
+              "Village",
+              "Growing city"
+            ],
+            [
+              "Main activities",
+              "Farming and local crafts",
+              "Administration, trade, crafts and services"
+            ],
+            [
+              "Population",
+              "Generally smaller",
+              "More concentrated and diverse"
+            ],
+            [
+              "Markets",
+              "Often local",
+              "Larger and more connected"
+            ],
+            [
+              "Political role",
+              "Usually local",
+              "Could become a capital or administrative centre"
+            ],
+            [
+              "Infrastructure",
+              "Local paths and houses",
+              "Walls, roads, gateways, markets and public structures in some centres"
+            ]
+          ]
+        },
+        {
+          "type": "case_study",
+          "title": "🏛️ Magadha and Rajagriha",
+          "text": "Magadha became one of the most powerful mahajanapadas. Rajagriha (Rajgir) was an important early capital, and later Pataliputra became a major political centre. Its location, agricultural resources, access to river routes and connections with surrounding regions helped its rise.",
+          "questions": [
+            {
+              "question": "Name one early capital associated with Magadha.",
+              "answer": "Rajagriha (Rajgir)."
+            },
+            {
+              "question": "Why could location matter for a growing state?",
+              "answer": "Access to fertile land, water routes, resources and trade connections could strengthen agriculture, movement and political power."
+            }
+          ]
+        }
+      ]
     },
     {
-      type: "summary",
-      title: "Chapter Summary",
-      text: "India's First Urbanisation was associated with the Harappan civilisation. After its decline, large-scale urban life became much less prominent for a long period. During the 1st millennium BCE, a new phase of urbanisation developed in the Ganga plains, parts of the Indus basin and neighbouring regions. This Second Urbanisation was connected with the growth of janapadas and later mahājanapadas, expanding agriculture, iron technology, crafts, trade networks and political organisation. Cities became important centres of defence, administration and economic activity. Political life was diverse: kingdoms existed alongside collective gaṇa/saṅgha traditions. Social organisation was described through varṇa, while actual communities and jāti were more complex. Historians reconstruct this period by comparing archaeological and literary evidence, rather than relying on one source alone.",
-      colour: "purple"
+      "id": "governance",
+      "title": "⚖️ How Were These States Governed?",
+      "blocks": [
+        {
+          "type": "intro",
+          "title": "Monarchies and Collective Traditions",
+          "text": "Political organisation was not identical everywhere. Many mahajanapadas were monarchies in which a raja held central authority, often within hereditary traditions. Some communities followed gana-sangha traditions in which authority was exercised through a group or assembly."
+        },
+        {
+          "type": "compare",
+          "title": "👑 Monarchy and Gana-Sangha Traditions",
+          "rows": [
+            [
+              "Feature",
+              "Monarchical tradition",
+              "Gana-Sangha tradition"
+            ],
+            [
+              "Authority",
+              "Centred strongly on a ruler",
+              "Shared among a group of leaders or an assembly"
+            ],
+            [
+              "Succession",
+              "Often hereditary",
+              "Could involve selection or collective decision-making"
+            ],
+            [
+              "Decision-making",
+              "Ruler with advisers and councils",
+              "Greater role for assemblies and collective institutions"
+            ],
+            [
+              "Examples",
+              "Magadha, Kosala, Avanti",
+              "Vajji and Malla are commonly discussed examples"
+            ]
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "🏛️ Sabha and Samiti",
+          "text": "The words sabha and samiti occur in early Indian textual traditions. They are associated with assemblies or gatherings where important matters could be discussed. Their exact roles and membership changed across time and context, so historians avoid treating them as identical to a modern parliament."
+        },
+        {
+          "type": "workedexample",
+          "title": "🔍 Think Like a Historian: Was it democracy?",
+          "question": "Can we simply call every gana-sangha a modern democracy?",
+          "steps": [
+            "Identify who could participate in decision-making.",
+            "Ask whether the whole population had equal political rights.",
+            "Compare the institution with modern democratic principles.",
+            "Use the historical context rather than applying a modern label without qualification."
+          ],
+          "answer": "Gana-sangha traditions show important forms of collective political decision-making, but they should not automatically be treated as identical to modern universal democracy."
+        }
+      ]
     },
     {
-      type: "examtip",
-      title: "History Exam Booster",
-      text: "For long answers, avoid writing a list of names only. Build a chain: cause → change → evidence → consequence. For example, fertile land and improved tools could increase agricultural production; surplus could support crafts and trade; connected trade and administration could strengthen towns and states.",
-      colour: "orange"
+      "id": "innovations",
+      "title": "🔨 Technology, Agriculture, Crafts and Trade",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Iron and the Changing Economy",
+          "text": "Iron working became increasingly important during this broad period. Iron tools could be used for many purposes, including agriculture and craft production, while iron weapons also influenced warfare. Technology alone did not cause urbanisation; it worked together with agriculture, trade, political organisation and other changes."
+        },
+        {
+          "type": "figure",
+          "title": "🔨 Figure: Technology → Production → Exchange",
+          "html": "<svg viewBox=\"0 0 900 360\" aria-label=\"Technology and economic change diagram\">\n          <defs><marker id=\"a2\" markerWidth=\"12\" markerHeight=\"12\" refX=\"10\" refY=\"6\" orient=\"auto\"><path d=\"M0 0 L12 6 L0 12 z\" fill=\"#0f766e\"/></marker></defs>\n          <g font-family=\"Arial\" text-anchor=\"middle\">\n          <rect x=\"35\" y=\"105\" width=\"175\" height=\"120\" rx=\"25\" fill=\"#ccfbf1\"/><text x=\"122\" y=\"145\" font-size=\"24\" font-weight=\"800\" fill=\"#115e59\">Technology</text><text x=\"122\" y=\"178\" font-size=\"17\">iron tools</text><text x=\"122\" y=\"201\" font-size=\"17\">craft skills</text>\n          <line x1=\"210\" y1=\"165\" x2=\"330\" y2=\"165\" stroke=\"#0f766e\" stroke-width=\"6\" marker-end=\"url(#a2)\"/>\n          <rect x=\"330\" y=\"80\" width=\"225\" height=\"170\" rx=\"25\" fill=\"#dcfce7\"/><text x=\"442\" y=\"125\" font-size=\"24\" font-weight=\"800\" fill=\"#166534\">Production</text><text x=\"442\" y=\"160\" font-size=\"17\">agriculture</text><text x=\"442\" y=\"187\" font-size=\"17\">surplus</text><text x=\"442\" y=\"214\" font-size=\"17\">craft goods</text>\n          <line x1=\"555\" y1=\"165\" x2=\"675\" y2=\"165\" stroke=\"#0f766e\" stroke-width=\"6\" marker-end=\"url(#a2)\"/>\n          <rect x=\"675\" y=\"105\" width=\"190\" height=\"120\" rx=\"25\" fill=\"#fef3c7\"/><text x=\"770\" y=\"145\" font-size=\"24\" font-weight=\"800\" fill=\"#92400e\">Exchange</text><text x=\"770\" y=\"178\" font-size=\"17\">markets</text><text x=\"770\" y=\"201\" font-size=\"17\">trade routes</text>\n          </g></svg>",
+          "caption": "Economic change resulted from several connected processes."
+        },
+        {
+          "type": "concept",
+          "title": "🪙 Punch-Marked Coins",
+          "text": "Early Indian coin traditions include punch-marked coins, especially silver pieces bearing symbols made by punching marks into the metal. Coinage could make certain forms of exchange more convenient, especially within expanding trade networks."
+        },
+        {
+          "type": "activity",
+          "title": "🧪 Activity: Build an Economic Chain",
+          "aim": "Understand how different economic processes can reinforce one another.",
+          "materials": [
+            "Notebook",
+            "Pen"
+          ],
+          "procedure": [
+            "Start with fertile agricultural land.",
+            "Add improved tools and increased production.",
+            "Show how a surplus can support specialists.",
+            "Add craft production and markets.",
+            "Connect the market to a trade route and a growing town."
+          ],
+          "observation": "Urban growth is best understood as the result of interacting economic, technological, social and political processes.",
+          "conclusion": "No single invention explains the rise of cities."
+        }
+      ]
     },
     {
-      type: "questions",
-      title: "Think & Answer",
-      questions: [
-        {question: "Why is the term Second Urbanisation useful?", answer: "It identifies a later major phase of urban growth after the decline of the Harappan urban system."},
-        {question: "Explain two reasons why the Ganga plains supported the growth of mahājanapadas.", answer: "Fertile land supported agriculture, while access to resources, rivers and routes supported production and exchange."},
-        {question: "How could iron technology contribute to urban growth?", answer: "Iron tools could support productive agriculture and other work, helping create conditions for larger populations and specialised occupations."},
-        {question: "Why should early gaṇa/sangha traditions not simply be called modern democracies?", answer: "They could use collective decision-making, but participation and political rights were not equivalent to modern universal democracy."},
-        {question: "What makes an archaeological source useful?", answer: "It provides material evidence about past settlements, technologies, economies and practices when interpreted in context."}
-      ],
-      colour: "blue"
+      "id": "society",
+      "title": "👥 Society: Varṇa, Jāti and Everyday Diversity",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Varṇa and Jāti are not the same thing",
+          "text": "Ancient Indian textual traditions describe a four-part varṇa framework: Brahmana, Kshatriya, Vaishya and Shudra. Jāti refers to community-based social groupings that could be connected with occupation, region, kinship, customs and other identities. Historical society was more complex than a simple four-box diagram."
+        },
+        {
+          "type": "table",
+          "title": "📚 A Careful Comparison",
+          "rows": [
+            [
+              "Term",
+              "Broad meaning",
+              "Important caution"
+            ],
+            [
+              "Varṇa",
+              "Broad classification in textual traditions",
+              "Texts present an idealised framework; lived society could be more complex."
+            ],
+            [
+              "Jāti",
+              "Community-based social grouping",
+              "Many jātis existed and their identities varied across regions and periods."
+            ],
+            [
+              "Occupation",
+              "Work such as farming, craft, trade or specialised services",
+              "Occupation and social identity could overlap but were not identical everywhere."
+            ],
+            [
+              "Social hierarchy",
+              "Unequal status existed in many contexts",
+              "Historians study changes and regional variation rather than assuming one fixed system."
+            ]
+          ]
+        },
+        {
+          "type": "important",
+          "title": "⚠️ Historical Thinking",
+          "text": "Social categories described in texts should not automatically be treated as a complete description of every person's real life. Archaeology, literature and regional evidence together help historians understand diversity and change."
+        }
+      ]
+    },
+    {
+      "id": "regions",
+      "title": "🌏 Beyond the Ganga Plains: A Connected Subcontinent",
+      "blocks": [
+        {
+          "type": "intro",
+          "title": "Regional Developments",
+          "text": "The story of cities and states was not limited to one region. Political communities, trade routes and cultural traditions developed in many parts of the subcontinent. Kalinga and the Tamil regions are important examples of regional developments that formed part of a wider network."
+        },
+        {
+          "type": "figure",
+          "title": "🗺️ Figure: Routes Linking Regions",
+          "html": "<svg viewBox=\"0 0 900 470\" aria-label=\"Conceptual trade route network\">\n          <rect x=\"35\" y=\"35\" width=\"830\" height=\"400\" rx=\"35\" fill=\"#eff6ff\"/>\n          <path d=\"M125 145 Q300 90 465 175 T790 135\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"8\"/>\n          <path d=\"M175 330 Q335 240 500 315 T760 275\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"8\"/>\n          <path d=\"M465 175 Q450 240 500 315\" fill=\"none\" stroke=\"#f97316\" stroke-width=\"8\"/>\n          <g font-family=\"Arial\" text-anchor=\"middle\" font-weight=\"800\">\n          <circle cx=\"125\" cy=\"145\" r=\"24\" fill=\"#7c3aed\"/><text x=\"125\" y=\"110\" font-size=\"20\">North-west</text>\n          <circle cx=\"465\" cy=\"175\" r=\"24\" fill=\"#dc2626\"/><text x=\"465\" y=\"130\" font-size=\"20\">Ganga region</text>\n          <circle cx=\"790\" cy=\"135\" r=\"24\" fill=\"#eab308\"/><text x=\"790\" y=\"100\" font-size=\"20\">East</text>\n          <circle cx=\"175\" cy=\"330\" r=\"24\" fill=\"#0891b2\"/><text x=\"175\" y=\"375\" font-size=\"20\">West / Deccan</text>\n          <circle cx=\"500\" cy=\"315\" r=\"24\" fill=\"#16a34a\"/><text x=\"500\" y=\"365\" font-size=\"20\">Kalinga / east</text>\n          <circle cx=\"760\" cy=\"275\" r=\"24\" fill=\"#db2777\"/><text x=\"760\" y=\"320\" font-size=\"20\">Tamil regions</text>\n          </g>\n          <text x=\"450\" y=\"415\" text-anchor=\"middle\" font-size=\"16\" fill=\"#4b5563\">Conceptual network: routes carried people, goods, ideas and cultural practices.</text>\n          </svg>",
+          "caption": "A conceptual network rather than a boundary-accurate historical map."
+        },
+        {
+          "type": "concept",
+          "title": "🛣️ Uttarapatha and Dakshinapatha",
+          "text": "Ancient route traditions connected regions across the subcontinent. Northern and southern route networks were not just roads for goods; they also helped people, ideas, teachings and cultural practices travel."
+        },
+        {
+          "type": "comparetable",
+          "title": "🌴 Regional Examples",
+          "rows": [
+            [
+              "Region / tradition",
+              "What to remember"
+            ],
+            [
+              "Kalinga",
+              "Important eastern region with distinctive political and cultural development."
+            ],
+            [
+              "Cholas",
+              "One of the major Tamil political traditions of the south."
+            ],
+            [
+              "Cheras",
+              "Important Tamil-region political tradition associated with the western/south-western zone."
+            ],
+            [
+              "Pandyas",
+              "Important Tamil political tradition associated with the far south."
+            ],
+            [
+              "Trade routes",
+              "Connected different ecological, economic and cultural regions."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revision",
+      "title": "🧠 Connect the Chapter",
+      "blocks": [
+        {
+          "type": "mindmap",
+          "title": "🌐 Chapter Concept Web",
+          "text": "Second Urbanisation → towns and cities → janapadas → mahajanapadas → governance → agriculture + iron + crafts → trade + coins → social organisation → regional networks"
+        },
+        {
+          "type": "practice",
+          "title": "📝 Quick Practice",
+          "questions": [
+            {
+              "question": "What is meant by the Second Urbanisation?",
+              "answer": "The renewed phase of urban growth in the first millennium BCE after the earlier Harappan urban phase."
+            },
+            {
+              "question": "What was a janapada?",
+              "answer": "A territorial community or early state associated with a settled group or clan."
+            },
+            {
+              "question": "What were mahajanapadas?",
+              "answer": "Larger territorial states that developed as some janapadas grew and consolidated."
+            },
+            {
+              "question": "Name two examples of gana-sangha traditions.",
+              "answer": "Vajji and Malla are commonly discussed examples."
+            },
+            {
+              "question": "Why were fortified capitals important?",
+              "answer": "Fortifications helped defend important settlements and control movement."
+            },
+            {
+              "question": "What are punch-marked coins?",
+              "answer": "Early coin types bearing punched symbols on metal, especially silver."
+            }
+          ]
+        },
+        {
+          "type": "mcq",
+          "title": "🎯 Exam Check",
+          "questions": [
+            {
+              "question": "Which development is most closely associated with the Second Urbanisation?",
+              "options": [
+                "Renewed growth of towns and cities",
+                "End of all trade",
+                "Complete disappearance of agriculture",
+                "Only village settlement"
+              ],
+              "answer": "Renewed growth of towns and cities"
+            },
+            {
+              "question": "Which pair is correctly associated?",
+              "options": [
+                "Magadha — Rajagriha",
+                "Vajji — Rome",
+                "Gandhara — Madurai",
+                "Kosala — Pataliputra"
+              ],
+              "answer": "Magadha — Rajagriha"
+            },
+            {
+              "question": "What was a major purpose of a moat?",
+              "options": [
+                "Decoration",
+                "Defence",
+                "Farming",
+                "Writing"
+              ],
+              "answer": "Defence"
+            },
+            {
+              "question": "Which is an early coin tradition?",
+              "options": [
+                "Punch-marked coins",
+                "Paper currency",
+                "Modern banknotes",
+                "Plastic cards"
+              ],
+              "answer": "Punch-marked coins"
+            }
+          ]
+        },
+        {
+          "type": "examtip",
+          "title": "🎯 History Exam Booster",
+          "text": "For long answers, connect causes rather than listing isolated facts. A strong answer can link agricultural surplus, craft production, trade, technology, political organisation and urban growth. For map questions, learn the relative regions of major mahajanapadas rather than memorising an unexplained list."
+        }
+      ]
     }
-  ],
-
-  importantPoints: [
-    "The First Urbanisation is associated with the Harappan/Sindhu-Sarasvatī civilisation.",
-    "The Second Urbanisation developed in the 1st millennium BCE in several regions.",
-    "Janapadas were territorial communities; mahājanapadas were larger political units.",
-    "Magadha, Kosala, Vatsa and Avanti were among the powerful mahājanapadas.",
-    "Fertile land, iron technology, agriculture, crafts and trade all supported urban growth.",
-    "Fortified capitals could include walls, gates and moats.",
-    "Early India had more than one political tradition, including kingdoms and gaṇa/saṅgha communities.",
-    "Varṇa and jāti should be understood historically and not treated as identical concepts.",
-    "Historians compare archaeological and literary evidence to reconstruct the past."
-  ],
-
-  keyTerms: [
-    {term: "Second Urbanisation", definition: "A later phase of major urban growth in the 1st millennium BCE."},
-    {term: "Janapada", definition: "A territory associated with a settled people or clan."},
-    {term: "Mahājanapada", definition: "A larger territorial political unit formed as states expanded or merged."},
-    {term: "Moat", definition: "A ditch around a fortified place, often filled with water."},
-    {term: "Metallurgy", definition: "Techniques for extracting, processing and shaping metals."},
-    {term: "Surplus", definition: "Production beyond immediate needs."},
-    {term: "Gaṇa / Saṅgha", definition: "A collective political tradition involving assemblies or councils."},
-    {term: "Varṇa", definition: "A broad social classification described in ancient texts."},
-    {term: "Jāti", definition: "A community-based social group whose forms varied by region and period."},
-    {term: "Archaeology", definition: "Study of the human past through material remains."}
-  ],
-
-  chapterSummary: "The chapter explains how new urban centres and territorial states emerged after the decline of the Harappan urban system. The Second Urbanisation, janapadas, mahājanapadas, iron technology, agriculture, trade, political traditions and social organisation were interconnected developments. The period is best understood through multiple kinds of historical evidence.",
-
-  glossary: [
-    {term: "Urban centre", definition: "A settlement with concentrated population, economic activity and institutions."},
-    {term: "Capital", definition: "A principal political centre of a kingdom or state."},
-    {term: "Fortification", definition: "A defensive wall or structure built to protect a settlement."},
-    {term: "Assembly", definition: "A gathering in which members discuss or decide matters."},
-    {term: "Trade network", definition: "Connected routes and exchanges through which goods and people move."}
-  ],
-
-  quiz: [
-    {question: "The Second Urbanisation refers to:", options: ["A later phase of urban growth", "The end of agriculture", "Only Harappan cities", "The disappearance of trade"], answer: "A later phase of urban growth"},
-    {question: "A janapada was mainly associated with:", options: ["A settled territory", "A coin", "A metal", "A religious text"], answer: "A settled territory"},
-    {question: "Which was a mahājanapada?", options: ["Magadha", "Mohenjo-daro", "Nalanda", "Delhi Sultanate"], answer: "Magadha"},
-    {question: "Which technology became especially important for this period?", options: ["Iron metallurgy", "Steam power", "Electricity", "Printing"], answer: "Iron metallurgy"},
-    {question: "Why do historians compare sources?", options: ["To test and strengthen interpretations", "Because sources are always identical", "Because archaeology is useless", "Because literature has no viewpoint"], answer: "To test and strengthen interpretations"}
   ]
 };
