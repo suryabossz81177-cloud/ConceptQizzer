@@ -1,4 +1,4 @@
-const ChapterData = {
+window.ChapterData = {
   id: "7-history-new-beginnings-cities-and-states",
   class: 7,
   subject: "History",
