@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-history-the-gupta-era-an-age-of-tireless-creativity",
+  class: 7,
+  subject: "History",
+  chapter: 7,
+  title: "The Gupta Era: An Age of Tireless Creativity",
+  file: "js/notes/class7/history/the-gupta-era-an-age-of-tireless-creativity.js",
+},
+  
+  {
   id: "7-history-the-age-of-reorganisation",
   class: 7,
   subject: "History",
