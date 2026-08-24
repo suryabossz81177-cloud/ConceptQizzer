@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-history-from-pilgrimage-to-trades-beyond-india",
+  class: 7,
+  subject: "History",
+  chapter: 9,
+  title: "From Pilgrimage to Trades, Beyond India",
+  file: "js/notes/class7/history/from-pilgrimage-to-trades-beyond-india.js",
+},
+  
+  {
   id: "7-history-how-land-became-sacred",
   class: 7,
   subject: "History",
