@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-mathematics-direct-and-inverse-proportions",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 13,
+  title: "Direct and Inverse Proportions",
+  file: "js/notes/class8/mathematics/direct-and-inverse-proportions.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-exponents-and-powers",
   class: 8,
   subject: "Mathematics",
