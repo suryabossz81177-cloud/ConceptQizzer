@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class7-civics-from-barter-to-money",
+  class: 7,
+  subject: "Civics",
+  chapterNumber: 3,
+  title: "From Barter to Money",
+  file: "js/notes/class7/civics/from-barter-to-money.js",
+  enabled: true
+},
+  
+  {
   id: "class7-civics-the-constitution-of-india",
   class: 7,
   subject: "Civics",
