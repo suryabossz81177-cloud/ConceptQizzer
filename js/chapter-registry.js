@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-comparing-quantities",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 8,
+  title: "Comparing Quantities",
+  file: "js/notes/class8/mathematics/comparing-quantities.js",
+  enabled: true
+},
+  
+  {
   id: "class8-mathematics-cubes-and-cube-roots",
   class: 8,
   subject: "Mathematics",
