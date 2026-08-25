@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-cubes-and-cube-roots",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 7,
+  title: "Cubes and Cube Roots",
+  file: "js/notes/class8/mathematics/cubes-and-cube-roots.js",
+  enabled: true
+},
+  
+  {
   id: "class8-mathematics-squares-and-square-roots",
   class: 8,
   subject: "Mathematics",
