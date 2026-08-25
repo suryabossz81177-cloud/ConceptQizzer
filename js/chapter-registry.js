@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-civics-from-rulers-to-ruled-types-of-government",
+  class: 7,
+  subject: "Civics",
+  chapter: 1,
+  title: "From the Rulers to the Ruled: Types of Government",
+  file: "js/notes/class7/civics/from-rulers-to-ruled-types-of-government.js",
+},
+  
+  {
   id: "7-geography-climates-of-india",
   class: 7,
   subject: "Geography",
