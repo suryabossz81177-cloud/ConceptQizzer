@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+{
+  id: "7-geography-understanding-the-weather",
+  class: 7,
+  subject: "Geography",
+  chapter: 2,
+  title: "Understanding the Weather",
+  file: "js/notes/class7/geography/understanding-the-weather.js",
+},
+  
   {
   id: "7-geography-geographical-diversity-of-india",
   class: 7,
