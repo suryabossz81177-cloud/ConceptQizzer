@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-mathematics-factorisation",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 14,
+  title: "Factorisation",
+  file: "js/notes/class8/mathematics/factorisation.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-direct-and-inverse-proportions",
   class: 8,
   subject: "Mathematics",
