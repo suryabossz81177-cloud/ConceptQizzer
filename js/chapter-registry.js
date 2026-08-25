@@ -7,7 +7,7 @@
 
 window.ChapterRegistry = [
   {
-  id: "class8-mathematics-comparing-quantities",
+  id: "8-mathematics-comparing-quantities",
   class: 8,
   subject: "Mathematics",
   chapterNumber: 8,
