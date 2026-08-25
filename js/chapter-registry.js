@@ -6,7 +6,7 @@
 ==================================================*/
 
 window.ChapterRegistry = [
-  {
+{
   id: "7-civics-from-rulers-to-ruled-types-of-government",
   class: 7,
   subject: "Civics",
