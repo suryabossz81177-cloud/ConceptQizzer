@@ -1,9 +1,14 @@
 /*==================================================
   CONCEPT QUIZZER
-  UNIVERSAL NOTES ENGINE — COMIC SAFE V2
-  IMPORTANT:
-  Comic dialogue is NEVER joined into one paragraph.
-  Each character gets its own separate DOM row.
+  UNIVERSAL NOTES ENGINE — COMIC ONE-BLOCK V3
+
+  Comic format:
+  • One complete comic = ONE block/card
+  • Character name is shown INLINE with dialogue
+  • No "Character" label
+  • No "Dialogue" label
+  • No separate Character/Dialogue cards
+  • Every speaker still gets a NEW LINE
 ==================================================*/
 
 (function () {
@@ -15,17 +20,17 @@
     return document.getElementById(id);
   }
 
-  function safeText(value) {
+  function text(value) {
     return value == null ? "" : String(value);
   }
 
   function renderComic(block) {
-    const wrap = document.createElement("article");
-    wrap.className = "cq-comic-story";
-    wrap.setAttribute("data-render-as", "comic");
+    const story = document.createElement("article");
+    story.className = "cq-comic-story cq-comic-one-block";
+    story.setAttribute("data-render-as", "comic");
 
-    const head = document.createElement("div");
-    head.className = "cq-comic-header";
+    const header = document.createElement("div");
+    header.className = "cq-comic-header";
 
     const badge = document.createElement("div");
     badge.className = "cq-comic-badge";
@@ -33,41 +38,44 @@
 
     const title = document.createElement("h3");
     title.className = "cq-comic-title";
-    title.textContent = safeText(block.title || "Comic Story");
+    title.textContent = text(block.title || "Comic Story");
 
-    head.appendChild(badge);
-    head.appendChild(title);
-    wrap.appendChild(head);
+    header.appendChild(badge);
+    header.appendChild(title);
+    story.appendChild(header);
 
-    const stage = document.createElement("div");
-    stage.className = "cq-comic-stage";
+    const dialogueBox = document.createElement("div");
+    dialogueBox.className = "cq-comic-dialogues";
 
     const dialogues = Array.isArray(block.dialogues) ? block.dialogues : [];
 
     dialogues.forEach(function (item, index) {
-      const row = document.createElement("div");
-      row.className = "cq-dialogue-row";
-      row.dataset.dialogueIndex = index;
+      const line = document.createElement("div");
+      line.className = "cq-comic-line";
+      line.dataset.dialogueIndex = index;
 
-      const character = document.createElement("div");
-      character.className = "cq-character-name";
-      character.textContent = safeText(item.character || "Character");
+      // Name and dialogue are intentionally in the SAME visual block.
+      // There are no labels such as "Character" or "Dialogue".
+      const name = document.createElement("span");
+      name.className = "cq-speaker";
+      name.textContent = text(item.character || "Character") + ":";
 
-      const bubble = document.createElement("div");
-      bubble.className = "cq-dialogue-bubble";
-      bubble.textContent = safeText(item.dialogue || "");
+      const speech = document.createElement("span");
+      speech.className = "cq-speech";
+      speech.textContent = text(item.dialogue || "");
 
-      row.appendChild(character);
-      row.appendChild(bubble);
-      stage.appendChild(row);
+      line.appendChild(name);
+      line.appendChild(speech);
+      dialogueBox.appendChild(line);
     });
 
-    wrap.appendChild(stage);
-    return wrap;
+    story.appendChild(dialogueBox);
+    return story;
   }
 
   function renderBlock(block) {
-    // CRITICAL: comic gets its own renderer and exits here.
+    // Comic has a dedicated renderer. It must NEVER fall through
+    // to a generic object renderer.
     if (block && block.type === "comic") {
       return renderComic(block);
     }
@@ -77,15 +85,15 @@
 
     if (!block) return el;
 
-    const title = block.title ? document.createElement("h4") : null;
-    if (title) {
-      title.textContent = safeText(block.title);
-      el.appendChild(title);
+    if (block.title) {
+      const h4 = document.createElement("h4");
+      h4.textContent = text(block.title);
+      el.appendChild(h4);
     }
 
     if (block.text) {
       const p = document.createElement("p");
-      p.textContent = safeText(block.text);
+      p.textContent = text(block.text);
       el.appendChild(p);
     }
 
@@ -93,26 +101,27 @@
   }
 
   function injectComicStyles() {
-    if (document.getElementById("cq-comic-safe-styles")) return;
+    if (document.getElementById("cq-comic-one-block-styles")) return;
 
     const style = document.createElement("style");
-    style.id = "cq-comic-safe-styles";
+    style.id = "cq-comic-one-block-styles";
     style.textContent = `
-      .cq-comic-story{
+      .cq-comic-one-block{
         margin:24px 0;
-        padding:0;
         overflow:hidden;
         border-radius:28px;
-        background:linear-gradient(180deg,#fff,#f4f1ff);
-        border:2px solid rgba(88,67,220,.18);
+        background:linear-gradient(180deg,#ffffff 0%,#f7f4ff 100%);
+        border:2px solid rgba(88,67,220,.16);
         box-shadow:0 12px 30px rgba(35,28,90,.10);
       }
-      .cq-comic-header{
+
+      .cq-comic-one-block .cq-comic-header{
         padding:22px 22px 18px;
         background:linear-gradient(135deg,#5b45e8,#744ee8);
         color:#fff;
       }
-      .cq-comic-badge{
+
+      .cq-comic-one-block .cq-comic-badge{
         display:inline-block;
         padding:7px 12px;
         margin-bottom:10px;
@@ -120,54 +129,63 @@
         background:rgba(255,255,255,.18);
         font-weight:800;
         font-size:13px;
-        letter-spacing:.5px;
+        letter-spacing:.4px;
       }
-      .cq-comic-title{
+
+      .cq-comic-one-block .cq-comic-title{
         margin:0;
         font-size:25px;
-        line-height:1.2;
+        line-height:1.25;
         font-weight:900;
       }
-      .cq-comic-stage{
-        padding:20px 16px 24px;
+
+      .cq-comic-one-block .cq-comic-dialogues{
+        padding:22px 20px 26px;
       }
-      .cq-dialogue-row{
-        display:flex;
-        flex-direction:column;
-        gap:7px;
-        margin:0 0 18px;
-      }
-      .cq-character-name{
-        align-self:flex-start;
-        padding:7px 13px;
-        border-radius:999px;
-        background:#ebe6ff;
-        color:#4d39b8;
-        font-weight:900;
-        font-size:15px;
-      }
-      .cq-dialogue-bubble{
-        width:100%;
-        box-sizing:border-box;
-        padding:15px 17px;
-        border-radius:18px;
-        background:#fff;
-        border:1px solid #e3def8;
-        color:#22283a;
+
+      /* ONE dialogue line = ONE visual block.
+         Speaker and speech live together. */
+      .cq-comic-one-block .cq-comic-line{
+        display:block;
+        margin:0;
+        padding:15px 16px;
+        border-bottom:1px solid rgba(88,67,220,.12);
         font-size:17px;
         line-height:1.65;
-        box-shadow:0 5px 14px rgba(40,35,80,.07);
+        color:#252a3a;
       }
-      .cq-dialogue-row:nth-child(even) .cq-character-name{
-        align-self:flex-end;
-        background:#e6f7ef;
-        color:#16734b;
+
+      .cq-comic-one-block .cq-comic-line:last-child{
+        border-bottom:0;
       }
-      .cq-dialogue-row:nth-child(even) .cq-dialogue-bubble{
-        background:#f9fffc;
+
+      .cq-comic-one-block .cq-speaker{
+        font-weight:900;
+        color:#503bc4;
+        margin-right:7px;
       }
-      .cq-content-block h4{margin:0 0 8px;}
-      .cq-content-block p{line-height:1.65;}
+
+      .cq-comic-one-block .cq-speech{
+        font-weight:500;
+      }
+
+      .cq-comic-one-block .cq-comic-line:nth-child(even){
+        background:rgba(102,76,232,.035);
+        border-radius:14px;
+      }
+
+      @media (max-width:600px){
+        .cq-comic-one-block .cq-comic-header{
+          padding:20px 18px 16px;
+        }
+        .cq-comic-one-block .cq-comic-dialogues{
+          padding:16px 12px 20px;
+        }
+        .cq-comic-one-block .cq-comic-line{
+          padding:14px 12px;
+          font-size:16px;
+        }
+      }
     `;
     document.head.appendChild(style);
   }
@@ -200,26 +218,27 @@
 
         if (section.title) {
           const h3 = document.createElement("h3");
-          h3.textContent = safeText(section.title);
+          h3.textContent = text(section.title);
           card.appendChild(h3);
         }
 
         (section.blocks || []).forEach(function(block) {
-          // Every block is rendered independently.
           card.appendChild(renderBlock(block));
         });
 
         if (section.content) {
           const p = document.createElement("p");
-          p.textContent = safeText(section.content);
+          p.textContent = text(section.content);
           card.appendChild(p);
         }
 
         notes.appendChild(card);
 
         card.addEventListener("click", function () {
-          const chapterId = chapter.id || "unknown";
-          localStorage.setItem("cq-last-read-" + chapterId, index);
+          localStorage.setItem(
+            "cq-last-read-" + (chapter.id || "unknown"),
+            index
+          );
         });
       });
     }
@@ -228,7 +247,7 @@
       important.innerHTML = "";
       (chapter.importantPoints || []).forEach(function(point) {
         const item = document.createElement("li");
-        item.textContent = safeText(point);
+        item.textContent = text(point);
         important.appendChild(item);
       });
     }
@@ -236,22 +255,23 @@
     if (terms) {
       terms.innerHTML = "";
       const termsData = chapter.keyTerms || {};
+
       if (Array.isArray(termsData)) {
         termsData.forEach(function(term) {
           const chip = document.createElement("span");
-          chip.textContent = safeText(term);
+          chip.textContent = text(term);
           terms.appendChild(chip);
         });
       } else {
         Object.keys(termsData).forEach(function(term) {
           const chip = document.createElement("span");
-          chip.textContent = term + ": " + termsData[term];
+          chip.textContent = term + ": " + text(termsData[term]);
           terms.appendChild(chip);
         });
       }
     }
 
-    console.log("Universal Notes Engine V2 loaded:", chapter.title);
+    console.log("Universal Notes Engine V3 loaded:", chapter.title);
   }
 
   window.addEventListener("cq:chapter-loaded", function(event) {
