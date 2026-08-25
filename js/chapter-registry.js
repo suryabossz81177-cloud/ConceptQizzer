@@ -7,6 +7,15 @@
 
 window.ChapterRegistry = [
   {
+  id: "7-geography-geographical-diversity-of-india",
+  class: 7,
+  subject: "Geography",
+  chapter: 1,
+  title: "Geographical Diversity of India",
+  file: "js/notes/class7/geography/geographical-diversity-of-india.js",
+},
+  
+  {
   id: "7-history-from-pilgrimage-to-trades-beyond-india",
   class: 7,
   subject: "History",
