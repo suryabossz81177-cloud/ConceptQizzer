@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-mathematics-visualising-solid-shapes",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 10,
+  title: "Visualising Solid Shapes",
+  file: "js/notes/class8/mathematics/visualising-solid-shapes.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-algebraic-expressions-and-identities",
   class: 8,
   subject: "Mathematics",
