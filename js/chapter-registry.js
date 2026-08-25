@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-data-handling",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 5,
+  title: "Data Handling",
+  file: "js/notes/class8/mathematics/data-handling.js",
+  enabled: true
+},
+  
+  {
   id: "class8-mathematics-practical-geometry",
   class: 8,
   subject: "Mathematics",
