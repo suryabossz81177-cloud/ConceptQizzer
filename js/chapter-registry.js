@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-understanding-quadrilaterals",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 3,
+  title: "Understanding Quadrilaterals",
+  file: "js/notes/class8/mathematics/understanding-quadrilaterals.js",
+  enabled: true
+},
+  
+  {
   id: "class8-mathematics-linear-equations-in-one-variable",
   class: 8,
   subject: "Mathematics",
