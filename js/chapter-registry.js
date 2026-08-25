@@ -6,6 +6,15 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "7-geography-climates-of-india",
+  class: 7,
+  subject: "Geography",
+  chapter: 3,
+  title: "Climates of India",
+  file: "js/notes/class7/geography/climates-of-india.js",
+},
+  
 {
   id: "7-geography-understanding-the-weather",
   class: 7,
