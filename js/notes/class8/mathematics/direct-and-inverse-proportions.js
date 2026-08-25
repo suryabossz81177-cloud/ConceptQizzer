@@ -1,5 +1,5 @@
 window.ChapterData = {
-  "id": "class8-mathematics-direct-and-inverse-proportions",
+  "id": "8-mathematics-direct-and-inverse-proportions",
   "class": 8,
   "subject": "Mathematics",
   "chapterNumber": 13,
