@@ -2727,3 +2727,462 @@ document.addEventListener("DOMContentLoaded", function () {
     document.dispatchEvent(new Event("cq-ai-ready"));
   }
 });
+
+
+/* ==========================================================
+   CLASS 8 MATHEMATICS — UNIVERSAL EXTENSION
+   Appended to the existing Notes Logic.
+   IMPORTANT: The original renderer above is preserved.
+   ========================================================== */
+(function () {
+  "use strict";
+
+  /*
+    Maths chapters can use these additional block types:
+      solvedExample / workedExample
+      formula / property / theorem
+      mathFigure / mathDiagram / numberLine / geometryFigure
+      mathTable
+      mathStory
+      think
+      commonMistake
+      challenge
+
+    Existing block types continue to work normally.
+    Figures are rendered ONLY when actual figure data exists.
+  */
+
+  window.CQ_MATHS_EXTENSION = true;
+
+  function mEsc(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function mText(value) {
+    return String(value ?? "").replace(/\n/g, "<br>");
+  }
+
+  function mTitle(block, fallback) {
+    return mEsc(block?.title || block?.heading || fallback);
+  }
+
+  function mFigure(block) {
+    if (!block) return "";
+
+    const svg = block.svg || block.figureSvg;
+    const image = block.image || block.src || block.url;
+
+    if (svg) {
+      return `
+        <figure class="cqMathFigure">
+          <div class="cqMathSvg">${svg}</div>
+          ${block.caption ? `<figcaption>${mText(block.caption)}</figcaption>` : ""}
+        </figure>`;
+    }
+
+    if (image) {
+      return `
+        <figure class="cqMathFigure">
+          <img src="${mEsc(image)}"
+               alt="${mEsc(block.alt || block.caption || "Mathematical figure")}"
+               loading="lazy">
+          ${block.caption ? `<figcaption>${mText(block.caption)}</figcaption>` : ""}
+        </figure>`;
+    }
+
+    /* Optional native SVG description for simple mathematical figures. */
+    if (block.shape === "rectangle") {
+      const w = Number(block.width || 240);
+      const h = Number(block.height || 140);
+      return `
+        <figure class="cqMathFigure">
+          <svg viewBox="0 0 320 220" role="img"
+               aria-label="${mEsc(block.caption || "Rectangle")}" class="cqNativeFigure">
+            <rect x="40" y="40" width="${Math.min(w,240)}"
+                  height="${Math.min(h,140)}"
+                  fill="none" stroke="currentColor" stroke-width="4"/>
+          </svg>
+          ${block.caption ? `<figcaption>${mText(block.caption)}</figcaption>` : ""}
+        </figure>`;
+    }
+
+    /* No figure data = no figure. */
+    return "";
+  }
+
+  function mSteps(steps) {
+    if (!Array.isArray(steps) || !steps.length) return "";
+    return `
+      <div class="cqMathSteps">
+        <h5>📝 Step-by-step solution</h5>
+        <ol>
+          ${steps.map(step => {
+            if (step && typeof step === "object") {
+              return `<li>
+                ${step.title ? `<b>${mEsc(step.title)}</b><br>` : ""}
+                ${mText(step.text ?? step.content ?? step.value ?? "")}
+              </li>`;
+            }
+            return `<li>${mText(step)}</li>`;
+          }).join("")}
+        </ol>
+      </div>`;
+  }
+
+  function mBlock(block) {
+    if (!block || typeof block !== "object") return null;
+
+    const type = String(block.type || block.kind || "")
+      .toLowerCase()
+      .replace(/[\s_-]/g, "");
+
+    if (["solvedexample","workedexample","detailexample"].includes(type)) {
+      const steps = block.steps || block.solution || [];
+      return `
+        <div class="cqBlock cqMathSolvedExample">
+          <div class="cqBadge">🧮 Solved Example</div>
+          <h4>${mTitle(block, "Solved Example")}</h4>
+
+          ${block.question
+            ? `<div class="cqMathQuestion">
+                 <b>❓ Question</b>
+                 <div>${mText(block.question)}</div>
+               </div>` : ""}
+
+          ${block.given
+            ? `<div class="cqMathGiven">
+                 <b>📌 Given</b>
+                 <div>${mText(block.given)}</div>
+               </div>` : ""}
+
+          ${block.concept
+            ? `<div class="cqMathWhy">
+                 <b>💡 Method / Concept</b>
+                 <div>${mText(block.concept)}</div>
+               </div>` : ""}
+
+          ${block.formula
+            ? `<div class="cqMathFormulaDisplay">${mText(block.formula)}</div>` : ""}
+
+          ${mSteps(steps)}
+
+          ${block.answer !== undefined
+            ? `<div class="cqMathAnswer">
+                 <b>✅ Final Answer</b>
+                 <div>${mText(block.answer)}</div>
+               </div>` : ""}
+
+          ${block.check
+            ? `<div class="cqMathCheck">
+                 <b>🔎 Check</b>
+                 <div>${mText(block.check)}</div>
+               </div>` : ""}
+
+          ${mFigure(block)}
+        </div>`;
+    }
+
+    if (["formula","property","theorem","identity","rule"].includes(type)) {
+      return `
+        <div class="cqBlock cqMathFormulaCard">
+          <div class="cqBadge">📐 ${type === "formula" ? "Formula" : "Rule / Property"}</div>
+          <h4>${mTitle(block, "Important Rule")}</h4>
+          ${block.text || block.explanation
+            ? `<p>${mText(block.text || block.explanation)}</p>` : ""}
+          ${block.formula
+            ? `<div class="cqMathFormulaDisplay">${mText(block.formula)}</div>` : ""}
+          ${mFigure(block)}
+        </div>`;
+    }
+
+    if (["mathfigure","mathdiagram","numberline","geometryfigure","construction"].includes(type)) {
+      return `
+        <div class="cqBlock cqMathVisual">
+          <div class="cqBadge">📐 Mathematical Figure</div>
+          <h4>${mTitle(block, "Figure")}</h4>
+          ${block.text ? `<p>${mText(block.text)}</p>` : ""}
+          ${mFigure(block)}
+        </div>`;
+    }
+
+    if (type === "mathtable") {
+      const rows = Array.isArray(block.rows) ? block.rows : [];
+      return `
+        <div class="cqBlock cqMathTable">
+          <h4>📊 ${mTitle(block, "Mathematical Table")}</h4>
+          <div class="cqTableScroll">
+            <table>
+              <tbody>
+                ${rows.map((row, r) => `
+                  <tr>
+                    ${(Array.isArray(row) ? row : [row]).map(cell =>
+                      r === 0
+                        ? `<th>${mText(cell)}</th>`
+                        : `<td>${mText(cell)}</td>`
+                    ).join("")}
+                  </tr>`).join("")}
+              </tbody>
+            </table>
+          </div>
+        </div>`;
+    }
+
+    if (type === "think" || type === "thinkandunderstand" || type === "reasoning") {
+      return `
+        <div class="cqBlock cqMathThink">
+          <div class="cqBadge">🧠 Think & Understand</div>
+          <h4>${mTitle(block, "Think About It")}</h4>
+          ${block.text || block.question
+            ? `<p>${mText(block.text || block.question)}</p>` : ""}
+          ${Array.isArray(block.questions)
+            ? `<ol>${block.questions.map(q => `<li>${mText(q)}</li>`).join("")}</ol>` : ""}
+          ${block.answer
+            ? `<details><summary>Show thinking</summary><p>${mText(block.answer)}</p></details>` : ""}
+        </div>`;
+    }
+
+    if (type === "commonmistake" || type === "mistake") {
+      return `
+        <div class="cqBlock cqMathMistake">
+          <div class="cqBadge">⚠️ Common Mistake</div>
+          <h4>${mTitle(block, "Avoid This Mistake")}</h4>
+          ${block.mistake ? `<p><b>❌ Mistake:</b> ${mText(block.mistake)}</p>` : ""}
+          ${block.correction ? `<p><b>✅ Correct:</b> ${mText(block.correction)}</p>` : ""}
+          ${block.text ? `<p>${mText(block.text)}</p>` : ""}
+        </div>`;
+    }
+
+    if (type === "challenge" || type === "hots") {
+      return `
+        <div class="cqBlock cqMathChallenge">
+          <div class="cqBadge">🏆 Challenge</div>
+          <h4>${mTitle(block, "Challenge Problem")}</h4>
+          ${block.question || block.text
+            ? `<p>${mText(block.question || block.text)}</p>` : ""}
+          ${block.hint
+            ? `<details><summary>💡 Hint</summary><p>${mText(block.hint)}</p></details>` : ""}
+          ${block.answer !== undefined
+            ? `<details><summary>✅ Show solution</summary><p>${mText(block.answer)}</p>${mSteps(block.steps || [])}</details>` : ""}
+        </div>`;
+    }
+
+    if (type === "mathstory" || type === "mathrealworld") {
+      const lines = Array.isArray(block.dialogue)
+        ? block.dialogue
+        : Array.isArray(block.dialogues)
+          ? block.dialogues : [];
+
+      return `
+        <div class="cqBlock cqMathStory">
+          <div class="cqBadge">🎬 Maths in Real Life</div>
+          <h4>${mTitle(block, "Maths in Real Life")}</h4>
+          ${block.text ? `<p>${mText(block.text)}</p>` : ""}
+          <div class="cqMathDialogue">
+            ${lines.map(line => {
+              if (typeof line === "string") return `<p>${mText(line)}</p>`;
+              const who = line.character || line.speaker || line.name || "";
+              const say = line.text || line.dialogue || line.content || "";
+              return `<p>${who ? `<b>${mEsc(who)}</b>: ` : ""}${mText(say)}</p>`;
+            }).join("")}
+          </div>
+        </div>`;
+    }
+
+    return null;
+  }
+
+  /*
+    Keep the existing renderUniversalBlockCore intact.
+    We add a small interception layer by replacing the global
+    function reference used by renderUniversalBlock.
+  */
+  if (typeof renderUniversalBlockCore === "function") {
+    const originalMathCore = renderUniversalBlockCore;
+
+    renderUniversalBlockCore = function (block, blockIndex) {
+      const maths = mBlock(block);
+      return maths !== null ? maths : originalMathCore(block, blockIndex);
+    };
+  }
+
+  const css = document.createElement("style");
+  css.id = "cq-class8-maths-extension-css";
+  css.textContent = `
+    .cqMathSolvedExample,
+    .cqMathFormulaCard,
+    .cqMathVisual,
+    .cqMathTable,
+    .cqMathThink,
+    .cqMathMistake,
+    .cqMathChallenge,
+    .cqMathStory{
+      margin:20px 0;
+      padding:22px;
+      border-radius:24px;
+      background:linear-gradient(145deg,#ffffff,#f7f8ff);
+      border:1px solid rgba(79,70,229,.13);
+      box-shadow:0 12px 30px rgba(31,41,55,.07);
+    }
+
+    .cqMathSolvedExample h4,
+    .cqMathFormulaCard h4,
+    .cqMathVisual h4,
+    .cqMathTable h4,
+    .cqMathThink h4,
+    .cqMathMistake h4,
+    .cqMathChallenge h4,
+    .cqMathStory h4{
+      margin:8px 0 14px;
+      font-size:1.16rem;
+    }
+
+    .cqMathQuestion,
+    .cqMathGiven,
+    .cqMathWhy,
+    .cqMathAnswer,
+    .cqMathCheck{
+      padding:14px 16px;
+      margin:11px 0;
+      border-radius:16px;
+      background:#fff;
+      border:1px solid #e5e7eb;
+      line-height:1.75;
+    }
+
+    .cqMathAnswer{
+      background:#ecfdf5;
+      border-color:#bbf7d0;
+    }
+
+    .cqMathCheck{
+      background:#eff6ff;
+      border-color:#bfdbfe;
+    }
+
+    .cqMathFormulaDisplay{
+      margin:16px 0;
+      padding:17px;
+      border-radius:17px;
+      background:#eef2ff;
+      color:#312e81;
+      font-weight:700;
+      text-align:center;
+      font-size:1.08rem;
+      overflow:auto;
+    }
+
+    .cqMathSteps{
+      margin:15px 0;
+      padding:16px 18px;
+      border-radius:17px;
+      background:#fff7ed;
+    }
+
+    .cqMathSteps ol{
+      margin:10px 0 0 22px;
+    }
+
+    .cqMathSteps li{
+      margin:7px 0;
+      line-height:1.7;
+    }
+
+    .cqMathFigure{
+      max-width:760px;
+      margin:20px auto;
+      text-align:center;
+    }
+
+    .cqMathFigure img,
+    .cqMathFigure svg{
+      display:block;
+      width:100%;
+      max-height:520px;
+      object-fit:contain;
+      margin:auto;
+      border-radius:18px;
+    }
+
+    .cqMathFigure figcaption{
+      margin-top:8px;
+      color:#6b7280;
+      font-size:.92rem;
+    }
+
+    .cqMathTable .cqTableScroll{
+      overflow-x:auto;
+    }
+
+    .cqMathTable table{
+      width:100%;
+      border-collapse:collapse;
+      min-width:520px;
+    }
+
+    .cqMathTable th,
+    .cqMathTable td{
+      padding:12px;
+      border:1px solid #e5e7eb;
+      text-align:left;
+    }
+
+    .cqMathTable th{
+      background:#eef2ff;
+    }
+
+    .cqMathThink{
+      background:linear-gradient(145deg,#f0fdf4,#ffffff);
+    }
+
+    .cqMathMistake{
+      background:linear-gradient(145deg,#fff7ed,#ffffff);
+    }
+
+    .cqMathChallenge{
+      background:linear-gradient(145deg,#fefce8,#ffffff);
+    }
+
+    .cqMathStory{
+      background:linear-gradient(145deg,#fdf4ff,#ffffff);
+    }
+
+    .cqMathDialogue{
+      margin-top:14px;
+      padding:16px;
+      background:#fff;
+      border-radius:17px;
+    }
+
+    .cqMathDialogue p{
+      margin:0;
+      padding:9px 0;
+      border-bottom:1px dashed #d1d5db;
+      line-height:1.7;
+    }
+
+    .cqMathDialogue p:last-child{
+      border-bottom:0;
+    }
+
+    @media(max-width:600px){
+      .cqMathSolvedExample,
+      .cqMathFormulaCard,
+      .cqMathVisual,
+      .cqMathTable,
+      .cqMathThink,
+      .cqMathMistake,
+      .cqMathChallenge,
+      .cqMathStory{
+        padding:17px;
+        border-radius:20px;
+      }
+    }
+  `;
+  document.head.appendChild(css);
+
+})();
