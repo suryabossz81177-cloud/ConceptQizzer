@@ -7,7 +7,7 @@
 
 window.ChapterRegistry = [
   {
-  id: "class8-mathematics-algebraic-expressions-and-identities",
+  id: "8-mathematics-algebraic-expressions-and-identities",
   class: 8,
   subject: "Mathematics",
   chapterNumber: 9,
