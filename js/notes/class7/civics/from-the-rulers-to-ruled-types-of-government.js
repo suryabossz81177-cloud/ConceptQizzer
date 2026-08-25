@@ -107,7 +107,7 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: Who Makes the Rules?",
-          "cardStyle": "colorful",
+          "cardStyle": "comic",
           "color": "purple",
           "renderAs": "comic",
           "dialogues": [
@@ -117,19 +117,39 @@ window.ChapterData = {
             },
             {
               "character": "Meera",
-              "dialogue": "Everyone should get a chance to give their opinion."
-            },
-            {
-              "character": "Sharma Sir",
-              "dialogue": "Rules and institutions help organise how decisions are made."
+              "dialogue": "Maybe the whole class should get a chance to share ideas."
             },
             {
               "character": "Aarav",
-              "dialogue": "So having authority does not mean someone can do anything they want?"
+              "dialogue": "But if everyone decides every tiny thing, it could take a lot of time."
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Exactly. Authority can be limited by rules and responsibilities."
+              "dialogue": "That is why groups often create procedures for making decisions."
+            },
+            {
+              "character": "Meera",
+              "dialogue": "So we can choose representatives for some decisions?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Yes. Representatives can discuss issues and make decisions within their responsibilities."
+            },
+            {
+              "character": "Aarav",
+              "dialogue": "But who makes sure they follow the rules?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Rules, responsibilities and accountability help prevent misuse of authority."
+            },
+            {
+              "character": "Meera",
+              "dialogue": "So government is not simply about one person giving orders."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. It is about institutions, decisions, authority and the people affected by them."
             }
           ]
         }
@@ -158,33 +178,49 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: The Extra-Hours Rule",
-          "cardStyle": "colorful",
-          "color": "blue",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
               "character": "Kabir",
-              "dialogue": "From tomorrow, everyone has to stay two extra hours!"
+              "dialogue": "From tomorrow, everyone has to stay two extra hours after school!"
             },
             {
               "character": "Riya",
-              "dialogue": "Who gave you the authority to make that rule?"
+              "dialogue": "Wait. Who gave you the authority to make that rule?"
             },
             {
               "character": "Kabir",
-              "dialogue": "I am the class monitor."
-            },
-            {
-              "character": "Sharma Sir",
-              "dialogue": "Being a monitor gives you responsibilities, but it does not give you unlimited power."
+              "dialogue": "I am the class monitor. I thought monitors could make rules."
             },
             {
               "character": "Riya",
-              "dialogue": "So even someone with authority has to follow the rules?"
+              "dialogue": "A monitor has responsibilities, but that does not mean unlimited power."
+            },
+            {
+              "character": "Kabir",
+              "dialogue": "Then what should I do before announcing a new rule?"
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Yes. Authority and unlimited power are not the same thing."
+              "dialogue": "First check the existing rules and your actual responsibility."
+            },
+            {
+              "character": "Kabir",
+              "dialogue": "And if a change is needed?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Discuss it through the proper procedure with the people responsible for making that decision."
+            },
+            {
+              "character": "Riya",
+              "dialogue": "So having authority means having a defined responsibility, not a free pass to do anything."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. Legitimate authority works within rules and limits."
             }
           ]
         },
@@ -263,8 +299,8 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: The Crown and the Constitution",
-          "cardStyle": "colorful",
-          "color": "green",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
@@ -273,19 +309,39 @@ window.ChapterData = {
             },
             {
               "character": "Meera",
-              "dialogue": "Maybe. We should check what the country's constitution says."
-            },
-            {
-              "character": "Sharma Sir",
-              "dialogue": "Correct. A monarch can have very different powers in different political systems."
+              "dialogue": "I don't think we can decide that just by hearing the word 'king'."
             },
             {
               "character": "Aarav",
-              "dialogue": "So the title of the ruler does not tell us the whole story?"
+              "dialogue": "Why not? A king is the ruler, isn't he?"
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Exactly. We must examine the institutions and limits on power."
+              "dialogue": "A monarch's actual powers depend on the political system and constitutional arrangements."
+            },
+            {
+              "character": "Meera",
+              "dialogue": "So in an absolute monarchy, the monarch may have very extensive authority."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Historically, yes. But constitutional monarchies place the monarch's role within constitutional institutions."
+            },
+            {
+              "character": "Aarav",
+              "dialogue": "Then elected institutions may exercise most governing power in a constitutional monarchy."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Correct."
+            },
+            {
+              "character": "Meera",
+              "dialogue": "So the title of the ruler does not tell the whole story."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. Always ask: What powers does the ruler have, what limits exist, and which institutions make decisions?"
             }
           ]
         },
@@ -330,17 +386,17 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: Five Powerful Families",
-          "cardStyle": "colorful",
-          "color": "teal",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
               "character": "Neha",
-              "dialogue": "Our town has thousands of residents. Who decides the biggest issues?"
+              "dialogue": "Our town has thousands of residents. Who decides the biggest public issues?"
             },
             {
               "character": "Vikram",
-              "dialogue": "Five powerful families make all the important decisions."
+              "dialogue": "Five powerful families make most of the important decisions."
             },
             {
               "character": "Neha",
@@ -348,11 +404,31 @@ window.ChapterData = {
             },
             {
               "character": "Vikram",
-              "dialogue": "No. The same small group keeps control."
+              "dialogue": "Not really. The same small group has controlled the main decisions for years."
+            },
+            {
+              "character": "Neha",
+              "dialogue": "Then political power is concentrated among a few people."
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "When political power is concentrated in a small group, we describe the system as oligarchic."
+              "dialogue": "That is the key idea behind oligarchy."
+            },
+            {
+              "character": "Vikram",
+              "dialogue": "Does a small group always have to be related by family?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "No. The group may gain power through wealth, social status, military influence, family connections or control of important institutions."
+            },
+            {
+              "character": "Neha",
+              "dialogue": "So the important question is not their job title but how widely political power is distributed."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. Oligarchy is about concentrated power in the hands of a small group."
             }
           ]
         },
@@ -418,8 +494,8 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: The One-Candidate Election",
-          "cardStyle": "colorful",
-          "color": "red",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
@@ -428,19 +504,39 @@ window.ChapterData = {
             },
             {
               "character": "Sara",
-              "dialogue": "How many candidates can people choose from?"
+              "dialogue": "Great. How many candidates can people choose from?"
             },
             {
               "character": "Rohan",
-              "dialogue": "Only one. Opposition candidates are not allowed."
+              "dialogue": "Only one candidate is allowed."
             },
             {
               "character": "Sara",
-              "dialogue": "Then having a ballot does not automatically mean people have a meaningful political choice."
+              "dialogue": "What happened to the other candidates?"
+            },
+            {
+              "character": "Rohan",
+              "dialogue": "They were not permitted to contest."
+            },
+            {
+              "character": "Sara",
+              "dialogue": "Then people may have a ballot, but they do not have a genuine choice."
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Exactly. The wider conditions of an election matter."
+              "dialogue": "That is an important distinction."
+            },
+            {
+              "character": "Rohan",
+              "dialogue": "So simply holding a vote does not automatically make a system democratic."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Correct. Meaningful political competition, fair procedures and genuine choice matter."
+            },
+            {
+              "character": "Sara",
+              "dialogue": "Democracy is about the quality of political participation, not just the existence of a ballot box."
             }
           ]
         },
@@ -493,13 +589,13 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: Choosing Class Representatives",
-          "cardStyle": "colorful",
-          "color": "blue",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
               "character": "Anaya",
-              "dialogue": "We need two class representatives."
+              "dialogue": "We need two class representatives for the science project."
             },
             {
               "character": "Dev",
@@ -507,19 +603,35 @@ window.ChapterData = {
             },
             {
               "character": "Anaya",
-              "dialogue": "Let's choose candidates and let the class vote."
-            },
-            {
-              "character": "Sharma Sir",
-              "dialogue": "That gives students a role in choosing representatives."
+              "dialogue": "That would not give everyone a fair chance to participate."
             },
             {
               "character": "Dev",
-              "dialogue": "And the representatives should report back to the class."
+              "dialogue": "Then what should we do?"
+            },
+            {
+              "character": "Anaya",
+              "dialogue": "Let candidates explain their ideas and allow the class to vote."
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Exactly. Choice, representation and accountability are important ideas."
+              "dialogue": "That creates a simple example of choosing representatives."
+            },
+            {
+              "character": "Dev",
+              "dialogue": "But after the election, should representatives still listen to the class?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Yes. Representation should be connected with responsibility and accountability."
+            },
+            {
+              "character": "Anaya",
+              "dialogue": "And if representatives stop doing their work, students can question them."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. Democracy involves choice, representation, participation and accountability."
             }
           ]
         },
@@ -653,7 +765,7 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: Don't Judge by the Label",
-          "cardStyle": "colorful",
+          "cardStyle": "comic",
           "color": "purple",
           "renderAs": "comic",
           "dialogues": [
@@ -666,16 +778,36 @@ window.ChapterData = {
               "dialogue": "Can we be sure just from the name?"
             },
             {
+              "character": "Kabir",
+              "dialogue": "Why would the name not be enough?"
+            },
+            {
+              "character": "Riya",
+              "dialogue": "Because a republic mainly tells us that political headship is not based on hereditary monarchy in the normal sense."
+            },
+            {
               "character": "Sharma Sir",
-              "dialogue": "No. We must examine elections, rights, participation, competition and limits on power."
+              "dialogue": "Correct. The label 'republic' does not by itself tell us how democratic the political system is."
             },
             {
               "character": "Kabir",
-              "dialogue": "So the name is only one clue."
+              "dialogue": "Then what should we examine?"
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Exactly. Institutions and actual political practice matter."
+              "dialogue": "Look at elections, political rights, participation, competition, accountability and limits on government power."
+            },
+            {
+              "character": "Riya",
+              "dialogue": "So a country's institutions matter more than a single label."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly."
+            },
+            {
+              "character": "Kabir",
+              "dialogue": "Got it. To understand a government, we must study how power actually works."
             }
           ]
         }
@@ -712,8 +844,8 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: Three Responsibilities",
-          "cardStyle": "colorful",
-          "color": "teal",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
@@ -725,20 +857,36 @@ window.ChapterData = {
               "dialogue": "Wouldn't that make decisions faster?"
             },
             {
-              "character": "Sharma Sir",
-              "dialogue": "Perhaps, but it could also allow power to go unchecked."
-            },
-            {
               "character": "Aarav",
-              "dialogue": "So different institutions can have different responsibilities?"
+              "dialogue": "Yes, but what if that institution starts using power unfairly?"
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Yes. Dividing and checking power can help prevent its misuse."
+              "dialogue": "That is why constitutional systems can divide responsibilities among different institutions."
             },
             {
               "character": "Meera",
-              "dialogue": "That makes constitutional limits important."
+              "dialogue": "So one institution may make laws, another may implement them, and courts may interpret laws?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "In many constitutional systems, responsibilities are distributed in broadly this way, though exact arrangements differ."
+            },
+            {
+              "character": "Aarav",
+              "dialogue": "And institutions can check each other?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Yes. Such arrangements are often described as checks and balances."
+            },
+            {
+              "character": "Meera",
+              "dialogue": "So dividing power can make government more accountable."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. The purpose is to reduce unchecked concentration of public power."
             }
           ]
         },
@@ -800,7 +948,7 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: Fair Election Rules",
-          "cardStyle": "colorful",
+          "cardStyle": "comic",
           "color": "purple",
           "renderAs": "comic",
           "dialogues": [
@@ -810,19 +958,39 @@ window.ChapterData = {
             },
             {
               "character": "Arjun",
-              "dialogue": "But one candidate secretly changed the rules to stop the other from reaching voters."
+              "dialogue": "That sounds fair."
             },
             {
               "character": "Nisha",
-              "dialogue": "That would make the competition unfair."
-            },
-            {
-              "character": "Sharma Sir",
-              "dialogue": "Exactly. Meaningful elections require fair procedures and genuine political choice."
+              "dialogue": "But one candidate secretly changed the rules to stop the other from reaching voters."
             },
             {
               "character": "Arjun",
-              "dialogue": "So election rules protect the process, not just the final vote."
+              "dialogue": "Then the two candidates are no longer competing under equal conditions."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Correct. Election procedures matter because they protect the fairness of the process."
+            },
+            {
+              "character": "Nisha",
+              "dialogue": "So the result alone is not enough to judge an election."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "We should also examine how the election was conducted."
+            },
+            {
+              "character": "Arjun",
+              "dialogue": "Were candidates able to compete? Could voters hear different views?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Those are important questions."
+            },
+            {
+              "character": "Nisha",
+              "dialogue": "So fair elections require more than simply counting votes."
             }
           ]
         },
@@ -867,8 +1035,8 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "🎬 Comic: The Petition",
-          "cardStyle": "colorful",
-          "color": "yellow",
+          "cardStyle": "comic",
+          "color": "purple",
           "renderAs": "comic",
           "dialogues": [
             {
@@ -881,7 +1049,19 @@ window.ChapterData = {
             },
             {
               "character": "Isha",
-              "dialogue": "Let's collect information and organise a peaceful petition."
+              "dialogue": "Let's first collect information about the problem."
+            },
+            {
+              "character": "Manav",
+              "dialogue": "Then we can organise a peaceful petition and ask for a safer crossing."
+            },
+            {
+              "character": "Isha",
+              "dialogue": "We could also contact our local representative."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Those are examples of civic participation."
             },
             {
               "character": "Manav",
@@ -889,7 +1069,15 @@ window.ChapterData = {
             },
             {
               "character": "Sharma Sir",
-              "dialogue": "Exactly. Civic participation continues between elections."
+              "dialogue": "Exactly. Democracy is not limited to voting day."
+            },
+            {
+              "character": "Isha",
+              "dialogue": "People can discuss issues, organise peacefully and communicate with public institutions."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Yes. Active citizenship continues between elections."
             }
           ]
         },
@@ -1372,17 +1560,20 @@ window.ChapterData = {
     "maps": "not necessary",
     "comics": "separate character dialogue blocks; no narrator",
     "factFile": true,
-    "rendererSafe": true
+    "rendererSafe": true,
+    "comicFormat": "STRICT_SEPARATE_LINES",
+    "comicRenderer": "universal-notes-engine-v2"
   },
   "stats": {
     "mode": "extra-detailed-civics-v3",
     "sections": 16,
     "blocks": 83,
-    "comicScenes": 9,
+    "comicScenes": 10,
     "facts": 17,
     "maps": 0,
     "keyTerms": 26,
     "rendererSafe": true,
-    "comicFormat": "separate-dialogue"
+    "comicFormat": "separate-dialogue",
+    "comicDialogues": 100
   }
 };
