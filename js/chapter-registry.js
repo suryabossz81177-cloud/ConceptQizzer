@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-mathematics-mensuration",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 11,
+  title: "Mensuration",
+  file: "js/notes/class8/mathematics/mensuration.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-visualising-solid-shapes",
   class: 8,
   subject: "Mathematics",
