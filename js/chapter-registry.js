@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-practical-geometry",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 4,
+  title: "Practical Geometry",
+  file: "js/notes/class8/mathematics/practical-geometry.js",
+  enabled: true
+},
+  
+  {
   id: "class8-mathematics-understanding-quadrilaterals",
   class: 8,
   subject: "Mathematics",
