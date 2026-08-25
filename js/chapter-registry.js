@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-mathematics-playing-with-numbers",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 16,
+  title: "Playing with Numbers",
+  file: "js/notes/class8/mathematics/playing-with-numbers.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-introduction-to-graphs",
   class: 8,
   subject: "Mathematics",
