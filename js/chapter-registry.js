@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-algebraic-expressions-and-identities",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 9,
+  title: "Algebraic Expressions and Identities",
+  file: "js/notes/class8/mathematics/algebraic-expressions-and-identities.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-comparing-quantities",
   class: 8,
   subject: "Mathematics",
