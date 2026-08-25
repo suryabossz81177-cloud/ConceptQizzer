@@ -6,6 +6,16 @@
 ==================================================*/
 
 window.ChapterRegistry = [
+  {
+  id: "class7-civics-the-constitution-of-india",
+  class: 7,
+  subject: "Civics",
+  chapterNumber: 2,
+  title: "The Constitution of India",
+  file: "js/notes/class7/civics/the-constitution-of-india.js",
+  enabled: true
+},
+  
 {
   id: "7-civics-from-the-rulers-to-ruled-types-of-government",
   class: 7,
