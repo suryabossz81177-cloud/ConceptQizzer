@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class7-civics-understanding-markets",
+  class: 7,
+  subject: "Civics",
+  chapterNumber: 4,
+  title: "Understanding Markets",
+  file: "js/notes/class7/civics/understanding-markets.js",
+  enabled: true
+},
+  
+  {
   id: "class7-civics-from-barter-to-money",
   class: 7,
   subject: "Civics",
