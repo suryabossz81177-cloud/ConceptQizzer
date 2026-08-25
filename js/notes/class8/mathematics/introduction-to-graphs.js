@@ -5,7 +5,7 @@
 ==================================================*/
 
 window.ChapterData = {
-  id: "class8-mathematics-introduction-to-graphs",
+  id: "8-mathematics-introduction-to-graphs",
   title: "Introduction to Graphs",
   class: 8,
   subject: "Mathematics",
