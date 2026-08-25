@@ -5,7 +5,7 @@
 ==================================================*/
 
 window.ChapterData = {
-  id: "class8-mathematics-playing-with-numbers",
+  id: "8-mathematics-playing-with-numbers",
   title: "Playing with Numbers",
   class: 8,
   subject: "Mathematics",
