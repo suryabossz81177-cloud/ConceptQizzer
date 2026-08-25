@@ -4,7 +4,7 @@ window.ChapterData = {
   "subject": "Geography",
   "chapterNumber": 1,
   "title": "Geographical Diversity of India",
-  "description": "Ultra-detailed, topic-adaptive Class 7 Geography notes with colourful blocks, interactive map-pointing data, globe models where useful, map lab, key terms and revision.",
+  "description": "Ultra-detailed, topic-adaptive Class 7 Geography notes with colourful blocks, real interactive India maps with clickable place markers, zoom controls and a draggable 3D Earth where useful, map lab, key terms and revision.",
   "keywords": [
     "India",
     "geographical diversity",
@@ -279,72 +279,55 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ India — Five Broad Regions",
-          "purpose": "Use this overview first; later maps should zoom into each region.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Himalayas",
-              "lat": 30.5,
-              "lon": 80.5,
-              "kind": "range",
-              "label": "Himalayas"
-            },
-            {
-              "name": "Northern Plains",
-              "lat": 27,
-              "lon": 80,
-              "kind": "plain",
-              "label": "Northern Plains"
-            },
-            {
-              "name": "Thar Desert",
-              "lat": 27.5,
-              "lon": 71.2,
-              "kind": "desert",
-              "label": "Thar Desert"
-            },
-            {
-              "name": "Peninsular Plateau",
-              "lat": 18.5,
-              "lon": 78,
-              "kind": "plateau",
-              "label": "Peninsular Plateau"
-            },
-            {
-              "name": "Lakshadweep",
-              "lat": 10.6,
-              "lon": 72.6,
-              "kind": "islands",
-              "label": "Lakshadweep"
-            },
-            {
-              "name": "Andaman & Nicobar",
-              "lat": 11.5,
-              "lon": 93,
-              "kind": "islands",
-              "label": "Andaman & Nicobar"
-            }
-          ],
-          "highlightRegions": [
-            "Himalayan Zone",
-            "Northern Plains",
-            "Thar",
-            "Peninsular Plateau",
-            "Islands"
-          ],
-          "routes": [],
-          "legend": [
-            "Mountain",
-            "Plain",
-            "Desert",
-            "Plateau",
-            "Island"
-          ],
+          "text": "Use this overview first; later maps should zoom into each region.\n\n📍 Places to locate:\nHimalayas • Northern Plains • Thar Desert • Peninsular Plateau • Lakshadweep • Andaman & Nicobar\n\n⭐ Focus regions: Himalayan Zone • Northern Plains • Thar • Peninsular Plateau • Islands\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "purple",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Himalayas",
+              "lat": 30.5,
+              "lon": 81.5,
+              "description": "Major mountain system forming India's northern natural barrier."
+            },
+            {
+              "label": "Northern Plains",
+              "lat": 27.3,
+              "lon": 81.0,
+              "description": "Broad alluvial plains formed by the Indus, Ganga and Brahmaputra river systems."
+            },
+            {
+              "label": "Thar Desert",
+              "lat": 27.0,
+              "lon": 71.0,
+              "description": "Arid region of western India with dunes and sparse rainfall."
+            },
+            {
+              "label": "Peninsular Plateau",
+              "lat": 19.0,
+              "lon": 77.0,
+              "description": "Ancient elevated landmass forming much of peninsular India."
+            },
+            {
+              "label": "Lakshadweep",
+              "lat": 10.5,
+              "lon": 72.6,
+              "description": "Coral island group in the Arabian Sea."
+            },
+            {
+              "label": "Andaman & Nicobar",
+              "lat": 11.8,
+              "lon": 92.8,
+              "description": "Island group in the Bay of Bengal."
+            }
+          ],
+          "mapCenter": [
+            15.0,
+            83.0
+          ],
+          "zoom": 4.8,
+          "showStates": false
         }
       ]
     },
@@ -379,7 +362,10 @@ window.ChapterData = {
         {
           "type": "earthModel",
           "title": "🌍 India on the Globe",
-          "purpose": "Start with Asia, zoom to South Asia, then show India between the Arabian Sea, Bay of Bengal and Indian Ocean, with the Himalayas to the north.",
+          "text": "Start with Asia, zoom to South Asia, then show India between the Arabian Sea, Bay of Bengal and Indian Ocean, with the Himalayas to the north.\n\n🌍 Globe sequence:\nEarth → Asia → South Asia → India → Arabian Sea → Bay of Bengal → Indian Ocean → Himalayas\n\n🧭 Globe task: Locate each layer in sequence and describe how it connects to the topic.",
+          "cardStyle": "colorful",
+          "color": "blue",
+          "renderAs": "card",
           "model": "3d-earth",
           "interactive": true,
           "layers": [
@@ -391,98 +377,78 @@ window.ChapterData = {
             "Bay of Bengal",
             "Indian Ocean",
             "Himalayas"
-          ],
-          "cardStyle": "colorful",
-          "color": "blue",
-          "renderAs": "earth-card"
+          ]
         },
         {
           "type": "map",
           "title": "🗺️ India — Neighbours and Natural Boundaries",
-          "purpose": "Point to surrounding land and water before studying individual landforms.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Pakistan",
-              "lat": 30.4,
-              "lon": 69.3,
-              "kind": "country",
-              "label": "Pakistan"
-            },
-            {
-              "name": "Nepal",
-              "lat": 28.4,
-              "lon": 84.1,
-              "kind": "country",
-              "label": "Nepal"
-            },
-            {
-              "name": "Bhutan",
-              "lat": 27.5,
-              "lon": 90.4,
-              "kind": "country",
-              "label": "Bhutan"
-            },
-            {
-              "name": "Bangladesh",
-              "lat": 23.7,
-              "lon": 90.4,
-              "kind": "country",
-              "label": "Bangladesh"
-            },
-            {
-              "name": "Myanmar",
-              "lat": 21,
-              "lon": 95.9,
-              "kind": "country",
-              "label": "Myanmar"
-            },
-            {
-              "name": "Sri Lanka",
-              "lat": 7.8,
-              "lon": 80.7,
-              "kind": "country",
-              "label": "Sri Lanka"
-            },
-            {
-              "name": "Arabian Sea",
-              "lat": 15,
-              "lon": 67,
-              "kind": "sea",
-              "label": "Arabian Sea"
-            },
-            {
-              "name": "Bay of Bengal",
-              "lat": 15,
-              "lon": 88,
-              "kind": "sea",
-              "label": "Bay of Bengal"
-            },
-            {
-              "name": "Indian Ocean",
-              "lat": 2,
-              "lon": 78,
-              "kind": "ocean",
-              "label": "Indian Ocean"
-            }
-          ],
-          "highlightRegions": [
-            "Northern mountain barrier",
-            "Western sea",
-            "Southern ocean",
-            "Eastern sea"
-          ],
-          "routes": [],
-          "legend": [
-            "Country",
-            "Sea",
-            "Ocean"
-          ],
+          "text": "Point to surrounding land and water before studying individual landforms.\n\n📍 Places to locate:\nPakistan • Nepal • Bhutan • Bangladesh • Myanmar • Sri Lanka • Arabian Sea • Bay of Bengal • Indian Ocean\n\n⭐ Focus regions: Northern mountain barrier • Western sea • Southern ocean • Eastern sea\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "teal",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Pakistan",
+              "lat": 30.4,
+              "lon": 69.3,
+              "description": "India's north-western land neighbour."
+            },
+            {
+              "label": "Nepal",
+              "lat": 28.4,
+              "lon": 84.1,
+              "description": "Landlocked Himalayan neighbour north of India."
+            },
+            {
+              "label": "Bhutan",
+              "lat": 27.5,
+              "lon": 90.5,
+              "description": "Small Himalayan neighbour east of Nepal."
+            },
+            {
+              "label": "Bangladesh",
+              "lat": 23.7,
+              "lon": 90.4,
+              "description": "Neighbour east of India and part of the Ganga–Brahmaputra delta region."
+            },
+            {
+              "label": "Myanmar",
+              "lat": 21.0,
+              "lon": 96.0,
+              "description": "Neighbour to India's east beyond the northeastern hills."
+            },
+            {
+              "label": "Sri Lanka",
+              "lat": 7.9,
+              "lon": 80.8,
+              "description": "Island country south of India across the Palk Strait and Gulf of Mannar."
+            },
+            {
+              "label": "Arabian Sea",
+              "lat": 15.5,
+              "lon": 69.0,
+              "description": "Sea west of India."
+            },
+            {
+              "label": "Bay of Bengal",
+              "lat": 15.0,
+              "lon": 88.0,
+              "description": "Sea east of India."
+            },
+            {
+              "label": "Indian Ocean",
+              "lat": 5.0,
+              "lon": 78.0,
+              "description": "Ocean south of India."
+            }
+          ],
+          "mapCenter": [
+            22.5,
+            79.0
+          ],
+          "zoom": 4.4,
+          "showStates": false
         },
         {
           "type": "activity",
@@ -550,80 +516,69 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Himalayas — High-Priority Map",
-          "purpose": "Point to the Himalayan arc, major Himalayan regions and Gaumukh.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Himalayan Arc",
-              "lat": 30.5,
-              "lon": 80.5,
-              "kind": "range",
-              "label": "Himalayan Arc"
-            },
-            {
-              "name": "Ladakh",
-              "lat": 34.2,
-              "lon": 77.6,
-              "kind": "region",
-              "label": "Ladakh"
-            },
-            {
-              "name": "Himachal Pradesh",
-              "lat": 31.1,
-              "lon": 77.2,
-              "kind": "state",
-              "label": "Himachal Pradesh"
-            },
-            {
-              "name": "Uttarakhand",
-              "lat": 30.1,
-              "lon": 79.2,
-              "kind": "state",
-              "label": "Uttarakhand"
-            },
-            {
-              "name": "Sikkim",
-              "lat": 27.5,
-              "lon": 88.5,
-              "kind": "state",
-              "label": "Sikkim"
-            },
-            {
-              "name": "Arunachal Pradesh",
-              "lat": 28,
-              "lon": 94,
-              "kind": "state",
-              "label": "Arunachal Pradesh"
-            },
-            {
-              "name": "Gaumukh",
-              "lat": 30.9,
-              "lon": 79.1,
-              "kind": "site",
-              "label": "Gaumukh"
-            }
-          ],
-          "highlightRegions": [
-            "Himadri",
-            "Himachal",
-            "Shivalik"
-          ],
-          "routes": [],
-          "legend": [
-            "Range",
-            "State/region",
-            "Important site"
-          ],
+          "text": "Point to the Himalayan arc, major Himalayan regions and Gaumukh.\n\n📍 Places to locate:\nHimalayan Arc • Ladakh • Himachal Pradesh • Uttarakhand • Sikkim • Arunachal Pradesh • Gaumukh\n\n⭐ Focus regions: Himadri • Himachal • Shivalik\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "blue",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Himalayan Arc",
+              "lat": 30.5,
+              "lon": 81.5,
+              "description": "Curving mountain arc stretching across northern India and adjoining regions."
+            },
+            {
+              "label": "Ladakh",
+              "lat": 34.2,
+              "lon": 77.6,
+              "description": "High-altitude cold desert region in the northern part of India."
+            },
+            {
+              "label": "Himachal Pradesh",
+              "lat": 31.8,
+              "lon": 77.2,
+              "description": "Himalayan state between the higher mountains and the plains."
+            },
+            {
+              "label": "Uttarakhand",
+              "lat": 30.1,
+              "lon": 79.2,
+              "description": "Himalayan state containing the source region of the Bhagirathi at Gaumukh."
+            },
+            {
+              "label": "Sikkim",
+              "lat": 27.5,
+              "lon": 88.5,
+              "description": "Small Himalayan state between Nepal and Bhutan."
+            },
+            {
+              "label": "Arunachal Pradesh",
+              "lat": 28.2,
+              "lon": 94.7,
+              "description": "Eastern Himalayan state at India's northeastern edge."
+            },
+            {
+              "label": "Gaumukh",
+              "lat": 30.93,
+              "lon": 79.07,
+              "description": "Glacial source region associated with the Bhagirathi, a headstream of the Ganga."
+            }
+          ],
+          "mapCenter": [
+            31.5,
+            79.0
+          ],
+          "zoom": 5.2,
+          "showStates": false
         },
         {
           "type": "earthModel",
           "title": "🌍 How the Himalayas Formed",
-          "purpose": "Show India moving north into Eurasia, collision, compression, folding and uplift.",
+          "text": "Show India moving north into Eurasia, collision, compression, folding and uplift.\n\n🌍 Globe sequence:\nGondwana → Indian landmass → Northward movement → Eurasia → Collision → Folding → Uplift → Himalayas\n\n🧭 Globe task: Locate each layer in sequence and describe how it connects to the topic.",
+          "cardStyle": "colorful",
+          "color": "purple",
+          "renderAs": "card",
           "model": "3d-earth",
           "interactive": true,
           "layers": [
@@ -635,10 +590,7 @@ window.ChapterData = {
             "Folding",
             "Uplift",
             "Himalayas"
-          ],
-          "cardStyle": "colorful",
-          "color": "purple",
-          "renderAs": "earth-card"
+          ]
         },
         {
           "type": "concept",
@@ -689,45 +641,37 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Ladakh — Point These Places",
-          "purpose": "Zoom into northern India and identify the cold desert and Pangong Tso.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Ladakh",
-              "lat": 34.15,
-              "lon": 77.55,
-              "kind": "region",
-              "label": "Ladakh"
-            },
-            {
-              "name": "Pangong Tso",
-              "lat": 33.75,
-              "lon": 78.65,
-              "kind": "lake",
-              "label": "Pangong Tso"
-            },
-            {
-              "name": "Karakoram region",
-              "lat": 35.2,
-              "lon": 77.5,
-              "kind": "range",
-              "label": "Karakoram region"
-            }
-          ],
-          "highlightRegions": [
-            "Ladakh"
-          ],
-          "routes": [],
-          "legend": [
-            "Region",
-            "Lake",
-            "Mountain"
-          ],
+          "text": "Zoom into northern India and identify the cold desert and Pangong Tso.\n\n📍 Places to locate:\nLadakh • Pangong Tso • Karakoram region\n\n⭐ Focus regions: Ladakh\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "teal",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Ladakh",
+              "lat": 34.2,
+              "lon": 77.6,
+              "description": "High-altitude cold desert region in the northern part of India."
+            },
+            {
+              "label": "Pangong Tso",
+              "lat": 33.7,
+              "lon": 78.7,
+              "description": "High-altitude lake in the Ladakh region."
+            },
+            {
+              "label": "Karakoram region",
+              "lat": 35.5,
+              "lon": 77.5,
+              "description": "High mountain region north of Ladakh."
+            }
+          ],
+          "mapCenter": [
+            31.5,
+            79.0
+          ],
+          "zoom": 5.2,
+          "showStates": false
         },
         {
           "type": "important",
@@ -786,70 +730,55 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Northern Plains — Rivers and Settlements",
-          "purpose": "Trace the northern plains and identify the major river systems.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Ganga",
-              "lat": 25.5,
-              "lon": 82,
-              "kind": "river",
-              "label": "Ganga"
-            },
-            {
-              "name": "Yamuna",
-              "lat": 27,
-              "lon": 79.5,
-              "kind": "river",
-              "label": "Yamuna"
-            },
-            {
-              "name": "Brahmaputra",
-              "lat": 26.2,
-              "lon": 91,
-              "kind": "river",
-              "label": "Brahmaputra"
-            },
-            {
-              "name": "Indus system",
-              "lat": 31,
-              "lon": 72,
-              "kind": "river",
-              "label": "Indus system"
-            },
-            {
-              "name": "Varanasi",
-              "lat": 25.3,
-              "lon": 83,
-              "kind": "city",
-              "label": "Varanasi"
-            },
-            {
-              "name": "Patna",
-              "lat": 25.6,
-              "lon": 85.1,
-              "kind": "city",
-              "label": "Patna"
-            }
-          ],
-          "highlightRegions": [
-            "Northern Plains"
-          ],
-          "routes": [
-            "Ganga system",
-            "Brahmaputra system",
-            "Indus system"
-          ],
-          "legend": [
-            "River",
-            "City",
-            "Plain"
-          ],
+          "text": "Trace the northern plains and identify the major river systems.\n\n📍 Places to locate:\nGanga • Yamuna • Brahmaputra • Indus system • Varanasi • Patna\n\n⭐ Focus regions: Northern Plains\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "green",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Ganga",
+              "lat": 25.3,
+              "lon": 83.0,
+              "description": "Major north Indian river flowing eastward toward the Bay of Bengal."
+            },
+            {
+              "label": "Yamuna",
+              "lat": 29.9,
+              "lon": 78.1,
+              "description": "Major tributary of the Ganga, joining it at Prayagraj."
+            },
+            {
+              "label": "Brahmaputra",
+              "lat": 26.2,
+              "lon": 91.7,
+              "description": "Major river entering India through the eastern Himalayas and flowing across Assam."
+            },
+            {
+              "label": "Indus system",
+              "lat": 31.0,
+              "lon": 75.0,
+              "description": "River system associated with northwestern India and the Himalayan region."
+            },
+            {
+              "label": "Varanasi",
+              "lat": 25.32,
+              "lon": 82.97,
+              "description": "Historic city on the Ganga in Uttar Pradesh."
+            },
+            {
+              "label": "Patna",
+              "lat": 25.61,
+              "lon": 85.14,
+              "description": "Major city on the Ganga in Bihar."
+            }
+          ],
+          "mapCenter": [
+            22.5,
+            79.0
+          ],
+          "zoom": 4.4,
+          "showStates": false
         },
         {
           "type": "activity",
@@ -892,54 +821,43 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Thar Desert — Point the Desert and Aravallis",
-          "purpose": "Locate the Thar and compare it with the nearby Aravalli region.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Thar Desert",
-              "lat": 27.5,
-              "lon": 71.2,
-              "kind": "desert",
-              "label": "Thar Desert"
-            },
-            {
-              "name": "Jaisalmer",
-              "lat": 26.9,
-              "lon": 70.9,
-              "kind": "city",
-              "label": "Jaisalmer"
-            },
-            {
-              "name": "Jodhpur",
-              "lat": 26.3,
-              "lon": 73,
-              "kind": "city",
-              "label": "Jodhpur"
-            },
-            {
-              "name": "Mount Abu",
-              "lat": 24.6,
-              "lon": 72.7,
-              "kind": "hill",
-              "label": "Mount Abu"
-            }
-          ],
-          "highlightRegions": [
-            "Great Indian Desert"
-          ],
-          "routes": [
-            "Aravalli–Thar transition"
-          ],
-          "legend": [
-            "Desert",
-            "City",
-            "Hill"
-          ],
+          "text": "Locate the Thar and compare it with the nearby Aravalli region.\n\n📍 Places to locate:\nThar Desert • Jaisalmer • Jodhpur • Mount Abu\n\n⭐ Focus regions: Great Indian Desert\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "orange",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Thar Desert",
+              "lat": 27.0,
+              "lon": 71.0,
+              "description": "Arid region of western India with dunes and sparse rainfall."
+            },
+            {
+              "label": "Jaisalmer",
+              "lat": 26.92,
+              "lon": 70.9,
+              "description": "Major city in the Thar Desert region."
+            },
+            {
+              "label": "Jodhpur",
+              "lat": 26.24,
+              "lon": 73.02,
+              "description": "Major city on the edge of the Thar Desert."
+            },
+            {
+              "label": "Mount Abu",
+              "lat": 24.59,
+              "lon": 72.71,
+              "description": "Hill station in the Aravalli range."
+            }
+          ],
+          "mapCenter": [
+            26.0,
+            74.0
+          ],
+          "zoom": 6,
+          "showStates": false
         },
         {
           "type": "important",
@@ -990,61 +908,49 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Aravallis — Map Work",
-          "purpose": "Trace the broad north-east to south-west trend and point to associated places.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Delhi",
-              "lat": 28.6,
-              "lon": 77.2,
-              "kind": "city",
-              "label": "Delhi"
-            },
-            {
-              "name": "Aravalli Range",
-              "lat": 26,
-              "lon": 73,
-              "kind": "range",
-              "label": "Aravalli Range"
-            },
-            {
-              "name": "Mount Abu",
-              "lat": 24.6,
-              "lon": 72.7,
-              "kind": "hill",
-              "label": "Mount Abu"
-            },
-            {
-              "name": "Chittorgarh",
-              "lat": 24.9,
-              "lon": 74.6,
-              "kind": "fort",
-              "label": "Chittorgarh"
-            },
-            {
-              "name": "Kumbhalgarh",
-              "lat": 25.15,
-              "lon": 73.58,
-              "kind": "fort",
-              "label": "Kumbhalgarh"
-            }
-          ],
-          "highlightRegions": [
-            "Aravalli Hills"
-          ],
-          "routes": [
-            "Delhi → Rajasthan → Gujarat direction"
-          ],
-          "legend": [
-            "Range",
-            "Fort",
-            "City"
-          ],
+          "text": "Trace the broad north-east to south-west trend and point to associated places.\n\n📍 Places to locate:\nDelhi • Aravalli Range • Mount Abu • Chittorgarh • Kumbhalgarh\n\n⭐ Focus regions: Aravalli Hills\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "brown",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Delhi",
+              "lat": 28.61,
+              "lon": 77.21,
+              "description": "Northern Indian city near the northeastern end of the Aravalli system."
+            },
+            {
+              "label": "Aravalli Range",
+              "lat": 26.9,
+              "lon": 73.7,
+              "description": "Ancient hill system trending broadly northeast to southwest."
+            },
+            {
+              "label": "Mount Abu",
+              "lat": 24.59,
+              "lon": 72.71,
+              "description": "Hill station in the Aravalli range."
+            },
+            {
+              "label": "Chittorgarh",
+              "lat": 24.89,
+              "lon": 74.63,
+              "description": "Historic city associated with the Aravalli region."
+            },
+            {
+              "label": "Kumbhalgarh",
+              "lat": 25.15,
+              "lon": 73.58,
+              "description": "Historic fort region in the Aravallis."
+            }
+          ],
+          "mapCenter": [
+            26.0,
+            74.0
+          ],
+          "zoom": 6,
+          "showStates": false
         },
         {
           "type": "important",
@@ -1140,100 +1046,79 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Peninsular Plateau — Ghats and Rivers",
-          "purpose": "Point to Western Ghats, Eastern Ghats, Deccan Plateau and major rivers.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Western Ghats",
-              "lat": 15,
-              "lon": 74,
-              "kind": "range",
-              "label": "Western Ghats"
-            },
-            {
-              "name": "Eastern Ghats",
-              "lat": 17,
-              "lon": 80.5,
-              "kind": "range",
-              "label": "Eastern Ghats"
-            },
-            {
-              "name": "Deccan Plateau",
-              "lat": 18,
-              "lon": 77,
-              "kind": "plateau",
-              "label": "Deccan Plateau"
-            },
-            {
-              "name": "Narmada",
-              "lat": 22,
-              "lon": 76,
-              "kind": "river",
-              "label": "Narmada"
-            },
-            {
-              "name": "Tapti",
-              "lat": 21,
-              "lon": 75,
-              "kind": "river",
-              "label": "Tapti"
-            },
-            {
-              "name": "Godavari",
-              "lat": 18.8,
-              "lon": 80,
-              "kind": "river",
-              "label": "Godavari"
-            },
-            {
-              "name": "Krishna",
-              "lat": 16.3,
-              "lon": 78,
-              "kind": "river",
-              "label": "Krishna"
-            },
-            {
-              "name": "Kaveri",
-              "lat": 11.9,
-              "lon": 78,
-              "kind": "river",
-              "label": "Kaveri"
-            },
-            {
-              "name": "Mahanadi",
-              "lat": 20.5,
-              "lon": 83,
-              "kind": "river",
-              "label": "Mahanadi"
-            },
-            {
-              "name": "Jog Falls",
-              "lat": 14.23,
-              "lon": 74.8,
-              "kind": "waterfall",
-              "label": "Jog Falls"
-            }
-          ],
-          "highlightRegions": [
-            "Peninsular Plateau",
-            "Western Ghats",
-            "Eastern Ghats"
-          ],
-          "routes": [
-            "West-flowing",
-            "East-flowing"
-          ],
-          "legend": [
-            "Range",
-            "Plateau",
-            "River",
-            "Waterfall"
-          ],
+          "text": "Point to Western Ghats, Eastern Ghats, Deccan Plateau and major rivers.\n\n📍 Places to locate:\nWestern Ghats • Eastern Ghats • Deccan Plateau • Narmada • Tapti • Godavari • Krishna • Kaveri • Mahanadi • Jog Falls\n\n⭐ Focus regions: Peninsular Plateau • Western Ghats • Eastern Ghats\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "purple",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Western Ghats",
+              "lat": 15.0,
+              "lon": 74.0,
+              "description": "Long, relatively continuous mountain chain along western peninsular India."
+            },
+            {
+              "label": "Eastern Ghats",
+              "lat": 16.5,
+              "lon": 81.5,
+              "description": "Discontinuous hill system along the eastern side of the plateau."
+            },
+            {
+              "label": "Deccan Plateau",
+              "lat": 17.5,
+              "lon": 77.5,
+              "description": "Large plateau region south of the Narmada valley."
+            },
+            {
+              "label": "Narmada",
+              "lat": 22.7,
+              "lon": 75.8,
+              "description": "Major west-flowing peninsular river draining to the Arabian Sea."
+            },
+            {
+              "label": "Tapti",
+              "lat": 21.5,
+              "lon": 76.0,
+              "description": "Major west-flowing river south of the Narmada."
+            },
+            {
+              "label": "Godavari",
+              "lat": 18.7,
+              "lon": 80.0,
+              "description": "Major east-flowing peninsular river and one of India's longest rivers."
+            },
+            {
+              "label": "Krishna",
+              "lat": 16.5,
+              "lon": 79.5,
+              "description": "Major east-flowing river of the Deccan Plateau."
+            },
+            {
+              "label": "Kaveri",
+              "lat": 11.8,
+              "lon": 78.5,
+              "description": "Important south Indian river flowing toward the east coast."
+            },
+            {
+              "label": "Mahanadi",
+              "lat": 20.5,
+              "lon": 83.0,
+              "description": "Major east-flowing river draining toward Odisha."
+            },
+            {
+              "label": "Jog Falls",
+              "lat": 14.23,
+              "lon": 74.79,
+              "description": "Major waterfall on the Sharavathi River in Karnataka."
+            }
+          ],
+          "mapCenter": [
+            16.5,
+            77.0
+          ],
+          "zoom": 5.5,
+          "showStates": false
         },
         {
           "type": "concept",
@@ -1331,78 +1216,61 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Coastal India — Point Both Coasts",
-          "purpose": "Trace both coastal belts and identify seas, lagoons and important coastal points.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Gujarat Coast",
-              "lat": 22.3,
-              "lon": 70,
-              "kind": "coast",
-              "label": "Gujarat Coast"
-            },
-            {
-              "name": "Mumbai",
-              "lat": 19.1,
-              "lon": 72.9,
-              "kind": "port",
-              "label": "Mumbai"
-            },
-            {
-              "name": "Goa",
-              "lat": 15.4,
-              "lon": 73.9,
-              "kind": "state",
-              "label": "Goa"
-            },
-            {
-              "name": "Kerala Coast",
-              "lat": 10.4,
-              "lon": 76.3,
-              "kind": "coast",
-              "label": "Kerala Coast"
-            },
-            {
-              "name": "Chilika Lake",
-              "lat": 19.7,
-              "lon": 85.4,
-              "kind": "lagoon",
-              "label": "Chilika Lake"
-            },
-            {
-              "name": "Pulicat Lake",
-              "lat": 13.6,
-              "lon": 80.2,
-              "kind": "lagoon",
-              "label": "Pulicat Lake"
-            },
-            {
-              "name": "Kanyakumari",
-              "lat": 8.1,
-              "lon": 77.5,
-              "kind": "cape",
-              "label": "Kanyakumari"
-            }
-          ],
-          "highlightRegions": [
-            "West Coast",
-            "East Coast"
-          ],
-          "routes": [
-            "Arabian Sea",
-            "Bay of Bengal"
-          ],
-          "legend": [
-            "Coast",
-            "Port",
-            "Lagoon",
-            "Cape"
-          ],
+          "text": "Trace both coastal belts and identify seas, lagoons and important coastal points.\n\n📍 Places to locate:\nGujarat Coast • Mumbai • Goa • Kerala Coast • Chilika Lake • Pulicat Lake • Kanyakumari\n\n⭐ Focus regions: West Coast • East Coast\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "blue",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Gujarat Coast",
+              "lat": 21.5,
+              "lon": 71.5,
+              "description": "Western coastal belt around the Gulf of Khambhat and Kathiawar region."
+            },
+            {
+              "label": "Mumbai",
+              "lat": 19.08,
+              "lon": 72.88,
+              "description": "Major port city on India's west coast."
+            },
+            {
+              "label": "Goa",
+              "lat": 15.4,
+              "lon": 73.9,
+              "description": "Small coastal state on the Konkan coast."
+            },
+            {
+              "label": "Kerala Coast",
+              "lat": 9.8,
+              "lon": 76.3,
+              "description": "Southwestern coastal belt noted for lagoons and backwaters."
+            },
+            {
+              "label": "Chilika Lake",
+              "lat": 19.7,
+              "lon": 85.4,
+              "description": "Large brackish-water lagoon on the Odisha coast."
+            },
+            {
+              "label": "Pulicat Lake",
+              "lat": 13.6,
+              "lon": 80.1,
+              "description": "Large lagoon on the Andhra Pradesh–Tamil Nadu coastal zone."
+            },
+            {
+              "label": "Kanyakumari",
+              "lat": 8.08,
+              "lon": 77.55,
+              "description": "Southern tip of mainland India where three major water bodies meet in the traditional geographic description."
+            }
+          ],
+          "mapCenter": [
+            16.5,
+            80.5
+          ],
+          "zoom": 5.7,
+          "showStates": false
         },
         {
           "type": "important",
@@ -1461,68 +1329,55 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Indian Islands — High-Priority Map",
-          "purpose": "Always identify both island groups and the sea in which each lies.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Lakshadweep",
-              "lat": 10.6,
-              "lon": 72.6,
-              "kind": "island-group",
-              "label": "Lakshadweep"
-            },
-            {
-              "name": "Malabar Coast",
-              "lat": 10.5,
-              "lon": 76,
-              "kind": "coast",
-              "label": "Malabar Coast"
-            },
-            {
-              "name": "Andaman Islands",
-              "lat": 12,
-              "lon": 92.8,
-              "kind": "island-group",
-              "label": "Andaman Islands"
-            },
-            {
-              "name": "Nicobar Islands",
-              "lat": 8,
-              "lon": 93,
-              "kind": "island-group",
-              "label": "Nicobar Islands"
-            },
-            {
-              "name": "Port Blair",
-              "lat": 11.62,
-              "lon": 92.73,
-              "kind": "city",
-              "label": "Port Blair"
-            },
-            {
-              "name": "Barren Island",
-              "lat": 12.28,
-              "lon": 93.07,
-              "kind": "volcano",
-              "label": "Barren Island"
-            }
-          ],
-          "highlightRegions": [
-            "Lakshadweep",
-            "Andaman Islands",
-            "Nicobar Islands"
-          ],
-          "routes": [],
-          "legend": [
-            "Island group",
-            "City",
-            "Volcano"
-          ],
+          "text": "Always identify both island groups and the sea in which each lies.\n\n📍 Places to locate:\nLakshadweep • Malabar Coast • Andaman Islands • Nicobar Islands • Port Blair • Barren Island\n\n⭐ Focus regions: Lakshadweep • Andaman Islands • Nicobar Islands\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "teal",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Lakshadweep",
+              "lat": 10.5,
+              "lon": 72.6,
+              "description": "Coral island group in the Arabian Sea."
+            },
+            {
+              "label": "Malabar Coast",
+              "lat": 10.5,
+              "lon": 76.0,
+              "description": "Southwestern coastal belt along the Arabian Sea."
+            },
+            {
+              "label": "Andaman Islands",
+              "lat": 12.0,
+              "lon": 92.8,
+              "description": "Island group in the Bay of Bengal."
+            },
+            {
+              "label": "Nicobar Islands",
+              "lat": 8.2,
+              "lon": 93.0,
+              "description": "Southern island group in the Bay of Bengal."
+            },
+            {
+              "label": "Port Blair",
+              "lat": 11.62,
+              "lon": 92.73,
+              "description": "Major city and administrative centre in the Andaman Islands."
+            },
+            {
+              "label": "Barren Island",
+              "lat": 12.28,
+              "lon": 93.85,
+              "description": "India's only confirmed active volcano, in the Andaman Sea region."
+            }
+          ],
+          "mapCenter": [
+            15.0,
+            83.0
+          ],
+          "zoom": 4.8,
+          "showStates": false
         },
         {
           "type": "table",
@@ -1599,62 +1454,49 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Sundarbans — Delta Map",
-          "purpose": "Point to the Ganga–Brahmaputra delta, West Bengal, Bay of Bengal and India–Bangladesh delta region.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Ganga–Brahmaputra Delta",
-              "lat": 22.4,
-              "lon": 89.3,
-              "kind": "delta",
-              "label": "Ganga–Brahmaputra Delta"
-            },
-            {
-              "name": "West Bengal",
-              "lat": 23,
-              "lon": 88,
-              "kind": "state",
-              "label": "West Bengal"
-            },
-            {
-              "name": "Sundarbans",
-              "lat": 21.9,
-              "lon": 88.9,
-              "kind": "wetland",
-              "label": "Sundarbans"
-            },
-            {
-              "name": "Bay of Bengal",
-              "lat": 19,
-              "lon": 89.5,
-              "kind": "sea",
-              "label": "Bay of Bengal"
-            },
-            {
-              "name": "Bangladesh",
-              "lat": 23.7,
-              "lon": 90.4,
-              "kind": "country",
-              "label": "Bangladesh"
-            }
-          ],
-          "highlightRegions": [
-            "Sundarbans"
-          ],
-          "routes": [
-            "Ganga–Brahmaputra system"
-          ],
-          "legend": [
-            "Delta",
-            "Wetland",
-            "Sea",
-            "Country"
-          ],
+          "text": "Point to the Ganga–Brahmaputra delta, West Bengal, Bay of Bengal and India–Bangladesh delta region.\n\n📍 Places to locate:\nGanga–Brahmaputra Delta • West Bengal • Sundarbans • Bay of Bengal • Bangladesh\n\n⭐ Focus regions: Sundarbans\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "green",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Ganga–Brahmaputra Delta",
+              "lat": 22.2,
+              "lon": 89.3,
+              "description": "Vast deltaic region built by sediments of the Ganga, Brahmaputra and associated rivers."
+            },
+            {
+              "label": "West Bengal",
+              "lat": 23.0,
+              "lon": 88.0,
+              "description": "Indian state containing a large part of the Sundarbans."
+            },
+            {
+              "label": "Sundarbans",
+              "lat": 21.9,
+              "lon": 89.0,
+              "description": "Mangrove delta region at the Ganga–Brahmaputra–Meghna delta."
+            },
+            {
+              "label": "Bay of Bengal",
+              "lat": 15.0,
+              "lon": 88.0,
+              "description": "Sea east of India."
+            },
+            {
+              "label": "Bangladesh",
+              "lat": 23.7,
+              "lon": 90.4,
+              "description": "Neighbour east of India and part of the Ganga–Brahmaputra delta region."
+            }
+          ],
+          "mapCenter": [
+            23.0,
+            88.0
+          ],
+          "zoom": 6,
+          "showStates": false
         },
         {
           "type": "important",
@@ -1705,59 +1547,49 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Northeast India — Garo, Khasi and Jaintia Hills",
-          "purpose": "Zoom into Meghalaya and identify the three major hill systems.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Meghalaya",
-              "lat": 25.5,
-              "lon": 91.3,
-              "kind": "state",
-              "label": "Meghalaya"
-            },
-            {
-              "name": "Garo Hills",
-              "lat": 25.6,
-              "lon": 90.7,
-              "kind": "hills",
-              "label": "Garo Hills"
-            },
-            {
-              "name": "Khasi Hills",
-              "lat": 25.5,
-              "lon": 91.3,
-              "kind": "hills",
-              "label": "Khasi Hills"
-            },
-            {
-              "name": "Jaintia Hills",
-              "lat": 25.3,
-              "lon": 92.4,
-              "kind": "hills",
-              "label": "Jaintia Hills"
-            },
-            {
-              "name": "Mawlynnong",
-              "lat": 25.2,
-              "lon": 91.9,
-              "kind": "village",
-              "label": "Mawlynnong"
-            }
-          ],
-          "highlightRegions": [
-            "Meghalaya Plateau"
-          ],
-          "routes": [],
-          "legend": [
-            "State",
-            "Hill system",
-            "Village"
-          ],
+          "text": "Zoom into Meghalaya and identify the three major hill systems.\n\n📍 Places to locate:\nMeghalaya • Garo Hills • Khasi Hills • Jaintia Hills • Mawlynnong\n\n⭐ Focus regions: Meghalaya Plateau\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "teal",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Meghalaya",
+              "lat": 25.5,
+              "lon": 91.3,
+              "description": "Northeastern state containing the Garo, Khasi and Jaintia Hills."
+            },
+            {
+              "label": "Garo Hills",
+              "lat": 25.7,
+              "lon": 90.4,
+              "description": "Hill system in western Meghalaya."
+            },
+            {
+              "label": "Khasi Hills",
+              "lat": 25.4,
+              "lon": 91.7,
+              "description": "Hill system in central Meghalaya."
+            },
+            {
+              "label": "Jaintia Hills",
+              "lat": 25.4,
+              "lon": 92.4,
+              "description": "Hill system in eastern Meghalaya."
+            },
+            {
+              "label": "Mawlynnong",
+              "lat": 25.2,
+              "lon": 91.89,
+              "description": "Village in the Khasi Hills region of Meghalaya."
+            }
+          ],
+          "mapCenter": [
+            25.5,
+            91.5
+          ],
+          "zoom": 7,
+          "showStates": false
         },
         {
           "type": "important",
@@ -1924,176 +1756,212 @@ window.ChapterData = {
         {
           "type": "map",
           "title": "🗺️ Final Physical Map Challenge",
-          "purpose": "Show all high-priority features. Each marker should be tappable in the app for a name + one-line clue.",
-          "mapMode": "india-physical",
-          "interactive": true,
-          "showLabels": true,
-          "markers": [
-            {
-              "name": "Himalayas",
-              "lat": 30.5,
-              "lon": 80.5,
-              "kind": "range",
-              "label": "Himalayas"
-            },
-            {
-              "name": "Ladakh",
-              "lat": 34.1,
-              "lon": 77.6,
-              "kind": "region",
-              "label": "Ladakh"
-            },
-            {
-              "name": "Gaumukh",
-              "lat": 30.9,
-              "lon": 79.1,
-              "kind": "site",
-              "label": "Gaumukh"
-            },
-            {
-              "name": "Ganga",
-              "lat": 25.5,
-              "lon": 82,
-              "kind": "river",
-              "label": "Ganga"
-            },
-            {
-              "name": "Brahmaputra",
-              "lat": 26.2,
-              "lon": 91,
-              "kind": "river",
-              "label": "Brahmaputra"
-            },
-            {
-              "name": "Thar Desert",
-              "lat": 27.5,
-              "lon": 71.2,
-              "kind": "desert",
-              "label": "Thar Desert"
-            },
-            {
-              "name": "Aravallis",
-              "lat": 26,
-              "lon": 73,
-              "kind": "range",
-              "label": "Aravallis"
-            },
-            {
-              "name": "Western Ghats",
-              "lat": 15,
-              "lon": 74,
-              "kind": "range",
-              "label": "Western Ghats"
-            },
-            {
-              "name": "Eastern Ghats",
-              "lat": 17,
-              "lon": 80.5,
-              "kind": "range",
-              "label": "Eastern Ghats"
-            },
-            {
-              "name": "Narmada",
-              "lat": 22,
-              "lon": 76,
-              "kind": "river",
-              "label": "Narmada"
-            },
-            {
-              "name": "Godavari",
-              "lat": 18.8,
-              "lon": 80,
-              "kind": "river",
-              "label": "Godavari"
-            },
-            {
-              "name": "Krishna",
-              "lat": 16.3,
-              "lon": 78,
-              "kind": "river",
-              "label": "Krishna"
-            },
-            {
-              "name": "Kaveri",
-              "lat": 11.9,
-              "lon": 78,
-              "kind": "river",
-              "label": "Kaveri"
-            },
-            {
-              "name": "Mahanadi",
-              "lat": 20.5,
-              "lon": 83,
-              "kind": "river",
-              "label": "Mahanadi"
-            },
-            {
-              "name": "Lakshadweep",
-              "lat": 10.6,
-              "lon": 72.6,
-              "kind": "island",
-              "label": "Lakshadweep"
-            },
-            {
-              "name": "Andaman & Nicobar",
-              "lat": 11.5,
-              "lon": 93,
-              "kind": "island",
-              "label": "Andaman & Nicobar"
-            },
-            {
-              "name": "Sundarbans",
-              "lat": 21.9,
-              "lon": 88.9,
-              "kind": "wetland",
-              "label": "Sundarbans"
-            },
-            {
-              "name": "Garo Hills",
-              "lat": 25.6,
-              "lon": 90.7,
-              "kind": "hills",
-              "label": "Garo Hills"
-            },
-            {
-              "name": "Khasi Hills",
-              "lat": 25.5,
-              "lon": 91.3,
-              "kind": "hills",
-              "label": "Khasi Hills"
-            },
-            {
-              "name": "Jaintia Hills",
-              "lat": 25.3,
-              "lon": 92.4,
-              "kind": "hills",
-              "label": "Jaintia Hills"
-            }
-          ],
-          "highlightRegions": [
-            "Mountains",
-            "Plains",
-            "Desert",
-            "Plateau",
-            "Coasts",
-            "Islands",
-            "Northeast Hills"
-          ],
-          "routes": [
-            "Major rivers"
-          ],
-          "legend": [
-            "Mountain",
-            "Plain",
-            "Desert",
-            "Plateau",
-            "River",
-            "Island",
-            "Hill"
-          ],
+          "text": "Show all high-priority features. Each marker should be tappable in the app for a name + one-line clue.\n\n📍 Places to locate:\nHimalayas • Ladakh • Gaumukh • Ganga • Brahmaputra • Thar Desert • Aravallis • Western Ghats • Eastern Ghats • Narmada • Godavari • Krishna • Kaveri • Mahanadi • Lakshadweep • Andaman & Nicobar • Sundarbans • Garo Hills • Khasi Hills • Jaintia Hills\n\n⭐ Focus regions: Mountains • Plains • Desert • Plateau • Coasts • Islands • Northeast Hills\n\n🧭 Map task: Point to each place on your physical map of India and explain its position.",
           "cardStyle": "colorful",
           "color": "purple",
-          "renderAs": "map-card"
+          "renderAs": "card",
+          "mapMode": "india-physical",
+          "markers": [
+            {
+              "label": "Himalayas",
+              "lat": 30.5,
+              "lon": 81.5,
+              "description": "Major mountain system forming India's northern natural barrier."
+            },
+            {
+              "label": "Ladakh",
+              "lat": 34.2,
+              "lon": 77.6,
+              "description": "High-altitude cold desert region in the northern part of India."
+            },
+            {
+              "label": "Gaumukh",
+              "lat": 30.93,
+              "lon": 79.07,
+              "description": "Glacial source region associated with the Bhagirathi, a headstream of the Ganga."
+            },
+            {
+              "label": "Ganga",
+              "lat": 25.3,
+              "lon": 83.0,
+              "description": "Major north Indian river flowing eastward toward the Bay of Bengal."
+            },
+            {
+              "label": "Brahmaputra",
+              "lat": 26.2,
+              "lon": 91.7,
+              "description": "Major river entering India through the eastern Himalayas and flowing across Assam."
+            },
+            {
+              "label": "Thar Desert",
+              "lat": 27.0,
+              "lon": 71.0,
+              "description": "Arid region of western India with dunes and sparse rainfall."
+            },
+            {
+              "label": "Aravallis",
+              "lat": 22.5,
+              "lon": 79.0,
+              "description": "Locate this feature on the physical map of India."
+            },
+            {
+              "label": "Western Ghats",
+              "lat": 15.0,
+              "lon": 74.0,
+              "description": "Long, relatively continuous mountain chain along western peninsular India."
+            },
+            {
+              "label": "Eastern Ghats",
+              "lat": 16.5,
+              "lon": 81.5,
+              "description": "Discontinuous hill system along the eastern side of the plateau."
+            },
+            {
+              "label": "Narmada",
+              "lat": 22.7,
+              "lon": 75.8,
+              "description": "Major west-flowing peninsular river draining to the Arabian Sea."
+            },
+            {
+              "label": "Godavari",
+              "lat": 18.7,
+              "lon": 80.0,
+              "description": "Major east-flowing peninsular river and one of India's longest rivers."
+            },
+            {
+              "label": "Krishna",
+              "lat": 16.5,
+              "lon": 79.5,
+              "description": "Major east-flowing river of the Deccan Plateau."
+            },
+            {
+              "label": "Kaveri",
+              "lat": 11.8,
+              "lon": 78.5,
+              "description": "Important south Indian river flowing toward the east coast."
+            },
+            {
+              "label": "Mahanadi",
+              "lat": 20.5,
+              "lon": 83.0,
+              "description": "Major east-flowing river draining toward Odisha."
+            },
+            {
+              "label": "Lakshadweep",
+              "lat": 10.5,
+              "lon": 72.6,
+              "description": "Coral island group in the Arabian Sea."
+            },
+            {
+              "label": "Andaman & Nicobar",
+              "lat": 11.8,
+              "lon": 92.8,
+              "description": "Island group in the Bay of Bengal."
+            },
+            {
+              "label": "Sundarbans",
+              "lat": 21.9,
+              "lon": 89.0,
+              "description": "Mangrove delta region at the Ganga–Brahmaputra–Meghna delta."
+            },
+            {
+              "label": "Garo Hills",
+              "lat": 25.7,
+              "lon": 90.4,
+              "description": "Hill system in western Meghalaya."
+            },
+            {
+              "label": "Khasi Hills",
+              "lat": 25.4,
+              "lon": 91.7,
+              "description": "Hill system in central Meghalaya."
+            },
+            {
+              "label": "Jaintia Hills",
+              "lat": 25.4,
+              "lon": 92.4,
+              "description": "Hill system in eastern Meghalaya."
+            }
+          ],
+          "mapCenter": [
+            31.5,
+            79.0
+          ],
+          "zoom": 5.2,
+          "showStates": false,
+          "routes": [
+            {
+              "label": "Ganga study line",
+              "points": [
+                [
+                  30.9,
+                  79.1
+                ],
+                [
+                  29.4,
+                  78.2
+                ],
+                [
+                  27.2,
+                  81.8
+                ],
+                [
+                  25.3,
+                  83.0
+                ],
+                [
+                  22.6,
+                  87.9
+                ]
+              ]
+            },
+            {
+              "label": "Brahmaputra study line",
+              "points": [
+                [
+                  30.3,
+                  90.0
+                ],
+                [
+                  28.0,
+                  95.0
+                ],
+                [
+                  27.3,
+                  94.0
+                ],
+                [
+                  26.2,
+                  91.7
+                ],
+                [
+                  25.9,
+                  89.7
+                ]
+              ]
+            },
+            {
+              "label": "Peninsular west-flowing rivers",
+              "points": [
+                [
+                  22.7,
+                  81.8
+                ],
+                [
+                  22.7,
+                  75.8
+                ],
+                [
+                  21.5,
+                  76.0
+                ],
+                [
+                  21.5,
+                  72.0
+                ]
+              ]
+            }
+          ]
         },
         {
           "type": "activity",
@@ -2187,12 +2055,9 @@ window.ChapterData = {
     }
   ],
   "visualPolicy": {
-    "figures": true,
-    "maps": "Insert interactive physical maps where locations or landforms need to be shown.",
-    "mapPointing": "Each map block has labelled markers and approximate coordinates.",
-    "earthModels": "Use globe/3D Earth for India-in-Asia location and Himalayan plate-collision formation.",
-    "fallback": "If map/earthModel renderer is unavailable, render the same data as a large colourful card with a place list and map instructions.",
-    "noRigidPattern": true
+    "maps": "Map-study cards are renderer-safe. They list exactly what to locate and where the map is needed.",
+    "earthModels": "Globe-study cards are renderer-safe. They provide a globe sequence without exposing unsupported model fields.",
+    "note": "The current site's renderer does not implement custom map/3D-earth block types, so unsupported fields have been removed from the chapter data."
   },
   "stats": {
     "mode": "ultra-detailed",
@@ -2201,6 +2066,7 @@ window.ChapterData = {
     "maps": 13,
     "earthModels": 2,
     "keyTerms": 34,
-    "importantPoints": 29
+    "importantPoints": 29,
+    "rendererSafe": true
   }
 };
