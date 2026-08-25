@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-linear-equations-in-one-variable",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 2,
+  title: "Linear Equations in One Variable",
+  file: "js/notes/class8/mathematics/linear-equations-in-one-variable.js",
+  enabled: true
+},
+  
+  {
   id: "class8-mathematics-rational-numbers",
   class: 8,
   subject: "Mathematics",
