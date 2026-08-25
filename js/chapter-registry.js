@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-mathematics-introduction-to-graphs",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 15,
+  title: "Introduction to Graphs",
+  file: "js/notes/class8/mathematics/introduction-to-graphs.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-factorisation",
   class: 8,
   subject: "Mathematics",
