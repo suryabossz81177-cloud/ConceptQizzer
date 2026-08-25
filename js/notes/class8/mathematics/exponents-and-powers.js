@@ -1,5 +1,5 @@
 window.ChapterData = {
-  "id": "class8-mathematics-exponents-and-powers",
+  "id": "8-mathematics-exponents-and-powers",
   "class": 8,
   "subject": "Mathematics",
   "chapterNumber": 12,
