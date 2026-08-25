@@ -1,5 +1,5 @@
 window.ChapterData = {
-  "id": "class8-mathematics-factorisation",
+  "id": "8-mathematics-factorisation",
   "class": 8,
   "subject": "Mathematics",
   "chapterNumber": 14,
