@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-mathematics-rational-numbers",
+  class: 8,
+  subject: "Mathematics",
+  chapterNumber: 1,
+  title: "Rational Numbers",
+  file: "js/notes/class8/mathematics/rational-numbers.js",
+  enabled: true
+},
+  
+  {
   id: "class7-civics-understanding-markets",
   class: 7,
   subject: "Civics",
