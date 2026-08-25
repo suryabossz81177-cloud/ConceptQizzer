@@ -1,5 +1,5 @@
 window.ChapterData = {
-  "id": "class8-mathematics-visualising-solid-shapes",
+  "id": "8-mathematics-visualising-solid-shapes",
   "class": 8,
   "subject": "Mathematics",
   "chapterNumber": 10,
