@@ -1,5 +1,6 @@
 /* Concept Quizzer — Class 8 Science — Chapter 3 */
-window.CQ_CHAPTER = {
+
+window.ChapterData = {
   "id": "class8-science-health-the-ultimate-treasure",
   "class": 8,
   "subject": "Science",
