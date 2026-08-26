@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-science-the-invisible-living-world-beyond-our-naked-eye",
+  class: 8,
+  subject: "Science",
+  chapterNumber: 2,
+  title: "The Invisible Living World: Beyond Our Naked Eye",
+  file: "js/notes/class8/science/the-invisible-living-world-beyond-our-naked-eye.js",
+  enabled: true
+},
+  
+  {
   id: "class8-science-exploring-the-investigative-world-of-science",
   class: 8,
   subject: "Science",
