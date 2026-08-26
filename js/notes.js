@@ -3186,3 +3186,149 @@ document.addEventListener("DOMContentLoaded", function () {
   document.head.appendChild(css);
 
 })();
+
+/*========================================================
+  CONCEPT QUIZZER — CLASS 8 SCIENCE VISUAL BLOCK LAYER
+  ADDITIVE PATCH — EXISTING RENDERER PRESERVED
+========================================================*/
+(function () {
+  "use strict";
+
+  window.ConceptQuizzer = window.ConceptQuizzer || {};
+
+  const style = `
+  <style id="cq-science-block-styles">
+    .cq-science-card{
+      border-radius:24px;padding:22px 24px;margin:18px 0;
+      border:1px solid rgba(70,80,140,.12);
+      box-shadow:0 10px 28px rgba(40,45,100,.08);
+      background:linear-gradient(135deg,#ffffff,#f8fbff);
+      overflow:hidden;
+    }
+    .cq-science-card:nth-child(5n+1){background:linear-gradient(135deg,#fff7ed,#fff);}
+    .cq-science-card:nth-child(5n+2){background:linear-gradient(135deg,#eff6ff,#fff);}
+    .cq-science-card:nth-child(5n+3){background:linear-gradient(135deg,#f0fdf4,#fff);}
+    .cq-science-card:nth-child(5n+4){background:linear-gradient(135deg,#faf5ff,#fff);}
+    .cq-science-card:nth-child(5n){background:linear-gradient(135deg,#ecfeff,#fff);}
+    .cq-science-card h3{margin:0 0 12px;}
+    .cq-science-card p{line-height:1.75;margin:8px 0;}
+    .cq-science-card ul{line-height:1.7;}
+    .cq-science-label{
+      display:inline-block;padding:6px 11px;border-radius:999px;
+      font-size:.78rem;font-weight:800;margin-bottom:10px;
+      background:rgba(79,70,229,.10);
+    }
+    .cq-science-figure{
+      margin:16px 0 4px;padding:12px;border-radius:20px;
+      background:#fff;border:1px solid rgba(70,80,140,.10);
+      overflow:auto;
+    }
+    .cq-science-figure svg,.cq-science-figure img{
+      display:block;max-width:100%;height:auto;margin:auto;
+    }
+    .cq-science-experiment{border-left:7px solid #0891b2;background:linear-gradient(135deg,#ecfeff,#f0fdfa);}
+    .cq-science-observation{border-left:7px solid #f59e0b;background:linear-gradient(135deg,#fff7ed,#fffbeb);}
+    .cq-science-fact{border-left:7px solid #4f46e5;background:linear-gradient(135deg,#eff6ff,#eef2ff);}
+    .cq-science-think{border-left:7px solid #9333ea;background:linear-gradient(135deg,#faf5ff,#fdf4ff);}
+    .cq-science-warning{border-left:7px solid #ef4444;background:linear-gradient(135deg,#fef2f2,#fff7ed);}
+    .cq-science-real{border-left:7px solid #16a34a;background:linear-gradient(135deg,#f0fdf4,#ecfdf5);}
+    .cq-science-exam{border-left:7px solid #e11d48;background:linear-gradient(135deg,#fff1f2,#fff7ed);}
+    .cq-science-process{border-left:7px solid #0284c7;background:linear-gradient(135deg,#ecfeff,#eff6ff);}
+    .cq-science-table{width:100%;border-collapse:collapse;margin-top:12px;background:#fff;}
+    .cq-science-table th,.cq-science-table td{padding:11px 12px;border:1px solid #e5e7eb;text-align:left;}
+    .cq-science-table th{font-weight:800;background:#eef2ff;}
+    .cq-science-step{padding:12px 14px;margin:8px 0;border-radius:14px;background:rgba(255,255,255,.8);}
+  </style>`;
+
+  function ensureStyles(){
+    if(!document.getElementById("cq-science-block-styles"))
+      document.head.insertAdjacentHTML("beforeend",style);
+  }
+
+  function esc(v){
+    return String(v ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function renderBlock(block){
+    if(!block) return "";
+    const type = block.type || "paragraph";
+    const title = esc(block.title || block.heading || "");
+    const text = block.text || block.content || "";
+
+    if(["figure","visual","diagram"].includes(type)){
+      return `<div class="cq-science-card">
+        ${title ? `<span class="cq-science-label">🔬 ${title}</span>` : ""}
+        <div class="cq-science-figure">
+          ${block.html || block.svg || (block.src ? `<img src="${esc(block.src)}" alt="${title}">` : "")}
+        </div>
+        ${block.caption ? `<p><b>Figure:</b> ${esc(block.caption)}</p>` : ""}
+      </div>`;
+    }
+
+    const map = {
+      experiment:"cq-science-experiment", activity:"cq-science-experiment",
+      observation:"cq-science-observation", fact:"cq-science-fact",
+      think:"cq-science-think", warning:"cq-science-warning",
+      misconception:"cq-science-warning", application:"cq-science-real",
+      realLife:"cq-science-real", examTip:"cq-science-exam",
+      process:"cq-science-process", definition:"cq-science-fact",
+      important:"cq-science-exam", keypoint:"cq-science-exam"
+    };
+
+    let body = text ? `<p>${text}</p>` : "";
+
+    if(Array.isArray(block.steps)){
+      body += block.steps.map((s,i)=>
+        `<div class="cq-science-step"><b>Step ${i+1}:</b> ${s}</div>`
+      ).join("");
+    }
+
+    if(Array.isArray(block.items)){
+      body += `<ul>${block.items.map(x=>`<li>${x}</li>`).join("")}</ul>`;
+    }
+
+    if(Array.isArray(block.rows)){
+      body += `<table class="cq-science-table"><tbody>${
+        block.rows.map((row,i)=>`<tr>${row.map(c=>i===0?`<th>${esc(c)}</th>`:`<td>${esc(c)}</td>`).join("")}</tr>`).join("")
+      }</tbody></table>`;
+    }
+
+    if(block.html) body += `<div class="cq-science-figure">${block.html}</div>`;
+
+    return `<div class="cq-science-card ${map[type] || ""}">
+      ${title ? `<h3>${title}</h3>` : ""}${body}
+    </div>`;
+  }
+
+  function renderScienceBlocks(chapter){
+    if(!chapter || !Array.isArray(chapter.sections)) return;
+    ensureStyles();
+
+    const notes = document.getElementById("notesContent");
+    if(!notes) return;
+
+    chapter.sections.forEach((section,index)=>{
+      const blocks = section.scienceBlocks || section.visualBlocks;
+      if(!Array.isArray(blocks) || !blocks.length) return;
+
+      const wrapper = document.createElement("div");
+      wrapper.className = "cq-science-extra-section";
+      wrapper.innerHTML = blocks.map(renderBlock).join("");
+
+      const existing = notes.children[index];
+      if(existing) existing.appendChild(wrapper);
+      else notes.appendChild(wrapper);
+    });
+  }
+
+  window.addEventListener("cq:chapter-loaded",e=>{
+    if(e.detail && e.detail.chapter)
+      requestAnimationFrame(()=>renderScienceBlocks(e.detail.chapter));
+  });
+
+  if(typeof window.ChapterData !== "undefined")
+    requestAnimationFrame(()=>renderScienceBlocks(window.ChapterData));
+
+  window.ConceptQuizzer.renderScienceBlocks = renderScienceBlocks;
+})();
