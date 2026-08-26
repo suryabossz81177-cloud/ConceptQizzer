@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-science-health-the-ultimate-treasure",
+  class: 8,
+  subject: "Science",
+  chapterNumber: 3,
+  title: "Health: The Ultimate Treasure",
+  file: "js/notes/class8/science/health-the-ultimate-treasure.js",
+  enabled: true
+},
+  
+  {
   id: "class8-science-the-invisible-living-world-beyond-our-naked-eye",
   class: 8,
   subject: "Science",
