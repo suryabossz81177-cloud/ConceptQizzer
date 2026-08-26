@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-science-exploring-the-investigative-world-of-science",
+  class: 8,
+  subject: "Science",
+  chapterNumber: 1,
+  title: "Exploring the Investigative World of Science",
+  file: "js/notes/class8/science/exploring-the-investigative-world-of-science.js",
+  enabled: true
+},
+  
+  {
   id: "8-mathematics-playing-with-numbers",
   class: 8,
   subject: "Mathematics",
