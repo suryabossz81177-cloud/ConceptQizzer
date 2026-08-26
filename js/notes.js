@@ -422,6 +422,8 @@ function normalizeUnitBlocks(unit){
   }
 
   if(Array.isArray(unit.blocks)) return unit.blocks;
+  if(Array.isArray(unit.scienceBlocks)) return unit.scienceBlocks;
+  if(Array.isArray(unit.contentBlocks)) return unit.contentBlocks;
   if(Array.isArray(unit.content)) return unit.content;
 
   if(unit.type || unit.kind) return [unit];
@@ -447,71 +449,78 @@ function renderSections(sections){
 
   const safeSections=Array.isArray(sections) ? sections : [];
 
-  safeSections.forEach((section,index)=>{
+  /* ONE continuous learner-facing chapter. */
+  const card=document.createElement("div");
+  card.className="noteCard chapterFlowCard";
+  card.dataset.index="0";
 
-    const card=document.createElement("div");
-    card.className="noteCard";
-    card.dataset.index=index;
+  let html="";
+  let renderedAnything=false;
 
-    let html="";
+  safeSections.forEach((section)=>{
+    if(section === null || section === undefined) return;
 
-    const title =
-      section && typeof section === "object"
-        ? (section.title || section.heading || section.name || "")
-        : "";
+    const title = section && typeof section === "object"
+      ? (section.title || section.heading || section.name || "")
+      : "";
 
+    /* Meaningful topic heading only; never show id/section/render metadata. */
     if(title){
       html += `
-        <div class="sectionHeader flexibleSectionHeader">
+        <div class="chapterTopicHeader">
           <h3>${escapeRenderHTML(title)}</h3>
         </div>
       `;
     }
 
     const blocks=normalizeUnitBlocks(section);
-
     blocks.forEach((block,blockIndex)=>{
-      html += renderUniversalBlock(block,blockIndex);
+      const rendered=renderUniversalBlock(block,blockIndex);
+      if(rendered){ html += rendered; renderedAnything=true; }
     });
 
-    if(!html){
-      html=`
-        <div class="cqBlock cqGeneric">
-          <div class="cqBadge">📘 Content</div>
-          <p>No renderable content was supplied for this topic.</p>
-        </div>
-      `;
+    if(!blocks.length && section && typeof section === "object" && section.content){
+      html += `<div class="cqBlock cqParagraph"><div>${renderText(section.content)}</div></div>`;
+      renderedAnything=true;
     }
+  });
 
-    card.innerHTML=html;
-    notesContainer.appendChild(card);
+  if(!renderedAnything && !html){
+    html=`<div class="cqBlock cqParagraph"><p>Chapter content is loading...</p></div>`;
+  }
 
-    card.addEventListener("click",()=>{
-      localStorage.setItem("cq-last-read-" + chapterKey,index);
-    });
+  card.innerHTML=html;
+  notesContainer.appendChild(card);
+
+  card.addEventListener("click",()=>{
+    localStorage.setItem("cq-last-read-" + chapterKey,"0");
   });
 
   bindUniversalInteractions();
 
   const searchInput=document.getElementById("chapterSearch");
-
   if(searchInput && !searchInput.dataset.bound){
-
     searchInput.dataset.bound="true";
-
     searchInput.addEventListener("input",function(){
-
-      const query=this.value.toLowerCase();
-
-      document.querySelectorAll(".noteCard").forEach(card=>{
-        const cardText=card.textContent.toLowerCase();
-        card.style.display=cardText.includes(query) ? "" : "none";
+      const query=this.value.toLowerCase().trim();
+      const chapterCard=document.querySelector(".chapterFlowCard");
+      if(!chapterCard) return;
+      const parts=chapterCard.querySelectorAll(".cqBlock,.chapterTopicHeader");
+      if(!query){
+        chapterCard.style.display="";
+        parts.forEach(el=>el.style.display="");
+        return;
+      }
+      let anyMatch=false;
+      parts.forEach(el=>{
+        const match=el.textContent.toLowerCase().includes(query);
+        el.style.display=match ? "" : "none";
+        if(match) anyMatch=true;
       });
-
+      chapterCard.style.display=anyMatch ? "" : "none";
     });
   }
 }
-
 
 /*==================================================
   UNIVERSAL CONTENT RENDERER
@@ -1271,29 +1280,26 @@ function renderUniversalBlockCore(block, blockIndex){
     return `<div class="cqBlock cqRawHTML">${block.content || block.html || ""}</div>`;
   }
 
-  /* ---------- UNKNOWN / CUSTOM: RENDER EVERYTHING ---------- */
-
+  /* ---------- UNKNOWN / CUSTOM ---------- */
+  /* Do not expose renderer/debug metadata such as id, data, Card Style, etc. */
   const nestedHTML = nestedBlocks
     ? nestedBlocks.map((item,i)=>renderUniversalBlock(item,i)).join("")
     : "";
-
-  const dataHTML =
-    block.data && typeof block.data === "object"
-      ? renderAnyValue(block.data)
-      : "";
-
   const extraHTML=renderExtraBlockFields(block);
+  const titleHTML = block.title || block.heading ? `<h4>${blockTitle(block,"Content")}</h4>` : "";
+  const textHTML = text ? `<div>${renderText(text)}</div>` : "";
+  const questionHTML = block.question ? `<div class="cqQuestion"><b>❓ Question</b><p>${renderText(block.question)}</p></div>` : "";
+  const answerHTML = block.answer !== undefined ? `<details><summary>Show answer</summary><div>${renderText(block.answer)}</div></details>` : "";
+  const itemsHTML = Array.isArray(block.items) ? renderList(block.items) : "";
 
   return `
-    <div class="cqBlock cqGeneric">
-      <div class="cqBadge">📘 ${escapeRenderHTML(type || "custom")}</div>
-      ${block.title || block.heading ? `<h4>${blockTitle(block,"Content")}</h4>` : ""}
-      ${text ? `<div>${renderText(text)}</div>` : ""}
-      ${block.question ? `<div class="cqQuestion"><b>❓ Question</b><p>${renderText(block.question)}</p></div>` : ""}
-      ${block.answer !== undefined ? `<details><summary>Show answer</summary><div>${renderText(block.answer)}</div></details>` : ""}
-      ${Array.isArray(block.items) ? renderList(block.items) : ""}
+    <div class="cqBlock cqCustomContent">
+      ${titleHTML}
+      ${textHTML}
+      ${questionHTML}
+      ${answerHTML}
+      ${itemsHTML}
       ${nestedHTML}
-      ${dataHTML}
       ${extraHTML}
     </div>`;
 }
@@ -1703,6 +1709,14 @@ function installUniversalRendererStyles(){
     .cqBlock summary{cursor:pointer;font-weight:800}
     .dark .cqBlock{background:#171b2a;color:#f5f7ff}
     .dark .cqQuestion,.dark .cqQ,.dark .cqSteps,.dark .cqAnswer,.dark .formulaContent,.dark .cqOptions span,.dark .cqBlock details{background:#202638;color:#f5f7ff}
+
+    /* SCIENCE CHAPTER CLEAN FLOW PATCH */
+    .chapterFlowCard{width:100%;max-width:none;box-sizing:border-box;padding:0;background:transparent;border:0;box-shadow:none;}
+    .chapterTopicHeader{margin:28px 0 14px;padding:0 4px 12px;border-bottom:2px solid rgba(99,102,241,.12);}
+    .chapterTopicHeader:first-child{margin-top:0}
+    .chapterTopicHeader h3{margin:0;font-size:clamp(24px,4vw,34px);line-height:1.25;font-weight:800;}
+    .chapterFlowCard .cqGeneric{background:transparent;border:0;}
+    .chapterFlowCard .cqCustomContent{border-radius:24px;}
   `;
 
   document.head.appendChild(style);
@@ -2727,608 +2741,3 @@ document.addEventListener("DOMContentLoaded", function () {
     document.dispatchEvent(new Event("cq-ai-ready"));
   }
 });
-
-
-/* ==========================================================
-   CLASS 8 MATHEMATICS — UNIVERSAL EXTENSION
-   Appended to the existing Notes Logic.
-   IMPORTANT: The original renderer above is preserved.
-   ========================================================== */
-(function () {
-  "use strict";
-
-  /*
-    Maths chapters can use these additional block types:
-      solvedExample / workedExample
-      formula / property / theorem
-      mathFigure / mathDiagram / numberLine / geometryFigure
-      mathTable
-      mathStory
-      think
-      commonMistake
-      challenge
-
-    Existing block types continue to work normally.
-    Figures are rendered ONLY when actual figure data exists.
-  */
-
-  window.CQ_MATHS_EXTENSION = true;
-
-  function mEsc(value) {
-    return String(value ?? "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;");
-  }
-
-  function mText(value) {
-    return String(value ?? "").replace(/\n/g, "<br>");
-  }
-
-  function mTitle(block, fallback) {
-    return mEsc(block?.title || block?.heading || fallback);
-  }
-
-  function mFigure(block) {
-    if (!block) return "";
-
-    const svg = block.svg || block.figureSvg;
-    const image = block.image || block.src || block.url;
-
-    if (svg) {
-      return `
-        <figure class="cqMathFigure">
-          <div class="cqMathSvg">${svg}</div>
-          ${block.caption ? `<figcaption>${mText(block.caption)}</figcaption>` : ""}
-        </figure>`;
-    }
-
-    if (image) {
-      return `
-        <figure class="cqMathFigure">
-          <img src="${mEsc(image)}"
-               alt="${mEsc(block.alt || block.caption || "Mathematical figure")}"
-               loading="lazy">
-          ${block.caption ? `<figcaption>${mText(block.caption)}</figcaption>` : ""}
-        </figure>`;
-    }
-
-    /* Optional native SVG description for simple mathematical figures. */
-    if (block.shape === "rectangle") {
-      const w = Number(block.width || 240);
-      const h = Number(block.height || 140);
-      return `
-        <figure class="cqMathFigure">
-          <svg viewBox="0 0 320 220" role="img"
-               aria-label="${mEsc(block.caption || "Rectangle")}" class="cqNativeFigure">
-            <rect x="40" y="40" width="${Math.min(w,240)}"
-                  height="${Math.min(h,140)}"
-                  fill="none" stroke="currentColor" stroke-width="4"/>
-          </svg>
-          ${block.caption ? `<figcaption>${mText(block.caption)}</figcaption>` : ""}
-        </figure>`;
-    }
-
-    /* No figure data = no figure. */
-    return "";
-  }
-
-  function mSteps(steps) {
-    if (!Array.isArray(steps) || !steps.length) return "";
-    return `
-      <div class="cqMathSteps">
-        <h5>📝 Step-by-step solution</h5>
-        <ol>
-          ${steps.map(step => {
-            if (step && typeof step === "object") {
-              return `<li>
-                ${step.title ? `<b>${mEsc(step.title)}</b><br>` : ""}
-                ${mText(step.text ?? step.content ?? step.value ?? "")}
-              </li>`;
-            }
-            return `<li>${mText(step)}</li>`;
-          }).join("")}
-        </ol>
-      </div>`;
-  }
-
-  function mBlock(block) {
-    if (!block || typeof block !== "object") return null;
-
-    const type = String(block.type || block.kind || "")
-      .toLowerCase()
-      .replace(/[\s_-]/g, "");
-
-    if (["solvedexample","workedexample","detailexample"].includes(type)) {
-      const steps = block.steps || block.solution || [];
-      return `
-        <div class="cqBlock cqMathSolvedExample">
-          <div class="cqBadge">🧮 Solved Example</div>
-          <h4>${mTitle(block, "Solved Example")}</h4>
-
-          ${block.question
-            ? `<div class="cqMathQuestion">
-                 <b>❓ Question</b>
-                 <div>${mText(block.question)}</div>
-               </div>` : ""}
-
-          ${block.given
-            ? `<div class="cqMathGiven">
-                 <b>📌 Given</b>
-                 <div>${mText(block.given)}</div>
-               </div>` : ""}
-
-          ${block.concept
-            ? `<div class="cqMathWhy">
-                 <b>💡 Method / Concept</b>
-                 <div>${mText(block.concept)}</div>
-               </div>` : ""}
-
-          ${block.formula
-            ? `<div class="cqMathFormulaDisplay">${mText(block.formula)}</div>` : ""}
-
-          ${mSteps(steps)}
-
-          ${block.answer !== undefined
-            ? `<div class="cqMathAnswer">
-                 <b>✅ Final Answer</b>
-                 <div>${mText(block.answer)}</div>
-               </div>` : ""}
-
-          ${block.check
-            ? `<div class="cqMathCheck">
-                 <b>🔎 Check</b>
-                 <div>${mText(block.check)}</div>
-               </div>` : ""}
-
-          ${mFigure(block)}
-        </div>`;
-    }
-
-    if (["formula","property","theorem","identity","rule"].includes(type)) {
-      return `
-        <div class="cqBlock cqMathFormulaCard">
-          <div class="cqBadge">📐 ${type === "formula" ? "Formula" : "Rule / Property"}</div>
-          <h4>${mTitle(block, "Important Rule")}</h4>
-          ${block.text || block.explanation
-            ? `<p>${mText(block.text || block.explanation)}</p>` : ""}
-          ${block.formula
-            ? `<div class="cqMathFormulaDisplay">${mText(block.formula)}</div>` : ""}
-          ${mFigure(block)}
-        </div>`;
-    }
-
-    if (["mathfigure","mathdiagram","numberline","geometryfigure","construction"].includes(type)) {
-      return `
-        <div class="cqBlock cqMathVisual">
-          <div class="cqBadge">📐 Mathematical Figure</div>
-          <h4>${mTitle(block, "Figure")}</h4>
-          ${block.text ? `<p>${mText(block.text)}</p>` : ""}
-          ${mFigure(block)}
-        </div>`;
-    }
-
-    if (type === "mathtable") {
-      const rows = Array.isArray(block.rows) ? block.rows : [];
-      return `
-        <div class="cqBlock cqMathTable">
-          <h4>📊 ${mTitle(block, "Mathematical Table")}</h4>
-          <div class="cqTableScroll">
-            <table>
-              <tbody>
-                ${rows.map((row, r) => `
-                  <tr>
-                    ${(Array.isArray(row) ? row : [row]).map(cell =>
-                      r === 0
-                        ? `<th>${mText(cell)}</th>`
-                        : `<td>${mText(cell)}</td>`
-                    ).join("")}
-                  </tr>`).join("")}
-              </tbody>
-            </table>
-          </div>
-        </div>`;
-    }
-
-    if (type === "think" || type === "thinkandunderstand" || type === "reasoning") {
-      return `
-        <div class="cqBlock cqMathThink">
-          <div class="cqBadge">🧠 Think & Understand</div>
-          <h4>${mTitle(block, "Think About It")}</h4>
-          ${block.text || block.question
-            ? `<p>${mText(block.text || block.question)}</p>` : ""}
-          ${Array.isArray(block.questions)
-            ? `<ol>${block.questions.map(q => `<li>${mText(q)}</li>`).join("")}</ol>` : ""}
-          ${block.answer
-            ? `<details><summary>Show thinking</summary><p>${mText(block.answer)}</p></details>` : ""}
-        </div>`;
-    }
-
-    if (type === "commonmistake" || type === "mistake") {
-      return `
-        <div class="cqBlock cqMathMistake">
-          <div class="cqBadge">⚠️ Common Mistake</div>
-          <h4>${mTitle(block, "Avoid This Mistake")}</h4>
-          ${block.mistake ? `<p><b>❌ Mistake:</b> ${mText(block.mistake)}</p>` : ""}
-          ${block.correction ? `<p><b>✅ Correct:</b> ${mText(block.correction)}</p>` : ""}
-          ${block.text ? `<p>${mText(block.text)}</p>` : ""}
-        </div>`;
-    }
-
-    if (type === "challenge" || type === "hots") {
-      return `
-        <div class="cqBlock cqMathChallenge">
-          <div class="cqBadge">🏆 Challenge</div>
-          <h4>${mTitle(block, "Challenge Problem")}</h4>
-          ${block.question || block.text
-            ? `<p>${mText(block.question || block.text)}</p>` : ""}
-          ${block.hint
-            ? `<details><summary>💡 Hint</summary><p>${mText(block.hint)}</p></details>` : ""}
-          ${block.answer !== undefined
-            ? `<details><summary>✅ Show solution</summary><p>${mText(block.answer)}</p>${mSteps(block.steps || [])}</details>` : ""}
-        </div>`;
-    }
-
-    if (type === "mathstory" || type === "mathrealworld") {
-      const lines = Array.isArray(block.dialogue)
-        ? block.dialogue
-        : Array.isArray(block.dialogues)
-          ? block.dialogues : [];
-
-      return `
-        <div class="cqBlock cqMathStory">
-          <div class="cqBadge">🎬 Maths in Real Life</div>
-          <h4>${mTitle(block, "Maths in Real Life")}</h4>
-          ${block.text ? `<p>${mText(block.text)}</p>` : ""}
-          <div class="cqMathDialogue">
-            ${lines.map(line => {
-              if (typeof line === "string") return `<p>${mText(line)}</p>`;
-              const who = line.character || line.speaker || line.name || "";
-              const say = line.text || line.dialogue || line.content || "";
-              return `<p>${who ? `<b>${mEsc(who)}</b>: ` : ""}${mText(say)}</p>`;
-            }).join("")}
-          </div>
-        </div>`;
-    }
-
-    return null;
-  }
-
-  /*
-    Keep the existing renderUniversalBlockCore intact.
-    We add a small interception layer by replacing the global
-    function reference used by renderUniversalBlock.
-  */
-  if (typeof renderUniversalBlockCore === "function") {
-    const originalMathCore = renderUniversalBlockCore;
-
-    renderUniversalBlockCore = function (block, blockIndex) {
-      const maths = mBlock(block);
-      return maths !== null ? maths : originalMathCore(block, blockIndex);
-    };
-  }
-
-  const css = document.createElement("style");
-  css.id = "cq-class8-maths-extension-css";
-  css.textContent = `
-    .cqMathSolvedExample,
-    .cqMathFormulaCard,
-    .cqMathVisual,
-    .cqMathTable,
-    .cqMathThink,
-    .cqMathMistake,
-    .cqMathChallenge,
-    .cqMathStory{
-      margin:20px 0;
-      padding:22px;
-      border-radius:24px;
-      background:linear-gradient(145deg,#ffffff,#f7f8ff);
-      border:1px solid rgba(79,70,229,.13);
-      box-shadow:0 12px 30px rgba(31,41,55,.07);
-    }
-
-    .cqMathSolvedExample h4,
-    .cqMathFormulaCard h4,
-    .cqMathVisual h4,
-    .cqMathTable h4,
-    .cqMathThink h4,
-    .cqMathMistake h4,
-    .cqMathChallenge h4,
-    .cqMathStory h4{
-      margin:8px 0 14px;
-      font-size:1.16rem;
-    }
-
-    .cqMathQuestion,
-    .cqMathGiven,
-    .cqMathWhy,
-    .cqMathAnswer,
-    .cqMathCheck{
-      padding:14px 16px;
-      margin:11px 0;
-      border-radius:16px;
-      background:#fff;
-      border:1px solid #e5e7eb;
-      line-height:1.75;
-    }
-
-    .cqMathAnswer{
-      background:#ecfdf5;
-      border-color:#bbf7d0;
-    }
-
-    .cqMathCheck{
-      background:#eff6ff;
-      border-color:#bfdbfe;
-    }
-
-    .cqMathFormulaDisplay{
-      margin:16px 0;
-      padding:17px;
-      border-radius:17px;
-      background:#eef2ff;
-      color:#312e81;
-      font-weight:700;
-      text-align:center;
-      font-size:1.08rem;
-      overflow:auto;
-    }
-
-    .cqMathSteps{
-      margin:15px 0;
-      padding:16px 18px;
-      border-radius:17px;
-      background:#fff7ed;
-    }
-
-    .cqMathSteps ol{
-      margin:10px 0 0 22px;
-    }
-
-    .cqMathSteps li{
-      margin:7px 0;
-      line-height:1.7;
-    }
-
-    .cqMathFigure{
-      max-width:760px;
-      margin:20px auto;
-      text-align:center;
-    }
-
-    .cqMathFigure img,
-    .cqMathFigure svg{
-      display:block;
-      width:100%;
-      max-height:520px;
-      object-fit:contain;
-      margin:auto;
-      border-radius:18px;
-    }
-
-    .cqMathFigure figcaption{
-      margin-top:8px;
-      color:#6b7280;
-      font-size:.92rem;
-    }
-
-    .cqMathTable .cqTableScroll{
-      overflow-x:auto;
-    }
-
-    .cqMathTable table{
-      width:100%;
-      border-collapse:collapse;
-      min-width:520px;
-    }
-
-    .cqMathTable th,
-    .cqMathTable td{
-      padding:12px;
-      border:1px solid #e5e7eb;
-      text-align:left;
-    }
-
-    .cqMathTable th{
-      background:#eef2ff;
-    }
-
-    .cqMathThink{
-      background:linear-gradient(145deg,#f0fdf4,#ffffff);
-    }
-
-    .cqMathMistake{
-      background:linear-gradient(145deg,#fff7ed,#ffffff);
-    }
-
-    .cqMathChallenge{
-      background:linear-gradient(145deg,#fefce8,#ffffff);
-    }
-
-    .cqMathStory{
-      background:linear-gradient(145deg,#fdf4ff,#ffffff);
-    }
-
-    .cqMathDialogue{
-      margin-top:14px;
-      padding:16px;
-      background:#fff;
-      border-radius:17px;
-    }
-
-    .cqMathDialogue p{
-      margin:0;
-      padding:9px 0;
-      border-bottom:1px dashed #d1d5db;
-      line-height:1.7;
-    }
-
-    .cqMathDialogue p:last-child{
-      border-bottom:0;
-    }
-
-    @media(max-width:600px){
-      .cqMathSolvedExample,
-      .cqMathFormulaCard,
-      .cqMathVisual,
-      .cqMathTable,
-      .cqMathThink,
-      .cqMathMistake,
-      .cqMathChallenge,
-      .cqMathStory{
-        padding:17px;
-        border-radius:20px;
-      }
-    }
-  `;
-  document.head.appendChild(css);
-
-})();
-
-/*========================================================
-  CONCEPT QUIZZER — CLASS 8 SCIENCE VISUAL BLOCK LAYER
-  ADDITIVE PATCH — EXISTING RENDERER PRESERVED
-========================================================*/
-(function () {
-  "use strict";
-
-  window.ConceptQuizzer = window.ConceptQuizzer || {};
-
-  const style = `
-  <style id="cq-science-block-styles">
-    .cq-science-card{
-      border-radius:24px;padding:22px 24px;margin:18px 0;
-      border:1px solid rgba(70,80,140,.12);
-      box-shadow:0 10px 28px rgba(40,45,100,.08);
-      background:linear-gradient(135deg,#ffffff,#f8fbff);
-      overflow:hidden;
-    }
-    .cq-science-card:nth-child(5n+1){background:linear-gradient(135deg,#fff7ed,#fff);}
-    .cq-science-card:nth-child(5n+2){background:linear-gradient(135deg,#eff6ff,#fff);}
-    .cq-science-card:nth-child(5n+3){background:linear-gradient(135deg,#f0fdf4,#fff);}
-    .cq-science-card:nth-child(5n+4){background:linear-gradient(135deg,#faf5ff,#fff);}
-    .cq-science-card:nth-child(5n){background:linear-gradient(135deg,#ecfeff,#fff);}
-    .cq-science-card h3{margin:0 0 12px;}
-    .cq-science-card p{line-height:1.75;margin:8px 0;}
-    .cq-science-card ul{line-height:1.7;}
-    .cq-science-label{
-      display:inline-block;padding:6px 11px;border-radius:999px;
-      font-size:.78rem;font-weight:800;margin-bottom:10px;
-      background:rgba(79,70,229,.10);
-    }
-    .cq-science-figure{
-      margin:16px 0 4px;padding:12px;border-radius:20px;
-      background:#fff;border:1px solid rgba(70,80,140,.10);
-      overflow:auto;
-    }
-    .cq-science-figure svg,.cq-science-figure img{
-      display:block;max-width:100%;height:auto;margin:auto;
-    }
-    .cq-science-experiment{border-left:7px solid #0891b2;background:linear-gradient(135deg,#ecfeff,#f0fdfa);}
-    .cq-science-observation{border-left:7px solid #f59e0b;background:linear-gradient(135deg,#fff7ed,#fffbeb);}
-    .cq-science-fact{border-left:7px solid #4f46e5;background:linear-gradient(135deg,#eff6ff,#eef2ff);}
-    .cq-science-think{border-left:7px solid #9333ea;background:linear-gradient(135deg,#faf5ff,#fdf4ff);}
-    .cq-science-warning{border-left:7px solid #ef4444;background:linear-gradient(135deg,#fef2f2,#fff7ed);}
-    .cq-science-real{border-left:7px solid #16a34a;background:linear-gradient(135deg,#f0fdf4,#ecfdf5);}
-    .cq-science-exam{border-left:7px solid #e11d48;background:linear-gradient(135deg,#fff1f2,#fff7ed);}
-    .cq-science-process{border-left:7px solid #0284c7;background:linear-gradient(135deg,#ecfeff,#eff6ff);}
-    .cq-science-table{width:100%;border-collapse:collapse;margin-top:12px;background:#fff;}
-    .cq-science-table th,.cq-science-table td{padding:11px 12px;border:1px solid #e5e7eb;text-align:left;}
-    .cq-science-table th{font-weight:800;background:#eef2ff;}
-    .cq-science-step{padding:12px 14px;margin:8px 0;border-radius:14px;background:rgba(255,255,255,.8);}
-  </style>`;
-
-  function ensureStyles(){
-    if(!document.getElementById("cq-science-block-styles"))
-      document.head.insertAdjacentHTML("beforeend",style);
-  }
-
-  function esc(v){
-    return String(v ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;")
-      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-  }
-
-  function renderBlock(block){
-    if(!block) return "";
-    const type = block.type || "paragraph";
-    const title = esc(block.title || block.heading || "");
-    const text = block.text || block.content || "";
-
-    if(["figure","visual","diagram"].includes(type)){
-      return `<div class="cq-science-card">
-        ${title ? `<span class="cq-science-label">🔬 ${title}</span>` : ""}
-        <div class="cq-science-figure">
-          ${block.html || block.svg || (block.src ? `<img src="${esc(block.src)}" alt="${title}">` : "")}
-        </div>
-        ${block.caption ? `<p><b>Figure:</b> ${esc(block.caption)}</p>` : ""}
-      </div>`;
-    }
-
-    const map = {
-      experiment:"cq-science-experiment", activity:"cq-science-experiment",
-      observation:"cq-science-observation", fact:"cq-science-fact",
-      think:"cq-science-think", warning:"cq-science-warning",
-      misconception:"cq-science-warning", application:"cq-science-real",
-      realLife:"cq-science-real", examTip:"cq-science-exam",
-      process:"cq-science-process", definition:"cq-science-fact",
-      important:"cq-science-exam", keypoint:"cq-science-exam"
-    };
-
-    let body = text ? `<p>${text}</p>` : "";
-
-    if(Array.isArray(block.steps)){
-      body += block.steps.map((s,i)=>
-        `<div class="cq-science-step"><b>Step ${i+1}:</b> ${s}</div>`
-      ).join("");
-    }
-
-    if(Array.isArray(block.items)){
-      body += `<ul>${block.items.map(x=>`<li>${x}</li>`).join("")}</ul>`;
-    }
-
-    if(Array.isArray(block.rows)){
-      body += `<table class="cq-science-table"><tbody>${
-        block.rows.map((row,i)=>`<tr>${row.map(c=>i===0?`<th>${esc(c)}</th>`:`<td>${esc(c)}</td>`).join("")}</tr>`).join("")
-      }</tbody></table>`;
-    }
-
-    if(block.html) body += `<div class="cq-science-figure">${block.html}</div>`;
-
-    return `<div class="cq-science-card ${map[type] || ""}">
-      ${title ? `<h3>${title}</h3>` : ""}${body}
-    </div>`;
-  }
-
-  function renderScienceBlocks(chapter){
-    if(!chapter || !Array.isArray(chapter.sections)) return;
-    ensureStyles();
-
-    const notes = document.getElementById("notesContent");
-    if(!notes) return;
-
-    chapter.sections.forEach((section,index)=>{
-      const blocks = section.scienceBlocks || section.visualBlocks;
-      if(!Array.isArray(blocks) || !blocks.length) return;
-
-      const wrapper = document.createElement("div");
-      wrapper.className = "cq-science-extra-section";
-      wrapper.innerHTML = blocks.map(renderBlock).join("");
-
-      const existing = notes.children[index];
-      if(existing) existing.appendChild(wrapper);
-      else notes.appendChild(wrapper);
-    });
-  }
-
-  window.addEventListener("cq:chapter-loaded",e=>{
-    if(e.detail && e.detail.chapter)
-      requestAnimationFrame(()=>renderScienceBlocks(e.detail.chapter));
-  });
-
-  if(typeof window.ChapterData !== "undefined")
-    requestAnimationFrame(()=>renderScienceBlocks(window.ChapterData));
-
-  window.ConceptQuizzer.renderScienceBlocks = renderScienceBlocks;
-})();
