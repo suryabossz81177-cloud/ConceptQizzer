@@ -1,6 +1,6 @@
 /* Concept Quizzer — Class 8 Science — Electricity: Magnetic and Heating Effects of Electric Current */
 window.ChapterData = {
-  "id":"class8-science-electricity-magnetic-and-heating-effects-of-electric-current",
+  "id":"8-science-electricity-magnetic-and-heating-effects-of-electric-current",
   "class":8,"subject":"Science","chapterNumber":11,
   "title":"Electricity: Magnetic and Heating Effects of Electric Current",
   "description":"Detailed Class 8 Science notes on electric current, heating effect, Joule’s law, heating elements, fuses, magnetic effect, magnetic fields, electromagnets, applications and electric motors.",
