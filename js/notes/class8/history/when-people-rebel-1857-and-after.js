@@ -10,7 +10,7 @@
  * original public-domain source identifiable.
  */
 
-const ChapterData = {
+const whenPeopleRebel1857 = {
   id: "8-history-when-people-rebel-1857-and-after",
   title: "When People Rebel — 1857 and After",
   class: 8,
