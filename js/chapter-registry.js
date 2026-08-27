@@ -5,7 +5,7 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
-{
+ {
   id: "8-history-civilising-the-native-educating-the-nation",
   title: 'Civilising the "Native", Educating the Nation',
   class: 8,
