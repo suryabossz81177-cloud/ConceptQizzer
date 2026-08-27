@@ -6,14 +6,14 @@
   =================================================*/
 window.ChapterRegistry = [
   {
-  id: "8-history-making-of-the-national-movement",
-  title: "The Making of the National Movement",
-  class: 8,
-  subject: "History",
-  chapter: 8,
-  file: "js/notes/class8/history/making-of-the-national-movement.js",
-  enabled: true
-  },
+    id: "8-history-the-making-of-the-national-movement",
+    title: "The Making of the National Movement",
+    class: 8,
+    subject: "History",
+    chapter: 8,
+    file: "js/notes/class8/history/making-of-the-national-movement.js",
+    enabled: true
+},
   
   {
   id: "8-history-women-caste-and-reform",
