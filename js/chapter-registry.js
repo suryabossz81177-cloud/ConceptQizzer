@@ -5,6 +5,16 @@
   Designed for 300+ Chapters
 ==================================================*/
 window.ChapterRegistry = [
+  {
+  id: "8-science-our-home-earth-a-unique-life-sustaining-planet",
+  title: "Our Home: Earth, a Unique Life-Sustaining Planet",
+  class: 8,
+  subject: "Science",
+  chapter: 13,
+  file: "js/notes/class8/science/our-home-earth-a-unique-life-sustaining-planet.js",
+  enabled: true
+},
+  
 {
   id: "class8-science-how-nature-works-in-harmony",
   class: 8,
