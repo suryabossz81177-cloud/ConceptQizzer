@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-science-nature-of-matter-elements-compounds-and-mixtures",
+  title: "Nature of Matter: Elements, Compounds and Mixtures",
+  class: 8,
+  subject: "Science",
+  chapter: 8,
+  file: "js/notes/class8/science/nature-of-matter-elements-compounds-and-mixtures.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-particulate-nature-of-matter",
   title: "Particulate Nature of Matter",
   class: 8,
