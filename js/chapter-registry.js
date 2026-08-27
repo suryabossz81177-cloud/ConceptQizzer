@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "class8-science-electricity-magnetic-and-heating-effects",
+  class: 8,
+  subject: "Science",
+  chapterNumber: 4,
+  title: "Electricity: Magnetic and Heating Effects",
+  file: "js/notes/class8/science/electricity-magnetic-and-heating-effects.js",
+  enabled: true
+},
+  
+  {
   id: "class8-science-health-the-ultimate-treasure",
   class: 8,
   subject: "Science",
