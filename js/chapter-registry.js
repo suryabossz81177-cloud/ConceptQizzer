@@ -5,6 +5,16 @@
   Designed for 300+ Chapters
 ==================================================*/
 window.ChapterRegistry = [
+  {
+  id: "class8-science-how-nature-works-in-harmony",
+  class: 8,
+  subject: "Science",
+  chapterNumber: 12,
+  title: "How Nature Works in Harmony",
+  file: "js/notes/class8/science/how-nature-works-in-harmony.js",
+  enabled: true
+},
+  
 {
   id: "8-science-keeping-time-with-the-skies",
   title: "Keeping Time with the Skies",
