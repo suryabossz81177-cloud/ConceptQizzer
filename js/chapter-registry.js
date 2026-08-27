@@ -6,6 +6,16 @@
   ==================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-history-when-people-rebel-1857-and-after",
+  title: "When People Rebel — 1857 and After",
+  class: 8,
+  subject: "History",
+  chapter: 5,
+  file: "js/notes/class8/history/when-people-rebel-1857-and-after.js",
+  enabled: true
+},
+  
+  {
   id: "8-history-tribals-dikus-and-the-vision-of-a-golden-age",
   title: "Tribals, Dikus and the Vision of a Golden Age",
   class: 8,
