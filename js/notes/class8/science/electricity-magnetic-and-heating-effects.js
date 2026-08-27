@@ -13,7 +13,7 @@
 
 
 window.ChapterData = {
-   id: "electricity-magnetic-and-heating-effects"
+   id: "8-electricity-magnetic-and-heating-effects"
   title: "Electricity: Magnetic and Heating Effects",
   class: 8,
   subject: "Science",
