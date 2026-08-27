@@ -11,7 +11,9 @@
    - Works with the universal ConceptQizzer notes renderer.
    ========================================================= */
 
-const ChapterData = {
+
+window.ChapterData = {
+   id: "electricity-magnetic-and-heating-effects"
   title: "Electricity: Magnetic and Heating Effects",
   class: 8,
   subject: "Science",
