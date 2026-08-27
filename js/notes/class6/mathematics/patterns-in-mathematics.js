@@ -13,7 +13,7 @@ chapterNumber:1,
 title:"Patterns in Mathematics",
 
 description:
-"NCERT Class 6 Mathematics Chapter 1 – Detailed Concept Notes",
+"Class 6 Mathematics Chapter 1 beautiful well designed – Detailed Concept Notes",
 
 estimatedReadingTime:"25–35 minutes",
 
