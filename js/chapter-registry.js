@@ -6,6 +6,16 @@
 ==================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-science-light-mirrors-and-lenses",
+  title: "Light: Mirrors and Lenses",
+  class: 8,
+  subject: "Science",
+  chapter: 10,
+  file: "js/notes/class8/science/light-mirrors-and-lenses.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-the-amazing-world-of-solutes-solvents-and-solutions",
   title: "The Amazing World of Solutes, Solvents and Solutions",
   class: 8,
