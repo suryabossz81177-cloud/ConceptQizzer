@@ -4,8 +4,7 @@
   Package 12.5 — Step 6.4A
   Designed for 300+ Chapters
 ==================================================*/
-
- window.ChapterRegistry = [
+window.ChapterRegistry = [
   {
   id: "8-science-the-amazing-world-of-solutes-solvents-and-solutions",
   title: "The Amazing World of Solutes, Solvents and Solutions",
