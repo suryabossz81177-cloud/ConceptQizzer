@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-science-the-amazing-world-of-solutes-solvents-and-solutions",
+  title: "The Amazing World of Solutes, Solvents and Solutions",
+  class: 8,
+  subject: "Science",
+  chapter: 9,
+  file: "js/notes/class8/science/the-amazing-world-of-solutes-solvents-and-solutions.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-nature-of-matter-elements-compounds-and-mixtures",
   title: "Nature of Matter: Elements, Compounds and Mixtures",
   class: 8,
