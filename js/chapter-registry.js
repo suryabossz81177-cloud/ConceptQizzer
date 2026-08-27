@@ -5,7 +5,7 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
-{
+  {
   id: "8-history-making-of-the-national-movement",
   title: "The Making of the National Movement",
   class: 8,
