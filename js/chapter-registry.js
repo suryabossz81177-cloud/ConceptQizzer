@@ -5,6 +5,16 @@
   Designed for 300+ Chapters
   ==================================================*/
 window.ChapterRegistry = [
+  {
+  id: "8-history-tribals-dikus-and-the-vision-of-a-golden-age",
+  title: "Tribals, Dikus and the Vision of a Golden Age",
+  class: 8,
+  subject: "History",
+  chapter: 4,
+  file: "js/notes/class8/history/tribals-dikus-and-the-vision-of-a-golden-age.js",
+  enabled: true
+},
+  
 {
   id: "8-history-ruling-the-countryside",
   title: "Ruling the Countryside",
