@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-science-pressure-winds-storms-and-cyclones",
+  title: "Pressure, Winds, Storms, and Cyclones",
+  class: 8,
+  subject: "Science",
+  chapter: 6,
+  file: "js/notes/class8/science/pressure-winds-storms-and-cyclones.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-exploring-forces",
   title: "Exploring Forces",
   class: 8,
