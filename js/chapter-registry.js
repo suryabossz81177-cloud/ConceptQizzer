@@ -6,6 +6,16 @@
 ==================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-science-keeping-time-with-the-skies",
+  title: "Keeping Time with the Skies",
+  class: 8,
+  subject: "Science",
+  chapter: 11,
+  file: "js/notes/class8/science/keeping-time-with-the-skies.js",
+  enabled: true
+},
+
+  {
   id: "8-science-light-mirrors-and-lenses",
   title: "Light: Mirrors and Lenses",
   class: 8,
