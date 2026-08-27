@@ -6,6 +6,16 @@
 ==================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-history-ruling-the-countryside",
+  title: "Ruling the Countryside",
+  class: 8,
+  subject: "History",
+  chapter: 3,
+  file: "js/notes/class8/history/ruling-the-countryside.js",
+  enabled: true
+},
+  
+  {
   id: "8-history-from-trade-to-territory",
   title: "From Trade to Territory",
   class: 8,
