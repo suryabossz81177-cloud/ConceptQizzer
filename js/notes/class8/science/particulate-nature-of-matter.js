@@ -35,7 +35,7 @@ const ChapterData = {
           "title": "Real chalk specimen",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chalk_01.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chalk_01.jpg",
           "caption": "Real chalk specimen photograph; used to connect everyday chalk with particulate matter."
         },
         {
@@ -94,7 +94,7 @@ const ChapterData = {
           "title": "Real chalk: from visible material to tiny particles",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chalk_01.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chalk_01.jpg",
           "caption": "Real chalk specimen photograph; used to connect everyday chalk with particulate matter."
         },
         {
@@ -340,7 +340,7 @@ const ChapterData = {
           "title": "Scientific Brownian-motion visual",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brownian_motion.svg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brownian_motion.svg",
           "caption": "Scientific Brownian-motion illustration, CC BY-SA 4.0; attribution recorded in sources."
         },
         {
@@ -348,7 +348,7 @@ const ChapterData = {
           "title": "Microscopic pollen Brownian motion",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brownian_motion_of_pollen.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brownian_motion_of_pollen.jpg",
           "caption": "Microscopic observation related to Brownian motion."
         },
         {
@@ -393,7 +393,7 @@ const ChapterData = {
           "title": "Real diffusion of ink in water",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Diffusion_of_ink_in_water.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diffusion_with_ink.jpg",
           "caption": "Real diffusion demonstration photograph."
         },
         {
@@ -524,8 +524,8 @@ const ChapterData = {
           "title": "Real ice melting",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ice_melting.jpg",
-          "caption": "Real photograph of melting ice; used for change of state."
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ice_melting.jpg",
+          "caption": "Real photograph showing solid ice changing into liquid water; a clear example of melting (solid → liquid)."
         },
         {
           "type": "example",
@@ -636,7 +636,7 @@ const ChapterData = {
           "title": "Real laboratory gas syringe",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gas_syringe.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gas_syringe.jpg",
           "caption": "Real laboratory apparatus photograph useful for gas volume/compressibility."
         },
         {
@@ -814,7 +814,7 @@ const ChapterData = {
           "title": "Real boiling water",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Boiling_water.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boiling_water.jpg",
           "caption": "Real photograph of boiling water; used for particle-motion/state-change discussion."
         },
         {
@@ -822,7 +822,7 @@ const ChapterData = {
           "title": "Real condensation",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Steam_condensation.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steam_condensation.jpg",
           "caption": "Real water-vapour condensation photograph."
         },
         {
@@ -1100,7 +1100,7 @@ const ChapterData = {
           "title": "Brownian motion evidence",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Brownian_motion.svg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brownian_motion.svg",
           "caption": "Brownian motion provides a visual model of random motion caused by countless molecular collisions. Source/licence is recorded in the package."
         },
         {
@@ -1114,7 +1114,7 @@ const ChapterData = {
           "title": "Real milk microscopic view",
           "text": "",
           "color": "blue",
-          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Milk_microscope.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Milk_microscope.jpg",
           "caption": "Real microscope view of milk, illustrating that visible substances can contain dispersed tiny particles."
         },
         {
