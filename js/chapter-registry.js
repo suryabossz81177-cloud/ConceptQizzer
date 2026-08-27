@@ -6,6 +6,16 @@
 ==================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-history-how-when-and-where",
+  title: "How, When and Where",
+  class: 8,
+  subject: "History",
+  chapter: 1,
+  file: "js/notes/class8/history/how-when-and-where.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-our-home-earth-a-unique-life-sustaining-planet",
   title: "Our Home: Earth, a Unique Life-Sustaining Planet",
   class: 8,
