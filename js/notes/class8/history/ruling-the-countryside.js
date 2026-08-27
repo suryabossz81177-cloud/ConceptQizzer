@@ -78,7 +78,7 @@ const ChapterData = {
       blocks: [
         {type:"paragraph",title:"Why a new system?",text:"By the early nineteenth century, Company officials increasingly believed that the Permanent Settlement did not produce the results they wanted. In the North-Western Provinces, Holt Mackenzie developed a different system."},
         {type:"paragraph",title:"The 1822 arrangement",text:"In 1822, Holt Mackenzie's system required detailed surveys of villages. Officials measured fields, examined local customs and recorded the rights of different groups. The revenue of individual plots was calculated and combined to determine the revenue of the village, or mahal."},
-        {type:"figure",title:"Real historical visual — Thomas Munro",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Thomas_Munro,_Governor_of_Madras_(1819-26).jpg",caption:"Historical portrait of Thomas Munro, associated with the Ryotwari system. Public-domain historical work."},
+        {type:"figure",title:"Real historical visual — Thomas Munro",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Sir_Thomas_Munro,_Governor_of_Madras_from_1819_to_1826;_a_hand-colored_steel_engraving_by_M._A._Shee_and_W._Holl.jpg",caption:"Historical portrait of Thomas Munro, associated with the Ryotwari system. Public-domain historical work."},
         {type:"paragraph",title:"Meaning of mahal",text:"In British revenue records, a mahal was a revenue estate. It could be a village or a group of villages."},
         {type:"paragraph",title:"Who collected revenue?",text:"The responsibility for collecting revenue and paying it to the Company was placed on the village headman rather than directly on a zamindar. Unlike the Permanent Settlement, the revenue demand was revised periodically rather than fixed forever."},
         {type:"table",title:"Mahalwari versus Permanent Settlement",rows:[
@@ -131,7 +131,7 @@ const ChapterData = {
     {
       title: "Indigo — The Blue Dye Behind a Major Conflict",
       blocks: [
-        {type:"figure",title:"Real historical source — Indigo cultivation records",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Papers_relating_to_Indigo_Cultivation_in_Bengal_(Selections_from_the_Records_of_the_Government_of_Bengal,_No._XXXIII-_Part_I.)_(IA_dli.granth.106818).pdf",caption:"Public-domain 1860 government records relating to indigo cultivation in Bengal. This is a real historical source, not an AI-generated illustration."},
+        {type:"figure",title:"Real historical source — Indigo cultivation records",image:"https://archive.org/download/dli.granth.106818/page/n0.jpg",caption:"Public-domain 1860 government records relating to indigo cultivation in Bengal. This is a real historical source, not an AI-generated illustration."},
         {type:"paragraph",title:"Why indigo was valuable",text:"Indigo was used to produce a blue dye. Before synthetic dyes became dominant, natural indigo was commercially valuable. European textile production created demand for indigo."},
         {type:"paragraph",title:"Who were indigo planters?",text:"European planters established indigo plantations and factories in Bengal and other areas. They wanted cultivators to grow indigo and supplied arrangements intended to secure the crop."},
         {type:"paragraph",title:"Two methods of indigo cultivation",text:"The two broad systems discussed in the period were nij cultivation and ryoti cultivation. Under nij cultivation, the planter cultivated indigo on land directly controlled by the planter, using labourers or hired workers. Under ryoti cultivation, peasants cultivated indigo on their own holdings under contracts with planters."}
@@ -181,7 +181,7 @@ const ChapterData = {
       title: "The Indigo Revolt — 1859–60",
       blocks: [
         {type:"paragraph",title:"The protest begins",text:"In 1859, peasants in Bengal began refusing to grow indigo. The movement spread through indigo-producing districts. Peasants collectively resisted planters' demands and refused to sign new contracts or cultivate indigo."},
-        {type:"figure",title:"Real historical source — Indigo System in Lower Bengal",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Indigo_System_In_Lower_Bengal_(IA_in.ernet.dli.2015.31919).pdf",caption:"A real 1861 historical publication, recorded by Wikimedia Commons as public domain. It documents the indigo system in Lower Bengal."},
+        {type:"figure",title:"Real historical source — Indigo System in Lower Bengal",image:"https://archive.org/download/in.ernet.dli.2015.31919/page/n0.jpg",caption:"A real 1861 historical publication, recorded by Wikimedia Commons as public domain. It documents the indigo system in Lower Bengal."},
         {type:"paragraph",title:"How did peasants protest?",text:"Resistance included refusing to sow indigo, refusing to accept advances, refusing to sign contracts, organising collectively and confronting planters. In some areas peasants also appealed to zamindars and sought support from local communities."},
         {type:"paragraph",title:"Why collective action mattered",text:"A single cultivator could face pressure from a powerful planter. Collective refusal made it much harder for planters to force every cultivator individually into cultivation contracts."},
         {type:"important",title:"The key slogan in action",text:"The practical message of the movement was simple: cultivators did not want to grow indigo under the existing terms."}
@@ -314,7 +314,7 @@ const ChapterData = {
       blocks: [
         {type:"figure",title:"Lord Cornwallis",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Lord_Cornwallis.jpg",caption:"Real historical portrait; public-domain source on Wikimedia Commons."},
         {type:"paragraph",title:"Lord Cornwallis",text:"Governor-General associated with the Permanent Settlement of 1793. His administration sought a stable land-revenue arrangement and a dependable class of landholders."},
-        {type:"figure",title:"Thomas Munro",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Thomas_Munro,_Governor_of_Madras_(1819-26).jpg",caption:"Real historical portrait of Thomas Munro; public-domain historical work."},
+        {type:"figure",title:"Thomas Munro",image:"https://commons.wikimedia.org/wiki/Special:Redirect/file/Sir_Thomas_Munro,_Governor_of_Madras_from_1819_to_1826;_a_hand-colored_steel_engraving_by_M._A._Shee_and_W._Holl.jpg",caption:"Real historical portrait of Thomas Munro; public-domain historical work."},
         {type:"paragraph",title:"Thomas Munro",text:"A major figure in the development and expansion of the Ryotwari system in southern India. He supported direct settlement with cultivators and detailed field assessment."},
         {type:"paragraph",title:"Holt Mackenzie",text:"A Company official who developed the 1822 revenue system in the North-Western Provinces that became associated with Mahalwari settlement. His approach emphasised village institutions, surveys and periodic revision of revenue."}
       ]
