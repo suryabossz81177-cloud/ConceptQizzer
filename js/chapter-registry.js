@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-science-particulate-nature-of-matter",
+  title: "Particulate Nature of Matter",
+  class: 8,
+  subject: "Science",
+  chapter: 7,
+  file: "js/notes/class8/science/particulate-nature-of-matter.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-pressure-winds-storms-and-cyclones",
   title: "Pressure, Winds, Storms, and Cyclones",
   class: 8,
