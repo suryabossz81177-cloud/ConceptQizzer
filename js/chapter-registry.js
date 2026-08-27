@@ -6,6 +6,16 @@
 ==================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-history-from-trade-to-territory",
+  title: "From Trade to Territory",
+  class: 8,
+  subject: "History",
+  chapter: 2,
+  file: "js/notes/class8/history/from-trade-to-territory.js",
+  enabled: true
+},
+  
+  {
   id: "8-history-how-when-and-where",
   title: "How, When and Where",
   class: 8,
