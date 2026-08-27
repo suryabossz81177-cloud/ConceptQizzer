@@ -1,131 +1,942 @@
-/* Concept Quizzer — Class 8 Science — Chapter 4 */
-window.ChapterData = {
-  id:"8-science-electricity-magnetic-and-heating-effects", class:8, subject:"Science", chapterNumber:4,
-  title:"Electricity: Magnetic and Heating Effects",
-  description:"Too-too-detailed notes on electric circuits, heating effect, Joule's law, fuse protection, magnetic effect, electromagnets, electric bell, relay, electric motor, safety, examples, HOTS and practice.",
-  summary:"Electric current produces heating and magnetic effects. Resistance converts electrical energy partly into heat, described by H = I²Rt. This explains heating appliances and fuse protection. Current also produces a magnetic field; coils can form controllable electromagnets used in bells and relays, while magnetic forces in motors convert electrical energy into mechanical energy.",
-  sections:[{title:"Chapter Notes",blocks:[
-    {type:"heading",text:"Electricity: Magnetic and Heating Effects"},
-    {type:"paragraph",color:"purple",text:"Electric current is one of the most useful forms of energy transfer in everyday life. When current flows through a conductor, it can produce more than one observable effect. A current-carrying conductor can become warm because of resistance, and current can also produce a magnetic field. These two effects are used in devices ranging from electric heaters and fuses to electromagnets, bells, relays and motors."},
-    {type:"concept",color:"blue",title:"Why this topic matters",text:"Understanding the heating and magnetic effects of current explains how electrical appliances work, why wires can become hot, how fuses protect circuits, why an electromagnet can pick up iron objects, and how electrical energy can be converted into motion."},
-    {type:"table",color:"cyan",title:"Big picture of the chapter",rows:[["Effect","What happens","Applications"],["Heating effect","Electrical energy is converted partly into thermal energy in a resistive conductor","Heater, iron, toaster, kettle, fuse"],["Magnetic effect","A current-carrying conductor produces a magnetic field","Electromagnet, electric bell, relay, motor"],["Both together","A device may involve electrical, thermal and magnetic effects","Motors, relays, protective devices"]]},
-    {type:"figure",title:"Simple electric circuit",svg:`<svg viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="430" rx="25" fill="#f8fafc"/><text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700">Simple electric circuit</text><path d="M120 130H270M380 130H760V330H120Z" fill="none" stroke="#263238" stroke-width="7"/><line x1="270" y1="95" x2="270" y2="165" stroke="#263238" stroke-width="6"/><line x1="292" y1="80" x2="292" y2="180" stroke="#263238" stroke-width="6"/><circle cx="330" cy="130" r="50" fill="#fff7ed" stroke="#c2410c" stroke-width="6"/><circle cx="330" cy="130" r="20" fill="none" stroke="#c2410c" stroke-width="5"/><rect x="65" y="260" width="100" height="65" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="5"/><path d="M88 280l55 28m0-28l-55 28" stroke="#1d4ed8" stroke-width="5"/><text x="330" y="210" text-anchor="middle" font-family="Arial" font-size="18">bulb</text><text x="282" y="210" text-anchor="middle" font-family="Arial" font-size="18">cell</text><text x="115" y="355" text-anchor="middle" font-family="Arial" font-size="18">switch</text><text x="450" y="390" text-anchor="middle" font-family="Arial" font-size="18" fill="#475569">A complete conducting path is needed for current to flow.</text></svg>`,caption:"A closed circuit provides a continuous conducting path for current."},
+/* =========================================================
+   ConceptQizzer • Class 8 Science • Chapter 4
+   Electricity: Magnetic and Heating Effects
+   =========================================================
+   IMPORTANT:
+   - This is CHAPTER DATA only. No visible IDs, section IDs,
+     generic metadata cards, or renderer instructions are included.
+   - Visuals use real photographs hosted on Wikimedia Commons.
+   - The selected photographs are public-domain / openly licensed;
+     source + licence notes are kept in imageCredits below.
+   - Works with the universal ConceptQizzer notes renderer.
+   ========================================================= */
 
-    {type:"heading",text:"Electric Current and a Closed Circuit"},
-    {type:"paragraph",color:"purple",text:"Electric current refers to the directed movement of electric charge through a conducting path. For current to continue through a simple circuit, the conducting path must be complete. A cell or battery provides the potential difference that drives charge through the external circuit. A switch can open or close the path."},
-    {type:"definition",color:"cyan",title:"Electric circuit",text:"An electric circuit is a complete conducting path through which electric current can flow."},
-    {type:"definition",color:"cyan",title:"Current-carrying conductor",text:"A conductor through which electric current is flowing is called a current-carrying conductor."},
-    {type:"observation",title:"Open and closed circuits",text:"When the switch is open, the path is broken and the bulb does not glow. When the switch is closed, the path is complete and current can flow through the bulb."},
-    {type:"thinkBox",color:"yellow",title:"Think & Understand",question:"Why does a bulb not glow when one wire is disconnected even though the cell and bulb are both present?",hint:"Think about whether there is a continuous conducting path."},
+const ChapterData = {
+  title: "Electricity: Magnetic and Heating Effects",
+  class: 8,
+  subject: "Science",
+  chapterNumber: 4,
 
-    {type:"heading",text:"Heating Effect of Electric Current"},
-    {type:"paragraph",color:"purple",text:"Whenever current flows through a material that offers electrical resistance, electrical energy is transferred partly into thermal energy. The conductor therefore becomes warmer. This is called the heating effect of electric current. The effect is useful when controlled, but excessive heating can be dangerous."},
-    {type:"definition",color:"orange",title:"Heating effect of current",text:"The conversion of electrical energy into thermal energy due to the resistance of a current-carrying conductor is called the heating effect of electric current."},
-    {type:"figure",title:"Heating effect",svg:`<svg viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="430" rx="25" fill="#f8fafc"/><text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700">Heating effect of electric current</text><rect x="100" y="100" width="700" height="220" rx="24" fill="white" stroke="#475569" stroke-width="4"/><path d="M160 210H285l45-75 75 150 75-150 75 150 55-75H750" fill="none" stroke="#b91c1c" stroke-width="14" stroke-linejoin="round"/><text x="450" y="350" text-anchor="middle" font-family="Arial" font-size="20">Electrical energy → thermal energy</text><text x="450" y="385" text-anchor="middle" font-family="Arial" font-size="17" fill="#475569">Resistive heating element</text></svg>`,caption:"A resistive element becomes hot as electrical energy is transferred into thermal energy."},
-    {type:"table",color:"orange",title:"Factors affecting heating",rows:[["Factor","Effect","Reason"],["Current","Greater current produces much greater heating for fixed R and t","H is proportional to I²"],["Resistance","Greater resistance gives greater heating for fixed I and t","More energy is dissipated as heat"],["Time","Longer current flow gives more heat","Energy transfer continues with time"]]},
-    {type:"formula",color:"red",title:"Joule's law of heating",text:"H = I²Rt"},
-    {type:"paragraph",color:"blue",text:"Here H is heat produced, I is current, R is resistance and t is time. In numerical problems use SI units: current in amperes, resistance in ohms and time in seconds; heat is then obtained in joules."},
-    {type:"example",color:"green",title:"Solved Example 1 — Heating",text:"A current of 2 A passes through a resistance of 5 Ω for 10 s. Find the heat produced.",steps:["Use H = I²Rt.","H = (2)² × 5 × 10.","H = 4 × 5 × 10 = 200 J."],answer:"Heat produced = 200 J."},
-    {type:"example",color:"green",title:"Solved Example 2 — Comparing heating",text:"Two wires carry the same current for the same time. Wire A has resistance 3 Ω and wire B has resistance 6 Ω. Which produces more heat?",steps:["For the same I and t, H is proportional to R.","Resistance of B is twice resistance of A.","Therefore heat in B is twice heat in A."],answer:"Wire B produces twice as much heat."},
-    {type:"example",color:"green",title:"Solved Example 3 — Effect of current",text:"If current through a fixed resistor is doubled while resistance and time remain unchanged, how does heat change?",steps:["H = I²Rt.","Replace I by 2I: H becomes (2I)²Rt.","So H becomes 4I²Rt."],answer:"Heat becomes four times."},
-    {type:"commonMistake",color:"red",title:"⚠️ Common Mistake",text:"Do not say doubling current merely doubles heating. Current is squared in Joule's law, so doubling current makes heating four times for fixed R and t."},
+  description:
+    "A detailed journey through electric current, circuits, the heating effect, electrical safety, the magnetic effect of current, electromagnets, electric bells and motors.",
 
-    {type:"heading",text:"Heating Devices in Daily Life"},
-    {type:"table",color:"green",title:"Applications of the heating effect",rows:[["Device","Heating part","Purpose"],["Electric iron","Heating element","Pressing clothes"],["Toaster","Resistive wires","Toasting bread"],["Electric kettle","Heating element","Heating water"],["Room heater","Heating element","Providing warmth"],["Immersion heater","Resistive element","Heating water"],["Electric stove","Heating element","Cooking"]]},
-    {type:"concept",color:"blue",title:"Why heating elements are special",text:"A useful heating element must withstand high temperature and have suitable electrical resistance. Nichrome is commonly used because it has relatively high resistivity, a high melting point and good resistance to oxidation."},
-    {type:"thinkBox",color:"yellow",title:"Think & Understand",question:"Why is a heating element not simply made from ordinary copper wire?",hint:"Compare electrical resistance and the ability to operate safely at high temperature."},
+  imageCredits: [
+    {
+      title: "Electric iron",
+      url: "https://commons.wikimedia.org/wiki/Special:FilePath/Electric%20iron.jpg",
+      licence: "CC BY-SA 3.0",
+      source: "Wikimedia Commons • Arnoldius"
+    },
+    {
+      title: "Electric kettle",
+      url: "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_kettle.jpg",
+      licence: "Public domain",
+      source: "Wikimedia Commons • Petr.adamek"
+    },
+    {
+      title: "Electric bell",
+      url: "https://commons.wikimedia.org/wiki/Special:FilePath/Electric%20Bell.jpg",
+      licence: "Public domain",
+      source: "Wikimedia Commons • Milton Wend"
+    },
+    {
+      title: "Electric motor",
+      url: "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_motor.jpg",
+      licence: "Open licence; see source page",
+      source: "Wikimedia Commons"
+    },
+    {
+      title: "Electromagnet core",
+      url: "https://commons.wikimedia.org/wiki/Special:FilePath/Electromagnet%20Core.JPG",
+      licence: "CC BY-SA 3.0",
+      source: "Wikimedia Commons • MikeBertrand6"
+    },
+    {
+      title: "Simple electromagnet",
+      url: "https://commons.wikimedia.org/wiki/Special:FilePath/Simple%20electromagnet2.gif",
+      licence: "Public domain",
+      source: "Wikimedia Commons"
+    }
+  ],
 
-    {type:"heading",text:"Electric Fuse and Safety"},
-    {type:"paragraph",color:"purple",text:"An electric fuse is a safety device connected in series with a circuit. It contains a short length of fuse material designed to melt when excessive current causes excessive heating. When the fuse melts, the circuit opens and helps protect wiring and appliances."},
-    {type:"definition",color:"red",title:"Fuse",text:"A fuse is a protective device that melts and breaks the circuit when current becomes excessively large."},
-    {type:"figure",title:"Fuse protection",svg:`<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="420" rx="25" fill="#f8fafc"/><text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700">Fuse protection</text><path d="M90 205H315M585 205H810" stroke="#263238" stroke-width="7"/><rect x="315" y="155" width="270" height="100" rx="20" fill="#fff7ed" stroke="#c2410c" stroke-width="5"/><path d="M355 205Q400 155 445 205T535 205" fill="none" stroke="#dc2626" stroke-width="8"/><text x="450" y="300" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">thin fuse element</text><text x="450" y="350" text-anchor="middle" font-family="Arial" font-size="18" fill="#475569">Excess current → strong heating → melting → open circuit</text></svg>`,caption:"The fuse interrupts the circuit when excessive current heats and melts its element."},
-    {type:"table",color:"red",title:"Fuse: key points",rows:[["Feature","Why it matters"],["Connected in series","All circuit current passes through it"],["Thin fuse element","Heats readily when current becomes excessive"],["Suitable melting point/rating","Allows the protective device to operate when required"],["One-time operation","A blown fuse must be replaced with the correct type/rating"]]},
-    {type:"warning",color:"red",title:"Safety warning",text:"Never replace a fuse with a thick piece of wire or another unsuitable conductor. Doing so can defeat protection and increase the risk of overheating, fire or electric shock."},
-    {type:"example",color:"green",title:"Solved Example 4 — Fuse reasoning",text:"Why is a fuse placed in series rather than parallel with an appliance?",steps:["In series, the entire current entering the appliance also passes through the fuse.","If current becomes excessive, the fuse heats and melts.","The circuit opens and current to the appliance stops."],answer:"A series connection ensures that excessive circuit current passes through and heats the fuse."},
+  sections: [
+    {
+      title: "Chapter Introduction",
+      blocks: [
+        {
+          type: "paragraph",
+          text:
+            "Electricity is one of the most useful forms of energy in modern life. It powers lights, fans, refrigerators, computers, pumps, communication systems, medical equipment and machines used in homes and industries."
+        },
+        {
+          type: "paragraph",
+          text:
+            "When electric current flows through a conductor, it can produce important effects. Two major effects studied in this chapter are the heating effect and the magnetic effect. The heating effect allows electrical energy to produce useful heat, while the magnetic effect allows current to produce magnetism and operate devices such as electric bells, relays and motors."
+        },
+        {
+          type: "fact",
+          title: "Big idea",
+          text:
+            "The same electric current can be useful in very different ways. In one device it may produce heat; in another it may produce a magnetic effect; in a motor, electrical energy is ultimately converted into mechanical motion."
+        },
+        {
+          type: "application",
+          title: "Why this topic matters",
+          text:
+            "Understanding these effects helps us explain everyday appliances, choose safe electrical practices, understand fuses and circuit protection, and see how simple scientific principles are used in machines."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Magnetic Effect of Electric Current"},
-    {type:"paragraph",color:"purple",text:"When current flows through a conductor, a magnetic field is produced around it. Around a straight current-carrying wire, the field forms circular patterns. The field direction is linked to the current direction, and the strength depends on factors such as current and distance from the conductor."},
-    {type:"definition",color:"blue",title:"Magnetic effect of current",text:"The production of a magnetic field around a conductor when electric current flows through it is called the magnetic effect of electric current."},
-    {type:"activity",color:"green",title:"Activity — Detecting the magnetic effect",aim:"Observe that current through a wire can affect a compass.",materials:["Compass","Insulated connecting wire","Cell or battery","Switch"],procedure:["Place the compass near the wire.","Complete the circuit briefly so current flows.","Observe the compass needle.","Open the circuit and compare the needle position.","If suitable, reverse the current direction and observe again."],observation:"The compass needle can deflect when current flows nearby.",conclusion:"The deflection is evidence of a magnetic field associated with the current-carrying conductor."},
-    {type:"thinkBox",color:"yellow",title:"Think & Understand",question:"What would you expect if the current direction in the wire were reversed?",hint:"The magnetic field direction changes when the current direction changes."},
+    {
+      title: "1. Electric Current",
+      blocks: [
+        {
+          type: "definition",
+          title: "Electric current",
+          text:
+            "Electric current is the rate at which electric charge flows through a conductor. In a simple circuit, a cell or battery provides the electrical energy that drives charge through the conducting path."
+        },
+        {
+          type: "paragraph",
+          text:
+            "A conductor must provide a continuous conducting path for a sustained current in an ordinary closed circuit. If the path is broken, the circuit is open and the current stops."
+        },
+        {
+          type: "formula",
+          title: "Current",
+          formula: "I = Q / t",
+          explanation:
+            "I is current, Q is the charge transferred and t is the time taken. The SI unit of current is the ampere (A)."
+        },
+        {
+          type: "example",
+          title: "Solved example",
+          text:
+            "If 10 coulombs of charge pass through a conductor in 5 seconds, then I = 10 ÷ 5 = 2 A. Therefore, the current is 2 amperes."
+        },
+        {
+          type: "tip",
+          title: "Remember",
+          text:
+            "Current describes the rate of flow of charge. A larger current means more charge is passing a point each second."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Electromagnets"},
-    {type:"paragraph",color:"purple",text:"A coil of insulated wire carrying current produces a magnetic field. If the coil is wound around a suitable iron core, the magnetic effect becomes much stronger. Such a temporary magnet is called an electromagnet. Its major advantage is that its magnetism can be switched on and off by controlling the current."},
-    {type:"definition",color:"purple",title:"Electromagnet",text:"An electromagnet is a magnet produced by passing electric current through a coil, usually with a suitable magnetic core."},
-    {type:"figure",title:"Simple electromagnet",svg:`<svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="440" rx="25" fill="#f8fafc"/><text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700">Simple electromagnet</text><rect x="365" y="105" width="170" height="235" rx="15" fill="#94a3b8" stroke="#334155" stroke-width="6"/><text x="450" y="230" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="white">IRON CORE</text><path d="M335 125Q275 145 335 170T335 215T335 260T335 305T335 340" fill="none" stroke="#b91c1c" stroke-width="13"/><path d="M565 125Q625 145 565 170T565 215T565 260T565 305T565 340" fill="none" stroke="#b91c1c" stroke-width="13"/><path d="M120 150H260M120 325H260" stroke="#263238" stroke-width="7"/><line x1="105" y1="125" x2="105" y2="175" stroke="#263238" stroke-width="5"/><line x1="120" y1="115" x2="120" y2="185" stroke="#263238" stroke-width="5"/><line x1="105" y1="300" x2="105" y2="350" stroke="#263238" stroke-width="5"/><line x1="120" y1="290" x2="120" y2="360" stroke="#263238" stroke-width="5"/><text x="190" y="95" text-anchor="middle" font-family="Arial" font-size="18">cell</text><text x="450" y="390" text-anchor="middle" font-family="Arial" font-size="18" fill="#475569">Current through the coil produces a strong magnetic effect around the core.</text></svg>`,caption:"A current-carrying coil around an iron core forms a useful electromagnet."},
-    {type:"table",color:"purple",title:"How to strengthen an electromagnet",rows:[["Change","Typical effect"],["Increase current within safe limits","Can strengthen the magnetic field"],["Increase number of coil turns","Can strengthen the magnetic field"],["Use a suitable soft-iron core","Can greatly strengthen the magnetic effect"]]},
-    {type:"experiment",color:"green",title:"Activity — Make a simple electromagnet",aim:"Investigate how current through a coil can magnetise an iron object temporarily.",materials:["Insulated copper wire","Iron nail or soft-iron core","Cell/battery","Switch","Small steel pins or paper clips"],procedure:["Wind several turns of insulated wire around the iron core.","Connect the wire to a cell through a switch.","Close the switch and bring the core near small iron/steel objects.","Open the switch and compare what happens.","Do not leave a simple coil connected for long periods because the wire and cell may heat."],observation:"The core can attract small magnetic objects while current flows.",conclusion:"Current through the coil produces a magnetic effect that can make the iron core behave like a magnet."},
-    {type:"example",color:"green",title:"Solved Example 5 — Electromagnet",text:"Why is an electromagnet more useful than a permanent magnet in a scrap-yard crane?",steps:["An electromagnet can be switched on by allowing current to flow.","It can be switched off by stopping the current.","Lifted iron objects can therefore be released easily.","Its strength can also be varied by suitable changes in current or coil arrangement."],answer:"It provides controllable magnetism, allowing the crane to pick up and release magnetic material."},
+    {
+      title: "2. Electric Circuit and Its Components",
+      blocks: [
+        {
+          type: "definition",
+          title: "Electric circuit",
+          text:
+            "An electric circuit is a complete conducting path through which electric current can flow."
+        },
+        {
+          type: "table",
+          title: "Common circuit components",
+          rows: [
+            ["Component", "Main role", "Typical function"],
+            ["Cell / battery", "Source of electrical energy", "Provides potential difference that drives current"],
+            ["Connecting wires", "Conducting path", "Carry current between components"],
+            ["Switch / key", "Control", "Opens or closes the circuit"],
+            ["Bulb / load", "Uses electrical energy", "Produces light and heat"],
+            ["Resistor", "Controls current", "Offers electrical resistance"]
+          ]
+        },
+        {
+          type: "diagram",
+          title: "A simple closed circuit",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Simple%20electromagnet2.gif",
+          caption:
+            "A real/public-domain simple electromagnet image is used here as a visual bridge between the circuit and magnetic-effect concepts."
+        },
+        {
+          type: "paragraph",
+          text:
+            "In circuit diagrams, standard symbols are preferred because they make circuits easy to read and reproduce. A closed switch represents a conducting path; an open switch represents a break in the path."
+        },
+        {
+          type: "example",
+          title: "Think through a circuit",
+          text:
+            "A bulb is connected to a cell and a switch. When the switch is closed, the conducting path is complete and the bulb can glow. When the switch is opened, the path is broken and the bulb goes off."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Electric Bell"},
-    {type:"paragraph",color:"purple",text:"An electric bell uses the magnetic effect of current to produce repeated mechanical movement and sound. When the circuit is complete, an electromagnet attracts an armature. The armature movement separates the contact, interrupting current. The electromagnet then loses its magnetism, the armature returns, the contact is restored and the cycle repeats rapidly."},
-    {type:"table",color:"cyan",title:"Working cycle of an electric bell",rows:[["Step","What happens"],["1","Switch is pressed and circuit becomes complete."],["2","Current flows through the coil."],["3","The coil acts as an electromagnet."],["4","The armature is attracted."],["5","The contact breaks and current stops."],["6","The electromagnet loses magnetism."],["7","The armature returns and contact is restored."],["8","The cycle repeats and the striker hits the gong."]]},
-    {type:"thinkBox",color:"yellow",title:"Why does the bell keep ringing?",question:"If the electromagnet loses magnetism when the contact opens, how can the process start again?",hint:"The armature's movement changes the contact and restores the circuit."},
+    {
+      title: "3. Heating Effect of Electric Current",
+      blocks: [
+        {
+          type: "definition",
+          title: "Heating effect",
+          text:
+            "When electric current passes through a conductor that has electrical resistance, electrical energy is transformed partly into thermal energy. The conductor becomes hot. This is called the heating effect of electric current."
+        },
+        {
+          type: "paragraph",
+          text:
+            "The heating effect is not an accidental phenomenon. It is deliberately used in appliances designed to produce heat, such as electric irons, heaters, kettles, toasters and some types of lamps."
+        },
+        {
+          type: "figure",
+          title: "Real example: electric iron",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Electric%20iron.jpg",
+          caption:
+            "A real electric iron. The heating element inside the appliance converts electrical energy into heat."
+        },
+        {
+          type: "figure",
+          title: "Real example: electric kettle",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_kettle.jpg",
+          caption:
+            "A real electric kettle. Its heating element transfers thermal energy to the water."
+        },
+        {
+          type: "table",
+          title: "Heating-effect appliances",
+          rows: [
+            ["Appliance", "Useful effect", "Example of use"],
+            ["Electric iron", "Produces heat", "Ironing clothes"],
+            ["Electric kettle", "Produces heat", "Heating / boiling water"],
+            ["Room heater", "Produces heat", "Warming a room"],
+            ["Toaster", "Produces heat", "Toasting bread"],
+            ["Electric oven", "Produces heat", "Cooking / baking"],
+            ["Incandescent lamp", "Filament becomes very hot", "Produces visible light along with heat"]
+          ]
+        },
+        {
+          type: "fact",
+          title: "Why does a wire heat up?",
+          text:
+            "Moving charge carriers interact with the material of the conductor. Electrical energy is transferred to the material and appears as thermal energy. The amount of heating depends on the current, resistance and time for which current flows."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Electromagnetic Relay"},
-    {type:"paragraph",color:"purple",text:"A relay is an electrically operated switch. A small current in an electromagnet can move a mechanical contact and thereby control another circuit. This allows a control circuit to switch a separate circuit."},
-    {type:"definition",color:"cyan",title:"Relay",text:"A relay is a device in which an electromagnet operates a switch or set of contacts to control another electrical circuit."},
-    {type:"application",color:"green",title:"Where relays are useful",text:"Relays are used in control systems, alarms, automotive circuits and many devices where one circuit must control another without directly carrying the full load current."},
+    {
+      title: "4. Factors Affecting the Heating Effect",
+      blocks: [
+        {
+          type: "paragraph",
+          text:
+            "For a given conductor under suitable conditions, the heating produced increases when the current is larger, the resistance is larger, or the current flows for a longer time."
+        },
+        {
+          type: "table",
+          title: "Three important factors",
+          rows: [
+            ["Factor", "What happens when it increases?", "Reason"],
+            ["Current (I)", "Heating increases strongly", "Heating depends on the square of current"],
+            ["Resistance (R)", "Heating increases", "More electrical energy is converted into thermal energy"],
+            ["Time (t)", "Heating increases", "Energy is supplied for a longer duration"]
+          ]
+        },
+        {
+          type: "formula",
+          title: "Joule's law of heating",
+          formula: "H = I²Rt",
+          explanation:
+            "H is heat energy produced, I is current, R is resistance and t is time. In SI units, H is measured in joules when current is in amperes, resistance in ohms and time in seconds."
+        },
+        {
+          type: "example",
+          title: "Solved numerical",
+          text:
+            "A current of 2 A flows through a resistance of 5 Ω for 10 s. H = I²Rt = (2)² × 5 × 10 = 4 × 50 = 200 J. Therefore, 200 joules of heat are produced."
+        },
+        {
+          type: "example",
+          title: "Compare two currents",
+          text:
+            "If the resistance and time remain unchanged, increasing current from 2 A to 4 A multiplies the heating by 4, because heating is proportional to I². Thus, doubling current does not merely double the heating."
+        },
+        {
+          type: "think",
+          title: "Why?",
+          text:
+            "Why does a 4 A current produce four times the heating of a 2 A current when resistance and time are unchanged? Because (4)² ÷ (2)² = 4."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Electric Motor — Magnetic Effect Producing Motion"},
-    {type:"paragraph",color:"purple",text:"An electric motor converts electrical energy into mechanical energy. Its operation depends on the force experienced by a current-carrying conductor placed in a magnetic field. In a simple motor, a current-carrying coil lies between magnetic poles. Magnetic forces on opposite sides of the coil produce a turning effect. A commutator arrangement reverses current in the coil at suitable times so rotation continues in the same direction."},
-    {type:"figure",title:"Simplified electric motor",svg:`<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="480" rx="25" fill="#f8fafc"/><text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700">Simplified electric motor</text><rect x="245" y="95" width="410" height="280" fill="white" stroke="#334155" stroke-width="6"/><rect x="245" y="130" width="125" height="210" fill="#fecaca" stroke="#b91c1c" stroke-width="5"/><rect x="530" y="130" width="125" height="210" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="5"/><text x="307" y="245" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">N</text><text x="592" y="245" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">S</text><rect x="370" y="175" width="160" height="130" fill="#fef3c7" stroke="#a16207" stroke-width="5"/><path d="M390 195H510V285H390Z" fill="none" stroke="#c2410c" stroke-width="8"/><circle cx="370" cy="240" r="14" fill="#334155"/><circle cx="530" cy="240" r="14" fill="#334155"/><path d="M360 240H315M540 240H585" stroke="#334155" stroke-width="6"/><text x="450" y="420" text-anchor="middle" font-family="Arial" font-size="18" fill="#475569">Current-carrying coil + magnetic field → force → rotation</text></svg>`,caption:"Magnetic forces acting on the current-carrying coil produce a turning effect."},
-    {type:"definition",color:"green",title:"Electric motor",text:"An electric motor is a device that converts electrical energy into mechanical energy using magnetic forces."},
-    {type:"table",color:"green",title:"Main parts of a simple motor",rows:[["Part","Role"],["Magnetic field","Provides the magnetic field"],["Coil / armature","Carries current and experiences magnetic force"],["Split-ring commutator","Reverses coil current at suitable times"],["Brushes","Provide electrical contact with the rotating commutator"],["Cell / supply","Provides electrical energy"]]},
-    {type:"example",color:"green",title:"Solved Example 6 — Motor concept",text:"Why does a motor rotate instead of merely moving once?",steps:["A current-carrying coil in a magnetic field experiences forces.","Forces on opposite sides create a turning effect.","The commutator reverses current at suitable times.","The forces therefore continue to produce rotation in the same overall direction."],answer:"Continuous rotation is maintained by repeated magnetic forces and suitable current reversal."},
+    {
+      title: "5. Resistance and Heating Elements",
+      blocks: [
+        {
+          type: "paragraph",
+          text:
+            "Resistance is the opposition offered by a material to the flow of electric charge. Materials and components with greater resistance can produce greater heating for the same current and time."
+        },
+        {
+          type: "definition",
+          title: "Heating element",
+          text:
+            "A heating element is a part of an electrical appliance designed to become hot when current passes through it."
+        },
+        {
+          type: "paragraph",
+          text:
+            "Heating elements are often made from materials that can withstand high temperatures and have suitable electrical resistance. The element must be arranged so that it can transfer heat effectively without failing under normal operating conditions."
+        },
+        {
+          type: "application",
+          title: "Why not use an ordinary connecting wire as a heater?",
+          text:
+            "Connecting wires are generally designed to carry current with relatively low resistance and little unwanted heating. A heating appliance instead uses a specially selected element so that useful heat is produced safely."
+        },
+        {
+          type: "warning",
+          title: "Safety warning",
+          text:
+            "Never experiment with household mains electricity. School-level investigations should use teacher-approved low-voltage cells, batteries and safe apparatus."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Heating Effect vs Magnetic Effect"},
-    {type:"comparison",color:"purple",title:"Compare the two effects",rows:[["Point","Heating effect","Magnetic effect"],["Basic observation","Conductor becomes warm","Magnetic field appears around current-carrying conductor"],["Main result","Electrical energy is transferred as thermal energy","Magnetic interaction can produce force or movement"],["Major devices","Heater, iron, toaster, fuse","Electromagnet, bell, relay, motor"]]},
+    {
+      title: "6. Fuse, MCB and Electrical Safety",
+      blocks: [
+        {
+          type: "definition",
+          title: "Fuse",
+          text:
+            "A fuse is a safety device containing a material designed to melt when the current becomes dangerously large. When the fuse melts, the circuit is broken and the excessive current is stopped."
+        },
+        {
+          type: "paragraph",
+          text:
+            "A fuse is connected in series with the circuit it protects. Its rating is chosen according to the expected safe current of the circuit."
+        },
+        {
+          type: "definition",
+          title: "MCB",
+          text:
+            "An MCB (Miniature Circuit Breaker) is a protective device that automatically opens a circuit when an excessive current is detected. Unlike a traditional fuse, an MCB can normally be reset after the fault is removed."
+        },
+        {
+          type: "table",
+          title: "Fuse and MCB",
+          rows: [
+            ["Feature", "Fuse", "MCB"],
+            ["Response to excessive current", "Fuse element melts", "Breaker trips"],
+            ["After operation", "Fuse usually needs replacement", "MCB can normally be reset"],
+            ["Purpose", "Protect circuit and appliances", "Protect circuit and appliances"],
+            ["Important principle", "Interrupt dangerous current", "Interrupt dangerous current"]
+          ]
+        },
+        {
+          type: "fact",
+          title: "Why safety devices matter",
+          text:
+            "Excessive current can overheat wires, damage insulation and create a fire risk. Protective devices interrupt the circuit before the heating becomes dangerously large."
+        },
+        {
+          type: "warning",
+          title: "Electrical safety rules",
+          text:
+            "Do not touch electrical appliances with wet hands. Do not overload sockets. Do not use damaged cords. Do not insert objects into sockets. Switch off the supply before attempting any approved maintenance, and leave mains work to qualified adults."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Safety with Electricity"},
-    {type:"warning",color:"red",title:"Essential electrical safety",text:"Never touch exposed conductors, damaged wires or sockets with wet hands. Do not experiment with mains electricity. School investigations should use low-voltage cells or batteries under appropriate supervision. A fuse or circuit breaker is a protective device, not something to bypass."},
-    {type:"table",color:"red",title:"Safe practice",rows:[["Situation","Safe action"],["Damaged wire","Stop using it and report/replace appropriately"],["Wet hands near electrical equipment","Dry hands and avoid contact"],["Overloaded socket","Avoid overloading and use suitably rated equipment"],["Blown fuse","Find the cause and use the correct replacement"],["School experiment","Use low-voltage sources and supervised apparatus"]]},
+    {
+      title: "7. Magnetic Effect of Electric Current",
+      blocks: [
+        {
+          type: "definition",
+          title: "Magnetic effect",
+          text:
+            "A current-carrying conductor produces a magnetic effect in the space around it. This means that electric current can create a magnetic field."
+        },
+        {
+          type: "paragraph",
+          text:
+            "The magnetic effect of current was famously demonstrated by Hans Christian Ørsted when a compass needle was observed to deflect near a current-carrying wire."
+        },
+        {
+          type: "activity",
+          title: "Compass-and-wire investigation",
+          aim:
+            "To observe the magnetic effect of electric current.",
+          materials:
+            "A low-voltage cell or battery, insulated connecting wire, a switch and a compass.",
+          procedure: [
+            "Place the compass near a straight section of wire.",
+            "Connect the wire to a low-voltage cell and a switch.",
+            "Close the switch briefly and observe the compass needle.",
+            "Open the switch and observe the change.",
+            "Repeat safely with the teacher's guidance if required."
+          ],
+          observation:
+            "When current flows, the compass needle can deflect from its usual direction.",
+          conclusion:
+            "The deflection provides evidence that a current-carrying conductor produces a magnetic effect."
+        },
+        {
+          type: "think",
+          title: "What if the current is reversed?",
+          text:
+            "Reversing the direction of current reverses the direction of the magnetic field around the conductor. In a simple compass experiment, the needle deflection therefore changes direction."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Think & Understand — Deep Reasoning"},
-    {type:"questions",color:"yellow",title:"Reasoning questions",questions:[
-      {question:"Why does a fuse melt during an overload?",answer:"Excess current produces excessive heating in the fuse element, causing it to melt and open the circuit."},
-      {question:"Why is a fuse placed in series?",answer:"So the entire circuit current passes through the protective element."},
-      {question:"Why can an electromagnet be switched off?",answer:"Its magnetism depends on current in the coil; stopping current removes the main magnetic effect."},
-      {question:"Why can increasing the number of turns strengthen an electromagnet?",answer:"The magnetic effects of the turns combine, increasing the field produced by the coil."},
-      {question:"Why does a motor need a magnetic field?",answer:"Interaction between the magnetic field and the current-carrying coil produces magnetic forces and a turning effect."},
-      {question:"Why should a heating element tolerate high temperature?",answer:"Its purpose is to convert electrical energy into heat, so it must operate safely at elevated temperatures."}
-    ]},
+    {
+      title: "8. Magnetic Field Around a Current-Carrying Conductor",
+      blocks: [
+        {
+          type: "paragraph",
+          text:
+            "The magnetic field around a straight current-carrying conductor forms circular patterns around the wire. The field becomes stronger when the current is increased, and its direction depends on the direction of current."
+        },
+        {
+          type: "diagram",
+          title: "Magnetic field around a straight conductor",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Magnetic%20field%20of%20a%20straight%20current-carrying%20wire.svg",
+          caption:
+            "A standard representation of circular magnetic-field lines around a current-carrying straight conductor."
+        },
+        {
+          type: "tip",
+          title: "Right-hand thumb rule",
+          text:
+            "Imagine holding the straight conductor in your right hand with the thumb pointing in the direction of conventional current. The curled fingers indicate the direction of the magnetic field around the conductor."
+        },
+        {
+          type: "comparison",
+          title: "No current vs current",
+          rows: [
+            ["Condition", "Magnetic effect"],
+            ["No current", "No magnetic field is produced by the conductor due to current"],
+            ["Current flowing", "A magnetic field exists around the conductor"],
+            ["Larger current", "Magnetic effect becomes stronger, under comparable conditions"]
+          ]
+        }
+      ]
+    },
 
-    {type:"heading",text:"Solved Numerical and HOTS Examples"},
-    {type:"example",color:"green",title:"Solved Example 7 — Find current from heating",text:"A resistor of 10 Ω produces 400 J of heat in 4 s. Find the current.",steps:["Use H = I²Rt.","400 = I² × 10 × 4.","400 = 40I².","I² = 10.","I = √10 ≈ 3.16 A."],answer:"Current ≈ 3.16 A."},
-    {type:"example",color:"green",title:"Solved Example 8 — Find resistance",text:"A current of 3 A flows for 20 s and produces 540 J of heat. Find resistance.",steps:["H = I²Rt.","540 = 3² × R × 20.","540 = 180R.","R = 3 Ω."],answer:"Resistance = 3 Ω."},
-    {type:"example",color:"green",title:"Solved Example 9 — HOTS",text:"Two identical resistors are used. In case A they carry current I for time t. In case B the current is 3I for the same time. Compare heat produced.",steps:["Hₐ = I²Rt.","Hᵦ = (3I)²Rt = 9I²Rt.","Therefore Hᵦ/Hₐ = 9."],answer:"Case B produces 9 times the heat."},
-    {type:"challengeBox",color:"purple",title:"Challenge — Design a protective circuit",question:"A small classroom circuit contains a battery, switch, motor and wires. Where should a protective fuse be placed and why?",thinking:"The fuse must carry the circuit current and interrupt it if current becomes excessive."},
+    {
+      title: "9. Electromagnet",
+      blocks: [
+        {
+          type: "definition",
+          title: "Electromagnet",
+          text:
+            "An electromagnet is a magnet whose magnetic effect is produced by electric current. A common electromagnet consists of a coil of insulated wire wound around a soft iron core."
+        },
+        {
+          type: "paragraph",
+          text:
+            "When current flows through the coil, the magnetic effects of the individual turns combine. A soft iron core placed inside the coil can greatly strengthen the magnetic effect."
+        },
+        {
+          type: "figure",
+          title: "Real electric-motor / magnetic-device context",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Electromagnet%20Core.JPG",
+          caption:
+            "A real photograph showing an electromagnet core being prepared for winding. The image is openly licensed on Wikimedia Commons."
+        },
+        {
+          type: "table",
+          title: "Electromagnet vs permanent magnet",
+          rows: [
+            ["Feature", "Electromagnet", "Permanent magnet"],
+            ["Magnetism", "Produced using current", "Normally remains magnetised"],
+            ["Control", "Can be switched on/off", "Cannot simply be switched off"],
+            ["Strength", "Can be changed by changing current, turns or core", "Usually fixed for a given magnet"],
+            ["Typical uses", "Relays, bells, cranes, motors", "Compass needles, magnetic holders, some tools"]
+          ]
+        },
+        {
+          type: "fact",
+          title: "Why soft iron?",
+          text:
+            "Soft iron is easily magnetised when current flows and loses most of its magnetism when the current is removed. This makes it useful when a magnet needs to be switched on and off."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Common Mistakes and Misconceptions"},
-    {type:"misconception",color:"red",title:"⚠️ Mistake 1",wrong:"A current-carrying wire is a permanent magnet.",correct:"A current produces a magnetic field while current flows; a simple conductor is not automatically a permanent magnet."},
-    {type:"misconception",color:"red",title:"⚠️ Mistake 2",wrong:"A fuse is used to make an appliance work better.",correct:"A fuse is a safety device intended to interrupt an abnormally large current."},
-    {type:"misconception",color:"red",title:"⚠️ Mistake 3",wrong:"Doubling current doubles heat.",correct:"For fixed resistance and time, heat is proportional to I², so doubling current makes heat four times."},
-    {type:"misconception",color:"red",title:"⚠️ Mistake 4",wrong:"An electromagnet stays equally magnetic after the battery is disconnected.",correct:"Its magnetic effect greatly decreases when current stops."},
+    {
+      title: "10. How to Strengthen an Electromagnet",
+      blocks: [
+        {
+          type: "paragraph",
+          text:
+            "The magnetic strength of an electromagnet can be increased in several practical ways, provided the electrical conditions remain within safe limits."
+        },
+        {
+          type: "table",
+          title: "Ways to increase magnetic strength",
+          rows: [
+            ["Change", "Expected effect", "Why"],
+            ["Increase current within safe limits", "Stronger electromagnet", "Greater current produces a stronger magnetic effect"],
+            ["Increase number of turns", "Stronger electromagnet", "Magnetic effects of more turns add together"],
+            ["Use a suitable soft iron core", "Much stronger magnetic effect", "The core concentrates and strengthens the magnetic field"]
+          ]
+        },
+        {
+          type: "example",
+          title: "Reasoning example",
+          text:
+            "Two coils are wound around identical soft-iron cores. Coil A has 50 turns and Coil B has 100 turns, with comparable current. Coil B is expected to produce the stronger magnetic effect because it has more turns."
+        },
+        {
+          type: "warning",
+          title: "Do not increase current carelessly",
+          text:
+            "Increasing current also increases heating. A stronger electromagnet is useful only when the coil, battery and wires can safely handle the current."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Exam Zone"},
-    {type:"table",color:"orange",title:"Must-remember results",rows:[["Result","Remember"],["Heating law","H = I²Rt"],["Current effect on heating","For fixed R and t, H ∝ I²"],["Resistance effect","For fixed I and t, H ∝ R"],["Time effect","For fixed I and R, H ∝ t"],["Current produces magnetism","A current-carrying conductor has a magnetic field"],["Electromagnet","Coil current produces controllable magnetism"],["Motor","Electrical energy → mechanical energy"],["Fuse","Excess current → heating → melting → open circuit"]]},
-    {type:"examTip",color:"orange",title:"Exam tips",text:"For numerical questions, write the formula first, list known values with units, substitute carefully and show the final unit. For diagram questions, label cell/battery, switch, coil, magnetic field, core, brush or commutator as required. For reasoning questions, connect the effect to its physical cause."},
-    {type:"checkUnderstanding",title:"Quick exam check",questions:[{q:"1. State Joule's law of heating.",answer:"H = I²Rt."},{q:"2. What is an electromagnet?",answer:"A magnet produced by current through a coil, usually with a suitable core."},{q:"3. Why is a fuse used?",answer:"To protect a circuit by opening it when excessive current causes the fuse element to melt."},{q:"4. Name two devices based on magnetic effect.",answer:"Electric bell and electric motor; electromagnets and relays are other examples."},{q:"5. What energy conversion occurs in a heater?",answer:"Electrical energy is converted mainly into thermal energy."}]},
+    {
+      title: "11. Electric Bell — An Application of an Electromagnet",
+      blocks: [
+        {
+          type: "definition",
+          title: "Electric bell",
+          text:
+            "An electric bell is a device that uses an electromagnet to produce repeated mechanical motion, causing a striker to hit a gong and produce sound."
+        },
+        {
+          type: "figure",
+          title: "Real electric bell",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Electric%20Bell.jpg",
+          caption:
+            "A real electric bell photograph from Wikimedia Commons."
+        },
+        {
+          type: "table",
+          title: "How an electric bell works",
+          rows: [
+            ["Step", "What happens"],
+            ["1", "The switch is pressed and current flows through the coil."],
+            ["2", "The coil becomes an electromagnet and attracts the armature."],
+            ["3", "The attached striker moves and hits the gong."],
+            ["4", "The movement breaks the contact, stopping the current."],
+            ["5", "The electromagnet loses its magnetic effect and the spring pulls the armature back."],
+            ["6", "Contact is restored and the cycle repeats rapidly while the switch remains pressed."]
+          ]
+        },
+        {
+          type: "think",
+          title: "Why does the bell keep ringing?",
+          text:
+            "The bell contains a make-and-break contact arrangement. The circuit repeatedly opens and closes, so the electromagnet repeatedly attracts and releases the armature."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Practice Questions"},
-    {type:"practice",color:"blue",title:"Basic",questions:["What is an electric circuit?","What is the heating effect of current?","State Joule's law of heating.","What is a fuse?","What is the magnetic effect of electric current?","Define electromagnet.","Name two heating appliances.","Name two devices using electromagnets."]},
-    {type:"practice",color:"green",title:"Standard",questions:["Explain why a heating element becomes hot.","Describe how a fuse protects a circuit.","Describe an activity showing the magnetic effect of current.","Explain two ways of increasing the strength of an electromagnet.","Explain the working cycle of an electric bell.","List the main parts of a simple electric motor and state their functions."]},
-    {type:"practice",color:"purple",title:"Application and HOTS",questions:["Why should a fuse not be replaced by a piece of ordinary wire?","Why are heating elements commonly made from special resistance materials?","A crane needs to pick up and release iron objects. Why is an electromagnet suitable?","Why does a compass needle deflect near a current-carrying wire?","Explain why an electric motor is an example of energy conversion.","A 4 Ω resistor carries 3 A for 5 s. Calculate the heat produced.","A current of 2 A passes through a 12 Ω resistor for 10 s. Find heat produced.","If current through a fixed resistor is reduced to half, what fraction of the original heat is produced in the same time?","Two coils have the same current and time, but one has twice the resistance. Compare their heating.","Design a fair investigation to test whether increasing the number of turns in an electromagnet changes its strength."]},
+    {
+      title: "12. Electric Motor",
+      blocks: [
+        {
+          type: "definition",
+          title: "Electric motor",
+          text:
+            "An electric motor is a device that converts electrical energy into mechanical energy, usually in the form of rotational motion."
+        },
+        {
+          type: "figure",
+          title: "Real electric motor",
+          image:
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_motor.jpg",
+          caption:
+            "A real electric motor photograph. Motors use magnetic effects to produce motion."
+        },
+        {
+          type: "paragraph",
+          text:
+            "A current-carrying conductor placed in a magnetic field experiences a force. In a motor, carefully arranged magnetic forces act on a current-carrying coil so that it turns. The rotating part is connected to a shaft, which can transfer mechanical motion to a machine."
+        },
+        {
+          type: "table",
+          title: "Main ideas in a simple motor",
+          rows: [
+            ["Part / idea", "Role"],
+            ["Magnetic field", "Provides the field in which the current-carrying coil experiences force"],
+            ["Coil / armature", "Carries current and experiences magnetic forces"],
+            ["Split-ring commutator", "Reverses current direction in the coil at the appropriate time in a simple DC motor"],
+            ["Brushes", "Provide electrical contact with the rotating commutator"],
+            ["Axle / shaft", "Carries rotational motion to the external load"]
+          ]
+        },
+        {
+          type: "application",
+          title: "Where motors are used",
+          text:
+            "Fans, mixers, water pumps, toys, washing machines, computer cooling systems and many industrial machines use electric motors."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Challenge Zone"},
-    {type:"caseStudy",color:"red",title:"Case Study — The overloaded circuit",text:"A student connects several high-power appliances to one outlet using an unsuitable extension arrangement. The wiring becomes hot and the protective device interrupts the circuit.",questions:[{question:"Which effect explains the heating of the wiring?",answer:"The heating effect of electric current due to resistance."},{question:"Why might the protective device interrupt the circuit?",answer:"The current may have become excessive, causing the protective device to operate."},{question:"What should the student do?",answer:"Stop using the unsafe arrangement and have the circuit/equipment checked by an appropriate qualified adult or professional."},{question:"Why is repeatedly resetting a protective device without finding the cause unsafe?",answer:"The underlying overload or fault may remain and can cause dangerous heating or damage."}]},
-    {type:"challengeBox",color:"purple",title:"HOTS Challenge — Heating versus magnetic effect",question:"A current-carrying coil becomes warm and also behaves like an electromagnet. Explain why both effects can occur at the same time.",thinking:"The same current produces resistive heating in the wire and a magnetic field because moving charge is associated with magnetism."},
+    {
+      title: "13. Heating Effect and Magnetic Effect — A Clear Comparison",
+      blocks: [
+        {
+          type: "table",
+          title: "Compare the two effects",
+          rows: [
+            ["Point", "Heating effect", "Magnetic effect"],
+            ["Basic idea", "Current causes electrical energy to appear as heat", "Current produces a magnetic field"],
+            ["Typical devices", "Iron, heater, kettle, toaster", "Bell, relay, electromagnet, motor"],
+            ["Useful output", "Thermal energy", "Magnetic action / mechanical motion"],
+            ["Important control", "Current, resistance and time affect heating", "Current, coil turns and core influence magnetic strength"],
+            ["Major safety concern", "Overheating and fire risk", "Incorrect connections can still cause heating and electrical hazards"]
+          ]
+        },
+        {
+          type: "fact",
+          title: "One current, different effects",
+          text:
+            "Heating and magnetic effects are not competing explanations. Both can occur when current flows. Which effect is useful depends on the design of the device."
+        }
+      ]
+    },
 
-    {type:"heading",text:"Chapter Revision"},
-    {type:"keyTakeaway",color:"purple",title:"One-page revision",points:["A complete circuit provides a conducting path for current.","Resistance causes electrical energy to be transferred partly into heat.","Joule's law: H = I²Rt.","Heating is important in heaters, irons, toasters and kettles.","A fuse protects circuits by melting when excessive current produces excessive heating.","A current-carrying conductor produces a magnetic field.","A coil carrying current can form an electromagnet, especially with a suitable iron core.","Electromagnets are useful because their magnetism can be controlled by current.","Electric bells and relays use electromagnets.","Electric motors use magnetic forces to produce rotation.","Electrical safety is essential; school experiments should use low-voltage sources and supervised apparatus."]},
-    {type:"heading",text:"Important Points"},
-    {type:"list",items:["Heating and magnetic effects are two important effects of electric current.","For fixed resistance and time, heating varies as the square of current.","A fuse is connected in series so the circuit current passes through it.","An electromagnet can be switched on and off.","More coil turns can strengthen an electromagnet under suitable conditions.","An electric bell uses repeated making and breaking of a circuit.","A motor uses magnetic force on a current-carrying coil to produce rotation.","Never bypass a fuse or use damaged electrical equipment."]},
-    {type:"heading",text:"Key Terms"},
-    {type:"keyTerms",terms:[{term:"Electric current",definition:"Directed movement of electric charge through a conducting path."},{term:"Electric circuit",definition:"A complete conducting path through which current can flow."},{term:"Resistance",definition:"Opposition offered by a material to the flow of electric current."},{term:"Heating effect",definition:"Conversion of electrical energy into thermal energy due to resistance."},{term:"Joule's law",definition:"The heat produced in a resistor is H = I²Rt."},{term:"Fuse",definition:"A protective device that opens a circuit when excessive current melts its element."},{term:"Magnetic effect",definition:"Production of a magnetic field around a current-carrying conductor."},{term:"Electromagnet",definition:"A magnet produced by current through a coil."},{term:"Relay",definition:"An electrically operated switch using an electromagnet."},{term:"Electric motor",definition:"A device converting electrical energy into mechanical energy using magnetic forces."},{term:"Commutator",definition:"A motor component that reverses current in the rotating coil at suitable times."}]},
-    {type:"heading",text:"Chapter Summary"},
-    {type:"summary",color:"purple",title:"Complete summary",text:"Electric current can produce heating and magnetic effects. In a resistive conductor, electrical energy is transferred into thermal energy; the heat produced is described by H = I²Rt. This principle is used in heating appliances and in protective fuses. A fuse melts when excessive current causes excessive heating, opening the circuit and reducing the risk of damage. Current also produces a magnetic field around a conductor. A coil carrying current can form an electromagnet, whose strength can be increased by suitable changes such as increasing the number of turns or current within safe limits and using a suitable core. Electromagnets are used in electric bells and relays. Electric motors use magnetic forces on a current-carrying coil to convert electrical energy into mechanical energy. Safe handling of electricity is essential throughout."}
-  ]}],
-  importantPoints:["Heating and magnetic effects are important effects of electric current.","Joule's law of heating is H = I²Rt.","For fixed resistance and time, doubling current makes heating four times.","A fuse is connected in series and melts when excessive current produces excessive heating.","A current-carrying conductor produces a magnetic field.","An electromagnet has controllable magnetism.","Increasing coil turns can strengthen an electromagnet.","Electric bells and relays use electromagnets.","Electric motors use magnetic forces to produce rotation.","Electrical safety and correct protective devices are essential."],
-  keyTerms:[{term:"Electric current",definition:"Directed movement of electric charge through a conducting path."},{term:"Heating effect",definition:"Conversion of electrical energy into thermal energy due to resistance."},{term:"Joule's law",definition:"H = I²Rt."},{term:"Fuse",definition:"A protective device that opens a circuit when excessive current melts its element."},{term:"Magnetic effect",definition:"Production of a magnetic field around a current-carrying conductor."},{term:"Electromagnet",definition:"A magnet produced by current through a coil."},{term:"Relay",definition:"An electrically operated switch using an electromagnet."},{term:"Electric motor",definition:"A device converting electrical energy into mechanical energy using magnetic forces."}]
+    {
+      title: "14. Think & Understand",
+      blocks: [
+        {
+          type: "think",
+          title: "Why does an open circuit not operate a bulb?",
+          text:
+            "An open circuit has a break in the conducting path, so a continuous current cannot flow through the bulb."
+        },
+        {
+          type: "think",
+          title: "Why is a fuse connected in series?",
+          text:
+            "A series connection ensures that the current entering the protected circuit passes through the fuse. If the current becomes excessive, the fuse can interrupt that current."
+        },
+        {
+          type: "think",
+          title: "What happens if current through an electromagnet is removed?",
+          text:
+            "The electromagnet loses the magnetic effect produced by the current, although a small residual magnetism can depend on the core material and conditions."
+        },
+        {
+          type: "think",
+          title: "What if the number of turns is doubled?",
+          text:
+            "For comparable conditions, increasing the number of turns strengthens the magnetic effect of a coil. The exact strength also depends on current, core and coil geometry."
+        },
+        {
+          type: "think",
+          title: "Why does an electric iron become hot?",
+          text:
+            "Its heating element has electrical resistance. When current flows through it, electrical energy is converted into thermal energy."
+        }
+      ]
+    },
+
+    {
+      title: "15. Solved Problems — Step by Step",
+      blocks: [
+        {
+          type: "example",
+          title: "Problem 1 — Heat produced",
+          text:
+            "A 3 A current flows through a 4 Ω resistor for 5 s. Using H = I²Rt: Step 1: I² = 9. Step 2: Multiply by R: 9 × 4 = 36. Step 3: Multiply by t: 36 × 5 = 180. Answer: H = 180 J."
+        },
+        {
+          type: "example",
+          title: "Problem 2 — Finding current",
+          text:
+            "If 24 C of charge passes through a conductor in 6 s, I = Q ÷ t = 24 ÷ 6 = 4 A. Answer: 4 A."
+        },
+        {
+          type: "example",
+          title: "Problem 3 — Finding time",
+          text:
+            "If 50 C of charge passes at a current of 5 A, t = Q ÷ I = 50 ÷ 5 = 10 s. Answer: 10 s."
+        },
+        {
+          type: "example",
+          title: "Problem 4 — Current comparison",
+          text:
+            "Two identical resistors operate for the same time. One carries 2 A and the other 6 A. The ratio of heating is 2² : 6² = 4 : 36 = 1 : 9. Therefore, the 6 A case produces nine times the heating."
+        },
+        {
+          type: "example",
+          title: "Problem 5 — Multi-step reasoning",
+          text:
+            "A device is designed to produce heat. Its resistance is kept constant. If the current is increased by 50%, the new current is 1.5I. Heating becomes proportional to (1.5I)² = 2.25I². Therefore the heating becomes 2.25 times the original value, assuming the same resistance and time."
+        },
+        {
+          type: "example",
+          title: "HOTS — Why current is dangerous",
+          text:
+            "Suppose a wire's resistance is constant. If current doubles, Joule heating becomes four times as large. This explains why excessive current can rapidly increase heating and create a serious safety hazard."
+        }
+      ]
+    },
+
+    {
+      title: "16. Common Mistakes",
+      blocks: [
+        {
+          type: "warning",
+          title: "Mistake 1 — Confusing current with charge",
+          text:
+            "Charge is the quantity of electric charge; current is the rate of flow of charge. They are not the same physical quantity."
+        },
+        {
+          type: "warning",
+          title: "Mistake 2 — Forgetting the square",
+          text:
+            "In Joule's law, H = I²Rt. The current is squared. Doubling current therefore makes the heating four times as large, when R and t are unchanged."
+        },
+        {
+          type: "warning",
+          title: "Mistake 3 — Treating a fuse as a normal switch",
+          text:
+            "A fuse is a protective device designed to interrupt excessive current. It is not intended for routine switching."
+        },
+        {
+          type: "warning",
+          title: "Mistake 4 — Saying every magnet is an electromagnet",
+          text:
+            "A permanent magnet can remain magnetised without a continuously supplied current. An electromagnet depends on current for its main magnetic action."
+        },
+        {
+          type: "warning",
+          title: "Mistake 5 — Using household mains for experiments",
+          text:
+            "Never use domestic mains electricity for school experiments. Use only teacher-approved low-voltage equipment."
+        }
+      ]
+    },
+
+    {
+      title: "17. Exam Zone",
+      blocks: [
+        {
+          type: "examTip",
+          title: "Must-know results",
+          text:
+            "Electric current is the rate of flow of charge. A closed circuit provides a conducting path. Current can produce heating and magnetic effects. Joule's law: H = I²Rt. A fuse protects against excessive current. An electromagnet uses current to produce magnetic action. An electric motor converts electrical energy into mechanical energy."
+        },
+        {
+          type: "examTip",
+          title: "High-frequency question patterns",
+          text:
+            "Be prepared to define electric current, explain the heating effect, state Joule's law, identify factors affecting heating, explain the function of a fuse, describe Ørsted's observation, explain an electromagnet, list ways to strengthen it, explain an electric bell and explain the basic principle of an electric motor."
+        },
+        {
+          type: "examTip",
+          title: "Answer-writing tip",
+          text:
+            "For mechanism questions, write the steps in the correct order. For numerical questions, write the formula first, substitute values with units, calculate carefully and state the final unit."
+        }
+      ]
+    },
+
+    {
+      title: "18. Practice Questions",
+      blocks: [
+        {
+          type: "practice",
+          title: "Basic",
+          questions: [
+            "Define electric current.",
+            "What is an electric circuit?",
+            "Name two appliances that use the heating effect.",
+            "What is a fuse?",
+            "What is an electromagnet?"
+          ]
+        },
+        {
+          type: "practice",
+          title: "Standard",
+          questions: [
+            "Explain why a bulb goes off when a switch is opened.",
+            "State Joule's law of heating and explain each symbol.",
+            "Why is a fuse connected in series?",
+            "Give three ways to strengthen an electromagnet.",
+            "Describe the basic principle of an electric motor."
+          ]
+        },
+        {
+          type: "practice",
+          title: "Application",
+          questions: [
+            "Why should sockets not be overloaded?",
+            "Why is a soft iron core useful in an electromagnet?",
+            "Why does an electric bell need a make-and-break contact?",
+            "A heater has constant resistance. What happens to its heating if current is doubled?",
+            "Why are heating elements made differently from ordinary connecting wires?"
+          ]
+        },
+        {
+          type: "practice",
+          title: "HOTS and Reasoning",
+          questions: [
+            "Two coils have the same current and core, but one has more turns. Predict which is stronger and explain why.",
+            "If current is tripled while resistance and time remain constant, by what factor does Joule heating change?",
+            "A circuit has a protective fuse but still contains a damaged wire. Explain why the fuse cannot be treated as a substitute for safe wiring.",
+            "Why can the magnetic effect of current be used to produce mechanical motion in a motor?"
+          ]
+        }
+      ]
+    },
+
+    {
+      title: "19. Challenge Zone",
+      blocks: [
+        {
+          type: "challenge",
+          title: "Challenge 1",
+          text:
+            "A resistor carries 4 A for 15 s and produces a certain amount of heat. What would happen to the heat if the current became 8 A while resistance and time remained unchanged? Explain without calculating first, then verify using the formula."
+        },
+        {
+          type: "challenge",
+          title: "Challenge 2",
+          text:
+            "Design a conceptual electromagnet for lifting small iron objects. List the core material, coil arrangement, current control and two safety considerations. Explain why each choice is appropriate."
+        },
+        {
+          type: "challenge",
+          title: "Challenge 3",
+          text:
+            "Explain the complete energy pathway in an electric motor from the electrical source to the rotating shaft. Identify where magnetic forces are involved."
+        }
+      ]
+    },
+
+    {
+      title: "20. Chapter Revision",
+      blocks: [
+        {
+          type: "table",
+          title: "Quick revision table",
+          rows: [
+            ["Concept", "One-line revision"],
+            ["Electric current", "Rate of flow of electric charge"],
+            ["Circuit", "Complete conducting path for current"],
+            ["Heating effect", "Electrical energy converted into thermal energy"],
+            ["Joule's law", "H = I²Rt"],
+            ["Fuse", "Protective device that melts and breaks the circuit when current is excessive"],
+            ["MCB", "Protective breaker that trips when excessive current is detected"],
+            ["Magnetic effect", "Current produces a magnetic field around a conductor"],
+            ["Electromagnet", "Magnet whose main magnetic action is produced by current"],
+            ["Electric bell", "Uses an electromagnet and repeated make-break action to produce sound"],
+            ["Electric motor", "Converts electrical energy into mechanical energy"]
+          ]
+        },
+        {
+          type: "summary",
+          title: "60-second revision",
+          text:
+            "Current is the rate of flow of charge. A closed circuit is needed for continuous current. Current can produce heat and magnetism. Heating depends on current, resistance and time, with H = I²Rt. Fuses and MCBs protect circuits. A current-carrying conductor produces a magnetic field. A coil with a soft iron core can form an electromagnet. Electromagnets operate devices such as bells and relays, and magnetic forces are used in electric motors."
+        }
+      ]
+    },
+
+    {
+      title: "⭐ Important Points",
+      blocks: [
+        {
+          type: "important",
+          items: [
+            "Electric current is the rate of flow of electric charge.",
+            "A closed circuit provides a continuous conducting path.",
+            "Current through a resistance can produce heat.",
+            "Joule's law of heating is H = I²Rt.",
+            "Heating increases with current, resistance and time under the stated conditions.",
+            "A fuse protects a circuit by breaking the circuit when excessive current causes the fuse element to melt.",
+            "An MCB trips automatically when excessive current is detected.",
+            "A current-carrying conductor produces a magnetic effect.",
+            "A coil carrying current can act as an electromagnet.",
+            "Increasing current or coil turns and using a suitable soft iron core can strengthen an electromagnet.",
+            "An electric bell uses an electromagnet and a make-and-break contact.",
+            "An electric motor converts electrical energy into mechanical energy.",
+            "Electrical safety is essential because excessive current can cause dangerous heating."
+          ]
+        }
+      ]
+    },
+
+    {
+      title: "🔑 Key Terms",
+      blocks: [
+        {
+          type: "table",
+          title: "Key terms and definitions",
+          rows: [
+            ["Term", "Meaning"],
+            ["Electric current", "Rate of flow of electric charge"],
+            ["Circuit", "Complete conducting path for current"],
+            ["Conductor", "Material that allows electric charge to move relatively easily"],
+            ["Resistance", "Opposition offered to electric current"],
+            ["Heating effect", "Production of heat when current flows through a resistance"],
+            ["Joule's law", "Relation H = I²Rt for heat produced in a resistor"],
+            ["Fuse", "Safety device that melts and breaks a circuit when current is excessive"],
+            ["MCB", "Automatic protective circuit breaker"],
+            ["Magnetic effect", "Magnetic field produced by electric current"],
+            ["Electromagnet", "Temporary magnet produced mainly by electric current"],
+            ["Armature", "Moving part used in electromagnetic devices such as a bell or motor"],
+            ["Commutator", "Part of a simple DC motor that reverses coil current at the required time"],
+            ["Electric motor", "Device that converts electrical energy into mechanical energy"]
+          ]
+        }
+      ]
+    },
+
+    {
+      title: "📖 Chapter Summary",
+      blocks: [
+        {
+          type: "summary",
+          title: "Complete chapter summary",
+          text:
+            "Electricity becomes useful when electric charge flows through suitable circuits. Electric current is the rate of flow of charge, and a complete circuit is required for continuous current. When current passes through a conductor with resistance, electrical energy can be converted into heat. This heating effect is deliberately used in appliances such as irons, heaters and kettles. The heat produced is described by Joule's law, H = I²Rt, showing the dependence on current, resistance and time. Because excessive current can cause dangerous heating, devices such as fuses and MCBs provide protection. Current also produces a magnetic effect. A current-carrying wire creates a magnetic field, and a coil can produce a stronger magnetic effect, especially when combined with a suitable soft iron core. Such an arrangement is called an electromagnet. Electromagnets are used in electric bells and many other devices. Magnetic forces acting on current-carrying conductors form the basic principle behind electric motors, which convert electrical energy into mechanical motion. Thus, the heating and magnetic effects of current connect a simple electrical circuit with many practical technologies around us."
+        }
+      ]
+    }
+  ],
+
+  importantPoints: [
+    "Electric current is the rate of flow of electric charge.",
+    "A closed circuit is needed for continuous current in an ordinary circuit.",
+    "Current can produce both heating and magnetic effects.",
+    "Joule's law: H = I²Rt.",
+    "Excess current can cause dangerous heating, so circuits need suitable protection.",
+    "A fuse melts and breaks the circuit when excessive current flows.",
+    "An MCB trips automatically when excessive current is detected.",
+    "A current-carrying conductor produces a magnetic field.",
+    "An electromagnet is produced by current and can be switched and controlled.",
+    "More current, more turns and a suitable soft iron core can strengthen an electromagnet.",
+    "An electric bell uses an electromagnet and repeated make-and-break action.",
+    "An electric motor converts electrical energy into mechanical energy."
+  ],
+
+  keyTerms: [
+    { term: "Electric current", definition: "Rate of flow of electric charge." },
+    { term: "Electric circuit", definition: "Complete conducting path through which current can flow." },
+    { term: "Resistance", definition: "Opposition offered to the flow of electric charge." },
+    { term: "Heating effect", definition: "Conversion of electrical energy into thermal energy when current flows through resistance." },
+    { term: "Joule's law", definition: "H = I²Rt, the relation for heat produced in a resistor." },
+    { term: "Fuse", definition: "Safety device that melts and opens the circuit when excessive current flows." },
+    { term: "MCB", definition: "Automatic circuit breaker used for electrical protection." },
+    { term: "Magnetic effect", definition: "Magnetic field produced by electric current." },
+    { term: "Electromagnet", definition: "Magnet whose main magnetic action is produced by electric current." },
+    { term: "Electric motor", definition: "Device that converts electrical energy into mechanical energy." }
+  ],
+
+  summary:
+    "Electric current flows through complete circuits and can produce two major effects: heating and magnetism. The heating effect is used in appliances such as irons and kettles and is described by H = I²Rt. Excessive current can be dangerous, so fuses and MCBs protect circuits. Current also creates a magnetic field; coils with suitable cores can form electromagnets. Electromagnets are used in electric bells and many other devices, while magnetic forces on current-carrying conductors form the basis of electric motors."
 };
+
+/* Optional global export used by some older ConceptQizzer loaders. */
+window.CQChapterData = ChapterData;
