@@ -7,7 +7,7 @@
 
 window.ChapterRegistry = [
   {
-  id: "class8-science-electricity-magnetic-and-heating-effects",
+  id: "8-science-electricity-magnetic-and-heating-effects",
   class: 8,
   subject: "Science",
   chapterNumber: 4,
