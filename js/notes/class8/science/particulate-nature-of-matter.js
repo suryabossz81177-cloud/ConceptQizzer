@@ -35,8 +35,8 @@ const ChapterData = {
           "title": "Real chalk specimen",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Chalk.jpg",
-          "caption": "Photograph of chalk; used to connect an everyday material with the particulate model. Source: Wikimedia Commons, CC BY 2.5 (Mike Plante)."
+          "image": "assets/pnm/chalk-specimen.svg",
+          "caption": "Photograph of chalk; used to connect an everyday material with the particulate model. Clear educational figure prepared for ConceptQizzer."
         },
         {
           "type": "table",
@@ -94,8 +94,8 @@ const ChapterData = {
           "title": "Real chalk: from visible material to tiny particles",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chalks.jpg",
-          "caption": "Photograph of chalk; used to connect an everyday material with the particulate model. Source: Wikimedia Commons, CC BY 2.5 (Mike Plante)."
+          "image": "assets/pnm/particles-magnified.svg",
+          "caption": "Photograph of chalk; used to connect an everyday material with the particulate model. Clear educational figure prepared for ConceptQizzer."
         },
         {
           "type": "activity",
@@ -340,7 +340,7 @@ const ChapterData = {
           "title": "Scientific Brownian-motion visual",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Brownian_motion.svg",
+          "image": "assets/pnm/brownian-motion.svg",
           "caption": "Scientific Brownian-motion schematic; CC BY-SA 4.0 (Andi schmitt)."
         },
         {
@@ -348,7 +348,7 @@ const ChapterData = {
           "title": "Microscopic pollen Brownian motion",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pollen_grains_under_microscope_10x.jpg",
+          "image": "assets/pnm/pollen-brownian.svg",
           "caption": "Real microscope photograph of pollen grains; used as a real microscopic context for discussing Brownian motion. Source: Wikimedia Commons, CC0 1.0 (Jerfin Jijo Jeneaster)."
         },
         {
@@ -393,7 +393,7 @@ const ChapterData = {
           "title": "Real diffusion of ink in water",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Diffusion_with_ink.jpg",
+          "image": "assets/pnm/ink-diffusion.svg",
           "caption": "Real diffusion demonstration photograph."
         },
         {
@@ -524,7 +524,7 @@ const ChapterData = {
           "title": "Real ice melting",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ice_melting.jpg",
+          "image": "assets/pnm/ice-melting-real.jpg",
           "caption": "Real photograph of ice slowly melting into water; a clear solid → liquid example. Source: Wikimedia Commons, CC BY-SA 4.0 (Snehit Jamere)."
         },
         {
@@ -636,7 +636,7 @@ const ChapterData = {
           "title": "Real laboratory gas syringe",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Gas_syringe.jpg",
+          "image": "assets/pnm/gas-pressure.svg",
           "caption": "Real laboratory apparatus photograph useful for gas volume/compressibility."
         },
         {
@@ -814,7 +814,7 @@ const ChapterData = {
           "title": "Real boiling water",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Boiling_water.jpg",
+          "image": "assets/pnm/boiling-water.svg",
           "caption": "Real photograph of boiling water; used for particle-motion/state-change discussion."
         },
         {
@@ -822,7 +822,7 @@ const ChapterData = {
           "title": "Real condensation",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Water%20drops%20during%20process%20of%20condensation.jpg",
+          "image": "assets/pnm/condensation.svg",
           "caption": "Real photograph showing water droplets produced by condensation. Source: Wikimedia Commons, CC BY-SA 4.0 (Nicole López)."
         },
         {
@@ -1100,7 +1100,7 @@ const ChapterData = {
           "title": "Brownian motion evidence",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Brownian%20Motion.gif",
+          "image": "assets/pnm/why-models.svg",
           "caption": "Real Brownian-motion animation of nanoscale particles; Source: Wikimedia Commons, CC BY-SA 4.0 (Yasrena)."
         },
         {
@@ -1114,7 +1114,7 @@ const ChapterData = {
           "title": "Real milk microscopic view",
           "text": "",
           "color": "blue",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/A%20microscopy%20image%20of%20a%20sample%20of%20human%20breast%20milk.JPG",
+          "image": "assets/pnm/milk-brownian.svg",
           "caption": "Real microscope photograph of milk-related material; used to discuss dispersed microscopic particles. Source: Wikimedia Commons, CC BY-SA 4.0 (Amangeldyurazov)."
         },
         {
