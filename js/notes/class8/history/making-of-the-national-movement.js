@@ -4,7 +4,7 @@
 // Do NOT add `export` — the chapter loader expects a normal script.
 
 const chapterData = {
-  id: "8-history-making-of-the-national-movement",
+  id: "8-history-the-making-of-the-national-movement",
   title: "The Making of the National Movement",
   subtitle: "1870s–1947",
   class: 8,
