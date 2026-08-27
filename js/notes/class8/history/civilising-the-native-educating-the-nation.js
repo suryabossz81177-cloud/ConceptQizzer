@@ -16,6 +16,36 @@ var chapterData = {
   file: "js/notes/class8/history/civilising-the-native-educating-the-nation.js",
   enabled: true,
 
+  description: "This chapter traces the major debates over education in colonial India: the Orientalist and Anglicist arguments, the rise of English education, Macaulay’s Minute, Wood’s Despatch, the growth of universities and the different Indian responses. It also examines Gandhi’s criticism of colonial education and Tagore’s experiment at Santiniketan. The chapter shows how education became both an instrument of colonial rule and a field of intellectual debate and nation-building.",
+
+  summary: "British educational policy in India developed through a long debate about what Indians should learn and in which language. Early Orientalists such as William Jones respected Indian classical learning and supported the study of Sanskrit, Arabic, Persian and Indian texts. Later critics such as James Mill and Thomas Macaulay argued that European knowledge was more useful and promoted English education. Macaulay’s Minute of 1835 and the English Education Act strengthened this direction. Wood’s Despatch of 1854 expanded the colonial educational framework, and universities were established at Calcutta, Madras and Bombay in 1857. Colonial education was connected to administration, commerce and the British idea of a civilising mission. Indians responded in different ways: some welcomed Western science and modern knowledge, while others criticised the cultural assumptions of colonial education and sought alternatives. Mahatma Gandhi wanted education rooted in Indian languages, practical work and dignity of labour. Rabindranath Tagore developed Santiniketan as a freer, nature-based environment combining creativity, arts, science and cultural exchange. Thus, education became both an instrument of colonial power and an important field of Indian intellectual resistance and nation-building.",
+
+  importantPoints: [
+    { title: "Education was political", text: "Colonial education was connected with British ideas about governing, knowledge and changing Indian society." },
+    { title: "Orientalists valued Indian learning", text: "Scholars such as William Jones supported the study of Sanskrit, Arabic, Persian and classical Indian texts." },
+    { title: "The Anglicist view", text: "James Mill and Thomas Macaulay argued for European knowledge and greater use of English in education." },
+    { title: "Macaulay’s Minute — 1835", text: "Macaulay strongly promoted English education and European literature and science, influencing colonial educational policy." },
+    { title: "Wood’s Despatch — 1854", text: "It proposed a more organised educational system, including education departments, universities and teacher training." },
+    { title: "Universities — 1857", text: "Universities were established at Calcutta, Bombay and Madras, expanding higher education under colonial rule." },
+    { title: "Gandhi’s alternative", text: "Gandhi criticised colonial education and advocated productive work, handicrafts, Indian languages and dignity of labour." },
+    { title: "Tagore’s Santiniketan", text: "Tagore promoted learning in a natural environment with freedom, creativity, arts, science and cultural exchange." },
+    { title: "Indian responses were diverse", text: "Indians did not respond in one uniform way: they debated, accepted, criticised and created alternative forms of education." },
+    { title: "Education and nationalism", text: "Modern education could provide access to new ideas while also becoming a means to challenge colonial rule and build national consciousness." }
+  ],
+
+  keyTerms: [
+    { term: "Orientalists", definition: "Scholars and officials who supported the study of Asian languages, literature, philosophy and classical traditions." },
+    { term: "Anglicists", definition: "Those who favoured European knowledge and greater use of English in education." },
+    { term: "Macaulay’s Minute", definition: "Thomas Macaulay’s 1835 document arguing strongly for English education and European knowledge." },
+    { term: "English Education Act", definition: "The 1835 measure that strengthened the official shift towards English education." },
+    { term: "Wood’s Despatch", definition: "The 1854 educational policy associated with Charles Wood that proposed a more organised education system." },
+    { term: "Vernacular", definition: "A language commonly spoken by people in a particular region." },
+    { term: "Santiniketan", definition: "The educational institution founded by Rabindranath Tagore, emphasising learning in a natural and creative environment." },
+    { term: "Nai Talim", definition: "Gandhi’s educational approach centred on productive work, craft, practical learning and dignity of labour." },
+    { term: "Civilising mission", definition: "The colonial claim that British rule and education would 'civilise' Indian society according to European ideas." },
+    { term: "National education", definition: "Educational efforts designed to develop learning in ways connected with Indian culture, needs and national aspirations." }
+  ],
+
   meta: {
     level: "Class 8",
     theme: "Colonial education, knowledge, culture and Indian responses",
