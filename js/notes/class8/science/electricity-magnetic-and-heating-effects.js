@@ -1,6 +1,6 @@
 /* Concept Quizzer — Class 8 Science — Chapter 4 */
 window.ChapterData = {
-  id:"class8-science-electricity-magnetic-and-heating-effects", class:8, subject:"Science", chapterNumber:4,
+  id:"8-science-electricity-magnetic-and-heating-effects", class:8, subject:"Science", chapterNumber:4,
   title:"Electricity: Magnetic and Heating Effects",
   description:"Too-too-detailed notes on electric circuits, heating effect, Joule's law, fuse protection, magnetic effect, electromagnets, electric bell, relay, electric motor, safety, examples, HOTS and practice.",
   summary:"Electric current produces heating and magnetic effects. Resistance converts electrical energy partly into heat, described by H = I²Rt. This explains heating appliances and fuse protection. Current also produces a magnetic field; coils can form controllable electromagnets used in bells and relays, while magnetic forces in motors convert electrical energy into mechanical energy.",
