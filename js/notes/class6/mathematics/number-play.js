@@ -15,7 +15,7 @@ const ChapterData = {
   title: "Number Play",
 
   description:
-    "NCERT Class 6 Mathematics Chapter 3 – Number Play: detailed concept notes, examples, problem-solving ideas and revision support.",
+    " Class 6 Mathematics Chapter 3 beautiful notes – Number Play: detailed concept notes, examples, problem-solving ideas and revision support.",
 
   estimatedReadingTime: "30–40 minutes",
   difficulty: "Intermediate",
