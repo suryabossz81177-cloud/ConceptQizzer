@@ -5,7 +5,7 @@
   Designed for 300+ Chapters
 ==================================================*/
 window.ChapterRegistry = [
-  {
+{
   id: "8-science-keeping-time-with-the-skies",
   title: "Keeping Time with the Skies",
   class: 8,
