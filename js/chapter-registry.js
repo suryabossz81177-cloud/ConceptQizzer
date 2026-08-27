@@ -5,7 +5,7 @@
   Designed for 300+ Chapters
 ==================================================*/
 window.ChapterRegistry = [
-  {
+{
   id: "class8-science-how-nature-works-in-harmony",
   class: 8,
   subject: "Science",
