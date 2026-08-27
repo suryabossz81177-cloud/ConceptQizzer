@@ -13,7 +13,7 @@ window.ChapterRegistry = [
   chapter: 8,
   file: "js/notes/class8/history/making-of-the-national-movement.js",
   enabled: true
- },
+  },
   
   {
   id: "8-history-women-caste-and-reform",
