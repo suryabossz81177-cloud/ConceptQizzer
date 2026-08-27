@@ -5,6 +5,16 @@
   Designed for 300+ Chapters
   ==================================================*/
 window.ChapterRegistry = [
+{
+  id: "8-history-civilising-the-native-educating-the-nation",
+  title: 'Civilising the "Native", Educating the Nation',
+  class: 8,
+  subject: "History",
+  chapter: 6,
+  file: "js/notes/class8/history/civilising-the-native-educating-the-nation.js",
+  enabled: true
+},
+  
   {
   id: "8-history-when-people-rebel-1857-and-after",
   title: "When People Rebel — 1857 and After",
