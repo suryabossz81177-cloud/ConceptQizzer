@@ -5,6 +5,16 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
+  {
+  id: "8-history-women-caste-and-reform",
+  title: "Women, Caste and Reform",
+  class: 8,
+  subject: "History",
+  chapter: 7,
+  file: "js/notes/class8/history/women-caste-and-reform.js",
+  enabled: true
+},
+  
  {
   id: "8-history-civilising-the-native-educating-the-nation",
   title: 'Civilising the "Native", Educating the Nation',
