@@ -7,6 +7,16 @@
 
 window.ChapterRegistry = [
   {
+  id: "8-science-exploring-forces",
+  title: "Exploring Forces",
+  class: 8,
+  subject: "Science",
+  chapter: 5,
+  file: "js/notes/class8/science/exploring-forces.js",
+  enabled: true
+},
+  
+  {
   id: "8-science-electricity-magnetic-and-heating-effects",
   class: 8,
   subject: "Science",
