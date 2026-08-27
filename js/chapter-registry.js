@@ -3,9 +3,9 @@
   UNIVERSAL CHAPTER REGISTRY
   Package 12.5 — Step 6.4A
   Designed for 300+ Chapters
-==================================================*/
+  ==================================================*/
 window.ChapterRegistry = [
-  {
+{
   id: "8-history-ruling-the-countryside",
   title: "Ruling the Countryside",
   class: 8,
