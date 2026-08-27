@@ -3,7 +3,7 @@
   UNIVERSAL CHAPTER REGISTRY
   Package 12.5 — Step 6.4A
   Designed for 300+ Chapters
-  ==================================================*/
+  =================================================*/
 window.ChapterRegistry = [
 {
   id: "8-history-civilising-the-native-educating-the-nation",
