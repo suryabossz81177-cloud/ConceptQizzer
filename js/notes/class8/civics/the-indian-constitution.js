@@ -112,6 +112,15 @@ window.ChapterData = {
           "title": "Experience with legislatures",
           "text": "The experience of elections and provincial ministries under colonial rule, including the 1937 provincial elections, gave Indian political leaders practical experience with legislative institutions. These experiences informed the later design of independent India's institutions.",
           "color": "green"
+        },
+        {
+          "type": "figure",
+          "title": "Historical Visual — The Constituent Assembly",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/45/11/Indian_Constituent_Assembly.JPG",
+          "caption": "Photograph from the first day of the Constituent Assembly of India, 11 December 1946.",
+          "sourceName": "Wikimedia Commons — Indian Constituent Assembly.JPG",
+          "sourceNote": "Public-domain historical photograph according to the file page.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Constituent_Assembly.JPG"
         }
       ]
     },
@@ -165,6 +174,24 @@ window.ChapterData = {
           "title": "Adoption and commencement",
           "text": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950. The latter date is celebrated as Republic Day.",
           "color": "orange"
+        },
+        {
+          "type": "figure",
+          "title": "Nehru Addressing the Constituent Assembly, 1946",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/db/1c/Jawaharlal_Nehru_addressing_the_constituent_assembly_in_1946.jpg",
+          "caption": "Historical photograph showing Jawaharlal Nehru addressing the Constituent Assembly in December 1946.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "Public-domain historical photograph according to the file page.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jawaharlal_Nehru_addressing_the_constituent_assembly_in_1946.jpg"
+        },
+        {
+          "type": "figure",
+          "title": "Constituent Assembly Meeting, 1950",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/86/66/A_Constituent_Assembly_of_India_meeting_in_1950.jpg",
+          "caption": "A historical photograph of a Constituent Assembly meeting in 1950.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "Public-domain historical photograph according to the file page.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Constituent_Assembly_of_India_meeting_in_1950.jpg"
         }
       ]
     },
@@ -250,6 +277,15 @@ window.ChapterData = {
           ],
           "lesson": "Lesson: Democratic government works through constitutional rules, representation and participation.",
           "color": "green"
+        },
+        {
+          "type": "figure",
+          "title": "The Original Calligraphed and Illuminated Preamble",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4d/3c/Constitution_of_India.jpg",
+          "caption": "A historical image of the Preamble to the Constitution of India, from the illuminated and calligraphed constitutional manuscript.",
+          "sourceName": "Wikimedia Commons — Constitution of India.jpg",
+          "sourceNote": "The Commons file identifies the image as public domain; attribution/source details are available on the file page.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constitution_of_India.jpg"
         }
       ]
     },
@@ -495,6 +531,15 @@ window.ChapterData = {
           "title": "Checks and accountability",
           "text": "Democratic institutions are designed so that public power can be questioned, reviewed and limited. Elections, legislative scrutiny, judicial review and constitutional rules contribute to accountability.",
           "color": "blue"
+        },
+        {
+          "type": "figure",
+          "title": "Parliament of India — Visual Connection to Parliamentary Government",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/eb/c9/Indian_Parliament_Building_Delhi_India.JPG",
+          "caption": "Photograph of the Parliament Building in New Delhi, used to connect the lesson on parliamentary government with a real institution.",
+          "sourceName": "Wikimedia Commons — Indian Parliament Building Delhi India.JPG",
+          "sourceNote": "CC BY 3.0. Preserve attribution when redistributing the image.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Parliament_Building_Delhi_India.JPG"
         }
       ]
     },
@@ -1133,25 +1178,16 @@ window.ChapterData = {
       ]
     },
     {
-      "title": "Real Visuals — Use Sparingly",
+      "title": "Real Visuals — Topic-linked and Verified",
       "blocks": [
         {
           "type": "figure",
-          "title": "Official Constitution of India — Preamble / Constitution text",
-          "image": "https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf",
-          "caption": "Official Government of India publication of the Constitution of India. Use the official document rather than an AI recreation.",
-          "sourceName": "Legislative Department, Ministry of Law and Justice, Government of India",
-          "sourceNote": "Official government source; follow the source's reproduction/usage terms.",
-          "sourceUrl": "https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
-        },
-        {
-          "type": "figure",
-          "title": "Constituent Assembly historical visual",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Constituent%20Assembly%20of%20India.jpg",
-          "caption": "Historical visual of the Constituent Assembly, subject to the licence shown on its Wikimedia Commons file page.",
+          "title": "Verified Image Sources Used in This Chapter",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/45/11/Indian_Constituent_Assembly.JPG",
+          "caption": "The chapter now uses actual image files rather than a PDF URL pretending to be an image. Topic-linked images are also placed inside the relevant lessons.",
           "sourceName": "Wikimedia Commons",
-          "sourceNote": "Verify the individual file's current licence/attribution before redistribution.",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constituent_Assembly_of_India.jpg"
+          "sourceNote": "Each image block includes its source page and licence note. No AI-generated historical photographs are used.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Constituent_Assembly_of_India"
         }
       ]
     },
@@ -1167,7 +1203,7 @@ window.ChapterData = {
       ]
     }
   ],
-  "visualPolicy": "Use real/source-licensed visuals only where genuinely useful. Do not use AI-generated historical photographs or invented maps. Visual sources are individually identified and should be checked for their current licence/attribution before redistribution.",
+  "visualPolicy": "Use real/source-licensed visuals at the point where the related topic is taught. Do not use PDF URLs in an image field. Historical photographs and document images must use a direct image URL plus a source page and licence note. Do not use AI-generated historical photographs or invented historical documents.",
   "comicCharacters": [
     "Surya",
     "Ansh",
