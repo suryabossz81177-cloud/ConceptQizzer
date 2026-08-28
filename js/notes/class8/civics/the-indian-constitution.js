@@ -116,7 +116,7 @@ window.ChapterData = {
         {
           "type": "figure",
           "title": "Historical Visual — The Constituent Assembly",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/45/11/Indian_Constituent_Assembly.JPG",
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Indian_Constituent_Assembly.JPG?width=1200",
           "caption": "Photograph from the first day of the Constituent Assembly of India, 11 December 1946.",
           "sourceName": "Wikimedia Commons — Indian Constituent Assembly.JPG",
           "sourceNote": "Public-domain historical photograph according to the file page.",
@@ -178,7 +178,7 @@ window.ChapterData = {
         {
           "type": "figure",
           "title": "Nehru Addressing the Constituent Assembly, 1946",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/db/1c/Jawaharlal_Nehru_addressing_the_constituent_assembly_in_1946.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jawaharlal_Nehru_addressing_the_constituent_assembly_in_1946.jpg?width=1200",
           "caption": "Historical photograph showing Jawaharlal Nehru addressing the Constituent Assembly in December 1946.",
           "sourceName": "Wikimedia Commons",
           "sourceNote": "Public-domain historical photograph according to the file page.",
@@ -187,7 +187,7 @@ window.ChapterData = {
         {
           "type": "figure",
           "title": "Constituent Assembly Meeting, 1950",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/86/66/A_Constituent_Assembly_of_India_meeting_in_1950.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A_Constituent_Assembly_of_India_meeting_in_1950.jpg?width=1200",
           "caption": "A historical photograph of a Constituent Assembly meeting in 1950.",
           "sourceName": "Wikimedia Commons",
           "sourceNote": "Public-domain historical photograph according to the file page.",
@@ -281,7 +281,7 @@ window.ChapterData = {
         {
           "type": "figure",
           "title": "The Original Calligraphed and Illuminated Preamble",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4d/3c/Constitution_of_India.jpg",
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Constitution_of_India.jpg?width=1200",
           "caption": "A historical image of the Preamble to the Constitution of India, from the illuminated and calligraphed constitutional manuscript.",
           "sourceName": "Wikimedia Commons — Constitution of India.jpg",
           "sourceNote": "The Commons file identifies the image as public domain; attribution/source details are available on the file page.",
@@ -535,7 +535,7 @@ window.ChapterData = {
         {
           "type": "figure",
           "title": "Parliament of India — Visual Connection to Parliamentary Government",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/eb/c9/Indian_Parliament_Building_Delhi_India.JPG",
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Indian_Parliament_Building_Delhi_India.JPG?width=1200",
           "caption": "Photograph of the Parliament Building in New Delhi, used to connect the lesson on parliamentary government with a real institution.",
           "sourceName": "Wikimedia Commons — Indian Parliament Building Delhi India.JPG",
           "sourceNote": "CC BY 3.0. Preserve attribution when redistributing the image.",
@@ -1183,7 +1183,7 @@ window.ChapterData = {
         {
           "type": "figure",
           "title": "Verified Image Sources Used in This Chapter",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/45/11/Indian_Constituent_Assembly.JPG",
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Indian_Constituent_Assembly.JPG?width=1200",
           "caption": "The chapter now uses actual image files rather than a PDF URL pretending to be an image. Topic-linked images are also placed inside the relevant lessons.",
           "sourceName": "Wikimedia Commons",
           "sourceNote": "Each image block includes its source page and licence note. No AI-generated historical photographs are used.",
