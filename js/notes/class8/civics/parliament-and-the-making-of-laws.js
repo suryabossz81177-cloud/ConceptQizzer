@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 8 Civics — Chapter 3 */
+"use strict";
 
 window.ChapterData = {
   "id": "class8-civics-parliament-making-of-laws",
@@ -111,7 +111,27 @@ window.ChapterData = {
           "questions": [
             "Why would a very large country need representative institutions?",
             "Why should an MP listen to constituency concerns even while considering national issues?",
-            "How are elections connected to representative democracy?"
+            "How are elections connected to representative democracy?",
+            {
+              "question": "Why is Question Hour important?",
+              "answer": "It gives MPs a formal opportunity to seek information from ministers and scrutinise the government's work."
+            },
+            {
+              "question": "Can a Money Bill be introduced in Rajya Sabha?",
+              "answer": "No. A Money Bill can be introduced only in the Lok Sabha, subject to the constitutional requirements."
+            },
+            {
+              "question": "What is the major difference between an MP and an MLA?",
+              "answer": "An MP works in Parliament at the Union level, while an MLA works in a State Legislative Assembly at the State level."
+            },
+            {
+              "question": "Why is Rajya Sabha called a permanent House?",
+              "answer": "It is not dissolved; approximately one-third of its members retire every two years."
+            },
+            {
+              "question": "Why is Lok Sabha more powerful than Rajya Sabha in Money Bill matters?",
+              "answer": "The Constitution gives Lok Sabha the decisive role: a Money Bill can originate only there, and Rajya Sabha can only make recommendations within 14 days."
+            }
           ]
         }
       ]
@@ -294,6 +314,122 @@ window.ChapterData = {
               "Prime Minister and Council of Ministers"
             ]
           ]
+        }
+      ]
+    },
+    {
+      "title": "Master Definitions — Essential Parliamentary Terms",
+      "blocks": [
+        {
+          "type": "definitions",
+          "title": "Master Definitions — Parliament & Law-Making",
+          "items": [
+            {
+              "term": "Question Hour",
+              "definition": "The scheduled period in a parliamentary sitting during which Members of Parliament ask ministers questions about the functioning of their departments. It is an important mechanism of parliamentary scrutiny and accountability."
+            },
+            {
+              "term": "Zero Hour",
+              "definition": "The period after Question Hour when members may raise matters of urgent public importance, according to parliamentary practice and the rules/procedures of the House."
+            },
+            {
+              "term": "Question",
+              "definition": "A formal query by a member seeking information from a minister on a matter connected with the government's work."
+            },
+            {
+              "term": "Supplementary Question",
+              "definition": "A follow-up question asked by a member after the minister's answer to seek clarification or further information."
+            },
+            {
+              "term": "Bill",
+              "definition": "A proposed law introduced in Parliament or a State Legislature for consideration."
+            },
+            {
+              "term": "Act",
+              "definition": "A bill that has completed the constitutionally required legislative process and received the required assent, becoming law, subject to commencement provisions."
+            },
+            {
+              "term": "Money Bill",
+              "definition": "A bill containing only provisions dealing with matters specified in Article 110 of the Constitution. The Speaker of Lok Sabha decides whether a bill is a Money Bill."
+            },
+            {
+              "term": "Ordinary / General Bill",
+              "definition": "A bill dealing with matters that do not fall exclusively within the constitutional definition of a Money Bill."
+            },
+            {
+              "term": "Government Bill",
+              "definition": "A bill introduced by a minister on behalf of the government."
+            },
+            {
+              "term": "Private Member's Bill",
+              "definition": "A bill introduced by a member of a House who is not a minister."
+            },
+            {
+              "term": "Motion",
+              "definition": "A formal proposal made by a member for the House to take a particular decision or action."
+            },
+            {
+              "term": "Debate",
+              "definition": "A structured parliamentary discussion in which members present arguments, information and opposing or supporting views."
+            },
+            {
+              "term": "Deliberation",
+              "definition": "Careful discussion and consideration of an issue before a decision is taken."
+            },
+            {
+              "term": "Quorum",
+              "definition": "The minimum number of members required to constitute a meeting of a House for its proceedings, as prescribed by the Constitution and rules."
+            },
+            {
+              "term": "Speaker",
+              "definition": "The presiding officer of the Lok Sabha who conducts its proceedings and performs constitutional and procedural functions."
+            },
+            {
+              "term": "Chairman of Rajya Sabha",
+              "definition": "The Vice-President of India is the ex officio Chairman of the Rajya Sabha."
+            },
+            {
+              "term": "Opposition",
+              "definition": "Members or parties that are not part of the government and scrutinise and challenge government policies and actions."
+            },
+            {
+              "term": "Constituency",
+              "definition": "A defined geographical area whose voters elect a representative."
+            },
+            {
+              "term": "MP",
+              "definition": "Member of Parliament, serving in either the Lok Sabha or Rajya Sabha under the constitutional system."
+            },
+            {
+              "term": "MLA",
+              "definition": "Member of Legislative Assembly, elected to represent a constituency in a State Legislative Assembly."
+            },
+            {
+              "term": "No-Confidence Motion",
+              "definition": "A motion in the Lok Sabha testing whether the Council of Ministers continues to enjoy the confidence of the House."
+            },
+            {
+              "term": "Parliamentary Committee",
+              "definition": "A smaller group of members constituted to examine legislation, government work, expenditure or other matters in greater detail."
+            },
+            {
+              "term": "Standing Committee",
+              "definition": "A committee designed to function on a continuing basis for parliamentary scrutiny, subject to the rules and structure of Parliament."
+            },
+            {
+              "term": "Joint Sitting",
+              "definition": "A sitting of both Houses of Parliament together under Article 108 in specified circumstances to resolve certain legislative deadlocks; it does not apply to Money Bills or Constitution Amendment Bills."
+            },
+            {
+              "term": "Coalition Government",
+              "definition": "A government formed by two or more parties or groups working together when no single party or group has the required majority to form the government alone."
+            },
+            {
+              "term": "Legislative Process",
+              "definition": "The series of constitutional and parliamentary steps through which a bill is considered, debated, voted upon and, when required, assented to so that it can become law."
+            }
+          ],
+          "color": "orange"
         }
       ]
     },
@@ -620,6 +756,323 @@ window.ChapterData = {
             "Why should MPs consider both constituency concerns and national consequences?",
             "How can citizens hold elected representatives accountable?"
           ]
+        }
+      ]
+    },
+    {
+      "title": "Detailed Comparison Tables & Definitions",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Lok Sabha vs Rajya Sabha — Detailed Difference Table",
+          "rows": [
+            [
+              "Feature",
+              "Lok Sabha",
+              "Rajya Sabha"
+            ],
+            [
+              "Meaning",
+              "House of the People.",
+              "Council of States."
+            ],
+            [
+              "Representation",
+              "Represents the people through elected members from parliamentary constituencies.",
+              "Represents the States and Union Territories through the constitutional electoral system."
+            ],
+            [
+              "Election",
+              "Members are directly elected by voters in parliamentary constituencies, subject to constitutional provisions.",
+              "Most members are elected by elected members of State Legislative Assemblies using proportional representation by means of the single transferable vote; some are nominated by the President."
+            ],
+            [
+              "Maximum strength",
+              "Constitution provides for a maximum of 550 members from States and up to 20 from Union Territories, with the current constitutional position and election law determining the actual composition.",
+              "Constitution provides for not more than 250 members: up to 238 representatives of States/UTs and 12 nominated members."
+            ],
+            [
+              "Term",
+              "Normally five years unless sooner dissolved, subject to constitutional provisions.",
+              "A permanent House; it is not dissolved. As nearly as possible one-third of members retire every second year."
+            ],
+            [
+              "Minimum age for membership",
+              "25 years.",
+              "30 years."
+            ],
+            [
+              "Presiding officer",
+              "Speaker of the Lok Sabha.",
+              "Vice-President of India is ex officio Chairman; the House also has a Deputy Chairman."
+            ],
+            [
+              "Money Bill",
+              "Can be introduced only in Lok Sabha. Lok Sabha has the decisive role on a Money Bill.",
+              "Cannot introduce a Money Bill. It may make recommendations and must return the Money Bill within 14 days."
+            ],
+            [
+              "Council of Ministers",
+              "The Council of Ministers is collectively responsible to the Lok Sabha.",
+              "The Council of Ministers is not collectively responsible to the Rajya Sabha."
+            ],
+            [
+              "No-confidence motion",
+              "A no-confidence motion against the Council of Ministers is a Lok Sabha matter.",
+              "No-confidence motion cannot be used in Rajya Sabha to remove the Union Council of Ministers."
+            ],
+            [
+              "Ordinary Bills",
+              "Participates fully in ordinary legislation.",
+              "Participates fully in ordinary legislation; in case of disagreement, constitutional procedures may include a joint sitting in specified circumstances."
+            ],
+            [
+              "Special role",
+              "Greater financial and government-accountability role because of Money Bills and collective responsibility.",
+              "Special federal role, including the constitutional power under Article 249 to enable Parliament to legislate on a State List matter in the national interest by the required special majority."
+            ],
+            [
+              "Continuity",
+              "Can be dissolved.",
+              "Continues even when Lok Sabha is dissolved."
+            ],
+            [
+              "Federal character",
+              "National popular representation.",
+              "Provides representation to States/UTs and continuity."
+            ]
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "comparison",
+          "title": "General / Ordinary Bill vs Money Bill — Detailed Difference Table",
+          "rows": [
+            [
+              "Feature",
+              "General / Ordinary Bill",
+              "Money Bill"
+            ],
+            [
+              "Meaning",
+              "A bill dealing with matters other than those exclusively covered by the constitutional definition of a Money Bill.",
+              "A bill containing only provisions dealing with matters specified in Article 110, such as certain taxation, borrowing and Consolidated Fund matters."
+            ],
+            [
+              "Introduction",
+              "May be introduced in either House, subject to constitutional procedure.",
+              "Can be introduced only in Lok Sabha."
+            ],
+            [
+              "President's recommendation",
+              "Not generally required merely for introduction, though particular financial provisions can attract constitutional requirements.",
+              "Required for introduction where Article 117/constitutional provisions so provide."
+            ],
+            [
+              "Rajya Sabha role",
+              "Can pass, reject, amend or otherwise deal with it as permitted by parliamentary procedure.",
+              "Cannot reject or amend it; it can only recommend changes."
+            ],
+            [
+              "Time for Rajya Sabha",
+              "No special 14-day limit merely because it is an ordinary bill.",
+              "Must return it to Lok Sabha within 14 days."
+            ],
+            [
+              "Lok Sabha after Rajya Sabha recommendations",
+              "Both Houses must agree according to the ordinary legislative process.",
+              "Lok Sabha may accept or reject the recommendations."
+            ],
+            [
+              "Joint sitting",
+              "May be possible in specified deadlock situations under Article 108, subject to constitutional exceptions.",
+              "No joint sitting for a Money Bill."
+            ],
+            [
+              "Speaker's certification",
+              "No special Money Bill certification is required.",
+              "Speaker of Lok Sabha certifies whether a bill is a Money Bill."
+            ],
+            [
+              "President",
+              "After passage by Parliament, follows the constitutional process under Article 111.",
+              "Follows the special constitutional framework applicable to Money Bills and may not return a Money Bill for reconsideration under Article 111."
+            ],
+            [
+              "Example",
+              "A bill creating or changing a general legal rule, subject to its actual contents.",
+              "A bill whose provisions fall strictly within Article 110."
+            ]
+          ],
+          "color": "green"
+        },
+        {
+          "type": "comparison",
+          "title": "MP vs MLA — Detailed Difference Table",
+          "rows": [
+            [
+              "Feature",
+              "MP",
+              "MLA"
+            ],
+            [
+              "Full form",
+              "Member of Parliament.",
+              "Member of Legislative Assembly."
+            ],
+            [
+              "Represents",
+              "Represents a parliamentary constituency in Lok Sabha, or is a member of Rajya Sabha representing a State/UT under the constitutional system.",
+              "Represents a territorial constituency in a State Legislative Assembly."
+            ],
+            [
+              "Institution",
+              "Parliament of India.",
+              "State Legislature / Legislative Assembly."
+            ],
+            [
+              "Level of government",
+              "Union / national level.",
+              "State level."
+            ],
+            [
+              "Main legislative role",
+              "Participates in making Union laws, debating national policies and scrutinising the Union government.",
+              "Participates in making State laws on subjects within the State Legislature's competence and scrutinises the State government."
+            ],
+            [
+              "Money matters",
+              "Lok Sabha MPs have special constitutional responsibilities concerning Money Bills at the Union level.",
+              "MLAs participate in the State's legislative financial process, including State Money Bills under the Constitution."
+            ],
+            [
+              "Minimum age",
+              "25 for Lok Sabha; 30 for Rajya Sabha.",
+              "25 years."
+            ],
+            [
+              "Election",
+              "Lok Sabha MPs are directly elected; Rajya Sabha members are elected/nominated under constitutional provisions.",
+              "MLAs are directly elected from State Assembly constituencies, subject to election law."
+            ],
+            [
+              "Government accountability",
+              "Union Council of Ministers is collectively responsible to Lok Sabha.",
+              "State Council of Ministers is collectively responsible to the Legislative Assembly."
+            ],
+            [
+              "Constituency size",
+              "Generally represents a parliamentary constituency, which is larger than an Assembly constituency.",
+              "Generally represents a smaller Assembly constituency within a State."
+            ]
+          ],
+          "color": "purple"
+        },
+        {
+          "type": "comparison",
+          "title": "Bill vs Act — Detailed Difference Table",
+          "rows": [
+            [
+              "Feature",
+              "Bill",
+              "Act"
+            ],
+            [
+              "Meaning",
+              "A proposed law presented before a legislature.",
+              "A bill that has completed the required legislative process and received the required assent, becoming law."
+            ],
+            [
+              "Stage",
+              "Before enactment.",
+              "After enactment."
+            ],
+            [
+              "Legal status",
+              "Proposal under consideration.",
+              "Law in force subject to its commencement and other provisions."
+            ],
+            [
+              "Debate",
+              "Can be debated, amended and voted upon according to procedure.",
+              "Its provisions are applied/interpreted as law once in force."
+            ],
+            [
+              "Change",
+              "Can be changed during the legislative process.",
+              "Can be amended or repealed through later legal processes."
+            ]
+          ],
+          "color": "orange"
+        },
+        {
+          "type": "comparison",
+          "title": "Government Bill vs Private Member's Bill",
+          "rows": [
+            [
+              "Feature",
+              "Government Bill",
+              "Private Member's Bill"
+            ],
+            [
+              "Introduced by",
+              "A minister.",
+              "A member of the legislature who is not a minister."
+            ],
+            [
+              "Purpose",
+              "Usually introduced to implement government policy or legislation.",
+              "Can raise an issue or propose a legislative change independently of the government."
+            ],
+            [
+              "Government position",
+              "Normally reflects the government's legislative programme.",
+              "Does not necessarily represent the government's position."
+            ],
+            [
+              "Outcome",
+              "Government majority/support often makes passage more likely, but parliamentary procedure still applies.",
+              "Passage is possible but generally more difficult because it lacks automatic government backing."
+            ]
+          ],
+          "color": "blue"
+        },
+        {
+          "type": "comparison",
+          "title": "Government / Treasury Benches vs Opposition",
+          "rows": [
+            [
+              "Feature",
+              "Government / Treasury side",
+              "Opposition"
+            ],
+            [
+              "Basic role",
+              "Runs the government and presents its legislative and policy programme.",
+              "Questions, scrutinises and challenges the government's actions and proposals."
+            ],
+            [
+              "Accountability",
+              "Must explain and defend government decisions.",
+              "Uses debates, questions, committees and other parliamentary mechanisms to hold the government accountable."
+            ],
+            [
+              "Legislation",
+              "Introduces many government bills.",
+              "Examines, debates, proposes changes and may oppose or support bills."
+            ],
+            [
+              "Question Hour",
+              "Ministers answer questions relating to their departments.",
+              "Members can ask ministers questions and seek explanations."
+            ],
+            [
+              "Democracy",
+              "Exercises executive authority through the parliamentary system.",
+              "Provides an institutional check and alternative viewpoints."
+            ]
+          ],
+          "color": "purple"
         }
       ]
     },
