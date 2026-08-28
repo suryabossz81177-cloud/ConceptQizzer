@@ -5,7 +5,7 @@ window.ChapterData = {
   "class": 8,
   "subject": "Civics",
   "chapter": 3,
-  "description": "Too-too detailed Class 8 Civics Chapter 3 covering Parliament, representation, Lok Sabha and Rajya Sabha, MPs and MLAs, Question Hour, Zero Hour, parliamentary control over the executive, law-making, Ordinary Bills, Money Bills, Joint Sitting, Coalition Government, legislative process, comparisons, glossary, civic situations, comic stories, important points and exam preparation.",
+  "description": "Detailed Class 8 Civics Chapter 3 covering Parliament, representation, Lok Sabha and Rajya Sabha, MPs and MLAs, Question Hour, Zero Hour, parliamentary control over the executive, law-making, Ordinary Bills, Money Bills, Joint Sitting, Coalition Government, legislative process, comparisons, glossary, civic situations, comic stories, important points and exam preparation.",
   "sections": [
     {
       "title": "Chapter Starter — Why Do We Need Parliament?",
@@ -624,89 +624,95 @@ window.ChapterData = {
       "title": "Important Parliamentary Terms — Quick Definitions",
       "blocks": [
         {
-          "type": "keyTerms",
-          "items": [
-            {
-              "term": "Parliament",
-              "definition": "The Union legislature consisting of the President and two Houses: Lok Sabha and Rajya Sabha."
-            },
-            {
-              "term": "Lok Sabha",
-              "definition": "The directly elected House of the People."
-            },
-            {
-              "term": "Rajya Sabha",
-              "definition": "The Council of States, a permanent House representing States and Union territories with nominated members as provided by the Constitution."
-            },
-            {
-              "term": "MP",
-              "definition": "Member of Parliament; a member of Lok Sabha or Rajya Sabha."
-            },
-            {
-              "term": "MLA",
-              "definition": "Member of Legislative Assembly; a member of a State Legislative Assembly."
-            },
-            {
-              "term": "Question Hour",
-              "definition": "The period of a sitting devoted to asking and answering parliamentary questions under the applicable rules."
-            },
-            {
-              "term": "Starred Question",
-              "definition": "A question for which an oral answer is sought."
-            },
-            {
-              "term": "Unstarred Question",
-              "definition": "A question answered in writing."
-            },
-            {
-              "term": "Short Notice Question",
-              "definition": "An urgent question asked with shorter notice than the normal period, subject to the rules."
-            },
-            {
-              "term": "Zero Hour",
-              "definition": "A parliamentary convention after Question Hour for raising matters of urgent public importance."
-            },
-            {
-              "term": "Bill",
-              "definition": "A proposed law under consideration by a legislature."
-            },
-            {
-              "term": "Act",
-              "definition": "A Bill that has completed the required legislative and assent process and become law."
-            },
-            {
-              "term": "Money Bill",
-              "definition": "A Bill satisfying the exclusive requirements of Article 110."
-            },
-            {
-              "term": "Ordinary Bill",
-              "definition": "A Bill that is not a Money Bill or another special category governed by separate constitutional procedure."
-            },
-            {
-              "term": "Joint Sitting",
-              "definition": "A joint meeting of both Houses under Article 108 in specified ordinary-bill deadlock situations."
-            },
-            {
-              "term": "Coalition Government",
-              "definition": "A government formed by multiple parties or groups working together."
-            },
-            {
-              "term": "Legislative Process",
-              "definition": "The constitutional and parliamentary process through which a Bill is considered and may become law."
-            },
-            {
-              "term": "Dissolution",
-              "definition": "The ending of the existing Lok Sabha."
-            },
-            {
-              "term": "Prorogation",
-              "definition": "The termination of a session of Parliament."
-            },
-            {
-              "term": "Adjournment",
-              "definition": "Suspension of a sitting until a later time."
-            }
-          ]
+          "type": "comparison",
+          "title": "Important Parliamentary Terms",
+          "rows": [
+            [
+              "Term",
+              "Definition"
+            ],
+            [
+              "Parliament",
+              "The Union legislature consisting of the President and two Houses: Lok Sabha and Rajya Sabha."
+            ],
+            [
+              "Lok Sabha",
+              "The directly elected House of the People."
+            ],
+            [
+              "Rajya Sabha",
+              "The Council of States, a permanent House representing States and Union territories with nominated members as provided by the Constitution."
+            ],
+            [
+              "MP",
+              "Member of Parliament; a member of Lok Sabha or Rajya Sabha."
+            ],
+            [
+              "MLA",
+              "Member of Legislative Assembly; a member of a State Legislative Assembly."
+            ],
+            [
+              "Question Hour",
+              "The period of a sitting devoted to asking and answering parliamentary questions under the applicable rules."
+            ],
+            [
+              "Starred Question",
+              "A question for which an oral answer is sought."
+            ],
+            [
+              "Unstarred Question",
+              "A question answered in writing."
+            ],
+            [
+              "Short Notice Question",
+              "An urgent question asked with shorter notice than the normal period, subject to the rules."
+            ],
+            [
+              "Zero Hour",
+              "A parliamentary convention after Question Hour for raising matters of urgent public importance."
+            ],
+            [
+              "Bill",
+              "A proposed law under consideration by a legislature."
+            ],
+            [
+              "Act",
+              "A Bill that has completed the required legislative and assent process and become law."
+            ],
+            [
+              "Money Bill",
+              "A Bill satisfying the exclusive requirements of Article 110."
+            ],
+            [
+              "Ordinary Bill",
+              "A Bill that is not a Money Bill or another special category governed by separate constitutional procedure."
+            ],
+            [
+              "Joint Sitting",
+              "A joint meeting of both Houses under Article 108 in specified ordinary-bill deadlock situations."
+            ],
+            [
+              "Coalition Government",
+              "A government formed by multiple parties or groups working together."
+            ],
+            [
+              "Legislative Process",
+              "The constitutional and parliamentary process through which a Bill is considered and may become law."
+            ],
+            [
+              "Dissolution",
+              "The ending of the existing Lok Sabha."
+            ],
+            [
+              "Prorogation",
+              "The termination of a session of Parliament."
+            ],
+            [
+              "Adjournment",
+              "Suspension of a sitting until a later time."
+            ]
+          ],
+          "color": "purple"
         }
       ]
     },
