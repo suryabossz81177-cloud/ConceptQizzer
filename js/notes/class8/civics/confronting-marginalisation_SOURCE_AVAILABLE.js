@@ -67,7 +67,12 @@ window.ChapterData = {
           "type": "comic",
           "title": "Comic Story 1 — What Does Marginalised Mean?",
           "intro": "Surya asks Verma Sir why the word marginalised is used in civics.",
-          "story": "Surya: “Does marginalised simply mean being a minority?”\nVerma Sir: “No. A group can be numerically large and still experience particular forms of exclusion, while a smaller group is not automatically marginalised in every situation.”\nArushi: “So we should look at power, resources, participation and social treatment?”\nVerma Sir: “Exactly. Marginalisation is about being pushed to the margins and facing reduced access or influence.”",
+          "story": [
+            "Surya: “Does marginalised simply mean being a minority?”",
+            "Verma Sir: “No. A group can be numerically large and still experience particular forms of exclusion, while a smaller group is not automatically marginalised in every situation.”",
+            "Arushi: “So we should look at power, resources, participation and social treatment?”",
+            "Verma Sir: “Exactly. Marginalisation is about being pushed to the margins and facing reduced access or influence.”"
+          ],
           "lesson": "Lesson: Marginalisation describes unequal social, economic, cultural or political position; it is not a synonym for minority.",
           "color": "blue"
         }
@@ -110,7 +115,11 @@ window.ChapterData = {
           "type": "comic",
           "title": "Comic Story 2 — Land, Forest and Livelihood",
           "intro": "Ansh is learning why land and forests can have meanings beyond their market value.",
-          "story": "Ansh: “If a forest is called a resource, does that mean its only value is timber?”\nSurya: “No. For many communities, forests can provide food, fuel, medicines, livelihood and materials, and can also be connected with culture and identity.”\nSharma Sir: “That is why changes in access to land and forests can have consequences far beyond income.”",
+          "story": [
+            "Ansh: “If a forest is called a resource, does that mean its only value is timber?”",
+            "Surya: “No. For many communities, forests can provide food, fuel, medicines, livelihood and materials, and can also be connected with culture and identity.”",
+            "Sharma Sir: “That is why changes in access to land and forests can have consequences far beyond income.”"
+          ],
           "lesson": "Lesson: Natural resources can have economic, social, cultural and livelihood significance for communities.",
           "color": "green"
         }
@@ -217,7 +226,11 @@ window.ChapterData = {
           "type": "comic",
           "title": "Comic Story 3 — Data Is Not a Stereotype",
           "intro": "Divya sees a statistic about a community and worries that people will treat the statistic as a description of every individual.",
-          "story": "Divya: “If a report shows disadvantage in a community, does that mean every person in the community is disadvantaged?”\nSurya: “No. Statistics describe patterns in a population. Individuals can have very different experiences.”\nVerma Sir: “Exactly. We use data to understand inequality, not to create stereotypes.”",
+          "story": [
+            "Divya: “If a report shows disadvantage in a community, does that mean every person in the community is disadvantaged?”",
+            "Surya: “No. Statistics describe patterns in a population. Individuals can have very different experiences.”",
+            "Verma Sir: “Exactly. We use data to understand inequality, not to create stereotypes.”"
+          ],
           "lesson": "Lesson: Community-level data can reveal patterns of disadvantage, but it must not be turned into stereotypes about every individual.",
           "color": "purple"
         }
@@ -550,7 +563,12 @@ window.ChapterData = {
         {
           "type": "comic",
           "title": "Comic 4: The Same Starting Line",
-          "story": "Surya: “If equality means treating everyone exactly the same, why are special provisions sometimes made?”\nVerma Sir: “Because historical and structural disadvantages can leave people starting from very different positions.”\nArushi: “So a constitution can permit special measures to move towards meaningful equality?”\nVerma Sir: “Yes, where the Constitution and law authorise them.”",
+          "story": [
+            "Surya: “If equality means treating everyone exactly the same, why are special provisions sometimes made?”",
+            "Verma Sir: “Because historical and structural disadvantages can leave people starting from very different positions.”",
+            "Arushi: “So a constitution can permit special measures to move towards meaningful equality?”",
+            "Verma Sir: “Yes, where the Constitution and law authorise them.”"
+          ],
           "lesson": "Lesson: Constitutional equality can include special provisions designed to address specified forms of disadvantage.",
           "color": "blue"
         }
@@ -651,62 +669,20 @@ window.ChapterData = {
           "type": "definitions",
           "title": "Master Key Terms",
           "items": [
-            {
-              "term": "Marginalisation",
-              "definition": "A process through which individuals or communities are pushed towards the margins and experience reduced access, power, participation or recognition."
-            },
-            {
-              "term": "Adivasi",
-              "definition": "A widely used term for many indigenous/tribal communities in India; it is not the name of one homogeneous community."
-            },
-            {
-              "term": "Scheduled Tribe",
-              "definition": "A constitutional category of communities specified under Article 342."
-            },
-            {
-              "term": "Minority",
-              "definition": "A group smaller in number or in a minority position within a particular social, religious or political context."
-            },
-            {
-              "term": "Stereotype",
-              "definition": "An oversimplified generalisation about a group."
-            },
-            {
-              "term": "Prejudice",
-              "definition": "A preconceived judgment or attitude toward a person or group."
-            },
-            {
-              "term": "Discrimination",
-              "definition": "Unfair treatment or denial of opportunity based on an identity or characteristic."
-            },
-            {
-              "term": "Exclusion",
-              "definition": "Being prevented or discouraged from full participation in social, economic, political or cultural life."
-            },
-            {
-              "term": "Reservation",
-              "definition": "A constitutionally or legally authorised form of reserved representation/opportunity in specified contexts."
-            },
-            {
-              "term": "Forest Rights",
-              "definition": "Rights recognised under applicable law for eligible forest-dwelling Scheduled Tribes and other traditional forest dwellers."
-            },
-            {
-              "term": "Displacement",
-              "definition": "The movement of people from their homes or customary land because of development, conflict, environmental change or other causes."
-            },
-            {
-              "term": "Social Justice",
-              "definition": "The pursuit of fair treatment, equal rights, dignity and meaningful opportunity, including measures addressing historical disadvantage."
-            },
-            {
-              "term": "Representation",
-              "definition": "Participation through individuals or institutions that communicate and act on the interests of a group or constituency."
-            },
-            {
-              "term": "Conscience and dignity",
-              "definition": "Respect for a person's ability to live with equal human worth and make choices without degrading treatment."
-            }
+            "Marginalisation: A process through which individuals or communities are pushed towards the margins and experience reduced access, power, participation or recognition.",
+            "Adivasi: A widely used term for many indigenous/tribal communities in India; it is not the name of one homogeneous community.",
+            "Scheduled Tribe: A constitutional category of communities specified under Article 342.",
+            "Minority: A group smaller in number or in a minority position within a particular social, religious or political context.",
+            "Stereotype: An oversimplified generalisation about a group.",
+            "Prejudice: A preconceived judgment or attitude toward a person or group.",
+            "Discrimination: Unfair treatment or denial of opportunity based on an identity or characteristic.",
+            "Exclusion: Being prevented or discouraged from full participation in social, economic, political or cultural life.",
+            "Reservation: A constitutionally or legally authorised form of reserved representation/opportunity in specified contexts.",
+            "Forest Rights: Rights recognised under applicable law for eligible forest-dwelling Scheduled Tribes and other traditional forest dwellers.",
+            "Displacement: The movement of people from their homes or customary land because of development, conflict, environmental change or other causes.",
+            "Social Justice: The pursuit of fair treatment, equal rights, dignity and meaningful opportunity, including measures addressing historical disadvantage.",
+            "Representation: Participation through individuals or institutions that communicate and act on the interests of a group or constituency.",
+            "Conscience and dignity: Respect for a person's ability to live with equal human worth and make choices without degrading treatment."
           ],
           "color": "orange"
         }
