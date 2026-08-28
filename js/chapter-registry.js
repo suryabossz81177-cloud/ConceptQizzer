@@ -6,6 +6,16 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-geography-human-resources",
+  title: "Human Resources",
+  class: 8,
+  subject: "Geography",
+  chapter: 5,
+  file: "js/notes/class8/geography/human-resources.js",
+  enabled: true
+},
+  
+  {
   id: "8-geography-industries",
   title: "Industries",
   class: 8,
