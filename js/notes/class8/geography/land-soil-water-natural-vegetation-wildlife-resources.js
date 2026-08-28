@@ -3,6 +3,7 @@
 /* Real-map references use official Government of India sources and real geographic marker coordinates. */
 
 window.ChapterData = {
+  id: "8-geography-land-soil-water-natural-vegetation-and-wildlife-resources",
   "title": "Land, Soil, Water, Natural Vegetation and Wildlife Resources",
   "class": 8,
   "subject": "Geography",
