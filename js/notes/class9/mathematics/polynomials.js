@@ -1,1300 +1,544 @@
-window.ChapterData = {
+// Class 9 Mathematics — ConceptQizzer enhanced notes
+// Previous structured data preserved and expanded.
+// Render-safe: no topic `number` field and no `subsections` field.
+
+const notes = {
+  "id": "9-mathematics-polynomials",
   "title": "Polynomials",
   "class": 9,
   "subject": "Mathematics",
   "chapter": 2,
-  "description": "Chapter 2 builds polynomial algebra from the meaning of a polynomial to its terms, coefficients, degree, values and zeroes. It then connects zeroes with factors and remainders and develops important algebraic identities for expansion and factorisation.",
-  "renderVersion": "Detailed Renderable v3",
-  "sections": [
+  "file": "js/notes/class9/mathematics/polynomials.js",
+  "enabled": true,
+  "description": "A Class 9 standard, deeply detailed study of Polynomials. It explains polynomial structure, terms and coefficients, degree, classification, evaluation, zeroes, graphical meaning, Remainder Theorem, Factor Theorem, factorisation and algebraic identities. Earlier data is retained and expanded with multiple worked examples and exam-level reasoning.",
+  "learningObjectives": [
+    "Read polynomial structure correctly.",
+    "Find degree and classify polynomials.",
+    "Evaluate polynomials at given values.",
+    "Use zeros, Remainder Theorem and Factor Theorem.",
+    "Expand and factorise using identities.",
+    "Explain every step of a solution instead of relying on answer-only work.",
+    "Use definitions, properties and algebraic reasoning to justify answers.",
+    "Detect common traps and verify results independently."
+  ],
+  "prerequisiteCheck": [
+    "Algebraic expressions",
+    "Substitution",
+    "Basic multiplication and factorisation"
+  ],
+  "conceptRoadmap": [
+    "Meaning and structure",
+    "Terms and coefficients",
+    "Degree and classification",
+    "Value of a polynomial",
+    "Zeroes",
+    "Remainder Theorem",
+    "Factor Theorem",
+    "Factorisation",
+    "Algebraic identities",
+    "Graphical interpretation"
+  ],
+  "topics": [
     {
-      "id": 1,
-      "title": "Chapter Header",
-      "blocks": [
+      "title": "Polynomial: Meaning and Structure",
+      "content": "A polynomial in one variable is an expression in which the variable has only non-negative integer exponents and the coefficients are numbers. Terms are joined by addition or subtraction. Examples include 3x²−5x+7, x⁴−2 and 9.\n\nExpressions such as 1/x, √x and x⁻¹ are not polynomials in x because the exponents are not non-negative integers.\n\nDeep Class 9 explanation: A polynomial in one variable is an algebraic expression in which the exponent of the variable in every term is a non-negative integer. The coefficient may be any real number. Thus 5x^3−2x+7 is a polynomial, while 1/x+x², √x+1 and x^(1/2)+3 are not polynomials in x. The terms are separated by plus or minus signs. A missing power has coefficient zero, so x²+5 can be viewed as x²+0x+5 when comparing coefficients.",
+      "examples": [
         {
-          "type": "description",
-          "title": "Polynomials",
-          "text": "Chapter 2 builds polynomial algebra from the meaning of a polynomial to its terms, coefficients, degree, values and zeroes. It then connects zeroes with factors and remainders and develops important algebraic identities for expansion and factorisation."
+          "title": "Identify",
+          "problem": "Is 4x³−7x+2 a polynomial?",
+          "solution": "Yes. The exponents 3,1,0 are all non-negative integers."
         },
         {
-          "type": "chapter-meta",
-          "items": [
-            "Class 9 Mathematics",
-            "Chapter {n}",
-            "Polynomials",
-            "Concept-first • Example-rich • Exam-ready"
-          ]
+          "title": "Non-example",
+          "problem": "Is 2/x+1 a polynomial?",
+          "solution": "No. 2/x=2x⁻¹, whose exponent is −1."
+        },
+        {
+          "title": "Identify a non-polynomial",
+          "problem": "Is 3x^2+1/x a polynomial in x?",
+          "solution": "No. 1/x=x^−1 contains a negative exponent."
+        },
+        {
+          "title": "Missing term",
+          "problem": "Write x^3+4 in descending powers.",
+          "solution": "x^3+0x^2+0x+4."
         }
-      ]
+      ],
+      "keyPoints": []
     },
     {
-      "id": 2,
-      "title": "Learning Objectives",
-      "blocks": [
+      "title": "Terms, Coefficients and Degree",
+      "content": "A term is a part separated by + or −. Its coefficient is its numerical factor. The degree of a non-zero polynomial is the greatest exponent of the variable with a non-zero coefficient. A constant non-zero polynomial has degree 0.\n\nLike terms have identical variable parts and exponents, so their coefficients can be combined. Unlike terms cannot be combined directly.\n\nDeep Class 9 explanation: The coefficient of a term is the numerical factor multiplying the variable part. In −7x³, the coefficient is −7. The degree of a non-zero polynomial is the highest exponent with a non-zero coefficient. The degree is not the number of terms. The zero polynomial is treated separately because it has no unique highest power. In ordered expressions, arranging terms from highest power to lowest power is called standard form.",
+      "examples": [
         {
-          "type": "list",
-          "items": [
-            "Understand every major concept instead of memorising isolated rules.",
-            "Solve basic, standard, application and HOTS questions with complete working.",
-            "Explain why a method works and identify the conditions under which it is valid.",
-            "Use tables, graphs, symbols and algebraic notation accurately.",
-            "Verify answers and diagnose mistakes."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Prerequisite Check",
-      "blocks": [
-        {
-          "type": "practice",
-          "title": "Before You Start",
-          "questions": [
-            {
-              "question": "Which earlier mathematical skills are needed for this chapter?",
-              "answer": "Recall arithmetic, signs, fractions, substitution, simple algebra and accurate reading of symbols as applicable."
-            },
-            {
-              "question": "What should you do if a prerequisite feels weak?",
-              "answer": "Revise the relevant basic operation before attempting advanced questions."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Concept Roadmap",
-      "blocks": [
-        {
-          "type": "process",
-          "steps": [
-            "Meaning of a Polynomial",
-            "Terms, Coefficients and Constant",
-            "Degree and Classification",
-            "Value of a Polynomial",
-            "Zeroes of a Polynomial",
-            "Geometrical Meaning of Zeroes",
-            "Remainder Theorem",
-            "Factor Theorem",
-            "Algebraic Identities"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Main Concepts",
-      "blocks": [
-        {
-          "type": "concept",
-          "number": 1,
-          "title": "Meaning of a Polynomial",
-          "text": "A polynomial in one variable is an expression made from constants and non-negative integral powers of the variable. Terms are combined using addition or subtraction.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Meaning of a Polynomial — Example 1",
-          "question": "Identify whether 3x²−5x+7 is a polynomial.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Meaning of a Polynomial — Example 2",
-          "question": "Explain why 1/x is not a polynomial in x.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Meaning of a Polynomial — Example 3",
-          "question": "Write the terms of 4x³−2x+9.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Meaning of a Polynomial",
-          "questions": [
-            {
-              "question": "Explain Meaning of a Polynomial in your own words.",
-              "answer": "A polynomial in one variable is an expression made from constants and non-negative integral powers of the variable. Terms are combined using addition or subtraction."
-            },
-            {
-              "question": "State one condition or common trap for Meaning of a Polynomial.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 2,
-          "title": "Terms, Coefficients and Constant",
-          "text": "Each separated part is a term. The numerical multiplier of a variable is its coefficient. A term without a variable is the constant term.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Terms, Coefficients and Constant — Example 1",
-          "question": "Identify coefficients in 7x²−3x+5.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Terms, Coefficients and Constant — Example 2",
-          "question": "Find the coefficient of x in −x+8.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Terms, Coefficients and Constant — Example 3",
-          "question": "Explain the coefficient of x² in 0x²+4x−1.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Terms, Coefficients and Constant",
-          "questions": [
-            {
-              "question": "Explain Terms, Coefficients and Constant in your own words.",
-              "answer": "Each separated part is a term. The numerical multiplier of a variable is its coefficient. A term without a variable is the constant term."
-            },
-            {
-              "question": "State one condition or common trap for Terms, Coefficients and Constant.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 3,
-          "title": "Degree and Classification",
-          "text": "The degree is the highest exponent of the variable whose coefficient is non-zero. By number of terms, expressions can be monomials, binomials or trinomials; by degree, they can be linear, quadratic, cubic and so on.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Degree and Classification — Example 1",
-          "question": "Find the degree of 8x⁴−3x²+1.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Degree and Classification — Example 2",
-          "question": "Classify 5x−2 by degree and number of terms.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Degree and Classification — Example 3",
-          "question": "Explain why the zero polynomial is a special case.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Degree and Classification",
-          "questions": [
-            {
-              "question": "Explain Degree and Classification in your own words.",
-              "answer": "The degree is the highest exponent of the variable whose coefficient is non-zero. By number of terms, expressions can be monomials, binomials or trinomials; by degree, they can be linear, quadratic, cubic and so on."
-            },
-            {
-              "question": "State one condition or common trap for Degree and Classification.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 4,
-          "title": "Value of a Polynomial",
-          "text": "The value of p(x) at x=a is found by substituting a for x and simplifying carefully. Substitution is also the basis of the remainder and factor theorems.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Value of a Polynomial — Example 1",
-          "question": "Find p(2) for p(x)=x²−3x+1.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Value of a Polynomial — Example 2",
-          "question": "Find p(−1) for 2x³+x−4.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Value of a Polynomial — Example 3",
-          "question": "Explain why parentheses are important when substituting a negative value.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Value of a Polynomial",
-          "questions": [
-            {
-              "question": "Explain Value of a Polynomial in your own words.",
-              "answer": "The value of p(x) at x=a is found by substituting a for x and simplifying carefully. Substitution is also the basis of the remainder and factor theorems."
-            },
-            {
-              "question": "State one condition or common trap for Value of a Polynomial.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 5,
-          "title": "Zeroes of a Polynomial",
-          "text": "A number a is a zero of p(x) if p(a)=0. A zero is a value that makes the polynomial vanish. Graphically, a zero is associated with an x-coordinate where the graph meets the x-axis.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Zeroes of a Polynomial — Example 1",
-          "question": "Check whether 2 is a zero of x²−4.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Zeroes of a Polynomial — Example 2",
-          "question": "Find the zero of 3x−12.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Zeroes of a Polynomial — Example 3",
-          "question": "For x²−5x+6, test 2 and 3 as possible zeroes.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Zeroes of a Polynomial",
-          "questions": [
-            {
-              "question": "Explain Zeroes of a Polynomial in your own words.",
-              "answer": "A number a is a zero of p(x) if p(a)=0. A zero is a value that makes the polynomial vanish. Graphically, a zero is associated with an x-coordinate where the graph meets the x-axis."
-            },
-            {
-              "question": "State one condition or common trap for Zeroes of a Polynomial.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 6,
-          "title": "Geometrical Meaning of Zeroes",
-          "text": "The graph of a polynomial provides a visual interpretation of its zeroes. The x-coordinates of points where the graph intersects the x-axis are zeroes.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Geometrical Meaning of Zeroes — Example 1",
-          "question": "Describe how one zero appears on a graph.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Geometrical Meaning of Zeroes — Example 2",
-          "question": "Explain what it means if a graph does not meet the x-axis.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Geometrical Meaning of Zeroes — Example 3",
-          "question": "Relate the number of x-axis intersections to the number of visible real zeroes.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Geometrical Meaning of Zeroes",
-          "questions": [
-            {
-              "question": "Explain Geometrical Meaning of Zeroes in your own words.",
-              "answer": "The graph of a polynomial provides a visual interpretation of its zeroes. The x-coordinates of points where the graph intersects the x-axis are zeroes."
-            },
-            {
-              "question": "State one condition or common trap for Geometrical Meaning of Zeroes.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 7,
-          "title": "Remainder Theorem",
-          "text": "When p(x) is divided by x−a, the remainder is p(a). This turns a polynomial-division question into a substitution problem.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Remainder Theorem — Example 1",
-          "question": "Find the remainder when x²+3x+5 is divided by x−2.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Remainder Theorem — Example 2",
-          "question": "Find the remainder when 2x³−x+1 is divided by x+1.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Remainder Theorem — Example 3",
-          "question": "Explain why x+1 is treated as x−(−1).",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Remainder Theorem",
-          "questions": [
-            {
-              "question": "Explain Remainder Theorem in your own words.",
-              "answer": "When p(x) is divided by x−a, the remainder is p(a). This turns a polynomial-division question into a substitution problem."
-            },
-            {
-              "question": "State one condition or common trap for Remainder Theorem.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 8,
-          "title": "Factor Theorem",
-          "text": "x−a is a factor of p(x) exactly when p(a)=0. Therefore, testing a possible zero can prove that a linear expression is a factor.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Factor Theorem — Example 1",
-          "question": "Check whether x−2 is a factor of x²−5x+6.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Factor Theorem — Example 2",
-          "question": "Find a factor of x³−8 using the factor theorem.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Factor Theorem — Example 3",
-          "question": "Explain the connection between zeroes and factors.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Factor Theorem",
-          "questions": [
-            {
-              "question": "Explain Factor Theorem in your own words.",
-              "answer": "x−a is a factor of p(x) exactly when p(a)=0. Therefore, testing a possible zero can prove that a linear expression is a factor."
-            },
-            {
-              "question": "State one condition or common trap for Factor Theorem.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 9,
-          "title": "Algebraic Identities",
-          "text": "Identities are equalities true for all permitted values of the variables. They provide fast methods for expansion, simplification and factorisation.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Algebraic Identities — Example 1",
-          "question": "Expand (x+3)².",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Algebraic Identities — Example 2",
-          "question": "Factorise x²−16.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Algebraic Identities — Example 3",
-          "question": "Use (a+b+c)² to expand a three-term square.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Algebraic Identities",
-          "questions": [
-            {
-              "question": "Explain Algebraic Identities in your own words.",
-              "answer": "Identities are equalities true for all permitted values of the variables. They provide fast methods for expansion, simplification and factorisation."
-            },
-            {
-              "question": "State one condition or common trap for Algebraic Identities.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Step-by-Step Solved Examples",
-      "blocks": [
-        {
-          "type": "method",
-          "title": "Universal Solving Method",
-          "steps": [
-            "Read",
-            "Identify Given",
-            "Identify Required",
-            "Choose Concept",
-            "Write Formula/Property",
-            "Substitute",
-            "Calculate",
-            "Verify",
-            "State Answer"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Mixed Example 1",
-          "question": "Solve a representative multi-step problem from the chapter.",
-          "steps": [
-            "Write the given information.",
-            "Select the relevant concept.",
-            "Show every important transformation.",
-            "Check the final result."
-          ],
-          "answer": "Complete the chapter-specific calculation and verification."
-        },
-        {
-          "type": "example",
-          "title": "Mixed Example 2 — Exam Level",
-          "question": "Solve a problem where more than one concept is connected.",
-          "steps": [
-            "Identify both concepts.",
-            "Plan the order of operations.",
-            "Calculate carefully.",
-            "Verify using the original statement."
-          ],
-          "answer": "State the final verified result with reasoning."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Comparison Tables",
-      "blocks": [
-        {
-          "type": "table",
-          "columns": [
-            "Concept",
-            "Meaning",
-            "Example / Key Feature"
-          ],
-          "rows": [
-            [
-              "Monomial",
-              "One term",
-              "7x²"
-            ],
-            [
-              "Binomial",
-              "Two terms",
-              "x+3"
-            ],
-            [
-              "Trinomial",
-              "Three terms",
-              "x²+2x+1"
-            ],
-            [
-              "Linear",
-              "Degree 1",
-              "3x−2"
-            ],
-            [
-              "Quadratic",
-              "Degree 2",
-              "x²−4x+3"
-            ],
-            [
-              "Cubic",
-              "Degree 3",
-              "x³+x"
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Theorem / Property Lab",
-      "blocks": [
-        {
-          "type": "property",
-          "title": "Property Investigation",
-          "text": "For every applicable property, write: statement → conditions → worked example → verification → why it is useful."
-        },
-        {
-          "type": "activity",
-          "title": "Verify the Property",
-          "text": "Choose three valid numerical cases and test the property. Then deliberately violate a condition and observe why the rule cannot be used blindly."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Formula & Property Bank",
-      "blocks": [
-        {
-          "type": "formula",
-          "text": "(x+y)^2=x^2+2xy+y^2"
-        },
-        {
-          "type": "formula",
-          "text": "(x−y)^2=x^2−2xy+y^2"
-        },
-        {
-          "type": "formula",
-          "text": "x^2−y^2=(x−y)(x+y)"
-        },
-        {
-          "type": "formula",
-          "text": "(x+y+z)^2=x²+y²+z²+2xy+2yz+2zx"
-        },
-        {
-          "type": "formula",
-          "text": "x³+y³=(x+y)(x²−xy+y²)"
-        },
-        {
-          "type": "formula",
-          "text": "x³−y³=(x−y)(x²+xy+y²)"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Concept Connections",
-      "blocks": [
-        {
-          "type": "connection",
-          "items": [
-            "Definition → representation → operation → verification.",
-            "Algebraic notation can represent geometric positions and relationships.",
-            "Properties are shortcuts only after the underlying concept is understood.",
-            "Earlier concepts become tools for later chapters."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "Mathematical Thinking",
-      "blocks": [
-        {
-          "type": "thinking",
-          "questions": [
-            "Why does this method work?",
-            "Can the same result be obtained another way?",
-            "What changes if one condition is changed?",
-            "Can you construct a counterexample to a false claim?",
-            "How can the answer be verified independently?"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Error Detective",
-      "blocks": [
-        {
-          "type": "error",
-          "cases": [
-            {
-              "mistake": "A rule is used without checking its conditions.",
-              "fix": "Write the conditions beside the rule before applying it."
-            },
-            {
-              "mistake": "Important algebraic steps are skipped.",
-              "fix": "Write one transformation per line and check signs."
-            },
-            {
-              "mistake": "The answer is not verified.",
-              "fix": "Substitute, redraw, estimate or use an alternative method where possible."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Maths Challenge",
-      "blocks": [
-        {
-          "type": "challenge",
-          "levels": [
-            "Foundation",
-            "Standard",
-            "Advanced",
-            "HOTS",
-            "Expert"
-          ],
-          "instruction": "Each level should require complete working, reasoning and verification."
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Real-Life Mathematics",
-      "blocks": [
-        {
-          "type": "application",
-          "items": [
-            "Identify the real quantities and their units.",
-            "Translate the situation into mathematical language.",
-            "Solve using the chapter's concepts.",
-            "Interpret the answer in the original situation.",
-            "Check whether the result is reasonable."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Mathematical Activity Lab",
-      "blocks": [
-        {
-          "type": "activity",
-          "title": "Explore",
-          "text": "Create three simple examples, three standard examples and one unusual example. Record what remains constant and what changes."
-        },
-        {
-          "type": "activity",
-          "title": "Error Hunt",
-          "text": "Compare a correct solution with an incorrect one and identify the first invalid step."
-        },
-        {
-          "type": "activity",
-          "title": "Verification Lab",
-          "text": "Solve one suitable problem in two different ways and compare the results."
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Visual Learning",
-      "blocks": [
-        {
-          "type": "visual",
-          "items": [
-            "Use clean mathematical diagrams, number lines, graphs, coordinate planes, tables and labelled figures where they improve understanding.",
-            "Visuals must explain mathematics, not act as decoration.",
-            "All axes, points, scales and units should be labelled."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Master Definitions",
-      "blocks": [
-        {
-          "type": "definition",
-          "title": "Polynomial",
-          "text": "Precise definition of Polynomial. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Term",
-          "text": "Precise definition of Term. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Coefficient",
-          "text": "Precise definition of Coefficient. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Constant term",
-          "text": "Precise definition of Constant term. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
           "title": "Degree",
-          "text": "Precise definition of Degree. Include notation, a simple example and a non-example when useful."
+          "problem": "Find the degree of 7x⁵−3x²+x−8.",
+          "solution": "The highest exponent is 5, so degree=5."
         },
         {
-          "type": "definition",
-          "title": "Zero of a polynomial",
-          "text": "Precise definition of Zero of a polynomial. Include notation, a simple example and a non-example when useful."
+          "title": "Like terms",
+          "problem": "Simplify 4x²+7x²−3x.",
+          "solution": "The x² terms combine: 11x²−3x."
         },
         {
-          "type": "definition",
-          "title": "Remainder theorem",
-          "text": "Precise definition of Remainder theorem. Include notation, a simple example and a non-example when useful."
+          "title": "Degree",
+          "problem": "Find the degree of 7−2x^5+3x^2.",
+          "solution": "The highest exponent is 5, so degree=5."
         },
         {
-          "type": "definition",
-          "title": "Factor theorem",
-          "text": "Precise definition of Factor theorem. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Identity",
-          "text": "Precise definition of Identity. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Factorisation",
-          "text": "Precise definition of Factorisation. Include notation, a simple example and a non-example when useful."
+          "title": "Coefficient",
+          "problem": "Find the coefficient of x^4 in −9x^4+2x−1.",
+          "solution": "The coefficient is −9."
         }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Types of Polynomials",
+      "content": "By degree, a polynomial can be constant, linear, quadratic, cubic and so on. By number of terms it can be monomial, binomial or trinomial. These classifications can be combined, such as quadratic trinomial.\n\nClassification helps identify which techniques are likely to be useful.\n\nDeep Class 9 explanation: By degree, a non-zero constant is degree 0, a linear polynomial has degree 1, a quadratic has degree 2 and a cubic has degree 3. By number of terms, one term is a monomial, two terms a binomial and three terms a trinomial. These two classifications describe different features and should not be confused.",
+      "examples": [
+        {
+          "title": "Classify",
+          "problem": "Classify 5x²−2x+8.",
+          "solution": "It is a quadratic trinomial."
+        },
+        {
+          "title": "Classify",
+          "problem": "Classify 7x³−1.",
+          "solution": "It is a cubic binomial."
+        },
+        {
+          "title": "Classify by degree",
+          "problem": "Classify 4x^2−x+7.",
+          "solution": "It is a quadratic trinomial."
+        },
+        {
+          "title": "Classify by terms",
+          "problem": "Classify 5x^3.",
+          "solution": "It is a cubic monomial."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Value of a Polynomial",
+      "content": "To find p(a), substitute a for x everywhere. Negative values must be placed inside brackets so that powers are evaluated correctly. Evaluation is the bridge between symbolic algebra and numerical calculation.\n\nDeep Class 9 explanation: To find p(a), replace every occurrence of x by a and simplify carefully. Parentheses are essential for negative substitutions. For example, if p(x)=x²−3x+2, then p(−2)=(-2)²−3(-2)+2 =4+6+2=12. Evaluation is the bridge between an algebraic expression and numerical output.",
+      "examples": [
+        {
+          "title": "Evaluate",
+          "problem": "For p(x)=2x²−5x+3, find p(−1).",
+          "solution": "p(−1)=2(−1)²−5(−1)+3=2+5+3=10."
+        },
+        {
+          "title": "Evaluate",
+          "problem": "Find p(2) for p(x)=x³−4x+1.",
+          "solution": "p(2)=8−8+1=1."
+        },
+        {
+          "title": "Negative substitution",
+          "problem": "Find p(−3) for p(x)=x^2+2x−1.",
+          "solution": "p(−3)=9−6−1=2."
+        },
+        {
+          "title": "Zero value",
+          "problem": "Find p(0) for p(x)=6x^3−4x+9.",
+          "solution": "p(0)=9."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Zeros of a Polynomial",
+      "content": "A zero of p(x) is a value a for which p(a)=0. The word zero refers to the input value that makes the polynomial's value zero.\n\nGraphically, zeros correspond to points where the graph meets the x-axis. A polynomial can have more than one zero.\n\nDeep Class 9 explanation: A zero of p(x) is a value a for which p(a)=0. For a polynomial represented by y=p(x), a real zero is the x-coordinate of a point where the graph meets the x-axis. A polynomial may have one, two or more real zeroes depending on its degree and shape, but the class 9 focus is on understanding the meaning and checking zeroes by substitution.",
+      "examples": [
+        {
+          "title": "Linear zero",
+          "problem": "Find the zero of 3x−12.",
+          "solution": "3x−12=0, so x=4."
+        },
+        {
+          "title": "Quadratic zero check",
+          "problem": "Check whether 2 is a zero of x²−5x+6.",
+          "solution": "4−10+6=0, so 2 is a zero."
+        },
+        {
+          "title": "Check zero",
+          "problem": "Is 2 a zero of x^2−4?",
+          "solution": "p(2)=4−4=0, so 2 is a zero."
+        },
+        {
+          "title": "Not a zero",
+          "problem": "Is 3 a zero of x^2−4?",
+          "solution": "p(3)=9−4=5≠0, so 3 is not a zero."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Remainder Theorem",
+      "content": "When p(x) is divided by x−a, the remainder is p(a). The reason is the division form p(x)=(x−a)q(x)+r. Substituting x=a eliminates the first term and leaves p(a)=r.\n\nDeep Class 9 explanation: If p(x) is divided by x−a, the remainder is p(a). This follows from the division algorithm p(x)=(x−a)q(x)+r, where r is constant because the divisor has degree 1. Putting x=a makes the first term zero, leaving p(a)=r. For x+a, write the divisor as x−(−a), so the remainder is p(−a).",
+      "examples": [
+        {
+          "title": "Remainder",
+          "problem": "Find the remainder when x³−4x+7 is divided by x−2.",
+          "solution": "p(2)=8−8+7=7, so remainder=7."
+        },
+        {
+          "title": "Remainder",
+          "problem": "Find the remainder when x^2+3x+5 is divided by x−1.",
+          "solution": "p(1)=1+3+5=9."
+        },
+        {
+          "title": "Divisor x+2",
+          "problem": "Find the remainder when x^3−1 is divided by x+2.",
+          "solution": "Use p(−2)=−8−1=−9."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Factor Theorem",
+      "content": "x−a is a factor of p(x) if and only if p(a)=0. This follows directly from the Remainder Theorem because a divisor is a factor exactly when the remainder is zero.\n\nDeep Class 9 explanation: The Factor Theorem is a direct consequence of the Remainder Theorem. If p(a)=0, the remainder on division by x−a is zero, so x−a is a factor. Conversely, if x−a is a factor, the remainder must be zero, hence p(a)=0. This gives a fast method for testing factors without polynomial long division.",
+      "examples": [
+        {
+          "title": "Factor test",
+          "problem": "Is x−3 a factor of x³−4x²+x+6?",
+          "solution": "p(3)=27−36+3+6=0, so x−3 is a factor."
+        },
+        {
+          "title": "Test factor",
+          "problem": "Is x+1 a factor of x^2+3x+2?",
+          "solution": "p(−1)=1−3+2=0, so yes."
+        },
+        {
+          "title": "Find a parameter",
+          "problem": "If x−2 is a factor of x^2+kx−6, find k.",
+          "solution": "p(2)=4+2k−6=0, so k=1."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Algebraic Identities",
+      "content": "An identity is true for every allowed value of its variables. Identities are especially useful because expansion and factorisation become two directions of the same process.\n\nThe most useful Class 9 identities include square identities, difference of squares and (x+a)(x+b). Recognising the pattern is usually faster and safer than multiplying everything blindly.\n\nDeep Class 9 explanation: Identities are equations true for all permissible values of the variables. Unlike an equation that may be true only for particular values, an identity remains true universally. Identities are used in both expansion and factorisation. The safest approach is to match the expression with a known pattern before multiplying everything out.",
+      "examples": [
+        {
+          "title": "Expand",
+          "problem": "Expand (x+5)².",
+          "solution": "x²+10x+25."
+        },
+        {
+          "title": "Factorise",
+          "problem": "Factorise x²−25.",
+          "solution": "x²−5²=(x−5)(x+5)."
+        },
+        {
+          "title": "Product",
+          "problem": "Expand (x+2)(x+7).",
+          "solution": "x²+9x+14."
+        },
+        {
+          "title": "Expand",
+          "problem": "Expand (2x+3)^2.",
+          "solution": "4x^2+12x+9."
+        },
+        {
+          "title": "Factorise by identity",
+          "problem": "Factorise 9x^2−25.",
+          "solution": "(3x−5)(3x+5)."
+        }
+      ],
+      "keyPoints": [
+        "(a+b)²=a²+2ab+b²",
+        "(a−b)²=a²−2ab+b²",
+        "a²−b²=(a−b)(a+b)",
+        "(x+a)(x+b)=x²+(a+b)x+ab"
       ]
     },
     {
-      "id": 18,
-      "title": "Formula Revision Sheet",
-      "blocks": [
+      "title": "Factorisation by Common Factor and Grouping",
+      "content": "Factorisation means expressing a polynomial as a product of simpler factors. First look for a common factor. If no single factor is common to every term, grouping may reveal a common binomial. The result should always be checked by multiplication.",
+      "examples": [
         {
-          "type": "formula",
-          "text": "(x+y)^2=x^2+2xy+y^2"
+          "title": "Common factor",
+          "problem": "Factorise 6x²+9x.",
+          "solution": "The common factor is 3x: 6x²+9x=3x(2x+3)."
         },
         {
-          "type": "formula",
-          "text": "(x−y)^2=x^2−2xy+y^2"
+          "title": "Grouping",
+          "problem": "Factorise ax+ay+bx+by.",
+          "solution": "Group: a(x+y)+b(x+y)=(a+b)(x+y)."
         },
         {
-          "type": "formula",
-          "text": "x^2−y^2=(x−y)(x+y)"
+          "title": "Difference of squares",
+          "problem": "Factorise 25x²−49.",
+          "solution": "(5x)²−7²=(5x−7)(5x+7)."
+        }
+      ],
+      "keyPoints": [
+        "Look for a common factor first.",
+        "Use identities when the pattern is visible.",
+        "Multiply back to verify."
+      ]
+    },
+    {
+      "title": "Using Zeroes to Factorise a Quadratic",
+      "content": "If a quadratic polynomial has known zeroes α and β, then a polynomial with leading coefficient 1 can be written as (x−α)(x−β). For a general quadratic ax²+bx+c, the leading coefficient must be accounted for.",
+      "examples": [
+        {
+          "title": "Two known zeroes",
+          "problem": "Form a quadratic polynomial whose zeroes are 3 and −2.",
+          "solution": "p(x)=(x−3)(x+2)=x²−x−6."
         },
         {
-          "type": "formula",
-          "text": "(x+y+z)^2=x²+y²+z²+2xy+2yz+2zx"
-        },
-        {
-          "type": "formula",
-          "text": "x³+y³=(x+y)(x²−xy+y²)"
-        },
-        {
-          "type": "formula",
-          "text": "x³−y³=(x−y)(x²+xy+y²)"
+          "title": "Check a factor",
+          "problem": "Is x−4 a factor of x²−7x+12?",
+          "solution": "p(4)=16−28+12=0, so x−4 is a factor."
         }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Question Bank",
-      "blocks": [
-        {
-          "type": "question-bank",
-          "categories": {
-            "Basic": [
-              "Define, identify and classify.",
-              "Solve a direct question.",
-              "State the relevant property."
-            ],
-            "Standard": [
-              "Solve a multi-step question.",
-              "Explain the method.",
-              "Verify the result."
-            ],
-            "Advanced": [
-              "Solve an unfamiliar variation.",
-              "Compare methods.",
-              "Correct a flawed solution."
-            ],
-            "HOTS": [
-              "Justify a claim.",
-              "Find a counterexample.",
-              "Change a condition and analyse the effect."
-            ],
-            "Challenge": [
-              "Solve with minimal hints.",
-              "Explain why the method is valid."
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Show Answer System",
-      "blocks": [
-        {
-          "type": "show-answer",
-          "buttonText": "Show Answer",
-          "display": [
-            "Question",
-            "[Show Answer]",
-            "Answer",
-            "Complete Solution",
-            "Verification"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "title": "Practice Sets",
-      "blocks": [
-        {
-          "type": "practice-set",
-          "sets": [
-            {
-              "name": "Practice A — Foundation",
-              "count": 10
-            },
-            {
-              "name": "Practice B — Standard",
-              "count": 12
-            },
-            {
-              "name": "Practice C — Advanced",
-              "count": 12
-            },
-            {
-              "name": "Practice D — HOTS",
-              "count": 10
-            },
-            {
-              "name": "Practice E — Challenge",
-              "count": 8
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Timed Practice",
-      "blocks": [
-        {
-          "type": "timer-set",
-          "sets": [
-            "10-minute sprint",
-            "20-minute mixed practice",
-            "30-minute challenge"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Chapter Quiz",
-      "blocks": [
-        {
-          "type": "quiz",
-          "parts": [
-            "MCQ",
-            "Conceptual",
-            "Numerical",
-            "Assertion–Reason",
-            "Case-based",
-            "HOTS"
-          ],
-          "difficulty": [
-            "Easy",
-            "Medium",
-            "Hard",
-            "Expert"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Exam Zone",
-      "blocks": [
-        {
-          "type": "exam",
-          "items": [
-            "Most important definitions",
-            "Formula/property questions",
-            "Typical question patterns",
-            "Reasoning questions",
-            "Common traps",
-            "Step presentation",
-            "Verification",
-            "Time management"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Common Mistakes",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "Read the question completely before selecting a method.",
-            "Do not apply a formula without checking its conditions.",
-            "Keep signs, brackets and coordinate order under control.",
-            "Do not skip a step that changes the expression.",
-            "Always verify an important final answer."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "title": "Master Revision",
-      "blocks": [
-        {
-          "type": "revision-plan",
-          "plans": [
-            "5 min — definitions + formulas",
-            "15 min — representative examples",
-            "30 min — examples + mistakes + practice",
-            "Pre-exam — important points + key terms + final test"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "title": "Detailed Summary",
-      "blocks": [
-        {
-          "type": "summary",
-          "text": "Chapter 2 builds polynomial algebra from the meaning of a polynomial to its terms, coefficients, degree, values and zeroes. It then connects zeroes with factors and remainders and develops important algebraic identities for expansion and factorisation. The chapter should be revised as a connected sequence of definitions, representations, properties, examples, applications and verification."
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Final Chapter Test",
-      "blocks": [
-        {
-          "type": "final-test",
-          "question": "Question 1 — Explain the central concept and solve a suitable example.",
-          "answer": "Write the definition, select the property, solve line by line and verify."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 2 — Solve a multi-step examination-style problem.",
-          "answer": "Show all important transformations and state the verified result."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 3 — Find and correct an error.",
-          "answer": "Identify the first invalid step, explain why it is invalid, correct it and verify."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 4 — Solve an application problem.",
-          "answer": "Model the situation, solve, interpret and check reasonableness."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 5 — Solve a HOTS variation.",
-          "answer": "Analyse the changed condition before calculating."
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Important Points",
-      "blocks": [
-        {
-          "type": "keypoint",
-          "text": "Master the definitions first; then apply properties through examples and verification."
-        },
-        {
-          "type": "keypoint",
-          "text": "A correct final answer without reasoning is not a complete mathematical solution."
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Key Terms",
-      "blocks": [
-        {
-          "type": "key-term",
-          "items": [
-            "Core definitions",
-            "Symbols",
-            "Properties",
-            "Important vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Chapter Summary",
-      "blocks": [
-        {
-          "type": "summary",
-          "text": "Polynomials: learn the meaning, understand the representation, practise many examples from easy to HOTS, apply properties under their conditions, detect errors, revise formulas and complete the final test."
-        }
-      ]
-    },
-    {
-      "id": 32,
-      "title": "Chapter Summary — Final Takeaway",
-      "blocks": [
-        {
-          "type": "summary",
-          "text": "Final one-page takeaway for Polynomials: definitions → concepts → worked examples → properties → applications → practice → exam revision → verification."
-        }
+      ],
+      "keyPoints": [
+        "A zero α corresponds to factor x−α.",
+        "Check signs carefully.",
+        "For a monic quadratic, sum/product relationships are useful."
       ]
     }
-  ]
+  ],
+  "comparisonTables": [
+    {
+      "title": "Classification by degree and terms",
+      "columns": [
+        "Feature",
+        "Type",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Degree 0",
+          "Constant",
+          "7"
+        ],
+        [
+          "Degree 1",
+          "Linear",
+          "3x−2"
+        ],
+        [
+          "Degree 2",
+          "Quadratic",
+          "x²−5x+6"
+        ],
+        [
+          "Degree 3",
+          "Cubic",
+          "2x³+x−1"
+        ],
+        [
+          "One term",
+          "Monomial",
+          "5x²"
+        ],
+        [
+          "Two terms",
+          "Binomial",
+          "x²−9"
+        ],
+        [
+          "Three terms",
+          "Trinomial",
+          "x²+3x+2"
+        ]
+      ]
+    }
+  ],
+  "theoremPropertyLab": [
+    {
+      "title": "Remainder Theorem",
+      "statement": "Remainder on division by x−a is p(a).",
+      "proof": "p(x)=(x−a)q(x)+r; put x=a to get p(a)=r."
+    },
+    {
+      "title": "Factor Theorem",
+      "statement": "x−a is a factor iff p(a)=0.",
+      "proof": "The remainder is p(a), and a divisor is a factor exactly when its remainder is zero."
+    }
+  ],
+  "formulaPropertyBank": [
+    "p(a)=remainder when divided by x−a",
+    "x−a is a factor ⇔ p(a)=0",
+    "(a+b)²=a²+2ab+b²",
+    "(a−b)²=a²−2ab+b²",
+    "a²−b²=(a−b)(a+b)"
+  ],
+  "conceptConnections": [
+    "Zeros connect equations and graphs.",
+    "Remainder connects division with substitution.",
+    "Factor theorem turns a zero into a factor.",
+    "Identities connect expansion and factorisation."
+  ],
+  "mathematicalThinking": [
+    "Before expanding, ask whether an identity matches.",
+    "Before long division, check whether the Remainder Theorem is enough.",
+    "Verify a factor by substitution."
+  ],
+  "errorDetective": [
+    {
+      "problem": "p(3)=5 means x−3 is a factor.",
+      "answer": "False. It is a factor only when p(3)=0."
+    },
+    {
+      "problem": "(−2)²=−4.",
+      "answer": "False. (−2)²=4."
+    }
+  ],
+  "mathsChallenge": [
+    {
+      "question": "Find a quadratic polynomial with zeros 2 and −5.",
+      "answer": "(x−2)(x+5)=x²+3x−10."
+    }
+  ],
+  "realLifeMathematics": [
+    "Polynomials model areas, costs, motion and production.",
+    "Identities make repeated calculations faster."
+  ],
+  "mathematicalActivityLab": [
+    {
+      "title": "Identity verification",
+      "steps": [
+        "Choose values for a and b.",
+        "Evaluate both sides numerically.",
+        "Repeat with negative and fractional values.",
+        "Explain why numerical checking is evidence, not a general proof."
+      ]
+    }
+  ],
+  "visualLearning": [
+    "Use an area model for (a+b)².",
+    "Sketch a quadratic and mark its x-axis zeros."
+  ],
+  "masterDefinitions": [
+    {
+      "term": "Polynomial",
+      "definition": "An algebraic expression with non-negative integer powers of the variable."
+    },
+    {
+      "term": "Zero",
+      "definition": "A value a for which p(a)=0."
+    },
+    {
+      "term": "Identity",
+      "definition": "An equation true for all allowed values."
+    }
+  ],
+  "formulaRevisionSheet": [
+    "(a+b)²=a²+2ab+b²",
+    "(a−b)²=a²−2ab+b²",
+    "a²−b²=(a−b)(a+b)",
+    "p(a)=remainder for divisor x−a"
+  ],
+  "questionBank": [
+    {
+      "question": "Degree of 4x⁵−2x²+7?",
+      "answer": "5."
+    },
+    {
+      "question": "Find p(2) for x²−3x+1.",
+      "answer": "−1."
+    },
+    {
+      "question": "Is x+1 a factor of x³−x²−x+1?",
+      "answer": "Yes, because p(−1)=0."
+    }
+  ],
+  "showAnswerSystem": {
+    "instruction": "Show Answer must reveal the final answer followed by the complete step-by-step solution."
+  },
+  "practiceSets": [
+    {
+      "title": "Practice Set A",
+      "questions": [
+        "Classify 4x³−7x+1.",
+        "Find p(−2) for x²+4x−1.",
+        "Find the remainder of 2x³+x−5 on division by x−1.",
+        "Factor x²−9.",
+        "Expand (2x−3)²."
+      ]
+    }
+  ],
+  "timedPractice": [
+    {
+      "duration": "20 minutes",
+      "instruction": "Solve 12 mixed polynomial questions with complete working."
+    }
+  ],
+  "chapterQuiz": [
+    {
+      "question": "If p(2)=0, which is a factor?",
+      "options": [
+        "x+2",
+        "x−2",
+        "2x−1",
+        "x²+2"
+      ],
+      "answer": "x−2"
+    }
+  ],
+  "examZone": [
+    "Use brackets for negative substitution.",
+    "Write the theorem before applying it when appropriate.",
+    "Recognise identity patterns.",
+    "Write formulas before substitution where appropriate.",
+    "Use complete mathematical statements in proof/reasoning questions.",
+    "Recheck signs, brackets and powers before finalising an answer."
+  ],
+  "commonMistakes": [
+    "Confusing degree with coefficient.",
+    "Forgetting zero coefficients when identifying degree.",
+    "Treating an example check as a proof of an identity.",
+    "Confusing a concept definition with an example.",
+    "Skipping the verification step.",
+    "Swapping ordered coordinates.",
+    "Ignoring restrictions such as a denominator being non-zero.",
+    "Using an algebraic identity with an incorrect sign."
+  ],
+  "masterRevision": [
+    "Structure → degree → evaluation → zeros → theorems → identities."
+  ],
+  "detailedSummary": [
+    "Polynomial expressions use non-negative integer powers.",
+    "Degree is the highest exponent with a non-zero coefficient.",
+    "Zeros make the polynomial zero.",
+    "Remainder and Factor Theorems turn substitution into powerful shortcuts.",
+    "Identities make expansion and factorisation efficient."
+  ],
+  "finalChapterTest": [
+    {
+      "question": "For p(x)=x³−6x²+11x−6, prove x−1 is a factor and factorise p(x).",
+      "answer": "p(x)=(x−1)(x−2)(x−3).",
+      "solution": "p(1)=1−6+11−6=0, so x−1 is a factor. Division gives x²−5x+6=(x−2)(x−3). Hence p(x)=(x−1)(x−2)(x−3)."
+    }
+  ],
+  "importantPoints": [
+    "p(a)=0 means a is a zero.",
+    "x−a is a factor iff p(a)=0.",
+    "Use identities in both directions.",
+    "Negative substitution requires brackets.",
+    "Show substitutions clearly in Class 9 solutions.",
+    "Do not skip sign checks when negative numbers are involved.",
+    "Use the definition or theorem that directly justifies the step.",
+    "A correct final answer with no reasoning may lose marks in descriptive questions."
+  ],
+  "keyTerms": [
+    "Polynomial",
+    "Term",
+    "Coefficient",
+    "Degree",
+    "Zero",
+    "Remainder Theorem",
+    "Factor Theorem",
+    "Identity",
+    "Factorisation"
+  ],
+  "chapterSummary": "Polynomials builds the algebraic language and techniques required for later mathematics: structure, degree, evaluation, zeros, theorem-based factor checks and identity-based factorisation. The enhanced version keeps the earlier material while adding deeper explanations, more worked examples, reasoning-based practice and stronger Class 9 exam preparation."
 };
+
+export default notes;

@@ -1,1232 +1,511 @@
-window.ChapterData = {
+// Class 9 Mathematics — ConceptQizzer enhanced notes
+// Previous structured data preserved and expanded.
+// Render-safe: no topic `number` field and no `subsections` field.
+
+const notes = {
+  "id": "9-mathematics-number-systems",
   "title": "Number Systems",
   "class": 9,
   "subject": "Mathematics",
   "chapter": 1,
-  "description": "Chapter 1 develops the complete idea of real numbers by connecting familiar number sets with rational and irrational numbers. It explains decimal expansions, locating real numbers on the number line, laws of exponents and rationalisation. The focus is on understanding why each classification works, not merely memorising labels.",
-  "renderVersion": "Detailed Renderable v3",
-  "sections": [
+  "file": "js/notes/class9/mathematics/number-systems.js",
+  "enabled": true,
+  "description": "A Class 9 standard, deeply detailed study of Number Systems. It builds the number hierarchy from natural numbers to real numbers, explains rational and irrational numbers, decimal expansions, locating numbers on the number line, laws of exponents, surds and rationalisation. Earlier notes and examples are retained and expanded with step-by-step reasoning, proof-style thinking, exam traps and additional practice.",
+  "learningObjectives": [
+    "Classify numbers correctly.",
+    "Distinguish rational and irrational numbers using definitions and decimal behaviour.",
+    "Use the terminating-decimal criterion.",
+    "Apply exponent laws correctly.",
+    "Rationalise denominators using a suitable factor or conjugate.",
+    "Explain every step of a solution instead of relying on answer-only work.",
+    "Use definitions, properties and algebraic reasoning to justify answers.",
+    "Detect common traps and verify results independently."
+  ],
+  "prerequisiteCheck": [
+    "Integers and fractions",
+    "Basic prime factorisation",
+    "Basic powers and square roots"
+  ],
+  "conceptRoadmap": [
+    "Number hierarchy",
+    "Rational numbers",
+    "Decimal expansions",
+    "Irrational numbers",
+    "Real number line",
+    "Operations with real numbers",
+    "Laws of exponents",
+    "Surds and rationalisation",
+    "Proof and exam reasoning"
+  ],
+  "topics": [
     {
-      "id": 1,
-      "title": "Chapter Header",
-      "blocks": [
+      "title": "Number Sets and the Real Number System",
+      "content": "A number system is a hierarchy of sets in which each larger set contains the earlier sets. Natural numbers are counting numbers 1,2,3,...; whole numbers add 0; integers add negative numbers; rational numbers contain all numbers expressible as p/q, where p and q are integers and q is not 0; irrational numbers cannot be expressed in that form; rational and irrational numbers together form the real numbers.\n\nThe containment relationship is N ⊂ W ⊂ Z ⊂ Q ⊂ R. Therefore, when a number belongs to a smaller set, it automatically belongs to every larger set. Classification should normally identify the most specific familiar set first.\n\nDeep Class 9 explanation: The sets are nested, not merely a list of unrelated categories. Natural numbers N = {1,2,3,...}; whole numbers W = {0,1,2,3,...}; integers Z = {...,-2,-1,0,1,2,...}; rational numbers Q are numbers of the form p/q with p,q integers and q≠0; irrational numbers are real numbers that cannot be expressed in p/q form; real numbers R contain both rational and irrational numbers. Thus N ⊂ W ⊂ Z ⊂ Q ⊂ R. A number can belong to several sets simultaneously, so the phrase 'smallest suitable set' is useful when classification is requested.\n\nHow to classify systematically: first check whether the number is a counting number, then whether it is whole, integer, rational or irrational. A terminating decimal such as 2.75 is rational because 2.75=275/100=11/4. A recurring decimal such as 0.2727... is rational because its repeating pattern can be converted to a fraction. A square root of a positive non-perfect-square integer, such as √7, is irrational.",
+      "examples": [
         {
-          "type": "description",
-          "title": "Number Systems",
-          "text": "Chapter 1 develops the complete idea of real numbers by connecting familiar number sets with rational and irrational numbers. It explains decimal expansions, locating real numbers on the number line, laws of exponents and rationalisation. The focus is on understanding why each classification works, not merely memorising labels."
+          "title": "Classify 7",
+          "problem": "Classify 7.",
+          "solution": "7 is natural, whole, integer, rational and real."
         },
         {
-          "type": "chapter-meta",
-          "items": [
-            "Class 9 Mathematics",
-            "Chapter {n}",
-            "Number Systems",
-            "Concept-first • Example-rich • Exam-ready"
-          ]
+          "title": "Classify −5/3",
+          "problem": "Classify −5/3.",
+          "solution": "It is rational and real, but not an integer, whole or natural number."
+        },
+        {
+          "title": "Classify √2",
+          "problem": "Classify √2.",
+          "solution": "√2 is irrational and therefore real."
+        },
+        {
+          "title": "Classify a negative integer",
+          "problem": "Classify −12.",
+          "solution": "−12 is an integer, rational and real; it is not whole or natural."
+        },
+        {
+          "title": "Classify a terminating decimal",
+          "problem": "Classify 0.625.",
+          "solution": "0.625=5/8, so it is rational and real."
         }
+      ],
+      "keyPoints": [
+        "Remember the nested sets: N ⊂ W ⊂ Z ⊂ Q ⊂ R.",
+        "Rational and irrational numbers together make R."
       ]
     },
     {
-      "id": 2,
-      "title": "Learning Objectives",
-      "blocks": [
+      "title": "Rational Numbers",
+      "content": "A rational number has the form p/q, where p and q are integers and q ≠ 0. Rational numbers include integers because every integer n can be written as n/1. They also include terminating decimals and recurring decimals.\n\nFor a fraction in lowest terms, its decimal expansion terminates exactly when the denominator has no prime factors other than 2 and 5. If any other prime factor remains, the decimal is non-terminating recurring.\n\nDeep Class 9 explanation: For a rational number p/q, the denominator must never be zero. When a fraction is reduced to lowest terms, its decimal terminates if and only if the denominator has no prime factor other than 2 and 5. For example, 13/125 terminates because 125=5³, while 7/18 does not terminate because 18=2×3² contains 3. A non-terminating recurring decimal is still rational; the repeating block is the important feature.\n\nConverting a recurring decimal: if x=0.333..., then 10x=3.333..., subtracting gives 9x=3, so x=1/3. This algebraic method explains why recurring decimals are rational rather than relying only on memorisation.",
+      "examples": [
         {
-          "type": "list",
-          "items": [
-            "Understand every major concept instead of memorising isolated rules.",
-            "Solve basic, standard, application and HOTS questions with complete working.",
-            "Explain why a method works and identify the conditions under which it is valid.",
-            "Use tables, graphs, symbols and algebraic notation accurately.",
-            "Verify answers and diagnose mistakes."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Prerequisite Check",
-      "blocks": [
-        {
-          "type": "practice",
-          "title": "Before You Start",
-          "questions": [
-            {
-              "question": "Which earlier mathematical skills are needed for this chapter?",
-              "answer": "Recall arithmetic, signs, fractions, substitution, simple algebra and accurate reading of symbols as applicable."
-            },
-            {
-              "question": "What should you do if a prerequisite feels weak?",
-              "answer": "Revise the relevant basic operation before attempting advanced questions."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Concept Roadmap",
-      "blocks": [
-        {
-          "type": "process",
-          "steps": [
-            "Natural, Whole and Integers",
-            "Rational Numbers",
-            "Irrational Numbers",
-            "Real Numbers",
-            "Decimal Expansion of Rational Numbers",
-            "Number Line Representation",
-            "Laws of Exponents",
-            "Rationalisation"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Main Concepts",
-      "blocks": [
-        {
-          "type": "concept",
-          "number": 1,
-          "title": "Natural, Whole and Integers",
-          "text": "Natural numbers are counting numbers 1,2,3,...; whole numbers add 0; integers include negative whole numbers as well. These sets are nested: every natural number is whole and every whole number is an integer.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Natural, Whole and Integers — Example 1",
-          "question": "Classify 0, 7, −3 and 25.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Natural, Whole and Integers — Example 2",
-          "question": "Write the first six whole numbers and first six integers.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Natural, Whole and Integers — Example 3",
-          "question": "Explain why −5 is an integer but not a whole number.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Natural, Whole and Integers",
-          "questions": [
-            {
-              "question": "Explain Natural, Whole and Integers in your own words.",
-              "answer": "Natural numbers are counting numbers 1,2,3,...; whole numbers add 0; integers include negative whole numbers as well. These sets are nested: every natural number is whole and every whole number is an integer."
-            },
-            {
-              "question": "State one condition or common trap for Natural, Whole and Integers.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 2,
-          "title": "Rational Numbers",
-          "text": "A rational number is a number that can be written p/q, where p and q are integers and q≠0. Fractions, integers, terminating decimals and recurring decimals all belong to this set.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Rational Numbers — Example 1",
-          "question": "Write 0.75 as a rational number.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Rational Numbers — Example 2",
-          "question": "Show that −7 is rational.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Rational Numbers — Example 3",
-          "question": "Convert 0.333... into a fraction using x=0.333... and 10x=3.333....",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Rational Numbers",
-          "questions": [
-            {
-              "question": "Explain Rational Numbers in your own words.",
-              "answer": "A rational number is a number that can be written p/q, where p and q are integers and q≠0. Fractions, integers, terminating decimals and recurring decimals all belong to this set."
-            },
-            {
-              "question": "State one condition or common trap for Rational Numbers.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 3,
-          "title": "Irrational Numbers",
-          "text": "An irrational number cannot be expressed as p/q with integers p and q and q≠0. Its decimal expansion is non-terminating and non-recurring. Familiar examples include √2, √3 and π.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Irrational Numbers — Example 1",
-          "question": "Explain why √2 is not rational.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Irrational Numbers — Example 2",
-          "question": "Decide whether √49 is irrational.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Irrational Numbers — Example 3",
-          "question": "Compare √2 and 1.5 using squares.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Irrational Numbers",
-          "questions": [
-            {
-              "question": "Explain Irrational Numbers in your own words.",
-              "answer": "An irrational number cannot be expressed as p/q with integers p and q and q≠0. Its decimal expansion is non-terminating and non-recurring. Familiar examples include √2, √3 and π."
-            },
-            {
-              "question": "State one condition or common trap for Irrational Numbers.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 4,
-          "title": "Real Numbers",
-          "text": "The real numbers are the union of rational and irrational numbers. Every real number has a unique position on the real number line, so algebraic and geometric views can be connected.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Real Numbers — Example 1",
-          "question": "Classify √5, −2/3, 0 and π.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Real Numbers — Example 2",
-          "question": "Explain why there is no real number that is neither rational nor irrational.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Real Numbers — Example 3",
-          "question": "Place a given rational and irrational number in their correct positions conceptually.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Real Numbers",
-          "questions": [
-            {
-              "question": "Explain Real Numbers in your own words.",
-              "answer": "The real numbers are the union of rational and irrational numbers. Every real number has a unique position on the real number line, so algebraic and geometric views can be connected."
-            },
-            {
-              "question": "State one condition or common trap for Real Numbers.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 5,
-          "title": "Decimal Expansion of Rational Numbers",
-          "text": "When a rational number is written in lowest terms, its decimal terminates exactly when its denominator has no prime factors other than 2 and 5. Otherwise the decimal is non-terminating recurring.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Decimal Expansion of Rational Numbers — Example 1",
-          "question": "Decide whether 7/20 terminates.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Decimal Expansion of Rational Numbers — Example 2",
-          "question": "Decide whether 13/30 terminates and explain why.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Decimal Expansion of Rational Numbers — Example 3",
-          "question": "Convert a terminating decimal into a fraction in lowest terms.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Decimal Expansion of Rational Numbers",
-          "questions": [
-            {
-              "question": "Explain Decimal Expansion of Rational Numbers in your own words.",
-              "answer": "When a rational number is written in lowest terms, its decimal terminates exactly when its denominator has no prime factors other than 2 and 5. Otherwise the decimal is non-terminating recurring."
-            },
-            {
-              "question": "State one condition or common trap for Decimal Expansion of Rational Numbers.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 6,
-          "title": "Number Line Representation",
-          "text": "Real numbers can be located geometrically. Rational numbers are placed by ordinary division, while irrational numbers such as √2 can be constructed using right triangles and then transferred to the number line.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Number Line Representation — Example 1",
-          "question": "Locate 3/2 on a number line.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Number Line Representation — Example 2",
-          "question": "Describe a geometric construction for √2.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Number Line Representation — Example 3",
-          "question": "Explain how √5 can be constructed from a suitable right-triangle sequence.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Number Line Representation",
-          "questions": [
-            {
-              "question": "Explain Number Line Representation in your own words.",
-              "answer": "Real numbers can be located geometrically. Rational numbers are placed by ordinary division, while irrational numbers such as √2 can be constructed using right triangles and then transferred to the number line."
-            },
-            {
-              "question": "State one condition or common trap for Number Line Representation.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 7,
-          "title": "Laws of Exponents",
-          "text": "Exponent laws make repeated multiplication manageable. They apply under conditions such as non-zero bases when negative or zero exponents are involved.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Laws of Exponents — Example 1",
-          "question": "Simplify 2^3×2^5.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Laws of Exponents — Example 2",
-          "question": "Simplify (3^2)^4.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Laws of Exponents — Example 3",
-          "question": "Simplify 5^7/5^3 and explain the restriction on the base.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Laws of Exponents",
-          "questions": [
-            {
-              "question": "Explain Laws of Exponents in your own words.",
-              "answer": "Exponent laws make repeated multiplication manageable. They apply under conditions such as non-zero bases when negative or zero exponents are involved."
-            },
-            {
-              "question": "State one condition or common trap for Laws of Exponents.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        },
-        {
-          "type": "concept",
-          "number": 8,
-          "title": "Rationalisation",
-          "text": "Rationalisation changes an expression with an irrational denominator into an equivalent expression with a rational denominator. For a denominator such as √a, multiply by √a; for a+b√c, a suitable conjugate is used.",
-          "subsections": [
-            "Definition",
-            "Meaning",
-            "Key conditions",
-            "How to recognise it",
-            "Why it works",
-            "Where it is used"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Rationalisation — Example 1",
-          "question": "Rationalise 1/√3.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Rationalisation — Example 2",
-          "question": "Rationalise 5/(2+√3).",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "example",
-          "title": "Rationalisation — Example 3",
-          "question": "Explain why multiplying numerator and denominator by the conjugate preserves the value.",
-          "steps": [
-            "Identify the given information.",
-            "Write the relevant definition/property/formula.",
-            "Substitute or transform carefully.",
-            "Simplify one step at a time.",
-            "Check the result against the original condition."
-          ],
-          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check — Rationalisation",
-          "questions": [
-            {
-              "question": "Explain Rationalisation in your own words.",
-              "answer": "Rationalisation changes an expression with an irrational denominator into an equivalent expression with a rational denominator. For a denominator such as √a, multiply by √a; for a+b√c, a suitable conjugate is used."
-            },
-            {
-              "question": "State one condition or common trap for Rationalisation.",
-              "answer": "Check the definition and conditions before applying a rule."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Step-by-Step Solved Examples",
-      "blocks": [
-        {
-          "type": "method",
-          "title": "Universal Solving Method",
-          "steps": [
-            "Read",
-            "Identify Given",
-            "Identify Required",
-            "Choose Concept",
-            "Write Formula/Property",
-            "Substitute",
-            "Calculate",
-            "Verify",
-            "State Answer"
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Mixed Example 1",
-          "question": "Solve a representative multi-step problem from the chapter.",
-          "steps": [
-            "Write the given information.",
-            "Select the relevant concept.",
-            "Show every important transformation.",
-            "Check the final result."
-          ],
-          "answer": "Complete the chapter-specific calculation and verification."
-        },
-        {
-          "type": "example",
-          "title": "Mixed Example 2 — Exam Level",
-          "question": "Solve a problem where more than one concept is connected.",
-          "steps": [
-            "Identify both concepts.",
-            "Plan the order of operations.",
-            "Calculate carefully.",
-            "Verify using the original statement."
-          ],
-          "answer": "State the final verified result with reasoning."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Comparison Tables",
-      "blocks": [
-        {
-          "type": "table",
-          "columns": [
-            "Concept",
-            "Meaning",
-            "Example / Key Feature"
-          ],
-          "rows": [
-            [
-              "Natural",
-              "1,2,3,...",
-              "Counting numbers"
-            ],
-            [
-              "Whole",
-              "0,1,2,...",
-              "Natural numbers plus 0"
-            ],
-            [
-              "Integer",
-              "...,−2,−1,0,1,2,...",
-              "Positive, negative and zero integers"
-            ],
-            [
-              "Rational",
-              "p/q, q≠0",
-              "Terminating or recurring decimal"
-            ],
-            [
-              "Irrational",
-              "Not p/q",
-              "Non-terminating, non-recurring decimal"
-            ],
-            [
-              "Real",
-              "Rational or irrational",
-              "All points on real number line"
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Theorem / Property Lab",
-      "blocks": [
-        {
-          "type": "property",
-          "title": "Property Investigation",
-          "text": "For every applicable property, write: statement → conditions → worked example → verification → why it is useful."
-        },
-        {
-          "type": "activity",
-          "title": "Verify the Property",
-          "text": "Choose three valid numerical cases and test the property. Then deliberately violate a condition and observe why the rule cannot be used blindly."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Formula & Property Bank",
-      "blocks": [
-        {
-          "type": "formula",
-          "text": "a^m·a^n=a^(m+n), a≠0"
-        },
-        {
-          "type": "formula",
-          "text": "a^m/a^n=a^(m−n), a≠0"
-        },
-        {
-          "type": "formula",
-          "text": "(a^m)^n=a^(mn)"
-        },
-        {
-          "type": "formula",
-          "text": "(ab)^m=a^m b^m"
-        },
-        {
-          "type": "formula",
-          "text": "a^0=1, a≠0"
-        },
-        {
-          "type": "formula",
-          "text": "a^(−m)=1/a^m, a≠0"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Concept Connections",
-      "blocks": [
-        {
-          "type": "connection",
-          "items": [
-            "Definition → representation → operation → verification.",
-            "Algebraic notation can represent geometric positions and relationships.",
-            "Properties are shortcuts only after the underlying concept is understood.",
-            "Earlier concepts become tools for later chapters."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "Mathematical Thinking",
-      "blocks": [
-        {
-          "type": "thinking",
-          "questions": [
-            "Why does this method work?",
-            "Can the same result be obtained another way?",
-            "What changes if one condition is changed?",
-            "Can you construct a counterexample to a false claim?",
-            "How can the answer be verified independently?"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Error Detective",
-      "blocks": [
-        {
-          "type": "error",
-          "cases": [
-            {
-              "mistake": "A rule is used without checking its conditions.",
-              "fix": "Write the conditions beside the rule before applying it."
-            },
-            {
-              "mistake": "Important algebraic steps are skipped.",
-              "fix": "Write one transformation per line and check signs."
-            },
-            {
-              "mistake": "The answer is not verified.",
-              "fix": "Substitute, redraw, estimate or use an alternative method where possible."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Maths Challenge",
-      "blocks": [
-        {
-          "type": "challenge",
-          "levels": [
-            "Foundation",
-            "Standard",
-            "Advanced",
-            "HOTS",
-            "Expert"
-          ],
-          "instruction": "Each level should require complete working, reasoning and verification."
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Real-Life Mathematics",
-      "blocks": [
-        {
-          "type": "application",
-          "items": [
-            "Identify the real quantities and their units.",
-            "Translate the situation into mathematical language.",
-            "Solve using the chapter's concepts.",
-            "Interpret the answer in the original situation.",
-            "Check whether the result is reasonable."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Mathematical Activity Lab",
-      "blocks": [
-        {
-          "type": "activity",
-          "title": "Explore",
-          "text": "Create three simple examples, three standard examples and one unusual example. Record what remains constant and what changes."
-        },
-        {
-          "type": "activity",
-          "title": "Error Hunt",
-          "text": "Compare a correct solution with an incorrect one and identify the first invalid step."
-        },
-        {
-          "type": "activity",
-          "title": "Verification Lab",
-          "text": "Solve one suitable problem in two different ways and compare the results."
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Visual Learning",
-      "blocks": [
-        {
-          "type": "visual",
-          "items": [
-            "Use clean mathematical diagrams, number lines, graphs, coordinate planes, tables and labelled figures where they improve understanding.",
-            "Visuals must explain mathematics, not act as decoration.",
-            "All axes, points, scales and units should be labelled."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Master Definitions",
-      "blocks": [
-        {
-          "type": "definition",
-          "title": "Natural number",
-          "text": "Precise definition of Natural number. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Whole number",
-          "text": "Precise definition of Whole number. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Integer",
-          "text": "Precise definition of Integer. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Rational number",
-          "text": "Precise definition of Rational number. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Irrational number",
-          "text": "Precise definition of Irrational number. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
-          "title": "Real number",
-          "text": "Precise definition of Real number. Include notation, a simple example and a non-example when useful."
-        },
-        {
-          "type": "definition",
           "title": "Terminating decimal",
-          "text": "Precise definition of Terminating decimal. Include notation, a simple example and a non-example when useful."
+          "problem": "Decide whether 7/40 terminates.",
+          "solution": "40 = 2³×5. Only 2 and 5 occur, so it terminates: 7/40 = 0.175."
         },
         {
-          "type": "definition",
           "title": "Recurring decimal",
-          "text": "Precise definition of Recurring decimal. Include notation, a simple example and a non-example when useful."
+          "problem": "Decide whether 5/12 terminates.",
+          "solution": "12 = 2²×3. The factor 3 remains, so the decimal is non-terminating recurring."
         },
         {
-          "type": "definition",
-          "title": "Exponent",
-          "text": "Precise definition of Exponent. Include notation, a simple example and a non-example when useful."
+          "title": "Decimal to fraction",
+          "problem": "Convert 0.125 to a fraction.",
+          "solution": "0.125 = 125/1000 = 1/8."
         },
         {
-          "type": "definition",
-          "title": "Rationalisation",
-          "text": "Precise definition of Rationalisation. Include notation, a simple example and a non-example when useful."
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "title": "Formula Revision Sheet",
-      "blocks": [
-        {
-          "type": "formula",
-          "text": "a^m·a^n=a^(m+n), a≠0"
+          "title": "Termination test",
+          "problem": "Does 17/80 terminate?",
+          "solution": "80=2^4×5, so the decimal terminates."
         },
         {
-          "type": "formula",
-          "text": "a^m/a^n=a^(m−n), a≠0"
+          "title": "Non-termination test",
+          "problem": "Does 11/30 terminate?",
+          "solution": "30=2×3×5; the factor 3 remains, so the decimal is non-terminating recurring."
+        }
+      ],
+      "keyPoints": [
+        "Always reduce the fraction before applying the 2-and-5 test.",
+        "Every recurring decimal is rational."
+      ]
+    },
+    {
+      "title": "Irrational Numbers",
+      "content": "An irrational number is a real number that cannot be written as p/q with integers p and q, q ≠ 0. Its decimal expansion is non-terminating and non-repeating.\n\nSquare roots provide many familiar examples. √9 is rational because it equals 3, while √2 is irrational because 2 is not a perfect square. A standard proof that √2 is irrational uses contradiction and the fact that a square being even implies its root is even.\n\nDeep Class 9 explanation: Irrationality is about impossibility of p/q representation. Not every radical is irrational: √16=4 and √81=9 are rational. The key check is whether the number under the square root is a perfect square when the expression is a simple square root of an integer. The classic proof of √2 uses contradiction: assume √2=p/q in lowest terms; squaring gives p²=2q², which forces p to be even; substituting p=2k then forces q to be even, contradicting lowest terms. The same style of reasoning can be adapted to √3, √5 and other appropriate non-perfect-square integers.",
+      "examples": [
+        {
+          "title": "Prove √2 is irrational",
+          "problem": "Show that √2 cannot be rational.",
+          "solution": "Assume √2=p/q in lowest terms. Then 2q²=p², so p is even. Put p=2k; then q²=2k², so q is also even. This contradicts lowest terms. Hence √2 is irrational."
         },
         {
-          "type": "formula",
-          "text": "(a^m)^n=a^(mn)"
+          "title": "Perfect square check",
+          "problem": "Is √49 irrational?",
+          "solution": "No. √49=7, which is rational."
         },
         {
-          "type": "formula",
-          "text": "(ab)^m=a^m b^m"
+          "title": "Perfect square",
+          "problem": "Classify √64.",
+          "solution": "√64=8, so it is rational."
         },
         {
-          "type": "formula",
-          "text": "a^0=1, a≠0"
+          "title": "Non-perfect square",
+          "problem": "Classify √10.",
+          "solution": "10 is not a perfect square, so √10 is irrational."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Real Numbers on the Number Line",
+      "content": "Every real number corresponds to one point on the number line. Rational and irrational numbers are both present. Numbers to the right are greater and numbers to the left are smaller.\n\nFor comparing non-negative square roots, squaring preserves order. Thus √5 > 2 because 5 > 4. Between any two distinct real numbers there are infinitely many real numbers, so the number line is continuous rather than a collection of isolated familiar values.\n\nDeep Class 9 explanation: The number line is a geometric model of the complete real-number system. The origin represents 0; positive numbers lie to the right and negative numbers to the left. To compare two real numbers, the number farther to the right is greater. Irrational numbers are not 'missing' from the line: every irrational real number corresponds to a point. A standard geometric construction for √2 uses a right triangle with legs 1 and 1, giving hypotenuse √2 by Pythagoras, and then transfers that length to the number line.",
+      "examples": [
+        {
+          "title": "Compare",
+          "problem": "Compare √5 and 2.",
+          "solution": "Since 5>4=2², √5>2. Numerically √5≈2.236."
         },
         {
-          "type": "formula",
-          "text": "a^(−m)=1/a^m, a≠0"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Question Bank",
-      "blocks": [
-        {
-          "type": "question-bank",
-          "categories": {
-            "Basic": [
-              "Define, identify and classify.",
-              "Solve a direct question.",
-              "State the relevant property."
-            ],
-            "Standard": [
-              "Solve a multi-step question.",
-              "Explain the method.",
-              "Verify the result."
-            ],
-            "Advanced": [
-              "Solve an unfamiliar variation.",
-              "Compare methods.",
-              "Correct a flawed solution."
-            ],
-            "HOTS": [
-              "Justify a claim.",
-              "Find a counterexample.",
-              "Change a condition and analyse the effect."
-            ],
-            "Challenge": [
-              "Solve with minimal hints.",
-              "Explain why the method is valid."
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Show Answer System",
-      "blocks": [
-        {
-          "type": "show-answer",
-          "buttonText": "Show Answer",
-          "display": [
-            "Question",
-            "[Show Answer]",
-            "Answer",
-            "Complete Solution",
-            "Verification"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "title": "Practice Sets",
-      "blocks": [
-        {
-          "type": "practice-set",
-          "sets": [
-            {
-              "name": "Practice A — Foundation",
-              "count": 10
-            },
-            {
-              "name": "Practice B — Standard",
-              "count": 12
-            },
-            {
-              "name": "Practice C — Advanced",
-              "count": 12
-            },
-            {
-              "name": "Practice D — HOTS",
-              "count": 10
-            },
-            {
-              "name": "Practice E — Challenge",
-              "count": 8
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Timed Practice",
-      "blocks": [
-        {
-          "type": "timer-set",
-          "sets": [
-            "10-minute sprint",
-            "20-minute mixed practice",
-            "30-minute challenge"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Chapter Quiz",
-      "blocks": [
-        {
-          "type": "quiz",
-          "parts": [
-            "MCQ",
-            "Conceptual",
-            "Numerical",
-            "Assertion–Reason",
-            "Case-based",
-            "HOTS"
-          ],
-          "difficulty": [
-            "Easy",
-            "Medium",
-            "Hard",
-            "Expert"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Exam Zone",
-      "blocks": [
-        {
-          "type": "exam",
-          "items": [
-            "Most important definitions",
-            "Formula/property questions",
-            "Typical question patterns",
-            "Reasoning questions",
-            "Common traps",
-            "Step presentation",
-            "Verification",
-            "Time management"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Common Mistakes",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "Read the question completely before selecting a method.",
-            "Do not apply a formula without checking its conditions.",
-            "Keep signs, brackets and coordinate order under control.",
-            "Do not skip a step that changes the expression.",
-            "Always verify an important final answer."
-          ]
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "title": "Master Revision",
-      "blocks": [
-        {
-          "type": "revision-plan",
-          "plans": [
-            "5 min — definitions + formulas",
-            "15 min — representative examples",
-            "30 min — examples + mistakes + practice",
-            "Pre-exam — important points + key terms + final test"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "title": "Detailed Summary",
-      "blocks": [
-        {
-          "type": "summary",
-          "text": "Chapter 1 develops the complete idea of real numbers by connecting familiar number sets with rational and irrational numbers. It explains decimal expansions, locating real numbers on the number line, laws of exponents and rationalisation. The focus is on understanding why each classification works, not merely memorising labels. The chapter should be revised as a connected sequence of definitions, representations, properties, examples, applications and verification."
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Final Chapter Test",
-      "blocks": [
-        {
-          "type": "final-test",
-          "question": "Question 1 — Explain the central concept and solve a suitable example.",
-          "answer": "Write the definition, select the property, solve line by line and verify."
+          "title": "Order on the line",
+          "problem": "Which is greater, −3 or −5?",
+          "solution": "−3 lies to the right of −5, so −3>−5."
         },
         {
-          "type": "final-test",
-          "question": "Question 2 — Solve a multi-step examination-style problem.",
-          "answer": "Show all important transformations and state the verified result."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 3 — Find and correct an error.",
-          "answer": "Identify the first invalid step, explain why it is invalid, correct it and verify."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 4 — Solve an application problem.",
-          "answer": "Model the situation, solve, interpret and check reasonableness."
-        },
-        {
-          "type": "final-test",
-          "question": "Question 5 — Solve a HOTS variation.",
-          "answer": "Analyse the changed condition before calculating."
+          "title": "Between two numbers",
+          "problem": "Give two real numbers between 1 and 2.",
+          "solution": "1.25 and √2 are both between 1 and 2."
         }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Laws of Exponents",
+      "content": "Exponent laws describe how powers behave when the base is the same or when powers are raised to powers. These rules follow from repeated multiplication and division. For a non-zero base a and suitable integers m,n: a^m×a^n=a^(m+n), a^m/a^n=a^(m−n), (a^m)^n=a^(mn), (ab)^m=a^m b^m, a^0=1 and a^(−m)=1/a^m.\n\nThe conditions matter. Division by a power assumes a ≠ 0, and a negative exponent does not make a number negative; it means reciprocal.\n\nDeep Class 9 explanation: Exponent laws are consequences of repeated multiplication. For a≠0 and suitable integer exponents: a^m·a^n=a^(m+n), a^m/a^n=a^(m−n), (a^m)^n=a^(mn), (ab)^m=a^m b^m, (a/b)^m=a^m/b^m, a^0=1 and a^(−m)=1/a^m. The base must be treated carefully: the addition rule applies when the bases are the same. For example, 2³·3³ cannot be changed to 6⁶; instead (2·3)³=6³. Negative exponents indicate reciprocals, not negative values.",
+      "examples": [
+        {
+          "title": "Multiply powers",
+          "problem": "Simplify 2³×2⁵.",
+          "solution": "2^(3+5)=2⁸=256."
+        },
+        {
+          "title": "Divide powers",
+          "problem": "Simplify x⁷/x³, x≠0.",
+          "solution": "x^(7−3)=x⁴."
+        },
+        {
+          "title": "Negative exponent",
+          "problem": "Simplify 5⁻².",
+          "solution": "5⁻²=1/5²=1/25."
+        },
+        {
+          "title": "Power of a product",
+          "problem": "Simplify (2×5)^3.",
+          "solution": "(2×5)^3=2^3×5^3=8×125=1000."
+        },
+        {
+          "title": "Zero exponent",
+          "problem": "Simplify 9^0.",
+          "solution": "Since 9≠0, 9^0=1."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Rationalisation of Denominators",
+      "content": "Rationalisation removes an irrational radical from a denominator without changing the value of a fraction. We multiply by a suitable form of 1.\n\nFor 1/√a, multiply by √a/√a. For a denominator such as a+√b, multiply by its conjugate a−√b because (a+√b)(a−√b)=a²−b.\n\nDeep Class 9 explanation: Rationalisation is an algebraic transformation that keeps a fraction equal to its original value while making the denominator rational. For a single radical, multiply numerator and denominator by that radical. For a binomial such as a+√b, use the conjugate a−√b. The key identity is (a+b)(a−b)=a²−b². Rationalisation should be completed fully; leaving an irrational denominator means the process has not been finished.",
+      "examples": [
+        {
+          "title": "Single radical",
+          "problem": "Rationalise 1/√5.",
+          "solution": "Multiply by √5/√5: √5/5."
+        },
+        {
+          "title": "Conjugate",
+          "problem": "Rationalise 1/(3+√2).",
+          "solution": "Multiply by (3−√2)/(3−√2). Denominator becomes 9−2=7, so result=(3−√2)/7."
+        },
+        {
+          "title": "Rationalise 3/√7",
+          "problem": "Rationalise 3/√7.",
+          "solution": "Multiply by √7/√7: 3√7/7."
+        },
+        {
+          "title": "Conjugate example",
+          "problem": "Rationalise 1/(5−√3).",
+          "solution": "Multiply by (5+√3)/(5+√3); denominator becomes 25−3=22, giving (5+√3)/22."
+        }
+      ],
+      "keyPoints": []
+    },
+    {
+      "title": "Operations and Closure in the Real Number System",
+      "content": "Closure asks whether performing an operation on members of a set always gives another member of the same set. The real numbers are closed under addition, subtraction and multiplication, and under division when the divisor is non-zero. Rational numbers are also closed under these operations with the same division restriction. Irrational numbers are not closed under addition or multiplication: √2+(−√2)=0 is rational, and √2×√2=2 is rational.",
+      "examples": [
+        {
+          "title": "Rational + rational",
+          "problem": "Find 3/4+5/8.",
+          "solution": "3/4=6/8, so 6/8+5/8=11/8, which is rational."
+        },
+        {
+          "title": "Irrational + irrational",
+          "problem": "Give an example whose sum is rational.",
+          "solution": "√3+(−√3)=0, which is rational."
+        },
+        {
+          "title": "Irrational × irrational",
+          "problem": "Give an example whose product is rational.",
+          "solution": "√5×√5=5, which is rational."
+        },
+        {
+          "title": "Division restriction",
+          "problem": "Why is division by zero excluded?",
+          "solution": "A quotient a/0 is not defined in the real number system; there is no real number x satisfying 0x=a when a≠0."
+        }
+      ],
+      "keyPoints": [
+        "Do not assume the irrational numbers form a closed set.",
+        "Division is allowed only by a non-zero divisor.",
+        "Always simplify before classifying the final result."
       ]
     },
     {
-      "id": 29,
-      "title": "Important Points",
-      "blocks": [
+      "title": "Converting Terminating and Recurring Decimals",
+      "content": "A terminating decimal can be converted directly into a fraction by using a power of 10. A recurring decimal can be converted by introducing a variable, shifting the decimal point by the length of the repeating block, and subtracting. These methods connect decimal notation with the definition of rational numbers.",
+      "examples": [
         {
-          "type": "keypoint",
-          "text": "Master the definitions first; then apply properties through examples and verification."
+          "title": "Terminating decimal",
+          "problem": "Convert 2.375 into a fraction.",
+          "solution": "2.375=2375/1000=19/8 after dividing numerator and denominator by 125."
         },
         {
-          "type": "keypoint",
-          "text": "A correct final answer without reasoning is not a complete mathematical solution."
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Key Terms",
-      "blocks": [
+          "title": "One recurring digit",
+          "problem": "Convert 0.777... into a fraction.",
+          "solution": "Let x=0.777...; 10x=7.777...; subtract: 9x=7, so x=7/9."
+        },
         {
-          "type": "key-term",
-          "items": [
-            "Core definitions",
-            "Symbols",
-            "Properties",
-            "Important vocabulary"
-          ]
+          "title": "Two recurring digits",
+          "problem": "Convert 0.2727... into a fraction.",
+          "solution": "Let x=0.2727...; 100x=27.2727...; subtract: 99x=27, so x=27/99=3/11."
         }
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Chapter Summary",
-      "blocks": [
-        {
-          "type": "summary",
-          "text": "Number Systems: learn the meaning, understand the representation, practise many examples from easy to HOTS, apply properties under their conditions, detect errors, revise formulas and complete the final test."
-        }
-      ]
-    },
-    {
-      "id": 32,
-      "title": "Chapter Summary — Final Takeaway",
-      "blocks": [
-        {
-          "type": "summary",
-          "text": "Final one-page takeaway for Number Systems: definitions → concepts → worked examples → properties → applications → practice → exam revision → verification."
-        }
+      ],
+      "keyPoints": [
+        "Finite decimals are always rational.",
+        "Recurring decimals are rational.",
+        "Reduce the final fraction to lowest terms."
       ]
     }
-  ]
+  ],
+  "comparisonTables": [
+    {
+      "title": "Number-set comparison",
+      "columns": [
+        "Set",
+        "Examples",
+        "Main idea"
+      ],
+      "rows": [
+        [
+          "Natural",
+          "1,2,3,…",
+          "Counting numbers"
+        ],
+        [
+          "Whole",
+          "0,1,2,3,…",
+          "Natural numbers plus zero"
+        ],
+        [
+          "Integers",
+          "…,−2,−1,0,1,2,…",
+          "Positive, negative and zero"
+        ],
+        [
+          "Rational",
+          "p/q, q≠0",
+          "Ratio of integers"
+        ],
+        [
+          "Irrational",
+          "√2, π,…",
+          "Non-terminating, non-repeating decimals"
+        ],
+        [
+          "Real",
+          "Rational + irrational",
+          "All points on the number line"
+        ]
+      ]
+    }
+  ],
+  "theoremPropertyLab": [
+    {
+      "title": "Irrationality of √2",
+      "statement": "√2 is irrational.",
+      "proof": "Assume √2=p/q in lowest terms. Squaring forces p and then q to be even, contradicting lowest terms."
+    }
+  ],
+  "formulaPropertyBank": [
+    "N ⊂ W ⊂ Z ⊂ Q ⊂ R",
+    "Terminating decimal ⇔ reduced denominator has only 2 and/or 5 as prime factors",
+    "a^m×a^n=a^(m+n)",
+    "a^m/a^n=a^(m−n)",
+    "(a^m)^n=a^(mn)",
+    "a^(−m)=1/a^m"
+  ],
+  "conceptConnections": [
+    "Fractions connect directly to rational numbers and decimals.",
+    "Irrational numbers complete the real number line.",
+    "Exponent laws simplify algebra used in later chapters.",
+    "Rationalisation prepares radical expressions for algebraic manipulation."
+  ],
+  "mathematicalThinking": [
+    "Classify before calculating.",
+    "Look for a definition that can prove the result.",
+    "Check an answer using a second method whenever practical."
+  ],
+  "errorDetective": [
+    {
+      "problem": "Every non-terminating decimal is irrational.",
+      "answer": "False. A recurring decimal is rational."
+    },
+    {
+      "problem": "0 is irrational.",
+      "answer": "False. 0=0/1, so it is rational."
+    },
+    {
+      "problem": "5⁰=0.",
+      "answer": "False. For non-zero 5, 5⁰=1."
+    }
+  ],
+  "mathsChallenge": [
+    {
+      "question": "Give one rational and one irrational number between 2 and 3.",
+      "answer": "5/2 is rational and √7 is irrational."
+    }
+  ],
+  "realLifeMathematics": [
+    "Measurements and scientific calculations use real numbers.",
+    "Exponents model repeated growth and scaling.",
+    "Square roots occur in geometry and distance calculations."
+  ],
+  "mathematicalActivityLab": [
+    {
+      "title": "Build the number-system ladder",
+      "steps": [
+        "Write N,W,Z,Q,R as nested regions.",
+        "Place sample numbers −4,0,3/5,√2 and 7.",
+        "Explain every membership rather than simply placing the number."
+      ]
+    }
+  ],
+  "visualLearning": [
+    "Draw the nested number-set diagram.",
+    "Mark rational and irrational examples on a number line."
+  ],
+  "masterDefinitions": [
+    {
+      "term": "Rational number",
+      "definition": "A number expressible as p/q with p,q integers and q≠0."
+    },
+    {
+      "term": "Irrational number",
+      "definition": "A real number that cannot be expressed as p/q."
+    },
+    {
+      "term": "Real number",
+      "definition": "Any rational or irrational number."
+    }
+  ],
+  "formulaRevisionSheet": [
+    "N⊂W⊂Z⊂Q⊂R",
+    "a⁰=1 (a≠0)",
+    "a^(−m)=1/a^m",
+    "Terminating decimal test: only 2 and 5 in reduced denominator"
+  ],
+  "questionBank": [
+    {
+      "question": "Classify −8.",
+      "answer": "Integer, rational and real."
+    },
+    {
+      "question": "Is 13/125 terminating?",
+      "answer": "Yes, because 125=5³."
+    },
+    {
+      "question": "Rationalise 2/√7.",
+      "answer": "2√7/7."
+    }
+  ],
+  "showAnswerSystem": {
+    "instruction": "Show Answer must reveal the final answer followed by the complete step-by-step solution."
+  },
+  "practiceSets": [
+    {
+      "title": "Practice Set A",
+      "questions": [
+        "Classify 12, −8, 0, 3/7 and √11.",
+        "Test 13/125 for termination.",
+        "Simplify 3⁴×3²/3³.",
+        "Rationalise 2/√7."
+      ]
+    }
+  ],
+  "timedPractice": [
+    {
+      "duration": "15 minutes",
+      "instruction": "Solve 10 mixed questions, then verify every answer."
+    }
+  ],
+  "chapterQuiz": [
+    {
+      "question": "Which is irrational?",
+      "options": [
+        "0.25",
+        "7/11",
+        "√3",
+        "−5"
+      ],
+      "answer": "√3"
+    }
+  ],
+  "examZone": [
+    "Know the nested sets.",
+    "Know the decimal termination criterion.",
+    "Practise irrationality proofs.",
+    "Show all rationalisation steps.",
+    "Write formulas before substitution where appropriate.",
+    "Use complete mathematical statements in proof/reasoning questions.",
+    "Recheck signs, brackets and powers before finalising an answer."
+  ],
+  "commonMistakes": [
+    "Calling every non-terminating decimal irrational.",
+    "Forgetting q≠0.",
+    "Using a⁰=0.",
+    "Rationalising only the denominator.",
+    "Confusing a concept definition with an example.",
+    "Skipping the verification step.",
+    "Swapping ordered coordinates.",
+    "Ignoring restrictions such as a denominator being non-zero.",
+    "Using an algebraic identity with an incorrect sign."
+  ],
+  "masterRevision": [
+    "Definition → classification → decimal test → irrationality → exponents → rationalisation."
+  ],
+  "detailedSummary": [
+    "The real numbers contain rational and irrational numbers.",
+    "Rational decimals terminate or recur.",
+    "Irrational decimals never terminate and never repeat.",
+    "Exponent laws simplify powers.",
+    "Rationalisation removes radicals from denominators."
+  ],
+  "finalChapterTest": [
+    {
+      "question": "Prove that √5 is irrational.",
+      "answer": "√5 is irrational.",
+      "solution": "Assume √5=p/q in lowest terms. Then p²=5q², so 5 divides p. Writing p=5k gives q²=5k², so 5 divides q. This contradicts lowest terms. Therefore √5 is irrational."
+    }
+  ],
+  "importantPoints": [
+    "N⊂W⊂Z⊂Q⊂R.",
+    "Recurring decimals are rational.",
+    "Use the reduced denominator for the termination test.",
+    "Use conjugates when needed for rationalisation.",
+    "Show substitutions clearly in Class 9 solutions.",
+    "Do not skip sign checks when negative numbers are involved.",
+    "Use the definition or theorem that directly justifies the step.",
+    "A correct final answer with no reasoning may lose marks in descriptive questions."
+  ],
+  "keyTerms": [
+    "Natural number",
+    "Whole number",
+    "Integer",
+    "Rational",
+    "Irrational",
+    "Real number",
+    "Exponent",
+    "Conjugate",
+    "Rationalisation"
+  ],
+  "chapterSummary": "Number Systems develops the complete real-number framework and the algebraic skills needed to work confidently with fractions, decimals, radicals and powers. The enhanced version keeps the earlier material while adding deeper explanations, more worked examples, reasoning-based practice and stronger Class 9 exam preparation."
 };
+
+export default notes;
