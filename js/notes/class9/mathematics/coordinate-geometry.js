@@ -1,386 +1,188 @@
-// Class 9 Mathematics — ConceptQizzer enhanced notes
-// Previous structured data preserved and expanded.
-// Render-safe: no topic `number` field and no `subsections` field.
+/* ConceptQizzer — Class 9 Mathematics — render-safe chapter file */
+/* Required global ChapterData declaration. Do not convert to ES module export. */
 
-const notes = {
-  "id": "9-mathematics-coordinate-geometry",
-  "title": "Coordinate Geometry",
+"use strict";
+
+const ChapterData = {
+  "id": "9-mathematics-polynomials",
+  "title": "Polynomials",
   "class": 9,
   "subject": "Mathematics",
-  "chapter": 3,
-  "file": "js/notes/class9/mathematics/coordinate-geometry.js",
+  "chapter": 2,
+  "file": "js/notes/class9/mathematics/polynomials.js",
   "enabled": true,
-  "description": "A Class 9 standard, deeply detailed study of Coordinate Geometry. It develops the Cartesian plane from first principles: axes, origin, ordered pairs, abscissa and ordinate, quadrants, plotting, reading coordinates and geometric interpretation. Earlier notes are preserved and expanded with repeated plotting and sign-based examples.",
+  "description": "A Class 9 standard, deeply detailed study of Polynomials. It explains polynomial structure, terms and coefficients, degree, classification, evaluation, zeroes, graphical meaning, Remainder Theorem, Factor Theorem, factorisation and algebraic identities. Earlier data is retained and expanded with multiple worked examples and exam-level reasoning.",
   "learningObjectives": [
-    "Locate and read points.",
-    "Identify quadrants from coordinate signs.",
-    "Recognise points on axes.",
-    "Calculate distances from axes.",
-    "Apply reflection rules.",
+    "Read polynomial structure correctly.",
+    "Find degree and classify polynomials.",
+    "Evaluate polynomials at given values.",
+    "Use zeros, Remainder Theorem and Factor Theorem.",
+    "Expand and factorise using identities.",
     "Explain every step of a solution instead of relying on answer-only work.",
     "Use definitions, properties and algebraic reasoning to justify answers.",
     "Detect common traps and verify results independently."
   ],
   "prerequisiteCheck": [
-    "Integers and signs",
-    "Number line",
-    "Ordered pairs"
+    "Algebraic expressions",
+    "Substitution",
+    "Basic multiplication and factorisation"
   ],
   "conceptRoadmap": [
-    "Cartesian plane",
-    "Axes and origin",
-    "Ordered pairs",
-    "Abscissa and ordinate",
-    "Quadrants and signs",
-    "Plotting points",
-    "Points on axes",
-    "Reading graphs",
-    "Symmetry and interpretation"
-  ],
-  "topics": [
-    {
-      "title": "Cartesian Plane",
-      "content": "The Cartesian plane is formed by two perpendicular number lines. The horizontal line is the x-axis and the vertical line is the y-axis. Their intersection is the origin O(0,0).\n\nA point is represented by an ordered pair (x,y). The first coordinate tells horizontal movement and the second tells vertical movement. The order cannot be reversed.\n\nDeep Class 9 explanation: The Cartesian plane is formed by two mutually perpendicular number lines: the horizontal x-axis and vertical y-axis. Their intersection is the origin O(0,0). The plane is divided into four quadrants. A point is identified uniquely by an ordered pair (x,y). The order matters because (2,5) and (5,2) generally represent different points. The horizontal movement is determined by x first, followed by vertical movement determined by y.",
-      "examples": [
-        {
-          "title": "Plot A(3,2)",
-          "problem": "Locate A(3,2).",
-          "solution": "Move 3 units right and then 2 units up from the origin."
-        },
-        {
-          "title": "Plot B(−4,1)",
-          "problem": "Locate B(−4,1).",
-          "solution": "Move 4 units left and 1 unit up."
-        },
-        {
-          "title": "Identify origin",
-          "problem": "What are the coordinates of the intersection of the axes?",
-          "solution": "The origin is (0,0)."
-        },
-        {
-          "title": "Order matters",
-          "problem": "Compare (3,−2) and (−2,3).",
-          "solution": "They are different ordered pairs and represent different points."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Quadrants and Signs",
-      "content": "The axes divide the plane into four quadrants. Quadrant I has (+,+), II has (−,+), III has (−,−), and IV has (+,−). A point on either axis is not in a quadrant.\n\nSigns are better understood as directions: positive x means right, negative x means left, positive y means up and negative y means down.\n\nDeep Class 9 explanation: The signs of x and y determine the quadrant. Quadrant I has (+,+), II has (−,+), III has (−,−), and IV has (+,−). A point with either coordinate zero lies on an axis and therefore belongs to no quadrant. This sign rule is one of the fastest exam tools in the chapter.",
-      "examples": [
-        {
-          "title": "Quadrant",
-          "problem": "Where is (−5,−2)?",
-          "solution": "Both coordinates are negative, so it is in Quadrant III."
-        },
-        {
-          "title": "Quadrant I",
-          "problem": "Identify the quadrant of (4,7).",
-          "solution": "Both coordinates are positive, so Quadrant I."
-        },
-        {
-          "title": "Quadrant III",
-          "problem": "Identify the quadrant of (−4,−7).",
-          "solution": "Both coordinates are negative, so Quadrant III."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Plotting and Reading Coordinates",
-      "content": "To plot, start at the origin, move horizontally using x, then vertically using y. To read a point, reverse this process.\n\nAlways check the sign after plotting. A negative x must place the point left of the y-axis; a negative y must place it below the x-axis.\n\nDeep Class 9 explanation: To plot (a,b), start at the origin, move a units horizontally according to the sign of a, then move b units vertically according to the sign of b. To read a point from a graph, reverse the process: read the horizontal coordinate first and vertical coordinate second. Never swap them.",
-      "examples": [
-        {
-          "title": "Read a description",
-          "problem": "A point is 4 units left and 3 units below O. What are its coordinates?",
-          "solution": "(−4,−3)."
-        },
-        {
-          "title": "Plot a point",
-          "problem": "How do you plot (−3,4)?",
-          "solution": "Move 3 units left from the origin, then 4 units up."
-        },
-        {
-          "title": "Read a pair",
-          "problem": "A point is 5 units right and 2 units down. Write its coordinates.",
-          "solution": "(5,−2)."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Points on the Axes",
-      "content": "Every point on the x-axis has y=0 and therefore looks like (x,0). Every point on the y-axis has x=0 and looks like (0,y). The origin is (0,0) and belongs to both axes.\n\nDeep Class 9 explanation: Every point on the x-axis has y=0, so its form is (a,0). Every point on the y-axis has x=0, so its form is (0,b). The origin is the special point (0,0), which lies on both axes. Because quadrants are regions between the axes, an axis point is not assigned to any quadrant.",
-      "examples": [
-        {
-          "title": "Find k",
-          "problem": "(7,k) lies on x-axis. Find k.",
-          "solution": "k=0."
-        },
-        {
-          "title": "Find k",
-          "problem": "(k,−3) lies on y-axis. Find k.",
-          "solution": "k=0."
-        },
-        {
-          "title": "x-axis",
-          "problem": "Write a point on the x-axis with x-coordinate −9.",
-          "solution": "(−9,0)."
-        },
-        {
-          "title": "y-axis",
-          "problem": "Write a point on the y-axis with y-coordinate 8.",
-          "solution": "(0,8)."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Distance from the Axes",
-      "content": "For P(x,y), the perpendicular distance from the y-axis is |x| and from the x-axis is |y|. Absolute value is necessary because distance cannot be negative.\n\nDeep Class 9 explanation: In the coordinate plane, the distance of (x,y) from the x-axis is |y| because the vertical coordinate measures vertical displacement. Its distance from the y-axis is |x| because the horizontal coordinate measures horizontal displacement. Absolute value is necessary because distance cannot be negative.",
-      "examples": [
-        {
-          "title": "Distance",
-          "problem": "Find distances of P(−6,4) from both axes.",
-          "solution": "From y-axis: |−6|=6 units. From x-axis: |4|=4 units."
-        },
-        {
-          "title": "Distance from x-axis",
-          "problem": "Find the distance of (−6,4) from the x-axis.",
-          "solution": "|4|=4 units."
-        },
-        {
-          "title": "Distance from y-axis",
-          "problem": "Find the distance of (−6,4) from the y-axis.",
-          "solution": "|−6|=6 units."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Reflection and Symmetry",
-      "content": "Reflection changes the position of a point while preserving its distance from the mirror line. Reflection in the x-axis changes only y; reflection in the y-axis changes only x; reflection in the origin changes both signs.\n\nDeep Class 9 explanation: Reflection across the x-axis changes the sign of y but keeps x unchanged: (x,y)→(x,−y). Reflection across the y-axis changes the sign of x: (x,y)→(−x,y). Reflection in the origin changes both signs: (x,y)→(−x,−y). These rules can be understood geometrically as preserving distance from the relevant axis.",
-      "examples": [
-        {
-          "title": "x-axis reflection",
-          "problem": "Reflect (3,−5) in x-axis.",
-          "solution": "(3,5)."
-        },
-        {
-          "title": "y-axis reflection",
-          "problem": "Reflect (−2,4) in y-axis.",
-          "solution": "(2,4)."
-        },
-        {
-          "title": "origin reflection",
-          "problem": "Reflect (−3,−6) in origin.",
-          "solution": "(3,6)."
-        },
-        {
-          "title": "x-axis reflection",
-          "problem": "Reflect (3,−5) in the x-axis.",
-          "solution": "(3,5)."
-        },
-        {
-          "title": "y-axis reflection",
-          "problem": "Reflect (3,−5) in the y-axis.",
-          "solution": "(−3,−5)."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Ordered Pairs, Abscissa and Ordinate",
-      "content": "An ordered pair (x,y) has a first component called the abscissa and a second component called the ordinate. The pair is ordered, so changing the order changes the location unless the coordinates happen to be equal.",
-      "examples": [
-        {
-          "title": "Identify coordinates",
-          "problem": "For P(−7,4), find abscissa and ordinate.",
-          "solution": "Abscissa = −7 and ordinate = 4."
-        },
-        {
-          "title": "Construct a point",
-          "problem": "Write the point whose abscissa is 5 and ordinate is −3.",
-          "solution": "The ordered pair is (5,−3)."
-        },
-        {
-          "title": "Compare pairs",
-          "problem": "Are (2,−4) and (−4,2) the same point?",
-          "solution": "No. Their coordinates are in different orders, so they represent different points."
-        }
-      ],
-      "keyPoints": [
-        "First coordinate = x = abscissa.",
-        "Second coordinate = y = ordinate.",
-        "Order matters."
-      ]
-    },
-    {
-      "title": "Sign-Based Coordinate Reasoning",
-      "content": "Many coordinate questions can be solved without drawing the full graph. Determine the signs of x and y first, identify the quadrant, then use zero-coordinate rules for axis points.",
-      "examples": [
-        {
-          "title": "Quadrant II",
-          "problem": "Where is (−8,5)?",
-          "solution": "x is negative and y is positive, so the point lies in Quadrant II."
-        },
-        {
-          "title": "Quadrant IV",
-          "problem": "Where is (6,−9)?",
-          "solution": "x is positive and y is negative, so the point lies in Quadrant IV."
-        },
-        {
-          "title": "Axis point",
-          "problem": "Where is (0,−6)?",
-          "solution": "x=0, so the point lies on the y-axis, not in a quadrant."
-        }
-      ],
-      "keyPoints": [
-        "Use signs before plotting.",
-        "Zero is an axis condition.",
-        "Axis points are not quadrant points."
-      ]
-    }
+    "Meaning and structure",
+    "Terms and coefficients",
+    "Degree and classification",
+    "Value of a polynomial",
+    "Zeroes",
+    "Remainder Theorem",
+    "Factor Theorem",
+    "Factorisation",
+    "Algebraic identities",
+    "Graphical interpretation"
   ],
   "comparisonTables": [
     {
-      "title": "Signs and locations",
+      "title": "Classification by degree and terms",
       "columns": [
-        "Location",
-        "x",
-        "y"
+        "Feature",
+        "Type",
+        "Example"
       ],
       "rows": [
         [
-          "Quadrant I",
-          "+",
-          "+"
+          "Degree 0",
+          "Constant",
+          "7"
         ],
         [
-          "Quadrant II",
-          "−",
-          "+"
+          "Degree 1",
+          "Linear",
+          "3x−2"
         ],
         [
-          "Quadrant III",
-          "−",
-          "−"
+          "Degree 2",
+          "Quadratic",
+          "x²−5x+6"
         ],
         [
-          "Quadrant IV",
-          "+",
-          "−"
+          "Degree 3",
+          "Cubic",
+          "2x³+x−1"
         ],
         [
-          "x-axis",
-          "any",
-          "0"
+          "One term",
+          "Monomial",
+          "5x²"
         ],
         [
-          "y-axis",
-          "0",
-          "any"
+          "Two terms",
+          "Binomial",
+          "x²−9"
         ],
         [
-          "Origin",
-          "0",
-          "0"
+          "Three terms",
+          "Trinomial",
+          "x²+3x+2"
         ]
       ]
     }
   ],
   "theoremPropertyLab": [
     {
-      "title": "Reflection rules",
-      "statement": "x-axis: (x,y)→(x,−y); y-axis: (x,y)→(−x,y); origin: (x,y)→(−x,−y).",
-      "proof": "Reflection preserves the distance from the mirror line and reverses the relevant direction."
+      "title": "Remainder Theorem",
+      "statement": "Remainder on division by x−a is p(a).",
+      "proof": "p(x)=(x−a)q(x)+r; put x=a to get p(a)=r."
+    },
+    {
+      "title": "Factor Theorem",
+      "statement": "x−a is a factor iff p(a)=0.",
+      "proof": "The remainder is p(a), and a divisor is a factor exactly when its remainder is zero."
     }
   ],
   "formulaPropertyBank": [
-    "x-axis: y=0",
-    "y-axis: x=0",
-    "Origin=(0,0)",
-    "Distance from y-axis=|x|",
-    "Distance from x-axis=|y|"
+    "p(a)=remainder when divided by x−a",
+    "x−a is a factor ⇔ p(a)=0",
+    "(a+b)²=a²+2ab+b²",
+    "(a−b)²=a²−2ab+b²",
+    "a²−b²=(a−b)(a+b)"
   ],
   "conceptConnections": [
-    "The number line becomes the two-dimensional coordinate plane.",
-    "Coordinates provide the language for graphs.",
-    "The next chapter uses coordinates to graph equations."
+    "Zeros connect equations and graphs.",
+    "Remainder connects division with substitution.",
+    "Factor theorem turns a zero into a factor.",
+    "Identities connect expansion and factorisation."
   ],
   "mathematicalThinking": [
-    "Translate words such as left/right/up/down into signs.",
-    "Check whether an axis condition forces one coordinate to zero."
+    "Before expanding, ask whether an identity matches.",
+    "Before long division, check whether the Remainder Theorem is enough.",
+    "Verify a factor by substitution."
   ],
   "errorDetective": [
     {
-      "problem": "(−2,3) is plotted to the right.",
-      "answer": "Wrong: negative x means left."
+      "problem": "p(3)=5 means x−3 is a factor.",
+      "answer": "False. It is a factor only when p(3)=0."
     },
     {
-      "problem": "(0,5) is in Quadrant II.",
-      "answer": "Wrong: it lies on the y-axis, not in a quadrant."
+      "problem": "(−2)²=−4.",
+      "answer": "False. (−2)²=4."
     }
   ],
   "mathsChallenge": [
     {
-      "question": "Find all points with x=−3 that are 5 units from the x-axis.",
-      "answer": "(−3,5) and (−3,−5)."
+      "question": "Find a quadratic polynomial with zeros 2 and −5.",
+      "answer": "(x−2)(x+5)=x²+3x−10."
     }
   ],
   "realLifeMathematics": [
-    "Maps use coordinate locations.",
-    "Graphs use ordered pairs to display measurements.",
-    "Computer graphics use coordinate systems."
+    "Polynomials model areas, costs, motion and production.",
+    "Identities make repeated calculations faster."
   ],
   "mathematicalActivityLab": [
     {
-      "title": "Human coordinate plane",
+      "title": "Identity verification",
       "steps": [
-        "Mark an origin and axes on the floor.",
-        "Call out coordinates.",
-        "Move to each point.",
-        "Reflect selected points and record the new coordinates."
+        "Choose values for a and b.",
+        "Evaluate both sides numerically.",
+        "Repeat with negative and fractional values.",
+        "Explain why numerical checking is evidence, not a general proof."
       ]
     }
   ],
   "visualLearning": [
-    "Draw four quadrants with sign pairs.",
-    "Plot a point and all three reflections."
+    "Use an area model for (a+b)².",
+    "Sketch a quadratic and mark its x-axis zeros."
   ],
   "masterDefinitions": [
     {
-      "term": "Cartesian plane",
-      "definition": "A plane formed by two perpendicular coordinate axes."
+      "term": "Polynomial",
+      "definition": "An algebraic expression with non-negative integer powers of the variable."
     },
     {
-      "term": "Ordered pair",
-      "definition": "(x,y), where x is first and y is second."
+      "term": "Zero",
+      "definition": "A value a for which p(a)=0."
     },
     {
-      "term": "Origin",
-      "definition": "The intersection of the axes, (0,0)."
+      "term": "Identity",
+      "definition": "An equation true for all allowed values."
     }
   ],
   "formulaRevisionSheet": [
-    "x-axis → y=0",
-    "y-axis → x=0",
-    "distance from y-axis=|x|",
-    "distance from x-axis=|y|"
+    "(a+b)²=a²+2ab+b²",
+    "(a−b)²=a²−2ab+b²",
+    "a²−b²=(a−b)(a+b)",
+    "p(a)=remainder for divisor x−a"
   ],
   "questionBank": [
     {
-      "question": "Quadrant of (4,−7)?",
-      "answer": "IV."
+      "question": "Degree of 4x⁵−2x²+7?",
+      "answer": "5."
     },
     {
-      "question": "Find k if (k,8) is on y-axis.",
-      "answer": "0."
+      "question": "Find p(2) for x²−3x+1.",
+      "answer": "−1."
     },
     {
-      "question": "Reflect (−2,6) in y-axis.",
-      "answer": "(2,6)."
+      "question": "Is x+1 a factor of x³−x²−x+1?",
+      "answer": "Yes, because p(−1)=0."
     }
   ],
   "showAnswerSystem": {
@@ -390,44 +192,44 @@ const notes = {
     {
       "title": "Practice Set A",
       "questions": [
-        "State the quadrant of (2,5),(−3,4),(−1,−6),(7,−2).",
-        "Find points on the axes.",
-        "Find distances from axes.",
-        "Apply all three reflection rules."
+        "Classify 4x³−7x+1.",
+        "Find p(−2) for x²+4x−1.",
+        "Find the remainder of 2x³+x−5 on division by x−1.",
+        "Factor x²−9.",
+        "Expand (2x−3)²."
       ]
     }
   ],
   "timedPractice": [
     {
-      "duration": "15 minutes",
-      "instruction": "Plot 12 points and solve 8 coordinate questions."
+      "duration": "20 minutes",
+      "instruction": "Solve 12 mixed polynomial questions with complete working."
     }
   ],
   "chapterQuiz": [
     {
-      "question": "The point (−4,3) lies in:",
+      "question": "If p(2)=0, which is a factor?",
       "options": [
-        "I",
-        "II",
-        "III",
-        "IV"
+        "x+2",
+        "x−2",
+        "2x−1",
+        "x²+2"
       ],
-      "answer": "II"
+      "answer": "x−2"
     }
   ],
   "examZone": [
-    "Keep x first and y second.",
-    "Label axes and scale.",
-    "Do not put axis points into quadrants.",
+    "Use brackets for negative substitution.",
+    "Write the theorem before applying it when appropriate.",
+    "Recognise identity patterns.",
     "Write formulas before substitution where appropriate.",
     "Use complete mathematical statements in proof/reasoning questions.",
     "Recheck signs, brackets and powers before finalising an answer."
   ],
   "commonMistakes": [
-    "Swapping coordinates.",
-    "Ignoring signs.",
-    "Using negative distance.",
-    "Calling axis points quadrant points.",
+    "Confusing degree with coefficient.",
+    "Forgetting zero coefficients when identifying degree.",
+    "Treating an example check as a proof of an identity.",
     "Confusing a concept definition with an example.",
     "Skipping the verification step.",
     "Swapping ordered coordinates.",
@@ -435,48 +237,440 @@ const notes = {
     "Using an algebraic identity with an incorrect sign."
   ],
   "masterRevision": [
-    "Horizontal first, vertical second.",
-    "Right/up positive; left/down negative.",
-    "Axis means one coordinate is zero.",
-    "Reflection changes predictable signs."
+    "Structure → degree → evaluation → zeros → theorems → identities."
   ],
   "detailedSummary": [
-    "The Cartesian plane combines two number lines.",
-    "Ordered pairs locate points.",
-    "Signs determine quadrants.",
-    "Absolute values give distances from axes.",
-    "Reflection creates systematic coordinate changes."
+    "Polynomial expressions use non-negative integer powers.",
+    "Degree is the highest exponent with a non-zero coefficient.",
+    "Zeros make the polynomial zero.",
+    "Remainder and Factor Theorems turn substitution into powerful shortcuts.",
+    "Identities make expansion and factorisation efficient."
   ],
   "finalChapterTest": [
     {
-      "question": "A(−3,4), B(3,4), C(3,−4), D(−3,−4) are plotted. What figure do they form?",
-      "answer": "A rectangle.",
-      "solution": "AB and CD are horizontal, BC and DA are vertical. Opposite sides are parallel and equal, and adjacent sides are perpendicular. Hence the figure is a rectangle."
+      "question": "For p(x)=x³−6x²+11x−6, prove x−1 is a factor and factorise p(x).",
+      "answer": "p(x)=(x−1)(x−2)(x−3).",
+      "solution": "p(1)=1−6+11−6=0, so x−1 is a factor. Division gives x²−5x+6=(x−2)(x−3). Hence p(x)=(x−1)(x−2)(x−3)."
     }
   ],
   "importantPoints": [
-    "Ordered pair is (x,y).",
-    "Quadrants: I(+,+), II(−,+), III(−,−), IV(+,−).",
-    "x-axis has y=0.",
-    "y-axis has x=0.",
+    "p(a)=0 means a is a zero.",
+    "x−a is a factor iff p(a)=0.",
+    "Use identities in both directions.",
+    "Negative substitution requires brackets.",
     "Show substitutions clearly in Class 9 solutions.",
     "Do not skip sign checks when negative numbers are involved.",
     "Use the definition or theorem that directly justifies the step.",
     "A correct final answer with no reasoning may lose marks in descriptive questions."
   ],
   "keyTerms": [
-    "Cartesian plane",
-    "x-axis",
-    "y-axis",
-    "Origin",
-    "Ordered pair",
-    "Quadrant",
-    "Abscissa",
-    "Ordinate",
-    "Reflection",
-    "Symmetry"
+    "Polynomial",
+    "Term",
+    "Coefficient",
+    "Degree",
+    "Zero",
+    "Remainder Theorem",
+    "Factor Theorem",
+    "Identity",
+    "Factorisation"
   ],
-  "chapterSummary": "Coordinate Geometry converts position into numbers and prepares the student to understand graphs of equations. The enhanced version keeps the earlier material while adding deeper explanations, more worked examples, reasoning-based practice and stronger Class 9 exam preparation."
+  "chapterSummary": "Polynomials builds the algebraic language and techniques required for later mathematics: structure, degree, evaluation, zeros, theorem-based factor checks and identity-based factorisation. The enhanced version keeps the earlier material while adding deeper explanations, more worked examples, reasoning-based practice and stronger Class 9 exam preparation.",
+  "sections": [
+    {
+      "id": "polynomial-meaning-and-structure",
+      "title": "Polynomial: Meaning and Structure",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A polynomial in one variable is an expression in which the variable has only non-negative integer exponents and the coefficients are numbers. Terms are joined by addition or subtraction. Examples include 3x²−5x+7, x⁴−2 and 9.\n\nExpressions such as 1/x, √x and x⁻¹ are not polynomials in x because the exponents are not non-negative integers.\n\nDeep Class 9 explanation: A polynomial in one variable is an algebraic expression in which the exponent of the variable in every term is a non-negative integer. The coefficient may be any real number. Thus 5x^3−2x+7 is a polynomial, while 1/x+x², √x+1 and x^(1/2)+3 are not polynomials in x. The terms are separated by plus or minus signs. A missing power has coefficient zero, so x²+5 can be viewed as x²+0x+5 when comparing coefficients."
+        },
+        {
+          "type": "example",
+          "title": "Identify",
+          "color": "orange",
+          "text": "Problem: Is 4x³−7x+2 a polynomial?\n\nComplete Solution:\nYes. The exponents 3,1,0 are all non-negative integers."
+        },
+        {
+          "type": "example",
+          "title": "Non-example",
+          "color": "orange",
+          "text": "Problem: Is 2/x+1 a polynomial?\n\nComplete Solution:\nNo. 2/x=2x⁻¹, whose exponent is −1."
+        },
+        {
+          "type": "example",
+          "title": "Identify a non-polynomial",
+          "color": "orange",
+          "text": "Problem: Is 3x^2+1/x a polynomial in x?\n\nComplete Solution:\nNo. 1/x=x^−1 contains a negative exponent."
+        },
+        {
+          "type": "example",
+          "title": "Missing term",
+          "color": "orange",
+          "text": "Problem: Write x^3+4 in descending powers.\n\nComplete Solution:\nx^3+0x^2+0x+4."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "terms-coefficients-and-degree",
+      "title": "Terms, Coefficients and Degree",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A term is a part separated by + or −. Its coefficient is its numerical factor. The degree of a non-zero polynomial is the greatest exponent of the variable with a non-zero coefficient. A constant non-zero polynomial has degree 0.\n\nLike terms have identical variable parts and exponents, so their coefficients can be combined. Unlike terms cannot be combined directly.\n\nDeep Class 9 explanation: The coefficient of a term is the numerical factor multiplying the variable part. In −7x³, the coefficient is −7. The degree of a non-zero polynomial is the highest exponent with a non-zero coefficient. The degree is not the number of terms. The zero polynomial is treated separately because it has no unique highest power. In ordered expressions, arranging terms from highest power to lowest power is called standard form."
+        },
+        {
+          "type": "example",
+          "title": "Degree",
+          "color": "orange",
+          "text": "Problem: Find the degree of 7x⁵−3x²+x−8.\n\nComplete Solution:\nThe highest exponent is 5, so degree=5."
+        },
+        {
+          "type": "example",
+          "title": "Like terms",
+          "color": "orange",
+          "text": "Problem: Simplify 4x²+7x²−3x.\n\nComplete Solution:\nThe x² terms combine: 11x²−3x."
+        },
+        {
+          "type": "example",
+          "title": "Degree",
+          "color": "orange",
+          "text": "Problem: Find the degree of 7−2x^5+3x^2.\n\nComplete Solution:\nThe highest exponent is 5, so degree=5."
+        },
+        {
+          "type": "example",
+          "title": "Coefficient",
+          "color": "orange",
+          "text": "Problem: Find the coefficient of x^4 in −9x^4+2x−1.\n\nComplete Solution:\nThe coefficient is −9."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "types-of-polynomials",
+      "title": "Types of Polynomials",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "By degree, a polynomial can be constant, linear, quadratic, cubic and so on. By number of terms it can be monomial, binomial or trinomial. These classifications can be combined, such as quadratic trinomial.\n\nClassification helps identify which techniques are likely to be useful.\n\nDeep Class 9 explanation: By degree, a non-zero constant is degree 0, a linear polynomial has degree 1, a quadratic has degree 2 and a cubic has degree 3. By number of terms, one term is a monomial, two terms a binomial and three terms a trinomial. These two classifications describe different features and should not be confused."
+        },
+        {
+          "type": "example",
+          "title": "Classify",
+          "color": "orange",
+          "text": "Problem: Classify 5x²−2x+8.\n\nComplete Solution:\nIt is a quadratic trinomial."
+        },
+        {
+          "type": "example",
+          "title": "Classify",
+          "color": "orange",
+          "text": "Problem: Classify 7x³−1.\n\nComplete Solution:\nIt is a cubic binomial."
+        },
+        {
+          "type": "example",
+          "title": "Classify by degree",
+          "color": "orange",
+          "text": "Problem: Classify 4x^2−x+7.\n\nComplete Solution:\nIt is a quadratic trinomial."
+        },
+        {
+          "type": "example",
+          "title": "Classify by terms",
+          "color": "orange",
+          "text": "Problem: Classify 5x^3.\n\nComplete Solution:\nIt is a cubic monomial."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "value-of-a-polynomial",
+      "title": "Value of a Polynomial",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "To find p(a), substitute a for x everywhere. Negative values must be placed inside brackets so that powers are evaluated correctly. Evaluation is the bridge between symbolic algebra and numerical calculation.\n\nDeep Class 9 explanation: To find p(a), replace every occurrence of x by a and simplify carefully. Parentheses are essential for negative substitutions. For example, if p(x)=x²−3x+2, then p(−2)=(-2)²−3(-2)+2 =4+6+2=12. Evaluation is the bridge between an algebraic expression and numerical output."
+        },
+        {
+          "type": "example",
+          "title": "Evaluate",
+          "color": "orange",
+          "text": "Problem: For p(x)=2x²−5x+3, find p(−1).\n\nComplete Solution:\np(−1)=2(−1)²−5(−1)+3=2+5+3=10."
+        },
+        {
+          "type": "example",
+          "title": "Evaluate",
+          "color": "orange",
+          "text": "Problem: Find p(2) for p(x)=x³−4x+1.\n\nComplete Solution:\np(2)=8−8+1=1."
+        },
+        {
+          "type": "example",
+          "title": "Negative substitution",
+          "color": "orange",
+          "text": "Problem: Find p(−3) for p(x)=x^2+2x−1.\n\nComplete Solution:\np(−3)=9−6−1=2."
+        },
+        {
+          "type": "example",
+          "title": "Zero value",
+          "color": "orange",
+          "text": "Problem: Find p(0) for p(x)=6x^3−4x+9.\n\nComplete Solution:\np(0)=9."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "zeros-of-a-polynomial",
+      "title": "Zeros of a Polynomial",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A zero of p(x) is a value a for which p(a)=0. The word zero refers to the input value that makes the polynomial's value zero.\n\nGraphically, zeros correspond to points where the graph meets the x-axis. A polynomial can have more than one zero.\n\nDeep Class 9 explanation: A zero of p(x) is a value a for which p(a)=0. For a polynomial represented by y=p(x), a real zero is the x-coordinate of a point where the graph meets the x-axis. A polynomial may have one, two or more real zeroes depending on its degree and shape, but the class 9 focus is on understanding the meaning and checking zeroes by substitution."
+        },
+        {
+          "type": "example",
+          "title": "Linear zero",
+          "color": "orange",
+          "text": "Problem: Find the zero of 3x−12.\n\nComplete Solution:\n3x−12=0, so x=4."
+        },
+        {
+          "type": "example",
+          "title": "Quadratic zero check",
+          "color": "orange",
+          "text": "Problem: Check whether 2 is a zero of x²−5x+6.\n\nComplete Solution:\n4−10+6=0, so 2 is a zero."
+        },
+        {
+          "type": "example",
+          "title": "Check zero",
+          "color": "orange",
+          "text": "Problem: Is 2 a zero of x^2−4?\n\nComplete Solution:\np(2)=4−4=0, so 2 is a zero."
+        },
+        {
+          "type": "example",
+          "title": "Not a zero",
+          "color": "orange",
+          "text": "Problem: Is 3 a zero of x^2−4?\n\nComplete Solution:\np(3)=9−4=5≠0, so 3 is not a zero."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "remainder-theorem",
+      "title": "Remainder Theorem",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "When p(x) is divided by x−a, the remainder is p(a). The reason is the division form p(x)=(x−a)q(x)+r. Substituting x=a eliminates the first term and leaves p(a)=r.\n\nDeep Class 9 explanation: If p(x) is divided by x−a, the remainder is p(a). This follows from the division algorithm p(x)=(x−a)q(x)+r, where r is constant because the divisor has degree 1. Putting x=a makes the first term zero, leaving p(a)=r. For x+a, write the divisor as x−(−a), so the remainder is p(−a)."
+        },
+        {
+          "type": "example",
+          "title": "Remainder",
+          "color": "orange",
+          "text": "Problem: Find the remainder when x³−4x+7 is divided by x−2.\n\nComplete Solution:\np(2)=8−8+7=7, so remainder=7."
+        },
+        {
+          "type": "example",
+          "title": "Remainder",
+          "color": "orange",
+          "text": "Problem: Find the remainder when x^2+3x+5 is divided by x−1.\n\nComplete Solution:\np(1)=1+3+5=9."
+        },
+        {
+          "type": "example",
+          "title": "Divisor x+2",
+          "color": "orange",
+          "text": "Problem: Find the remainder when x^3−1 is divided by x+2.\n\nComplete Solution:\nUse p(−2)=−8−1=−9."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "factor-theorem",
+      "title": "Factor Theorem",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "x−a is a factor of p(x) if and only if p(a)=0. This follows directly from the Remainder Theorem because a divisor is a factor exactly when the remainder is zero.\n\nDeep Class 9 explanation: The Factor Theorem is a direct consequence of the Remainder Theorem. If p(a)=0, the remainder on division by x−a is zero, so x−a is a factor. Conversely, if x−a is a factor, the remainder must be zero, hence p(a)=0. This gives a fast method for testing factors without polynomial long division."
+        },
+        {
+          "type": "example",
+          "title": "Factor test",
+          "color": "orange",
+          "text": "Problem: Is x−3 a factor of x³−4x²+x+6?\n\nComplete Solution:\np(3)=27−36+3+6=0, so x−3 is a factor."
+        },
+        {
+          "type": "example",
+          "title": "Test factor",
+          "color": "orange",
+          "text": "Problem: Is x+1 a factor of x^2+3x+2?\n\nComplete Solution:\np(−1)=1−3+2=0, so yes."
+        },
+        {
+          "type": "example",
+          "title": "Find a parameter",
+          "color": "orange",
+          "text": "Problem: If x−2 is a factor of x^2+kx−6, find k.\n\nComplete Solution:\np(2)=4+2k−6=0, so k=1."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "algebraic-identities",
+      "title": "Algebraic Identities",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "An identity is true for every allowed value of its variables. Identities are especially useful because expansion and factorisation become two directions of the same process.\n\nThe most useful Class 9 identities include square identities, difference of squares and (x+a)(x+b). Recognising the pattern is usually faster and safer than multiplying everything blindly.\n\nDeep Class 9 explanation: Identities are equations true for all permissible values of the variables. Unlike an equation that may be true only for particular values, an identity remains true universally. Identities are used in both expansion and factorisation. The safest approach is to match the expression with a known pattern before multiplying everything out."
+        },
+        {
+          "type": "example",
+          "title": "Expand",
+          "color": "orange",
+          "text": "Problem: Expand (x+5)².\n\nComplete Solution:\nx²+10x+25."
+        },
+        {
+          "type": "example",
+          "title": "Factorise",
+          "color": "orange",
+          "text": "Problem: Factorise x²−25.\n\nComplete Solution:\nx²−5²=(x−5)(x+5)."
+        },
+        {
+          "type": "example",
+          "title": "Product",
+          "color": "orange",
+          "text": "Problem: Expand (x+2)(x+7).\n\nComplete Solution:\nx²+9x+14."
+        },
+        {
+          "type": "example",
+          "title": "Expand",
+          "color": "orange",
+          "text": "Problem: Expand (2x+3)^2.\n\nComplete Solution:\n4x^2+12x+9."
+        },
+        {
+          "type": "example",
+          "title": "Factorise by identity",
+          "color": "orange",
+          "text": "Problem: Factorise 9x^2−25.\n\nComplete Solution:\n(3x−5)(3x+5)."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": "(a+b)²=a²+2ab+b²\n(a−b)²=a²−2ab+b²\na²−b²=(a−b)(a+b)\n(x+a)(x+b)=x²+(a+b)x+ab"
+        }
+      ]
+    },
+    {
+      "id": "factorisation-by-common-factor-and-grouping",
+      "title": "Factorisation by Common Factor and Grouping",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Factorisation means expressing a polynomial as a product of simpler factors. First look for a common factor. If no single factor is common to every term, grouping may reveal a common binomial. The result should always be checked by multiplication."
+        },
+        {
+          "type": "example",
+          "title": "Common factor",
+          "color": "orange",
+          "text": "Problem: Factorise 6x²+9x.\n\nComplete Solution:\nThe common factor is 3x: 6x²+9x=3x(2x+3)."
+        },
+        {
+          "type": "example",
+          "title": "Grouping",
+          "color": "orange",
+          "text": "Problem: Factorise ax+ay+bx+by.\n\nComplete Solution:\nGroup: a(x+y)+b(x+y)=(a+b)(x+y)."
+        },
+        {
+          "type": "example",
+          "title": "Difference of squares",
+          "color": "orange",
+          "text": "Problem: Factorise 25x²−49.\n\nComplete Solution:\n(5x)²−7²=(5x−7)(5x+7)."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Look for a common factor first.\nUse identities when the pattern is visible.\nMultiply back to verify."
+        }
+      ]
+    },
+    {
+      "id": "using-zeroes-to-factorise-a-quadratic",
+      "title": "Using Zeroes to Factorise a Quadratic",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "If a quadratic polynomial has known zeroes α and β, then a polynomial with leading coefficient 1 can be written as (x−α)(x−β). For a general quadratic ax²+bx+c, the leading coefficient must be accounted for."
+        },
+        {
+          "type": "example",
+          "title": "Two known zeroes",
+          "color": "orange",
+          "text": "Problem: Form a quadratic polynomial whose zeroes are 3 and −2.\n\nComplete Solution:\np(x)=(x−3)(x+2)=x²−x−6."
+        },
+        {
+          "type": "example",
+          "title": "Check a factor",
+          "color": "orange",
+          "text": "Problem: Is x−4 a factor of x²−7x+12?\n\nComplete Solution:\np(4)=16−28+12=0, so x−4 is a factor."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": "A zero α corresponds to factor x−α.\nCheck signs carefully.\nFor a monic quadratic, sum/product relationships are useful."
+        }
+      ]
+    }
+  ]
 };
-
-export default notes;

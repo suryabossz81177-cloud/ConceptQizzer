@@ -1,418 +1,169 @@
-// Class 9 Mathematics — ConceptQizzer enhanced notes
-// Previous structured data preserved and expanded.
-// Render-safe: no topic `number` field and no `subsections` field.
+/* ConceptQizzer — Class 9 Mathematics — render-safe chapter file */
+/* Required global ChapterData declaration. Do not convert to ES module export. */
 
-const notes = {
-  "id": "9-mathematics-number-systems",
-  "title": "Number Systems",
+"use strict";
+
+const ChapterData = {
+  "id": "9-mathematics-linear-equations-in-two-variables",
+  "title": "Linear Equations in Two Variables",
   "class": 9,
   "subject": "Mathematics",
-  "chapter": 1,
-  "file": "js/notes/class9/mathematics/number-systems.js",
+  "chapter": 4,
+  "file": "js/notes/class9/mathematics/linear-equations-in-two-variables.js",
   "enabled": true,
-  "description": "A Class 9 standard, deeply detailed study of Number Systems. It builds the number hierarchy from natural numbers to real numbers, explains rational and irrational numbers, decimal expansions, locating numbers on the number line, laws of exponents, surds and rationalisation. Earlier notes and examples are retained and expanded with step-by-step reasoning, proof-style thinking, exam traps and additional practice.",
+  "description": "A Class 9 standard, deeply detailed study of Linear Equations in Two Variables. It explains the meaning of variables, standard form, ordered-pair solutions, verification, tables, graphing, intercepts, special lines and the connection between algebraic equations and straight-line geometry. Earlier notes are preserved and expanded with many step-by-step examples and exam-style reasoning.",
   "learningObjectives": [
-    "Classify numbers correctly.",
-    "Distinguish rational and irrational numbers using definitions and decimal behaviour.",
-    "Use the terminating-decimal criterion.",
-    "Apply exponent laws correctly.",
-    "Rationalise denominators using a suitable factor or conjugate.",
+    "Understand what a two-variable linear equation represents.",
+    "Generate and verify solution pairs.",
+    "Construct tables and graphs.",
+    "Find x- and y-intercepts.",
+    "Interpret special lines x=k and y=k.",
     "Explain every step of a solution instead of relying on answer-only work.",
     "Use definitions, properties and algebraic reasoning to justify answers.",
     "Detect common traps and verify results independently."
   ],
   "prerequisiteCheck": [
-    "Integers and fractions",
-    "Basic prime factorisation",
-    "Basic powers and square roots"
+    "Simple equations",
+    "Ordered pairs",
+    "Cartesian plane",
+    "Substitution"
   ],
   "conceptRoadmap": [
-    "Number hierarchy",
-    "Rational numbers",
-    "Decimal expansions",
-    "Irrational numbers",
-    "Real number line",
-    "Operations with real numbers",
-    "Laws of exponents",
-    "Surds and rationalisation",
-    "Proof and exam reasoning"
-  ],
-  "topics": [
-    {
-      "title": "Number Sets and the Real Number System",
-      "content": "A number system is a hierarchy of sets in which each larger set contains the earlier sets. Natural numbers are counting numbers 1,2,3,...; whole numbers add 0; integers add negative numbers; rational numbers contain all numbers expressible as p/q, where p and q are integers and q is not 0; irrational numbers cannot be expressed in that form; rational and irrational numbers together form the real numbers.\n\nThe containment relationship is N ⊂ W ⊂ Z ⊂ Q ⊂ R. Therefore, when a number belongs to a smaller set, it automatically belongs to every larger set. Classification should normally identify the most specific familiar set first.\n\nDeep Class 9 explanation: The sets are nested, not merely a list of unrelated categories. Natural numbers N = {1,2,3,...}; whole numbers W = {0,1,2,3,...}; integers Z = {...,-2,-1,0,1,2,...}; rational numbers Q are numbers of the form p/q with p,q integers and q≠0; irrational numbers are real numbers that cannot be expressed in p/q form; real numbers R contain both rational and irrational numbers. Thus N ⊂ W ⊂ Z ⊂ Q ⊂ R. A number can belong to several sets simultaneously, so the phrase 'smallest suitable set' is useful when classification is requested.\n\nHow to classify systematically: first check whether the number is a counting number, then whether it is whole, integer, rational or irrational. A terminating decimal such as 2.75 is rational because 2.75=275/100=11/4. A recurring decimal such as 0.2727... is rational because its repeating pattern can be converted to a fraction. A square root of a positive non-perfect-square integer, such as √7, is irrational.",
-      "examples": [
-        {
-          "title": "Classify 7",
-          "problem": "Classify 7.",
-          "solution": "7 is natural, whole, integer, rational and real."
-        },
-        {
-          "title": "Classify −5/3",
-          "problem": "Classify −5/3.",
-          "solution": "It is rational and real, but not an integer, whole or natural number."
-        },
-        {
-          "title": "Classify √2",
-          "problem": "Classify √2.",
-          "solution": "√2 is irrational and therefore real."
-        },
-        {
-          "title": "Classify a negative integer",
-          "problem": "Classify −12.",
-          "solution": "−12 is an integer, rational and real; it is not whole or natural."
-        },
-        {
-          "title": "Classify a terminating decimal",
-          "problem": "Classify 0.625.",
-          "solution": "0.625=5/8, so it is rational and real."
-        }
-      ],
-      "keyPoints": [
-        "Remember the nested sets: N ⊂ W ⊂ Z ⊂ Q ⊂ R.",
-        "Rational and irrational numbers together make R."
-      ]
-    },
-    {
-      "title": "Rational Numbers",
-      "content": "A rational number has the form p/q, where p and q are integers and q ≠ 0. Rational numbers include integers because every integer n can be written as n/1. They also include terminating decimals and recurring decimals.\n\nFor a fraction in lowest terms, its decimal expansion terminates exactly when the denominator has no prime factors other than 2 and 5. If any other prime factor remains, the decimal is non-terminating recurring.\n\nDeep Class 9 explanation: For a rational number p/q, the denominator must never be zero. When a fraction is reduced to lowest terms, its decimal terminates if and only if the denominator has no prime factor other than 2 and 5. For example, 13/125 terminates because 125=5³, while 7/18 does not terminate because 18=2×3² contains 3. A non-terminating recurring decimal is still rational; the repeating block is the important feature.\n\nConverting a recurring decimal: if x=0.333..., then 10x=3.333..., subtracting gives 9x=3, so x=1/3. This algebraic method explains why recurring decimals are rational rather than relying only on memorisation.",
-      "examples": [
-        {
-          "title": "Terminating decimal",
-          "problem": "Decide whether 7/40 terminates.",
-          "solution": "40 = 2³×5. Only 2 and 5 occur, so it terminates: 7/40 = 0.175."
-        },
-        {
-          "title": "Recurring decimal",
-          "problem": "Decide whether 5/12 terminates.",
-          "solution": "12 = 2²×3. The factor 3 remains, so the decimal is non-terminating recurring."
-        },
-        {
-          "title": "Decimal to fraction",
-          "problem": "Convert 0.125 to a fraction.",
-          "solution": "0.125 = 125/1000 = 1/8."
-        },
-        {
-          "title": "Termination test",
-          "problem": "Does 17/80 terminate?",
-          "solution": "80=2^4×5, so the decimal terminates."
-        },
-        {
-          "title": "Non-termination test",
-          "problem": "Does 11/30 terminate?",
-          "solution": "30=2×3×5; the factor 3 remains, so the decimal is non-terminating recurring."
-        }
-      ],
-      "keyPoints": [
-        "Always reduce the fraction before applying the 2-and-5 test.",
-        "Every recurring decimal is rational."
-      ]
-    },
-    {
-      "title": "Irrational Numbers",
-      "content": "An irrational number is a real number that cannot be written as p/q with integers p and q, q ≠ 0. Its decimal expansion is non-terminating and non-repeating.\n\nSquare roots provide many familiar examples. √9 is rational because it equals 3, while √2 is irrational because 2 is not a perfect square. A standard proof that √2 is irrational uses contradiction and the fact that a square being even implies its root is even.\n\nDeep Class 9 explanation: Irrationality is about impossibility of p/q representation. Not every radical is irrational: √16=4 and √81=9 are rational. The key check is whether the number under the square root is a perfect square when the expression is a simple square root of an integer. The classic proof of √2 uses contradiction: assume √2=p/q in lowest terms; squaring gives p²=2q², which forces p to be even; substituting p=2k then forces q to be even, contradicting lowest terms. The same style of reasoning can be adapted to √3, √5 and other appropriate non-perfect-square integers.",
-      "examples": [
-        {
-          "title": "Prove √2 is irrational",
-          "problem": "Show that √2 cannot be rational.",
-          "solution": "Assume √2=p/q in lowest terms. Then 2q²=p², so p is even. Put p=2k; then q²=2k², so q is also even. This contradicts lowest terms. Hence √2 is irrational."
-        },
-        {
-          "title": "Perfect square check",
-          "problem": "Is √49 irrational?",
-          "solution": "No. √49=7, which is rational."
-        },
-        {
-          "title": "Perfect square",
-          "problem": "Classify √64.",
-          "solution": "√64=8, so it is rational."
-        },
-        {
-          "title": "Non-perfect square",
-          "problem": "Classify √10.",
-          "solution": "10 is not a perfect square, so √10 is irrational."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Real Numbers on the Number Line",
-      "content": "Every real number corresponds to one point on the number line. Rational and irrational numbers are both present. Numbers to the right are greater and numbers to the left are smaller.\n\nFor comparing non-negative square roots, squaring preserves order. Thus √5 > 2 because 5 > 4. Between any two distinct real numbers there are infinitely many real numbers, so the number line is continuous rather than a collection of isolated familiar values.\n\nDeep Class 9 explanation: The number line is a geometric model of the complete real-number system. The origin represents 0; positive numbers lie to the right and negative numbers to the left. To compare two real numbers, the number farther to the right is greater. Irrational numbers are not 'missing' from the line: every irrational real number corresponds to a point. A standard geometric construction for √2 uses a right triangle with legs 1 and 1, giving hypotenuse √2 by Pythagoras, and then transfers that length to the number line.",
-      "examples": [
-        {
-          "title": "Compare",
-          "problem": "Compare √5 and 2.",
-          "solution": "Since 5>4=2², √5>2. Numerically √5≈2.236."
-        },
-        {
-          "title": "Order on the line",
-          "problem": "Which is greater, −3 or −5?",
-          "solution": "−3 lies to the right of −5, so −3>−5."
-        },
-        {
-          "title": "Between two numbers",
-          "problem": "Give two real numbers between 1 and 2.",
-          "solution": "1.25 and √2 are both between 1 and 2."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Laws of Exponents",
-      "content": "Exponent laws describe how powers behave when the base is the same or when powers are raised to powers. These rules follow from repeated multiplication and division. For a non-zero base a and suitable integers m,n: a^m×a^n=a^(m+n), a^m/a^n=a^(m−n), (a^m)^n=a^(mn), (ab)^m=a^m b^m, a^0=1 and a^(−m)=1/a^m.\n\nThe conditions matter. Division by a power assumes a ≠ 0, and a negative exponent does not make a number negative; it means reciprocal.\n\nDeep Class 9 explanation: Exponent laws are consequences of repeated multiplication. For a≠0 and suitable integer exponents: a^m·a^n=a^(m+n), a^m/a^n=a^(m−n), (a^m)^n=a^(mn), (ab)^m=a^m b^m, (a/b)^m=a^m/b^m, a^0=1 and a^(−m)=1/a^m. The base must be treated carefully: the addition rule applies when the bases are the same. For example, 2³·3³ cannot be changed to 6⁶; instead (2·3)³=6³. Negative exponents indicate reciprocals, not negative values.",
-      "examples": [
-        {
-          "title": "Multiply powers",
-          "problem": "Simplify 2³×2⁵.",
-          "solution": "2^(3+5)=2⁸=256."
-        },
-        {
-          "title": "Divide powers",
-          "problem": "Simplify x⁷/x³, x≠0.",
-          "solution": "x^(7−3)=x⁴."
-        },
-        {
-          "title": "Negative exponent",
-          "problem": "Simplify 5⁻².",
-          "solution": "5⁻²=1/5²=1/25."
-        },
-        {
-          "title": "Power of a product",
-          "problem": "Simplify (2×5)^3.",
-          "solution": "(2×5)^3=2^3×5^3=8×125=1000."
-        },
-        {
-          "title": "Zero exponent",
-          "problem": "Simplify 9^0.",
-          "solution": "Since 9≠0, 9^0=1."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Rationalisation of Denominators",
-      "content": "Rationalisation removes an irrational radical from a denominator without changing the value of a fraction. We multiply by a suitable form of 1.\n\nFor 1/√a, multiply by √a/√a. For a denominator such as a+√b, multiply by its conjugate a−√b because (a+√b)(a−√b)=a²−b.\n\nDeep Class 9 explanation: Rationalisation is an algebraic transformation that keeps a fraction equal to its original value while making the denominator rational. For a single radical, multiply numerator and denominator by that radical. For a binomial such as a+√b, use the conjugate a−√b. The key identity is (a+b)(a−b)=a²−b². Rationalisation should be completed fully; leaving an irrational denominator means the process has not been finished.",
-      "examples": [
-        {
-          "title": "Single radical",
-          "problem": "Rationalise 1/√5.",
-          "solution": "Multiply by √5/√5: √5/5."
-        },
-        {
-          "title": "Conjugate",
-          "problem": "Rationalise 1/(3+√2).",
-          "solution": "Multiply by (3−√2)/(3−√2). Denominator becomes 9−2=7, so result=(3−√2)/7."
-        },
-        {
-          "title": "Rationalise 3/√7",
-          "problem": "Rationalise 3/√7.",
-          "solution": "Multiply by √7/√7: 3√7/7."
-        },
-        {
-          "title": "Conjugate example",
-          "problem": "Rationalise 1/(5−√3).",
-          "solution": "Multiply by (5+√3)/(5+√3); denominator becomes 25−3=22, giving (5+√3)/22."
-        }
-      ],
-      "keyPoints": []
-    },
-    {
-      "title": "Operations and Closure in the Real Number System",
-      "content": "Closure asks whether performing an operation on members of a set always gives another member of the same set. The real numbers are closed under addition, subtraction and multiplication, and under division when the divisor is non-zero. Rational numbers are also closed under these operations with the same division restriction. Irrational numbers are not closed under addition or multiplication: √2+(−√2)=0 is rational, and √2×√2=2 is rational.",
-      "examples": [
-        {
-          "title": "Rational + rational",
-          "problem": "Find 3/4+5/8.",
-          "solution": "3/4=6/8, so 6/8+5/8=11/8, which is rational."
-        },
-        {
-          "title": "Irrational + irrational",
-          "problem": "Give an example whose sum is rational.",
-          "solution": "√3+(−√3)=0, which is rational."
-        },
-        {
-          "title": "Irrational × irrational",
-          "problem": "Give an example whose product is rational.",
-          "solution": "√5×√5=5, which is rational."
-        },
-        {
-          "title": "Division restriction",
-          "problem": "Why is division by zero excluded?",
-          "solution": "A quotient a/0 is not defined in the real number system; there is no real number x satisfying 0x=a when a≠0."
-        }
-      ],
-      "keyPoints": [
-        "Do not assume the irrational numbers form a closed set.",
-        "Division is allowed only by a non-zero divisor.",
-        "Always simplify before classifying the final result."
-      ]
-    },
-    {
-      "title": "Converting Terminating and Recurring Decimals",
-      "content": "A terminating decimal can be converted directly into a fraction by using a power of 10. A recurring decimal can be converted by introducing a variable, shifting the decimal point by the length of the repeating block, and subtracting. These methods connect decimal notation with the definition of rational numbers.",
-      "examples": [
-        {
-          "title": "Terminating decimal",
-          "problem": "Convert 2.375 into a fraction.",
-          "solution": "2.375=2375/1000=19/8 after dividing numerator and denominator by 125."
-        },
-        {
-          "title": "One recurring digit",
-          "problem": "Convert 0.777... into a fraction.",
-          "solution": "Let x=0.777...; 10x=7.777...; subtract: 9x=7, so x=7/9."
-        },
-        {
-          "title": "Two recurring digits",
-          "problem": "Convert 0.2727... into a fraction.",
-          "solution": "Let x=0.2727...; 100x=27.2727...; subtract: 99x=27, so x=27/99=3/11."
-        }
-      ],
-      "keyPoints": [
-        "Finite decimals are always rational.",
-        "Recurring decimals are rational.",
-        "Reduce the final fraction to lowest terms."
-      ]
-    }
+    "Meaning of a linear equation",
+    "Variables and constants",
+    "Solution pairs",
+    "Verification",
+    "Tables of values",
+    "Graphing",
+    "Intercepts",
+    "Special lines",
+    "Word problems",
+    "Algebra–geometry connection"
   ],
   "comparisonTables": [
     {
-      "title": "Number-set comparison",
+      "title": "Common forms and meanings",
       "columns": [
-        "Set",
-        "Examples",
-        "Main idea"
+        "Form",
+        "Graph/meaning",
+        "Example"
       ],
       "rows": [
         [
-          "Natural",
-          "1,2,3,…",
-          "Counting numbers"
+          "ax+by+c=0",
+          "General linear equation",
+          "2x+3y−6=0"
         ],
         [
-          "Whole",
-          "0,1,2,3,…",
-          "Natural numbers plus zero"
+          "y=mx+c",
+          "y written in terms of x",
+          "y=2x+1"
         ],
         [
-          "Integers",
-          "…,−2,−1,0,1,2,…",
-          "Positive, negative and zero"
+          "x=k",
+          "Vertical line",
+          "x=4"
         ],
         [
-          "Rational",
-          "p/q, q≠0",
-          "Ratio of integers"
-        ],
-        [
-          "Irrational",
-          "√2, π,…",
-          "Non-terminating, non-repeating decimals"
-        ],
-        [
-          "Real",
-          "Rational + irrational",
-          "All points on the number line"
+          "y=k",
+          "Horizontal line",
+          "y=−2"
         ]
       ]
     }
   ],
   "theoremPropertyLab": [
     {
-      "title": "Irrationality of √2",
-      "statement": "√2 is irrational.",
-      "proof": "Assume √2=p/q in lowest terms. Squaring forces p and then q to be even, contradicting lowest terms."
+      "title": "Solution-set graph principle",
+      "statement": "The graph of a linear equation in two variables is a straight line and every point on it is a solution.",
+      "proof": "Each plotted point is generated from a pair satisfying the equation. The linear relationship between x and y produces a straight-line set of points; points on that line satisfy the same equation."
     }
   ],
   "formulaPropertyBank": [
-    "N ⊂ W ⊂ Z ⊂ Q ⊂ R",
-    "Terminating decimal ⇔ reduced denominator has only 2 and/or 5 as prime factors",
-    "a^m×a^n=a^(m+n)",
-    "a^m/a^n=a^(m−n)",
-    "(a^m)^n=a^(mn)",
-    "a^(−m)=1/a^m"
+    "General form: ax+by+c=0",
+    "x-intercept: set y=0",
+    "y-intercept: set x=0",
+    "If ax+by=c and b≠0, y=(c−ax)/b"
   ],
   "conceptConnections": [
-    "Fractions connect directly to rational numbers and decimals.",
-    "Irrational numbers complete the real number line.",
-    "Exponent laws simplify algebra used in later chapters.",
-    "Rationalisation prepares radical expressions for algebraic manipulation."
+    "Coordinate Geometry supplies the plane and ordered pairs.",
+    "Algebra supplies substitution and rearrangement.",
+    "A graph visually represents the complete set of solutions."
   ],
   "mathematicalThinking": [
-    "Classify before calculating.",
-    "Look for a definition that can prove the result.",
-    "Check an answer using a second method whenever practical."
+    "Ask whether a point satisfies the equation before plotting it.",
+    "Use intercepts when they give simple values.",
+    "Use a third point to check a graph."
   ],
   "errorDetective": [
     {
-      "problem": "Every non-terminating decimal is irrational.",
-      "answer": "False. A recurring decimal is rational."
+      "problem": "A student gives one pair as the complete solution of x+y=5.",
+      "answer": "Wrong. There are infinitely many solutions."
     },
     {
-      "problem": "0 is irrational.",
-      "answer": "False. 0=0/1, so it is rational."
-    },
-    {
-      "problem": "5⁰=0.",
-      "answer": "False. For non-zero 5, 5⁰=1."
+      "problem": "A student finds x-intercept by putting x=0.",
+      "answer": "Wrong. For x-intercept put y=0."
     }
   ],
   "mathsChallenge": [
     {
-      "question": "Give one rational and one irrational number between 2 and 3.",
-      "answer": "5/2 is rational and √7 is irrational."
+      "question": "Find three integer solutions of 2x−y=4.",
+      "answer": "(0,−4),(1,−2),(2,0)."
     }
   ],
   "realLifeMathematics": [
-    "Measurements and scientific calculations use real numbers.",
-    "Exponents model repeated growth and scaling.",
-    "Square roots occur in geometry and distance calculations."
+    "Linear relationships model simple costs, distance at constant speed, unit conversion and budgeting.",
+    "Graphs communicate trends clearly."
   ],
   "mathematicalActivityLab": [
     {
-      "title": "Build the number-system ladder",
+      "title": "Human graph",
       "steps": [
-        "Write N,W,Z,Q,R as nested regions.",
-        "Place sample numbers −4,0,3/5,√2 and 7.",
-        "Explain every membership rather than simply placing the number."
+        "Mark axes.",
+        "Choose x+y=6.",
+        "Assign different x-values to students.",
+        "Calculate y and stand at the corresponding points.",
+        "Observe the straight-line pattern."
       ]
     }
   ],
   "visualLearning": [
-    "Draw the nested number-set diagram.",
-    "Mark rational and irrational examples on a number line."
+    "Make a value table before plotting.",
+    "Mark intercepts clearly.",
+    "Compare x=k with y=k visually."
   ],
   "masterDefinitions": [
     {
-      "term": "Rational number",
-      "definition": "A number expressible as p/q with p,q integers and q≠0."
+      "term": "Linear equation in two variables",
+      "definition": "An equation of first degree in two variables, commonly ax+by+c=0."
     },
     {
-      "term": "Irrational number",
-      "definition": "A real number that cannot be expressed as p/q."
+      "term": "Solution",
+      "definition": "An ordered pair that makes the equation true."
     },
     {
-      "term": "Real number",
-      "definition": "Any rational or irrational number."
+      "term": "Intercept",
+      "definition": "A point where a graph meets an axis."
     }
   ],
   "formulaRevisionSheet": [
-    "N⊂W⊂Z⊂Q⊂R",
-    "a⁰=1 (a≠0)",
-    "a^(−m)=1/a^m",
-    "Terminating decimal test: only 2 and 5 in reduced denominator"
+    "x-intercept → y=0",
+    "y-intercept → x=0",
+    "x=k → vertical line",
+    "y=k → horizontal line"
   ],
   "questionBank": [
     {
-      "question": "Classify −8.",
-      "answer": "Integer, rational and real."
+      "question": "Give two solutions of 3x+y=6.",
+      "answer": "(0,6) and (2,0)."
     },
     {
-      "question": "Is 13/125 terminating?",
-      "answer": "Yes, because 125=5³."
+      "question": "Find the y-intercept of 4x+2y=8.",
+      "answer": "(0,4)."
     },
     {
-      "question": "Rationalise 2/√7.",
-      "answer": "2√7/7."
+      "question": "Does (3,−1) satisfy x−2y=5?",
+      "answer": "Yes."
     }
   ],
   "showAnswerSystem": {
@@ -422,45 +173,46 @@ const notes = {
     {
       "title": "Practice Set A",
       "questions": [
-        "Classify 12, −8, 0, 3/7 and √11.",
-        "Test 13/125 for termination.",
-        "Simplify 3⁴×3²/3³.",
-        "Rationalise 2/√7."
+        "Find five solutions of x−y=3.",
+        "Find both intercepts of 3x+2y=12.",
+        "Verify ordered pairs.",
+        "Draw graphs using two or three points."
       ]
     }
   ],
   "timedPractice": [
     {
-      "duration": "15 minutes",
-      "instruction": "Solve 10 mixed questions, then verify every answer."
+      "duration": "20 minutes",
+      "instruction": "Solve 12 mixed questions involving solutions, intercepts and graphs."
     }
   ],
   "chapterQuiz": [
     {
-      "question": "Which is irrational?",
+      "question": "A linear equation in two variables generally has:",
       "options": [
-        "0.25",
-        "7/11",
-        "√3",
-        "−5"
+        "No solution",
+        "One solution",
+        "Two solutions",
+        "Infinitely many solutions"
       ],
-      "answer": "√3"
+      "answer": "Infinitely many solutions"
     }
   ],
   "examZone": [
-    "Know the nested sets.",
-    "Know the decimal termination criterion.",
-    "Practise irrationality proofs.",
-    "Show all rationalisation steps.",
+    "Write ordered pairs in x,y order.",
+    "Show substitution for verification.",
+    "Use y=0 for x-intercept.",
+    "Use x=0 for y-intercept.",
+    "Use a ruler for the straight line.",
     "Write formulas before substitution where appropriate.",
     "Use complete mathematical statements in proof/reasoning questions.",
     "Recheck signs, brackets and powers before finalising an answer."
   ],
   "commonMistakes": [
-    "Calling every non-terminating decimal irrational.",
-    "Forgetting q≠0.",
-    "Using a⁰=0.",
-    "Rationalising only the denominator.",
+    "Treating it as a one-variable equation.",
+    "Swapping x and y.",
+    "Finding the wrong intercept.",
+    "Drawing a curve instead of a straight line.",
     "Confusing a concept definition with an example.",
     "Skipping the verification step.",
     "Swapping ordered coordinates.",
@@ -468,44 +220,380 @@ const notes = {
     "Using an algebraic identity with an incorrect sign."
   ],
   "masterRevision": [
-    "Definition → classification → decimal test → irrationality → exponents → rationalisation."
+    "Choose a value → calculate the other → make a table → plot → join → verify."
   ],
   "detailedSummary": [
-    "The real numbers contain rational and irrational numbers.",
-    "Rational decimals terminate or recur.",
-    "Irrational decimals never terminate and never repeat.",
-    "Exponent laws simplify powers.",
-    "Rationalisation removes radicals from denominators."
+    "A linear equation in two variables generally has infinitely many solutions.",
+    "The solution set forms a straight line.",
+    "Intercepts provide convenient graph points.",
+    "Special equations x=k and y=k give vertical and horizontal lines."
   ],
   "finalChapterTest": [
     {
-      "question": "Prove that √5 is irrational.",
-      "answer": "√5 is irrational.",
-      "solution": "Assume √5=p/q in lowest terms. Then p²=5q², so 5 divides p. Writing p=5k gives q²=5k², so 5 divides q. This contradicts lowest terms. Therefore √5 is irrational."
+      "question": "For 2x+3y=12, find both intercepts and explain how they give the graph.",
+      "answer": "x-intercept=(6,0), y-intercept=(0,4).",
+      "solution": "Set y=0: 2x=12, x=6. Set x=0: 3y=12, y=4. Plot (6,0) and (0,4) and join them with a straight line. Every point on that line satisfies the equation."
     }
   ],
   "importantPoints": [
-    "N⊂W⊂Z⊂Q⊂R.",
-    "Recurring decimals are rational.",
-    "Use the reduced denominator for the termination test.",
-    "Use conjugates when needed for rationalisation.",
+    "A solution is an ordered pair.",
+    "There are generally infinitely many solutions.",
+    "All solutions lie on a straight line.",
+    "x-intercept uses y=0.",
+    "y-intercept uses x=0.",
     "Show substitutions clearly in Class 9 solutions.",
     "Do not skip sign checks when negative numbers are involved.",
     "Use the definition or theorem that directly justifies the step.",
     "A correct final answer with no reasoning may lose marks in descriptive questions."
   ],
   "keyTerms": [
-    "Natural number",
-    "Whole number",
-    "Integer",
-    "Rational",
-    "Irrational",
-    "Real number",
-    "Exponent",
-    "Conjugate",
-    "Rationalisation"
+    "Linear equation",
+    "Variable",
+    "Solution",
+    "Ordered pair",
+    "Graph",
+    "Straight line",
+    "Intercept",
+    "x-intercept",
+    "y-intercept"
   ],
-  "chapterSummary": "Number Systems develops the complete real-number framework and the algebraic skills needed to work confidently with fractions, decimals, radicals and powers. The enhanced version keeps the earlier material while adding deeper explanations, more worked examples, reasoning-based practice and stronger Class 9 exam preparation."
+  "chapterSummary": "Linear Equations in Two Variables connects algebra with coordinate geometry by showing that infinitely many solution pairs form one straight-line graph. The enhanced version keeps the earlier material while adding deeper explanations, more worked examples, reasoning-based practice and stronger Class 9 exam preparation.",
+  "sections": [
+    {
+      "id": "linear-equation-in-two-variables",
+      "title": "Linear Equation in Two Variables",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A linear equation in two variables is an equation in which the variables occur only to the first power. A common form is ax+by+c=0, where a and b are not both zero.\n\nA solution is an ordered pair (x,y) that makes the equation true. Unlike a typical equation in one variable, a linear equation in two variables generally has infinitely many solutions.\n\nDeep Class 9 explanation: A linear equation in two variables can be written as ax+by+c=0, where a,b,c are real numbers and a and b are not both zero. Each variable occurs only to the first power. Expressions such as x²+y=5 are not linear because x has degree 2. An equation such as 2x+3y=6 describes a relationship between two quantities; it does not determine a single ordered pair."
+        },
+        {
+          "type": "example",
+          "title": "Check a solution",
+          "color": "orange",
+          "text": "Problem: Does (2,3) satisfy 2x+y=7?\n\nComplete Solution:\n2(2)+3=7, so yes."
+        },
+        {
+          "type": "example",
+          "title": "Reject a point",
+          "color": "orange",
+          "text": "Problem: Does (1,4) satisfy 2x+y=7?\n\nComplete Solution:\n2(1)+4=6, so no."
+        },
+        {
+          "type": "example",
+          "title": "Check linearity",
+          "color": "orange",
+          "text": "Problem: Is 3x−2y+7=0 linear?\n\nComplete Solution:\nYes. Both variables occur only to the first power."
+        },
+        {
+          "type": "example",
+          "title": "Non-linear example",
+          "color": "orange",
+          "text": "Problem: Is x^2+y=5 linear?\n\nComplete Solution:\nNo. x has degree 2."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "finding-solution-pairs",
+      "title": "Finding Solution Pairs",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Choose a value for one variable and calculate the other. For x+y=5, if x=0 then y=5; if x=2 then y=3; if x=5 then y=0. There is no need for one unique pair because infinitely many choices are possible.\n\nA value table keeps the process organised and provides points for graphing.\n\nDeep Class 9 explanation: A solution is an ordered pair (x,y) that makes the equation true. Because one variable can often be chosen freely and the other calculated, a linear equation in two variables generally has infinitely many solutions. A table is a systematic way to generate convenient points before drawing the graph."
+        },
+        {
+          "type": "example",
+          "title": "Three solutions",
+          "color": "orange",
+          "text": "Problem: Find three solutions of x+y=5.\n\nComplete Solution:\n(0,5),(1,4),(5,0)."
+        },
+        {
+          "type": "example",
+          "title": "Generate pairs",
+          "color": "orange",
+          "text": "Problem: Find three solutions of 2x+y=7.\n\nComplete Solution:\nx=0→y=7; x=1→y=5; x=3→y=1. Pairs: (0,7),(1,5),(3,1)."
+        },
+        {
+          "type": "example",
+          "title": "Check a pair",
+          "color": "orange",
+          "text": "Problem: Is (4,−1) a solution of 2x+y=7?\n\nComplete Solution:\n8−1=7, so yes."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "graph-of-a-linear-equation",
+      "title": "Graph of a Linear Equation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "When all solution points of a linear equation are plotted, they lie on one straight line. Conversely, every point on that line satisfies the equation.\n\nTwo distinct solution points determine a straight line, although a third point is a useful check. Accurate axes, scale and labels are essential in an exam graph.\n\nDeep Class 9 explanation: The graph is the set of all points whose coordinates satisfy the equation. For a linear equation, these points lie on one straight line. Two distinct solution points are enough to determine the line, although three points are often used for verification. A point not satisfying the equation cannot lie on its graph."
+        },
+        {
+          "type": "example",
+          "title": "Graph x+y=4",
+          "color": "orange",
+          "text": "Problem: Find two convenient points.\n\nComplete Solution:\nPut x=0 → (0,4). Put y=0 → (4,0). Plot and join these points with a straight line."
+        },
+        {
+          "type": "example",
+          "title": "Two-point graph",
+          "color": "orange",
+          "text": "Problem: Graph x+y=3 using two points.\n\nComplete Solution:\nUse (0,3) and (3,0), plot them and draw the straight line through them."
+        },
+        {
+          "type": "example",
+          "title": "Point on graph",
+          "color": "orange",
+          "text": "Problem: Does (2,2) lie on x+y=3?\n\nComplete Solution:\n2+2=4≠3, so it does not."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "x-intercept-and-y-intercept",
+      "title": "x-Intercept and y-Intercept",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "The x-intercept is found by setting y=0. The y-intercept is found by setting x=0. These give convenient points for drawing a graph.\n\nThe word intercept refers to where the graph meets an axis, not merely to a number without its coordinate context.\n\nDeep Class 9 explanation: The x-intercept is found by putting y=0; the y-intercept is found by putting x=0. These are not separate formulas to memorise—they follow directly from the definitions of the axes. For 2x+3y=6, y=0 gives x=3, so the x-intercept is (3,0); x=0 gives y=2, so the y-intercept is (0,2)."
+        },
+        {
+          "type": "example",
+          "title": "Intercepts",
+          "color": "orange",
+          "text": "Problem: Find intercepts of 2x+3y=6.\n\nComplete Solution:\nFor x-intercept: y=0 gives x=3 → (3,0). For y-intercept: x=0 gives y=2 → (0,2)."
+        },
+        {
+          "type": "example",
+          "title": "Find intercepts",
+          "color": "orange",
+          "text": "Problem: Find intercepts of x+2y=4.\n\nComplete Solution:\ny=0→x=4, so x-intercept (4,0). x=0→y=2, so y-intercept (0,2)."
+        },
+        {
+          "type": "example",
+          "title": "Axis meaning",
+          "color": "orange",
+          "text": "Problem: Why is y=0 used for the x-intercept?\n\nComplete Solution:\nEvery point on the x-axis has y-coordinate 0."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "special-linear-graphs",
+      "title": "Special Linear Graphs",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "The equation x=k represents a vertical line because every point has the same x-coordinate. The equation y=k represents a horizontal line because every point has the same y-coordinate.\n\nThese are important special cases because one variable is fixed while the other can take many values.\n\nDeep Class 9 explanation: The equation x=a fixes the x-coordinate, so every solution has the form (a,y), giving a vertical line parallel to the y-axis. The equation y=b fixes the y-coordinate, so every solution has the form (x,b), giving a horizontal line parallel to the x-axis. These are important special cases of linear equations in two variables."
+        },
+        {
+          "type": "example",
+          "title": "Vertical line",
+          "color": "orange",
+          "text": "Problem: Describe x=−3.\n\nComplete Solution:\nIt is a vertical line through x=−3; points include (−3,−2),(−3,0),(−3,5)."
+        },
+        {
+          "type": "example",
+          "title": "Horizontal line",
+          "color": "orange",
+          "text": "Problem: Describe y=4.\n\nComplete Solution:\nIt is a horizontal line through y=4; points include (−2,4),(0,4),(5,4)."
+        },
+        {
+          "type": "example",
+          "title": "Vertical line",
+          "color": "orange",
+          "text": "Problem: Describe x=−4.\n\nComplete Solution:\nIt is a vertical line parallel to the y-axis."
+        },
+        {
+          "type": "example",
+          "title": "Horizontal line",
+          "color": "orange",
+          "text": "Problem: Describe y=6.\n\nComplete Solution:\nIt is a horizontal line parallel to the x-axis."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "algebra-and-geometry-together",
+      "title": "Algebra and Geometry Together",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A linear equation describes a collection of points algebraically, while its graph displays the same collection visually. Substitution checks whether an individual point belongs to the line; plotting shows many solutions together.\n\nThis connection is fundamental for later chapters involving graphs, simultaneous equations and coordinate geometry.\n\nDeep Class 9 explanation: This chapter establishes a central idea of coordinate geometry: an algebraic condition can describe a geometric object. The equation gives the rule; the solution pairs are its points; the complete collection of those points is the graph. This connection becomes essential in later chapters involving lines, slopes and systems of equations."
+        },
+        {
+          "type": "example",
+          "title": "Verify a graph point",
+          "color": "orange",
+          "text": "Problem: Does (−1,6) lie on x+y=5?\n\nComplete Solution:\n−1+6=5, so yes. The point belongs to the graph."
+        },
+        {
+          "type": "example",
+          "title": "Equation to graph",
+          "color": "orange",
+          "text": "Problem: What geometric object represents x=2?\n\nComplete Solution:\nAll points (2,y) form a vertical straight line through x=2."
+        },
+        {
+          "type": "example",
+          "title": "Graph to equation",
+          "color": "orange",
+          "text": "Problem: What equation describes the x-axis?\n\nComplete Solution:\ny=0."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "verification-of-solution-pairs",
+      "title": "Verification of Solution Pairs",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Verification means substituting both coordinates into the original equation and checking equality. This is more reliable than judging by appearance or by using a table without checking."
+        },
+        {
+          "type": "example",
+          "title": "Verify a solution",
+          "color": "orange",
+          "text": "Problem: Check whether (3,2) satisfies 2x+y=8.\n\nComplete Solution:\nLHS=2(3)+2=8, which equals RHS 8. Therefore (3,2) is a solution."
+        },
+        {
+          "type": "example",
+          "title": "Reject a pair",
+          "color": "orange",
+          "text": "Problem: Check whether (1,4) satisfies 3x−y=0.\n\nComplete Solution:\n3(1)−4=−1, not 0. Therefore (1,4) is not a solution."
+        },
+        {
+          "type": "example",
+          "title": "Find an unknown coordinate",
+          "color": "orange",
+          "text": "Problem: Find k if (k,5) satisfies 2x+y=13.\n\nComplete Solution:\n2k+5=13, so 2k=8 and k=4. The required pair is (4,5)."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Always substitute into the original equation.\nAn ordered pair is either a solution or it is not.\nVerification catches sign and arithmetic errors."
+        }
+      ]
+    },
+    {
+      "id": "building-a-graph-from-a-table",
+      "title": "Building a Graph from a Table",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A table converts an equation into several solution pairs. Plot the pairs using the ordered-pair convention and join them with a straight line. The line represents infinitely many additional solutions, not only the plotted points."
+        },
+        {
+          "type": "example",
+          "title": "Equation x+y=4",
+          "color": "orange",
+          "text": "Problem: Generate three solution pairs.\n\nComplete Solution:\nChoose x=0,2,4. Then y=4,2,0. Points are (0,4),(2,2),(4,0)."
+        },
+        {
+          "type": "example",
+          "title": "Equation 2x−y=2",
+          "color": "orange",
+          "text": "Problem: Generate points for x=0,1,2.\n\nComplete Solution:\ny=2x−2, so y=−2,0,2. Points are (0,−2),(1,0),(2,2)."
+        },
+        {
+          "type": "example",
+          "title": "Why a line?",
+          "color": "orange",
+          "text": "Problem: Why does a linear equation produce a straight line?\n\nComplete Solution:\nThe relation between x and y changes at a constant linear rate, and the complete set of ordered-pair solutions forms a straight-line locus in the coordinate plane."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Choose easy values.\nPlot at least two distinct points.\nExtend the line because infinitely many solutions exist."
+        }
+      ]
+    },
+    {
+      "id": "word-problems-and-mathematical-modelling",
+      "title": "Word Problems and Mathematical Modelling",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "In applications, variables represent unknown quantities and the equation represents a condition connecting them. Define variables before writing the equation, translate the words carefully, then verify whether the resulting pair makes sense in context."
+        },
+        {
+          "type": "example",
+          "title": "Cost model",
+          "color": "orange",
+          "text": "Problem: A notebook costs ₹x and a pen costs ₹y. Two notebooks and three pens cost ₹90. Write the equation.\n\nComplete Solution:\n2x+3y=90."
+        },
+        {
+          "type": "example",
+          "title": "Age relation",
+          "color": "orange",
+          "text": "Problem: A person's age is x years and another person's age is y years. Their total age is 30. Model it.\n\nComplete Solution:\nx+y=30. If both ages are realistic, x and y should be non-negative."
+        },
+        {
+          "type": "example",
+          "title": "Perimeter model",
+          "color": "orange",
+          "text": "Problem: A rectangle has length x cm and breadth y cm. Its perimeter is 40 cm.\n\nComplete Solution:\n2x+2y=40, or x+y=20."
+        },
+        {
+          "type": "tip",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Define variables first.\nTranslate each condition into an equation.\nCheck whether the mathematical solution is meaningful in the real situation."
+        }
+      ]
+    }
+  ]
 };
-
-export default notes;
