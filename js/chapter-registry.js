@@ -6,6 +6,16 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-civics-understanding-secularism",
+  title: "Understanding Secularism",
+  class: 8,
+  subject: "Civics",
+  chapter: 2,
+  file: "js/notes/class8/civics/understanding-secularism.js",
+  enabled: true
+},
+  
+  {
   id: "8-civics-the-indian-constitution",
   title: "The Indian Constitution",
   class: 8,
