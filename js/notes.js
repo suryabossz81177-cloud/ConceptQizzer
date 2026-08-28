@@ -662,7 +662,7 @@ function renderExtraBlockFields(block){
     "branches","points","data","blocks","children",
     /* Interactive geography metadata is renderer-only and must never appear
        as raw Lat/Lon/Model/Render-As cards. */
-    "mapMode","markers","highlightRegions","routes","legend","mapCenter","zoom","showStates",
+    "mapMode","markers","locations","sites","places","mapData","highlightRegions","routes","legend","mapCenter","zoom","showStates","mapProvider","imageUrl","imageURL","sourceName","sourceNote","sourceUrl","sourceURL",
     "model","layers","interactive","earthCenter","earthZoom",
     "colour","color","accentColor","accent","theme","variant",
     "style","class","className","palette","tone",
@@ -756,6 +756,14 @@ function getBlockPalette(block,index,type){
     diagram:"cqPaletteBlue",
     figure:"cqPaletteBlue",
     map:"cqPaletteBlue",
+    mapactivity:"cqPaletteBlue",
+    geographymap:"cqPaletteBlue",
+    interactivemap:"cqPaletteBlue",
+    mapstudy:"cqPaletteBlue",
+    mapreference:"cqPaletteBlue",
+    protectedareamap:"cqPaletteGreen",
+    conservationmap:"cqPaletteGreen",
+    indiamap:"cqPaletteBlue",
     timeline:"cqPalettePink",
     formula:"cqPalettePurple",
     theorem:"cqPalettePurple",
@@ -786,6 +794,35 @@ function applyPaletteToBlock(html,palette){
   return `<div class="cqPaletteWrap ${palette}">${html}</div>`;
 }
 
+function cqIsMapLikeBlock(block){
+  if(!block || typeof block !== "object" || Array.isArray(block)) return false;
+  const type=String(block.type || block.kind || "").toLowerCase().replace(/[^a-z0-9]/g,"");
+  if(["map","mapactivity","geographymap","interactivemap","mapstudy","mapreference","protectedareamap","conservationmap","indiamap"].includes(type)) return true;
+  const title=String(block.title || block.heading || block.name || "").toLowerCase();
+  if(/(map|protected.?area|conservation|national park|wildlife sanctuary|tiger reserve|bird sanctuary)/.test(title) && (
+      block.markers || block.mapCenter || block.mapData || block.mapProvider || block.imageUrl || block.imageURL || block.sourceName
+  )) return true;
+  return !!(block.markers || block.mapCenter || block.mapData || block.mapProvider);
+}
+
+function cqMapMarkers(block){
+  const candidates=[
+    block && block.markers,
+    block && block.locations,
+    block && block.sites,
+    block && block.places,
+    block && block.mapData && block.mapData.markers,
+    block && block.mapData && block.mapData.locations
+  ];
+  for(const value of candidates){
+    if(Array.isArray(value)) return value;
+  }
+  return [];
+}
+
+function cqMarkerLat(m){ return Number(m && (m.lat ?? m.latitude ?? m.y)); }
+function cqMarkerLon(m){ return Number(m && (m.lon ?? m.lng ?? m.longitude ?? m.x)); }
+
 function renderUniversalBlock(block,blockIndex){
 
   if(block === null || block === undefined) return "";
@@ -805,7 +842,7 @@ function renderUniversalBlock(block,blockIndex){
   }
 
   const html=renderUniversalBlockCore(block,blockIndex);
-  const type=String(block.type || block.kind || "").toLowerCase().trim();
+  const type=cqIsMapLikeBlock(block) ? "map" : String(block.type || block.kind || "").toLowerCase().trim();
 
   const nested =
     Array.isArray(block.blocks) ? block.blocks :
@@ -853,7 +890,7 @@ function renderUniversalBlockCore(block, blockIndex){
     return `<div class="cqBlock cqParagraph">${renderText(String(block))}</div>`;
   }
 
-  const type = String(block.type || block.kind || "paragraph").toLowerCase().trim();
+  const type = cqIsMapLikeBlock(block) ? "map" : String(block.type || block.kind || "paragraph").toLowerCase().trim();
   const text = getBlockText(block);
 
   const nestedBlocks =
@@ -1027,7 +1064,7 @@ function renderUniversalBlockCore(block, blockIndex){
     const id = "cq-map-" + Math.random().toString(36).slice(2,10);
     window.CQ_MAP_DATA = window.CQ_MAP_DATA || {};
     window.CQ_MAP_DATA[id] = block;
-    const markers = Array.isArray(block.markers) ? block.markers : [];
+    const markers = cqMapMarkers(block);
     return `
       <div class="cqBlock cqInteractiveGeo cqMap">
         <div class="cqBadge">🗺️ Interactive Map</div>
@@ -1421,7 +1458,7 @@ function mountCQMap(id,block){
     attribution:"© OpenStreetMap contributors"
   }).addTo(map);
 
-  const markers=Array.isArray(block.markers) ? block.markers : [];
+  const markers=cqMapMarkers(block);
 
   /* Optional study routes: rivers, coastlines or conceptual travel lines. */
   const routes=Array.isArray(block.routes) ? block.routes : [];
@@ -1438,7 +1475,7 @@ function mountCQMap(id,block){
 
   const leafletMarkers=[];
   markers.forEach((m,i)=>{
-    const lat=Number(m.lat),lon=Number(m.lon);
+    const lat=cqMarkerLat(m),lon=cqMarkerLon(m);
     if(!Number.isFinite(lat)||!Number.isFinite(lon)) return;
     const mk=window.L.marker([lat,lon],{icon:cqMarkerIcon(),title:m.label||m.name||"Place"}).addTo(map);
     const clue=m.description || m.clue || "Tap this place to study its geographical significance.";
@@ -1558,7 +1595,22 @@ function initCQInteractiveVisuals(){
   const earths=window.CQ_EARTH_DATA||{};
   const mapIds=Object.keys(maps),earthIds=Object.keys(earths);
   if(mapIds.length){
-    ensureCQLeaflet().then(()=>mapIds.forEach(id=>mountCQMap(id,maps[id]))).catch(err=>console.warn("ConceptQizzer map loader:",err));
+    ensureCQLeaflet().then(()=>{
+      mapIds.forEach(id=>mountCQMap(id,maps[id]));
+      setTimeout(()=>mapIds.forEach(id=>{
+        const item=window.__CQ_LEAFLET_MAPS && window.__CQ_LEAFLET_MAPS[id];
+        if(item && item.map) item.map.invalidateSize(true);
+      }),350);
+    }).catch(err=>{
+      console.warn("ConceptQizzer map loader:",err);
+      mapIds.forEach(id=>{
+        const el=document.getElementById(id);
+        if(el && !el.dataset.cqMapError){
+          el.dataset.cqMapError="true";
+          el.innerHTML='<div style="padding:24px;text-align:center;font-weight:800">🗺️ Real map could not connect. Please check your internet connection and reload.</div>';
+        }
+      });
+    });
   }
   if(earthIds.length){
     ensureCQThree().then(()=>earthIds.forEach(id=>mountCQEarth(id,earths[id]))).catch(err=>console.warn("ConceptQizzer 3D Earth loader:",err));
