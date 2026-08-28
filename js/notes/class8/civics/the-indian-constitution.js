@@ -27,6 +27,21 @@ window.ChapterData = {
           "title": "A Constitution is more than a rulebook",
           "text": "A constitution is not merely a list of administrative instructions. It establishes the basic framework of political authority, identifies important democratic principles, protects rights and provides procedures through which public institutions exercise power.",
           "color": "purple"
+        },
+        {
+          "type": "comic",
+          "title": "Comic 1: The School Constitution",
+          "intro": "Surya and Ansh discover that their class has no agreed rules for choosing a monitor or resolving disagreements.",
+          "story": [
+            "Surya: “If everyone follows a different rule, how will we decide anything fairly?”",
+            "Ansh: “Then let's make some basic rules that everyone knows before the next decision.”",
+            "Verma Sir: “Exactly. A constitution provides a basic framework for how authority works and what principles must be respected.”",
+            "Surya: “So it is not just a list of punishments?”",
+            "Verma Sir: “Right. It also defines institutions, limits power and protects important rights.”",
+            "Ansh: “And everyone knows the rules before the decision is made.”"
+          ],
+          "lesson": "Lesson: A constitution creates a predictable framework for government, limits arbitrary power and protects important principles.",
+          "color": "orange"
         }
       ]
     },
@@ -221,6 +236,20 @@ window.ChapterData = {
           "title": "Fraternity",
           "text": "Fraternity means a sense of common brotherhood and solidarity. The Preamble connects it with the dignity of the individual and the unity and integrity of the nation.",
           "color": "purple"
+        },
+        {
+          "type": "comic",
+          "title": "Comic 2: The Class Election",
+          "intro": "Surya, Arushi and Prince discuss how their class should select a representative.",
+          "story": [
+            "Prince: “Let's just choose the student who is already popular.”",
+            "Arushi: “But shouldn't everyone have an equal opportunity to choose?”",
+            "Surya: “Yes. A democratic system needs fair participation rather than simply letting one person decide.”",
+            "Sharma Sir: “That is why democratic constitutions establish institutions and procedures through which people participate in government.”",
+            "Arushi: “So democracy is connected with rules, rights and representation—not just the word ‘election’.”"
+          ],
+          "lesson": "Lesson: Democratic government works through constitutional rules, representation and participation.",
+          "color": "green"
         }
       ]
     },
@@ -280,6 +309,20 @@ window.ChapterData = {
           "title": "Single citizenship",
           "text": "India provides for single citizenship for the country rather than separate state citizenship. This supports a common national civic identity.",
           "color": "blue"
+        },
+        {
+          "type": "comic",
+          "title": "Comic 5: Who Decides?",
+          "intro": "A disagreement in class becomes a lesson about institutions.",
+          "story": [
+            "Prince: “Let's decide the rule ourselves and immediately punish the student.”",
+            "Ansh: “But who has the authority to make the rule, and who should decide whether it was broken?”",
+            "Surya: “Different responsibilities should not all be concentrated in one person's hands.”",
+            "Verma Sir: “Exactly. Constitutional government distributes responsibilities among institutions and establishes procedures for accountability.”",
+            "Surya: “That helps prevent arbitrary decisions.”"
+          ],
+          "lesson": "Lesson: Constitutional government uses institutions, defined powers and accountability rather than unchecked personal authority.",
+          "color": "orange"
         }
       ]
     },
@@ -333,6 +376,19 @@ window.ChapterData = {
           "title": "Rights are not unlimited",
           "text": "Constitutional freedoms operate within a legal framework. For example, freedoms of speech and assembly are subject to constitutionally permitted restrictions. Rights therefore involve both freedom and responsibility.",
           "color": "orange"
+        },
+        {
+          "type": "comic",
+          "title": "Comic 3: The Unequal Notice",
+          "intro": "Surya notices that two students have been treated differently for the same classroom mistake.",
+          "story": [
+            "Surya: “They made the same mistake. Why should the rule be different for one of them?”",
+            "Shashank: “If rules are applied unfairly, people may lose trust in the system.”",
+            "Verma Sir: “The constitutional principle of equality before law is based on the idea that people are entitled to equal legal protection.”",
+            "Surya: “So equality means we cannot simply favour someone because of who they are.”"
+          ],
+          "lesson": "Lesson: Equality before law and non-discrimination are central constitutional commitments.",
+          "color": "purple"
         }
       ]
     },
@@ -362,6 +418,19 @@ window.ChapterData = {
           "title": "Public order and rights",
           "text": "Religious freedom is subject to constitutional limitations, including considerations such as public order, morality and health and other provisions of law.",
           "color": "orange"
+        },
+        {
+          "type": "comic",
+          "title": "Comic 4: The Festival Discussion",
+          "intro": "Arushi and Divya are discussing different religious festivals during a class activity.",
+          "story": [
+            "Arushi: “Our traditions are different, but everyone should be free to follow their faith.”",
+            "Divya: “And nobody should be treated as less equal because of their religion.”",
+            "Sharma Sir: “That is an important constitutional idea. India protects religious freedom while maintaining equal citizenship.”",
+            "Arushi: “So diversity and equality can exist together.”"
+          ],
+          "lesson": "Lesson: Constitutional secularism protects religious freedom and equal citizenship.",
+          "color": "blue"
         }
       ]
     },
@@ -484,196 +553,6 @@ window.ChapterData = {
           "title": "Basic structure principle",
           "text": "The Supreme Court has held that Parliament's amending power is subject to the basic structure doctrine. This means constitutional amendments cannot destroy the Constitution's basic structure.",
           "color": "blue"
-        }
-      ]
-    },
-    {
-      "title": "Comic Story 1 — The School Constitution",
-      "blocks": [
-        {
-          "type": "comic",
-          "title": "Comic 1: The School Constitution",
-          "intro": "Surya and Ansh discover that their class has no agreed rules for choosing a monitor or resolving disagreements.",
-          "color": "orange",
-          "scenes": [
-            {
-              "scene": 1,
-              "characters": "Surya, Ansh",
-              "dialogue": "Surya: “If everyone follows a different rule, how will we decide anything fairly?”"
-            },
-            {
-              "scene": 2,
-              "characters": "Ansh",
-              "dialogue": "Ansh: “Then let's make some basic rules that everyone knows before the next decision.”"
-            },
-            {
-              "scene": 3,
-              "characters": "Verma Sir",
-              "dialogue": "Verma Sir: “Exactly. A constitution provides a basic framework for how authority works and what principles must be respected.”"
-            },
-            {
-              "scene": 4,
-              "characters": "Surya",
-              "dialogue": "Surya: “So it is not just a list of punishments?”"
-            },
-            {
-              "scene": 5,
-              "characters": "Verma Sir",
-              "dialogue": "Verma Sir: “Right. It also defines institutions, limits power and protects important rights.”"
-            },
-            {
-              "scene": 6,
-              "characters": "Ansh",
-              "dialogue": "Ansh: “And everyone knows the rules before the decision is made.”"
-            }
-          ],
-          "lesson": "Lesson: A constitution creates a predictable framework for government, limits arbitrary power and protects important principles."
-        }
-      ]
-    },
-    {
-      "title": "Comic Story 2 — Everyone Gets a Voice",
-      "blocks": [
-        {
-          "type": "comic",
-          "title": "Comic 2: The Class Election",
-          "intro": "Surya, Arushi and Prince discuss how their class should select a representative.",
-          "color": "green",
-          "scenes": [
-            {
-              "scene": 1,
-              "characters": "Prince, Surya",
-              "dialogue": "Prince: “Let's just choose the student who is already popular.”"
-            },
-            {
-              "scene": 2,
-              "characters": "Arushi",
-              "dialogue": "Arushi: “But shouldn't everyone have an equal opportunity to choose?”"
-            },
-            {
-              "scene": 3,
-              "characters": "Surya",
-              "dialogue": "Surya: “Yes. A democratic system needs fair participation rather than simply letting one person decide.”"
-            },
-            {
-              "scene": 4,
-              "characters": "Sharma Sir",
-              "dialogue": "Sharma Sir: “That is why democratic constitutions establish institutions and procedures through which people participate in government.”"
-            },
-            {
-              "scene": 5,
-              "characters": "Arushi",
-              "dialogue": "Arushi: “So democracy is connected with rules, rights and representation—not just the word ‘election’.”"
-            }
-          ],
-          "lesson": "Lesson: Democratic government works through constitutional rules, representation and participation."
-        }
-      ]
-    },
-    {
-      "title": "Comic Story 3 — One Rule for Everyone",
-      "blocks": [
-        {
-          "type": "comic",
-          "title": "Comic 3: The Unequal Notice",
-          "intro": "Surya notices that two students have been treated differently for the same classroom mistake.",
-          "color": "purple",
-          "scenes": [
-            {
-              "scene": 1,
-              "characters": "Surya, Shashank",
-              "dialogue": "Surya: “They made the same mistake. Why should the rule be different for one of them?”"
-            },
-            {
-              "scene": 2,
-              "characters": "Shashank",
-              "dialogue": "Shashank: “If rules are applied unfairly, people may lose trust in the system.”"
-            },
-            {
-              "scene": 3,
-              "characters": "Verma Sir",
-              "dialogue": "Verma Sir: “The constitutional principle of equality before law is based on the idea that people are entitled to equal legal protection.”"
-            },
-            {
-              "scene": 4,
-              "characters": "Surya",
-              "dialogue": "Surya: “So equality means we cannot simply favour someone because of who they are.”"
-            }
-          ],
-          "lesson": "Lesson: Equality before law and non-discrimination are central constitutional commitments."
-        }
-      ]
-    },
-    {
-      "title": "Comic Story 4 — Many Beliefs, One Classroom",
-      "blocks": [
-        {
-          "type": "comic",
-          "title": "Comic 4: The Festival Discussion",
-          "intro": "Arushi and Divya are discussing different religious festivals during a class activity.",
-          "color": "blue",
-          "scenes": [
-            {
-              "scene": 1,
-              "characters": "Arushi, Divya",
-              "dialogue": "Arushi: “Our traditions are different, but everyone should be free to follow their faith.”"
-            },
-            {
-              "scene": 2,
-              "characters": "Divya",
-              "dialogue": "Divya: “And nobody should be treated as less equal because of their religion.”"
-            },
-            {
-              "scene": 3,
-              "characters": "Sharma Sir",
-              "dialogue": "Sharma Sir: “That is an important constitutional idea. India protects religious freedom while maintaining equal citizenship.”"
-            },
-            {
-              "scene": 4,
-              "characters": "Arushi",
-              "dialogue": "Arushi: “So diversity and equality can exist together.”"
-            }
-          ],
-          "lesson": "Lesson: Constitutional secularism protects religious freedom and equal citizenship."
-        }
-      ]
-    },
-    {
-      "title": "Comic Story 5 — The Case Lab",
-      "blocks": [
-        {
-          "type": "comic",
-          "title": "Comic 5: Who Decides?",
-          "intro": "A disagreement in class becomes a lesson about institutions.",
-          "color": "orange",
-          "scenes": [
-            {
-              "scene": 1,
-              "characters": "Prince, Ansh",
-              "dialogue": "Prince: “Let's decide the rule ourselves and immediately punish the student.”"
-            },
-            {
-              "scene": 2,
-              "characters": "Ansh",
-              "dialogue": "Ansh: “But who has the authority to make the rule, and who should decide whether it was broken?”"
-            },
-            {
-              "scene": 3,
-              "characters": "Surya",
-              "dialogue": "Surya: “Different responsibilities should not all be concentrated in one person's hands.”"
-            },
-            {
-              "scene": 4,
-              "characters": "Verma Sir",
-              "dialogue": "Verma Sir: “Exactly. Constitutional government distributes responsibilities among institutions and establishes procedures for accountability.”"
-            },
-            {
-              "scene": 5,
-              "characters": "Surya",
-              "dialogue": "Surya: “That helps prevent arbitrary decisions.”"
-            }
-          ],
-          "lesson": "Lesson: Constitutional government uses institutions, defined powers and accountability rather than unchecked personal authority."
         }
       ]
     },
@@ -1330,5 +1209,15 @@ window.ChapterData = {
     "Amendment",
     "Judicial review"
   ],
-  "summary": "The Indian Constitution establishes the fundamental rules and principles of India's democratic government. It was framed by the Constituent Assembly during the transition from colonial rule to independence and reflects ideas developed during the national movement. The Preamble expresses the constitutional vision, while the main document establishes institutions, powers, rights, principles and duties. Federalism, parliamentary government, Fundamental Rights, Directive Principles, Fundamental Duties, universal adult franchise and an independent judiciary are among its important features. The Constitution also provides a framework for equality, secularism, social justice and democratic accountability."
+  "summary": "The Indian Constitution establishes the fundamental rules and principles of India's democratic government. It was framed by the Constituent Assembly during the transition from colonial rule to independence and reflects ideas developed during the national movement. The Preamble expresses the constitutional vision, while the main document establishes institutions, powers, rights, principles and duties. Federalism, parliamentary government, Fundamental Rights, Directive Principles, Fundamental Duties, universal adult franchise and an independent judiciary are among its important features. The Constitution also provides a framework for equality, secularism, social justice and democratic accountability.",
+  "comicFormat": {
+    "version": "2.0",
+    "structure": "title → intro → story → lesson",
+    "removedFields": [
+      "scenes",
+      "scene",
+      "characters"
+    ],
+    "placement": "Comic stories are distributed among relevant chapter sections and are not required to be continuous."
+  }
 };
