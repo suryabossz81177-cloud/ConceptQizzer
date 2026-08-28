@@ -3,24 +3,27 @@ window.ChapterData = {
   "class": 9,
   "subject": "Mathematics",
   "chapter": 3,
-  "formatVersion": "Class 9 Mathematics — Final 32 Section Format",
+  "description": "Chapter 3 introduces the Cartesian coordinate plane as a bridge between algebra and geometry. Students learn to read and plot ordered pairs, identify axes and quadrants, and interpret the position of points through signs and coordinates. The coordinate plane becomes a visual language for mathematical relationships.",
+  "renderVersion": "Detailed Renderable v3",
   "sections": [
     {
       "id": 1,
       "title": "Chapter Header",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Chapter 3: Coordinate Geometry"
+          "type": "description",
+          "title": "Coordinate Geometry",
+          "text": "Chapter 3 introduces the Cartesian coordinate plane as a bridge between algebra and geometry. Students learn to read and plot ordered pairs, identify axes and quadrants, and interpret the position of points through signs and coordinates. The coordinate plane becomes a visual language for mathematical relationships."
         },
         {
-          "type": "paragraph",
-          "text": "A complete concept-to-practice chapter designed for Class 9 foundation building."
+          "type": "chapter-meta",
+          "items": [
+            "Class 9 Mathematics",
+            "Chapter {n}",
+            "Coordinate Geometry",
+            "Concept-first • Example-rich • Exam-ready"
+          ]
         }
-      ],
-      "content": [
-        "Chapter 3: Coordinate Geometry",
-        "A complete concept-to-practice chapter designed for Class 9 foundation building."
       ]
     },
     {
@@ -30,20 +33,13 @@ window.ChapterData = {
         {
           "type": "list",
           "items": [
-            "Understand all core concepts and definitions.",
-            "Apply properties and formulas correctly.",
-            "Solve problems from basic to HOTS level.",
-            "Explain mathematical reasoning and verify answers.",
-            "Connect the chapter with later mathematics."
+            "Understand every major concept instead of memorising isolated rules.",
+            "Solve basic, standard, application and HOTS questions with complete working.",
+            "Explain why a method works and identify the conditions under which it is valid.",
+            "Use tables, graphs, symbols and algebraic notation accurately.",
+            "Verify answers and diagnose mistakes."
           ]
         }
-      ],
-      "items": [
-        "Understand all core concepts and definitions.",
-        "Apply properties and formulas correctly.",
-        "Solve problems from basic to HOTS level.",
-        "Explain mathematical reasoning and verify answers.",
-        "Connect the chapter with later mathematics."
       ]
     },
     {
@@ -51,36 +47,19 @@ window.ChapterData = {
       "title": "Prerequisite Check",
       "blocks": [
         {
-          "type": "list",
-          "items": [
-            "Revise arithmetic operations, signs, fractions and basic algebra.",
-            "Read mathematical symbols carefully.",
-            "Use substitution and simplification accurately."
-          ]
-        },
-        {
           "type": "practice",
-          "title": "Practice Questions",
+          "title": "Before You Start",
           "questions": [
             {
-              "question": "What do you already know that this chapter uses?",
-              "answer": "Show the complete reasoning and verify the result."
+              "question": "Which earlier mathematical skills are needed for this chapter?",
+              "answer": "Recall arithmetic, signs, fractions, substitution, simple algebra and accurate reading of symbols as applicable."
             },
             {
-              "question": "Which prerequisite skill needs revision?",
-              "answer": "Show the complete reasoning and verify the result."
+              "question": "What should you do if a prerequisite feels weak?",
+              "answer": "Revise the relevant basic operation before attempting advanced questions."
             }
           ]
         }
-      ],
-      "items": [
-        "Revise arithmetic operations, signs, fractions and basic algebra.",
-        "Read mathematical symbols carefully.",
-        "Use substitution and simplification accurately."
-      ],
-      "questions": [
-        "What do you already know that this chapter uses?",
-        "Which prerequisite skill needs revision?"
       ]
     },
     {
@@ -89,32 +68,16 @@ window.ChapterData = {
       "blocks": [
         {
           "type": "process",
-          "title": "Concept Roadmap",
           "steps": [
-            "Chapter 3: Coordinate Geometry",
-            "Definitions",
-            "Main concepts",
-            "Many worked examples",
-            "Properties/formulas",
-            "Reasoning",
-            "Practice",
-            "Quiz",
-            "Exam revision",
-            "Final test"
+            "Cartesian Plane",
+            "Ordered Pairs",
+            "Quadrants and Signs",
+            "Plotting Points",
+            "Reading Coordinates",
+            "Points on Axes and Origin",
+            "Symmetry and Patterns"
           ]
         }
-      ],
-      "flow": [
-        "Chapter 3: Coordinate Geometry",
-        "Definitions",
-        "Main concepts",
-        "Many worked examples",
-        "Properties/formulas",
-        "Reasoning",
-        "Practice",
-        "Quiz",
-        "Exam revision",
-        "Final test"
       ]
     },
     {
@@ -123,1115 +86,546 @@ window.ChapterData = {
       "blocks": [
         {
           "type": "concept",
+          "number": 1,
           "title": "Cartesian Plane",
-          "text": "Cartesian Plane is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "text": "Two perpendicular number lines form the Cartesian plane. The horizontal line is the x-axis and the vertical line is the y-axis. Their intersection is the origin.",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
           "title": "Cartesian Plane — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "question": "Identify the x-axis and y-axis in a coordinate diagram.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Cartesian Plane — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "question": "State the coordinates of the origin.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Cartesian Plane — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "question": "Explain why the axes divide the plane into four regions.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Cartesian Plane — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Cartesian Plane — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Cartesian Plane — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Cartesian Plane — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Cartesian Plane",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Cartesian Plane in your own words.",
+              "answer": "Two perpendicular number lines form the Cartesian plane. The horizontal line is the x-axis and the vertical line is the y-axis. Their intersection is the origin."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Cartesian Plane.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         },
         {
           "type": "concept",
-          "title": "Coordinates of a Point",
-          "text": "Coordinates of a Point is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "number": 2,
+          "title": "Ordered Pairs",
+          "text": "The position of a point is written as (x,y). The first coordinate gives horizontal displacement and the second gives vertical displacement. Order matters.",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
-          "title": "Coordinates of a Point — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "title": "Ordered Pairs — Example 1",
+          "question": "Interpret (4,−2).",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
-          "title": "Coordinates of a Point — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "title": "Ordered Pairs — Example 2",
+          "question": "Explain why (2,5) and (5,2) are different points.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
-          "title": "Coordinates of a Point — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "title": "Ordered Pairs — Example 3",
+          "question": "Identify the coordinates of a point from a described movement.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Coordinates of a Point — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Coordinates of a Point — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Coordinates of a Point — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Coordinates of a Point — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Ordered Pairs",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Ordered Pairs in your own words.",
+              "answer": "The position of a point is written as (x,y). The first coordinate gives horizontal displacement and the second gives vertical displacement. Order matters."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Ordered Pairs.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         },
         {
           "type": "concept",
-          "title": "x-axis and y-axis",
-          "text": "x-axis and y-axis is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "number": 3,
+          "title": "Quadrants and Signs",
+          "text": "The axes divide the plane into four quadrants. In Quadrant I both coordinates are positive; in II x is negative and y positive; in III both are negative; in IV x is positive and y negative.",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
-          "title": "x-axis and y-axis — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "title": "Quadrants and Signs — Example 1",
+          "question": "Identify the quadrant of (−3,4).",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
-          "title": "x-axis and y-axis — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "title": "Quadrants and Signs — Example 2",
+          "question": "Identify the quadrant of (5,−7).",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
-          "title": "x-axis and y-axis — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "title": "Quadrants and Signs — Example 3",
+          "question": "Explain why a point on an axis is not in any quadrant.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "x-axis and y-axis — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "x-axis and y-axis — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "x-axis and y-axis — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "x-axis and y-axis — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Quadrants and Signs",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Quadrants and Signs in your own words.",
+              "answer": "The axes divide the plane into four quadrants. In Quadrant I both coordinates are positive; in II x is negative and y positive; in III both are negative; in IV x is positive and y negative."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Quadrants and Signs.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         },
         {
           "type": "concept",
-          "title": "Quadrants",
-          "text": "Quadrants is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Quadrants — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "practice",
-          "title": "Quick Check",
-          "questions": [
-            {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
-            }
-          ]
-        },
-        {
-          "type": "concept",
+          "number": 4,
           "title": "Plotting Points",
-          "text": "Plotting Points is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "text": "To plot (x,y), start at the origin, move horizontally according to x, then vertically according to y. A clear scale and correct direction are essential.",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
           "title": "Plotting Points — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "question": "Plot (3,2) conceptually.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Plotting Points — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "question": "Plot (−4,1) and describe the movement.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Plotting Points — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "question": "Explain how a negative y-coordinate changes the vertical movement.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Plotting Points — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Plotting Points — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Plotting Points — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Plotting Points — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Plotting Points",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Plotting Points in your own words.",
+              "answer": "To plot (x,y), start at the origin, move horizontally according to x, then vertically according to y. A clear scale and correct direction are essential."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Plotting Points.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         },
         {
           "type": "concept",
+          "number": 5,
           "title": "Reading Coordinates",
-          "text": "Reading Coordinates is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "text": "Coordinates can be read from a graph by projecting a point to the axes and recording x first and y second. Grid scale must be checked before reading.",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
           "title": "Reading Coordinates — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "question": "Read a point lying two units right and three units up.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Reading Coordinates — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "question": "Read a point on the x-axis.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Reading Coordinates — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "question": "Explain how an unusual scale such as 2 units per grid square affects the reading.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Reading Coordinates — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Reading Coordinates — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Reading Coordinates — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Reading Coordinates — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Reading Coordinates",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Reading Coordinates in your own words.",
+              "answer": "Coordinates can be read from a graph by projecting a point to the axes and recording x first and y second. Grid scale must be checked before reading."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Reading Coordinates.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         },
         {
           "type": "concept",
+          "number": 6,
           "title": "Points on Axes and Origin",
-          "text": "Points on Axes and Origin is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "text": "Every point on the x-axis has y=0; every point on the y-axis has x=0. The origin has both coordinates zero.",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
           "title": "Points on Axes and Origin — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "question": "Give three points on the x-axis.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Points on Axes and Origin — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "question": "Give three points on the y-axis.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
           "title": "Points on Axes and Origin — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "question": "Explain why (0,5) is not in a quadrant.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Points on Axes and Origin — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Points on Axes and Origin — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Points on Axes and Origin — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Points on Axes and Origin — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Points on Axes and Origin",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Points on Axes and Origin in your own words.",
+              "answer": "Every point on the x-axis has y=0; every point on the y-axis has x=0. The origin has both coordinates zero."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Points on Axes and Origin.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         },
         {
           "type": "concept",
-          "title": "Symmetry and Coordinate Patterns",
-          "text": "Symmetry and Coordinate Patterns is explained from first principles, followed by its definition, notation, conditions, reasoning and applications."
+          "number": 7,
+          "title": "Symmetry and Patterns",
+          "text": "Changing signs creates reflections across axes. (x,y) reflected across the x-axis becomes (x,−y), while reflection across the y-axis becomes (−x,y).",
+          "subsections": [
+            "Definition",
+            "Meaning",
+            "Key conditions",
+            "How to recognise it",
+            "Why it works",
+            "Where it is used"
+          ]
         },
         {
           "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 1",
-          "question": "Example 1 — Very basic: identify the concept and apply the rule directly.",
+          "title": "Symmetry and Patterns — Example 1",
+          "question": "Reflect (3,4) across the x-axis.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 2",
-          "question": "Example 2 — Basic: solve a numerical example with every intermediate step.",
+          "title": "Symmetry and Patterns — Example 2",
+          "question": "Reflect (−2,5) across the y-axis.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 3",
-          "question": "Example 3 — Standard: solve a multi-step examination-style question.",
+          "title": "Symmetry and Patterns — Example 3",
+          "question": "Describe the coordinate change for reflection in both axes.",
           "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
+            "Identify the given information.",
+            "Write the relevant definition/property/formula.",
+            "Substitute or transform carefully.",
+            "Simplify one step at a time.",
+            "Check the result against the original condition."
           ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 4",
-          "question": "Example 4 — Application: translate a word problem into mathematics and solve it.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 5",
-          "question": "Example 5 — Exam level: solve, verify and explain why the method works.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 6",
-          "question": "Example 6 — Challenge: change one condition and analyse the new result.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
-        },
-        {
-          "type": "example",
-          "title": "Symmetry and Coordinate Patterns — Example 7",
-          "question": "Example 7 — HOTS: justify the answer or find an alternative method.",
-          "steps": [
-            "Identify what is given.",
-            "Identify the required quantity or conclusion.",
-            "Select the relevant definition, property or formula.",
-            "Work through the calculation one step at a time.",
-            "Verify the result."
-          ],
-          "answer": "Complete the calculation and state the verified result clearly."
+          "answer": "Complete the calculation using the stated steps; the final line should state the verified answer clearly."
         },
         {
           "type": "practice",
-          "title": "Quick Check",
+          "title": "Quick Check — Symmetry and Patterns",
           "questions": [
             {
-              "question": "State the rule in your own words.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "Explain Symmetry and Patterns in your own words.",
+              "answer": "Changing signs creates reflections across axes. (x,y) reflected across the x-axis becomes (x,−y), while reflection across the y-axis becomes (−x,y)."
             },
             {
-              "question": "Give one example and one non-example.",
-              "answer": "Use the definition/rule and justify your answer."
-            },
-            {
-              "question": "Verify a result using an independent check.",
-              "answer": "Use the definition/rule and justify your answer."
+              "question": "State one condition or common trap for Symmetry and Patterns.",
+              "answer": "Check the definition and conditions before applying a rule."
             }
           ]
         }
-      ],
-      "topics": [
-        {
-          "topic": "Cartesian Plane",
-          "explanation": "Cartesian Plane is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "Coordinates of a Point",
-          "explanation": "Coordinates of a Point is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "x-axis and y-axis",
-          "explanation": "x-axis and y-axis is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "Quadrants",
-          "explanation": "Quadrants is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "Plotting Points",
-          "explanation": "Plotting Points is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "Reading Coordinates",
-          "explanation": "Reading Coordinates is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "Points on Axes and Origin",
-          "explanation": "Points on Axes and Origin is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        },
-        {
-          "topic": "Symmetry and Coordinate Patterns",
-          "explanation": "Symmetry and Coordinate Patterns is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-          "examples": [
-            "Example 1 — Very basic: identify the concept and apply the rule directly.",
-            "Example 2 — Basic: solve a numerical example with every intermediate step.",
-            "Example 3 — Standard: solve a multi-step examination-style question.",
-            "Example 4 — Application: translate a word problem into mathematics and solve it.",
-            "Example 5 — Exam level: solve, verify and explain why the method works.",
-            "Example 6 — Challenge: change one condition and analyse the new result.",
-            "Example 7 — HOTS: justify the answer or find an alternative method."
-          ],
-          "quickCheck": [
-            "State the rule in your own words.",
-            "Give one example and one non-example.",
-            "Verify a result using an independent check."
-          ]
-        }
-      ],
-      "rule": "After every important topic, provide multiple examples immediately. Do not postpone examples to the end."
+      ]
     },
     {
       "id": 6,
       "title": "Step-by-Step Solved Examples",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Step-by-Step Solved Examples: detailed study material is available in the preserved legacy data."
+          "type": "method",
+          "title": "Universal Solving Method",
+          "steps": [
+            "Read",
+            "Identify Given",
+            "Identify Required",
+            "Choose Concept",
+            "Write Formula/Property",
+            "Substitute",
+            "Calculate",
+            "Verify",
+            "State Answer"
+          ]
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 1",
+          "question": "Solve a representative multi-step problem from the chapter.",
+          "steps": [
+            "Write the given information.",
+            "Select the relevant concept.",
+            "Show every important transformation.",
+            "Check the final result."
+          ],
+          "answer": "Complete the chapter-specific calculation and verification."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 2 — Exam Level",
+          "question": "Solve a problem where more than one concept is connected.",
+          "steps": [
+            "Identify both concepts.",
+            "Plan the order of operations.",
+            "Calculate carefully.",
+            "Verify using the original statement."
+          ],
+          "answer": "State the final verified result with reasoning."
         }
-      ],
-      "method": [
-        "Question",
-        "Given",
-        "Required",
-        "Concept/formula",
-        "Step 1",
-        "Step 2",
-        "Step 3",
-        "Verification",
-        "Final answer",
-        "Reasoning"
-      ],
-      "examplePolicy": "Use many examples at increasing difficulty; never jump over important algebraic steps."
+      ]
     },
     {
       "id": 7,
       "title": "Comparison Tables",
       "blocks": [
         {
-          "type": "comparison",
-          "title": "Comparison Table",
+          "type": "table",
+          "columns": [
+            "Concept",
+            "Meaning",
+            "Example / Key Feature"
+          ],
           "rows": [
-            [
-              "Concept",
-              "Meaning",
-              "Key feature / Example"
-            ],
             [
               "x-axis",
               "y=0",
-              "Horizontal axis"
+              "Horizontal"
             ],
             [
               "y-axis",
               "x=0",
-              "Vertical axis"
+              "Vertical"
             ],
             [
               "Origin",
               "(0,0)",
-              "Intersection of axes"
+              "Axes intersection"
             ],
             [
               "Quadrant I",
@@ -1241,7 +635,7 @@ window.ChapterData = {
             [
               "Quadrant II",
               "(−,+)",
-              "x negative, y positive"
+              "x negative"
             ],
             [
               "Quadrant III",
@@ -1251,52 +645,10 @@ window.ChapterData = {
             [
               "Quadrant IV",
               "(+ ,−)",
-              "x positive, y negative"
+              "y negative"
             ]
           ]
         }
-      ],
-      "columns": [
-        "Concept",
-        "Meaning",
-        "Key feature / Example"
-      ],
-      "rows": [
-        [
-          "x-axis",
-          "y=0",
-          "Horizontal axis"
-        ],
-        [
-          "y-axis",
-          "x=0",
-          "Vertical axis"
-        ],
-        [
-          "Origin",
-          "(0,0)",
-          "Intersection of axes"
-        ],
-        [
-          "Quadrant I",
-          "(+,+)",
-          "Both positive"
-        ],
-        [
-          "Quadrant II",
-          "(−,+)",
-          "x negative, y positive"
-        ],
-        [
-          "Quadrant III",
-          "(−,−)",
-          "Both negative"
-        ],
-        [
-          "Quadrant IV",
-          "(+ ,−)",
-          "x positive, y negative"
-        ]
       ]
     },
     {
@@ -1304,22 +656,15 @@ window.ChapterData = {
       "title": "Theorem / Property Lab",
       "blocks": [
         {
-          "type": "list",
-          "items": [
-            "State each applicable theorem/property precisely.",
-            "List conditions before applying it.",
-            "Demonstrate it with numerical examples.",
-            "Explain why it works and where it is useful.",
-            "For coordinate/geometry ideas, include a clean mathematical diagram where it improves understanding."
-          ]
+          "type": "property",
+          "title": "Property Investigation",
+          "text": "For every applicable property, write: statement → conditions → worked example → verification → why it is useful."
+        },
+        {
+          "type": "activity",
+          "title": "Verify the Property",
+          "text": "Choose three valid numerical cases and test the property. Then deliberately violate a condition and observe why the rule cannot be used blindly."
         }
-      ],
-      "items": [
-        "State each applicable theorem/property precisely.",
-        "List conditions before applying it.",
-        "Demonstrate it with numerical examples.",
-        "Explain why it works and where it is useful.",
-        "For coordinate/geometry ideas, include a clean mathematical diagram where it improves understanding."
       ]
     },
     {
@@ -1328,26 +673,28 @@ window.ChapterData = {
       "blocks": [
         {
           "type": "formula",
-          "text": "Point=(x,y), with x first and y second."
+          "text": "Point=(x,y), x first and y second"
         },
         {
           "type": "formula",
-          "text": "On x-axis: y=0."
+          "text": "x-axis: y=0"
         },
         {
           "type": "formula",
-          "text": "On y-axis: x=0."
+          "text": "y-axis: x=0"
         },
         {
           "type": "formula",
-          "text": "Origin=(0,0)."
+          "text": "Origin=(0,0)"
+        },
+        {
+          "type": "formula",
+          "text": "Reflection in x-axis: (x,y)→(x,−y)"
+        },
+        {
+          "type": "formula",
+          "text": "Reflection in y-axis: (x,y)→(−x,y)"
         }
-      ],
-      "items": [
-        "Point=(x,y), with x first and y second.",
-        "On x-axis: y=0.",
-        "On y-axis: x=0.",
-        "Origin=(0,0)."
       ]
     },
     {
@@ -1355,20 +702,14 @@ window.ChapterData = {
       "title": "Concept Connections",
       "blocks": [
         {
-          "type": "list",
+          "type": "connection",
           "items": [
-            "Connect definitions to representations.",
-            "Connect properties to solved examples.",
-            "Connect algebraic methods to graphs and geometry where relevant.",
-            "Show how the chapter prepares the student for later Class 9 and Class 10 mathematics."
+            "Definition → representation → operation → verification.",
+            "Algebraic notation can represent geometric positions and relationships.",
+            "Properties are shortcuts only after the underlying concept is understood.",
+            "Earlier concepts become tools for later chapters."
           ]
         }
-      ],
-      "items": [
-        "Connect definitions to representations.",
-        "Connect properties to solved examples.",
-        "Connect algebraic methods to graphs and geometry where relevant.",
-        "Show how the chapter prepares the student for later Class 9 and Class 10 mathematics."
       ]
     },
     {
@@ -1376,38 +717,15 @@ window.ChapterData = {
       "title": "Mathematical Thinking",
       "blocks": [
         {
-          "type": "practice",
-          "title": "Practice Questions",
+          "type": "thinking",
           "questions": [
-            {
-              "question": "Why does the rule work?",
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": "Can the result be obtained another way?",
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": "What changes if a condition changes?",
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": "Can you give a counterexample to a false statement?",
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": "How can the answer be verified?",
-              "answer": "Show the complete reasoning and verify the result."
-            }
+            "Why does this method work?",
+            "Can the same result be obtained another way?",
+            "What changes if one condition is changed?",
+            "Can you construct a counterexample to a false claim?",
+            "How can the answer be verified independently?"
           ]
         }
-      ],
-      "questions": [
-        "Why does the rule work?",
-        "Can the result be obtained another way?",
-        "What changes if a condition changes?",
-        "Can you give a counterexample to a false statement?",
-        "How can the answer be verified?"
       ]
     },
     {
@@ -1415,33 +733,21 @@ window.ChapterData = {
       "title": "Error Detective",
       "blocks": [
         {
-          "type": "concept",
-          "title": "A rule is used without checking its conditions.",
-          "text": "Correction: Write the conditions beside the rule before applying it."
-        },
-        {
-          "type": "concept",
-          "title": "A calculation jumps several steps.",
-          "text": "Correction: Write one mathematical transformation per line."
-        },
-        {
-          "type": "concept",
-          "title": "No verification is done.",
-          "text": "Correction: Substitute, redraw, estimate or use another method where appropriate."
-        }
-      ],
-      "cases": [
-        {
-          "mistake": "A rule is used without checking its conditions.",
-          "correction": "Write the conditions beside the rule before applying it."
-        },
-        {
-          "mistake": "A calculation jumps several steps.",
-          "correction": "Write one mathematical transformation per line."
-        },
-        {
-          "mistake": "No verification is done.",
-          "correction": "Substitute, redraw, estimate or use another method where appropriate."
+          "type": "error",
+          "cases": [
+            {
+              "mistake": "A rule is used without checking its conditions.",
+              "fix": "Write the conditions beside the rule before applying it."
+            },
+            {
+              "mistake": "Important algebraic steps are skipped.",
+              "fix": "Write one transformation per line and check signs."
+            },
+            {
+              "mistake": "The answer is not verified.",
+              "fix": "Substitute, redraw, estimate or use an alternative method where possible."
+            }
+          ]
         }
       ]
     },
@@ -1450,1436 +756,409 @@ window.ChapterData = {
       "title": "Maths Challenge",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Maths Challenge: detailed study material is available in the preserved legacy data."
+          "type": "challenge",
+          "levels": [
+            "Foundation",
+            "Standard",
+            "Advanced",
+            "HOTS",
+            "Expert"
+          ],
+          "instruction": "Each level should require complete working, reasoning and verification."
         }
-      ],
-      "levels": [
-        "Foundation",
-        "Standard",
-        "Advanced",
-        "HOTS",
-        "Expert reasoning"
-      ],
-      "rule": "Each level must require complete working and an explanation of the key idea."
+      ]
     },
     {
       "id": 14,
       "title": "Real-Life Mathematics",
       "blocks": [
         {
-          "type": "list",
+          "type": "application",
           "items": [
-            "Model a realistic situation using the chapter when appropriate.",
-            "State assumptions and units.",
-            "Check whether the answer is reasonable in context."
+            "Identify the real quantities and their units.",
+            "Translate the situation into mathematical language.",
+            "Solve using the chapter's concepts.",
+            "Interpret the answer in the original situation.",
+            "Check whether the result is reasonable."
           ]
         }
-      ],
-      "items": [
-        "Model a realistic situation using the chapter when appropriate.",
-        "State assumptions and units.",
-        "Check whether the answer is reasonable in context."
       ]
     },
     {
       "id": 15,
-      "title": "Comic Stories",
+      "title": "Mathematical Activity Lab",
       "blocks": [
         {
-          "type": "comic",
-          "title": "Learning Coordinate Geometry",
-          "dialogue": [
-            "Surya: I can calculate it, but I want to understand why.",
-            "Ansh: Let's test the rule with a simple example first.",
-            "Teacher: Correct. A good mathematical solution explains both the steps and the reason.",
-            "Surya: Then I should verify the result too.",
-            "Teacher: Exactly. Now solve the next example independently."
-          ]
+          "type": "activity",
+          "title": "Explore",
+          "text": "Create three simple examples, three standard examples and one unusual example. Record what remains constant and what changes."
         },
         {
-          "type": "comic",
-          "title": "Error Detective",
-          "dialogue": [
-            "Surya: My final answer looks different.",
-            "Ansh: Don't guess. Find the first line where the logic changes.",
-            "Teacher: Excellent. Correct the first error, then continue and verify the result."
-          ]
-        }
-      ],
-      "stories": [
-        {
-          "title": "Learning Coordinate Geometry",
-          "dialogue": [
-            "Surya: I can calculate it, but I want to understand why.",
-            "Ansh: Let's test the rule with a simple example first.",
-            "Teacher: Correct. A good mathematical solution explains both the steps and the reason.",
-            "Surya: Then I should verify the result too.",
-            "Teacher: Exactly. Now solve the next example independently."
-          ]
+          "type": "activity",
+          "title": "Error Hunt",
+          "text": "Compare a correct solution with an incorrect one and identify the first invalid step."
         },
         {
-          "title": "Error Detective",
-          "dialogue": [
-            "Surya: My final answer looks different.",
-            "Ansh: Don't guess. Find the first line where the logic changes.",
-            "Teacher: Excellent. Correct the first error, then continue and verify the result."
-          ]
+          "type": "activity",
+          "title": "Verification Lab",
+          "text": "Solve one suitable problem in two different ways and compare the results."
         }
       ]
     },
     {
       "id": 16,
-      "title": "Mathematical Activity Lab",
+      "title": "Visual Learning",
       "blocks": [
         {
-          "type": "activity",
-          "title": "Mathematical Activity",
-          "text": "Example investigation: solve three related questions and record the pattern."
-        },
-        {
-          "type": "activity",
-          "title": "Mathematical Activity",
-          "text": "Error hunt: compare a correct and incorrect solution."
-        },
-        {
-          "type": "activity",
-          "title": "Mathematical Activity",
-          "text": "Pattern hunt: build a small table and describe the relationship."
-        },
-        {
-          "type": "activity",
-          "title": "Mathematical Activity",
-          "text": "Verification lab: solve one problem in two methods where possible."
+          "type": "visual",
+          "items": [
+            "Use clean mathematical diagrams, number lines, graphs, coordinate planes, tables and labelled figures where they improve understanding.",
+            "Visuals must explain mathematics, not act as decoration.",
+            "All axes, points, scales and units should be labelled."
+          ]
         }
-      ],
-      "activities": [
-        "Example investigation: solve three related questions and record the pattern.",
-        "Error hunt: compare a correct and incorrect solution.",
-        "Pattern hunt: build a small table and describe the relationship.",
-        "Verification lab: solve one problem in two methods where possible."
       ]
     },
     {
       "id": 17,
-      "title": "Visual Learning",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "Use number lines, graphs, coordinate planes, geometric figures and structured mathematical diagrams when they genuinely clarify a concept.",
-            "Prefer reliable HTML/SVG-style mathematical visuals over broken external images.",
-            "Label axes, points, scales and units clearly."
-          ]
-        }
-      ],
-      "items": [
-        "Use number lines, graphs, coordinate planes, geometric figures and structured mathematical diagrams when they genuinely clarify a concept.",
-        "Prefer reliable HTML/SVG-style mathematical visuals over broken external images.",
-        "Label axes, points, scales and units clearly."
-      ]
-    },
-    {
-      "id": 18,
       "title": "Master Definitions",
       "blocks": [
         {
           "type": "definition",
           "title": "Cartesian plane",
-          "text": "Precise meaning of Cartesian plane, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Cartesian plane. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "Coordinate",
-          "text": "Precise meaning of Coordinate, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Coordinate. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "Ordered pair",
-          "text": "Precise meaning of Ordered pair, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Ordered pair. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "x-axis",
-          "text": "Precise meaning of x-axis, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of x-axis. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "y-axis",
-          "text": "Precise meaning of y-axis, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of y-axis. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "Origin",
-          "text": "Precise meaning of Origin, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Origin. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "Quadrant",
-          "text": "Precise meaning of Quadrant, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Quadrant. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "Abscissa",
-          "text": "Precise meaning of Abscissa, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Abscissa. Include notation, a simple example and a non-example when useful."
         },
         {
           "type": "definition",
           "title": "Ordinate",
-          "text": "Precise meaning of Ordinate, followed by notation, a simple example and a non-example where useful."
+          "text": "Precise definition of Ordinate. Include notation, a simple example and a non-example when useful."
         }
-      ],
-      "items": [
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Formula Revision Sheet",
+      "blocks": [
         {
-          "term": "Cartesian plane",
-          "definition": "Precise meaning of Cartesian plane, followed by notation, a simple example and a non-example where useful."
+          "type": "formula",
+          "text": "Point=(x,y), x first and y second"
         },
         {
-          "term": "Coordinate",
-          "definition": "Precise meaning of Coordinate, followed by notation, a simple example and a non-example where useful."
+          "type": "formula",
+          "text": "x-axis: y=0"
         },
         {
-          "term": "Ordered pair",
-          "definition": "Precise meaning of Ordered pair, followed by notation, a simple example and a non-example where useful."
+          "type": "formula",
+          "text": "y-axis: x=0"
         },
         {
-          "term": "x-axis",
-          "definition": "Precise meaning of x-axis, followed by notation, a simple example and a non-example where useful."
+          "type": "formula",
+          "text": "Origin=(0,0)"
         },
         {
-          "term": "y-axis",
-          "definition": "Precise meaning of y-axis, followed by notation, a simple example and a non-example where useful."
+          "type": "formula",
+          "text": "Reflection in x-axis: (x,y)→(x,−y)"
         },
         {
-          "term": "Origin",
-          "definition": "Precise meaning of Origin, followed by notation, a simple example and a non-example where useful."
-        },
-        {
-          "term": "Quadrant",
-          "definition": "Precise meaning of Quadrant, followed by notation, a simple example and a non-example where useful."
-        },
-        {
-          "term": "Abscissa",
-          "definition": "Precise meaning of Abscissa, followed by notation, a simple example and a non-example where useful."
-        },
-        {
-          "term": "Ordinate",
-          "definition": "Precise meaning of Ordinate, followed by notation, a simple example and a non-example where useful."
+          "type": "formula",
+          "text": "Reflection in y-axis: (x,y)→(−x,y)"
         }
       ]
     },
     {
       "id": 19,
-      "title": "Formula Revision Sheet",
+      "title": "Question Bank",
       "blocks": [
         {
-          "type": "formula",
-          "text": "Point=(x,y), with x first and y second."
-        },
-        {
-          "type": "formula",
-          "text": "On x-axis: y=0."
-        },
-        {
-          "type": "formula",
-          "text": "On y-axis: x=0."
-        },
-        {
-          "type": "formula",
-          "text": "Origin=(0,0)."
+          "type": "question-bank",
+          "categories": {
+            "Basic": [
+              "Define, identify and classify.",
+              "Solve a direct question.",
+              "State the relevant property."
+            ],
+            "Standard": [
+              "Solve a multi-step question.",
+              "Explain the method.",
+              "Verify the result."
+            ],
+            "Advanced": [
+              "Solve an unfamiliar variation.",
+              "Compare methods.",
+              "Correct a flawed solution."
+            ],
+            "HOTS": [
+              "Justify a claim.",
+              "Find a counterexample.",
+              "Change a condition and analyse the effect."
+            ],
+            "Challenge": [
+              "Solve with minimal hints.",
+              "Explain why the method is valid."
+            ]
+          }
         }
-      ],
-      "items": [
-        "Point=(x,y), with x first and y second.",
-        "On x-axis: y=0.",
-        "On y-axis: x=0.",
-        "Origin=(0,0)."
       ]
     },
     {
       "id": 20,
-      "title": "Question Bank",
-      "blocks": [
-        {
-          "type": "practice",
-          "title": "Basic",
-          "questions": [
-            {
-              "question": "Define and identify the concept.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Solve a direct numerical question.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "State the relevant property.",
-              "answer": "Complete solution with reasoning."
-            }
-          ]
-        },
-        {
-          "type": "practice",
-          "title": "Standard",
-          "questions": [
-            {
-              "question": "Solve a multi-step problem.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Explain the method.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Verify the answer.",
-              "answer": "Complete solution with reasoning."
-            }
-          ]
-        },
-        {
-          "type": "practice",
-          "title": "Advanced",
-          "questions": [
-            {
-              "question": "Solve an unfamiliar variation.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Compare two methods.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Correct a flawed solution.",
-              "answer": "Complete solution with reasoning."
-            }
-          ]
-        },
-        {
-          "type": "practice",
-          "title": "HOTS",
-          "questions": [
-            {
-              "question": "Justify a statement.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Find a counterexample.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Change a condition and analyse the effect.",
-              "answer": "Complete solution with reasoning."
-            }
-          ]
-        },
-        {
-          "type": "practice",
-          "title": "Challenge",
-          "questions": [
-            {
-              "question": "Solve a multi-step problem with minimal hints.",
-              "answer": "Complete solution with reasoning."
-            },
-            {
-              "question": "Explain why the method is valid.",
-              "answer": "Complete solution with reasoning."
-            }
-          ]
-        }
-      ],
-      "categories": {
-        "Basic": [
-          "Define and identify the concept.",
-          "Solve a direct numerical question.",
-          "State the relevant property."
-        ],
-        "Standard": [
-          "Solve a multi-step problem.",
-          "Explain the method.",
-          "Verify the answer."
-        ],
-        "Advanced": [
-          "Solve an unfamiliar variation.",
-          "Compare two methods.",
-          "Correct a flawed solution."
-        ],
-        "HOTS": [
-          "Justify a statement.",
-          "Find a counterexample.",
-          "Change a condition and analyse the effect."
-        ],
-        "Challenge": [
-          "Solve a multi-step problem with minimal hints.",
-          "Explain why the method is valid."
-        ]
-      }
-    },
-    {
-      "id": 21,
       "title": "Show Answer System",
       "blocks": [
         {
-          "type": "paragraph",
-          "title": "Show Answer System",
-          "text": "Question → Show Answer button → Answer → Complete solution → Verification. The site can keep answers hidden using its existing interaction layer."
+          "type": "show-answer",
+          "buttonText": "Show Answer",
+          "display": [
+            "Question",
+            "[Show Answer]",
+            "Answer",
+            "Complete Solution",
+            "Verification"
+          ]
         }
-      ],
-      "ui": {
-        "buttonText": "Show Answer",
-        "displayOrder": [
-          "Question",
-          "Show Answer button",
-          "Answer",
-          "Complete solution",
-          "Reasoning",
-          "Verification"
-        ],
-        "rule": "Solutions stay hidden until the student presses Show Answer."
-      }
+      ]
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Practice Sets",
       "blocks": [
         {
-          "type": "practice",
-          "title": "A — Foundation",
-          "text": "10 questions. Use the Show Answer system for complete solutions."
-        },
-        {
-          "type": "practice",
-          "title": "B — Standard",
-          "text": "12 questions. Use the Show Answer system for complete solutions."
-        },
-        {
-          "type": "practice",
-          "title": "C — Advanced",
-          "text": "12 questions. Use the Show Answer system for complete solutions."
-        },
-        {
-          "type": "practice",
-          "title": "D — HOTS",
-          "text": "10 questions. Use the Show Answer system for complete solutions."
-        },
-        {
-          "type": "practice",
-          "title": "E — Challenge",
-          "text": "8 questions. Use the Show Answer system for complete solutions."
+          "type": "practice-set",
+          "sets": [
+            {
+              "name": "Practice A — Foundation",
+              "count": 10
+            },
+            {
+              "name": "Practice B — Standard",
+              "count": 12
+            },
+            {
+              "name": "Practice C — Advanced",
+              "count": 12
+            },
+            {
+              "name": "Practice D — HOTS",
+              "count": 10
+            },
+            {
+              "name": "Practice E — Challenge",
+              "count": 8
+            }
+          ]
         }
-      ],
-      "sets": [
-        {
-          "name": "A — Foundation",
-          "questions": 10
-        },
-        {
-          "name": "B — Standard",
-          "questions": 12
-        },
-        {
-          "name": "C — Advanced",
-          "questions": 12
-        },
-        {
-          "name": "D — HOTS",
-          "questions": 10
-        },
-        {
-          "name": "E — Challenge",
-          "questions": 8
-        }
-      ],
-      "answerRule": "Every question has a Show Answer button with complete steps."
+      ]
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Timed Practice",
       "blocks": [
         {
-          "type": "important",
-          "title": "Timed Practice",
-          "text": "10-minute sprint"
-        },
-        {
-          "type": "important",
-          "title": "Timed Practice",
-          "text": "20-minute mixed practice"
-        },
-        {
-          "type": "important",
-          "title": "Timed Practice",
-          "text": "30-minute challenge"
+          "type": "timer-set",
+          "sets": [
+            "10-minute sprint",
+            "20-minute mixed practice",
+            "30-minute challenge"
+          ]
         }
-      ],
-      "modes": [
-        "10-minute sprint",
-        "20-minute mixed practice",
-        "30-minute challenge"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Chapter Quiz",
+      "blocks": [
+        {
+          "type": "quiz",
+          "parts": [
+            "MCQ",
+            "Conceptual",
+            "Numerical",
+            "Assertion–Reason",
+            "Case-based",
+            "HOTS"
+          ],
+          "difficulty": [
+            "Easy",
+            "Medium",
+            "Hard",
+            "Expert"
+          ]
+        }
       ]
     },
     {
       "id": 24,
-      "title": "Chapter Quiz",
+      "title": "Exam Zone",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Chapter Quiz: detailed study material is available in the preserved legacy data."
+          "type": "exam",
+          "items": [
+            "Most important definitions",
+            "Formula/property questions",
+            "Typical question patterns",
+            "Reasoning questions",
+            "Common traps",
+            "Step presentation",
+            "Verification",
+            "Time management"
+          ]
         }
-      ],
-      "parts": [
-        "MCQ",
-        "Conceptual",
-        "Numerical",
-        "Assertion–Reason",
-        "Case-based",
-        "HOTS"
-      ],
-      "difficulty": [
-        "Easy",
-        "Medium",
-        "Hard",
-        "Expert"
       ]
     },
     {
       "id": 25,
-      "title": "Exam Zone",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "Most important definitions",
-            "Most important formulas/properties",
-            "Typical question patterns",
-            "Common traps",
-            "How to show working",
-            "How to verify answers",
-            "Time-management strategy"
-          ]
-        }
-      ],
-      "items": [
-        "Most important definitions",
-        "Most important formulas/properties",
-        "Typical question patterns",
-        "Common traps",
-        "How to show working",
-        "How to verify answers",
-        "Time-management strategy"
-      ]
-    },
-    {
-      "id": 26,
       "title": "Common Mistakes",
       "blocks": [
         {
           "type": "list",
           "items": [
-            "Reversing x and y.",
-            "Ignoring signs.",
-            "Using an unclear or inconsistent scale.",
-            "Putting a point in the wrong quadrant."
+            "Read the question completely before selecting a method.",
+            "Do not apply a formula without checking its conditions.",
+            "Keep signs, brackets and coordinate order under control.",
+            "Do not skip a step that changes the expression.",
+            "Always verify an important final answer."
           ]
         }
-      ],
-      "items": [
-        "Reversing x and y.",
-        "Ignoring signs.",
-        "Using an unclear or inconsistent scale.",
-        "Putting a point in the wrong quadrant."
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Master Revision",
+      "blocks": [
+        {
+          "type": "revision-plan",
+          "plans": [
+            "5 min — definitions + formulas",
+            "15 min — representative examples",
+            "30 min — examples + mistakes + practice",
+            "Pre-exam — important points + key terms + final test"
+          ]
+        }
       ]
     },
     {
       "id": 27,
-      "title": "Master Revision",
+      "title": "Detailed Summary",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Master Revision: detailed study material is available in the preserved legacy data."
+          "type": "summary",
+          "text": "Chapter 3 introduces the Cartesian coordinate plane as a bridge between algebra and geometry. Students learn to read and plot ordered pairs, identify axes and quadrants, and interpret the position of points through signs and coordinates. The coordinate plane becomes a visual language for mathematical relationships. The chapter should be revised as a connected sequence of definitions, representations, properties, examples, applications and verification."
         }
-      ],
-      "plans": [
-        "5-minute: key definitions and formulas",
-        "15-minute: formulas plus representative examples",
-        "30-minute: examples, mistakes and practice",
-        "Pre-exam: important points, key terms and final test"
       ]
     },
     {
       "id": 28,
-      "title": "Detailed Summary",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Coordinate Geometry should be understood as a connected system rather than a list of formulas. Start with definitions, understand the representation, practise many examples, apply properties under their conditions, detect mistakes and finish with mixed problems."
-        }
-      ],
-      "content": "Coordinate Geometry should be understood as a connected system rather than a list of formulas. Start with definitions, understand the representation, practise many examples, apply properties under their conditions, detect mistakes and finish with mixed problems."
-    },
-    {
-      "id": 29,
       "title": "Final Chapter Test",
       "blocks": [
         {
-          "type": "practice",
-          "title": "Practice Questions",
-          "questions": [
-            {
-              "question": {
-                "question": "Q1. Explain the central idea of Coordinate Geometry with a suitable example.",
-                "answer": "Give the definition, identify the relevant rule, solve the example line by line and verify it."
-              },
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": {
-                "question": "Q2. Solve a multi-step problem from Coordinate Geometry.",
-                "answer": "Show all important transformations and state the final answer clearly."
-              },
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": {
-                "question": "Q3. Find and correct an error in a solution.",
-                "answer": "Identify the first invalid step, explain the violated rule, correct it and verify."
-              },
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": {
-                "question": "Q4. Solve an application-based problem.",
-                "answer": "Translate the situation into mathematics, solve step by step, check reasonableness and state units if needed."
-              },
-              "answer": "Show the complete reasoning and verify the result."
-            },
-            {
-              "question": {
-                "question": "Q5. Solve a HOTS variation.",
-                "answer": "Explain how the changed condition affects the method before completing the calculation."
-              },
-              "answer": "Show the complete reasoning and verify the result."
-            }
-          ]
+          "type": "final-test",
+          "question": "Question 1 — Explain the central concept and solve a suitable example.",
+          "answer": "Write the definition, select the property, solve line by line and verify."
         },
         {
-          "type": "paragraph",
-          "text": "Every item follows Question → [Show Answer] button → Answer + complete solution."
+          "type": "final-test",
+          "question": "Question 2 — Solve a multi-step examination-style problem.",
+          "answer": "Show all important transformations and state the verified result."
         },
         {
-          "type": "practice",
-          "title": "Q1. Explain the central idea of Coordinate Geometry with a suitable example.",
-          "questions": [
-            {
-              "question": "Q1. Explain the central idea of Coordinate Geometry with a suitable example.",
-              "answer": "Give the definition, identify the relevant rule, solve the example line by line and verify it."
-            }
-          ]
+          "type": "final-test",
+          "question": "Question 3 — Find and correct an error.",
+          "answer": "Identify the first invalid step, explain why it is invalid, correct it and verify."
         },
         {
-          "type": "practice",
-          "title": "Q2. Solve a multi-step problem from Coordinate Geometry.",
-          "questions": [
-            {
-              "question": "Q2. Solve a multi-step problem from Coordinate Geometry.",
-              "answer": "Show all important transformations and state the final answer clearly."
-            }
-          ]
+          "type": "final-test",
+          "question": "Question 4 — Solve an application problem.",
+          "answer": "Model the situation, solve, interpret and check reasonableness."
         },
         {
-          "type": "practice",
-          "title": "Q3. Find and correct an error in a solution.",
-          "questions": [
-            {
-              "question": "Q3. Find and correct an error in a solution.",
-              "answer": "Identify the first invalid step, explain the violated rule, correct it and verify."
-            }
-          ]
-        },
-        {
-          "type": "practice",
-          "title": "Q4. Solve an application-based problem.",
-          "questions": [
-            {
-              "question": "Q4. Solve an application-based problem.",
-              "answer": "Translate the situation into mathematics, solve step by step, check reasonableness and state units if needed."
-            }
-          ]
-        },
-        {
-          "type": "practice",
-          "title": "Q5. Solve a HOTS variation.",
-          "questions": [
-            {
-              "question": "Q5. Solve a HOTS variation.",
-              "answer": "Explain how the changed condition affects the method before completing the calculation."
-            }
-          ]
+          "type": "final-test",
+          "question": "Question 5 — Solve a HOTS variation.",
+          "answer": "Analyse the changed condition before calculating."
         }
-      ],
-      "instructions": "Every item follows Question → [Show Answer] button → Answer + complete solution.",
-      "questions": [
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Important Points",
+      "blocks": [
         {
-          "question": "Q1. Explain the central idea of Coordinate Geometry with a suitable example.",
-          "answer": "Give the definition, identify the relevant rule, solve the example line by line and verify it."
+          "type": "keypoint",
+          "text": "Master the definitions first; then apply properties through examples and verification."
         },
         {
-          "question": "Q2. Solve a multi-step problem from Coordinate Geometry.",
-          "answer": "Show all important transformations and state the final answer clearly."
-        },
-        {
-          "question": "Q3. Find and correct an error in a solution.",
-          "answer": "Identify the first invalid step, explain the violated rule, correct it and verify."
-        },
-        {
-          "question": "Q4. Solve an application-based problem.",
-          "answer": "Translate the situation into mathematics, solve step by step, check reasonableness and state units if needed."
-        },
-        {
-          "question": "Q5. Solve a HOTS variation.",
-          "answer": "Explain how the changed condition affects the method before completing the calculation."
+          "type": "keypoint",
+          "text": "A correct final answer without reasoning is not a complete mathematical solution."
         }
       ]
     },
     {
       "id": 30,
-      "title": "Important Points",
+      "title": "Key Terms",
       "blocks": [
         {
-          "type": "keypoint",
-          "text": "Coordinates are read x first, y second."
-        },
-        {
-          "type": "keypoint",
-          "text": "Signs determine the quadrant."
-        },
-        {
-          "type": "keypoint",
-          "text": "A point on an axis has one coordinate zero."
-        },
-        {
-          "type": "keypoint",
-          "text": "Origin is (0,0)."
-        },
-        {
-          "type": "keypoint",
-          "text": "Use a clear scale when plotting."
+          "type": "key-term",
+          "items": [
+            "Core definitions",
+            "Symbols",
+            "Properties",
+            "Important vocabulary"
+          ]
         }
-      ],
-      "items": [
-        "Coordinates are read x first, y second.",
-        "Signs determine the quadrant.",
-        "A point on an axis has one coordinate zero.",
-        "Origin is (0,0).",
-        "Use a clear scale when plotting."
       ]
     },
     {
       "id": 31,
-      "title": "Key Terms",
+      "title": "Chapter Summary",
       "blocks": [
         {
-          "type": "keypoint",
-          "text": "Cartesian plane"
-        },
-        {
-          "type": "keypoint",
-          "text": "Coordinate"
-        },
-        {
-          "type": "keypoint",
-          "text": "Ordered pair"
-        },
-        {
-          "type": "keypoint",
-          "text": "x-axis"
-        },
-        {
-          "type": "keypoint",
-          "text": "y-axis"
-        },
-        {
-          "type": "keypoint",
-          "text": "Origin"
-        },
-        {
-          "type": "keypoint",
-          "text": "Quadrant"
-        },
-        {
-          "type": "keypoint",
-          "text": "Abscissa"
-        },
-        {
-          "type": "keypoint",
-          "text": "Ordinate"
+          "type": "summary",
+          "text": "Coordinate Geometry: learn the meaning, understand the representation, practise many examples from easy to HOTS, apply properties under their conditions, detect errors, revise formulas and complete the final test."
         }
-      ],
-      "items": [
-        "Cartesian plane",
-        "Coordinate",
-        "Ordered pair",
-        "x-axis",
-        "y-axis",
-        "Origin",
-        "Quadrant",
-        "Abscissa",
-        "Ordinate"
       ]
     },
     {
       "id": 32,
-      "title": "Chapter Summary",
+      "title": "Chapter Summary — Final Takeaway",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "Final revision of Coordinate Geometry: master the definitions, understand the representation, use formulas and properties with their conditions, study multiple solved examples, practise progressively, check common mistakes, and finish with HOTS and exam-style questions."
+          "type": "summary",
+          "text": "Final one-page takeaway for Coordinate Geometry: definitions → concepts → worked examples → properties → applications → practice → exam revision → verification."
         }
-      ],
-      "content": "Final revision of Coordinate Geometry: master the definitions, understand the representation, use formulas and properties with their conditions, study multiple solved examples, practise progressively, check common mistakes, and finish with HOTS and exam-style questions."
+      ]
     }
-  ],
-  "renderVersion": "Universal Renderer Compatible v2",
-  "legacyData": {
-    "title": "Coordinate Geometry",
-    "class": 9,
-    "subject": "Mathematics",
-    "chapter": 3,
-    "formatVersion": "Class 9 Mathematics — Final 32 Section Format",
-    "sections": [
-      {
-        "id": 1,
-        "title": "Chapter Header",
-        "content": [
-          "Chapter 3: Coordinate Geometry",
-          "A complete concept-to-practice chapter designed for Class 9 foundation building."
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Learning Objectives",
-        "items": [
-          "Understand all core concepts and definitions.",
-          "Apply properties and formulas correctly.",
-          "Solve problems from basic to HOTS level.",
-          "Explain mathematical reasoning and verify answers.",
-          "Connect the chapter with later mathematics."
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Prerequisite Check",
-        "items": [
-          "Revise arithmetic operations, signs, fractions and basic algebra.",
-          "Read mathematical symbols carefully.",
-          "Use substitution and simplification accurately."
-        ],
-        "questions": [
-          "What do you already know that this chapter uses?",
-          "Which prerequisite skill needs revision?"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Concept Roadmap",
-        "flow": [
-          "Chapter 3: Coordinate Geometry",
-          "Definitions",
-          "Main concepts",
-          "Many worked examples",
-          "Properties/formulas",
-          "Reasoning",
-          "Practice",
-          "Quiz",
-          "Exam revision",
-          "Final test"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Main Concepts",
-        "topics": [
-          {
-            "topic": "Cartesian Plane",
-            "explanation": "Cartesian Plane is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "Coordinates of a Point",
-            "explanation": "Coordinates of a Point is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "x-axis and y-axis",
-            "explanation": "x-axis and y-axis is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "Quadrants",
-            "explanation": "Quadrants is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "Plotting Points",
-            "explanation": "Plotting Points is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "Reading Coordinates",
-            "explanation": "Reading Coordinates is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "Points on Axes and Origin",
-            "explanation": "Points on Axes and Origin is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          },
-          {
-            "topic": "Symmetry and Coordinate Patterns",
-            "explanation": "Symmetry and Coordinate Patterns is explained from first principles, followed by its definition, notation, conditions, reasoning and applications.",
-            "examples": [
-              "Example 1 — Very basic: identify the concept and apply the rule directly.",
-              "Example 2 — Basic: solve a numerical example with every intermediate step.",
-              "Example 3 — Standard: solve a multi-step examination-style question.",
-              "Example 4 — Application: translate a word problem into mathematics and solve it.",
-              "Example 5 — Exam level: solve, verify and explain why the method works.",
-              "Example 6 — Challenge: change one condition and analyse the new result.",
-              "Example 7 — HOTS: justify the answer or find an alternative method."
-            ],
-            "quickCheck": [
-              "State the rule in your own words.",
-              "Give one example and one non-example.",
-              "Verify a result using an independent check."
-            ]
-          }
-        ],
-        "rule": "After every important topic, provide multiple examples immediately. Do not postpone examples to the end."
-      },
-      {
-        "id": 6,
-        "title": "Step-by-Step Solved Examples",
-        "method": [
-          "Question",
-          "Given",
-          "Required",
-          "Concept/formula",
-          "Step 1",
-          "Step 2",
-          "Step 3",
-          "Verification",
-          "Final answer",
-          "Reasoning"
-        ],
-        "examplePolicy": "Use many examples at increasing difficulty; never jump over important algebraic steps."
-      },
-      {
-        "id": 7,
-        "title": "Comparison Tables",
-        "columns": [
-          "Concept",
-          "Meaning",
-          "Key feature / Example"
-        ],
-        "rows": [
-          [
-            "x-axis",
-            "y=0",
-            "Horizontal axis"
-          ],
-          [
-            "y-axis",
-            "x=0",
-            "Vertical axis"
-          ],
-          [
-            "Origin",
-            "(0,0)",
-            "Intersection of axes"
-          ],
-          [
-            "Quadrant I",
-            "(+,+)",
-            "Both positive"
-          ],
-          [
-            "Quadrant II",
-            "(−,+)",
-            "x negative, y positive"
-          ],
-          [
-            "Quadrant III",
-            "(−,−)",
-            "Both negative"
-          ],
-          [
-            "Quadrant IV",
-            "(+ ,−)",
-            "x positive, y negative"
-          ]
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Theorem / Property Lab",
-        "items": [
-          "State each applicable theorem/property precisely.",
-          "List conditions before applying it.",
-          "Demonstrate it with numerical examples.",
-          "Explain why it works and where it is useful.",
-          "For coordinate/geometry ideas, include a clean mathematical diagram where it improves understanding."
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Formula & Property Bank",
-        "items": [
-          "Point=(x,y), with x first and y second.",
-          "On x-axis: y=0.",
-          "On y-axis: x=0.",
-          "Origin=(0,0)."
-        ]
-      },
-      {
-        "id": 10,
-        "title": "Concept Connections",
-        "items": [
-          "Connect definitions to representations.",
-          "Connect properties to solved examples.",
-          "Connect algebraic methods to graphs and geometry where relevant.",
-          "Show how the chapter prepares the student for later Class 9 and Class 10 mathematics."
-        ]
-      },
-      {
-        "id": 11,
-        "title": "Mathematical Thinking",
-        "questions": [
-          "Why does the rule work?",
-          "Can the result be obtained another way?",
-          "What changes if a condition changes?",
-          "Can you give a counterexample to a false statement?",
-          "How can the answer be verified?"
-        ]
-      },
-      {
-        "id": 12,
-        "title": "Error Detective",
-        "cases": [
-          {
-            "mistake": "A rule is used without checking its conditions.",
-            "correction": "Write the conditions beside the rule before applying it."
-          },
-          {
-            "mistake": "A calculation jumps several steps.",
-            "correction": "Write one mathematical transformation per line."
-          },
-          {
-            "mistake": "No verification is done.",
-            "correction": "Substitute, redraw, estimate or use another method where appropriate."
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "title": "Maths Challenge",
-        "levels": [
-          "Foundation",
-          "Standard",
-          "Advanced",
-          "HOTS",
-          "Expert reasoning"
-        ],
-        "rule": "Each level must require complete working and an explanation of the key idea."
-      },
-      {
-        "id": 14,
-        "title": "Real-Life Mathematics",
-        "items": [
-          "Model a realistic situation using the chapter when appropriate.",
-          "State assumptions and units.",
-          "Check whether the answer is reasonable in context."
-        ]
-      },
-      {
-        "id": 15,
-        "title": "Comic Stories",
-        "stories": [
-          {
-            "title": "Learning Coordinate Geometry",
-            "dialogue": [
-              "Surya: I can calculate it, but I want to understand why.",
-              "Ansh: Let's test the rule with a simple example first.",
-              "Teacher: Correct. A good mathematical solution explains both the steps and the reason.",
-              "Surya: Then I should verify the result too.",
-              "Teacher: Exactly. Now solve the next example independently."
-            ]
-          },
-          {
-            "title": "Error Detective",
-            "dialogue": [
-              "Surya: My final answer looks different.",
-              "Ansh: Don't guess. Find the first line where the logic changes.",
-              "Teacher: Excellent. Correct the first error, then continue and verify the result."
-            ]
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "title": "Mathematical Activity Lab",
-        "activities": [
-          "Example investigation: solve three related questions and record the pattern.",
-          "Error hunt: compare a correct and incorrect solution.",
-          "Pattern hunt: build a small table and describe the relationship.",
-          "Verification lab: solve one problem in two methods where possible."
-        ]
-      },
-      {
-        "id": 17,
-        "title": "Visual Learning",
-        "items": [
-          "Use number lines, graphs, coordinate planes, geometric figures and structured mathematical diagrams when they genuinely clarify a concept.",
-          "Prefer reliable HTML/SVG-style mathematical visuals over broken external images.",
-          "Label axes, points, scales and units clearly."
-        ]
-      },
-      {
-        "id": 18,
-        "title": "Master Definitions",
-        "items": [
-          {
-            "term": "Cartesian plane",
-            "definition": "Precise meaning of Cartesian plane, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "Coordinate",
-            "definition": "Precise meaning of Coordinate, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "Ordered pair",
-            "definition": "Precise meaning of Ordered pair, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "x-axis",
-            "definition": "Precise meaning of x-axis, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "y-axis",
-            "definition": "Precise meaning of y-axis, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "Origin",
-            "definition": "Precise meaning of Origin, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "Quadrant",
-            "definition": "Precise meaning of Quadrant, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "Abscissa",
-            "definition": "Precise meaning of Abscissa, followed by notation, a simple example and a non-example where useful."
-          },
-          {
-            "term": "Ordinate",
-            "definition": "Precise meaning of Ordinate, followed by notation, a simple example and a non-example where useful."
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "title": "Formula Revision Sheet",
-        "items": [
-          "Point=(x,y), with x first and y second.",
-          "On x-axis: y=0.",
-          "On y-axis: x=0.",
-          "Origin=(0,0)."
-        ]
-      },
-      {
-        "id": 20,
-        "title": "Question Bank",
-        "categories": {
-          "Basic": [
-            "Define and identify the concept.",
-            "Solve a direct numerical question.",
-            "State the relevant property."
-          ],
-          "Standard": [
-            "Solve a multi-step problem.",
-            "Explain the method.",
-            "Verify the answer."
-          ],
-          "Advanced": [
-            "Solve an unfamiliar variation.",
-            "Compare two methods.",
-            "Correct a flawed solution."
-          ],
-          "HOTS": [
-            "Justify a statement.",
-            "Find a counterexample.",
-            "Change a condition and analyse the effect."
-          ],
-          "Challenge": [
-            "Solve a multi-step problem with minimal hints.",
-            "Explain why the method is valid."
-          ]
-        }
-      },
-      {
-        "id": 21,
-        "title": "Show Answer System",
-        "ui": {
-          "buttonText": "Show Answer",
-          "displayOrder": [
-            "Question",
-            "Show Answer button",
-            "Answer",
-            "Complete solution",
-            "Reasoning",
-            "Verification"
-          ],
-          "rule": "Solutions stay hidden until the student presses Show Answer."
-        }
-      },
-      {
-        "id": 22,
-        "title": "Practice Sets",
-        "sets": [
-          {
-            "name": "A — Foundation",
-            "questions": 10
-          },
-          {
-            "name": "B — Standard",
-            "questions": 12
-          },
-          {
-            "name": "C — Advanced",
-            "questions": 12
-          },
-          {
-            "name": "D — HOTS",
-            "questions": 10
-          },
-          {
-            "name": "E — Challenge",
-            "questions": 8
-          }
-        ],
-        "answerRule": "Every question has a Show Answer button with complete steps."
-      },
-      {
-        "id": 23,
-        "title": "Timed Practice",
-        "modes": [
-          "10-minute sprint",
-          "20-minute mixed practice",
-          "30-minute challenge"
-        ]
-      },
-      {
-        "id": 24,
-        "title": "Chapter Quiz",
-        "parts": [
-          "MCQ",
-          "Conceptual",
-          "Numerical",
-          "Assertion–Reason",
-          "Case-based",
-          "HOTS"
-        ],
-        "difficulty": [
-          "Easy",
-          "Medium",
-          "Hard",
-          "Expert"
-        ]
-      },
-      {
-        "id": 25,
-        "title": "Exam Zone",
-        "items": [
-          "Most important definitions",
-          "Most important formulas/properties",
-          "Typical question patterns",
-          "Common traps",
-          "How to show working",
-          "How to verify answers",
-          "Time-management strategy"
-        ]
-      },
-      {
-        "id": 26,
-        "title": "Common Mistakes",
-        "items": [
-          "Reversing x and y.",
-          "Ignoring signs.",
-          "Using an unclear or inconsistent scale.",
-          "Putting a point in the wrong quadrant."
-        ]
-      },
-      {
-        "id": 27,
-        "title": "Master Revision",
-        "plans": [
-          "5-minute: key definitions and formulas",
-          "15-minute: formulas plus representative examples",
-          "30-minute: examples, mistakes and practice",
-          "Pre-exam: important points, key terms and final test"
-        ]
-      },
-      {
-        "id": 28,
-        "title": "Detailed Summary",
-        "content": "Coordinate Geometry should be understood as a connected system rather than a list of formulas. Start with definitions, understand the representation, practise many examples, apply properties under their conditions, detect mistakes and finish with mixed problems."
-      },
-      {
-        "id": 29,
-        "title": "Final Chapter Test",
-        "instructions": "Every item follows Question → [Show Answer] button → Answer + complete solution.",
-        "questions": [
-          {
-            "question": "Q1. Explain the central idea of Coordinate Geometry with a suitable example.",
-            "answer": "Give the definition, identify the relevant rule, solve the example line by line and verify it."
-          },
-          {
-            "question": "Q2. Solve a multi-step problem from Coordinate Geometry.",
-            "answer": "Show all important transformations and state the final answer clearly."
-          },
-          {
-            "question": "Q3. Find and correct an error in a solution.",
-            "answer": "Identify the first invalid step, explain the violated rule, correct it and verify."
-          },
-          {
-            "question": "Q4. Solve an application-based problem.",
-            "answer": "Translate the situation into mathematics, solve step by step, check reasonableness and state units if needed."
-          },
-          {
-            "question": "Q5. Solve a HOTS variation.",
-            "answer": "Explain how the changed condition affects the method before completing the calculation."
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "title": "Important Points",
-        "items": [
-          "Coordinates are read x first, y second.",
-          "Signs determine the quadrant.",
-          "A point on an axis has one coordinate zero.",
-          "Origin is (0,0).",
-          "Use a clear scale when plotting."
-        ]
-      },
-      {
-        "id": 31,
-        "title": "Key Terms",
-        "items": [
-          "Cartesian plane",
-          "Coordinate",
-          "Ordered pair",
-          "x-axis",
-          "y-axis",
-          "Origin",
-          "Quadrant",
-          "Abscissa",
-          "Ordinate"
-        ]
-      },
-      {
-        "id": 32,
-        "title": "Chapter Summary",
-        "content": "Final revision of Coordinate Geometry: master the definitions, understand the representation, use formulas and properties with their conditions, study multiple solved examples, practise progressively, check common mistakes, and finish with HOTS and exam-style questions."
-      }
-    ]
-  }
+  ]
 };
