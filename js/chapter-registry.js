@@ -5,6 +5,16 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
+    {
+  id: "8-civics-understanding-marginalisation",
+  title: "Understanding Marginalisation",
+  class: 8,
+  subject: "Civics",
+  chapter: 5,
+  file: "js/notes/class8/civics/understanding-marginalisation.js",
+  enabled: true
+},
+  
   {
   id: "8-civics-judiciary",
   title: "Judiciary",
