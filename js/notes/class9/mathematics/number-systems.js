@@ -909,5 +909,4 @@ const ChapterData = {
   ]
 };
 
-window.ChapterData = ChapterData;
-window.chapter = ChapterData;
+/* The notes loader evaluates this file and captures ChapterData. */
