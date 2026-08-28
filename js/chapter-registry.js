@@ -5,6 +5,46 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
+  {
+  id: "9-mathematics-linear-equations-in-two-variables",
+  title: "Linear Equations in Two Variables",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 4,
+  file: "js/notes/class9/mathematics/linear-equations-in-two-variables.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-coordinate-geometry",
+  title: "Coordinate Geometry",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 3,
+  file: "js/notes/class9/mathematics/coordinate-geometry.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-polynomials",
+  title: "Polynomials",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 2,
+  file: "js/notes/class9/mathematics/polynomials.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-number-systems",
+  title: "Number Systems",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 1,
+  file: "js/notes/class9/mathematics/number-systems.js",
+  enabled: true
+},
+  
 {
   id: "8-civics-law-and-social-justice",
   title: "Law and Social Justice",
