@@ -877,30 +877,7 @@ window.ChapterData = {
           "color": "orange"
         }
       ]
-    },
-    {
-      "title": "Real Visuals — Topic-linked",
-      "blocks": [
-        {
-          "type": "figure",
-          "title": "Adivasi / Tribal Community — Real Historical Visual",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adivasi%20people%20of%20India.jpg",
-          "caption": "Use a verified real historical/documentary photograph only after checking the current Wikimedia file page and licence. Place beside the Adivasi communities section.",
-          "sourceName": "Wikimedia Commons",
-          "sourceNote": "Verify the current file page, authorship and licence before redistribution.",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Adivasi_people_in_India"
-        },
-        {
-          "type": "figure",
-          "title": "Forest Rights and Community Livelihood — Real Visual",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribal%20people%20in%20India.jpg",
-          "caption": "Real documentary visual for discussing community life and livelihoods; do not use it to imply that all tribal communities share one lifestyle.",
-          "sourceName": "Wikimedia Commons",
-          "sourceNote": "Verify the exact file page and licence before redistribution.",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Adivasi_people_in_India"
-        }
-      ]
-    },
+    },    
     {
       "title": "Chapter Summary",
       "blocks": [
@@ -913,7 +890,6 @@ window.ChapterData = {
       ]
     }
   ],
-  "visualPolicy": "Use real, source-licensed documentary/historical visuals only. Never use AI-generated historical photographs or invented people/events. Verify exact file page and licence before redistribution.",
   "comicCharacters": [
     "Surya",
     "Verma Sir",
