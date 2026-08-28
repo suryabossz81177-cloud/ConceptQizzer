@@ -5,7 +5,7 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
-  {
+{
   id: "8-geography-land-soil-water-natural-vegetation-and-wildlife-resources",
   title: "Land, Soil, Water, Natural Vegetation and Wildlife Resources",
   class: 8,
