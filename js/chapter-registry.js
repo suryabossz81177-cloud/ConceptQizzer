@@ -6,6 +6,26 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class8-civics-law-and-social-justice",
+  class: 8,
+  subject: "Civics",
+  chapter: 8,
+  name: "Law and Social Justice",
+  file: "class8-civics-law-and-social-justice.js",
+  enabled: true
+},
+  
+{
+  id: "class8-civics-public-facilities",
+  class: 8,
+  subject: "Civics",
+  chapter: 7,
+  name: "Public Facilities",
+  file: "class8-civics-public-facilities.js",
+  enabled: true
+},
+  
+  {
   id: "8-civics-confronting-marginalisation",
   title: "Confronting Marginalisation",
   class: 8,
