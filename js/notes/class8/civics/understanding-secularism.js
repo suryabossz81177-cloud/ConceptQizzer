@@ -5,7 +5,7 @@ window.ChapterData = {
   "class": 8,
   "subject": "Civics",
   "chapter": 2,
-  "description": "Too-too detailed Class 8 Civics Chapter 2 in the same ConceptQizzer master format: continuous-flow explanations, real-life situations, topic-linked real visuals, detailed comparisons, five shuffled comic stories, answer-reveal questions, HOTS, key terms, important points, common mistakes, exam zone and chapter summary.",
+  "description": "Too-too detailed Class 8 Civics Chapter 2 in the same ConceptQizzer master format: continuous-flow explanations, real-life situations, topic-linked real visuals, detailed comparisons, four topic-linked comic stories, answer-reveal questions, HOTS, key terms, important points, common mistakes, exam zone and chapter summary.",
   "sections": [
     {
       "title": "Chapter Starter — What Does Secularism Mean?",
@@ -21,6 +21,15 @@ window.ChapterData = {
           "title": "The central idea",
           "text": "Secularism is a constitutional principle concerned with preventing domination based on religion and protecting freedom of religion. In India, secularism is connected with equal citizenship, freedom of conscience, and the State's ability to intervene when religious practices violate constitutional values or rights.",
           "color": "green"
+        },
+        {
+          "type": "figure",
+          "title": "Visual — The Preamble and the Constitutional Vision",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Constitution_of_India_(calligraphic)_Preamble.png",
+          "caption": "The original calligraphed and illuminated Preamble. Place it beside the discussion of India's constitutional commitment to secularism and equal citizenship.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "Government of India work; the Commons file page lists applicable copyright/reproduction conditions. Check the current file page before redistribution.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constitution_of_India_(calligraphic)_Preamble.png"
         },
         {
           "type": "concept",
@@ -40,9 +49,45 @@ window.ChapterData = {
           "color": "blue"
         },
         {
+          "type": "figure",
+          "title": "Visual — Religious Diversity in India",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Religious_diversity_in_India.png",
+          "caption": "A visual representation of India's religious diversity. Use it alongside the explanation of why a democratic State needs equal citizenship across different beliefs.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "CC BY-SA 3.0 / GFDL; attribution required. Verify the current file page before redistribution.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Religious_diversity_in_India.png"
+        },
+        {
+          "type": "comic",
+          "title": "Comic Story 1 — One Classroom, Many Beliefs",
+          "intro": "Surya notices that students in the class follow different religions and some do not follow a religion.",
+          "story": [
+            "Surya: “Everyone here has different beliefs. Should the class choose one belief for everyone?”",
+            "Arushi: “No. People should be free to follow their own conscience.”",
+            "Verma Sir: “That is the starting point of understanding secularism: public citizenship should not depend on following one religion.”",
+            "Surya: “So different beliefs can exist together under common rules?”",
+            "Verma Sir: “Exactly. Constitutional rules protect equal citizenship and religious freedom.”"
+          ],
+          "lesson": "Lesson: Secularism helps people with different beliefs live together as equal citizens while protecting freedom of conscience.",
+          "color": "blue"
+        },
+        {
           "type": "concept",
           "title": "Preventing majority domination",
           "text": "If the State were controlled by the religion of the majority, minority citizens could face discrimination in public life. Secularism seeks to prevent the State from becoming an instrument of religious domination.",
+          "color": "green"
+        },
+        {
+          "type": "comic",
+          "title": "Comic Story 2 — The Majority Cannot Decide Everything",
+          "intro": "Ansh suggests that the class majority should decide which religion everyone must learn.",
+          "story": [
+            "Ansh: “Most students chose this, so everyone should follow it.”",
+            "Divya: “But a majority vote cannot take away another person's basic freedom.”",
+            "Surya: “Democracy has constitutional limits. Majority rule is not a licence for religious domination.”",
+            "Sharma Sir: “Correct. Secularism protects citizens from domination based on religion, including domination by a majority.”"
+          ],
+          "lesson": "Lesson: Democratic majority rule operates within constitutional rights and cannot justify religious domination.",
           "color": "green"
         },
         {
@@ -85,6 +130,28 @@ window.ChapterData = {
           "title": "Why both matter",
           "text": "If we only think about majority versus minority communities, we may miss discrimination occurring inside a community. Constitutional values can require protection of individuals even when the pressure comes from members of their own religious group.",
           "color": "orange"
+        },
+        {
+          "type": "figure",
+          "title": "Visual — Different Places of Worship Side by Side",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/McCluskieganj.jpg",
+          "caption": "A public-domain photograph showing a mosque, temple and gurdwara side by side in McCluskieganj, India. It helps illustrate religious coexistence and diversity.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "Public domain according to the file page.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:McCluskieganj.jpg"
+        },
+        {
+          "type": "comic",
+          "title": "Comic Story 3 — Equality Within a Community",
+          "intro": "Shashank describes a situation in which one group inside a religious community is treated unfairly.",
+          "story": [
+            "Shashank: “The pressure is coming from people of the same religion, so is secularism irrelevant?”",
+            "Surya: “Not necessarily. Domination can happen within a religious community too.”",
+            "Verma Sir: “Exactly. Secularism is concerned with preventing domination and protecting freedom and equality, including against intra-religious domination.”",
+            "Shashank: “So we should not only think about one religion dominating another.”"
+          ],
+          "lesson": "Lesson: Religious domination can occur both between communities and within a community.",
+          "color": "purple"
         }
       ]
     },
@@ -151,6 +218,15 @@ window.ChapterData = {
           "color": "orange"
         },
         {
+          "type": "figure",
+          "title": "Visual — Constituent Assembly of India",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Constituent_Assembly.JPG",
+          "caption": "Historical photograph of the Constituent Assembly of India, useful for connecting constitutional rights with the making of the Constitution.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "Public domain according to the file page.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Constituent_Assembly.JPG"
+        },
+        {
           "type": "concept",
           "title": "Articles 29 and 30 — Cultural and educational rights",
           "text": "These provisions also protect cultural and educational interests, including the rights of minorities to establish and administer educational institutions of their choice within the constitutional framework.",
@@ -184,6 +260,28 @@ window.ChapterData = {
           "title": "Temple entry and access",
           "text": "Legal reforms have historically addressed exclusion from public religious spaces. Such interventions illustrate the tension—and balance—between religious freedom and equality.",
           "color": "blue"
+        },
+        {
+          "type": "figure",
+          "title": "Visual — Original Calligraphed Constitution",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Constitution_of_India_(calligraphic)_Cover.png",
+          "caption": "The cover of the original calligraphed and illuminated Constitution. Use once as historical context rather than repeating it throughout the chapter.",
+          "sourceName": "Wikimedia Commons",
+          "sourceNote": "Government of India work; check the current Commons file page for reproduction conditions.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constitution_of_India_(calligraphic)_Cover.png"
+        },
+        {
+          "type": "comic",
+          "title": "Comic Story 4 — Why Can the State Intervene?",
+          "intro": "Arushi asks why a secular State sometimes makes laws affecting practices associated with religion.",
+          "story": [
+            "Arushi: “If India is secular, why can the State ever interfere in a religious matter?”",
+            "Sharma Sir: “Secularism does not mean the State is permanently blind to inequality. The Constitution allows lawful regulation and social reform in specified circumstances.”",
+            "Surya: “So religious freedom and equality have to be considered together?”",
+            "Sharma Sir: “Yes. The State can act when constitutional values and law require it, while religious freedom remains protected.”"
+          ],
+          "lesson": "Lesson: Indian secularism allows constitutionally authorised engagement with religion, especially for equality and social reform.",
+          "color": "orange"
         },
         {
           "type": "concept",
@@ -250,71 +348,6 @@ window.ChapterData = {
           "color": "orange"
         }
       ]
-    },
-    {
-      "title": "Comic Story 1 — One Classroom, Many Beliefs",
-      "blocks": {
-        "type": "comic",
-        "title": "Comic 1: One Classroom, Many Beliefs",
-        "intro": "Surya notices that students in the class follow different religions and some do not follow a religion.",
-        "story": [
-          "Surya: “Everyone here has different beliefs. Should the class choose one belief for everyone?”",
-          "Arushi: “No. People should be free to follow their own conscience.”",
-          "Verma Sir: “That is the starting point of understanding secularism: public citizenship should not depend on following one religion.”",
-          "Surya: “So different beliefs can exist together under common rules?”",
-          "Verma Sir: “Exactly. Constitutional rules protect equal citizenship and religious freedom.”"
-        ],
-        "lesson": "Lesson: Secularism helps people with different beliefs live together as equal citizens while protecting freedom of conscience.",
-        "color": "blue"
-      }
-    },
-    {
-      "title": "Comic Story 2 — The Majority Cannot Decide Everything",
-      "blocks": {
-        "type": "comic",
-        "title": "Comic 2: The Majority Vote",
-        "intro": "Ansh suggests that the class majority should decide which religion everyone must learn.",
-        "story": [
-          "Ansh: “Most students chose this, so everyone should follow it.”",
-          "Divya: “But a majority vote cannot take away another person's basic freedom.”",
-          "Surya: “Democracy has constitutional limits. Majority rule is not a licence for religious domination.”",
-          "Sharma Sir: “Correct. Secularism protects citizens from domination based on religion, including domination by a majority.”"
-        ],
-        "lesson": "Lesson: Democratic majority rule operates within constitutional rights and cannot justify religious domination.",
-        "color": "green"
-      }
-    },
-    {
-      "title": "Comic Story 3 — Equality Within a Community",
-      "blocks": {
-        "type": "comic",
-        "title": "Comic 3: The Unfair Tradition",
-        "intro": "Shashank describes a situation in which one group inside a religious community is treated unfairly.",
-        "story": [
-          "Shashank: “The pressure is coming from people of the same religion, so is secularism irrelevant?”",
-          "Surya: “Not necessarily. Domination can happen within a religious community too.”",
-          "Verma Sir: “Exactly. Secularism is concerned with preventing domination and protecting freedom and equality, including against intra-religious domination.”",
-          "Shashank: “So we should not only think about one religion dominating another.”"
-        ],
-        "lesson": "Lesson: Religious domination can occur both between communities and within a community.",
-        "color": "purple"
-      }
-    },
-    {
-      "title": "Comic Story 4 — Why Can the State Intervene?",
-      "blocks": {
-        "type": "comic",
-        "title": "Comic 4: A Difficult Question",
-        "intro": "Arushi asks why a secular State sometimes makes laws affecting practices associated with religion.",
-        "story": [
-          "Arushi: “If India is secular, why can the State ever interfere in a religious matter?”",
-          "Sharma Sir: “Secularism does not mean the State is permanently blind to inequality. The Constitution allows lawful regulation and social reform in specified circumstances.”",
-          "Surya: “So religious freedom and equality have to be considered together?”",
-          "Sharma Sir: “Yes. The State can act when constitutional values and law require it, while religious freedom remains protected.”"
-        ],
-        "lesson": "Lesson: Indian secularism allows constitutionally authorised engagement with religion, especially for equality and social reform.",
-        "color": "orange"
-      }
     },
     {
       "title": "Real-Life Civic Situations",
@@ -802,29 +835,6 @@ window.ChapterData = {
       ]
     },
     {
-      "title": "Real Visuals — Topic-linked",
-      "blocks": [
-        {
-          "type": "figure",
-          "title": "Preamble of the Constitution — Secular Constitutional Vision",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Constitution_of_India_%28calligraphic%29_Preamble.png",
-          "caption": "Historical image of the calligraphed and illuminated Preamble. Use this to connect the chapter's discussion of secularism with the constitutional text.",
-          "sourceName": "Wikimedia Commons",
-          "sourceNote": "Check the current file page for licence/attribution before redistribution.",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constitution_of_India_(calligraphic)_Preamble.png"
-        },
-        {
-          "type": "figure",
-          "title": "Constitution of India — Fundamental Rights Context",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Constitution_of_India.jpg",
-          "caption": "Historical Constitution manuscript visual. Place near the discussion of Articles 25–28 rather than using it repeatedly.",
-          "sourceName": "Wikimedia Commons",
-          "sourceNote": "Check the current file page for licence/attribution before redistribution.",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constitution_of_India.jpg"
-        }
-      ]
-    },
-    {
       "title": "Chapter Summary",
       "blocks": [
         {
@@ -836,7 +846,7 @@ window.ChapterData = {
       ]
     }
   ],
-  "visualPolicy": "Use real/source-licensed visuals only where genuinely useful. Never use AI-generated historical photographs or invented constitutional documents. Place visuals beside the topic they explain and avoid repeating the same image unnecessarily.",
+  "visualPolicy": "Use real/source-licensed visuals only where genuinely useful. Never use AI-generated historical photographs or invented constitutional documents. Place each visual immediately after the concept it illustrates, avoid repeating the same image unnecessarily, and preserve the source/licence note.",
   "comicCount": 4,
   "comicCharacters": [
     "Surya",
@@ -871,5 +881,11 @@ window.ChapterData = {
     "Conscience"
   ],
   "summary": "Secularism protects freedom of conscience and religious practice while preventing religious domination. In India it operates with equal citizenship and Fundamental Rights and allows constitutionally authorised State engagement with religion for purposes such as social reform and equality.",
-  "sourceBasis": "Prepared using the user's established Class 8 Civics format and verified constitutional provisions. The official Constitution text supports Articles 25–28 and related equality/cultural protections. NCERT's official Class 8 Social and Political Life III materials establish the textbook framework; the response uses original explanatory wording rather than reproducing textbook text."
+  "sourceBasis": "Prepared using the user's established Class 8 Civics format and verified constitutional provisions. The official Constitution text supports Articles 25–28 and related equality/cultural protections. NCERT's official Class 8 Social and Political Life III materials establish the textbook framework; the response uses original explanatory wording rather than reproducing textbook text.",
+  "contentRules": {
+    "comicPlacement": "Immediately after the related topic/concept.",
+    "visualPlacement": "Immediately after the related topic/concept.",
+    "noDuplicateComicHeading": true,
+    "noStandaloneComicSections": true
+  }
 };
