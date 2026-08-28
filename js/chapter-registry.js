@@ -6,6 +6,26 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-civics-judiciary",
+  title: "Judiciary",
+  class: 8,
+  subject: "Civics",
+  chapter: 4,
+  file: "js/notes/class8/civics/judiciary.js",
+  enabled: true
+},
+
+  {
+  id: "8-civics-parliament-and-the-making-of-laws",
+  title: "Parliament and the Making of Laws",
+  class: 8,
+  subject: "Civics",
+  chapter: 3,
+  file: "js/notes/class8/civics/parliament-and-the-making-of-laws.js",
+  enabled: true
+  },
+  
+  {
   id: "8-civics-understanding-secularism",
   title: "Understanding Secularism",
   class: 8,
