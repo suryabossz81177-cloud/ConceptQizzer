@@ -6,6 +6,16 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-geography-resources",
+  title: "Resources",
+  class: 8,
+  subject: "Geography",
+  chapter: 1,
+  file: "js/notes/class8/geography/resources.js",
+  enabled: true
+},
+  
+  {
     id: "8-history-the-making-of-the-national-movement",
     title: "The Making of the National Movement",
     class: 8,
