@@ -5,23 +5,23 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
-  {
-  id: "class8-civics-law-and-social-justice",
+{
+  id: "8-civics-law-and-social-justice",
+  title: "Law and Social Justice",
   class: 8,
   subject: "Civics",
   chapter: 8,
-  name: "Law and Social Justice",
-  file: "class8-civics-law-and-social-justice.js",
+  file: "js/notes/class8/civics/law-and-social-justice.js",
   enabled: true
 },
-  
+
 {
-  id: "class8-civics-public-facilities",
+  id: "8-civics-public-facilities",
+  title: "Public Facilities",
   class: 8,
   subject: "Civics",
   chapter: 7,
-  name: "Public Facilities",
-  file: "class8-civics-public-facilities.js",
+  file: "js/notes/class8/civics/public-facilities.js",
   enabled: true
 },
   
