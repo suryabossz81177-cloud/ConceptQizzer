@@ -6,6 +6,16 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-civics-the-indian-constitution",
+  title: "The Indian Constitution",
+  class: 8,
+  subject: "Civics",
+  chapter: 1,
+  file: "js/notes/class8/civics/the-indian-constitution.js",
+  enabled: true
+},
+  
+  {
   id: "8-geography-human-resources",
   title: "Human Resources",
   class: 8,
