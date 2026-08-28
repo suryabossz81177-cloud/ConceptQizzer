@@ -6,6 +6,16 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "8-geography-land-soil-water-natural-vegetation-and-wildlife-resources",
+  title: "Land, Soil, Water, Natural Vegetation and Wildlife Resources",
+  class: 8,
+  subject: "Geography",
+  chapter: 2,
+  file: "js/notes/class8/geography/land-soil-water-natural-vegetation-and-wildlife-resources.js",
+  enabled: true
+},
+  
+  {
   id: "8-geography-resources",
   title: "Resources",
   class: 8,
