@@ -2,7 +2,7 @@
 /* Loader-safe Windows Chapter format. */
 "use strict";
 
-var ChapterData = {
+window.ChapterData = {
   "id": "9-mathematics-triangles",
   "title": "Triangles",
   "class": 9,

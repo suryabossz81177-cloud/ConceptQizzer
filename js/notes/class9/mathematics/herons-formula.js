@@ -2,7 +2,7 @@
 /* Loader fix: all chapter extensions are inside the object; no post-declaration ChapterData.* statements remain. */
 "use strict";
 
-var ChapterData = {
+window.ChapterData = {
   "id": "9-mathematics-herons-formula",
   "title": "Heron’s Formula",
   "class": 9,

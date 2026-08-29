@@ -2,7 +2,7 @@
 /* Preserves the previous chapter data and exposes both ChapterData and window.chapter. */
 "use strict";
 
-var ChapterData = {
+window.ChapterData = {
   "id": "9-mathematics-linear-equations-in-two-variables",
   "title": "Linear Equations in Two Variables",
   "class": 9,

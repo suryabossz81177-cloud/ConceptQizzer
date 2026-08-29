@@ -2,7 +2,7 @@
 /* Loader-safe Windows Chapter format. */
 "use strict";
 
-var ChapterData = {
+window.ChapterData = {
   "id": "9-mathematics-quadrilaterals",
   "title": "Quadrilaterals",
   "class": 9,
