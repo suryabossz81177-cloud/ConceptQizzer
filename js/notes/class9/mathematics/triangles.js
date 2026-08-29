@@ -1,5 +1,5 @@
-/* ConceptQizzer — Class 9 Mathematics — Ultra Detailed */
-/* Loader-safe ChapterData declaration. */
+/* ConceptQizzer — Class 9 Mathematics — 5X Ultra Detailed */
+/* Loader-safe Windows Chapter format. */
 "use strict";
 
 const ChapterData = {
@@ -10,7 +10,7 @@ const ChapterData = {
   "chapter": 7,
   "file": "js/notes/class9/mathematics/triangles.js",
   "enabled": true,
-  "description": "An ultra-detailed Class 9 chapter on Triangles. It explains triangle structure and classification, angle properties, isosceles reasoning, congruence and correspondence, SSS, SAS, ASA, RHS, CPCT, triangle inequality and proof-writing. Major ideas are followed by worked examples.",
+  "description": "Five-times-expanded, exam-standard Class 9 Mathematics notes for Triangles. Every major topic is explained from first principles with definitions, intuition, conditions, recognition cues, why-the-rule-works reasoning, step-by-step methods, multiple worked examples, error detection, proof-writing guidance, verification and practice. The original notes are preserved and expanded rather than replaced.",
   "learningObjectives": [
     "Understand every major concept from first principles.",
     "Use definitions, properties and theorems correctly.",
@@ -76,6 +76,36 @@ const ChapterData = {
           "Both triangles right-angled"
         ]
       ]
+    },
+    {
+      "title": "Definition vs Property vs Theorem vs Converse",
+      "columns": [
+        "Item",
+        "Purpose",
+        "How it is used"
+      ],
+      "rows": [
+        [
+          "Definition",
+          "Gives exact meaning",
+          "Recognise or classify an object"
+        ],
+        [
+          "Property",
+          "Describes a consequence already established",
+          "Apply directly when conditions hold"
+        ],
+        [
+          "Theorem",
+          "A proved mathematical statement",
+          "Justify a conclusion"
+        ],
+        [
+          "Converse",
+          "Reverses a conditional statement when valid",
+          "Prove a condition from a known consequence"
+        ]
+      ]
     }
   ],
   "theoremPropertyLab": [
@@ -108,7 +138,12 @@ const ChapterData = {
     "Write correspondence first.",
     "Check the included angle for SAS.",
     "Do not use SSA as a general congruence criterion.",
-    "Use CPCT only after congruence is established."
+    "Use CPCT only after congruence is established.",
+    "Never use the visual appearance of a diagram as an unstated fact.",
+    "Write the condition of a theorem before using its conclusion.",
+    "Distinguish a statement from its converse.",
+    "For a long problem, break the solution into named mini-goals.",
+    "After solving, verify the result independently."
   ],
   "errorDetective": [
     {
@@ -221,16 +256,27 @@ const ChapterData = {
     "Know all congruence criteria and conditions.",
     "Maintain exact correspondence.",
     "Show every proof step.",
-    "Use CPCT only after congruence."
+    "Use CPCT only after congruence.",
+    "Read the question twice before writing equations or proof steps.",
+    "Use exact mathematical vocabulary.",
+    "Keep all labels consistent with the diagram.",
+    "Show intermediate steps in multi-mark questions.",
+    "End every proof with the exact statement that was required."
   ],
   "commonMistakes": [
     "Using SSA as a general criterion.",
     "Wrong correspondence order.",
     "Using CPCT too early.",
-    "Ignoring the included angle in SAS."
+    "Ignoring the included angle in SAS.",
+    "Skipping the condition check before applying a theorem.",
+    "Writing a correct result without showing the reasoning in a proof.",
+    "Confusing a definition with a property.",
+    "Assuming a converse is automatically true.",
+    "Using an unlabelled or misleading diagram as evidence."
   ],
   "masterRevision": [
-    "Classify → angle properties → congruence → criterion → proof → CPCT → inequality."
+    "Classify → angle properties → congruence → criterion → proof → CPCT → inequality.",
+    "Read → identify givens → identify target → select theorem/property → derive → calculate → justify → verify → conclude."
   ],
   "detailedSummary": [
     "Triangles are fundamental rigid figures. Class 9 focuses on exact comparison of triangles through congruence. Selecting the correct criterion and maintaining correspondence are the central skills."
@@ -249,7 +295,12 @@ const ChapterData = {
     "SAS requires the included angle.",
     "RHS requires right triangles.",
     "CPCT follows congruence.",
-    "Sum of any two sides is greater than the third."
+    "Sum of any two sides is greater than the third.",
+    "Definitions tell you what an object is.",
+    "Theorems require their hypotheses.",
+    "A converse needs separate justification.",
+    "A diagram supports reasoning only through stated or proved facts.",
+    "Verification is part of a strong mathematical solution."
   ],
   "keyTerms": [
     "Triangle",
@@ -288,6 +339,72 @@ const ChapterData = {
           "title": "Example — Classify by Angles",
           "color": "orange",
           "text": "Angles are 45°, 45° and 90°.\nOne angle is exactly 90°, so it is right-angled.\nTwo angles are equal, so it is also isosceles."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Triangle: Structure and Classification is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Triangle: Structure and Classification, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Triangle: Structure and Classification, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Triangle: Structure and Classification: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Triangle: Structure and Classification questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Triangle: Structure and Classification is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Triangle: Structure and Classification results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Triangle: Structure and Classification problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -312,6 +429,72 @@ const ChapterData = {
           "title": "Exterior Angle",
           "color": "orange",
           "text": "If the two remote interior angles are 55° and 72°, the exterior angle is:\n55°+72°=127°.\nIts adjacent interior angle is 180°−127°=53°."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Angle Sum and Exterior Angle is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Angle Sum and Exterior Angle, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Angle Sum and Exterior Angle, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Angle Sum and Exterior Angle: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Angle Sum and Exterior Angle questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Angle Sum and Exterior Angle is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Angle Sum and Exterior Angle results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Angle Sum and Exterior Angle problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -336,6 +519,72 @@ const ChapterData = {
           "title": "Converse Example",
           "color": "orange",
           "text": "If ∠B=∠C, then the sides opposite them are equal. Hence AB=AC and ΔABC is isosceles."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Isosceles Triangle Theorem is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Isosceles Triangle Theorem, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Isosceles Triangle Theorem, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Isosceles Triangle Theorem: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Isosceles Triangle Theorem questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Isosceles Triangle Theorem is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Isosceles Triangle Theorem results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Isosceles Triangle Theorem problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -354,6 +603,72 @@ const ChapterData = {
           "title": "Correspondence",
           "color": "orange",
           "text": "If ΔABC≅ΔXYZ, then:\nA↔X, B↔Y, C↔Z.\nThus ∠B=∠Y and AC=XZ."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Congruence and Correspondence is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Congruence and Correspondence, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Congruence and Correspondence, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Congruence and Correspondence: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Congruence and Correspondence questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Congruence and Correspondence is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Congruence and Correspondence results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Congruence and Correspondence problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -372,6 +687,72 @@ const ChapterData = {
           "title": "Complete SSS Proof",
           "color": "orange",
           "text": "Given AB=PQ, BC=QR and CA=RP.\nThe three corresponding sides are equal.\nTherefore ΔABC≅ΔPQR by SSS.\nHence, by CPCT, ∠A=∠P, ∠B=∠Q and ∠C=∠R."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "SSS Congruence is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on SSS Congruence, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For SSS Congruence, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with SSS Congruence: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step SSS Congruence questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in SSS Congruence is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why SSS Congruence results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a SSS Congruence problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -390,6 +771,72 @@ const ChapterData = {
           "title": "SAS Proof",
           "color": "orange",
           "text": "AB=5 cm, AC=7 cm, PQ=5 cm, PR=7 cm and ∠A=∠P.\nThe equal angle is included between the two equal sides.\nTherefore ΔABC≅ΔPQR by SAS."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "SAS Congruence is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on SAS Congruence, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For SAS Congruence, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with SAS Congruence: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step SAS Congruence questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in SAS Congruence is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why SAS Congruence results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a SAS Congruence problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -420,6 +867,72 @@ const ChapterData = {
           "title": "RHS Example",
           "color": "orange",
           "text": "Both triangles are right-angled. Their hypotenuses are 13 cm and their corresponding legs are 5 cm.\nTherefore the triangles are congruent by RHS."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "ASA and RHS is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on ASA and RHS, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For ASA and RHS, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with ASA and RHS: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step ASA and RHS questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in ASA and RHS is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why ASA and RHS results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a ASA and RHS problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -438,6 +951,72 @@ const ChapterData = {
           "title": "CPCT Example",
           "color": "orange",
           "text": "If ΔABC≅ΔPQR, then by CPCT:\nAB=PQ,\nBC=QR,\nCA=RP,\n∠A=∠P,\n∠B=∠Q,\n∠C=∠R."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "CPCT: Corresponding Parts is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on CPCT: Corresponding Parts, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For CPCT: Corresponding Parts, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with CPCT: Corresponding Parts: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step CPCT: Corresponding Parts questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in CPCT: Corresponding Parts is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why CPCT: Corresponding Parts results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a CPCT: Corresponding Parts problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -462,9 +1041,579 @@ const ChapterData = {
           "title": "Impossible",
           "color": "orange",
           "text": "3, 4 and 8:\n3+4=7<8.\nTherefore a triangle cannot be formed."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Triangle Inequality is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Triangle Inequality, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Triangle Inequality, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Triangle Inequality: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Triangle Inequality questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Triangle Inequality is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Triangle Inequality results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Triangle Inequality problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-10",
+      "title": "Structure and classification",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "A triangle is a three-sided polygon. It can be classified by sides as scalene, isosceles or equilateral, and by angles as acute, right or obtuse.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For structure and classification, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Structure and classification is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-11",
+      "title": "Angle sum",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "The three interior angles of a triangle add to 180°. This is one of the most frequently used facts in numerical and proof questions.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For angle sum, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Angle sum is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-12",
+      "title": "Exterior angle",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "An exterior angle formed by extending a side equals the sum of the two remote interior angles. This connects the local exterior angle to the whole triangle.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For exterior angle, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Exterior angle is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-13",
+      "title": "Isosceles triangles",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Equal sides in an isosceles triangle have equal opposite angles, and the converse also holds. This theorem is a major proof tool.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For isosceles triangles, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Isosceles triangles is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-14",
+      "title": "Congruence",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Congruent figures have the same shape and size. For triangles, SSS, SAS, ASA and RHS provide reliable criteria under their stated conditions.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For congruence, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Congruence is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-15",
+      "title": "CPCT",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Once congruence has been established, corresponding parts are equal. CPCT is a consequence of congruence, not a replacement for proving congruence.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For cpct, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "CPCT is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "triangles-deep-16",
+      "title": "Triangle inequality",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "The sum of any two sides of a triangle is greater than the third side. It can be used to test whether a proposed set of three lengths can form a triangle.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For triangle inequality, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Triangle inequality is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
         }
       ]
     }
   ],
-  "renderVersion": "windows.chapter.v2"
+  "renderVersion": "windows.chapter.v3"
 };

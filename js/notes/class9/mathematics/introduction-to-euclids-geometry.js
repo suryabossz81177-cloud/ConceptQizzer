@@ -1,5 +1,5 @@
-/* ConceptQizzer — Class 9 Mathematics — Ultra Detailed */
-/* Loader-safe ChapterData declaration. */
+/* ConceptQizzer — Class 9 Mathematics — 5X Ultra Detailed */
+/* Loader-safe Windows Chapter format. */
 "use strict";
 
 const ChapterData = {
@@ -10,7 +10,7 @@ const ChapterData = {
   "chapter": 5,
   "file": "js/notes/class9/mathematics/introduction-to-euclids-geometry.js",
   "enabled": true,
-  "description": "An ultra-detailed Class 9 treatment of Introduction to Euclid's Geometry. The chapter develops the logical foundations of geometry through undefined terms, definitions, axioms, postulates, Euclid's five postulates, common notions, the role of proof and the connection between assumptions and geometric conclusions.",
+  "description": "Five-times-expanded, exam-standard Class 9 Mathematics notes for Introduction to Euclid's Geometry. Every major topic is explained from first principles with definitions, intuition, conditions, recognition cues, why-the-rule-works reasoning, step-by-step methods, multiple worked examples, error detection, proof-writing guidance, verification and practice. The original notes are preserved and expanded rather than replaced.",
   "learningObjectives": [
     "Understand point, line, plane and line segment as foundational geometric ideas.",
     "Distinguish definitions, axioms, postulates and theorems.",
@@ -70,6 +70,36 @@ const ChapterData = {
           "A proven geometrical property"
         ]
       ]
+    },
+    {
+      "title": "Definition vs Property vs Theorem vs Converse",
+      "columns": [
+        "Item",
+        "Purpose",
+        "How it is used"
+      ],
+      "rows": [
+        [
+          "Definition",
+          "Gives exact meaning",
+          "Recognise or classify an object"
+        ],
+        [
+          "Property",
+          "Describes a consequence already established",
+          "Apply directly when conditions hold"
+        ],
+        [
+          "Theorem",
+          "A proved mathematical statement",
+          "Justify a conclusion"
+        ],
+        [
+          "Converse",
+          "Reverses a conditional statement when valid",
+          "Prove a condition from a known consequence"
+        ]
+      ]
     }
   ],
   "theoremPropertyLab": [
@@ -93,7 +123,12 @@ const ChapterData = {
     "Ask what is given before using a result.",
     "Separate a definition from a property.",
     "Identify the exact assumption behind a conclusion.",
-    "Use a diagram as support, not as proof by itself."
+    "Use a diagram as support, not as proof by itself.",
+    "Never use the visual appearance of a diagram as an unstated fact.",
+    "Write the condition of a theorem before using its conclusion.",
+    "Distinguish a statement from its converse.",
+    "For a long problem, break the solution into named mini-goals.",
+    "After solving, verify the result independently."
   ],
   "errorDetective": [
     {
@@ -224,21 +259,32 @@ const ChapterData = {
     "Know the difference between axiom, postulate and theorem.",
     "Explain rather than merely list definitions.",
     "Use correct proof language.",
-    "Do not treat a diagram as a proof."
+    "Do not treat a diagram as a proof.",
+    "Read the question twice before writing equations or proof steps.",
+    "Use exact mathematical vocabulary.",
+    "Keep all labels consistent with the diagram.",
+    "Show intermediate steps in multi-mark questions.",
+    "End every proof with the exact statement that was required."
   ],
   "commonMistakes": [
     "Calling every mathematical statement an axiom.",
     "Confusing a segment with a line.",
     "Forgetting that a line extends indefinitely.",
     "Mixing up the third and fourth postulates.",
-    "Writing an example instead of a proof."
+    "Writing an example instead of a proof.",
+    "Skipping the condition check before applying a theorem.",
+    "Writing a correct result without showing the reasoning in a proof.",
+    "Confusing a definition with a property.",
+    "Assuming a converse is automatically true.",
+    "Using an unlabelled or misleading diagram as evidence."
   ],
   "masterRevision": [
     "Geometry is a logical system.",
     "Definitions explain terms.",
     "Axioms and postulates provide accepted foundations.",
     "Theorems require proof.",
-    "Euclid's fifth postulate is linked to parallelism."
+    "Euclid's fifth postulate is linked to parallelism.",
+    "Read → identify givens → identify target → select theorem/property → derive → calculate → justify → verify → conclude."
   ],
   "detailedSummary": [
     "Euclidean geometry begins with basic concepts and accepted statements. Euclid organised geometry into a deductive system. The five postulates provide geometrical foundations, while common notions express general principles of equality and quantity. The central Class 9 skill is logical reasoning: a theorem must follow from accepted foundations and previously established results."
@@ -258,7 +304,12 @@ const ChapterData = {
     "Euclid gave five postulates.",
     "All right angles are equal.",
     "The fifth postulate is associated with parallel lines.",
-    "A proof must be logically justified."
+    "A proof must be logically justified.",
+    "Definitions tell you what an object is.",
+    "Theorems require their hypotheses.",
+    "A converse needs separate justification.",
+    "A diagram supports reasoning only through stated or proved facts.",
+    "Verification is part of a strong mathematical solution."
   ],
   "keyTerms": [
     "Point",
@@ -303,6 +354,72 @@ const ChapterData = {
           "title": "Important Insight",
           "color": "green",
           "text": "Always separate the idea represented by a diagram from the exact mathematical definition. A picture is finite; a mathematical line is unlimited."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Geometry: The Language of Shapes is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Geometry: The Language of Shapes, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Geometry: The Language of Shapes, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Geometry: The Language of Shapes: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Geometry: The Language of Shapes questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Geometry: The Language of Shapes is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Geometry: The Language of Shapes results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Geometry: The Language of Shapes problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -327,6 +444,72 @@ const ChapterData = {
           "title": "Reasoning Example",
           "color": "orange",
           "text": "Question: Why are axioms useful?\n\nAnswer:\nThey provide accepted starting statements from which other mathematical results can be logically derived. They prevent geometry from becoming an endless chain in which every fact requires another unproved fact."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Euclid and the Axiomatic Method is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Euclid and the Axiomatic Method, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Euclid and the Axiomatic Method, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Euclid and the Axiomatic Method: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Euclid and the Axiomatic Method questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Euclid and the Axiomatic Method is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Euclid and the Axiomatic Method results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Euclid and the Axiomatic Method problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -351,6 +534,72 @@ const ChapterData = {
           "title": "Proof Thinking",
           "color": "orange",
           "text": "If you are asked to prove a result, do not write only a numerical answer. State the given information, identify the fact being used, perform the logical steps, and conclude the required statement."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Definitions, Axioms, Postulates and Theorems is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Definitions, Axioms, Postulates and Theorems, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Definitions, Axioms, Postulates and Theorems, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Definitions, Axioms, Postulates and Theorems: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Definitions, Axioms, Postulates and Theorems questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Definitions, Axioms, Postulates and Theorems is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Definitions, Axioms, Postulates and Theorems results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Definitions, Axioms, Postulates and Theorems problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -417,6 +666,72 @@ const ChapterData = {
           "title": "Reasoning Example",
           "color": "orange",
           "text": "If two lines are cut by a transversal and the interior angles on one side have sum 170°, this is less than 180°. Under Euclid's fifth postulate, the two lines will meet on that side when sufficiently extended."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Euclid's Five Postulates is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Euclid's Five Postulates, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Euclid's Five Postulates, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Euclid's Five Postulates: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Euclid's Five Postulates questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Euclid's Five Postulates is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Euclid's Five Postulates results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Euclid's Five Postulates problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -441,6 +756,72 @@ const ChapterData = {
           "title": "Another Example",
           "color": "orange",
           "text": "If two equal quantities are both reduced by 7, their remainders remain equal. This is the geometrical form of the familiar algebraic rule: equal quantities remain equal after the same operation is performed on both."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Euclid's Common Notions / Axioms is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Euclid's Common Notions / Axioms, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Euclid's Common Notions / Axioms, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Euclid's Common Notions / Axioms: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Euclid's Common Notions / Axioms questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Euclid's Common Notions / Axioms is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Euclid's Common Notions / Axioms results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Euclid's Common Notions / Axioms problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -459,6 +840,72 @@ const ChapterData = {
           "title": "Concept Check",
           "color": "orange",
           "text": "If a point P lies outside line l, the Euclidean parallel principle says that exactly one line through P can be drawn parallel to l. This is different from simply saying that many lines can be drawn through P."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "Equivalent Formulations and Modern View is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on Equivalent Formulations and Modern View, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For Equivalent Formulations and Modern View, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with Equivalent Formulations and Modern View: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step Equivalent Formulations and Modern View questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in Equivalent Formulations and Modern View is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why Equivalent Formulations and Modern View results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a Equivalent Formulations and Modern View problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
         }
       ]
     },
@@ -483,6 +930,576 @@ const ChapterData = {
           "title": "Exam Strategy",
           "color": "green",
           "text": "In proof questions, never jump over the central logical step. Name the axiom, postulate or theorem when appropriate."
+        },
+        {
+          "type": "concept",
+          "title": "Core idea — in simple language",
+          "content": "How to Read and Write a Geometrical Proof is not a topic to memorise as a list of rules. The central goal is to understand what the objects mean, what conditions are given, and why a mathematical conclusion follows. In Class 9, you should be able to move in both directions: from a definition to a property, and from a property back to a justified conclusion when a converse is valid. Read the diagram carefully, name the quantities, identify the known information, and only then choose a theorem or property. This habit prevents most careless errors and makes longer proof questions much easier.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "What to notice first",
+          "content": "Before solving a question on How to Read and Write a Geometrical Proof, ask four questions: (1) What is given? (2) What exactly has to be found or proved? (3) Which definition or theorem connects the given information to the target? (4) What check can confirm the result? Writing these four points mentally turns an unfamiliar problem into a sequence of small decisions. A diagram is evidence of the stated relationships, not permission to assume extra relationships that have not been given.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Why the rule works",
+          "content": "The important Class 9 skill is justification. A correct answer is stronger when you can explain why each transformation is allowed. For How to Read and Write a Geometrical Proof, the usual chain is definition → known property → substitution or angle/side relationship → calculation → verification. When a theorem is used, name it. When an equation is rearranged, show the operation. When a geometric equality is claimed, identify the reason. This makes the solution readable, checkable, and suitable for a proof-based examination.",
+          "color": "green"
+        },
+        {
+          "type": "concept",
+          "title": "How to recognise the situation",
+          "content": "Look for trigger words and diagram features associated with How to Read and Write a Geometrical Proof: equal measures, parallel lines, right angles, common endpoints, intersecting lines, corresponding positions, equal sides, bisected segments, or a stated construction. Do not choose a theorem merely because its name looks familiar. Match every condition of the theorem with the information actually present in the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 1",
+          "content": "Problem: A geometry question gives several labelled relationships. How should you begin?\n\nComplete solution:\nFirst rewrite the information in mathematical language. Mark every given equality or parallel/perpendicular condition. State the target. Then select the smallest theorem whose hypotheses are completely satisfied. Perform the calculation or proof one step at a time. Finally, substitute the result back into the original relationship or check the relevant total (such as an angle sum) to verify it.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example 2",
+          "content": "Problem: Why should a diagram not be used to assume an unmarked equality?\n\nComplete solution:\nA drawing can be distorted for convenience. A segment that looks equal may not be equal; an angle that looks like 90° may not be 90°. Therefore use only information explicitly given or information established by a theorem. If the problem states AB = AC, you may use that equality. If it merely looks so in the picture, you may not.",
+          "color": "orange"
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step solving routine",
+          "content": "Step 1: Read the entire question.\nStep 2: Copy the essential data into symbols.\nStep 3: Draw or inspect a clean labelled figure.\nStep 4: Identify the relevant definition/theorem.\nStep 5: Write the relation before substituting numbers.\nStep 6: Simplify carefully, keeping units/degrees where relevant.\nStep 7: State the final answer clearly.\nStep 8: Verify it using an independent property. This routine is especially useful for multi-step How to Read and Write a Geometrical Proof questions.",
+          "color": "indigo"
+        },
+        {
+          "type": "error",
+          "title": "Error detective — the tempting wrong approach",
+          "content": "A common mistake in How to Read and Write a Geometrical Proof is jumping from the appearance of the diagram directly to the answer. Another is applying a theorem without checking its hypotheses. A third is doing the numerical calculation first and trying to invent a reason afterward. The safer method is the reverse: identify the mathematical relationship first, write it, and then calculate. If the relationship cannot be justified, stop and re-examine the conditions.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Mathematical thinking",
+          "content": "Ask: If one condition were removed, would the conclusion still follow? If the order of the objects changed, would the statement remain true? Is the converse true? Can the result be obtained in a second way? These questions move you beyond routine substitution and help you understand why How to Read and Write a Geometrical Proof results are reliable.",
+          "color": "gold"
+        },
+        {
+          "type": "exam",
+          "title": "Exam-writing standard",
+          "content": "For a short answer, give the required relation and calculation. For a proof, write a logical chain with a reason beside each important step. Avoid unexplained jumps such as 'obvious' or 'therefore' when a theorem is actually doing the work. Keep notation consistent with the diagram. End with a sentence that directly answers the question.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "content": "After completing a How to Read and Write a Geometrical Proof problem, check: Are all given conditions used appropriately? Did I accidentally assume something from the drawing? Did I apply the correct direction of a theorem? Does the answer satisfy the original relation? Is the final statement exactly what was asked?",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-8",
+      "title": "Historical foundation of geometry",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Geometry developed from practical needs such as measuring land, constructing buildings, comparing distances and reasoning about shapes. Euclid's major contribution was to organise geometric knowledge into a deductive system in which definitions, accepted statements and logical proofs build more complicated results.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For historical foundation of geometry, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Historical foundation of geometry is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-9",
+      "title": "Point, line and plane",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "A point indicates position without size. A line represents a straight path extending indefinitely in both directions. A plane represents a flat surface extending without boundary. These are foundational ideas used to describe more complicated figures.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For point, line and plane, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Point, line and plane is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-10",
+      "title": "Definitions",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "A definition fixes the meaning of a mathematical term. A good definition must identify the essential property rather than merely describe how a figure looks.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For definitions, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Definitions is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-11",
+      "title": "Axioms/common notions",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Axioms are accepted general truths used as starting points for reasoning. Euclid's common notions include principles about equality, addition, subtraction and comparison.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For axioms/common notions, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Axioms/common notions is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-12",
+      "title": "Postulates",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Postulates are assumptions accepted specifically within the geometric framework. Euclid's five postulates describe constructions involving straight lines, circles, right angles and the extension/intersection of lines.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For postulates, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Postulates is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-13",
+      "title": "Fifth postulate",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "Euclid's fifth postulate concerns the behaviour of lines when a transversal creates interior angles whose sum is less than two right angles. It is historically important because later mathematicians studied whether it could be derived from the other assumptions.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For fifth postulate, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Fifth postulate is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
+        }
+      ]
+    },
+    {
+      "id": "introduction-to-euclids-geometry-deep-14",
+      "title": "Theorem and proof",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Deep concept explanation",
+          "content": "A theorem is a statement established by logical reasoning from accepted facts, definitions and previously proved results. A proof explains why the conclusion must follow.",
+          "color": "blue"
+        },
+        {
+          "type": "concept",
+          "title": "Meaning in mathematical language",
+          "content": "Translate the idea into precise mathematical language. For theorem and proof, do not rely on the picture alone. Identify the objects involved, the conditions that are explicitly stated, and the conclusion that is allowed by the relevant definition or theorem.",
+          "color": "purple"
+        },
+        {
+          "type": "concept",
+          "title": "Conditions you must check",
+          "content": "Before applying a result, list its hypotheses. A theorem is not a free-standing formula: it works only when its required conditions are satisfied. This is particularly important in geometry, where parallelism, equality, right angles, adjacency, correspondence and intersection positions can change which result is valid.",
+          "color": "green"
+        },
+        {
+          "type": "method",
+          "title": "How to solve questions step by step",
+          "content": "1. Read and mark the given information.\n2. Name the target quantity or statement.\n3. Select the exact definition/property/theorem.\n4. Write the mathematical relation before calculating.\n5. Carry out each algebraic or geometric step clearly.\n6. Add reasons to proof steps.\n7. Verify using an independent relationship.\n8. State the final conclusion in the language of the question.",
+          "color": "teal"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "content": "Problem: A direct application of the topic is required. What is the safest strategy?\n\nComplete solution:\nStart with the defining condition, not with a remembered answer. Write the known relationship symbolically, substitute only after the relationship is established, simplify carefully, and check the result against the relevant geometric total or property.",
+          "color": "orange"
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "content": "Problem: A question combines two different facts from the chapter. How should the solution be organised?\n\nComplete solution:\nSeparate the work into stages. First establish the first required relationship. Use its result as a new known fact. Then apply the second theorem. Numbering the reasoning is useful for long proofs because each conclusion then has a visible source.",
+          "color": "orange"
+        },
+        {
+          "type": "why",
+          "title": "Why this concept matters",
+          "content": "Theorem and proof is important because it supplies a reusable reasoning pattern. Once the pattern is understood, unfamiliar questions become variations of the same structure rather than completely new problems.",
+          "color": "gold"
+        },
+        {
+          "type": "error",
+          "title": "Common trap",
+          "content": "Do not infer an unstated equality, parallelism, perpendicularity or congruence from a drawing. Also avoid using the converse of a theorem unless the converse is actually valid. A correct-looking numerical answer obtained from an invalid assumption is still mathematically incorrect.",
+          "color": "red"
+        },
+        {
+          "type": "thinking",
+          "title": "Higher-order question",
+          "content": "What is the minimum information needed to reach the conclusion? Which condition is essential? Can you construct a counterexample if one condition is removed? Can the same result be reached by a different theorem? Answering these questions deepens understanding and improves proof skills.",
+          "color": "indigo"
+        },
+        {
+          "type": "exam",
+          "title": "Board-style presentation",
+          "content": "Use a clean diagram when useful. State the given information, then the required result. In a proof, write one logical step per line and attach a reason. In numerical questions, show the governing relation before substitution. Box or clearly state the final result.",
+          "color": "orange"
+        },
+        {
+          "type": "check",
+          "title": "Verification",
+          "content": "Substitute the final value back into the original equation or relation. In geometry, also check angle sums, equality conditions, parallel-line conditions, side inequalities, or correspondence as appropriate. Verification is especially valuable in multi-step questions because one early error can otherwise propagate.",
+          "color": "cyan"
         }
       ]
     }
@@ -496,5 +1513,5 @@ const ChapterData = {
     "Equivalent Formulations and Modern View",
     "How to Read and Write a Geometrical Proof"
   ],
-  "renderVersion": "windows.chapter.v2"
+  "renderVersion": "windows.chapter.v3"
 };
