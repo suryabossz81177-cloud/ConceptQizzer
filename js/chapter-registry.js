@@ -36,7 +36,7 @@ window.ChapterRegistry = [
 },
 
 {
-  id: "9-mathematics-introduction-to-euclids-geometry",
+  id: "9-mathematics-introduction-to-euclid-s-geometry",
   title: "Introduction to Euclid's Geometry",
   class: 9,
   subject: "Mathematics",
