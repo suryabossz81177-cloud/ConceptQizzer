@@ -2,7 +2,7 @@
 /* Loader fix: all chapter extensions are inside the object; no post-declaration ChapterData.* statements remain. */
 "use strict";
 
-const ChapterData = {
+var ChapterData = {
   "id": "9-mathematics-statistics",
   "title": "Statistics",
   "class": 9,

@@ -2,7 +2,7 @@
 /* Loader-safe Windows Chapter format. */
 "use strict";
 
-const ChapterData = {
+var ChapterData = {
   "id": "9-mathematics-quadrilaterals",
   "title": "Quadrilaterals",
   "class": 9,

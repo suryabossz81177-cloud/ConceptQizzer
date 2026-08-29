@@ -2,7 +2,7 @@
 /* Preserves the previous chapter data and exposes both ChapterData and window.chapter. */
 "use strict";
 
-const ChapterData = {
+var ChapterData = {
   "id": "9-mathematics-coordinate-geometry",
   "title": "Coordinate Geometry",
   "class": 9,

@@ -2,7 +2,7 @@
 /* Loader-safe Windows Chapter format. */
 "use strict";
 
-const ChapterData = {
+var ChapterData = {
   "id": "9-mathematics-lines-and-angles",
   "title": "Lines and Angles",
   "class": 9,

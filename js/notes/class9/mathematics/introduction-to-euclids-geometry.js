@@ -2,7 +2,7 @@
 /* Loader-safe Windows Chapter format. */
 "use strict";
 
-const ChapterData = {
+var ChapterData = {
   "id": "9-mathematics-introduction-to-euclid-s-geometry",
   "title": "Introduction to Euclid's Geometry",
   "class": 9,
