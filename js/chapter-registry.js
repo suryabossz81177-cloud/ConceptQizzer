@@ -45,6 +45,7 @@ window.ChapterRegistry = [
   enabled: true
 },
   
+  
   {
   id: "9-mathematics-linear-equations-in-two-variables",
   title: "Linear Equations in Two Variables",
