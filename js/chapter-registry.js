@@ -6,6 +6,46 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "9-mathematics-quadrilaterals",
+  title: "Quadrilaterals",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 8,
+  file: "js/notes/class9/mathematics/quadrilaterals.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-triangles",
+  title: "Triangles",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 7,
+  file: "js/notes/class9/mathematics/triangles.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-lines-and-angles",
+  title: "Lines and Angles",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 6,
+  file: "js/notes/class9/mathematics/lines-and-angles.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-introduction-to-euclids-geometry",
+  title: "Introduction to Euclid's Geometry",
+  class: 9,
+  subject: "Mathematics",
+  chapter: 5,
+  file: "js/notes/class9/mathematics/introduction-to-euclids-geometry.js",
+  enabled: true
+},
+  
+  {
   id: "9-mathematics-linear-equations-in-two-variables",
   title: "Linear Equations in Two Variables",
   class: 9,
