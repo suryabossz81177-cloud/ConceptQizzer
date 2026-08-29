@@ -176,6 +176,17 @@ async function loadChapter(key){
       "window.CQ_LOADED_CHAPTER ="
     );
 
+    /* Compatibility: chapter files may end with window.chapter = ChapterData. */
+    converted = converted.replace(
+      /window\.ChapterData\s*=\s*ChapterData\s*;?/g,
+      "window.CQ_LOADED_CHAPTER = window.CQ_LOADED_CHAPTER;"
+    );
+
+    converted = converted.replace(
+      /window\.chapter\s*=\s*ChapterData\s*;?/g,
+      "window.chapter = window.CQ_LOADED_CHAPTER;"
+    );
+
     if (!/window\.CQ_LOADED_CHAPTER\s*=/.test(converted)) {
       throw new Error(
         "Invalid chapter notes file. Expected ChapterData declaration in: " +
@@ -2351,6 +2362,17 @@ function initPackage12AI() {
     converted = converted.replace(
       /window\.ChapterData\s*=/,
       "window.__CQ_KNOWLEDGE_CHAPTER ="
+    );
+
+    /* Compatibility for chapter files exposing window.chapter = ChapterData. */
+    converted = converted.replace(
+      /window\.ChapterData\s*=\s*ChapterData\s*;?/g,
+      "window.__CQ_KNOWLEDGE_CHAPTER = window.__CQ_KNOWLEDGE_CHAPTER;"
+    );
+
+    converted = converted.replace(
+      /window\.chapter\s*=\s*ChapterData\s*;?/g,
+      "window.chapter = window.__CQ_KNOWLEDGE_CHAPTER;"
     );
 
     if (!/window\.__CQ_KNOWLEDGE_CHAPTER\s*=/.test(converted)) return null;
