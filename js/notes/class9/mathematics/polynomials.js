@@ -146,6 +146,33 @@ const ChapterData = {
       ]
     }
   ],
+  "figureBank": [
+  {
+    "title": "Polynomial anatomy",
+    "diagram": "p(x)=3x²−5x+7\n3x² = leading term\n−5x = linear term\n7 = constant term\ndegree = 2",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Zero",
+    "diagram": "p(x)=x−3\n──────────●──────────→\n          3\np(3)=0, so 3 is a zero.",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Factor theorem",
+    "diagram": "p(a)=0  ⇔  (x−a) is a factor of p(x)",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Remainder theorem",
+    "diagram": "Divide p(x) by (x−a):\nremainder = p(a)",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Identities",
+    "diagram": "(a+b)²=a²+2ab+b²\n(a−b)²=a²−2ab+b²\n(a+b)(a−b)=a²−b²",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  }
+],
   "visualLearning": [
     "Use an area model for (a+b)².",
     "Sketch a quadratic and mark its x-axis zeros."
@@ -284,6 +311,39 @@ const ChapterData = {
       "id": "polynomial-meaning-and-structure",
       "title": "Polynomial: Meaning and Structure",
       "blocks": [
+
+  {
+    "type": "concept",
+    "title": "📐 Figure 1 — Polynomial anatomy",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\np(x)=3x²−5x+7\n3x² = leading term\n−5x = linear term\n7 = constant term\ndegree = 2\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 2 — Zero",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\np(x)=x−3\n──────────●──────────→\n          3\np(3)=0, so 3 is a zero.\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 3 — Factor theorem",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\np(a)=0  ⇔  (x−a) is a factor of p(x)\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 4 — Remainder theorem",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\nDivide p(x) by (x−a):\nremainder = p(a)\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 5 — Identities",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n(a+b)²=a²+2ab+b²\n(a−b)²=a²−2ab+b²\n(a+b)(a−b)=a²−b²\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  }
+,
+
         {
           "type": "concept",
           "title": "Concept Explained",
@@ -1042,7 +1102,3054 @@ const ChapterData = {
         }
       ]
     }
-  ]
+  ],
+  "additionalSections": [
+  {
+    "id": "five-x-mega-expansion",
+    "title": "5× Mega Detailed Learning Expansion",
+    "blocks": [
+      {
+        "type": "concept",
+        "title": "1. Polynomial anatomy — Deep Concept",
+        "color": "blue",
+        "text": "Polynomial anatomy is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "1. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Polynomial anatomy: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "1. Exam Insight",
+        "color": "green",
+        "text": "For Polynomial anatomy, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Polynomial anatomy",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Polynomial anatomy.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Polynomial anatomy is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Polynomial anatomy.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Polynomial anatomy?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Polynomial anatomy be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "2. Degree and standard form — Deep Concept",
+        "color": "blue",
+        "text": "Degree and standard form is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "2. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Degree and standard form: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "2. Exam Insight",
+        "color": "green",
+        "text": "For Degree and standard form, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Degree and standard form",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Degree and standard form.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Degree and standard form is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Degree and standard form.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Degree and standard form?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Degree and standard form be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "3. Classification by degree and terms — Deep Concept",
+        "color": "blue",
+        "text": "Classification by degree and terms is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "3. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Classification by degree and terms: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "3. Exam Insight",
+        "color": "green",
+        "text": "For Classification by degree and terms, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Classification by degree and terms",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Classification by degree and terms.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Classification by degree and terms is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Classification by degree and terms.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Classification by degree and terms?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Classification by degree and terms be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "4. Value of a polynomial — Deep Concept",
+        "color": "blue",
+        "text": "Value of a polynomial is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "4. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Value of a polynomial: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "4. Exam Insight",
+        "color": "green",
+        "text": "For Value of a polynomial, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Value of a polynomial",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Value of a polynomial.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Value of a polynomial is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Value of a polynomial.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Value of a polynomial?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Value of a polynomial be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "5. Zeroes — Deep Concept",
+        "color": "blue",
+        "text": "Zeroes is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "5. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Zeroes: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "5. Exam Insight",
+        "color": "green",
+        "text": "For Zeroes, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Zeroes",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Zeroes.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Zeroes is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Zeroes.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Zeroes?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Zeroes be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "6. Factor Theorem — Deep Concept",
+        "color": "blue",
+        "text": "Factor Theorem is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "6. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Factor Theorem: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "6. Exam Insight",
+        "color": "green",
+        "text": "For Factor Theorem, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Factor Theorem",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Factor Theorem.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Factor Theorem is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Factor Theorem.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Factor Theorem?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Factor Theorem be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "7. Remainder Theorem — Deep Concept",
+        "color": "blue",
+        "text": "Remainder Theorem is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "7. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Remainder Theorem: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "7. Exam Insight",
+        "color": "green",
+        "text": "For Remainder Theorem, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Remainder Theorem",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Remainder Theorem.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Remainder Theorem is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Remainder Theorem.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Remainder Theorem?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Remainder Theorem be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "8. Factorisation by grouping — Deep Concept",
+        "color": "blue",
+        "text": "Factorisation by grouping is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "8. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Factorisation by grouping: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "8. Exam Insight",
+        "color": "green",
+        "text": "For Factorisation by grouping, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Factorisation by grouping",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Factorisation by grouping.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Factorisation by grouping is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Factorisation by grouping.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Factorisation by grouping?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Factorisation by grouping be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "9. Square of a sum — Deep Concept",
+        "color": "blue",
+        "text": "Square of a sum is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "9. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Square of a sum: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "9. Exam Insight",
+        "color": "green",
+        "text": "For Square of a sum, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Square of a sum",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Square of a sum.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Square of a sum is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Square of a sum.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Square of a sum?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Square of a sum be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "10. Square of a difference — Deep Concept",
+        "color": "blue",
+        "text": "Square of a difference is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "10. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Square of a difference: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "10. Exam Insight",
+        "color": "green",
+        "text": "For Square of a difference, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Square of a difference",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Square of a difference.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Square of a difference is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Square of a difference.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Square of a difference?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Square of a difference be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "11. Difference of squares — Deep Concept",
+        "color": "blue",
+        "text": "Difference of squares is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "11. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Difference of squares: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "11. Exam Insight",
+        "color": "green",
+        "text": "For Difference of squares, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Difference of squares",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Difference of squares.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Difference of squares is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Difference of squares.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Difference of squares?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Difference of squares be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "12. Sum and difference of cubes — Deep Concept",
+        "color": "blue",
+        "text": "Sum and difference of cubes is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "12. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Sum and difference of cubes: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "12. Exam Insight",
+        "color": "green",
+        "text": "For Sum and difference of cubes, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Sum and difference of cubes",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Sum and difference of cubes.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Sum and difference of cubes is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Sum and difference of cubes.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Sum and difference of cubes?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Sum and difference of cubes be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "13. Polynomial graphs — Deep Concept",
+        "color": "blue",
+        "text": "Polynomial graphs is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "13. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Polynomial graphs: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "13. Exam Insight",
+        "color": "green",
+        "text": "For Polynomial graphs, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Polynomial graphs",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Polynomial graphs.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Polynomial graphs is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Polynomial graphs.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Polynomial graphs?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Polynomial graphs be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "14. Factorisation strategy — Deep Concept",
+        "color": "blue",
+        "text": "Factorisation strategy is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "14. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Factorisation strategy: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "14. Exam Insight",
+        "color": "green",
+        "text": "For Factorisation strategy, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Factorisation strategy",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Factorisation strategy.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Factorisation strategy is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Factorisation strategy.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Factorisation strategy?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Factorisation strategy be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "15. Sign discipline — Deep Concept",
+        "color": "blue",
+        "text": "Sign discipline is developed from first principles. Begin with the exact mathematical meaning, identify the conditions under which the rule is valid, connect the idea to earlier mathematics, and then apply it. The objective is durable understanding: know what each symbol means, why each operation is allowed, how the result is represented, and how it can be checked. A strong student should be able to explain the definition, demonstrate the method, identify a trap, and verify an answer independently."
+      },
+      {
+        "type": "example",
+        "title": "15. Step-by-Step Worked Example",
+        "color": "orange",
+        "text": "Reliable method for Sign discipline: Step 1 — write the givens. Step 2 — state what is required. Step 3 — select the matching definition, theorem, identity, graph rule or algebraic method. Step 4 — substitute with brackets around negative values. Step 5 — simplify line by line. Step 6 — verify with the original condition, an alternate method, a graph or a numerical estimate. Step 7 — state the final conclusion clearly."
+      },
+      {
+        "type": "tip",
+        "title": "15. Exam Insight",
+        "color": "green",
+        "text": "For Sign discipline, do not jump to the final answer. Show why the method applies. Check hypotheses before using a theorem, preserve exact values where possible, and inspect the final sign, unit or geometrical meaning."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Sign discipline",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the main definition or rule associated with Sign discipline.",
+            "answer": "State the standard definition or rule accurately.",
+            "solution": "Write the mathematical rule and include its meaning or condition."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Explain why Sign discipline is useful.",
+            "answer": "It gives a way to interpret, calculate, represent or verify a mathematical relationship.",
+            "solution": "Connect the concept to a concrete mathematical task."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a step-by-step approach to a typical problem on Sign discipline.",
+            "answer": "Identify data → choose the matching rule → work carefully → verify.",
+            "solution": "A complete method includes the relevant condition and intermediate steps."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What is a likely error in Sign discipline?",
+            "answer": "Applying a rule without checking conditions or mishandling signs or notation.",
+            "solution": "Check the definition, hypotheses, signs, arithmetic and final meaning."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "How can a result involving Sign discipline be independently checked?",
+            "answer": "Substitute back, use an alternate method, or check its graph or geometric meaning.",
+            "solution": "Choose the verification that matches the structure of the problem."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "Universal Problem-Solving Framework",
+        "color": "blue",
+        "text": "Read the question twice. List givens. Identify the exact target. Select the rule that matches the information. Check its conditions. Substitute carefully. Simplify line by line. Verify using the original statement or an independent method. Finish with a clear conclusion. This workflow works for routine, application, HOTS and proof questions."
+      },
+      {
+        "type": "concept",
+        "title": "Error-Checking Ladder",
+        "color": "blue",
+        "text": "Check arithmetic, then algebraic structure, then theorem conditions, then graphical or geometrical meaning, and finally approximate size or sign. If two methods disagree, locate the first incorrect step instead of choosing whichever answer looks convenient."
+      },
+      {
+        "type": "comparison",
+        "title": "Definition vs Property vs Theorem",
+        "color": "purple",
+        "text": "A definition tells what a term or object means. A property is a characteristic that follows from definitions or established results. A theorem is a statement supported by proof. In examinations, distinguish these categories and never assume a theorem without satisfying its hypotheses."
+      },
+      {
+        "type": "practice",
+        "title": "Chapter Master Challenge",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the chapter's most important rule or formula and define its symbols.",
+            "answer": "A correct rule with every symbol defined.",
+            "solution": "Write the rule, define variables or notation and state conditions."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why must conditions be checked before applying a theorem?",
+            "answer": "A theorem is valid only when its hypotheses are satisfied.",
+            "solution": "A calculation can be numerically correct yet mathematically invalid if a hypothesis is missing."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Give a five-mark solution structure.",
+            "answer": "Given → required → rule/theorem → working → verification → conclusion.",
+            "solution": "Show every important transformation and reason."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "What should you do if the final answer looks unreasonable?",
+            "answer": "Recheck assumptions, signs, arithmetic and method.",
+            "solution": "Use the error-checking ladder rather than changing the answer randomly."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Why is understanding stronger than memorising a formula?",
+            "answer": "It tells you when and why the formula applies and helps detect errors.",
+            "solution": "Understanding connects the expression to its conditions and meaning."
+          }
+        ]
+      }
+    ]
+  }
+],
+  "masterySupplement": [
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 1: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 1 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 1: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 1: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 1.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 1.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 2: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 2 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 2: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 2: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 2.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 2.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 3: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 3 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 3: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 3: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 3.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 3.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 4: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 4 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 4: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 4: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 4.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 4.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 5: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 5 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 5: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 5: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 5.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 5.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 6: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 6 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 6: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 6: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 6.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 6.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 7: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 7 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 7: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 7: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 7.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 7.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 8: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 8 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 8: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 8: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 8.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 8.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 9: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 9 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 9: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 9: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 9.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 9.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 10: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 10 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 10: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 10: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 10.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 10.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 11: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 11 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 11: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 11: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 11.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 11.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 12: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 12 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 12: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 12: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 12.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 12.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 13: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 13 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 13: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 13: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 13.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 13.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 14: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 14 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 14: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 14: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 14.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 14.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 15: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 15 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 15: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 15: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 15.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 15.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 16: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 16 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 16: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 16: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 16.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 16.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 17: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 17 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 17: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 17: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 17.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 17.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 18: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 18 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 18: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 18: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 18.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 18.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 19: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 19 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 19: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 19: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 19.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 19.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 20: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 20 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 20: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 20: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 20.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 20.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 21: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 21 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 21: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 21: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 21.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 21.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 22: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 22 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 22: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 22: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 22.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 22.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 23: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 23 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 23: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 23: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 23.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 23.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 24: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 24 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 24: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 24: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 24.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 24.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 25: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 25 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 25: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 25: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 25.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 25.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 26: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 26 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 26: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 26: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 26.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 26.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 27: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 27 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 27: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 27: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 27.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 27.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 28: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 28 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 28: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 28: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 28.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 28.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 29: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 29 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 29: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 29: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 29.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 29.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 30: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 30 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 30: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 30: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 30.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 30.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 31: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 31 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 31: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 31: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 31.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 31.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 32: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 32 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 32: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 32: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 32.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 32.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 33: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 33 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 33: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 33: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 33.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 33.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 34: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 34 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 34: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 34: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 34.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 34.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 35: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 35 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 35: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 35: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 35.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 35.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 36: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 36 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 36: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 36: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 36.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 36.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 37: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 37 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 37: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 37: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 37.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 37.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 38: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 38 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 38: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 38: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 38.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 38.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 39: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 39 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 39: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 39: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 39.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 39.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 40: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 40 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 40: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 40: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 40.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 40.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 41: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 41 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 41: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 41: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 41.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 41.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 42: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 42 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 42: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 42: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 42.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 42.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 43: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 43 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 43: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 43: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 43.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 43.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Mastery Lesson 44: Deep Reasoning Cycle",
+    "color": "blue",
+    "text": "This mastery lesson revisits the core ideas of Chapter 2 through a deliberate reasoning cycle. First identify the mathematical object, expression, relation or representation involved. Next state the definition and every condition that must be satisfied. Then choose a suitable theorem, identity, formula, coordinate rule or algebraic operation. Perform the transformation one line at a time, keeping signs, labels and units consistent. Finally verify the conclusion from the original information. Lesson 44 also trains transfer: after solving a routine version, ask what changes if a value is negative, zero, fractional, unusually large, or placed in a different representation. This is how a memorised procedure becomes flexible mathematical understanding."
+  },
+  {
+    "type": "example",
+    "title": "Mastery Lesson 44: Worked-Method Template",
+    "color": "orange",
+    "text": "Question-reading: underline the givens and circle the required quantity. Representation: rewrite the data in a form that exposes the structure. Rule selection: name the exact definition/theorem/formula and check its hypotheses. Execution: substitute carefully, use brackets for negative values, and keep intermediate expressions visible. Verification: substitute the result back, compare with an alternate method, or inspect the graph/geometrical meaning. Conclusion: write the answer in complete mathematical notation. This template is deliberately reusable across easy, moderate, difficult and HOTS questions."
+  },
+  {
+    "type": "practice",
+    "title": "Mastery Lesson 44: Five-Level Practice",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "Define the central idea tested in mastery lesson 44.",
+        "answer": "State the chapter-specific definition accurately.",
+        "solution": "Include the meaning and the condition under which it is used."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the relevant rule is valid in this situation.",
+        "answer": "Because the required hypotheses or structural conditions are satisfied.",
+        "solution": "Name the condition and connect it to the given information."
+      },
+      {
+        "difficulty": "Application",
+        "question": "Describe the calculation or construction step by step.",
+        "answer": "Identify data → select rule → substitute/work → simplify → verify.",
+        "solution": "Show intermediate reasoning instead of jumping to the final answer."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How would the method change if one important value changed sign or representation?",
+        "answer": "Recheck conditions and substitute the changed value carefully.",
+        "solution": "Never assume the old answer remains valid; test the new data from the definition."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "Give an independent verification strategy for mastery lesson 44.",
+        "answer": "Substitution, alternate method, graph, estimate, or theorem-based check.",
+        "solution": "Choose a check that tests the result rather than repeating the same arithmetic."
+      }
+    ]
+  }
+]
 };
 
-/* The notes loader evaluates this file and captures ChapterData. */
+window.ChapterData = ChapterData;
+window.chapter = ChapterData;

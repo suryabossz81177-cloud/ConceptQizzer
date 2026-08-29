@@ -110,6 +110,38 @@ const ChapterData = {
   ],
   "realLifeMathematics": [],
   "mathematicalActivityLab": [],
+  "figureBank": [
+  {
+    "title": "Cuboid",
+    "diagram": "       ┌──────────┐\n      /│         /│\n     / │        / │\n    ┌──────────┐  │\n    │  │       │  │ h\n    │  └───────│──┘\n    │ /        │ /\n    │/         │/\n    └──────────┘\n       l   b",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Cube",
+    "diagram": "      ┌──────┐\n     /│     /│\n    ┌──────┐ │\n    │ │    │ │\n    │ └────│─┘\n    │/     │/\n    └──────┘\nedge=a; TSA=6a²; V=a³",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Cylinder",
+    "diagram": "       _________\n     /         \\\n    /           \\\n   |             | h\n   |             |\n    \\           /\n     \\_________/\n         r",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Cone",
+    "diagram": "          A\n          |\\\n        h | \\ l\n          |  \\\n          |   \\\n          O────B\n             r\nl²=h²+r²",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Sphere",
+    "diagram": "        .−────−.\n      .´    O     `.\n     /             \\\n     \\             /\n      `.         .´\n        `−─────−´\nSurface area=4πr²; volume=4/3πr³",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  },
+  {
+    "title": "Hemisphere",
+    "diagram": "       .−───────.\n    .´           `.\n   /               \\\n  /                 \\\n └───────────────────┘\nCSA=2πr²; TSA including base=3πr²",
+    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
+  }
+],
   "visualLearning": [],
   "masterDefinitions": [
     {
@@ -595,6 +627,45 @@ const ChapterData = {
       "id": "surface-volume-language",
       "title": "Surface Area vs Volume and Unit Sense",
       "blocks": [
+
+  {
+    "type": "concept",
+    "title": "📐 Figure 1 — Cuboid",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n       ┌──────────┐\n      /│         /│\n     / │        / │\n    ┌──────────┐  │\n    │  │       │  │ h\n    │  └───────│──┘\n    │ /        │ /\n    │/         │/\n    └──────────┘\n       l   b\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 2 — Cube",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n      ┌──────┐\n     /│     /│\n    ┌──────┐ │\n    │ │    │ │\n    │ └────│─┘\n    │/     │/\n    └──────┘\nedge=a; TSA=6a²; V=a³\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 3 — Cylinder",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n       _________\n     /         \\\n    /           \\\n   |             | h\n   |             |\n    \\           /\n     \\_________/\n         r\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 4 — Cone",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n          A\n          |\\\n        h | \\ l\n          |  \\\n          |   \\\n          O────B\n             r\nl²=h²+r²\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 5 — Sphere",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n        .−────−.\n      .´    O     `.\n     /             \\\n     \\             /\n      `.         .´\n        `−─────−´\nSurface area=4πr²; volume=4/3πr³\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  },
+  {
+    "type": "concept",
+    "title": "📐 Figure 6 — Hemisphere",
+    "color": "blue",
+    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n       .−───────.\n    .´           `.\n   /               \\\n  /                 \\\n └───────────────────┘\nCSA=2πr²; TSA including base=3πr²\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
+  }
+,
+
         {
           "type": "concept",
           "title": "Concept Explained",
@@ -1143,6 +1214,3060 @@ const ChapterData = {
     "answerReveal": "show-answer",
     "tables": "native-renderer-tables",
     "rawJSONForStudents": false
+  },
+  "deepExpansion5X": [
+  {
+    "id": "chapter-11-deep-expansion-5x",
+    "title": "5× Minimum Detailed Expansion — Same Format as Chapters 5–8",
+    "blocks": [
+      {
+        "type": "concept",
+        "title": "1. 3D solids and dimensions — Deep Concept",
+        "color": "blue",
+        "text": "Surface area measures the total area of the exposed surfaces of a solid and is expressed in square units. Volume measures the space occupied and is expressed in cubic units. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "1. 3D solids and dimensions — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "1. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — 3D solids and dimensions",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to 3D solids and dimensions.",
+            "answer": "State the standard Class 9 result for 3D solids and dimensions.",
+            "solution": "Surface area measures the total area of the exposed surfaces of a solid and is expressed in square units. Volume measures the space occupied and is expressed in cubic units."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in 3D solids and dimensions important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on 3D solids and dimensions.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about 3D solids and dimensions.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving 3D solids and dimensions.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "2. Cuboid — Deep Concept",
+        "color": "blue",
+        "text": "A cuboid has length l, breadth b and height h. Its volume is lbh and its total surface area is 2(lb+bh+hl). Its lateral surface area is 2h(l+b) when the four vertical faces are considered. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "2. Cuboid — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "2. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Cuboid",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Cuboid.",
+            "answer": "State the standard Class 9 result for Cuboid.",
+            "solution": "A cuboid has length l, breadth b and height h. Its volume is lbh and its total surface area is 2(lb+bh+hl). Its lateral surface area is 2h(l+b) when the four vertical faces are considered."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Cuboid important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Cuboid.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Cuboid.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Cuboid.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "3. Cube — Deep Concept",
+        "color": "blue",
+        "text": "A cube has six congruent square faces and all edges equal to a. Its total surface area is 6a², lateral surface area is 4a² and volume is a³. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "3. Cube — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "3. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Cube",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Cube.",
+            "answer": "State the standard Class 9 result for Cube.",
+            "solution": "A cube has six congruent square faces and all edges equal to a. Its total surface area is 6a², lateral surface area is 4a² and volume is a³."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Cube important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Cube.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Cube.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Cube.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "4. Cylinder — Deep Concept",
+        "color": "blue",
+        "text": "A cylinder has two congruent circular bases of radius r and height h. Curved surface area is 2πrh, total surface area is 2πr(h+r), and volume is πr²h. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "4. Cylinder — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "4. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Cylinder",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Cylinder.",
+            "answer": "State the standard Class 9 result for Cylinder.",
+            "solution": "A cylinder has two congruent circular bases of radius r and height h. Curved surface area is 2πrh, total surface area is 2πr(h+r), and volume is πr²h."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Cylinder important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Cylinder.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Cylinder.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Cylinder.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "5. Cone — Deep Concept",
+        "color": "blue",
+        "text": "A cone has a circular base of radius r, height h and slant height l. Curved surface area is πrl, total surface area is πr(l+r), and volume is (1/3)πr²h. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "5. Cone — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "5. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Cone",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Cone.",
+            "answer": "State the standard Class 9 result for Cone.",
+            "solution": "A cone has a circular base of radius r, height h and slant height l. Curved surface area is πrl, total surface area is πr(l+r), and volume is (1/3)πr²h."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Cone important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Cone.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Cone.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Cone.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "6. Slant height of cone — Deep Concept",
+        "color": "blue",
+        "text": "For a right circular cone, r, h and l form a right triangle, so l²=r²+h². Never substitute h for l in the curved-surface-area formula. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "6. Slant height of cone — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "6. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Slant height of cone",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Slant height of cone.",
+            "answer": "State the standard Class 9 result for Slant height of cone.",
+            "solution": "For a right circular cone, r, h and l form a right triangle, so l²=r²+h². Never substitute h for l in the curved-surface-area formula."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Slant height of cone important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Slant height of cone.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Slant height of cone.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Slant height of cone.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "7. Sphere — Deep Concept",
+        "color": "blue",
+        "text": "A sphere of radius r has surface area 4πr² and volume (4/3)πr³. A sphere has no separate curved and plane faces. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "7. Sphere — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "7. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Sphere",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Sphere.",
+            "answer": "State the standard Class 9 result for Sphere.",
+            "solution": "A sphere of radius r has surface area 4πr² and volume (4/3)πr³. A sphere has no separate curved and plane faces."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Sphere important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Sphere.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Sphere.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Sphere.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "8. Hemisphere — Deep Concept",
+        "color": "blue",
+        "text": "A hemisphere is half a sphere. Its curved surface area is 2πr² and its total surface area including the circular base is 3πr². The correct formula depends on whether the base is exposed. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "8. Hemisphere — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "8. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Hemisphere",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Hemisphere.",
+            "answer": "State the standard Class 9 result for Hemisphere.",
+            "solution": "A hemisphere is half a sphere. Its curved surface area is 2πr² and its total surface area including the circular base is 3πr². The correct formula depends on whether the base is exposed."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Hemisphere important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Hemisphere.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Hemisphere.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Hemisphere.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "9. Open and closed solids — Deep Concept",
+        "color": "blue",
+        "text": "A container may be open at one end, so the base or top should not automatically be included in total surface area. Read the wording and identify which surfaces are exposed. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "9. Open and closed solids — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "9. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Open and closed solids",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Open and closed solids.",
+            "answer": "State the standard Class 9 result for Open and closed solids.",
+            "solution": "A container may be open at one end, so the base or top should not automatically be included in total surface area. Read the wording and identify which surfaces are exposed."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Open and closed solids important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Open and closed solids.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Open and closed solids.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Open and closed solids.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "10. Combination of solids — Deep Concept",
+        "color": "blue",
+        "text": "For a composite solid, calculate only the external surfaces unless the question explicitly asks for internal/contact surfaces. Shared surfaces between joined solids are usually not exposed. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "10. Combination of solids — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "10. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Combination of solids",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Combination of solids.",
+            "answer": "State the standard Class 9 result for Combination of solids.",
+            "solution": "For a composite solid, calculate only the external surfaces unless the question explicitly asks for internal/contact surfaces. Shared surfaces between joined solids are usually not exposed."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Combination of solids important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Combination of solids.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Combination of solids.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Combination of solids.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "11. Volume conservation — Deep Concept",
+        "color": "blue",
+        "text": "When a solid is melted and recast without loss, volume remains constant. This principle links old and new dimensions and is a common application problem. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "11. Volume conservation — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "11. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Volume conservation",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Volume conservation.",
+            "answer": "State the standard Class 9 result for Volume conservation.",
+            "solution": "When a solid is melted and recast without loss, volume remains constant. This principle links old and new dimensions and is a common application problem."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Volume conservation important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Volume conservation.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Volume conservation.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Volume conservation.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "12. Unit conversion — Deep Concept",
+        "color": "blue",
+        "text": "For length, 1 m=100 cm; for area, 1 m²=10,000 cm²; for volume, 1 m³=1,000,000 cm³. The power changes with the dimension. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "12. Unit conversion — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "12. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Unit conversion",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Unit conversion.",
+            "answer": "State the standard Class 9 result for Unit conversion.",
+            "solution": "For length, 1 m=100 cm; for area, 1 m²=10,000 cm²; for volume, 1 m³=1,000,000 cm³. The power changes with the dimension."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Unit conversion important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Unit conversion.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Unit conversion.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Unit conversion.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "13. Choosing π — Deep Concept",
+        "color": "blue",
+        "text": "Use the value of π specified by the question, commonly 22/7 or 3.14 in school problems. If no value is specified, use the convention appropriate to the calculation. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "13. Choosing π — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "13. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Choosing π",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Choosing π.",
+            "answer": "State the standard Class 9 result for Choosing π.",
+            "solution": "Use the value of π specified by the question, commonly 22/7 or 3.14 in school problems. If no value is specified, use the convention appropriate to the calculation."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Choosing π important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Choosing π.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Choosing π.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Choosing π.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "14. Surface area versus volume — Deep Concept",
+        "color": "blue",
+        "text": "Surface area answers how much material is needed to cover a solid; volume answers how much space it contains. Their dimensions and units are different. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "14. Surface area versus volume — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "14. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Surface area versus volume",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Surface area versus volume.",
+            "answer": "State the standard Class 9 result for Surface area versus volume.",
+            "solution": "Surface area answers how much material is needed to cover a solid; volume answers how much space it contains. Their dimensions and units are different."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Surface area versus volume important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Surface area versus volume.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Surface area versus volume.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Surface area versus volume.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      },
+      {
+        "type": "concept",
+        "title": "15. Common mistakes — Deep Concept",
+        "color": "blue",
+        "text": "Frequent errors include using diameter as radius, confusing slant height with vertical height, adding hidden contact faces, using area units for volume, and forgetting an exposed base. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+      },
+      {
+        "type": "example",
+        "title": "15. Common mistakes — Solved Method",
+        "color": "orange",
+        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+      },
+      {
+        "type": "tip",
+        "title": "15. Exam Point",
+        "color": "green",
+        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+      },
+      {
+        "type": "practice",
+        "title": "Practice — Common mistakes",
+        "color": "purple",
+        "questions": [
+          {
+            "difficulty": "Basic",
+            "question": "State the key definition/formula related to Common mistakes.",
+            "answer": "State the standard Class 9 result for Common mistakes.",
+            "solution": "Frequent errors include using diameter as radius, confusing slant height with vertical height, adding hidden contact faces, using area units for volume, and forgetting an exposed base."
+          },
+          {
+            "difficulty": "Understanding",
+            "question": "Why is the condition or distinction in Common mistakes important?",
+            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+            "solution": "Identify the hypothesis and compare it with the information in the problem."
+          },
+          {
+            "difficulty": "Application",
+            "question": "Write the correct step-by-step method for a numerical question on Common mistakes.",
+            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+            "solution": "Show the formula first and keep the working traceable."
+          },
+          {
+            "difficulty": "HOTS",
+            "question": "Give one common misconception about Common mistakes.",
+            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+          },
+          {
+            "difficulty": "Challenge",
+            "question": "Give an independent way to verify a result involving Common mistakes.",
+            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+            "solution": "The check should test the result independently rather than repeat the same arithmetic."
+          }
+        ]
+      }
+    ]
   }
+],
+  "revisionLabs5X": [
+  {
+    "type": "concept",
+    "title": "Revision Lab 1 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 1 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 1 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 2 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 2 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 2 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 3 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 3 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 3 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 4 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 4 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 4 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 5 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 5 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 5 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 6 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 6 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 6 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 7 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 7 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 7 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 8 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 8 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 8 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 9 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 9 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 9 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 10 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 10 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 10 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 11 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 11 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 11 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 12 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 12 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 12 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 13 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 13 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 13 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 14 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 14 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 14 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 15 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 15 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 15 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 16 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 16 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 16 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 17 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 17 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 17 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 18 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 18 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 18 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 19 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 19 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 19 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 20 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 20 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 20 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 21 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 21 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 21 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 22 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 22 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 22 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 23 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 23 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 23 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 24 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 24 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 24 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 25 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 25 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 25 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 26 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 26 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 26 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 27 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 27 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 27 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 28 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 28 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 28 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 29 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 29 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 29 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 30 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 30 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 30 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 31 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 31 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 31 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 32 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 32 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 32 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 33 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 33 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 33 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 34 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 34 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 34 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 35 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 35 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 35 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 36 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 36 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 36 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 37 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 37 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 37 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 38 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 38 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 38 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 39 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 39 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 39 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 40 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 40 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 40 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 41 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 41 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 41 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 42 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 42 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 42 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 43 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 43 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 43 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 44 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 44 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 44 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  },
+  {
+    "type": "concept",
+    "title": "Revision Lab 45 — Concept Mastery",
+    "color": "blue",
+    "text": "Revision Lab 45 for Chapter 11: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+  },
+  {
+    "type": "practice",
+    "title": "Revision Lab 45 — Basic → Challenge",
+    "color": "purple",
+    "questions": [
+      {
+        "difficulty": "Basic",
+        "question": "State one important definition/formula from this chapter.",
+        "answer": "A correct Class 9 definition or formula.",
+        "solution": "Include the conditions and meaning of symbols."
+      },
+      {
+        "difficulty": "Understanding",
+        "question": "Explain why the selected formula applies.",
+        "answer": "Its conditions match the given situation.",
+        "solution": "Name the relevant condition and connect it to the data."
+      },
+      {
+        "difficulty": "Application",
+        "question": "What should be written before substituting numbers?",
+        "answer": "The formula or mathematical relationship.",
+        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+      },
+      {
+        "difficulty": "HOTS",
+        "question": "How can you detect an unreasonable answer?",
+        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+      },
+      {
+        "difficulty": "Challenge",
+        "question": "How would you change the problem to make it harder without changing the concept?",
+        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+      }
+    ]
+  }
+],
+  "examinerDrills5X": [
+  {
+    "type": "exam",
+    "title": "Examiner Drill 1",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 2",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 3",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 4",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 5",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 6",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 7",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 8",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 9",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 10",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 11",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 12",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 13",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 14",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 15",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 16",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 17",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 18",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 19",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 20",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 21",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 22",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 23",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 24",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 25",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 26",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 27",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 28",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 29",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 30",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 31",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 32",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 33",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 34",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 35",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 36",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 37",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 38",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 39",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 40",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 41",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 42",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 43",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 44",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 45",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 46",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  },
+  {
+    "type": "exam",
+    "title": "Examiner Drill 47",
+    "color": "orange",
+    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+  }
+]
 };
 
