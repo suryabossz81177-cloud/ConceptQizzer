@@ -6,6 +6,46 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "9-mathematics-circles",
+  class: 9,
+  subject: "Mathematics",
+  chapterNumber: 9,
+  title: "Circles",
+  file: "js/notes/class9/mathematics/circles.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-herons-formula",
+  class: 9,
+  subject: "Mathematics",
+  chapterNumber: 10,
+  title: "Heron’s Formula",
+  file: "js/notes/class9/mathematics/herons-formula.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-surface-areas-and-volumes",
+  class: 9,
+  subject: "Mathematics",
+  chapterNumber: 11,
+  title: "Surface Areas and Volumes",
+  file: "js/notes/class9/mathematics/surface-areas-and-volumes.js",
+  enabled: true
+},
+
+{
+  id: "9-mathematics-statistics",
+  class: 9,
+  subject: "Mathematics",
+  chapterNumber: 12,
+  title: "Statistics",
+  file: "js/notes/class9/mathematics/statistics.js",
+  enabled: true
+},
+  
+  {
   id: "9-mathematics-quadrilaterals",
   title: "Quadrilaterals",
   class: 9,
