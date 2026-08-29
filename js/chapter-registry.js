@@ -16,7 +16,7 @@ window.ChapterRegistry = [
 },
 
 {
-  id: "9-mathematics-herons-formula",
+  id: "9-mathematics-heron-s-formula",
   class: 9,
   subject: "Mathematics",
   chapterNumber: 10,
