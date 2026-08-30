@@ -6,7 +6,7 @@
   =================================================*/
 window.ChapterRegistry = [
   {
-  id: "class9-information-technology-digital-documentation",
+  id: "9-information-technology-digital-documentation",
   class: 9,
   subject: "Information Technology",
   chapterNumber: 1,
@@ -16,7 +16,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-information-technology-electronic-spreadsheet",
+  id: "9-information-technology-electronic-spreadsheet",
   class: 9,
   subject: "Information Technology",
   chapterNumber: 2,
@@ -26,7 +26,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-information-technology-digital-presentation",
+  id: "9-information-technology-digital-presentation",
   class: 9,
   subject: "Information Technology",
   chapterNumber: 3,
@@ -36,7 +36,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-information-technology-introduction-to-it-ites",
+  id: "9-information-technology-introduction-to-it-ites",
   class: 9,
   subject: "Information Technology",
   chapterNumber: 4,
@@ -46,7 +46,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-information-technology-data-entry-keyboarding-skills",
+  id: "9-information-technology-data-entry-keyboarding-skills",
   class: 9,
   subject: "Information Technology",
   chapterNumber: 5,
