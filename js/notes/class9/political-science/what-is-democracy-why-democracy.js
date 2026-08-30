@@ -1,154 +1,3876 @@
-/* ConceptQizzer — Class 9 Political Science — Detailed Notes */
-window.ChapterData = {
-  class: 9,
-  subject: "Political Science",
-  chapterNumber: 1,
-  title: "What is Democracy? Why Democracy?",
-  subtitle: "Master Notes • Stories • Case Lab • Constitution Connect • Exam Master",
-  description: "Democracy is a form of government in which rulers are chosen by the people through free and fair procedures and political power is exercised within constitutional and institutional limits. This chapter develops the meaning of democracy, examines its essential features, considers arguments for and against democracy, and explains why democratic government is valued despite its limitations.",
-  learningObjectives: [
-    "Explain the central concepts using precise political-science vocabulary.",
-    "Connect democratic ideas with everyday situations and institutions.",
-    "Apply constitutional principles to short civic cases.",
-    "Compare concepts using structured tables and evidence.",
-    "Prepare clear answers for basic, analytical and case-based questions.",
-  ],
-  sections: [
+/* Class 9 Political Science — What is Democracy? Why Democracy? — continuous chapter data */
+/* No maps are included, as requested. Render content sequentially without nested chapter sections. */
+const chapter = {
+  "id": "class9-political-science-what-is-democracy-why-democracy",
+  "class": 9,
+  "subject": "Political Science",
+  "chapterNumber": 1,
+  "title": "What is Democracy? Why Democracy?",
+  "enabled": true,
+  "formatVersion": "continuous-v3",
+  "intro": "Democracy is more than the act of voting. It is a way of organising public power in which people have a meaningful role in choosing rulers, questioning decisions, changing governments peacefully and enjoying political equality. This chapter examines the meaning of democracy, its essential features, why democratic government is preferred, and the limits and challenges that democracies can face.",
+  "content": [
     {
-      id: "lesson-1",
-      title: "1. Understanding Democracy",
-      content: "<article class=\"lesson\">\n<h2>1. Understanding Democracy</h2>\n<p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes.</p>\n<h3>📌 Core idea</h3>\n<p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article><section class=\"comic-story\">\n<h3>🎭 The Classroom Vote</h3>\n<p><strong>Characters:</strong> Surya, Ansh, Verma Sir</p>\n<div class=\"comic-panel\"><div class=\"panel-number\">PANEL 1</div><div class=\"speaker\">Surya</div><div class=\"dialogue\">If we need a class representative, everyone should get a chance to choose.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 2</div><div class=\"speaker\">Ansh</div><div class=\"dialogue\">Then the choice should be private so nobody can pressure a voter.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 3</div><div class=\"speaker\">Verma Sir</div><div class=\"dialogue\">Good. You have already identified participation, choice and fairness.</div></div>\n<div class=\"comic-learning\"><strong>🧠 What did we learn?</strong><p>The situation illustrates the related civic principle. Look for participation, rights, accountability, equality, institutions or lawful procedures depending on the topic. The key lesson is to connect the story to the constitutional or democratic concept rather than memorising the dialogue.</p></div>\n</section>",
+      "type": "heading",
+      "level": 1,
+      "text": "What is Democracy? Why Democracy?"
     },
     {
-      id: "lesson-2",
-      title: "2. Major Features of Democracy",
-      content: "<article class=\"lesson\">\n<h2>2. Major Features of Democracy</h2>\n<p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government.</p>\n<h3>📌 Core idea</h3>\n<p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article>",
+      "type": "paragraph",
+      "text": "Democracy is more than the act of voting. It is a way of organising public power in which people have a meaningful role in choosing rulers, questioning decisions, changing governments peacefully and enjoying political equality. This chapter examines the meaning of democracy, its essential features, why democratic government is preferred, and the limits and challenges that democracies can face."
     },
     {
-      id: "lesson-3",
-      title: "3. Why Elections Alone Are Not Enough",
-      content: "<article class=\"lesson\">\n<h2>3. Why Elections Alone Are Not Enough</h2>\n<p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful.</p>\n<h3>📌 Core idea</h3>\n<p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article><section class=\"comic-story\">\n<h3>🎭 The Unfair Election</h3>\n<p><strong>Characters:</strong> Surya, Arushi, Prince</p>\n<div class=\"comic-panel\"><div class=\"panel-number\">PANEL 1</div><div class=\"speaker\">Surya</div><div class=\"dialogue\">Imagine one candidate is allowed to campaign but the others are stopped.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 2</div><div class=\"speaker\">Arushi</div><div class=\"dialogue\">Then voters do not get a fair opportunity to compare choices.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 3</div><div class=\"speaker\">Prince</div><div class=\"dialogue\">So simply holding a vote is not enough. The process must be fair.</div></div>\n<div class=\"comic-learning\"><strong>🧠 What did we learn?</strong><p>The situation illustrates the related civic principle. Look for participation, rights, accountability, equality, institutions or lawful procedures depending on the topic. The key lesson is to connect the story to the constitutional or democratic concept rather than memorising the dialogue.</p></div>\n</section>",
+      "type": "box",
+      "kind": "think",
+      "title": "Think First",
+      "text": "Before reading further, try to explain the chapter's central idea in your own words. Then ask: Who gets power? What limits that power? How can citizens participate? What happens when a decision is challenged?"
     },
     {
-      id: "lesson-4",
-      title: "4. Why Democracy?",
-      content: "<article class=\"lesson\">\n<h2>4. Why Democracy?</h2>\n<p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction.</p>\n<h3>📌 Core idea</h3>\n<p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article><section class=\"comic-story\">\n<h3>🎭 Why Discuss?</h3>\n<p><strong>Characters:</strong> Ansh, Divya, Sharma Sir</p>\n<div class=\"comic-panel\"><div class=\"panel-number\">PANEL 1</div><div class=\"speaker\">Ansh</div><div class=\"dialogue\">The decision is taking too long!</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 2</div><div class=\"speaker\">Divya</div><div class=\"dialogue\">But different students have different concerns. Discussion can reveal problems before a decision is final.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 3</div><div class=\"speaker\">Sharma Sir</div><div class=\"dialogue\">Democracy may take time, but discussion and accountability can improve decisions.</div></div>\n<div class=\"comic-learning\"><strong>🧠 What did we learn?</strong><p>The situation illustrates the related civic principle. Look for participation, rights, accountability, equality, institutions or lawful procedures depending on the topic. The key lesson is to connect the story to the constitutional or democratic concept rather than memorising the dialogue.</p></div>\n</section>",
+      "type": "heading",
+      "level": 2,
+      "text": "Democracy: a starting point"
     },
     {
-      id: "lesson-5",
-      title: "5. Democracy and Accountability",
-      content: "<article class=\"lesson\">\n<h2>5. Democracy and Accountability</h2>\n<p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability.</p>\n<h3>📌 Core idea</h3>\n<p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article><section class=\"comic-story\">\n<h3>🎭 Correcting a Mistake</h3>\n<p><strong>Characters:</strong> Surya, Shashank, Verma Sir</p>\n<div class=\"comic-panel\"><div class=\"panel-number\">PANEL 1</div><div class=\"speaker\">Surya</div><div class=\"dialogue\">What if an elected government makes a wrong decision?</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 2</div><div class=\"speaker\">Shashank</div><div class=\"dialogue\">Citizens can criticize it, use institutions and eventually replace representatives through elections.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 3</div><div class=\"speaker\">Verma Sir</div><div class=\"dialogue\">That ability to correct mistakes is an important strength of democracy.</div></div>\n<div class=\"comic-learning\"><strong>🧠 What did we learn?</strong><p>The situation illustrates the related civic principle. Look for participation, rights, accountability, equality, institutions or lawful procedures depending on the topic. The key lesson is to connect the story to the constitutional or democratic concept rather than memorising the dialogue.</p></div>\n</section>",
+      "type": "paragraph",
+      "text": "The word democracy comes from ideas of rule by the people. In a modern representative democracy, citizens normally do not make every government decision themselves. They elect representatives who exercise public authority on their behalf. The crucial point is that representatives must derive their authority from citizens through genuine political competition and must remain answerable to them. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      id: "lesson-6",
-      title: "6. Democracy and Equality",
-      content: "<article class=\"lesson\">\n<h2>6. Democracy and Equality</h2>\n<p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested.</p>\n<h3>📌 Core idea</h3>\n<p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article><section class=\"comic-story\">\n<h3>🎭 Equal Political Voice</h3>\n<p><strong>Characters:</strong> Arushi, Prince, Surya</p>\n<div class=\"comic-panel\"><div class=\"panel-number\">PANEL 1</div><div class=\"speaker\">Arushi</div><div class=\"dialogue\">Should one student's vote count more because they have more money?</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 2</div><div class=\"speaker\">Prince</div><div class=\"dialogue\">No. Political equality means citizens have equal voting status under the law.</div></div><div class=\"comic-panel\"><div class=\"panel-number\">PANEL 3</div><div class=\"speaker\">Surya</div><div class=\"dialogue\">Economic equality and political equality are different ideas.</div></div>\n<div class=\"comic-learning\"><strong>🧠 What did we learn?</strong><p>The situation illustrates the related civic principle. Look for participation, rights, accountability, equality, institutions or lawful procedures depending on the topic. The key lesson is to connect the story to the constitutional or democratic concept rather than memorising the dialogue.</p></div>\n</section>",
+      "type": "paragraph",
+      "text": "The word democracy comes from ideas of rule by the people. In a modern representative democracy, citizens normally do not make every government decision themselves. They elect representatives who exercise public authority on their behalf. The crucial point is that representatives must derive their authority from citizens through genuine political competition and must remain answerable to them. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      id: "lesson-7",
-      title: "7. Democracy and Dignity",
-      content: "<article class=\"lesson\">\n<h2>7. Democracy and Dignity</h2>\n<p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear.</p>\n<h3>📌 Core idea</h3>\n<p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article>",
+      "type": "paragraph",
+      "text": "The word democracy comes from ideas of rule by the people. In a modern representative democracy, citizens normally do not make every government decision themselves. They elect representatives who exercise public authority on their behalf. The crucial point is that representatives must derive their authority from citizens through genuine political competition and must remain answerable to them. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      id: "lesson-8",
-      title: "8. Democracy and Conflict",
-      content: "<article class=\"lesson\">\n<h2>8. Democracy and Conflict</h2>\n<p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat.</p>\n<h3>📌 Core idea</h3>\n<p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article>",
+      "type": "paragraph",
+      "text": "The word democracy comes from ideas of rule by the people. In a modern representative democracy, citizens normally do not make every government decision themselves. They elect representatives who exercise public authority on their behalf. The crucial point is that representatives must derive their authority from citizens through genuine political competition and must remain answerable to them. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      id: "lesson-9",
-      title: "9. Limits and Challenges",
-      content: "<article class=\"lesson\">\n<h2>9. Limits and Challenges</h2>\n<p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter.</p>\n<h3>📌 Core idea</h3>\n<p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article>",
+      "type": "paragraph",
+      "text": "The word democracy comes from ideas of rule by the people. In a modern representative democracy, citizens normally do not make every government decision themselves. They elect representatives who exercise public authority on their behalf. The crucial point is that representatives must derive their authority from citizens through genuine political competition and must remain answerable to them. To understand democracy: a starting point, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      id: "lesson-10",
-      title: "10. Evaluating Democracy",
-      content: "<article class=\"lesson\">\n<h2>10. Evaluating Democracy</h2>\n<p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality.</p>\n<h3>📌 Core idea</h3>\n<p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. The concept should be understood through its purpose, institutional setting, practical effect and relationship with citizens. A complete answer should explain the rule or principle first, then show how it operates in practice.</p>\n<h3>🔎 Deep understanding</h3>\n<ul>\n<li>Identify <strong>who</strong> exercises power or receives protection.</li>\n<li>Identify <strong>what rule or institution</strong> governs the situation.</li>\n<li>Ask <strong>why</strong> the rule exists and what problem it addresses.</li>\n<li>Distinguish a formal constitutional rule from a political practice or personal opinion.</li>\n<li>Connect the concept to accountability, equality, participation and rights whenever the connection is relevant.</li>\n</ul>\n<h3>🇮🇳 Indian context</h3>\n<p>In India, democratic and constitutional principles operate through written constitutional provisions, elected institutions, laws and established procedures. Citizens interact with these institutions through elections, public debate, courts, government services and civic organizations.</p>\n<h3>⚠️ Common misconception</h3>\n<p>A political concept should not be reduced to a single slogan. Always check its conditions, limits, institutional safeguards and practical application.</p>\n<h3>🎯 Exam focus</h3>\n<p>For a strong answer, begin with the definition or central principle, add two or three explained features, give a relevant example and finish by stating why the concept matters.</p>\n</article>",
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with democracy: a starting point. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
     },
-  ],
-  caseLab: [
-{"id": "case-1", "title": "Case Lab #1", "case": "A civic situation requires a decision involving the principles discussed in What is Democracy? Why Democracy?. Read the facts carefully, identify the relevant democratic or constitutional principle, and decide what a responsible institution or citizen should do.", "questions": ["What is the central civic problem?", "Which principle, right or institution is relevant?", "What action would protect democratic accountability?", "Explain your reasoning in 3–5 sentences."], "answer": "A strong response identifies the relevant principle, applies it to the facts, recognizes lawful limits and explains how the proposed action protects rights, fairness or accountability."},
-{"id": "case-2", "title": "Case Lab #2", "case": "A civic situation requires a decision involving the principles discussed in What is Democracy? Why Democracy?. Read the facts carefully, identify the relevant democratic or constitutional principle, and decide what a responsible institution or citizen should do.", "questions": ["What is the central civic problem?", "Which principle, right or institution is relevant?", "What action would protect democratic accountability?", "Explain your reasoning in 3–5 sentences."], "answer": "A strong response identifies the relevant principle, applies it to the facts, recognizes lawful limits and explains how the proposed action protects rights, fairness or accountability."},
-{"id": "case-3", "title": "Case Lab #3", "case": "A civic situation requires a decision involving the principles discussed in What is Democracy? Why Democracy?. Read the facts carefully, identify the relevant democratic or constitutional principle, and decide what a responsible institution or citizen should do.", "questions": ["What is the central civic problem?", "Which principle, right or institution is relevant?", "What action would protect democratic accountability?", "Explain your reasoning in 3–5 sentences."], "answer": "A strong response identifies the relevant principle, applies it to the facts, recognizes lawful limits and explains how the proposed action protects rights, fairness or accountability."},
-{"id": "case-4", "title": "Case Lab #4", "case": "A civic situation requires a decision involving the principles discussed in What is Democracy? Why Democracy?. Read the facts carefully, identify the relevant democratic or constitutional principle, and decide what a responsible institution or citizen should do.", "questions": ["What is the central civic problem?", "Which principle, right or institution is relevant?", "What action would protect democratic accountability?", "Explain your reasoning in 3–5 sentences."], "answer": "A strong response identifies the relevant principle, applies it to the facts, recognizes lawful limits and explains how the proposed action protects rights, fairness or accountability."},
-  ],
-  thinkAndUnderstand: [
-{"question": "Question 1: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 2: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 3: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 4: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 5: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 6: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 7: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 8: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 9: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 10: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 11: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-{"question": "Question 12: Explain one important idea from this chapter and connect it with a realistic civic situation.", "answer": "A complete answer should define the idea, identify its key features, apply it to the situation and explain why the principle matters."},
-  ],
-  practiceZone: {
-    basic: [
-{"question": "BASIC Q1: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q2: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q3: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q4: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q5: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q6: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q7: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "BASIC Q8: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-    ],
-    understanding: [
-{"question": "UNDERSTANDING Q1: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q2: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q3: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q4: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q5: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q6: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q7: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "UNDERSTANDING Q8: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-    ],
-    application: [
-{"question": "APPLICATION Q1: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q2: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q3: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q4: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q5: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q6: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q7: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "APPLICATION Q8: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-    ],
-    hots: [
-{"question": "HOTS Q1: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "HOTS Q2: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "HOTS Q3: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "HOTS Q4: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "HOTS Q5: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-{"question": "HOTS Q6: Using the chapter concept, explain the situation in a clear, reasoned answer.", "answer": "Use a definition or principle, explain the relevant feature or institution, apply it to the situation and conclude with the civic significance."},
-    ],
-  },
-  examMaster: {
-    oneMark: ["Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?.", "Define or identify a key term from What is Democracy? Why Democracy?."],
-    threeMark: ["Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons.", "Explain an important feature or process from What is Democracy? Why Democracy? with reasons."],
-    fiveMark: ["Write a detailed answer on a central theme of What is Democracy? Why Democracy? using examples and reasoning.", "Write a detailed answer on a central theme of What is Democracy? Why Democracy? using examples and reasoning.", "Write a detailed answer on a central theme of What is Democracy? Why Democracy? using examples and reasoning.", "Write a detailed answer on a central theme of What is Democracy? Why Democracy? using examples and reasoning.", "Write a detailed answer on a central theme of What is Democracy? Why Democracy? using examples and reasoning.", "Write a detailed answer on a central theme of What is Democracy? Why Democracy? using examples and reasoning."],
-    caseBased: ["Read a civic situation based on What is Democracy? Why Democracy? and identify the principle, institution or right involved.", "Read a civic situation based on What is Democracy? Why Democracy? and identify the principle, institution or right involved.", "Read a civic situation based on What is Democracy? Why Democracy? and identify the principle, institution or right involved.", "Read a civic situation based on What is Democracy? Why Democracy? and identify the principle, institution or right involved.", "Read a civic situation based on What is Democracy? Why Democracy? and identify the principle, institution or right involved."],
-    hots: ["Evaluate a difficult civic situation related to What is Democracy? Why Democracy? and justify your conclusion.", "Evaluate a difficult civic situation related to What is Democracy? Why Democracy? and justify your conclusion.", "Evaluate a difficult civic situation related to What is Democracy? Why Democracy? and justify your conclusion.", "Evaluate a difficult civic situation related to What is Democracy? Why Democracy? and justify your conclusion.", "Evaluate a difficult civic situation related to What is Democracy? Why Democracy? and justify your conclusion."],
-  },
-  commonMistakes: ["Do not confuse a democratic principle with one isolated procedure.", "Do not treat a constitutional right as an unlimited permission.", "Do not assume that a formal institution automatically works well without accountability.", "Do not use an example without explaining how it proves the point.", "Do not mix personal opinion with the constitutional rule being asked about.", "Do not write only keywords in a long-answer question.", "Do not ignore lawful procedures and institutional limits.", "Do not assume elections alone prove that every feature of a government is democratic."],
-  keyTerms: [
-{"term": "Democracy", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Political equality", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Accountability", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Participation", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Representation", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Rule of law", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Majority rule", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Political competition", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Dignity", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-{"term": "Decision-making", "meaning": "A key concept in What is Democracy? Why Democracy?. Learn its precise meaning, constitutional or institutional context, one example and its significance.", "example": "Apply the term to a realistic civic situation rather than memorising it in isolation."},
-  ],
-  importantPoints: ["1. Understanding Democracy: Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes.", "2. Major Features of Democracy: Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government.", "3. Why Elections Alone Are Not Enough: A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful.", "4. Why Democracy?: Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction.", "5. Democracy and Accountability: Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability.", "6. Democracy and Equality: Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested.", "7. Democracy and Dignity: Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear.", "8. Democracy and Conflict: Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat.", "9. Limits and Challenges: Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter.", "10. Evaluating Democracy: A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality."],
-  chapterSummary: "Democracy is a form of government in which rulers are chosen by the people through free and fair procedures and political power is exercised within constitutional and institutional limits. This chapter develops the meaning of democracy, examines its essential features, considers arguments for and against democracy, and explains why democratic government is valued despite its limitations. 1. Understanding Democracy — Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. 2. Major Features of Democracy — Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. 3. Why Elections Alone Are Not Enough — A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. 4. Why Democracy? — Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. 5. Democracy and Accountability — Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. 6. Democracy and Equality — Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. 7. Democracy and Dignity — Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. 8. Democracy and Conflict — Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. 9. Limits and Challenges — Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. 10. Evaluating Democracy — A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality.",
-  comicLibrary: [{"title": "The Classroom Vote", "characters": ["Surya", "Ansh", "Verma Sir"]}, {"title": "The Unfair Election", "characters": ["Surya", "Arushi", "Prince"]}, {"title": "Why Discuss?", "characters": ["Ansh", "Divya", "Sharma Sir"]}, {"title": "Correcting a Mistake", "characters": ["Surya", "Shashank", "Verma Sir"]}, {"title": "Equal Political Voice", "characters": ["Arushi", "Prince", "Surya"]}],
-  finalChapterTest: null,
-  extendedStudyNotes: "<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 1. Understanding Democracy</h3><p>Democracy is not merely the act of voting. A democratic system requires meaningful choice, participation, political equality, accountability and institutions that prevent arbitrary concentration of power. The people must have a genuine opportunity to choose among alternatives, replace rulers and express disagreement through lawful political processes. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 2. Major Features of Democracy</h3><p>Important features include final decision-making power with elected representatives, free and fair elections, universal adult franchise, political competition, rule of law, respect for citizens' rights and opportunities for participation. These features work together; an election without genuine choice or rights does not by itself guarantee democratic government. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 3. Why Elections Alone Are Not Enough</h3><p>A government can conduct elections yet fail democratic standards if elections are not free, opposition is suppressed, voters are intimidated, media is controlled or elected rulers cannot be held accountable. Democracy therefore requires conditions that make popular choice meaningful. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 4. Why Democracy?</h3><p>Democracy improves the quality of decision-making by allowing discussion and criticism. It provides a peaceful method for dealing with differences and mistakes, enhances the dignity of citizens by treating them as political equals, and offers mechanisms for correcting errors. Democratic decisions can be slow and imperfect, but accountability creates opportunities for correction. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 5. Democracy and Accountability</h3><p>Elected governments are expected to explain decisions, face public scrutiny and accept the possibility of replacement. Institutions such as legislatures, courts, independent election authorities, media and civil society can contribute to accountability. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 6. Democracy and Equality</h3><p>Political equality generally means that citizens have equal political status and equal voting rights under the law. Social and economic inequalities can remain, so democracy does not automatically create complete equality. It creates a political framework in which demands for equality can be expressed and contested. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 7. Democracy and Dignity</h3><p>Democracy recognizes citizens as participants rather than subjects who merely obey rulers. The ability to question authorities, participate in public affairs and claim rights is connected with individual dignity. Democratic institutions are stronger when citizens can disagree without fear. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 8. Democracy and Conflict</h3><p>Societies contain different interests, languages, communities, classes and opinions. Democracy provides procedures for managing disagreement through elections, debate, negotiation, legislation and judicial remedies rather than treating every disagreement as a threat. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 9. Limits and Challenges</h3><p>Democracy can involve delays, political competition, populism, misinformation, money power and unequal access to influence. Democratic institutions therefore need transparency, independent oversight, informed citizens and protection of rights. The existence of challenges does not make democracy meaningless; it shows why institutions matter. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>\n<div class=\"extended-note\"><h3>Deep Revision: 10. Evaluating Democracy</h3><p>A democracy should be evaluated by asking whether citizens can genuinely choose rulers, whether political rights are protected, whether rulers are accountable, whether opposition can function and whether institutions can correct abuses. The central idea is government by consent under rules that protect political equality. This topic should be revised through four questions: what is the concept, why is it needed, how does it work through institutions or rights, and how would a citizen recognize it in real life?</p><p>When writing an answer, distinguish the principle from its example. A good political-science answer explains the relationship between citizens and public power. It identifies the relevant rule, describes the institution or right involved, and explains the consequence for participation, equality, accountability or liberty.</p><p>For application questions, do not jump directly to the conclusion. First identify the facts, then identify the governing principle, then apply that principle and finally state the reasoned conclusion. This method keeps answers precise and avoids mixing unrelated concepts.</p></div>",
-  rendering: {contentType:"html", speakerDialogue:"one-line-per-speaker", comicsNearTopic:true, maps:false},
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Democracy: a starting point in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 1: The Class Election",
+      "intro": "The class must choose a monitor, but one group wants to announce its own winner.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: the class must choose a monitor, but one group wants to announce its own winner. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Major decisions by elected leaders"
+    },
+    {
+      "type": "paragraph",
+      "text": "A democratic government is one in which the final authority for making major public decisions rests with representatives who are elected by the people. Officials may be experts or civil servants, but public policy must ultimately operate under institutions that receive democratic authority. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "A democratic government is one in which the final authority for making major public decisions rests with representatives who are elected by the people. Officials may be experts or civil servants, but public policy must ultimately operate under institutions that receive democratic authority. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "A democratic government is one in which the final authority for making major public decisions rests with representatives who are elected by the people. Officials may be experts or civil servants, but public policy must ultimately operate under institutions that receive democratic authority. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "A democratic government is one in which the final authority for making major public decisions rests with representatives who are elected by the people. Officials may be experts or civil servants, but public policy must ultimately operate under institutions that receive democratic authority. To understand major decisions by elected leaders, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "A democratic government is one in which the final authority for making major public decisions rests with representatives who are elected by the people. Officials may be experts or civil servants, but public policy must ultimately operate under institutions that receive democratic authority. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with major decisions by elected leaders. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Major decisions by elected leaders in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 2: The Equal Vote",
+      "intro": "A student argues that older or richer students should have extra votes.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a student argues that older or richer students should have extra votes. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "case",
+      "title": "Case Lab 1: Apply the idea",
+      "case": "A group faces a dispute involving major decisions by elected leaders. One side says the decision is justified because it is convenient; another side asks whether the authority, procedure and treatment of people are consistent with democratic principles.",
+      "questions": [
+        "What is the central civic issue?",
+        "Which principle from the chapter is relevant?",
+        "What information would you need before reaching a conclusion?",
+        "What would be a fair and lawful way to resolve the dispute?"
+      ],
+      "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Free and fair electoral competition"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elections are meaningful only when people have a genuine choice. Different candidates or parties should be able to compete, voters should be able to make choices without intimidation, and the process should be conducted according to known rules. Regular elections make it possible to remove leaders peacefully. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elections are meaningful only when people have a genuine choice. Different candidates or parties should be able to compete, voters should be able to make choices without intimidation, and the process should be conducted according to known rules. Regular elections make it possible to remove leaders peacefully. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elections are meaningful only when people have a genuine choice. Different candidates or parties should be able to compete, voters should be able to make choices without intimidation, and the process should be conducted according to known rules. Regular elections make it possible to remove leaders peacefully. To understand free and fair electoral competition, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elections are meaningful only when people have a genuine choice. Different candidates or parties should be able to compete, voters should be able to make choices without intimidation, and the process should be conducted according to known rules. Regular elections make it possible to remove leaders peacefully. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elections are meaningful only when people have a genuine choice. Different candidates or parties should be able to compete, voters should be able to make choices without intimidation, and the process should be conducted according to known rules. Regular elections make it possible to remove leaders peacefully. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with free and fair electoral competition. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Free and fair electoral competition in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 3: The Real Choice",
+      "intro": "Only one candidate is allowed to stand in a school election.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: only one candidate is allowed to stand in a school election. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "One person, one vote, one value"
+    },
+    {
+      "type": "paragraph",
+      "text": "Political equality means that each adult citizen's vote has equal value in the electoral process. Democracy rejects the idea that a person's political voice should automatically be worth more because of wealth, family background, social status, religion or occupation. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Political equality means that each adult citizen's vote has equal value in the electoral process. Democracy rejects the idea that a person's political voice should automatically be worth more because of wealth, family background, social status, religion or occupation. To understand one person, one vote, one value, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Political equality means that each adult citizen's vote has equal value in the electoral process. Democracy rejects the idea that a person's political voice should automatically be worth more because of wealth, family background, social status, religion or occupation. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Political equality means that each adult citizen's vote has equal value in the electoral process. Democracy rejects the idea that a person's political voice should automatically be worth more because of wealth, family background, social status, religion or occupation. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Political equality means that each adult citizen's vote has equal value in the electoral process. Democracy rejects the idea that a person's political voice should automatically be worth more because of wealth, family background, social status, religion or occupation. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with one person, one vote, one value. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write One person, one vote, one value in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 4: The Wrong Decision",
+      "intro": "A committee makes a poor decision and learns why criticism matters.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a committee makes a poor decision and learns why criticism matters. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "case",
+      "title": "Case Lab 2: Apply the idea",
+      "case": "A group faces a dispute involving one person, one vote, one value. One side says the decision is justified because it is convenient; another side asks whether the authority, procedure and treatment of people are consistent with democratic principles.",
+      "questions": [
+        "What is the central civic issue?",
+        "Which principle from the chapter is relevant?",
+        "What information would you need before reaching a conclusion?",
+        "What would be a fair and lawful way to resolve the dispute?"
+      ],
+      "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rule of law and constitutional limits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic majorities are not supposed to have unlimited power. A constitutional democracy places government under law and recognises rights and institutional limits. This prevents a temporary majority from simply treating minorities as if they have no legitimate claims. To understand rule of law and constitutional limits, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic majorities are not supposed to have unlimited power. A constitutional democracy places government under law and recognises rights and institutional limits. This prevents a temporary majority from simply treating minorities as if they have no legitimate claims. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic majorities are not supposed to have unlimited power. A constitutional democracy places government under law and recognises rights and institutional limits. This prevents a temporary majority from simply treating minorities as if they have no legitimate claims. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic majorities are not supposed to have unlimited power. A constitutional democracy places government under law and recognises rights and institutional limits. This prevents a temporary majority from simply treating minorities as if they have no legitimate claims. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic majorities are not supposed to have unlimited power. A constitutional democracy places government under law and recognises rights and institutional limits. This prevents a temporary majority from simply treating minorities as if they have no legitimate claims. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with rule of law and constitutional limits. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Rule of law and constitutional limits in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 5: The Secret Ballot",
+      "intro": "Students discuss why voters should be able to choose without pressure.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students discuss why voters should be able to choose without pressure. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rights and public participation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy works better when citizens can speak, organise, criticise government, obtain information and participate in public life. Political participation is broader than voting once every few years; it includes discussion, associations, peaceful protest and engagement with public institutions. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy works better when citizens can speak, organise, criticise government, obtain information and participate in public life. Political participation is broader than voting once every few years; it includes discussion, associations, peaceful protest and engagement with public institutions. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy works better when citizens can speak, organise, criticise government, obtain information and participate in public life. Political participation is broader than voting once every few years; it includes discussion, associations, peaceful protest and engagement with public institutions. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy works better when citizens can speak, organise, criticise government, obtain information and participate in public life. Political participation is broader than voting once every few years; it includes discussion, associations, peaceful protest and engagement with public institutions. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy works better when citizens can speak, organise, criticise government, obtain information and participate in public life. Political participation is broader than voting once every few years; it includes discussion, associations, peaceful protest and engagement with public institutions. To understand rights and public participation, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with rights and public participation. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Rights and public participation in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 6: The Majority Trap",
+      "intro": "A majority wants to silence a smaller group.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a majority wants to silence a smaller group. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "case",
+      "title": "Case Lab 3: Apply the idea",
+      "case": "A group faces a dispute involving rights and public participation. One side says the decision is justified because it is convenient; another side asks whether the authority, procedure and treatment of people are consistent with democratic principles.",
+      "questions": [
+        "What is the central civic issue?",
+        "Which principle from the chapter is relevant?",
+        "What information would you need before reaching a conclusion?",
+        "What would be a fair and lawful way to resolve the dispute?"
+      ],
+      "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why democracy is preferred"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy can improve the quality of decisions because disagreement and criticism can reveal mistakes. It provides a peaceful method for changing rulers, offers a way to hold leaders accountable and recognises the dignity and political equality of citizens. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy can improve the quality of decisions because disagreement and criticism can reveal mistakes. It provides a peaceful method for changing rulers, offers a way to hold leaders accountable and recognises the dignity and political equality of citizens. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy can improve the quality of decisions because disagreement and criticism can reveal mistakes. It provides a peaceful method for changing rulers, offers a way to hold leaders accountable and recognises the dignity and political equality of citizens. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy can improve the quality of decisions because disagreement and criticism can reveal mistakes. It provides a peaceful method for changing rulers, offers a way to hold leaders accountable and recognises the dignity and political equality of citizens. To understand why democracy is preferred, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy can improve the quality of decisions because disagreement and criticism can reveal mistakes. It provides a peaceful method for changing rulers, offers a way to hold leaders accountable and recognises the dignity and political equality of citizens. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with why democracy is preferred. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Why democracy is preferred in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 7: The Question Box",
+      "intro": "Students create a way to question a student council.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students create a way to question a student council. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Accountability and responsiveness"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elected governments are expected to explain their actions and respond to public concerns. Accountability does not mean that every government must satisfy every demand. It means that decisions occur through public institutions and can be questioned, debated and reviewed. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elected governments are expected to explain their actions and respond to public concerns. Accountability does not mean that every government must satisfy every demand. It means that decisions occur through public institutions and can be questioned, debated and reviewed. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elected governments are expected to explain their actions and respond to public concerns. Accountability does not mean that every government must satisfy every demand. It means that decisions occur through public institutions and can be questioned, debated and reviewed. To understand accountability and responsiveness, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elected governments are expected to explain their actions and respond to public concerns. Accountability does not mean that every government must satisfy every demand. It means that decisions occur through public institutions and can be questioned, debated and reviewed. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Elected governments are expected to explain their actions and respond to public concerns. Accountability does not mean that every government must satisfy every demand. It means that decisions occur through public institutions and can be questioned, debated and reviewed. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with accountability and responsiveness. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Accountability and responsiveness in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 8: Changing the Team",
+      "intro": "A school committee loses support and students discuss peaceful change.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a school committee loses support and students discuss peaceful change. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "case",
+      "title": "Case Lab 4: Apply the idea",
+      "case": "A group faces a dispute involving accountability and responsiveness. One side says the decision is justified because it is convenient; another side asks whether the authority, procedure and treatment of people are consistent with democratic principles.",
+      "questions": [
+        "What is the central civic issue?",
+        "Which principle from the chapter is relevant?",
+        "What information would you need before reaching a conclusion?",
+        "What would be a fair and lawful way to resolve the dispute?"
+      ],
+      "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Democracy and the possibility of mistakes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic governments can make poor decisions. Democracy is not a guarantee of perfect policies. Its advantage is that it provides mechanisms for correction: criticism, elections, legislative debate, judicial review where applicable, independent institutions and public pressure. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic governments can make poor decisions. Democracy is not a guarantee of perfect policies. Its advantage is that it provides mechanisms for correction: criticism, elections, legislative debate, judicial review where applicable, independent institutions and public pressure. To understand democracy and the possibility of mistakes, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic governments can make poor decisions. Democracy is not a guarantee of perfect policies. Its advantage is that it provides mechanisms for correction: criticism, elections, legislative debate, judicial review where applicable, independent institutions and public pressure. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic governments can make poor decisions. Democracy is not a guarantee of perfect policies. Its advantage is that it provides mechanisms for correction: criticism, elections, legislative debate, judicial review where applicable, independent institutions and public pressure. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democratic governments can make poor decisions. Democracy is not a guarantee of perfect policies. Its advantage is that it provides mechanisms for correction: criticism, elections, legislative debate, judicial review where applicable, independent institutions and public pressure. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with democracy and the possibility of mistakes. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Democracy and the possibility of mistakes in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 9: The Rumour Test",
+      "intro": "Students learn why evidence and informed public discussion matter.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students learn why evidence and informed public discussion matter. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Economic and social outcomes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy does not automatically eliminate poverty or inequality. Political equality and economic equality are different ideas. A democracy can make welfare commitments and create policies to address inequality, but actual outcomes depend on institutions, resources, political choices and social conditions. To understand economic and social outcomes, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy does not automatically eliminate poverty or inequality. Political equality and economic equality are different ideas. A democracy can make welfare commitments and create policies to address inequality, but actual outcomes depend on institutions, resources, political choices and social conditions. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy does not automatically eliminate poverty or inequality. Political equality and economic equality are different ideas. A democracy can make welfare commitments and create policies to address inequality, but actual outcomes depend on institutions, resources, political choices and social conditions. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy does not automatically eliminate poverty or inequality. Political equality and economic equality are different ideas. A democracy can make welfare commitments and create policies to address inequality, but actual outcomes depend on institutions, resources, political choices and social conditions. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy does not automatically eliminate poverty or inequality. Political equality and economic equality are different ideas. A democracy can make welfare commitments and create policies to address inequality, but actual outcomes depend on institutions, resources, political choices and social conditions. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with economic and social outcomes. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Economic and social outcomes in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 10: The Fair Debate",
+      "intro": "Two groups disagree and create rules for a fair discussion.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: two groups disagree and create rules for a fair discussion. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "case",
+      "title": "Case Lab 5: Apply the idea",
+      "case": "A group faces a dispute involving economic and social outcomes. One side says the decision is justified because it is convenient; another side asks whether the authority, procedure and treatment of people are consistent with democratic principles.",
+      "questions": [
+        "What is the central civic issue?",
+        "Which principle from the chapter is relevant?",
+        "What information would you need before reaching a conclusion?",
+        "What would be a fair and lawful way to resolve the dispute?"
+      ],
+      "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Accommodation of diversity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Societies contain different languages, religions, regions, communities and interests. Democracy provides procedures for negotiating these differences. The goal is not to make everyone identical, but to create rules through which differences can coexist without permanent domination. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "paragraph",
+      "text": "Societies contain different languages, religions, regions, communities and interests. Democracy provides procedures for negotiating these differences. The goal is not to make everyone identical, but to create rules through which differences can coexist without permanent domination. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Societies contain different languages, religions, regions, communities and interests. Democracy provides procedures for negotiating these differences. The goal is not to make everyone identical, but to create rules through which differences can coexist without permanent domination. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Societies contain different languages, religions, regions, communities and interests. Democracy provides procedures for negotiating these differences. The goal is not to make everyone identical, but to create rules through which differences can coexist without permanent domination. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Societies contain different languages, religions, regions, communities and interests. Democracy provides procedures for negotiating these differences. The goal is not to make everyone identical, but to create rules through which differences can coexist without permanent domination. To understand accommodation of diversity, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with accommodation of diversity. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Accommodation of diversity in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 11: The Public Meeting",
+      "intro": "Residents debate a local problem and discover that participation continues after elections.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: residents debate a local problem and discover that participation continues after elections. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dignity of citizens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy treats people as citizens with equal political status rather than as subjects whose opinions are irrelevant. Participation and rights reinforce the idea that each person has a claim to be heard and treated according to common rules. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy treats people as citizens with equal political status rather than as subjects whose opinions are irrelevant. Participation and rights reinforce the idea that each person has a claim to be heard and treated according to common rules. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy treats people as citizens with equal political status rather than as subjects whose opinions are irrelevant. Participation and rights reinforce the idea that each person has a claim to be heard and treated according to common rules. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy treats people as citizens with equal political status rather than as subjects whose opinions are irrelevant. Participation and rights reinforce the idea that each person has a claim to be heard and treated according to common rules. To understand dignity of citizens, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy treats people as citizens with equal political status rather than as subjects whose opinions are irrelevant. Participation and rights reinforce the idea that each person has a claim to be heard and treated according to common rules. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
+    },
+    {
+      "type": "box",
+      "kind": "example",
+      "title": "Example in Everyday Life",
+      "text": "Imagine a school or neighbourhood decision connected with dignity of citizens. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
+    },
+    {
+      "type": "box",
+      "kind": "exam",
+      "title": "Exam Focus",
+      "text": "Write Dignity of citizens in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 12: The Promise and the Result",
+      "intro": "Students compare an election promise with actual work.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students compare an election promise with actual work. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "case",
+      "title": "Case Lab 6: Apply the idea",
+      "case": "A group faces a dispute involving dignity of citizens. One side says the decision is justified because it is convenient; another side asks whether the authority, procedure and treatment of people are consistent with democratic principles.",
+      "questions": [
+        "What is the central civic issue?",
+        "Which principle from the chapter is relevant?",
+        "What information would you need before reaching a conclusion?",
+        "What would be a fair and lawful way to resolve the dispute?"
+      ],
+      "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 17: The Class Election",
+      "intro": "The class must choose a monitor, but one group wants to announce its own winner.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: the class must choose a monitor, but one group wants to announce its own winner. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 18: The Equal Vote",
+      "intro": "A student argues that older or richer students should have extra votes.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a student argues that older or richer students should have extra votes. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 19: The Real Choice",
+      "intro": "Only one candidate is allowed to stand in a school election.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: only one candidate is allowed to stand in a school election. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 20: The Wrong Decision",
+      "intro": "A committee makes a poor decision and learns why criticism matters.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a committee makes a poor decision and learns why criticism matters. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 21: The Secret Ballot",
+      "intro": "Students discuss why voters should be able to choose without pressure.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students discuss why voters should be able to choose without pressure. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 22: The Majority Trap",
+      "intro": "A majority wants to silence a smaller group.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a majority wants to silence a smaller group. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 23: The Question Box",
+      "intro": "Students create a way to question a student council.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students create a way to question a student council. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 24: Changing the Team",
+      "intro": "A school committee loses support and students discuss peaceful change.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a school committee loses support and students discuss peaceful change. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 25: The Rumour Test",
+      "intro": "Students learn why evidence and informed public discussion matter.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students learn why evidence and informed public discussion matter. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 26: The Fair Debate",
+      "intro": "Two groups disagree and create rules for a fair discussion.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: two groups disagree and create rules for a fair discussion. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 27: The Public Meeting",
+      "intro": "Residents debate a local problem and discover that participation continues after elections.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: residents debate a local problem and discover that participation continues after elections. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 28: The Promise and the Result",
+      "intro": "Students compare an election promise with actual work.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students compare an election promise with actual work. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 29: The Budget Choice",
+      "intro": "A class has limited money and must hear competing priorities.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a class has limited money and must hear competing priorities. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 30: The Quiet Student",
+      "intro": "A shy student is included in a decision after the group recognises equal citizenship.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a shy student is included in a decision after the group recognises equal citizenship. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 31: The Emergency Argument",
+      "intro": "Students discuss whether an emergency should remove all limits on authority.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: students discuss whether an emergency should remove all limits on authority. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 32: The Correction Mechanism",
+      "intro": "A committee makes a mistake and uses review rather than hiding it.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "Something is confusing us in this situation: a committee makes a mistake and uses review rather than hiding it. What rule should we start with?"
+        },
+        {
+          "speaker": "Ansh",
+          "text": "I think we should first identify who has the authority to decide and whether everyone affected gets a fair opportunity."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "And we should separate what we personally prefer from what the democratic rules actually require."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Good. This is exactly why what is democracy? why democracy? is studied through real situations rather than definitions alone."
+        },
+        {
+          "speaker": "Prince",
+          "text": "So the important question is not only 'Who won?' or 'Who decided?' but also whether the process was fair and lawful."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "That makes the concept easier to remember because we can test it against a situation."
+        },
+        {
+          "speaker": "Divya",
+          "text": "And if the first decision is wrong, there should be a peaceful way to question or correct it."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
+        }
+      ],
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Connect the Ideas"
+    },
+    {
+      "type": "paragraph",
+      "text": "The chapter should now be read as one connected chain rather than as isolated definitions. Democratic institutions depend on rules; rules need legitimate authority; authority needs accountability; accountability depends on participation, rights, information and procedures; and citizens need peaceful ways to question, change or review public decisions. Seeing these links makes the subject easier to understand and apply."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 1: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 2: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 3: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 4: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 5: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 6: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 7: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 8: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 9: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 10: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 11: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 12: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 13: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 14: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 15: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 16: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 17: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 18: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 19: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Connection 20: A useful way to revise what is democracy? why democracy? is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quick Checks"
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 1: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 2: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 3: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 4: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 5: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 6: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 7: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 8: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 9: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 10: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 11: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 12: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 13: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 14: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 15: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 16: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 17: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 18: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 19: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 20: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 21: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 22: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 23: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 24: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 25: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 26: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 27: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 28: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 29: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "question",
+      "question": "Quick Check 30: Which idea from this chapter best explains why a democratic decision should be made through known rules rather than personal preference?",
+      "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Terms"
+    },
+    {
+      "type": "term",
+      "term": "democracy",
+      "meaning": "Democracy is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "elected representatives",
+      "meaning": "Elected Representatives is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "political equality",
+      "meaning": "Political Equality is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "free and fair election",
+      "meaning": "Free And Fair Election is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "accountability",
+      "meaning": "Accountability is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "majority rule",
+      "meaning": "Majority Rule is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "minority rights",
+      "meaning": "Minority Rights is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "rule of law",
+      "meaning": "Rule Of Law is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "participation",
+      "meaning": "Participation is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "transparency",
+      "meaning": "Transparency is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "responsiveness",
+      "meaning": "Responsiveness is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "dignity",
+      "meaning": "Dignity is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "public opinion",
+      "meaning": "Public Opinion is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "constitutional government",
+      "meaning": "Constitutional Government is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "term",
+      "term": "representation",
+      "meaning": "Representation is an important concept in what is democracy? why democracy?. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Important Points for Revision"
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 1: Democracy: a starting point should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 2: Major decisions by elected leaders should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 3: Free and fair electoral competition should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 4: One person, one vote, one value should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 5: Rule of law and constitutional limits should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 6: Rights and public participation should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 7: Why democracy is preferred should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 8: Accountability and responsiveness should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 9: Democracy and the possibility of mistakes should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 10: Economic and social outcomes should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 11: Accommodation of diversity should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 12: Dignity of citizens should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 13: Democracy: a starting point should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 14: Major decisions by elected leaders should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 15: Free and fair electoral competition should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 16: One person, one vote, one value should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 17: Rule of law and constitutional limits should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 18: Rights and public participation should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 19: Why democracy is preferred should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 20: Accountability and responsiveness should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 21: Democracy and the possibility of mistakes should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 22: Economic and social outcomes should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 23: Accommodation of diversity should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 24: Dignity of citizens should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 25: Democracy: a starting point should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 26: Major decisions by elected leaders should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 27: Free and fair electoral competition should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 28: One person, one vote, one value should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 29: Rule of law and constitutional limits should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "important",
+      "text": "Revision Point 30: Rights and public participation should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Complete Chapter Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy is more than the act of voting. It is a way of organising public power in which people have a meaningful role in choosing rulers, questioning decisions, changing governments peacefully and enjoying political equality. This chapter examines the meaning of democracy, its essential features, why democratic government is preferred, and the limits and challenges that democracies can face."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy: a starting point: The word democracy comes from ideas of rule by the people. In a modern representative democracy, citizens normally do not make every government decision themselves. They elect representatives who exercise public authority on their behalf. The crucial point is that representatives must derive their authority from citizens through genuine political competition and must remain answerable to them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Major decisions by elected leaders: A democratic government is one in which the final authority for making major public decisions rests with representatives who are elected by the people. Officials may be experts or civil servants, but public policy must ultimately operate under institutions that receive democratic authority."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free and fair electoral competition: Elections are meaningful only when people have a genuine choice. Different candidates or parties should be able to compete, voters should be able to make choices without intimidation, and the process should be conducted according to known rules. Regular elections make it possible to remove leaders peacefully."
+    },
+    {
+      "type": "paragraph",
+      "text": "One person, one vote, one value: Political equality means that each adult citizen's vote has equal value in the electoral process. Democracy rejects the idea that a person's political voice should automatically be worth more because of wealth, family background, social status, religion or occupation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rule of law and constitutional limits: Democratic majorities are not supposed to have unlimited power. A constitutional democracy places government under law and recognises rights and institutional limits. This prevents a temporary majority from simply treating minorities as if they have no legitimate claims."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rights and public participation: Democracy works better when citizens can speak, organise, criticise government, obtain information and participate in public life. Political participation is broader than voting once every few years; it includes discussion, associations, peaceful protest and engagement with public institutions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Why democracy is preferred: Democracy can improve the quality of decisions because disagreement and criticism can reveal mistakes. It provides a peaceful method for changing rulers, offers a way to hold leaders accountable and recognises the dignity and political equality of citizens."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accountability and responsiveness: Elected governments are expected to explain their actions and respond to public concerns. Accountability does not mean that every government must satisfy every demand. It means that decisions occur through public institutions and can be questioned, debated and reviewed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Democracy and the possibility of mistakes: Democratic governments can make poor decisions. Democracy is not a guarantee of perfect policies. Its advantage is that it provides mechanisms for correction: criticism, elections, legislative debate, judicial review where applicable, independent institutions and public pressure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Economic and social outcomes: Democracy does not automatically eliminate poverty or inequality. Political equality and economic equality are different ideas. A democracy can make welfare commitments and create policies to address inequality, but actual outcomes depend on institutions, resources, political choices and social conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accommodation of diversity: Societies contain different languages, religions, regions, communities and interests. Democracy provides procedures for negotiating these differences. The goal is not to make everyone identical, but to create rules through which differences can coexist without permanent domination."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dignity of citizens: Democracy treats people as citizens with equal political status rather than as subjects whose opinions are irrelevant. Participation and rights reinforce the idea that each person has a claim to be heard and treated according to common rules."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Final Revision Challenge"
+    },
+    {
+      "type": "box",
+      "kind": "challenge",
+      "title": "Teach It Without Looking",
+      "text": "Close the notes and explain What is Democracy? Why Democracy? to another student. Use at least five key terms, two real-life examples, one case-based argument and one explanation of how a democratic institution or safeguard makes the principle work."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 1: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 2: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 3: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 4: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 5: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 6: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 7: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 8: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 9: Read a new situation related to democracy and the possibility of mistakes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 10: Read a new situation related to economic and social outcomes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 11: Read a new situation related to accommodation of diversity and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 12: Read a new situation related to dignity of citizens and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 13: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 14: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 15: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 16: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 17: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 18: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 19: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Basic Understanding",
+      "question": "Basic Understanding 20: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 1: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 2: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 3: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 4: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 5: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 6: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 7: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 8: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 9: Read a new situation related to democracy and the possibility of mistakes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 10: Read a new situation related to economic and social outcomes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 11: Read a new situation related to accommodation of diversity and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 12: Read a new situation related to dignity of citizens and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 13: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 14: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 15: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 16: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 17: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 18: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 19: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Concept Application",
+      "question": "Concept Application 20: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 1: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 2: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 3: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 4: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 5: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 6: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 7: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 8: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 9: Read a new situation related to democracy and the possibility of mistakes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 10: Read a new situation related to economic and social outcomes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 11: Read a new situation related to accommodation of diversity and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 12: Read a new situation related to dignity of citizens and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 13: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 14: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 15: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 16: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 17: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 18: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 19: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Reasoning",
+      "question": "Reasoning 20: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 1: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 2: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 3: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 4: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 5: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 6: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 7: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 8: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 9: Read a new situation related to democracy and the possibility of mistakes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 10: Read a new situation related to economic and social outcomes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 11: Read a new situation related to accommodation of diversity and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 12: Read a new situation related to dignity of citizens and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 13: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 14: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 15: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 16: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 17: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 18: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 19: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "Case Analysis",
+      "question": "Case Analysis 20: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 1: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 2: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 3: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 4: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 5: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 6: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 7: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 8: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 9: Read a new situation related to democracy and the possibility of mistakes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 10: Read a new situation related to economic and social outcomes and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 11: Read a new situation related to accommodation of diversity and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 12: Read a new situation related to dignity of citizens and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 13: Read a new situation related to democracy: a starting point and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 14: Read a new situation related to major decisions by elected leaders and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 15: Read a new situation related to free and fair electoral competition and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 16: Read a new situation related to one person, one vote, one value and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 17: Read a new situation related to rule of law and constitutional limits and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 18: Read a new situation related to rights and public participation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 19: Read a new situation related to why democracy is preferred and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "HOTS 20: Read a new situation related to accountability and responsiveness and explain the principle, the relevant process, the possible risk and the fairest remedy.",
+      "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Democratic Accountability"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of democratic accountability should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, democratic accountability can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising democratic accountability, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Political Equality"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of political equality should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, political equality can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising political equality, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Free And Fair Elections"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of free and fair elections should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, free and fair elections can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising free and fair elections, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Majority Rule With Minority Protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of majority rule with minority protection should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, majority rule with minority protection can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising majority rule with minority protection, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Peaceful Change Of Rulers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of peaceful change of rulers should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, peaceful change of rulers can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising peaceful change of rulers, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Public Participation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of public participation should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, public participation can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising public participation, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Rule Of Law"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of rule of law should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, rule of law can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising rule of law, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Dignity Of Citizens"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of dignity of citizens should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, dignity of citizens can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising dignity of citizens, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Democratic Accountability"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of democratic accountability should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, democratic accountability can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising democratic accountability, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Political Equality"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of political equality should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, political equality can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising political equality, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Free And Fair Elections"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of free and fair elections should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, free and fair elections can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising free and fair elections, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Majority Rule With Minority Protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of majority rule with minority protection should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, majority rule with minority protection can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising majority rule with minority protection, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Peaceful Change Of Rulers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of peaceful change of rulers should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, peaceful change of rulers can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising peaceful change of rulers, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Public Participation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of public participation should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, public participation can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising public participation, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Rule Of Law"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of rule of law should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, rule of law can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising rule of law, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Dignity Of Citizens"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of dignity of citizens should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, dignity of citizens can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising dignity of citizens, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Democratic Accountability"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of democratic accountability should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, democratic accountability can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising democratic accountability, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Reading the Idea More Deeply: Political Equality"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea of political equality should not be memorised as a slogan. It has to be understood inside the larger constitutional and democratic framework. First identify the public problem that the idea addresses. Then identify the people or institutions whose actions are affected by the rule. Next ask what procedure makes the principle effective and what safeguard exists if someone ignores or misuses it. Finally connect the principle with equal citizenship, accountability and the peaceful resolution of disagreement. This chain of reasoning is particularly useful in case-based questions because the question may describe a situation without naming the concept directly."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practical life, political equality can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
+    },
+    {
+      "type": "box",
+      "kind": "remember",
+      "title": "Remember the Reason",
+      "text": "When revising political equality, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 29: The Civic Problem — Democratic Accountability",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand democratic accountability. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what democratic accountability means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic Accountability becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects democratic accountability with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 30: The Civic Problem — Political Equality",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand political equality. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what political equality means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Political Equality becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects political equality with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 31: The Civic Problem — Free And Fair Elections",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand free and fair elections. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what free and fair elections means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Free And Fair Elections becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects free and fair elections with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 32: The Civic Problem — Majority Rule With Minority Protection",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand majority rule with minority protection. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what majority rule with minority protection means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Majority Rule With Minority Protection becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects majority rule with minority protection with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 33: The Civic Problem — Peaceful Change Of Rulers",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand peaceful change of rulers. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what peaceful change of rulers means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Peaceful Change Of Rulers becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects peaceful change of rulers with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 34: The Civic Problem — Public Participation",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand public participation. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what public participation means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Public Participation becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects public participation with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 35: The Civic Problem — Rule Of Law",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand rule of law. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what rule of law means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Rule Of Law becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects rule of law with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 36: The Civic Problem — Dignity Of Citizens",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand dignity of citizens. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what dignity of citizens means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Dignity Of Citizens becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects dignity of citizens with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 37: The Civic Problem — Democratic Accountability",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand democratic accountability. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what democratic accountability means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Democratic Accountability becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects democratic accountability with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 38: The Civic Problem — Political Equality",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand political equality. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what political equality means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Political Equality becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects political equality with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 39: The Civic Problem — Free And Fair Elections",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand free and fair elections. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what free and fair elections means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Free And Fair Elections becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects free and fair elections with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "comic",
+      "title": "Comic Story 40: The Civic Problem — Majority Rule With Minority Protection",
+      "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand majority rule with minority protection. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
+      "dialogue": [
+        {
+          "speaker": "Surya",
+          "text": "I think we should first understand what majority rule with minority protection means in this situation."
+        },
+        {
+          "speaker": "Ansh",
+          "text": "Yes. A quick decision may feel convenient, but we should check the process before deciding."
+        },
+        {
+          "speaker": "Arushi",
+          "text": "We also need to ask whether the same rule would be fair if our positions were reversed."
+        },
+        {
+          "speaker": "Prince",
+          "text": "That is a good test. A democratic principle should not depend on which group happens to be stronger today."
+        },
+        {
+          "speaker": "Shashank",
+          "text": "And if someone disagrees, there should be a peaceful way to raise the objection."
+        },
+        {
+          "speaker": "Divya",
+          "text": "So participation, fairness and accountability are connected instead of being separate ideas."
+        },
+        {
+          "speaker": "Verma Sir",
+          "text": "Exactly. Majority Rule With Minority Protection becomes meaningful when we can explain its purpose, application and safeguard."
+        },
+        {
+          "speaker": "Surya",
+          "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
+        }
+      ],
+      "lesson": "The comic connects majority rule with minority protection with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about democratic accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain democratic accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about political equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain political equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about free and fair elections. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain free and fair elections in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about majority rule with minority protection. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain majority rule with minority protection in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about peaceful change of rulers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain peaceful change of rulers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about public participation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain public participation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about rule of law. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain rule of law in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about dignity of citizens. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain dignity of citizens in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about democratic accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain democratic accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about political equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain political equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about free and fair elections. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain free and fair elections in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about majority rule with minority protection. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain majority rule with minority protection in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about peaceful change of rulers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain peaceful change of rulers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about public participation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain public participation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about rule of law. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain rule of law in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about dignity of citizens. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain dignity of citizens in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about democratic accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain democratic accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about political equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain political equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about free and fair elections. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain free and fair elections in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about majority rule with minority protection. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain majority rule with minority protection in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about peaceful change of rulers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain peaceful change of rulers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about public participation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain public participation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about rule of law. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain rule of law in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about dignity of citizens. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain dignity of citizens in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about democratic accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain democratic accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about political equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain political equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about free and fair elections. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain free and fair elections in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about majority rule with minority protection. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain majority rule with minority protection in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about peaceful change of rulers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain peaceful change of rulers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about public participation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain public participation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about rule of law. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain rule of law in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about dignity of citizens. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain dignity of citizens in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about democratic accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain democratic accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about political equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain political equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about free and fair elections. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain free and fair elections in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about majority rule with minority protection. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain majority rule with minority protection in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about peaceful change of rulers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain peaceful change of rulers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about public participation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain public participation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about rule of law. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain rule of law in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about dignity of citizens. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain dignity of citizens in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Understand",
+      "question": "Consider a situation in which people disagree about democratic accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain democratic accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Apply",
+      "question": "Consider a situation in which people disagree about political equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain political equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Analyse",
+      "question": "Consider a situation in which people disagree about free and fair elections. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain free and fair elections in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "Evaluate",
+      "question": "Consider a situation in which people disagree about majority rule with minority protection. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain majority rule with minority protection in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    },
+    {
+      "type": "practice",
+      "level": "HOTS",
+      "question": "Consider a situation in which people disagree about peaceful change of rulers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
+      "answer": "A complete answer should explain peaceful change of rulers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
+    }
+  ]
 };
+
+export default chapter;
