@@ -421,6 +421,80 @@ function normalizeUnitBlocks(unit){
     return [{type:"paragraph",text:String(unit)}];
   }
 
+  /*
+    IMPORTANT: Some ConceptQizzer chapters store their actual lesson
+    content directly on each section instead of inside `blocks`.
+    Example:
+      { title, explanation, conceptExpansion, definitions,
+        keyPoints, figures, workedExamples, practice, ... }
+
+    The old renderer treated those sections as a generic object, so
+    the page created large coloured cards but had no learner-facing
+    content inside them. Convert those direct fields into the same
+    renderer-compatible block format used by block-based chapters.
+  */
+  const direct=[];
+
+  if(unit.explanation !== undefined && unit.explanation !== null && String(unit.explanation).trim() !== ""){
+    direct.push({type:"concept",title:"Concept Explained",text:unit.explanation});
+  }
+
+  if(Array.isArray(unit.conceptExpansion)){
+    unit.conceptExpansion.forEach((item,i)=>{
+      if(item === null || item === undefined || String(item).trim() === "") return;
+      direct.push({type:"paragraph",title:i === 0 ? "Concept Expansion" : "",text:typeof item === "object" ? (item.text ?? item.content ?? item.description ?? JSON.stringify(item)) : String(item)});
+    });
+  }
+
+  if(Array.isArray(unit.definitions)){
+    unit.definitions.forEach((item)=>{
+      if(!item || typeof item !== "object") return;
+      const term=item.term || item.title || item.name || "Definition";
+      const definition=item.definition ?? item.text ?? item.content ?? item.description ?? "";
+      if(String(definition).trim() !== "") direct.push({type:"definition",title:String(term),text:String(definition)});
+    });
+  }
+
+  if(Array.isArray(unit.keyPoints)){
+    direct.push({type:"keypoint",title:"Key Points",items:unit.keyPoints});
+  }
+
+  if(Array.isArray(unit.figures)){
+    unit.figures.forEach((item)=>{
+      if(!item || typeof item !== "object") return;
+      direct.push({type:"figure",title:item.title || item.caption || "Figure",image:item.image || item.src || item.url || "",html:item.html || item.svg || "",caption:item.caption || ""});
+    });
+  }
+
+  if(Array.isArray(unit.workedExamples)){
+    unit.workedExamples.forEach((item)=>{
+      if(!item || typeof item !== "object") return;
+      direct.push({type:"example",title:item.title || "Worked Example",question:item.question || "",text:item.text || item.explanation || "",steps:Array.isArray(item.steps) ? item.steps : (item.solution ? [item.solution] : []),answer:item.answer});
+    });
+  }
+
+  if(unit.practice && typeof unit.practice === "object"){
+    const questions=[];
+    Object.entries(unit.practice).forEach(([level,value])=>{
+      if(!Array.isArray(value)) return;
+      value.forEach(q=>{
+        if(q && typeof q === "object") questions.push({...q,difficulty:q.difficulty || level});
+        else if(q !== null && q !== undefined) questions.push({question:String(q),difficulty:level});
+      });
+    });
+    if(questions.length) direct.push({type:"practice",title:"Practice",questions});
+  }
+
+  if(Array.isArray(unit.commonMistakes) && unit.commonMistakes.length){
+    direct.push({type:"warning",title:"Common Mistakes",text:unit.commonMistakes.map(x=>typeof x === "object" ? (x.text ?? x.mistake ?? x.description ?? JSON.stringify(x)) : String(x)).join("\n")});
+  }
+
+  if(Array.isArray(unit.examPoints) && unit.examPoints.length){
+    direct.push({type:"examtip",title:"Exam Points",text:unit.examPoints.map(x=>typeof x === "object" ? (x.text ?? x.point ?? x.description ?? JSON.stringify(x)) : String(x)).join("\n")});
+  }
+
+  if(direct.length) return direct;
+
   if(Array.isArray(unit.blocks)) return unit.blocks;
   if(Array.isArray(unit.scienceBlocks)) return unit.scienceBlocks;
   if(Array.isArray(unit.contentBlocks)) return unit.contentBlocks;
@@ -933,10 +1007,12 @@ function renderUniversalBlockCore(block, blockIndex){
   }
 
   if(type === "keypoint" || type === "key_point" || type === "important"){
+    const keyItems = Array.isArray(block.items) ? block.items : [];
     return `
       <div class="cqBlock cqImportant">
         <h4>⭐ ${blockTitle(block,"Important Point")}</h4>
-        <div>${renderText(text)}</div>
+        ${text ? `<div>${renderText(text)}</div>` : ""}
+        ${keyItems.length ? renderList(keyItems) : ""}
       </div>`;
   }
 
