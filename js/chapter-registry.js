@@ -6,6 +6,56 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class9-political-science-what-is-democracy-why-democracy",
+  class: 9,
+  subject: "Political Science",
+  chapterNumber: 1,
+  title: "What is Democracy? Why Democracy?",
+  file: "js/notes/class9/political-science/what-is-democracy-why-democracy.js",
+  enabled: true
+},
+  
+{
+  id: "class9-political-science-constitutional-design",
+  class: 9,
+  subject: "Political Science",
+  chapterNumber: 2,
+  title: "Constitutional Design",
+  file: "js/notes/class9/political-science/constitutional-design.js",
+  enabled: true
+},
+  
+{
+  id: "class9-political-science-electoral-politics",
+  class: 9,
+  subject: "Political Science",
+  chapterNumber: 3,
+  title: "Electoral Politics",
+  file: "js/notes/class9/political-science/electoral-politics.js",
+  enabled: true
+},
+  
+{
+  id: "class9-political-science-working-of-institutions",
+  class: 9,
+  subject: "Political Science",
+  chapterNumber: 4,
+  title: "Working of Institutions",
+  file: "js/notes/class9/political-science/working-of-institutions.js",
+  enabled: true
+},
+  
+{
+  id: "class9-political-science-democratic-rights",
+  class: 9,
+  subject: "Political Science",
+  chapterNumber: 5,
+  title: "Democratic Rights",
+  file: "js/notes/class9/political-science/democratic-rights.js",
+  enabled: true
+},
+  
+  {
   id: "class9-geography-india-size-and-location",
   class: 9,
   subject: "Geography",
