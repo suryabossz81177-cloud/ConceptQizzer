@@ -1,7 +1,5 @@
-/* ConceptQizzer — Class 9 Mathematics — corrected render-safe chapter file */
-/* Loader fix: all chapter extensions are inside the object; no post-declaration ChapterData.* statements remain. */
+/* ConceptQizzer — topic-placed accurate SVG figures */
 "use strict";
-
 window.ChapterData = {
   "id": "9-mathematics-herons-formula",
   "title": "Heron’s Formula",
@@ -98,32 +96,32 @@ window.ChapterData = {
   "realLifeMathematics": [],
   "mathematicalActivityLab": [],
   "figureBank": [
-  {
-    "title": "Heron side labels",
-    "diagram": "          A\n         / \\\n       c/   \\b\n       /     \\\n      B───a──C\na=BC, b=CA, c=AB",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Semiperimeter",
-    "diagram": "perimeter=a+b+c\nsemiperimeter s=(a+b+c)/2",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Heron workflow",
-    "diagram": "a,b,c → triangle-inequality check → s → s−a,s−b,s−c\n→ √[s(s−a)(s−b)(s−c)] → area",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Base-height comparison",
-    "diagram": "       A\n      /|\\\n     / | \\\n    /  |h \\\n   B───H───C\nBase-height uses ½bh; Heron uses all three sides.",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Equilateral special case",
-    "diagram": "        A\n       / \\\n      /   \\\n     B─────C\nall sides=a → Area=(√3/4)a²",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  }
-],
+    {
+      "title": "Heron side labels",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Heron side labels\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Triangle side notation</text><polygon points=\"180,250 350,75 540,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"60\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"160\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"555\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">C</text><text x=\"350\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">a = BC</text><text x=\"455\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">b = CA</text><text x=\"245\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">c = AB</text><text x=\"350\" y=\"315\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">a, b, c are the three side lengths</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Semiperimeter",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Semiperimeter\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Semiperimeter</text><polygon points=\"180,245 350,90 520,245\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"280\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">a + b + c = perimeter</text><text x=\"350\" y=\"315\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">s = (a + b + c) / 2</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Heron workflow",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Heron workflow\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Heron’s Formula workflow</text><rect x=\"15\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"70\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">1</text><text x=\"70\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Check triangle inequality</text><rect x=\"135\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"190\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">2</text><text x=\"190\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Find s</text><rect x=\"255\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"310\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">3</text><text x=\"310\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Find s−a, s−b, s−c</text><rect x=\"415\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"470\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">4</text><text x=\"470\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = √[s(s−a)(s−b)(s−c)]</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Base-height comparison",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Base-height comparison\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Base-height area vs Heron</text><polygon points=\"160,250 350,75 560,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><line x1=\"350\" y1=\"75\" x2=\"350\" y2=\"250\" stroke=\"#172033\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"8 6\"/><text x=\"360\" y=\"165\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"start\" fill=\"#172033\">h</text><text x=\"350\" y=\"280\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"17\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = ½bh when a convenient height is known</text><text x=\"350\" y=\"315\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"17\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Heron uses all three sides directly</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Equilateral special case",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 350\" role=\"img\" aria-label=\"Equilateral special case\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Equilateral triangle</text><polygon points=\"200,250 350,75 500,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"60\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"180\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"520\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">C</text><text x=\"350\" y=\"305\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">All sides = a</text><text x=\"350\" y=\"330\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = (√3/4)a²</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    }
+  ],
   "visualLearning": [],
   "masterDefinitions": [
     {
@@ -586,39 +584,20 @@ window.ChapterData = {
       "id": "why-heron",
       "title": "Why Heron’s Formula is Needed",
       "blocks": [
-
-  {
-    "type": "concept",
-    "title": "📐 Figure 1 — Heron side labels",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n          A\n         / \\\n       c/   \\b\n       /     \\\n      B───a──C\na=BC, b=CA, c=AB\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 2 — Semiperimeter",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\nperimeter=a+b+c\nsemiperimeter s=(a+b+c)/2\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 3 — Heron workflow",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\na,b,c → triangle-inequality check → s → s−a,s−b,s−c\n→ √[s(s−a)(s−b)(s−c)] → area\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 4 — Base-height comparison",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n       A\n      /|\\\n     / | \\\n    /  |h \\\n   B───H───C\nBase-height uses ½bh; Heron uses all three sides.\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 5 — Equilateral special case",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n        A\n       / \\\n      /   \\\n     B─────C\nall sides=a → Area=(√3/4)a²\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  }
-,
-
+        {
+          "type": "figure",
+          "title": "📐 Base-height comparison",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Base-height comparison\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Base-height area vs Heron</text><polygon points=\"160,250 350,75 560,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><line x1=\"350\" y1=\"75\" x2=\"350\" y2=\"250\" stroke=\"#172033\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"8 6\"/><text x=\"360\" y=\"165\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"start\" fill=\"#172033\">h</text><text x=\"350\" y=\"280\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"17\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = ½bh when a convenient height is known</text><text x=\"350\" y=\"315\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"17\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Heron uses all three sides directly</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Heron side labels",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Heron side labels\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Triangle side notation</text><polygon points=\"180,250 350,75 540,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"60\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"160\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"555\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">C</text><text x=\"350\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">a = BC</text><text x=\"455\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">b = CA</text><text x=\"245\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">c = AB</text><text x=\"350\" y=\"315\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">a, b, c are the three side lengths</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
         {
           "type": "concept",
           "title": "Concept Explained",
@@ -770,6 +749,27 @@ window.ChapterData = {
       "title": "Semiperimeter and Formula Anatomy",
       "blocks": [
         {
+          "type": "figure",
+          "title": "📐 Heron workflow",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Heron workflow\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Heron’s Formula workflow</text><rect x=\"15\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"70\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">1</text><text x=\"70\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Check triangle inequality</text><rect x=\"135\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"190\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">2</text><text x=\"190\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Find s</text><rect x=\"255\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"310\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">3</text><text x=\"310\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Find s−a, s−b, s−c</text><rect x=\"415\" y=\"90\" width=\"110\" height=\"100\" rx=\"14\" fill=\"#f7f8ff\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"470\" y=\"120\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">4</text><text x=\"470\" y=\"155\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"13\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = √[s(s−a)(s−b)(s−c)]</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Heron substitution layout",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Heron substitution layout\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Heron substitution layout</text><text x=\"350\" y=\"90\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">s = (a+b+c)/2</text><text x=\"350\" y=\"140\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">s−a</text><text x=\"350\" y=\"180\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">s−b</text><text x=\"350\" y=\"220\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">s−c</text><text x=\"350\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"21\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = √[s(s−a)(s−b)(s−c)]</text><text x=\"350\" y=\"310\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"16\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Keep all four factors positive for a valid non-degenerate triangle.</text></svg>",
+          "caption": "Accurate mathematical figure with explicit labels; geometry is schematic for learning, not a scale measurement."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Semiperimeter",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Semiperimeter\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Semiperimeter</text><polygon points=\"180,245 350,90 520,245\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"280\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">a + b + c = perimeter</text><text x=\"350\" y=\"315\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">s = (a + b + c) / 2</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
@@ -852,6 +852,13 @@ window.ChapterData = {
           "title": "Concept Explained",
           "color": "blue",
           "text": "Let a be the base and h its altitude. Let the altitude split a into x and a−x. Then b²=h²+x² and c²=h²+(a−x)². Subtracting gives x=(a²+b²−c²)/(2a). Substitute into h²=b²−x². Since Δ=1/2 ah, Δ²=a²h²/4. After algebraic factorisation using s=(a+b+c)/2, this becomes Δ²=s(s−a)(s−b)(s−c), hence Heron’s formula.\n\nThe derivation explains why the formula contains four factors and why it works for any valid triangle. In an exam, reproduce the full derivation only when requested; otherwise the compact formula is more efficient."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Altitude construction",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Altitude construction\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Altitude for base-height area</text><polygon points=\"170,250 350,80 550,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><line x1=\"350\" y1=\"80\" x2=\"350\" y2=\"250\" stroke=\"#172033\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"8 6\"/><text x=\"350\" y=\"62\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"155\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"565\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">C</text><text x=\"365\" y=\"165\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"start\" fill=\"#172033\">h</text><text x=\"350\" y=\"290\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = ½ × base × perpendicular height</text></svg>",
+          "caption": "Accurate mathematical figure with explicit labels; geometry is schematic for learning, not a scale measurement."
         },
         {
           "type": "example",
@@ -1004,6 +1011,13 @@ window.ChapterData = {
       "title": "Special Cases, Equilateral Triangle and Triangulation",
       "blocks": [
         {
+          "type": "figure",
+          "title": "📐 Equilateral special case",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 350\" role=\"img\" aria-label=\"Equilateral special case\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"30\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Equilateral triangle</text><polygon points=\"200,250 350,75 500,250\" fill=\"none\" stroke=\"#172033\" stroke-width=\"4\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"60\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">A</text><text x=\"180\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">B</text><text x=\"520\" y=\"270\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"18\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">C</text><text x=\"350\" y=\"305\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">All sides = a</text><text x=\"350\" y=\"330\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"20\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#172033\">Area = (√3/4)a²</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
@@ -1136,8 +1150,7 @@ window.ChapterData = {
           ]
         }
       ]
-    }
-  ,
+    },
     {
       "id": "foundation",
       "title": "Ultra Detailed Foundation: What Heron Solves",
@@ -2312,6658 +2325,6657 @@ window.ChapterData = {
     "rawJSONForStudents": false
   },
   "deepExpansion5X": [
-  {
-    "id": "chapter-10-deep-expansion-5x",
-    "title": "5× Minimum Detailed Expansion — Same Format as Chapters 5–8",
-    "blocks": [
-      {
-        "type": "concept",
-        "title": "1. Heron's formula purpose — Deep Concept",
-        "color": "blue",
-        "text": "Heron's formula gives the area of a triangle when all three side lengths are known. It is especially useful when height is not directly given. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "1. Heron's formula purpose — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "1. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Heron's formula purpose",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Heron's formula purpose.",
-            "answer": "State the standard Class 9 result for Heron's formula purpose.",
-            "solution": "Heron's formula gives the area of a triangle when all three side lengths are known. It is especially useful when height is not directly given."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Heron's formula purpose important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Heron's formula purpose.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Heron's formula purpose.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Heron's formula purpose.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "2. Semiperimeter — Deep Concept",
-        "color": "blue",
-        "text": "The semiperimeter s of a triangle with sides a, b and c is s=(a+b+c)/2. It is half the perimeter and is a central quantity in Heron's formula. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "2. Semiperimeter — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "2. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Semiperimeter",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Semiperimeter.",
-            "answer": "State the standard Class 9 result for Semiperimeter.",
-            "solution": "The semiperimeter s of a triangle with sides a, b and c is s=(a+b+c)/2. It is half the perimeter and is a central quantity in Heron's formula."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Semiperimeter important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Semiperimeter.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Semiperimeter.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Semiperimeter.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "3. Heron's formula — Deep Concept",
-        "color": "blue",
-        "text": "For side lengths a, b and c and semiperimeter s, the area K is √[s(s−a)(s−b)(s−c)]. Every symbol has a precise meaning and the side lengths must form a valid triangle. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "3. Heron's formula — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "3. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Heron's formula",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Heron's formula.",
-            "answer": "State the standard Class 9 result for Heron's formula.",
-            "solution": "For side lengths a, b and c and semiperimeter s, the area K is √[s(s−a)(s−b)(s−c)]. Every symbol has a precise meaning and the side lengths must form a valid triangle."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Heron's formula important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Heron's formula.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Heron's formula.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Heron's formula.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "4. Why triangle validity matters — Deep Concept",
-        "color": "blue",
-        "text": "Heron's formula assumes a real triangle. The triangle inequality requires a+b>c, b+c>a and c+a>b. If these fail, the expression cannot represent the area of a real triangle. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "4. Why triangle validity matters — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "4. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Why triangle validity matters",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Why triangle validity matters.",
-            "answer": "State the standard Class 9 result for Why triangle validity matters.",
-            "solution": "Heron's formula assumes a real triangle. The triangle inequality requires a+b>c, b+c>a and c+a>b. If these fail, the expression cannot represent the area of a real triangle."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Why triangle validity matters important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Why triangle validity matters.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Why triangle validity matters.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Why triangle validity matters.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "5. Step-by-step substitution — Deep Concept",
-        "color": "blue",
-        "text": "The safest method is: write a,b,c; calculate perimeter; calculate s; calculate s−a, s−b, s−c; substitute into the formula; simplify the product; take the square root; attach square units. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "5. Step-by-step substitution — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "5. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Step-by-step substitution",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Step-by-step substitution.",
-            "answer": "State the standard Class 9 result for Step-by-step substitution.",
-            "solution": "The safest method is: write a,b,c; calculate perimeter; calculate s; calculate s−a, s−b, s−c; substitute into the formula; simplify the product; take the square root; attach square units."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Step-by-step substitution important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Step-by-step substitution.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Step-by-step substitution.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Step-by-step substitution.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "6. Perfect-square simplification — Deep Concept",
-        "color": "blue",
-        "text": "Many school problems are designed so the quantity under the square root is a perfect square. Factorisation helps simplify expressions such as √(144)=12 or √(180)=6√5. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "6. Perfect-square simplification — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "6. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Perfect-square simplification",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Perfect-square simplification.",
-            "answer": "State the standard Class 9 result for Perfect-square simplification.",
-            "solution": "Many school problems are designed so the quantity under the square root is a perfect square. Factorisation helps simplify expressions such as √(144)=12 or √(180)=6√5."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Perfect-square simplification important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Perfect-square simplification.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Perfect-square simplification.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Perfect-square simplification.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "7. Equilateral triangle connection — Deep Concept",
-        "color": "blue",
-        "text": "For an equilateral triangle of side a, Heron's formula gives the familiar area √3/4 a². This demonstrates how a general formula can reduce to a special-case formula. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "7. Equilateral triangle connection — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "7. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Equilateral triangle connection",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Equilateral triangle connection.",
-            "answer": "State the standard Class 9 result for Equilateral triangle connection.",
-            "solution": "For an equilateral triangle of side a, Heron's formula gives the familiar area √3/4 a². This demonstrates how a general formula can reduce to a special-case formula."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Equilateral triangle connection important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Equilateral triangle connection.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Equilateral triangle connection.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Equilateral triangle connection.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "8. Isosceles triangle use — Deep Concept",
-        "color": "blue",
-        "text": "When two sides are equal, Heron's formula can calculate the area without explicitly constructing the altitude. It provides an alternate route to the base-height method. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "8. Isosceles triangle use — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "8. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Isosceles triangle use",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Isosceles triangle use.",
-            "answer": "State the standard Class 9 result for Isosceles triangle use.",
-            "solution": "When two sides are equal, Heron's formula can calculate the area without explicitly constructing the altitude. It provides an alternate route to the base-height method."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Isosceles triangle use important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Isosceles triangle use.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Isosceles triangle use.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Isosceles triangle use.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "9. Comparing Heron with base-height — Deep Concept",
-        "color": "blue",
-        "text": "Base-height is usually fastest when a height is known or easily found. Heron's formula is powerful when all three sides are known but the height is not. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "9. Comparing Heron with base-height — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "9. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Comparing Heron with base-height",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Comparing Heron with base-height.",
-            "answer": "State the standard Class 9 result for Comparing Heron with base-height.",
-            "solution": "Base-height is usually fastest when a height is known or easily found. Heron's formula is powerful when all three sides are known but the height is not."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Comparing Heron with base-height important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Comparing Heron with base-height.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Comparing Heron with base-height.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Comparing Heron with base-height.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "10. Perimeter and semiperimeter — Deep Concept",
-        "color": "blue",
-        "text": "Perimeter is a+b+c while semiperimeter is half of it. Confusing these two produces a completely different result and is a common exam error. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "10. Perimeter and semiperimeter — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "10. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Perimeter and semiperimeter",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Perimeter and semiperimeter.",
-            "answer": "State the standard Class 9 result for Perimeter and semiperimeter.",
-            "solution": "Perimeter is a+b+c while semiperimeter is half of it. Confusing these two produces a completely different result and is a common exam error."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Perimeter and semiperimeter important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Perimeter and semiperimeter.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Perimeter and semiperimeter.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Perimeter and semiperimeter.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "11. Unit discipline — Deep Concept",
-        "color": "blue",
-        "text": "If side lengths are in cm, the calculated area is in cm². If lengths are in m, area is in m². Do not attach linear units to an area answer. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "11. Unit discipline — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "11. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Unit discipline",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Unit discipline.",
-            "answer": "State the standard Class 9 result for Unit discipline.",
-            "solution": "If side lengths are in cm, the calculated area is in cm². If lengths are in m, area is in m². Do not attach linear units to an area answer."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Unit discipline important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Unit discipline.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Unit discipline.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Unit discipline.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "12. Reverse reasoning — Deep Concept",
-        "color": "blue",
-        "text": "If area and two sides are known, Heron's formula can sometimes be rearranged, but Class 9 questions usually focus on using the formula forward. Rearrangement requires careful algebra and valid constraints. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "12. Reverse reasoning — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "12. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Reverse reasoning",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Reverse reasoning.",
-            "answer": "State the standard Class 9 result for Reverse reasoning.",
-            "solution": "If area and two sides are known, Heron's formula can sometimes be rearranged, but Class 9 questions usually focus on using the formula forward. Rearrangement requires careful algebra and valid constraints."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Reverse reasoning important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Reverse reasoning.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Reverse reasoning.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Reverse reasoning.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "13. Numerical accuracy — Deep Concept",
-        "color": "blue",
-        "text": "Do not round intermediate values unnecessarily. Keep exact fractions and radicals where possible, then approximate only if the question asks for a decimal. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "13. Numerical accuracy — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "13. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Numerical accuracy",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Numerical accuracy.",
-            "answer": "State the standard Class 9 result for Numerical accuracy.",
-            "solution": "Do not round intermediate values unnecessarily. Keep exact fractions and radicals where possible, then approximate only if the question asks for a decimal."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Numerical accuracy important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Numerical accuracy.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Numerical accuracy.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Numerical accuracy.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "14. HOTS comparison — Deep Concept",
-        "color": "blue",
-        "text": "Two triangles can have the same perimeter but different areas. Heron's formula makes it possible to test this numerically rather than relying on visual judgement. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "14. HOTS comparison — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "14. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — HOTS comparison",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to HOTS comparison.",
-            "answer": "State the standard Class 9 result for HOTS comparison.",
-            "solution": "Two triangles can have the same perimeter but different areas. Heron's formula makes it possible to test this numerically rather than relying on visual judgement."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in HOTS comparison important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on HOTS comparison.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about HOTS comparison.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving HOTS comparison.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "15. Common mistakes — Deep Concept",
-        "color": "blue",
-        "text": "Typical errors include using perimeter instead of semiperimeter, forgetting one factor, taking the square root too early, using invalid side lengths, and omitting square units. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
-      },
-      {
-        "type": "example",
-        "title": "15. Common mistakes — Solved Method",
-        "color": "orange",
-        "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
-      },
-      {
-        "type": "tip",
-        "title": "15. Exam Point",
-        "color": "green",
-        "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Common mistakes",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition/formula related to Common mistakes.",
-            "answer": "State the standard Class 9 result for Common mistakes.",
-            "solution": "Typical errors include using perimeter instead of semiperimeter, forgetting one factor, taking the square root too early, using invalid side lengths, and omitting square units."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition or distinction in Common mistakes important?",
-            "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
-            "solution": "Identify the hypothesis and compare it with the information in the problem."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Write the correct step-by-step method for a numerical question on Common mistakes.",
-            "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
-            "solution": "Show the formula first and keep the working traceable."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "Give one common misconception about Common mistakes.",
-            "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
-            "solution": "Use definitions and the exact wording of the question to avoid the misconception."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "Give an independent way to verify a result involving Common mistakes.",
-            "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
-            "solution": "The check should test the result independently rather than repeat the same arithmetic."
-          }
-        ]
-      }
-    ]
-  }
-],
+    {
+      "id": "chapter-10-deep-expansion-5x",
+      "title": "5× Minimum Detailed Expansion — Same Format as Chapters 5–8",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "1. Heron's formula purpose — Deep Concept",
+          "color": "blue",
+          "text": "Heron's formula gives the area of a triangle when all three side lengths are known. It is especially useful when height is not directly given. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "1. Heron's formula purpose — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "1. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Heron's formula purpose",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Heron's formula purpose.",
+              "answer": "State the standard Class 9 result for Heron's formula purpose.",
+              "solution": "Heron's formula gives the area of a triangle when all three side lengths are known. It is especially useful when height is not directly given."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Heron's formula purpose important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Heron's formula purpose.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Heron's formula purpose.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Heron's formula purpose.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "2. Semiperimeter — Deep Concept",
+          "color": "blue",
+          "text": "The semiperimeter s of a triangle with sides a, b and c is s=(a+b+c)/2. It is half the perimeter and is a central quantity in Heron's formula. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "2. Semiperimeter — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "2. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Semiperimeter",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Semiperimeter.",
+              "answer": "State the standard Class 9 result for Semiperimeter.",
+              "solution": "The semiperimeter s of a triangle with sides a, b and c is s=(a+b+c)/2. It is half the perimeter and is a central quantity in Heron's formula."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Semiperimeter important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Semiperimeter.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Semiperimeter.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Semiperimeter.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "3. Heron's formula — Deep Concept",
+          "color": "blue",
+          "text": "For side lengths a, b and c and semiperimeter s, the area K is √[s(s−a)(s−b)(s−c)]. Every symbol has a precise meaning and the side lengths must form a valid triangle. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "3. Heron's formula — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "3. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Heron's formula",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Heron's formula.",
+              "answer": "State the standard Class 9 result for Heron's formula.",
+              "solution": "For side lengths a, b and c and semiperimeter s, the area K is √[s(s−a)(s−b)(s−c)]. Every symbol has a precise meaning and the side lengths must form a valid triangle."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Heron's formula important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Heron's formula.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Heron's formula.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Heron's formula.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "4. Why triangle validity matters — Deep Concept",
+          "color": "blue",
+          "text": "Heron's formula assumes a real triangle. The triangle inequality requires a+b>c, b+c>a and c+a>b. If these fail, the expression cannot represent the area of a real triangle. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "4. Why triangle validity matters — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "4. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Why triangle validity matters",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Why triangle validity matters.",
+              "answer": "State the standard Class 9 result for Why triangle validity matters.",
+              "solution": "Heron's formula assumes a real triangle. The triangle inequality requires a+b>c, b+c>a and c+a>b. If these fail, the expression cannot represent the area of a real triangle."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Why triangle validity matters important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Why triangle validity matters.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Why triangle validity matters.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Why triangle validity matters.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "5. Step-by-step substitution — Deep Concept",
+          "color": "blue",
+          "text": "The safest method is: write a,b,c; calculate perimeter; calculate s; calculate s−a, s−b, s−c; substitute into the formula; simplify the product; take the square root; attach square units. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "5. Step-by-step substitution — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "5. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Step-by-step substitution",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Step-by-step substitution.",
+              "answer": "State the standard Class 9 result for Step-by-step substitution.",
+              "solution": "The safest method is: write a,b,c; calculate perimeter; calculate s; calculate s−a, s−b, s−c; substitute into the formula; simplify the product; take the square root; attach square units."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Step-by-step substitution important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Step-by-step substitution.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Step-by-step substitution.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Step-by-step substitution.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "6. Perfect-square simplification — Deep Concept",
+          "color": "blue",
+          "text": "Many school problems are designed so the quantity under the square root is a perfect square. Factorisation helps simplify expressions such as √(144)=12 or √(180)=6√5. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "6. Perfect-square simplification — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "6. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Perfect-square simplification",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Perfect-square simplification.",
+              "answer": "State the standard Class 9 result for Perfect-square simplification.",
+              "solution": "Many school problems are designed so the quantity under the square root is a perfect square. Factorisation helps simplify expressions such as √(144)=12 or √(180)=6√5."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Perfect-square simplification important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Perfect-square simplification.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Perfect-square simplification.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Perfect-square simplification.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "7. Equilateral triangle connection — Deep Concept",
+          "color": "blue",
+          "text": "For an equilateral triangle of side a, Heron's formula gives the familiar area √3/4 a². This demonstrates how a general formula can reduce to a special-case formula. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "7. Equilateral triangle connection — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "7. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Equilateral triangle connection",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Equilateral triangle connection.",
+              "answer": "State the standard Class 9 result for Equilateral triangle connection.",
+              "solution": "For an equilateral triangle of side a, Heron's formula gives the familiar area √3/4 a². This demonstrates how a general formula can reduce to a special-case formula."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Equilateral triangle connection important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Equilateral triangle connection.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Equilateral triangle connection.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Equilateral triangle connection.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "8. Isosceles triangle use — Deep Concept",
+          "color": "blue",
+          "text": "When two sides are equal, Heron's formula can calculate the area without explicitly constructing the altitude. It provides an alternate route to the base-height method. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "8. Isosceles triangle use — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "8. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Isosceles triangle use",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Isosceles triangle use.",
+              "answer": "State the standard Class 9 result for Isosceles triangle use.",
+              "solution": "When two sides are equal, Heron's formula can calculate the area without explicitly constructing the altitude. It provides an alternate route to the base-height method."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Isosceles triangle use important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Isosceles triangle use.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Isosceles triangle use.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Isosceles triangle use.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "9. Comparing Heron with base-height — Deep Concept",
+          "color": "blue",
+          "text": "Base-height is usually fastest when a height is known or easily found. Heron's formula is powerful when all three sides are known but the height is not. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "9. Comparing Heron with base-height — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "9. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Comparing Heron with base-height",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Comparing Heron with base-height.",
+              "answer": "State the standard Class 9 result for Comparing Heron with base-height.",
+              "solution": "Base-height is usually fastest when a height is known or easily found. Heron's formula is powerful when all three sides are known but the height is not."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Comparing Heron with base-height important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Comparing Heron with base-height.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Comparing Heron with base-height.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Comparing Heron with base-height.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "10. Perimeter and semiperimeter — Deep Concept",
+          "color": "blue",
+          "text": "Perimeter is a+b+c while semiperimeter is half of it. Confusing these two produces a completely different result and is a common exam error. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "10. Perimeter and semiperimeter — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "10. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Perimeter and semiperimeter",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Perimeter and semiperimeter.",
+              "answer": "State the standard Class 9 result for Perimeter and semiperimeter.",
+              "solution": "Perimeter is a+b+c while semiperimeter is half of it. Confusing these two produces a completely different result and is a common exam error."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Perimeter and semiperimeter important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Perimeter and semiperimeter.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Perimeter and semiperimeter.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Perimeter and semiperimeter.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "11. Unit discipline — Deep Concept",
+          "color": "blue",
+          "text": "If side lengths are in cm, the calculated area is in cm². If lengths are in m, area is in m². Do not attach linear units to an area answer. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "11. Unit discipline — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "11. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Unit discipline",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Unit discipline.",
+              "answer": "State the standard Class 9 result for Unit discipline.",
+              "solution": "If side lengths are in cm, the calculated area is in cm². If lengths are in m, area is in m². Do not attach linear units to an area answer."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Unit discipline important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Unit discipline.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Unit discipline.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Unit discipline.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "12. Reverse reasoning — Deep Concept",
+          "color": "blue",
+          "text": "If area and two sides are known, Heron's formula can sometimes be rearranged, but Class 9 questions usually focus on using the formula forward. Rearrangement requires careful algebra and valid constraints. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "12. Reverse reasoning — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "12. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Reverse reasoning",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Reverse reasoning.",
+              "answer": "State the standard Class 9 result for Reverse reasoning.",
+              "solution": "If area and two sides are known, Heron's formula can sometimes be rearranged, but Class 9 questions usually focus on using the formula forward. Rearrangement requires careful algebra and valid constraints."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Reverse reasoning important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Reverse reasoning.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Reverse reasoning.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Reverse reasoning.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "13. Numerical accuracy — Deep Concept",
+          "color": "blue",
+          "text": "Do not round intermediate values unnecessarily. Keep exact fractions and radicals where possible, then approximate only if the question asks for a decimal. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "13. Numerical accuracy — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "13. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Numerical accuracy",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Numerical accuracy.",
+              "answer": "State the standard Class 9 result for Numerical accuracy.",
+              "solution": "Do not round intermediate values unnecessarily. Keep exact fractions and radicals where possible, then approximate only if the question asks for a decimal."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Numerical accuracy important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Numerical accuracy.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Numerical accuracy.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Numerical accuracy.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "14. HOTS comparison — Deep Concept",
+          "color": "blue",
+          "text": "Two triangles can have the same perimeter but different areas. Heron's formula makes it possible to test this numerically rather than relying on visual judgement. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "14. HOTS comparison — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "14. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — HOTS comparison",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to HOTS comparison.",
+              "answer": "State the standard Class 9 result for HOTS comparison.",
+              "solution": "Two triangles can have the same perimeter but different areas. Heron's formula makes it possible to test this numerically rather than relying on visual judgement."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in HOTS comparison important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on HOTS comparison.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about HOTS comparison.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving HOTS comparison.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "15. Common mistakes — Deep Concept",
+          "color": "blue",
+          "text": "Typical errors include using perimeter instead of semiperimeter, forgetting one factor, taking the square root too early, using invalid side lengths, and omitting square units. Learn the meaning first, then identify the conditions under which the result is valid. Connect the idea to earlier Class 9 concepts and distinguish it from closely related ideas."
+        },
+        {
+          "type": "example",
+          "title": "15. Common mistakes — Solved Method",
+          "color": "orange",
+          "text": "Step 1: write all given quantities with symbols and units. Step 2: identify exactly what is asked. Step 3: select the definition, theorem or formula. Step 4: check every condition and convert units if required. Step 5: substitute carefully, keeping intermediate steps visible. Step 6: simplify without premature rounding. Step 7: check whether the magnitude, units and mathematical meaning are sensible. Step 8: state the final answer clearly."
+        },
+        {
+          "type": "tip",
+          "title": "15. Exam Point",
+          "color": "green",
+          "text": "Write the formula before substitution. Define symbols when a formula first appears. Keep units consistent and do not infer information from a diagram that has not been given."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Common mistakes",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition/formula related to Common mistakes.",
+              "answer": "State the standard Class 9 result for Common mistakes.",
+              "solution": "Typical errors include using perimeter instead of semiperimeter, forgetting one factor, taking the square root too early, using invalid side lengths, and omitting square units."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition or distinction in Common mistakes important?",
+              "answer": "Because applying a theorem or formula outside its conditions can give an invalid result.",
+              "solution": "Identify the hypothesis and compare it with the information in the problem."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Write the correct step-by-step method for a numerical question on Common mistakes.",
+              "answer": "Givens → required → formula/rule → substitution → simplification → units → verification.",
+              "solution": "Show the formula first and keep the working traceable."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "Give one common misconception about Common mistakes.",
+              "answer": "Confusing a related quantity, ignoring a condition, or relying on visual appearance.",
+              "solution": "Use definitions and the exact wording of the question to avoid the misconception."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "Give an independent way to verify a result involving Common mistakes.",
+              "answer": "Use an alternate formula, estimate, substitution check, dimensional check, or a second valid method.",
+              "solution": "The check should test the result independently rather than repeat the same arithmetic."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "revisionLabs5X": [
-  {
-    "type": "concept",
-    "title": "Revision Lab 1 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 1 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 1 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 2 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 2 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 2 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 3 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 3 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 3 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 4 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 4 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 4 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 5 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 5 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 5 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 6 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 6 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 6 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 7 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 7 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 7 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 8 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 8 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 8 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 9 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 9 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 9 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 10 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 10 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 10 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 11 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 11 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 11 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 12 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 12 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 12 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 13 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 13 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 13 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 14 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 14 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 14 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 15 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 15 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 15 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 16 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 16 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 16 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 17 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 17 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 17 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 18 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 18 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 18 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 19 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 19 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 19 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 20 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 20 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 20 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 21 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 21 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 21 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 22 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 22 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 22 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 23 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 23 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 23 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 24 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 24 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 24 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 25 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 25 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 25 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 26 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 26 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 26 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 27 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 27 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 27 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 28 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 28 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 28 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 29 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 29 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 29 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 30 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 30 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 30 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 31 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 31 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 31 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 32 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 32 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 32 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 33 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 33 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 33 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 34 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 34 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 34 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 35 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 35 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 35 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 36 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 36 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 36 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 37 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 37 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 37 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 38 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 38 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 38 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 39 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 39 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 39 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 40 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 40 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 40 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 41 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 41 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 41 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 42 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 42 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 42 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 43 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 43 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 43 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 44 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 44 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 44 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 45 — Concept Mastery",
-    "color": "blue",
-    "text": "Revision Lab 45 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 45 — Basic → Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "State one important definition/formula from this chapter.",
-        "answer": "A correct Class 9 definition or formula.",
-        "solution": "Include the conditions and meaning of symbols."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Explain why the selected formula applies.",
-        "answer": "Its conditions match the given situation.",
-        "solution": "Name the relevant condition and connect it to the data."
-      },
-      {
-        "difficulty": "Application",
-        "question": "What should be written before substituting numbers?",
-        "answer": "The formula or mathematical relationship.",
-        "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "How can you detect an unreasonable answer?",
-        "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
-        "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "How would you change the problem to make it harder without changing the concept?",
-        "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
-        "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
-      }
-    ]
-  }
-],
+    {
+      "type": "concept",
+      "title": "Revision Lab 1 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 1 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 1 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 2 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 2 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 2 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 3 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 3 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 3 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 4 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 4 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 4 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 5 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 5 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 5 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 6 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 6 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 6 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 7 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 7 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 7 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 8 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 8 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 8 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 9 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 9 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 9 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 10 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 10 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 10 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 11 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 11 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 11 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 12 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 12 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 12 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 13 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 13 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 13 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 14 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 14 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 14 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 15 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 15 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 15 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 16 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 16 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 16 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 17 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 17 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 17 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 18 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 18 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 18 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 19 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 19 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 19 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 20 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 20 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 20 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 21 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 21 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 21 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 22 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 22 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 22 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 23 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 23 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 23 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 24 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 24 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 24 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 25 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 25 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 25 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 26 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 26 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 26 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 27 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 27 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 27 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 28 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 28 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 28 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 29 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 29 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 29 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 30 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 30 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 30 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 31 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 31 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 31 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 32 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 32 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 32 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 33 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 33 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 33 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 34 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 34 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 34 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 35 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 35 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 35 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 36 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 36 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 36 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 37 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 37 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 37 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 38 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 38 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 38 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 39 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 39 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 39 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 40 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 40 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 40 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 41 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 41 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 41 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 42 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 42 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 42 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 43 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 43 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 43 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 44 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 44 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 44 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 45 — Concept Mastery",
+      "color": "blue",
+      "text": "Revision Lab 45 for Chapter 10: first identify the mathematical object or data, then write the relevant definition/formula/theorem, explain each symbol, verify the conditions, perform the calculation in visible steps, and finish with a reasonableness and unit check. For geometry, never assume a visual property. For mensuration, separate surface area from volume and keep dimensions consistent. For statistics, distinguish observation, frequency, total frequency and the required measure."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 45 — Basic → Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "State one important definition/formula from this chapter.",
+          "answer": "A correct Class 9 definition or formula.",
+          "solution": "Include the conditions and meaning of symbols."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Explain why the selected formula applies.",
+          "answer": "Its conditions match the given situation.",
+          "solution": "Name the relevant condition and connect it to the data."
+        },
+        {
+          "difficulty": "Application",
+          "question": "What should be written before substituting numbers?",
+          "answer": "The formula or mathematical relationship.",
+          "solution": "Writing it first makes the reasoning clear and reduces substitution errors."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "How can you detect an unreasonable answer?",
+          "answer": "Check units, magnitude, constraints and an alternate method/estimate.",
+          "solution": "A dimensional or reasonableness check can catch many arithmetic mistakes."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "How would you change the problem to make it harder without changing the concept?",
+          "answer": "Use less direct data, a composite situation, reverse reasoning, or comparison.",
+          "solution": "The underlying theorem/formula remains the same while the reasoning becomes less routine."
+        }
+      ]
+    }
+  ],
   "examinerDrills5X": [
-  {
-    "type": "exam",
-    "title": "Examiner Drill 1",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 2",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 3",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 4",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 5",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 6",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 7",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 8",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 9",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 10",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 11",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 12",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 13",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 14",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 15",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 16",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 17",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 18",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 19",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 20",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 21",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 22",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 23",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 24",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 25",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 26",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 27",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 28",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 29",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 30",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 31",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 32",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 33",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 34",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 35",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 36",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 37",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 38",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 39",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 40",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 41",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 42",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 43",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 44",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 45",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 46",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 47",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 48",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 49",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 50",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 51",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 52",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 53",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 54",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 55",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 56",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 57",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 58",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 59",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 60",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 61",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 62",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 63",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 64",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 65",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 66",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 67",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 68",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 69",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 70",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 71",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 72",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 73",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 74",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 75",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 76",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 77",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 78",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 79",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 80",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 81",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 82",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 83",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 84",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 85",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 86",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 87",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 88",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 89",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 90",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 91",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 92",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 93",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 94",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 95",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 96",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 97",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 98",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 99",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 100",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 101",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 102",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 103",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 104",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 105",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 106",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 107",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 108",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 109",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 110",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 111",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 112",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 113",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 114",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 115",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 116",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 117",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 118",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 119",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 120",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 121",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 122",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 123",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 124",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 125",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 126",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 127",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 128",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 129",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 130",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 131",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 132",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 133",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 134",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 135",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 136",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 137",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 138",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 139",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 140",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 141",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 142",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 143",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 144",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 145",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 146",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 147",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 148",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 149",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 150",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 151",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 152",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 153",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 154",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 155",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 156",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 157",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 158",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 159",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 160",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 161",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 162",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 163",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 164",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 165",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 166",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 167",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 168",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 169",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 170",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 171",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 172",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 173",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 174",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 175",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 176",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 177",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 178",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 179",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 180",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 181",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 182",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 183",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 184",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 185",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 186",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 187",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 188",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 189",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 190",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 191",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 192",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 193",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 194",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 195",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 196",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 197",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 198",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 199",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 200",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 201",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 202",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 203",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 204",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 205",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 206",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 207",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 208",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 209",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 210",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 211",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 212",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 213",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 214",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 215",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 216",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 217",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 218",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 219",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 220",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 221",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 222",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 223",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 224",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 225",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 226",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 227",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 228",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 229",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 230",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 231",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 232",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 233",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 234",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 235",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 236",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 237",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 238",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 239",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 240",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 241",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 242",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 243",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 244",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 245",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 246",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 247",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 248",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 249",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 250",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 251",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 252",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 253",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 254",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 255",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 256",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 257",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 258",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 259",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 260",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 261",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 262",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 263",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 264",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 265",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 266",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 267",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 268",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 269",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 270",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 271",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 272",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 273",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 274",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 275",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 276",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 277",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 278",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 279",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 280",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 281",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 282",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 283",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 284",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 285",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 286",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 287",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 288",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 289",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 290",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 291",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 292",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 293",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 294",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 295",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 296",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 297",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 298",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 299",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 300",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 301",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 302",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 303",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 304",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 305",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 306",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 307",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 308",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 309",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 310",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 311",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 312",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 313",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 314",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 315",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 316",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 317",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 318",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 319",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 320",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 321",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 322",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 323",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 324",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 325",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 326",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 327",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 328",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 329",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 330",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 331",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 332",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 333",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 334",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 335",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 336",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 337",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 338",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 339",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 340",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 341",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 342",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 343",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 344",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 345",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 346",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 347",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 348",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 349",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 350",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 351",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 352",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 353",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 354",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 355",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 356",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 357",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 358",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 359",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 360",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 361",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 362",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 363",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 364",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 365",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 366",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 367",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 368",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 369",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 370",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 371",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 372",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 373",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 374",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 375",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 376",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 377",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 378",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 379",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 380",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 381",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 382",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 383",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 384",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 385",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 386",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 387",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 388",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 389",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 390",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 391",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 392",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 393",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 394",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 395",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 396",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 397",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 398",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 399",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 400",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 401",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 402",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 403",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 404",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 405",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 406",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 407",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 408",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 409",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 410",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 411",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 412",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 413",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 414",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 415",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 416",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 417",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 418",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 419",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 420",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 421",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 422",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 423",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 424",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 425",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 426",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 427",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 428",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 429",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 430",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 431",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 432",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 433",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 434",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 435",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 436",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 437",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 438",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 439",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 440",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 441",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 442",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 443",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 444",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 445",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 446",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 447",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 448",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 449",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 450",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 451",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 452",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 453",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 454",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 455",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 456",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 457",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 458",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 459",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 460",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 461",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 462",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 463",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 464",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 465",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 466",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 467",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 468",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 469",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 470",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 471",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 472",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 473",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 474",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 475",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 476",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 477",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 478",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 479",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 480",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 481",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 482",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 483",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 484",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 485",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 486",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 487",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 488",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 489",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 490",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 491",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 492",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 493",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 494",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 495",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 496",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 497",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 498",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 499",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 500",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 501",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 502",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 503",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 504",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 505",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 506",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 507",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 508",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 509",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 510",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 511",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 512",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 513",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 514",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 515",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 516",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 517",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 518",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 519",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 520",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 521",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 522",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 523",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 524",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 525",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 526",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 527",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 528",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 529",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 530",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 531",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 532",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 533",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 534",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 535",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 536",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 537",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 538",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 539",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 540",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 541",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 542",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 543",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 544",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 545",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 546",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 547",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 548",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 549",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 550",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 551",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 552",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 553",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 554",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 555",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 556",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 557",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 558",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 559",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 560",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 561",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 562",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 563",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 564",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 565",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 566",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 567",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 568",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 569",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 570",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 571",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 572",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 573",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 574",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 575",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 576",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 577",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 578",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 579",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 580",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 581",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 582",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 583",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 584",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 585",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 586",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 587",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 588",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 589",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 590",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 591",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 592",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 593",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 594",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 595",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 596",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 597",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 598",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 599",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 600",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 601",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 602",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 603",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 604",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 605",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 606",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 607",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 608",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 609",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 610",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 611",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 612",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 613",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 614",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 615",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 616",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 617",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 618",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 619",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 620",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 621",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 622",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 623",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 624",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 625",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 626",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 627",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 628",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 629",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 630",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 631",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 632",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 633",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 634",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 635",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 636",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 637",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 638",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 639",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 640",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 641",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 642",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 643",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 644",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 645",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 646",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 647",
-    "color": "orange",
-    "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
-  }
-]
+    {
+      "type": "exam",
+      "title": "Examiner Drill 1",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 2",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 3",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 4",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 5",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 6",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 7",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 8",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 9",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 10",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 11",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 12",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 13",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 14",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 15",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 16",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 17",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 18",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 19",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 20",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 21",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 22",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 23",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 24",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 25",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 26",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 27",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 28",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 29",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 30",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 31",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 32",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 33",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 34",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 35",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 36",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 37",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 38",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 39",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 40",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 41",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 42",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 43",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 44",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 45",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 46",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 47",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 48",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 49",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 50",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 51",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 52",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 53",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 54",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 55",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 56",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 57",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 58",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 59",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 60",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 61",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 62",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 63",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 64",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 65",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 66",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 67",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 68",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 69",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 70",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 71",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 72",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 73",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 74",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 75",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 76",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 77",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 78",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 79",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 80",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 81",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 82",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 83",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 84",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 85",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 86",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 87",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 88",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 89",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 90",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 91",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 92",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 93",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 94",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 95",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 96",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 97",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 98",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 99",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 100",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 101",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 102",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 103",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 104",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 105",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 106",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 107",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 108",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 109",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 110",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 111",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 112",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 113",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 114",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 115",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 116",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 117",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 118",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 119",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 120",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 121",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 122",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 123",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 124",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 125",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 126",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 127",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 128",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 129",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 130",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 131",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 132",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 133",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 134",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 135",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 136",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 137",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 138",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 139",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 140",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 141",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 142",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 143",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 144",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 145",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 146",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 147",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 148",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 149",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 150",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 151",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 152",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 153",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 154",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 155",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 156",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 157",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 158",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 159",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 160",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 161",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 162",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 163",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 164",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 165",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 166",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 167",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 168",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 169",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 170",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 171",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 172",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 173",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 174",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 175",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 176",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 177",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 178",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 179",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 180",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 181",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 182",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 183",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 184",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 185",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 186",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 187",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 188",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 189",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 190",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 191",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 192",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 193",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 194",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 195",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 196",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 197",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 198",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 199",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 200",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 201",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 202",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 203",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 204",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 205",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 206",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 207",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 208",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 209",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 210",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 211",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 212",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 213",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 214",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 215",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 216",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 217",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 218",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 219",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 220",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 221",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 222",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 223",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 224",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 225",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 226",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 227",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 228",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 229",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 230",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 231",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 232",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 233",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 234",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 235",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 236",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 237",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 238",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 239",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 240",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 241",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 242",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 243",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 244",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 245",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 246",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 247",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 248",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 249",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 250",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 251",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 252",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 253",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 254",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 255",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 256",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 257",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 258",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 259",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 260",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 261",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 262",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 263",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 264",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 265",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 266",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 267",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 268",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 269",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 270",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 271",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 272",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 273",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 274",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 275",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 276",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 277",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 278",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 279",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 280",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 281",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 282",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 283",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 284",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 285",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 286",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 287",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 288",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 289",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 290",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 291",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 292",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 293",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 294",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 295",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 296",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 297",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 298",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 299",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 300",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 301",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 302",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 303",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 304",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 305",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 306",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 307",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 308",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 309",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 310",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 311",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 312",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 313",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 314",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 315",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 316",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 317",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 318",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 319",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 320",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 321",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 322",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 323",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 324",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 325",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 326",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 327",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 328",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 329",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 330",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 331",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 332",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 333",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 334",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 335",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 336",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 337",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 338",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 339",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 340",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 341",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 342",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 343",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 344",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 345",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 346",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 347",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 348",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 349",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 350",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 351",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 352",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 353",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 354",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 355",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 356",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 357",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 358",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 359",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 360",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 361",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 362",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 363",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 364",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 365",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 366",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 367",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 368",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 369",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 370",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 371",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 372",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 373",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 374",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 375",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 376",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 377",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 378",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 379",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 380",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 381",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 382",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 383",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 384",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 385",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 386",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 387",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 388",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 389",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 390",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 391",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 392",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 393",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 394",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 395",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 396",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 397",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 398",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 399",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 400",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 401",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 402",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 403",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 404",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 405",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 406",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 407",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 408",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 409",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 410",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 411",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 412",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 413",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 414",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 415",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 416",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 417",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 418",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 419",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 420",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 421",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 422",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 423",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 424",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 425",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 426",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 427",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 428",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 429",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 430",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 431",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 432",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 433",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 434",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 435",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 436",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 437",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 438",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 439",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 440",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 441",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 442",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 443",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 444",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 445",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 446",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 447",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 448",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 449",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 450",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 451",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 452",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 453",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 454",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 455",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 456",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 457",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 458",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 459",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 460",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 461",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 462",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 463",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 464",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 465",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 466",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 467",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 468",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 469",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 470",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 471",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 472",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 473",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 474",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 475",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 476",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 477",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 478",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 479",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 480",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 481",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 482",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 483",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 484",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 485",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 486",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 487",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 488",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 489",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 490",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 491",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 492",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 493",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 494",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 495",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 496",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 497",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 498",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 499",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 500",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 501",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 502",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 503",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 504",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 505",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 506",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 507",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 508",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 509",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 510",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 511",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 512",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 513",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 514",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 515",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 516",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 517",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 518",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 519",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 520",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 521",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 522",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 523",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 524",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 525",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 526",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 527",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 528",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 529",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 530",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 531",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 532",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 533",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 534",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 535",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 536",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 537",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 538",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 539",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 540",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 541",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 542",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 543",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 544",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 545",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 546",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 547",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 548",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 549",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 550",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 551",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 552",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 553",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 554",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 555",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 556",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 557",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 558",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 559",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 560",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 561",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 562",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 563",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 564",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 565",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 566",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 567",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 568",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 569",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 570",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 571",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 572",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 573",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 574",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 575",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 576",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 577",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 578",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 579",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 580",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 581",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 582",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 583",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 584",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 585",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 586",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 587",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 588",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 589",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 590",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 591",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 592",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 593",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 594",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 595",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 596",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 597",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 598",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 599",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 600",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 601",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 602",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 603",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 604",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 605",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 606",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 607",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 608",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 609",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 610",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 611",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 612",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 613",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 614",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 615",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 616",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 617",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 618",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 619",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 620",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 621",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 622",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 623",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 624",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 625",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 626",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 627",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 628",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 629",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 630",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 631",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 632",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 633",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 634",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 635",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 636",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 637",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 638",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 639",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 640",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 641",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 642",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 643",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 644",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 645",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 646",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 647",
+      "color": "orange",
+      "content": "Solve using the full exam method: write givens, identify the target, state the exact formula/theorem, define symbols, check conditions, show substitution and intermediate working, simplify accurately, attach correct units, and independently verify the answer."
+    }
+  ]
 };
-

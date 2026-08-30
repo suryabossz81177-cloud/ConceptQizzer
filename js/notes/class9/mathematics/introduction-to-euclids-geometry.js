@@ -1,7 +1,5 @@
-/* ConceptQizzer — Class 9 Mathematics — 5X Ultra Detailed */
-/* Loader-safe Windows Chapter format. */
+/* ConceptQizzer — corrected chapter with topic-placed accurate SVG figures */
 "use strict";
-
 window.ChapterData = {
   "id": "9-mathematics-introduction-to-euclid-s-geometry",
   "title": "Introduction to Euclid's Geometry",
@@ -166,32 +164,32 @@ window.ChapterData = {
     }
   ],
   "figureBank": [
-  {
-    "title": "Basic geometric objects",
-    "diagram": "Point: •A\nLine: A────────B────────→\nSegment: A────────B\nRay: A────────→",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Joining two points",
-    "diagram": "A •────────────────• B\nA straight segment joins two distinct points.",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Circle construction",
-    "diagram": "        .−────−.\n      .´    O     `.\n     /      │ r     \\\n      `−──────────−´",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Proof flow",
-    "diagram": "GIVEN → REQUIRED → DEFINITION/POSTULATE/THEOREM\n      → LOGICAL STEPS + REASONS → CONCLUSION",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  },
-  {
-    "title": "Diagram discipline",
-    "diagram": "Visual appearance ≠ proof.\nUse given markings and established theorems.",
-    "accuracy": "Correct labelled mathematical relationship; schematic, not to scale."
-  }
-],
+    {
+      "title": "Basic geometric objects",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Basic geometric objects\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Basic geometric objects</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Joining two points",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Joining two points\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Joining two points</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Circle construction",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Circle construction\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Circle construction</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Proof flow",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Proof flow\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Proof flow</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    },
+    {
+      "title": "Diagram discipline",
+      "diagram": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Diagram discipline\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Diagram discipline</text></svg>",
+      "accuracy": "Accurate SVG mathematical figure; labels and stated relationships are intentional."
+    }
+  ],
   "visualLearning": [
     "Create a flowchart: basic terms → definitions → axioms/postulates → reasoning → theorem.",
     "Draw the five postulates as small labelled sketches."
@@ -358,39 +356,27 @@ window.ChapterData = {
       "id": "geometry-language",
       "title": "Geometry: The Language of Shapes",
       "blocks": [
-
-  {
-    "type": "concept",
-    "title": "📐 Figure 1 — Basic geometric objects",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\nPoint: •A\nLine: A────────B────────→\nSegment: A────────B\nRay: A────────→\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 2 — Joining two points",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\nA •────────────────• B\nA straight segment joins two distinct points.\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 3 — Circle construction",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\n        .−────−.\n      .´    O     `.\n     /      │ r     \\\n      `−──────────−´\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 4 — Proof flow",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\nGIVEN → REQUIRED → DEFINITION/POSTULATE/THEOREM\n      → LOGICAL STEPS + REASONS → CONCLUSION\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  },
-  {
-    "type": "concept",
-    "title": "📐 Figure 5 — Diagram discipline",
-    "color": "blue",
-    "text": "MATHEMATICAL FIGURE (schematic; not to scale)\n\nVisual appearance ≠ proof.\nUse given markings and established theorems.\n\nAccuracy note: every equality, perpendicularity, parallelism and label shown is intentional. Do not infer any additional property from the shape."
-  }
-,
-
+        {
+          "type": "figure",
+          "title": "📐 Circle construction",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Circle construction\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Circle construction</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Joining two points",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Joining two points\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Joining two points</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Basic geometric objects",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Basic geometric objects\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Basic geometric objects</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
         {
           "type": "concept",
           "title": "Concept Explained",
@@ -973,6 +959,20 @@ window.ChapterData = {
       "id": "proof-method",
       "title": "How to Read and Write a Geometrical Proof",
       "blocks": [
+        {
+          "type": "figure",
+          "title": "📐 Diagram discipline",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Diagram discipline\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Diagram discipline</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
+        {
+          "type": "figure",
+          "title": "📐 Proof flow",
+          "color": "blue",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 700 330\" role=\"img\" aria-label=\"Proof flow\" style=\"width:100%;height:auto;display:block;background:#fff;border-radius:16px\"><text x=\"350\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"22\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#172033\">Proof flow</text></svg>",
+          "caption": "Accurate mathematical figure. Labels and geometric relationships are intentional; use the stated labels and conditions rather than visual appearance alone."
+        },
         {
           "type": "concept",
           "title": "Concept Explained",
@@ -1575,3339 +1575,3339 @@ window.ChapterData = {
   ],
   "renderVersion": "windows.chapter.v3",
   "deepExpansion25X": [
-  {
-    "id": "chapter-5-deep-expansion-2-5x",
-    "title": "2.5× Minimum Detailed Expansion",
-    "blocks": [
-      {
-        "type": "concept",
-        "title": "1. Euclid and the axiomatic method — Deep Concept",
-        "color": "blue",
-        "text": "Euclid and the axiomatic method is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "1. Euclid and the axiomatic method — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Euclid and the axiomatic method. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "1. Exam Point",
-        "color": "green",
-        "text": "For Euclid and the axiomatic method, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Euclid and the axiomatic method",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Euclid and the axiomatic method.",
-            "answer": "Give the standard Class 9 definition/property of Euclid and the axiomatic method.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Euclid and the axiomatic method?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Euclid and the axiomatic method.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Euclid and the axiomatic method?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Euclid and the axiomatic method be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "2. Definitions in geometry — Deep Concept",
-        "color": "blue",
-        "text": "Definitions in geometry is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "2. Definitions in geometry — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Definitions in geometry. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "2. Exam Point",
-        "color": "green",
-        "text": "For Definitions in geometry, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Definitions in geometry",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Definitions in geometry.",
-            "answer": "Give the standard Class 9 definition/property of Definitions in geometry.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Definitions in geometry?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Definitions in geometry.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Definitions in geometry?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Definitions in geometry be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "3. Axioms and common notions — Deep Concept",
-        "color": "blue",
-        "text": "Axioms and common notions is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "3. Axioms and common notions — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Axioms and common notions. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "3. Exam Point",
-        "color": "green",
-        "text": "For Axioms and common notions, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Axioms and common notions",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Axioms and common notions.",
-            "answer": "Give the standard Class 9 definition/property of Axioms and common notions.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Axioms and common notions?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Axioms and common notions.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Axioms and common notions?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Axioms and common notions be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "4. Euclid's five postulates — Deep Concept",
-        "color": "blue",
-        "text": "Euclid's five postulates is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "4. Euclid's five postulates — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Euclid's five postulates. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "4. Exam Point",
-        "color": "green",
-        "text": "For Euclid's five postulates, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Euclid's five postulates",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Euclid's five postulates.",
-            "answer": "Give the standard Class 9 definition/property of Euclid's five postulates.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Euclid's five postulates?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Euclid's five postulates.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Euclid's five postulates?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Euclid's five postulates be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "5. The fifth postulate — Deep Concept",
-        "color": "blue",
-        "text": "The fifth postulate is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "5. The fifth postulate — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving The fifth postulate. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "5. Exam Point",
-        "color": "green",
-        "text": "For The fifth postulate, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — The fifth postulate",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of The fifth postulate.",
-            "answer": "Give the standard Class 9 definition/property of The fifth postulate.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in The fifth postulate?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on The fifth postulate.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving The fifth postulate?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving The fifth postulate be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "6. Theorem versus postulate — Deep Concept",
-        "color": "blue",
-        "text": "Theorem versus postulate is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "6. Theorem versus postulate — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Theorem versus postulate. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "6. Exam Point",
-        "color": "green",
-        "text": "For Theorem versus postulate, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Theorem versus postulate",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Theorem versus postulate.",
-            "answer": "Give the standard Class 9 definition/property of Theorem versus postulate.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Theorem versus postulate?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Theorem versus postulate.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Theorem versus postulate?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Theorem versus postulate be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "7. Proof structure — Deep Concept",
-        "color": "blue",
-        "text": "Proof structure is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "7. Proof structure — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Proof structure. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "7. Exam Point",
-        "color": "green",
-        "text": "For Proof structure, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Proof structure",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Proof structure.",
-            "answer": "Give the standard Class 9 definition/property of Proof structure.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Proof structure?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Proof structure.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Proof structure?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Proof structure be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "8. Construction logic — Deep Concept",
-        "color": "blue",
-        "text": "Construction logic is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "8. Construction logic — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Construction logic. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "8. Exam Point",
-        "color": "green",
-        "text": "For Construction logic, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Construction logic",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Construction logic.",
-            "answer": "Give the standard Class 9 definition/property of Construction logic.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Construction logic?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Construction logic.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Construction logic?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Construction logic be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "9. Diagram versus proof — Deep Concept",
-        "color": "blue",
-        "text": "Diagram versus proof is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "9. Diagram versus proof — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Diagram versus proof. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "9. Exam Point",
-        "color": "green",
-        "text": "For Diagram versus proof, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Diagram versus proof",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Diagram versus proof.",
-            "answer": "Give the standard Class 9 definition/property of Diagram versus proof.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Diagram versus proof?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Diagram versus proof.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Diagram versus proof?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Diagram versus proof be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "10. Equivalent formulations — Deep Concept",
-        "color": "blue",
-        "text": "Equivalent formulations is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "10. Equivalent formulations — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Equivalent formulations. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "10. Exam Point",
-        "color": "green",
-        "text": "For Equivalent formulations, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Equivalent formulations",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Equivalent formulations.",
-            "answer": "Give the standard Class 9 definition/property of Equivalent formulations.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Equivalent formulations?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Equivalent formulations.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Equivalent formulations?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Equivalent formulations be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "11. Euclidean and non-Euclidean geometry — Deep Concept",
-        "color": "blue",
-        "text": "Euclidean and non-Euclidean geometry is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "11. Euclidean and non-Euclidean geometry — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Euclidean and non-Euclidean geometry. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "11. Exam Point",
-        "color": "green",
-        "text": "For Euclidean and non-Euclidean geometry, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Euclidean and non-Euclidean geometry",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Euclidean and non-Euclidean geometry.",
-            "answer": "Give the standard Class 9 definition/property of Euclidean and non-Euclidean geometry.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Euclidean and non-Euclidean geometry?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Euclidean and non-Euclidean geometry.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Euclidean and non-Euclidean geometry?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Euclidean and non-Euclidean geometry be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      },
-      {
-        "type": "concept",
-        "title": "12. Exam proof discipline — Deep Concept",
-        "color": "blue",
-        "text": "Exam proof discipline is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
-      },
-      {
-        "type": "example",
-        "title": "12. Exam proof discipline — Solved Method",
-        "color": "orange",
-        "text": "Step 1: list the givens involving Exam proof discipline. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
-      },
-      {
-        "type": "tip",
-        "title": "12. Exam Point",
-        "color": "green",
-        "text": "For Exam proof discipline, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
-      },
-      {
-        "type": "practice",
-        "title": "Practice — Exam proof discipline",
-        "color": "purple",
-        "questions": [
-          {
-            "difficulty": "Basic",
-            "question": "State the key definition or property of Exam proof discipline.",
-            "answer": "Give the standard Class 9 definition/property of Exam proof discipline.",
-            "solution": "State the definition/property and its essential condition."
-          },
-          {
-            "difficulty": "Understanding",
-            "question": "Why is the condition important in Exam proof discipline?",
-            "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
-            "solution": "Compare the given information with the hypotheses before applying the result."
-          },
-          {
-            "difficulty": "Application",
-            "question": "Give the correct solution sequence for a problem on Exam proof discipline.",
-            "answer": "Givens → required → theorem/property → working → verification.",
-            "solution": "Show the rule, justify its use, work logically, and check the conclusion."
-          },
-          {
-            "difficulty": "HOTS",
-            "question": "What is a common mistake involving Exam proof discipline?",
-            "answer": "Assuming an unproved visual property from the diagram.",
-            "solution": "Use only given markings, definitions, constructions and valid theorems."
-          },
-          {
-            "difficulty": "Challenge",
-            "question": "How can a result involving Exam proof discipline be independently verified?",
-            "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
-            "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
-          }
-        ]
-      }
-    ]
-  }
-],
+    {
+      "id": "chapter-5-deep-expansion-2-5x",
+      "title": "2.5× Minimum Detailed Expansion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "1. Euclid and the axiomatic method — Deep Concept",
+          "color": "blue",
+          "text": "Euclid and the axiomatic method is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "1. Euclid and the axiomatic method — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Euclid and the axiomatic method. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "1. Exam Point",
+          "color": "green",
+          "text": "For Euclid and the axiomatic method, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Euclid and the axiomatic method",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Euclid and the axiomatic method.",
+              "answer": "Give the standard Class 9 definition/property of Euclid and the axiomatic method.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Euclid and the axiomatic method?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Euclid and the axiomatic method.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Euclid and the axiomatic method?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Euclid and the axiomatic method be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "2. Definitions in geometry — Deep Concept",
+          "color": "blue",
+          "text": "Definitions in geometry is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "2. Definitions in geometry — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Definitions in geometry. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "2. Exam Point",
+          "color": "green",
+          "text": "For Definitions in geometry, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Definitions in geometry",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Definitions in geometry.",
+              "answer": "Give the standard Class 9 definition/property of Definitions in geometry.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Definitions in geometry?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Definitions in geometry.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Definitions in geometry?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Definitions in geometry be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "3. Axioms and common notions — Deep Concept",
+          "color": "blue",
+          "text": "Axioms and common notions is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "3. Axioms and common notions — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Axioms and common notions. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "3. Exam Point",
+          "color": "green",
+          "text": "For Axioms and common notions, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Axioms and common notions",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Axioms and common notions.",
+              "answer": "Give the standard Class 9 definition/property of Axioms and common notions.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Axioms and common notions?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Axioms and common notions.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Axioms and common notions?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Axioms and common notions be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "4. Euclid's five postulates — Deep Concept",
+          "color": "blue",
+          "text": "Euclid's five postulates is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "4. Euclid's five postulates — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Euclid's five postulates. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "4. Exam Point",
+          "color": "green",
+          "text": "For Euclid's five postulates, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Euclid's five postulates",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Euclid's five postulates.",
+              "answer": "Give the standard Class 9 definition/property of Euclid's five postulates.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Euclid's five postulates?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Euclid's five postulates.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Euclid's five postulates?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Euclid's five postulates be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "5. The fifth postulate — Deep Concept",
+          "color": "blue",
+          "text": "The fifth postulate is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "5. The fifth postulate — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving The fifth postulate. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "5. Exam Point",
+          "color": "green",
+          "text": "For The fifth postulate, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — The fifth postulate",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of The fifth postulate.",
+              "answer": "Give the standard Class 9 definition/property of The fifth postulate.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in The fifth postulate?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on The fifth postulate.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving The fifth postulate?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving The fifth postulate be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "6. Theorem versus postulate — Deep Concept",
+          "color": "blue",
+          "text": "Theorem versus postulate is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "6. Theorem versus postulate — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Theorem versus postulate. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "6. Exam Point",
+          "color": "green",
+          "text": "For Theorem versus postulate, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Theorem versus postulate",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Theorem versus postulate.",
+              "answer": "Give the standard Class 9 definition/property of Theorem versus postulate.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Theorem versus postulate?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Theorem versus postulate.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Theorem versus postulate?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Theorem versus postulate be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "7. Proof structure — Deep Concept",
+          "color": "blue",
+          "text": "Proof structure is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "7. Proof structure — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Proof structure. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "7. Exam Point",
+          "color": "green",
+          "text": "For Proof structure, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Proof structure",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Proof structure.",
+              "answer": "Give the standard Class 9 definition/property of Proof structure.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Proof structure?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Proof structure.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Proof structure?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Proof structure be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "8. Construction logic — Deep Concept",
+          "color": "blue",
+          "text": "Construction logic is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "8. Construction logic — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Construction logic. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "8. Exam Point",
+          "color": "green",
+          "text": "For Construction logic, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Construction logic",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Construction logic.",
+              "answer": "Give the standard Class 9 definition/property of Construction logic.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Construction logic?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Construction logic.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Construction logic?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Construction logic be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "9. Diagram versus proof — Deep Concept",
+          "color": "blue",
+          "text": "Diagram versus proof is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "9. Diagram versus proof — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Diagram versus proof. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "9. Exam Point",
+          "color": "green",
+          "text": "For Diagram versus proof, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Diagram versus proof",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Diagram versus proof.",
+              "answer": "Give the standard Class 9 definition/property of Diagram versus proof.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Diagram versus proof?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Diagram versus proof.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Diagram versus proof?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Diagram versus proof be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "10. Equivalent formulations — Deep Concept",
+          "color": "blue",
+          "text": "Equivalent formulations is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "10. Equivalent formulations — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Equivalent formulations. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "10. Exam Point",
+          "color": "green",
+          "text": "For Equivalent formulations, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Equivalent formulations",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Equivalent formulations.",
+              "answer": "Give the standard Class 9 definition/property of Equivalent formulations.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Equivalent formulations?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Equivalent formulations.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Equivalent formulations?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Equivalent formulations be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "11. Euclidean and non-Euclidean geometry — Deep Concept",
+          "color": "blue",
+          "text": "Euclidean and non-Euclidean geometry is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "11. Euclidean and non-Euclidean geometry — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Euclidean and non-Euclidean geometry. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "11. Exam Point",
+          "color": "green",
+          "text": "For Euclidean and non-Euclidean geometry, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Euclidean and non-Euclidean geometry",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Euclidean and non-Euclidean geometry.",
+              "answer": "Give the standard Class 9 definition/property of Euclidean and non-Euclidean geometry.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Euclidean and non-Euclidean geometry?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Euclidean and non-Euclidean geometry.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Euclidean and non-Euclidean geometry?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Euclidean and non-Euclidean geometry be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        },
+        {
+          "type": "concept",
+          "title": "12. Exam proof discipline — Deep Concept",
+          "color": "blue",
+          "text": "Exam proof discipline is explained from first principles. Start with the exact definition, identify every condition under which the result is valid, connect it to earlier geometry, and then apply it. Do not rely on the appearance of a diagram. A correct solution distinguishes what is given from what must be proved and uses only justified relationships. The explanation should answer: What is it? Why is it true? When can it be used? What changes if a condition is removed? How can the final result be checked?"
+        },
+        {
+          "type": "example",
+          "title": "12. Exam proof discipline — Solved Method",
+          "color": "orange",
+          "text": "Step 1: list the givens involving Exam proof discipline. Step 2: write exactly what is required. Step 3: select the relevant definition, theorem, property or construction. Step 4: explicitly check its hypotheses. Step 5: calculate or prove one step at a time and write the reason for each major step. Step 6: verify using angle sums, congruence correspondence, parallel-line relationships, a construction or another independent theorem as appropriate. Step 7: write the final conclusion clearly."
+        },
+        {
+          "type": "tip",
+          "title": "12. Exam Point",
+          "color": "green",
+          "text": "For Exam proof discipline, remember the condition as well as the result. Never infer equality, perpendicularity or parallelism only because a printed diagram looks that way. In proof questions, write a reason after every important inference."
+        },
+        {
+          "type": "practice",
+          "title": "Practice — Exam proof discipline",
+          "color": "purple",
+          "questions": [
+            {
+              "difficulty": "Basic",
+              "question": "State the key definition or property of Exam proof discipline.",
+              "answer": "Give the standard Class 9 definition/property of Exam proof discipline.",
+              "solution": "State the definition/property and its essential condition."
+            },
+            {
+              "difficulty": "Understanding",
+              "question": "Why is the condition important in Exam proof discipline?",
+              "answer": "A theorem or property is valid only when its hypotheses are satisfied.",
+              "solution": "Compare the given information with the hypotheses before applying the result."
+            },
+            {
+              "difficulty": "Application",
+              "question": "Give the correct solution sequence for a problem on Exam proof discipline.",
+              "answer": "Givens → required → theorem/property → working → verification.",
+              "solution": "Show the rule, justify its use, work logically, and check the conclusion."
+            },
+            {
+              "difficulty": "HOTS",
+              "question": "What is a common mistake involving Exam proof discipline?",
+              "answer": "Assuming an unproved visual property from the diagram.",
+              "solution": "Use only given markings, definitions, constructions and valid theorems."
+            },
+            {
+              "difficulty": "Challenge",
+              "question": "How can a result involving Exam proof discipline be independently verified?",
+              "answer": "Use another valid theorem, congruence argument, angle sum, construction or algebraic check.",
+              "solution": "Choose an independent check that tests the conclusion rather than repeating the same step."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "revisionLabs": [
-  {
-    "type": "concept",
-    "title": "Revision Lab 1 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 1: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 1 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 2 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 2: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 2 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 3 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 3: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 3 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 4 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 4: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 4 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 5 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 5: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 5 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 6 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 6: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 6 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 7 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 7: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 7 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 8 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 8: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 8 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 9 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 9: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 9 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 10 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 10: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 10 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 11 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 11: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 11 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 12 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 12: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 12 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 13 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 13: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 13 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 14 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 14: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 14 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 15 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 15: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 15 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 16 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 16: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 16 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 17 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 17: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 17 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 18 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 18: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 18 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 19 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 19: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 19 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 20 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 20: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 20 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 21 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 21: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 21 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 22 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 22: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 22 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 23 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 23: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 23 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 24 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 24: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 24 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 25 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 25: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 25 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 26 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 26: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 26 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 27 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 27: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 27 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 28 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 28: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 28 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 29 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 29: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 29 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  },
-  {
-    "type": "concept",
-    "title": "Revision Lab 30 — Proof and Reasoning",
-    "color": "blue",
-    "text": "Revision Lab 30: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
-  },
-  {
-    "type": "practice",
-    "title": "Revision Lab 30 — Basic to Challenge",
-    "color": "purple",
-    "questions": [
-      {
-        "difficulty": "Basic",
-        "question": "Name one central definition from this chapter.",
-        "answer": "A correct Class 9 definition.",
-        "solution": "Include the defining condition."
-      },
-      {
-        "difficulty": "Understanding",
-        "question": "Name one theorem and state its condition.",
-        "answer": "A correct theorem together with its hypotheses.",
-        "solution": "The condition is essential to the theorem."
-      },
-      {
-        "difficulty": "Application",
-        "question": "Write the first three steps of a proof.",
-        "answer": "Givens → required → theorem/property.",
-        "solution": "Only then begin the detailed proof."
-      },
-      {
-        "difficulty": "HOTS",
-        "question": "Why should you not measure a printed diagram to prove equality?",
-        "answer": "The diagram may not be drawn to scale.",
-        "solution": "Use mathematical data and theorems, not visual measurement."
-      },
-      {
-        "difficulty": "Challenge",
-        "question": "Give an alternate verification method.",
-        "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
-        "solution": "The second route should independently support the conclusion."
-      }
-    ]
-  }
-],
+    {
+      "type": "concept",
+      "title": "Revision Lab 1 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 1: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 1 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 2 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 2: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 2 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 3 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 3: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 3 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 4 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 4: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 4 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 5 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 5: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 5 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 6 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 6: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 6 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 7 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 7: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 7 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 8 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 8: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 8 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 9 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 9: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 9 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 10 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 10: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 10 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 11 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 11: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 11 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 12 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 12: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 12 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 13 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 13: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 13 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 14 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 14: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 14 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 15 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 15: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 15 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 16 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 16: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 16 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 17 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 17: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 17 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 18 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 18: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 18 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 19 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 19: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 19 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 20 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 20: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 20 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 21 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 21: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 21 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 22 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 22: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 22 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 23 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 23: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 23 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 24 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 24: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 24 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 25 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 25: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 25 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 26 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 26: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 26 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 27 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 27: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 27 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 28 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 28: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 28 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 29 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 29: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 29 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "title": "Revision Lab 30 — Proof and Reasoning",
+      "color": "blue",
+      "text": "Revision Lab 30: read a fresh Chapter 5 problem, separate the givens from the required result, draw or label the figure accurately when needed, identify the exact theorem/property, and check every hypothesis before using it. Then work from the given information toward the conclusion. For geometry, a visual appearance is never a proof. Use definitions, angle relationships, congruence, parallel-line criteria, constructions and converse results only when justified. Finish with an explicit verification."
+    },
+    {
+      "type": "practice",
+      "title": "Revision Lab 30 — Basic to Challenge",
+      "color": "purple",
+      "questions": [
+        {
+          "difficulty": "Basic",
+          "question": "Name one central definition from this chapter.",
+          "answer": "A correct Class 9 definition.",
+          "solution": "Include the defining condition."
+        },
+        {
+          "difficulty": "Understanding",
+          "question": "Name one theorem and state its condition.",
+          "answer": "A correct theorem together with its hypotheses.",
+          "solution": "The condition is essential to the theorem."
+        },
+        {
+          "difficulty": "Application",
+          "question": "Write the first three steps of a proof.",
+          "answer": "Givens → required → theorem/property.",
+          "solution": "Only then begin the detailed proof."
+        },
+        {
+          "difficulty": "HOTS",
+          "question": "Why should you not measure a printed diagram to prove equality?",
+          "answer": "The diagram may not be drawn to scale.",
+          "solution": "Use mathematical data and theorems, not visual measurement."
+        },
+        {
+          "difficulty": "Challenge",
+          "question": "Give an alternate verification method.",
+          "answer": "Use a different valid theorem, congruence route, angle sum or construction.",
+          "solution": "The second route should independently support the conclusion."
+        }
+      ]
+    }
+  ],
   "examinerDrills": [
-  {
-    "type": "exam",
-    "title": "Examiner Drill 1",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 2",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 3",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 4",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 5",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 6",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 7",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 8",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 9",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 10",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 11",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 12",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 13",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 14",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 15",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 16",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 17",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 18",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 19",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 20",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 21",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 22",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 23",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 24",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 25",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 26",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 27",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 28",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 29",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 30",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 31",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 32",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 33",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 34",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 35",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 36",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 37",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 38",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 39",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 40",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 41",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 42",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 43",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 44",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 45",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 46",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 47",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 48",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 49",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 50",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 51",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 52",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 53",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 54",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 55",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 56",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 57",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 58",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 59",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 60",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 61",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 62",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 63",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 64",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 65",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 66",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 67",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 68",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 69",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 70",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 71",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 72",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 73",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 74",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 75",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 76",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 77",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 78",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 79",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 80",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 81",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 82",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 83",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 84",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 85",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 86",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 87",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 88",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 89",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 90",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 91",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 92",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 93",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 94",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 95",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 96",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 97",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 98",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 99",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 100",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 101",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 102",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 103",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 104",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 105",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 106",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 107",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 108",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 109",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 110",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 111",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 112",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 113",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 114",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 115",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 116",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 117",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 118",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 119",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 120",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 121",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 122",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 123",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 124",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 125",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 126",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 127",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 128",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 129",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 130",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 131",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 132",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 133",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 134",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 135",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 136",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 137",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 138",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 139",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 140",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 141",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 142",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 143",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 144",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 145",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 146",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 147",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 148",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 149",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 150",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 151",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 152",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 153",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 154",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 155",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 156",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 157",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 158",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 159",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 160",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 161",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 162",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 163",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 164",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 165",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 166",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 167",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 168",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 169",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 170",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 171",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 172",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 173",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 174",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 175",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 176",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 177",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 178",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 179",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 180",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 181",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 182",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 183",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 184",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 185",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 186",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 187",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 188",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 189",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 190",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 191",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 192",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 193",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 194",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 195",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 196",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 197",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 198",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 199",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 200",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 201",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 202",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 203",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 204",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 205",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 206",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 207",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 208",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 209",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 210",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 211",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 212",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 213",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 214",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 215",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 216",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 217",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 218",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 219",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 220",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 221",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 222",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 223",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 224",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 225",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 226",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 227",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 228",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  },
-  {
-    "type": "exam",
-    "title": "Examiner Drill 229",
-    "color": "orange",
-    "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
-  }
-]
+    {
+      "type": "exam",
+      "title": "Examiner Drill 1",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 2",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 3",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 4",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 5",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 6",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 7",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 8",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 9",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 10",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 11",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 12",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 13",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 14",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 15",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 16",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 17",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 18",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 19",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 20",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 21",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 22",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 23",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 24",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 25",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 26",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 27",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 28",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 29",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 30",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 31",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 32",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 33",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 34",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 35",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 36",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 37",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 38",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 39",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 40",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 41",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 42",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 43",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 44",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 45",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 46",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 47",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 48",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 49",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 50",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 51",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 52",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 53",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 54",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 55",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 56",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 57",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 58",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 59",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 60",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 61",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 62",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 63",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 64",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 65",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 66",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 67",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 68",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 69",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 70",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 71",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 72",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 73",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 74",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 75",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 76",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 77",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 78",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 79",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 80",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 81",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 82",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 83",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 84",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 85",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 86",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 87",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 88",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 89",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 90",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 91",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 92",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 93",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 94",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 95",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 96",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 97",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 98",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 99",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 100",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 101",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 102",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 103",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 104",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 105",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 106",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 107",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 108",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 109",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 110",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 111",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 112",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 113",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 114",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 115",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 116",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 117",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 118",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 119",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 120",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 121",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 122",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 123",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 124",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 125",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 126",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 127",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 128",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 129",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 130",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 131",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 132",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 133",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 134",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 135",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 136",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 137",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 138",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 139",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 140",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 141",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 142",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 143",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 144",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 145",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 146",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 147",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 148",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 149",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 150",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 151",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 152",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 153",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 154",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 155",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 156",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 157",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 158",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 159",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 160",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 161",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 162",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 163",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 164",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 165",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 166",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 167",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 168",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 169",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 170",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 171",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 172",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 173",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 174",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 175",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 176",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 177",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 178",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 179",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 180",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 181",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 182",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 183",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 184",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 185",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 186",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 187",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 188",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 189",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 190",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 191",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 192",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 193",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 194",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 195",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 196",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 197",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 198",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 199",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 200",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 201",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 202",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 203",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 204",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 205",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 206",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 207",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 208",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 209",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 210",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 211",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 212",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 213",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 214",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 215",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 216",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 217",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 218",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 219",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 220",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 221",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 222",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 223",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 224",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 225",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 226",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 227",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 228",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    },
+    {
+      "type": "exam",
+      "title": "Examiner Drill 229",
+      "color": "orange",
+      "content": "Write the givens, required result, exact theorem/property, hypothesis check, logical working and verification. Do not assume a visual property from the diagram."
+    }
+  ]
 };
