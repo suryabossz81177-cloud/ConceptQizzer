@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — 3X+ FIXED Figure-Rich Large Edition */
+/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 3,
   "file": "js/notes/class9/physics/gravitation.js",
   "enabled": true,
-  "version": "3X+ FIXED • Figure-Rich Large Edition",
-  "description": "Large Class 9 Physics chapter notes with loader-safe global export, extensive explanations, worked examples, practice, exam guidance and many inline labelled SVG figures. No external image links required.",
+  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
+  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -18,7 +18,12 @@ window.ChapterData = {
     "Interpret figures and graphs",
     "Explain real-life applications",
     "Detect common errors",
-    "Write complete exam-ready answers"
+    "Write complete exam-ready answers",
+    "Connect definitions, equations, graphs and observations",
+    "Explain why a formula works rather than memorising it alone",
+    "Use ideal models and state their assumptions",
+    "Interpret real-world demonstrations and measurements",
+    "Build exam-ready explanations with correct units and directions"
   ],
   "prerequisiteCheck": [
     "Basic arithmetic and algebra",
@@ -35,7 +40,17 @@ window.ChapterData = {
     "Buoyancy",
     "Archimedes principle",
     "Density and relative density",
-    "Applications of gravitation"
+    "Applications of gravitation",
+    "Universal law of gravitation",
+    "Mass, weight and gravitational acceleration",
+    "Free fall and acceleration due to gravity",
+    "Galileo and the falling-body idea",
+    "Gravitational field and field lines",
+    "Gravitational potential energy",
+    "Satellites and orbital motion",
+    "Escape velocity and gravitational binding",
+    "Gravitation in the solar system",
+    "Exam mastery: gravitation traps"
   ],
   "mainConcepts": [
     "Universal law of gravitation",
@@ -47,7 +62,17 @@ window.ChapterData = {
     "Buoyancy",
     "Archimedes principle",
     "Density and relative density",
-    "Applications of gravitation"
+    "Applications of gravitation",
+    "Universal law of gravitation",
+    "Mass, weight and gravitational acceleration",
+    "Free fall and acceleration due to gravity",
+    "Galileo and the falling-body idea",
+    "Gravitational field and field lines",
+    "Gravitational potential energy",
+    "Satellites and orbital motion",
+    "Escape velocity and gravitational binding",
+    "Gravitation in the solar system",
+    "Exam mastery: gravitation traps"
   ],
   "formulaPropertyBank": [
     "F=Gm1m2/r²",
@@ -128,7 +153,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Every mass attracts every other mass. Newton’s universal law gives F=Gm1m2/r², where r is the centre-to-centre distance for ideal spherical bodies. The force is attractive and acts along the line joining the centres. The inverse-square dependence is crucial: changing separation strongly changes the force."
+          "text": "Every mass attracts every other mass. Newton’s universal law gives F=Gm1m2/r², where r is the centre-to-centre distance for ideal spherical bodies. The force is attractive and acts along the line joining the centres. The inverse-square dependence is crucial: changing separation strongly changes the force.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -199,12 +224,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Universal law of gravitation",
-          "text": "Universal law of gravitation should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Universal law of gravitation should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Universal law of gravitation, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Universal law of gravitation, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -281,18 +306,27 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Universal law of gravitation — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Universal law of gravitation — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Universal law of gravitation — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "title": "Falling body diagram — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Falling body diagram\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Falling body diagram</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Falling_body.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Subjektivisti • CC0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Falling_body.svg",
+          "license": "CC0",
+          "author": "Subjektivisti"
         },
         {
           "type": "figure",
-          "title": "Universal law of gravitation — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Universal law of gravitation — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Universal law of gravitation — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "title": "Gravitation animation — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Gravitation animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Gravitation animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitation.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Thierry Dugnolle • CC0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Gravitation.gif",
+          "license": "CC0",
+          "author": "Thierry Dugnolle"
         },
         {
           "type": "figure",
-          "title": "Universal law of gravitation — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Universal law of gravitation — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Universal law of gravitation — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "title": "Galileo free-fall thought experiment — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Galileo free-fall thought experiment\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Galileo free-fall thought experiment</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Thought-experiment-free-falling-bodies.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Wikimedia Commons contributor • CC BY-SA 4.0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Thought-experiment-free-falling-bodies.svg",
+          "license": "CC BY-SA 4.0",
+          "author": "Wikimedia Commons contributor"
         }
       ]
     },
@@ -304,7 +338,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Near Earth, gravitational acceleration g is about 9.8 m/s² and is often rounded to 10 m/s². Its exact value varies with location. In ideal free fall, all bodies near the same location have the same gravitational acceleration when air resistance is neglected."
+          "text": "Near Earth, gravitational acceleration g is about 9.8 m/s² and is often rounded to 10 m/s². Its exact value varies with location. In ideal free fall, all bodies near the same location have the same gravitational acceleration when air resistance is neglected.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -375,12 +409,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Gravity and acceleration g",
-          "text": "Gravity and acceleration g should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Gravity and acceleration g should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Gravity and acceleration g, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Gravity and acceleration g, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -457,18 +491,27 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Gravity and acceleration g — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Gravity and acceleration g — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Gravity and acceleration g — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "title": "Earth gravitational field lines — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Earth gravitational field lines\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Earth gravitational field lines</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: MikeRun • CC BY-SA 4.0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines.svg",
+          "license": "CC BY-SA 4.0",
+          "author": "MikeRun"
         },
         {
           "type": "figure",
-          "title": "Gravity and acceleration g — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Gravity and acceleration g — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Gravity and acceleration g — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "title": "Earth gravitational field and equipotentials — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Earth gravitational field and equipotentials\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Earth gravitational field and equipotentials</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines_equipotentials.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Sjlegg • Public domain</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines_equipotentials.svg",
+          "license": "Public domain",
+          "author": "Sjlegg"
         },
         {
           "type": "figure",
-          "title": "Gravity and acceleration g — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Gravity and acceleration g — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Gravity and acceleration g — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "title": "Quasi-satellite orbit — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Quasi-satellite orbit\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Quasi-satellite orbit</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/2002aa29-orbit-4.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: JPL/NEO; SVG by Michał Połtyn • Public domain (NASA/JPL)</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:2002aa29-orbit-4.svg",
+          "license": "Public domain (NASA/JPL)",
+          "author": "JPL/NEO; SVG by Michał Połtyn"
         }
       ]
     },
@@ -480,7 +523,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Free fall is motion under gravity alone, neglecting air resistance. It is uniformly accelerated motion, so equations of motion apply with a=±g. For an upward throw, velocity becomes zero at the highest point, but acceleration remains downward. After the top, velocity reverses while gravitational acceleration continues downward."
+          "text": "Free fall is motion under gravity alone, neglecting air resistance. It is uniformly accelerated motion, so equations of motion apply with a=±g. For an upward throw, velocity becomes zero at the highest point, but acceleration remains downward. After the top, velocity reverses while gravitational acceleration continues downward.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -551,12 +594,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Free fall",
-          "text": "Free fall should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Free fall should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Free fall, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Free fall, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -632,19 +675,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Free fall, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Free fall — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Free fall — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Free fall — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Free fall — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Free fall — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Free fall — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Free fall — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Free fall — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Free fall — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -656,7 +702,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Mass measures inertia and is measured in kg. Weight is gravitational force, W=mg, measured in newtons. Mass is essentially unchanged when moving between planets, while weight changes with local g. Weight is directed toward the attracting body."
+          "text": "Mass measures inertia and is measured in kg. Weight is gravitational force, W=mg, measured in newtons. Mass is essentially unchanged when moving between planets, while weight changes with local g. Weight is directed toward the attracting body.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -727,12 +773,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Mass and weight",
-          "text": "Mass and weight should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Mass and weight should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Mass and weight, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Mass and weight, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -808,19 +854,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Mass and weight, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Mass and weight — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mass and weight — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mass and weight — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Mass and weight — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mass and weight — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mass and weight — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Mass and weight — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mass and weight — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mass and weight — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -832,7 +881,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Pressure is normal force per unit area, P=F/A. For the same force, smaller area produces greater pressure. Sharp knives, pointed nails and broad bag straps are everyday applications. The SI unit is pascal, N/m²."
+          "text": "Pressure is normal force per unit area, P=F/A. For the same force, smaller area produces greater pressure. Sharp knives, pointed nails and broad bag straps are everyday applications. The SI unit is pascal, N/m².  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -903,12 +952,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Thrust and pressure",
-          "text": "Thrust and pressure should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Thrust and pressure should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Thrust and pressure, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Thrust and pressure, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -984,19 +1033,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Thrust and pressure, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Thrust and pressure — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Thrust and pressure — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Thrust and pressure — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Thrust and pressure — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Thrust and pressure — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Thrust and pressure — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Thrust and pressure — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Thrust and pressure — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Thrust and pressure — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1008,7 +1060,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "A fluid exerts pressure in all directions. Liquid pressure increases with depth because deeper points have more liquid above them. For a liquid at rest, gauge pressure can be represented by P=hρg. Pressure at the same depth in the same connected liquid is not simply determined by container shape."
+          "text": "A fluid exerts pressure in all directions. Liquid pressure increases with depth because deeper points have more liquid above them. For a liquid at rest, gauge pressure can be represented by P=hρg. Pressure at the same depth in the same connected liquid is not simply determined by container shape.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1079,12 +1131,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Pressure in fluids",
-          "text": "Pressure in fluids should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Pressure in fluids should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Pressure in fluids, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Pressure in fluids, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1160,19 +1212,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Pressure in fluids, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Pressure in fluids — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Pressure in fluids — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Pressure in fluids — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Pressure in fluids — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Pressure in fluids — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Pressure in fluids — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Pressure in fluids — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Pressure in fluids — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Pressure in fluids — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1184,7 +1239,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "An immersed object experiences an upward buoyant force because fluid pressure is greater at deeper surfaces. Floating occurs when buoyant force balances weight. A dense material can float when its overall shape gives a sufficiently low average density and allows enough fluid displacement."
+          "text": "An immersed object experiences an upward buoyant force because fluid pressure is greater at deeper surfaces. Floating occurs when buoyant force balances weight. A dense material can float when its overall shape gives a sufficiently low average density and allows enough fluid displacement.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1255,12 +1310,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Buoyancy",
-          "text": "Buoyancy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Buoyancy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Buoyancy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Buoyancy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1336,19 +1391,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Buoyancy, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Buoyancy — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Buoyancy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Buoyancy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Buoyancy — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Buoyancy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Buoyancy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Buoyancy — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Buoyancy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Buoyancy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1360,7 +1418,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Archimedes’ principle states that the buoyant force on an immersed object equals the weight of the fluid displaced. For a fully immersed object, displaced volume equals immersed object volume. For a floating object in equilibrium, buoyant force equals object weight."
+          "text": "Archimedes’ principle states that the buoyant force on an immersed object equals the weight of the fluid displaced. For a fully immersed object, displaced volume equals immersed object volume. For a floating object in equilibrium, buoyant force equals object weight.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1431,12 +1489,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Archimedes principle",
-          "text": "Archimedes principle should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Archimedes principle should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Archimedes principle, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Archimedes principle, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1512,19 +1570,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Archimedes principle, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Archimedes principle — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Archimedes principle — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Archimedes principle — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Archimedes principle — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Archimedes principle — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Archimedes principle — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Archimedes principle — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Archimedes principle — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Archimedes principle — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1536,7 +1597,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Density is mass per unit volume, ρ=m/V. Relative density compares a substance’s density with water’s density and has no unit. Density and average density help explain floating and sinking. Units must be consistent before calculating."
+          "text": "Density is mass per unit volume, ρ=m/V. Relative density compares a substance’s density with water’s density and has no unit. Density and average density help explain floating and sinking. Units must be consistent before calculating.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1607,12 +1668,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Density and relative density",
-          "text": "Density and relative density should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Density and relative density should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Density and relative density, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Density and relative density, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1688,19 +1749,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Density and relative density, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Density and relative density — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Density and relative density — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Density and relative density — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Density and relative density — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Density and relative density — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Density and relative density — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Density and relative density — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Density and relative density — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Density and relative density — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1712,7 +1776,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Gravitation explains falling bodies, planetary orbits, tides and the weight of objects. The same universal interaction operates on very different scales. In orbital motion, gravity continuously changes the direction of velocity. In everyday problems, the near-Earth approximation W=mg is usually sufficient."
+          "text": "Gravitation explains falling bodies, planetary orbits, tides and the weight of objects. The same universal interaction operates on very different scales. In orbital motion, gravity continuously changes the direction of velocity. In everyday problems, the near-Earth approximation W=mg is usually sufficient.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1783,12 +1847,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Applications of gravitation",
-          "text": "Applications of gravitation should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Applications of gravitation should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Applications of gravitation, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Applications of gravitation, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1864,114 +1928,1009 @@ window.ChapterData = {
           "text": "For a long-answer question on Applications of gravitation, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Applications of gravitation — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Applications of gravitation — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Applications of gravitation — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Applications of gravitation — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Applications of gravitation — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Applications of gravitation — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Applications of gravitation — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Applications of gravitation — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Applications of gravitation — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+        }
+      ]
+    },
+    {
+      "id": "extended-11-universal-law-of-gravitation",
+      "title": "Universal law of gravitation",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "11. Universal law of gravitation",
+          "color": "blue",
+          "text": "Universal law of gravitation — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Every mass attracts every other mass through gravitational interaction. The magnitude of the force between two point masses or spherically symmetric bodies is F = Gm₁m₂/r², where G is the universal gravitational constant and r is the distance between their centres. The inverse-square dependence is crucial: doubling the separation reduces the force to one-fourth."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Gravitational force is always attractive in the classical model. The force on each body has the same magnitude and opposite direction, consistent with Newton’s third law. The forces act along the line joining the centres of the two bodies."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "For extended bodies, the simple point-mass expression is exact only under appropriate symmetry assumptions. At school level, spherical planets and small objects near their surfaces are commonly treated using simplified models."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of universal law of gravitation, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in universal law of gravitation were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to universal law of gravitation. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define universal law of gravitation without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-12-mass-weight-and-gravitational-acceleration",
+      "title": "Mass, weight and gravitational acceleration",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "12. Mass, weight and gravitational acceleration",
+          "color": "blue",
+          "text": "Mass, weight and gravitational acceleration — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Mass measures the amount of matter and is also related to inertia. Weight is the gravitational force acting on a mass. Near Earth’s surface, W = mg, where g is the local acceleration due to gravity. Mass is measured in kilograms; weight is a force measured in newtons."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Because g can vary slightly with location, the numerical value of weight can change while mass remains constant. On the Moon, for example, a person’s mass does not change merely because the local gravitational acceleration is smaller, but their weight does."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "In school calculations, g is often taken as 9.8 m/s² or sometimes approximated as 10 m/s² when instructed. Always use the value specified by the problem."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of mass, weight and gravitational acceleration, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in mass, weight and gravitational acceleration were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to mass, weight and gravitational acceleration. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define mass, weight and gravitational acceleration without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-13-free-fall-and-acceleration-due-to-gravity",
+      "title": "Free fall and acceleration due to gravity",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "13. Free fall and acceleration due to gravity",
+          "color": "blue",
+          "text": "Free fall and acceleration due to gravity — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "An object is in free fall when gravity is the only significant force acting on it. Near Earth’s surface and neglecting air resistance, all objects have the same gravitational acceleration g, independent of their mass. This does not mean that every object falls with the same acceleration in real air; drag can make the observed motion different."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "For downward motion, choose a sign convention and use the kinematic equations with a = g or a = −g as appropriate. For an object thrown upward, velocity decreases while the object rises because acceleration remains downward. At the highest point, instantaneous velocity is zero, but acceleration is still approximately g downward."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Free-fall graphs show position, velocity and acceleration changing differently with time. Understanding these graphs is more powerful than memorising isolated statements."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of free fall and acceleration due to gravity, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in free fall and acceleration due to gravity were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to free fall and acceleration due to gravity. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define free fall and acceleration due to gravity without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-14-galileo-and-the-falling-body-idea",
+      "title": "Galileo and the falling-body idea",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "14. Galileo and the falling-body idea",
+          "color": "blue",
+          "text": "Galileo and the falling-body idea — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Galileo’s work challenged the older assumption that heavier objects necessarily fall faster in proportion to their masses. In ideal free fall without air resistance, objects of different masses have the same gravitational acceleration near a given location. Air resistance can obscure this result in everyday observations."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "A thought experiment can separate gravitational effects from drag. A compact metal ball and a sheet of paper do not fall together in ordinary air because the paper experiences much greater drag relative to its weight. In a vacuum, the difference disappears and the two have the same gravitational acceleration near Earth."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "This distinction between an ideal model and a real experiment is a central scientific habit: the model identifies the gravitational law, while additional forces explain deviations from the ideal case."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of galileo and the falling-body idea, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in galileo and the falling-body idea were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to galileo and the falling-body idea. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define galileo and the falling-body idea without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-15-gravitational-field-and-field-lines",
+      "title": "Gravitational field and field lines",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "15. Gravitational field and field lines",
+          "color": "blue",
+          "text": "Gravitational field and field lines — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "A gravitational field describes the influence that a mass produces in the surrounding space. Near Earth, the field direction is approximately toward Earth’s centre. Field-line diagrams are a visual tool: the tangent to a field line indicates the field direction at that point, and the density of lines can be used qualitatively to represent field strength."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Field lines do not physically exist as strings in space. They help us reason about direction and relative magnitude. For a spherically symmetric mass, the field becomes weaker as distance from the centre increases, following an inverse-square dependence in the simple Newtonian model."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Close to Earth’s surface over a small region, the field lines can be treated as nearly parallel, which is why g is often approximated as constant in elementary problems."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of gravitational field and field lines, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in gravitational field and field lines were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to gravitational field and field lines. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define gravitational field and field lines without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-16-gravitational-potential-energy",
+      "title": "Gravitational potential energy",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "16. Gravitational potential energy",
+          "color": "blue",
+          "text": "Gravitational potential energy — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Gravitational potential energy near Earth is commonly written as U = mgh when the gravitational field can be treated as uniform over the height range. The zero level is a chosen reference, so potential energy itself can be assigned different zero values without changing the measurable physics of energy differences."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "If an object rises by height h, its gravitational potential energy increases by mgh. During ideal free fall, gravitational potential energy decreases while kinetic energy increases, with total mechanical energy remaining constant if non-conservative losses are negligible."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "For large changes in distance from Earth, the simple mgh expression is no longer sufficient. The more general gravitational potential energy relative to infinity is U = −GMm/r in the Newtonian model."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of gravitational potential energy, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in gravitational potential energy were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to gravitational potential energy. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define gravitational potential energy without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-17-satellites-and-orbital-motion",
+      "title": "Satellites and orbital motion",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "17. Satellites and orbital motion",
+          "color": "blue",
+          "text": "Satellites and orbital motion — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "A satellite remains in orbit because gravity continually changes the direction of its velocity. In a circular orbit, gravitational attraction supplies the required centripetal acceleration. The satellite is therefore continuously falling toward Earth while its tangential velocity carries it forward, producing a curved path rather than a direct impact."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "For a circular orbit, the orbital speed satisfies v²/r = GM/r², giving v = √(GM/r). Increasing the orbital radius lowers the circular orbital speed in this ideal model. Orbital period also depends on orbital radius, which leads to Kepler’s laws for planetary motion."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Orbit is not the absence of gravity. Astronauts and satellites remain strongly influenced by Earth’s gravity; apparent weightlessness in orbit is associated with continuous free fall of the spacecraft and its occupants."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of satellites and orbital motion, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in satellites and orbital motion were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to satellites and orbital motion. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define satellites and orbital motion without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-18-escape-velocity-and-gravitational-binding",
+      "title": "Escape velocity and gravitational binding",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "18. Escape velocity and gravitational binding",
+          "color": "blue",
+          "text": "Escape velocity and gravitational binding — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Escape velocity is the minimum initial speed required, in an ideal model, for an object to move arbitrarily far away from a gravitating body without further propulsion, neglecting atmosphere and other bodies. For a spherical body, v_e = √(2GM/R) from energy conservation."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Escape velocity depends on the mass and radius of the attracting body, not on the mass of the escaping object. A larger planetary mass tends to increase escape velocity, while a larger radius tends to decrease it when mass is held fixed."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "The formula should not be confused with orbital speed. An object in a circular orbit near a body has a lower speed than the escape speed at that same radius in the Newtonian model."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of escape velocity and gravitational binding, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in escape velocity and gravitational binding were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to escape velocity and gravitational binding. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define escape velocity and gravitational binding without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-19-gravitation-in-the-solar-system",
+      "title": "Gravitation in the solar system",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "19. Gravitation in the solar system",
+          "color": "blue",
+          "text": "Gravitation in the solar system — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Planetary and satellite motion is governed by gravitational interactions. Kepler’s laws describe planetary orbits: planets move in elliptical orbits with the Sun at one focus; a line joining a planet and the Sun sweeps equal areas in equal times; and the square of orbital period is proportional to the cube of the semi-major axis for planets orbiting the same central body."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Newton’s law of gravitation provides a dynamical explanation for Kepler’s laws. The same gravitational framework also describes artificial satellites, moons and many other orbital systems to a good approximation."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "At school level, it is useful to connect the laws rather than memorise them separately: gravity provides the interaction, Newton’s laws describe the resulting motion, and Kepler’s laws summarise orbital patterns."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of gravitation in the solar system, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in gravitation in the solar system were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to gravitation in the solar system. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define gravitation in the solar system without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-20-exam-mastery-gravitation-traps",
+      "title": "Exam mastery: gravitation traps",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "20. Exam mastery: gravitation traps",
+          "color": "blue",
+          "text": "Exam mastery: gravitation traps — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Do not confuse G and g. G is a universal constant with units N·m²/kg², while g is a local acceleration due to gravity with units m/s². Do not write W = Gm₁m₂/r² unless you are specifically calculating the force between two masses; W = mg is the near-surface weight relation."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Do not say “heavier objects fall faster” as a general law. In ideal free fall, mass cancels from the acceleration. Do not say “gravity is zero in orbit” either; orbiting bodies are still gravitationally attracted."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "For satellite questions, identify whether the problem asks for orbital speed, period, gravitational force, acceleration or escape velocity. These are related but not interchangeable quantities."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of exam mastery: gravitation traps, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: F = Gm₁m₂/r²; W = mg near Earth; g = GM/R² for a spherical body; U ≈ mgh near the surface; v_orbit = √(GM/r); v_escape = √(2GM/R)."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "For a 5 kg object near Earth using g = 9.8 m/s², weight W = mg = 5×9.8 = 49 N downward."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "If the separation between two masses is doubled, F becomes Gm₁m₂/(2r)² = one-fourth of the original force. The inverse-square law determines the factor without needing numerical masses."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in exam mastery: gravitation traps were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Distinguish G and g. 2) Find the weight of a 7 kg mass using g = 9.8 m/s². 3) State the inverse-square effect of doubling r. 4) Explain free fall. 5) Explain why an orbiting astronaut is not in a zero-gravity region."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Use proportional reasoning to predict how gravitational force changes if one mass is tripled and the separation is doubled. Show each factor before giving the final multiplier."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to exam mastery: gravitation traps. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define exam mastery: gravitation traps without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
         }
       ]
     }
   ],
   "importantPoints": [
-    {
-      "title": "Understand before memorising",
-      "text": "Start with the physical definition, then connect it to equations, graphs and real-life situations."
-    },
-    {
-      "title": "Use SI units",
-      "text": "Convert quantities to compatible SI units before using standard equations unless a question explicitly provides another unit system."
-    },
-    {
-      "title": "Respect direction",
-      "text": "Velocity, acceleration, force, momentum and displacement are vector quantities; use a clear sign convention when solving one-dimensional problems."
-    },
-    {
-      "title": "Check assumptions",
-      "text": "Use equations only when their conditions are satisfied, such as constant acceleration or an isolated system for momentum conservation."
-    },
-    {
-      "title": "Read figures carefully",
-      "text": "Axes, arrows, labels, units and reference levels carry physical meaning. A figure is part of the explanation, not decoration."
-    },
-    {
-      "title": "Verify the answer",
-      "text": "Check units, sign, order of magnitude and whether the result makes physical sense."
-    }
+    "Remember the square on r and use centre-to-centre distance in the standard ideal model.",
+    "g is an acceleration, not a force; mass does not appear in the ideal free-fall acceleration.",
+    "At the highest point v=0 only instantaneously; a is still -g if upward is positive.",
+    "Do not report weight in kilograms; kilograms measure mass.",
+    "Pressure depends on force and area; broad straps reduce pressure rather than weight.",
+    "Depth, density and g matter in P=hρg; container shape alone does not.",
+    "Buoyancy is a force caused by fluid interaction, not a mysterious upward force present only for floating objects.",
+    "Use displaced-fluid mass/weight, not automatically the object’s mass, when calculating buoyancy.",
+    "Relative density is dimensionless; do not attach kg/m³ to it.",
+    "Do not treat gravity as something that suddenly switches off outside Earth’s atmosphere."
   ],
   "keyTerms": [
-    {
-      "term": "Reference frame",
-      "definition": "Chosen viewpoint or coordinate system relative to which position and motion are described."
-    },
-    {
-      "term": "Displacement",
-      "definition": "Directed change in position from initial to final position."
-    },
-    {
-      "term": "Velocity",
-      "definition": "Rate of change of displacement."
-    },
-    {
-      "term": "Acceleration",
-      "definition": "Rate of change of velocity."
-    },
-    {
-      "term": "Force",
-      "definition": "An interaction that can change the motion of an object."
-    },
-    {
-      "term": "Momentum",
-      "definition": "Product of mass and velocity."
-    },
-    {
-      "term": "Gravitational force",
-      "definition": "Attractive force between masses."
-    },
-    {
-      "term": "Pressure",
-      "definition": "Normal force per unit area."
-    },
-    {
-      "term": "Density",
-      "definition": "Mass per unit volume."
-    },
-    {
-      "term": "Work",
-      "definition": "Energy transferred by a force through displacement, with sign determined by the angle between force and displacement."
-    },
-    {
-      "term": "Kinetic energy",
-      "definition": "Energy associated with motion."
-    },
-    {
-      "term": "Potential energy",
-      "definition": "Energy associated with position or configuration."
-    },
-    {
-      "term": "Power",
-      "definition": "Rate of doing work or transferring energy."
-    },
-    {
-      "term": "Frequency",
-      "definition": "Number of complete cycles per second."
-    },
-    {
-      "term": "Wavelength",
-      "definition": "Distance between successive points in the same phase of a wave."
-    },
-    {
-      "term": "Amplitude",
-      "definition": "Maximum displacement from the equilibrium position in an ideal sinusoidal description."
-    }
+    "Universal law of gravitation",
+    "Gravity and acceleration g",
+    "Free fall",
+    "Mass and weight",
+    "Thrust and pressure",
+    "Pressure in fluids",
+    "Buoyancy",
+    "Archimedes principle",
+    "Density and relative density",
+    "Applications of gravitation"
   ],
   "detailedSummary": [
     "Chapter 3 builds Gravitation from definitions to applications.",
@@ -1992,710 +2951,54 @@ window.ChapterData = {
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
     }
   ],
-  "figures": [
+  "figureSources": [
     {
-      "title": "Universal law of gravitation — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Universal law of gravitation — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Universal law of gravitation — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
+      "title": "Falling body diagram",
+      "file": "Falling_body.svg",
+      "license": "CC0",
+      "author": "Subjektivisti",
+      "source": "https://commons.wikimedia.org/wiki/File:Falling_body.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Falling_body.svg"
     },
     {
-      "title": "Universal law of gravitation — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Universal law of gravitation — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Universal law of gravitation — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
+      "title": "Gravitation animation",
+      "file": "Gravitation.gif",
+      "license": "CC0",
+      "author": "Thierry Dugnolle",
+      "source": "https://commons.wikimedia.org/wiki/File:Gravitation.gif",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gravitation.gif"
     },
     {
-      "title": "Universal law of gravitation — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Universal law of gravitation — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Universal law of gravitation — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
+      "title": "Galileo free-fall thought experiment",
+      "file": "Thought-experiment-free-falling-bodies.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Wikimedia Commons contributor",
+      "source": "https://commons.wikimedia.org/wiki/File:Thought-experiment-free-falling-bodies.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thought-experiment-free-falling-bodies.svg"
     },
     {
-      "title": "Gravity and acceleration g — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Gravity and acceleration g — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Gravity and acceleration g — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
+      "title": "Earth gravitational field lines",
+      "file": "Gravitational_field_Earth_lines.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "MikeRun",
+      "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines.svg"
     },
     {
-      "title": "Gravity and acceleration g — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Gravity and acceleration g — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Gravity and acceleration g — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
+      "title": "Earth gravitational field and equipotentials",
+      "file": "Gravitational_field_Earth_lines_equipotentials.svg",
+      "license": "Public domain",
+      "author": "Sjlegg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines_equipotentials.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines_equipotentials.svg"
     },
     {
-      "title": "Gravity and acceleration g — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Gravity and acceleration g — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Gravity and acceleration g — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Free fall — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Free fall — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Free fall — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Free fall — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Free fall — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Free fall — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Free fall — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Free fall — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Free fall — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Mass and weight — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mass and weight — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mass and weight — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Mass and weight — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mass and weight — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mass and weight — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Mass and weight — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mass and weight — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mass and weight — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Thrust and pressure — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Thrust and pressure — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Thrust and pressure — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Thrust and pressure — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Thrust and pressure — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Thrust and pressure — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Thrust and pressure — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Thrust and pressure — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Thrust and pressure — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Pressure in fluids — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Pressure in fluids — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Pressure in fluids — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Pressure in fluids — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Pressure in fluids — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Pressure in fluids — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Pressure in fluids — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Pressure in fluids — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Pressure in fluids — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Buoyancy — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Buoyancy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Buoyancy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Buoyancy — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Buoyancy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Buoyancy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Buoyancy — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Buoyancy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Buoyancy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Archimedes principle — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Archimedes principle — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Archimedes principle — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Archimedes principle — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Archimedes principle — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Archimedes principle — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Archimedes principle — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Archimedes principle — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Archimedes principle — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Density and relative density — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Density and relative density — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Density and relative density — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Density and relative density — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Density and relative density — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Density and relative density — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Density and relative density — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Density and relative density — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Density and relative density — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Applications of gravitation — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Applications of gravitation — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Applications of gravitation — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Applications of gravitation — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Applications of gravitation — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Applications of gravitation — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Applications of gravitation — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Applications of gravitation — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Applications of gravitation — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
+      "title": "Quasi-satellite orbit",
+      "file": "2002aa29-orbit-4.svg",
+      "license": "Public domain (NASA/JPL)",
+      "author": "JPL/NEO; SVG by Michał Połtyn",
+      "source": "https://commons.wikimedia.org/wiki/File:2002aa29-orbit-4.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2002aa29-orbit-4.svg"
     }
-  ],
-  "workedExamples": [
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Universal law of gravitation?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Universal law of gravitation without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Gravity and acceleration g?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Gravity and acceleration g without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Free fall?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Free fall without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Mass and weight?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Mass and weight without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Thrust and pressure?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Thrust and pressure without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Pressure in fluids?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Pressure in fluids without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Buoyancy?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Buoyancy without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Archimedes principle?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Archimedes principle without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    }
-  ],
-  "practice": [
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Universal law of gravitation precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Universal law of gravitation.",
-          "answer": "F = Gm₁m₂/r²"
-        },
-        {
-          "question": "Name one situation where Universal law of gravitation is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Universal law of gravitation?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Gravity and acceleration g precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Gravity and acceleration g.",
-          "answer": "W = mg"
-        },
-        {
-          "question": "Name one situation where Gravity and acceleration g is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Gravity and acceleration g?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Free fall precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Free fall.",
-          "answer": "v = u + gt; s = ut + ½gt² (with sign convention)"
-        },
-        {
-          "question": "Name one situation where Free fall is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Free fall?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Mass and weight precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Mass and weight.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Mass and weight is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Mass and weight?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Thrust and pressure precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Thrust and pressure.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Thrust and pressure is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Thrust and pressure?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Pressure in fluids precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Pressure in fluids.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Pressure in fluids is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Pressure in fluids?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Buoyancy precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Buoyancy.",
-          "answer": "buoyant force = weight of displaced fluid"
-        },
-        {
-          "question": "Name one situation where Buoyancy is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Buoyancy?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Archimedes principle precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Archimedes principle.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Archimedes principle is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Archimedes principle?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Density and relative density precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Density and relative density.",
-          "answer": "ρ = m/V; relative density = ρ_substance/ρ_water"
-        },
-        {
-          "question": "Name one situation where Density and relative density is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Density and relative density?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Applications of gravitation precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Applications of gravitation.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Applications of gravitation is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Applications of gravitation?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    }
-  ],
-  "summary": "This ultra-detailed Chapter 3 set is designed for deep Class 9 study: concept → figure → worked examples → important points → HOTS → challenge → error detection → scientific thinking → exam writing → self-check."
+  ]
 };
-window.chapter = window.ChapterData;

@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — 3X+ FIXED Figure-Rich Large Edition */
+/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 4,
   "file": "js/notes/class9/physics/work-and-energy.js",
   "enabled": true,
-  "version": "3X+ FIXED • Figure-Rich Large Edition",
-  "description": "Large Class 9 Physics chapter notes with loader-safe global export, extensive explanations, worked examples, practice, exam guidance and many inline labelled SVG figures. No external image links required.",
+  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
+  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -18,7 +18,12 @@ window.ChapterData = {
     "Interpret figures and graphs",
     "Explain real-life applications",
     "Detect common errors",
-    "Write complete exam-ready answers"
+    "Write complete exam-ready answers",
+    "Connect definitions, equations, graphs and observations",
+    "Explain why a formula works rather than memorising it alone",
+    "Use ideal models and state their assumptions",
+    "Interpret real-world demonstrations and measurements",
+    "Build exam-ready explanations with correct units and directions"
   ],
   "prerequisiteCheck": [
     "Basic arithmetic and algebra",
@@ -35,7 +40,17 @@ window.ChapterData = {
     "Power",
     "Conservation of energy",
     "Energy transformations",
-    "Problem-solving with energy"
+    "Problem-solving with energy",
+    "Work as energy transfer by force",
+    "Work from force–displacement graphs",
+    "Kinetic energy and the work–energy theorem",
+    "Potential energy and reference levels",
+    "Mechanical energy conservation",
+    "Power: rate of doing work",
+    "Energy transformations in machines",
+    "Collisions, machines and energy accounting",
+    "Real-life applications of work and energy",
+    "Exam mastery: work and energy traps"
   ],
   "mainConcepts": [
     "Meaning of work",
@@ -47,7 +62,17 @@ window.ChapterData = {
     "Power",
     "Conservation of energy",
     "Energy transformations",
-    "Problem-solving with energy"
+    "Problem-solving with energy",
+    "Work as energy transfer by force",
+    "Work from force–displacement graphs",
+    "Kinetic energy and the work–energy theorem",
+    "Potential energy and reference levels",
+    "Mechanical energy conservation",
+    "Power: rate of doing work",
+    "Energy transformations in machines",
+    "Collisions, machines and energy accounting",
+    "Real-life applications of work and energy",
+    "Exam mastery: work and energy traps"
   ],
   "formulaPropertyBank": [
     "W=Fs for force parallel to displacement",
@@ -129,7 +154,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "In physics, work is done when a force causes displacement with a component along the force. For constant parallel force, W=Fs. Work is scalar and measured in joules. Holding an object stationary may be tiring but does zero mechanical work on that object by the holding force if displacement is zero."
+          "text": "In physics, work is done when a force causes displacement with a component along the force. For constant parallel force, W=Fs. Work is scalar and measured in joules. Holding an object stationary may be tiring but does zero mechanical work on that object by the holding force if displacement is zero.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -200,12 +225,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Meaning of work",
-          "text": "Meaning of work should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Meaning of work should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Meaning of work, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Meaning of work, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -282,18 +307,27 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Meaning of work — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Meaning of work — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Meaning of work — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "title": "Work in physics — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Work in physics\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Work in physics</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28physics%29.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: すじにくシチュー • CC0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Work_(physics).svg",
+          "license": "CC0",
+          "author": "すじにくシチュー"
         },
         {
           "type": "figure",
-          "title": "Meaning of work — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Meaning of work — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Meaning of work — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "title": "Work from force and displacement — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Work from force and displacement\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Work from force and displacement</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28W_%3D_F_%E2%8B%85_s%29.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Laurens R. Krol • CC BY-SA 4.0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Work_(W_%3D_F_%E2%8B%85_s).svg",
+          "license": "CC BY-SA 4.0",
+          "author": "Laurens R. Krol"
         },
         {
           "type": "figure",
-          "title": "Meaning of work — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Meaning of work — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Meaning of work — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "title": "Force–distance graph — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Force–distance graph\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Force–distance graph</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Force-distance-diagram.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: MartinThoma • CC BY-SA 3.0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Force-distance-diagram.svg",
+          "license": "CC BY-SA 3.0",
+          "author": "MartinThoma"
         }
       ]
     },
@@ -305,7 +339,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Work is positive when force and displacement are in the same direction, negative when opposite, and zero when perpendicular in the simple constant-force case. Friction usually does negative work on sliding objects; gravity does positive work on a falling object and negative work on an object moving upward."
+          "text": "Work is positive when force and displacement are in the same direction, negative when opposite, and zero when perpendicular in the simple constant-force case. Friction usually does negative work on sliding objects; gravity does positive work on a falling object and negative work on an object moving upward.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -376,12 +410,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Positive, negative and zero work",
-          "text": "Positive, negative and zero work should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Positive, negative and zero work should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Positive, negative and zero work, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Positive, negative and zero work, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -458,18 +492,27 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Positive, negative and zero work — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Positive, negative and zero work — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Positive, negative and zero work — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "title": "Pendulum energy conversion — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Pendulum energy conversion\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Pendulum energy conversion</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/PendulumEnergy.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Patrick Edwin Moran • CC BY-SA 3.0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:PendulumEnergy.svg",
+          "license": "CC BY-SA 3.0",
+          "author": "Patrick Edwin Moran"
         },
         {
           "type": "figure",
-          "title": "Positive, negative and zero work — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Positive, negative and zero work — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Positive, negative and zero work — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "title": "Roller-coaster energy conservation with friction — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Roller-coaster energy conservation with friction\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Roller-coaster energy conservation with friction</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/RollerCoasterFriction.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Guy vandegrift • CC0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:RollerCoasterFriction.png",
+          "license": "CC0",
+          "author": "Guy vandegrift"
         },
         {
           "type": "figure",
-          "title": "Positive, negative and zero work — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Positive, negative and zero work — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Positive, negative and zero work — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "title": "Mechanical energy demonstration — real source figure",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Mechanical energy demonstration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Mechanical energy demonstration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Regional_Science_Centre%2C_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Utkarshraj Atmaram • CC BY-SA 3.0</text></svg>",
+          "source": "https://commons.wikimedia.org/wiki/File:Regional_Science_Centre,_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Utkarshraj Atmaram"
         }
       ]
     },
@@ -481,7 +524,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Kinetic energy is energy due to motion: KE=1/2mv². It is scalar and measured in joules. Because velocity is squared, doubling speed makes KE four times larger for the same mass. Net work changes kinetic energy."
+          "text": "Kinetic energy is energy due to motion: KE=1/2mv². It is scalar and measured in joules. Because velocity is squared, doubling speed makes KE four times larger for the same mass. Net work changes kinetic energy.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -552,12 +595,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Kinetic energy",
-          "text": "Kinetic energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Kinetic energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Kinetic energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Kinetic energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -633,19 +676,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Kinetic energy, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Kinetic energy — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Kinetic energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Kinetic energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Kinetic energy — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Kinetic energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Kinetic energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Kinetic energy — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Kinetic energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Kinetic energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -657,7 +703,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "The work-energy theorem states that net work equals change in kinetic energy: Wnet=ΔKE. Positive net work increases kinetic energy; negative net work decreases it; zero net work leaves kinetic energy unchanged. This can solve problems without finding time."
+          "text": "The work-energy theorem states that net work equals change in kinetic energy: Wnet=ΔKE. Positive net work increases kinetic energy; negative net work decreases it; zero net work leaves kinetic energy unchanged. This can solve problems without finding time.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -728,12 +774,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Work-energy theorem",
-          "text": "Work-energy theorem should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Work-energy theorem should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Work-energy theorem, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Work-energy theorem, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -809,19 +855,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Work-energy theorem, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Work-energy theorem — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Work-energy theorem — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Work-energy theorem — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Work-energy theorem — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Work-energy theorem — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Work-energy theorem — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Work-energy theorem — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Work-energy theorem — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Work-energy theorem — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -833,7 +882,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Potential energy is stored energy associated with position or configuration. Near Earth, gravitational PE=mgh relative to a chosen reference level. Raising an object requires work against gravity and increases gravitational potential energy. The numerical value depends on the chosen reference, but changes in PE are physically meaningful."
+          "text": "Potential energy is stored energy associated with position or configuration. Near Earth, gravitational PE=mgh relative to a chosen reference level. Raising an object requires work against gravity and increases gravitational potential energy. The numerical value depends on the chosen reference, but changes in PE are physically meaningful.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -904,12 +953,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Potential energy",
-          "text": "Potential energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Potential energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Potential energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Potential energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -985,19 +1034,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Potential energy, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Potential energy — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Potential energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Potential energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Potential energy — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Potential energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Potential energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Potential energy — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Potential energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Potential energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1009,7 +1061,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Mechanical energy is commonly the sum of kinetic and potential energy. In ideal situations with only conservative forces, mechanical energy remains constant. Friction and air resistance can transform mechanical energy into thermal energy, sound and other forms. Total energy of a suitable system remains conserved even when mechanical energy decreases."
+          "text": "Mechanical energy is commonly the sum of kinetic and potential energy. In ideal situations with only conservative forces, mechanical energy remains constant. Friction and air resistance can transform mechanical energy into thermal energy, sound and other forms. Total energy of a suitable system remains conserved even when mechanical energy decreases.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1080,12 +1132,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Mechanical energy",
-          "text": "Mechanical energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Mechanical energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Mechanical energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Mechanical energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1161,19 +1213,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Mechanical energy, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Mechanical energy — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mechanical energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mechanical energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Mechanical energy — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mechanical energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mechanical energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Mechanical energy — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mechanical energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mechanical energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1185,7 +1240,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Power measures how quickly work is done or energy is transferred: P=W/t. The SI unit is watt, equal to joule per second. Two machines can perform equal work but have different powers if their times differ."
+          "text": "Power measures how quickly work is done or energy is transferred: P=W/t. The SI unit is watt, equal to joule per second. Two machines can perform equal work but have different powers if their times differ.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1256,12 +1311,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Power",
-          "text": "Power should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Power should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Power, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Power, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1337,19 +1392,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Power, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Power — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Power — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Power — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Power — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Power — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Power — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Power — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Power — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Power — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1361,7 +1419,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Energy cannot be created or destroyed; it can only be transformed. In an isolated system, total energy remains constant. A falling object changes gravitational PE into KE; a hydroelectric plant changes gravitational energy through kinetic and mechanical stages into electrical energy."
+          "text": "Energy cannot be created or destroyed; it can only be transformed. In an isolated system, total energy remains constant. A falling object changes gravitational PE into KE; a hydroelectric plant changes gravitational energy through kinetic and mechanical stages into electrical energy.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1432,12 +1490,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Conservation of energy",
-          "text": "Conservation of energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Conservation of energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Conservation of energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Conservation of energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1513,19 +1571,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Conservation of energy, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Conservation of energy — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Conservation of energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Conservation of energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Conservation of energy — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Conservation of energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Conservation of energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Conservation of energy — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Conservation of energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Conservation of energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1537,7 +1598,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Real devices transform energy between forms. A motor converts electrical energy into mechanical energy plus heat and sound. A loudspeaker converts electrical energy into sound and heat. Brakes convert kinetic energy mainly into thermal energy. Efficiency questions ask how much input energy becomes useful output."
+          "text": "Real devices transform energy between forms. A motor converts electrical energy into mechanical energy plus heat and sound. A loudspeaker converts electrical energy into sound and heat. Brakes convert kinetic energy mainly into thermal energy. Efficiency questions ask how much input energy becomes useful output.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1608,12 +1669,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Energy transformations",
-          "text": "Energy transformations should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Energy transformations should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Energy transformations, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Energy transformations, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1689,19 +1750,22 @@ window.ChapterData = {
           "text": "For a long-answer question on Energy transformations, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Energy transformations — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Energy transformations — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Energy transformations — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Energy transformations — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Energy transformations — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Energy transformations — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Energy transformations — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Energy transformations — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Energy transformations — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1713,7 +1777,7 @@ window.ChapterData = {
           "type": "concept",
           "title": "Concept Explained",
           "color": "blue",
-          "text": "Energy methods are especially useful when time is absent or when several stages can be linked by conservation. Start by identifying initial and final energy forms, choose a reference level, include work done by external forces if needed, and solve with units."
+          "text": "Energy methods are especially useful when time is absent or when several stages can be linked by conservation. Start by identifying initial and final energy forms, choose a reference level, include work done by external forces if needed, and solve with units.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "example",
@@ -1784,12 +1848,12 @@ window.ChapterData = {
         {
           "type": "concept",
           "title": "Core idea — Problem-solving with energy",
-          "text": "Problem-solving with energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition."
+          "text": "Problem-solving with energy should be understood from the physical definition first. The equation or diagram is a compact representation of that idea, not a replacement for the definition.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "concept",
           "title": "Physical meaning",
-          "text": "For Problem-solving with energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics."
+          "text": "For Problem-solving with energy, identify what changes, what causes the change, what is measured, and which direction or reference is relevant. This prevents memorising symbols without understanding the physics.  A complete understanding also requires attention to the reference system, the units of every quantity, the direction convention where relevant, and the conditions under which the simplified school model is valid. The physical meaning should be stated in words before or after the equation so that the calculation remains connected to the phenomenon."
         },
         {
           "type": "important",
@@ -1865,114 +1929,1009 @@ window.ChapterData = {
           "text": "For a long-answer question on Problem-solving with energy, use this order: definition → explanation → labelled figure/equation → example/application → conclusion. This makes the answer complete and easy to evaluate."
         },
         {
-          "type": "figure",
-          "title": "Problem-solving with energy — Concept flow",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Problem-solving with energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Problem-solving with energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Problem-solving with energy — Relationship map",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Problem-solving with energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Problem-solving with energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
-          "type": "figure",
-          "title": "Problem-solving with energy — Revision ladder",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Problem-solving with energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Problem-solving with energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>"
+          "type": "important",
+          "title": "Figure interpretation note",
+          "color": "purple",
+          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+        }
+      ]
+    },
+    {
+      "id": "extended-11-work-as-energy-transfer-by-force",
+      "title": "Work as energy transfer by force",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "11. Work as energy transfer by force",
+          "color": "blue",
+          "text": "Work as energy transfer by force — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "In physics, work is done when a force causes displacement with a component along the displacement. For a constant force acting at angle θ to the displacement, W = Fs cosθ. Work is a scalar quantity and its SI unit is the joule. The formula shows why both force and displacement matter."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "If force and displacement are in the same direction, work is positive. If they are opposite, work is negative. If the force is perpendicular to displacement, its work is zero. Thus a force can act continuously on an object while doing no work if it remains perpendicular to the instantaneous displacement."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "The everyday meaning of “work” is broader than the physics definition. Holding a heavy bag stationary can feel tiring, but if there is no displacement of the bag and the force is static, the mechanical work done on the bag is zero in the elementary model."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of work as energy transfer by force, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in work as energy transfer by force were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to work as energy transfer by force. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define work as energy transfer by force without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-12-work-from-force-displacement-graphs",
+      "title": "Work from force–displacement graphs",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "12. Work from force–displacement graphs",
+          "color": "blue",
+          "text": "Work from force–displacement graphs — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "When force varies with displacement, work is represented by the area under a force–displacement graph. For a constant force, the area is a rectangle, giving W = Fs. For a linearly varying force, the area can be a triangle or trapezium. This graphical interpretation generalises the simple formula."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "The sign of work depends on the direction of force relative to displacement. In a one-dimensional graph, the region below the displacement axis can represent negative work depending on the sign convention. Always read the axes before interpreting the area."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Graph-based work questions reward careful units. If force is in newtons and displacement in metres, the area is in N·m, which is equivalent to joules."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of work from force–displacement graphs, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in work from force–displacement graphs were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to work from force–displacement graphs. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define work from force–displacement graphs without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-13-kinetic-energy-and-the-work-energy-theorem",
+      "title": "Kinetic energy and the work–energy theorem",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "13. Kinetic energy and the work–energy theorem",
+          "color": "blue",
+          "text": "Kinetic energy and the work–energy theorem — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Kinetic energy is the energy associated with motion. For a non-relativistic object of mass m and speed v, K = 1/2 mv². The dependence on v² means that doubling speed makes kinetic energy four times larger when mass is unchanged."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "The work–energy theorem states that the net work done on an object equals the change in its kinetic energy: W_net = ΔK. This provides a direct bridge between force and motion. If net work is positive, kinetic energy increases; if net work is negative, kinetic energy decreases."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Because kinetic energy depends on speed squared, stopping a fast-moving vehicle requires removing much more kinetic energy than stopping the same vehicle moving slowly. This is one reason speed is so important in safety analysis."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of kinetic energy and the work–energy theorem, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in kinetic energy and the work–energy theorem were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to kinetic energy and the work–energy theorem. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define kinetic energy and the work–energy theorem without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-14-potential-energy-and-reference-levels",
+      "title": "Potential energy and reference levels",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "14. Potential energy and reference levels",
+          "color": "blue",
+          "text": "Potential energy and reference levels — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Potential energy is energy associated with position or configuration in a force field. Near Earth’s surface, gravitational potential energy changes by mgh for a vertical height change h. A stretched or compressed spring stores elastic potential energy according to 1/2kx² in the ideal Hooke’s-law model."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "The zero of potential energy is a reference choice. What matters physically is the change in potential energy between states. If the reference level is moved, numerical potential-energy values shift by a constant but predicted forces and energy differences remain consistent."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "In a conservative interaction, potential energy can be converted into kinetic energy and back without net mechanical-energy loss. Friction and air resistance can transfer part of the mechanical energy into thermal and other forms."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of potential energy and reference levels, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in potential energy and reference levels were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to potential energy and reference levels. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define potential energy and reference levels without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-15-mechanical-energy-conservation",
+      "title": "Mechanical energy conservation",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "15. Mechanical energy conservation",
+          "color": "blue",
+          "text": "Mechanical energy conservation — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Mechanical energy is the sum of kinetic and potential energies in a system. When only conservative forces do work, total mechanical energy remains constant. A pendulum illustrates the exchange: at high points the gravitational potential energy is greater, while near the lowest point kinetic energy is greater."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "If friction acts, mechanical energy need not remain constant because some energy is transferred to thermal energy. Total energy is still conserved when all relevant forms are included. Therefore “energy is lost” is often scientifically incomplete; energy is transformed or transferred."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "For numerical problems, choose a clear initial and final state, write the energy equation, identify which terms are zero or cancel, substitute values with consistent units, and check whether the final speed or height is physically plausible."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of mechanical energy conservation, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in mechanical energy conservation were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to mechanical energy conservation. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define mechanical energy conservation without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-16-power-rate-of-doing-work",
+      "title": "Power: rate of doing work",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "16. Power: rate of doing work",
+          "color": "blue",
+          "text": "Power: rate of doing work — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Power measures how quickly work is done or energy is transferred. Average power is P = W/t. The SI unit is the watt, equal to one joule per second. Two machines can perform the same amount of work but have different powers if they take different times."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "For a constant force parallel to velocity, instantaneous power can be written P = Fv. More generally, P = F·v for the dot product of force and velocity. This connects mechanics with engines, motors, lifting systems and electrical machines."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Power is not the same as energy. A high-power machine transfers energy rapidly; it does not necessarily transfer more total energy over every time interval."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of power: rate of doing work, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in power: rate of doing work were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to power: rate of doing work. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define power: rate of doing work without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-17-energy-transformations-in-machines",
+      "title": "Energy transformations in machines",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "17. Energy transformations in machines",
+          "color": "blue",
+          "text": "Energy transformations in machines — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Practical devices rarely use only one energy form. A hydroelectric station transforms gravitational potential energy of stored water into kinetic energy, then mechanical energy in turbines and finally electrical energy in generators. A motor transforms electrical energy into mechanical energy with thermal and other losses."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Efficiency compares useful output energy or power with input energy or power. Efficiency = useful output/input × 100%. No real machine is perfectly efficient because some energy is transferred into unwanted forms such as heat, sound and frictional deformation."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Energy-flow diagrams are useful for identifying where energy enters, where useful output appears and where losses occur. They should use clear arrows and labels rather than vague statements such as “energy disappears.”"
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of energy transformations in machines, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in energy transformations in machines were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to energy transformations in machines. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define energy transformations in machines without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-18-collisions-machines-and-energy-accounting",
+      "title": "Collisions, machines and energy accounting",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "18. Collisions, machines and energy accounting",
+          "color": "blue",
+          "text": "Collisions, machines and energy accounting — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "In a collision, momentum and energy must be considered separately. Total energy is conserved in every physically isolated system, but mechanical kinetic energy may be transformed into sound, heat, deformation and internal energy. In an ideal elastic collision, kinetic energy as well as momentum is conserved."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "In machines, input work is not automatically equal to useful output work because of losses. The principle of energy conservation remains valid, but efficiency may be less than 100%. A machine with greater power can perform the same useful task in less time, provided it has sufficient energy input."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "When solving an energy problem, list the forms of energy before and after the process. This prevents accidental omission of thermal or gravitational terms when they are relevant."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of collisions, machines and energy accounting, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in collisions, machines and energy accounting were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to collisions, machines and energy accounting. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define collisions, machines and energy accounting without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-19-real-life-applications-of-work-and-energy",
+      "title": "Real-life applications of work and energy",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "19. Real-life applications of work and energy",
+          "color": "blue",
+          "text": "Real-life applications of work and energy — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Roller coasters exchange gravitational potential energy and kinetic energy. Hydroelectric plants exploit gravitational potential energy of water. Brakes remove kinetic energy and convert much of it into thermal energy. Springs store elastic potential energy and release it later in toys, mechanisms and measuring devices."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "Human muscles perform mechanical work while also releasing thermal energy. A person climbing stairs increases gravitational potential energy of their body–Earth system. The metabolic energy used by the body is not equal to the useful mechanical energy alone because biological processes have limited efficiency."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Energy concepts provide a common language for very different systems. Instead of memorising separate facts about every machine, identify the initial energy, useful output, losses and rate of transfer."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of real-life applications of work and energy, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in real-life applications of work and energy were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to real-life applications of work and energy. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define real-life applications of work and energy without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
+        }
+      ]
+    },
+    {
+      "id": "extended-20-exam-mastery-work-and-energy-traps",
+      "title": "Exam mastery: work and energy traps",
+      "blocks": [
+        {
+          "type": "h3",
+          "title": "20. Exam mastery: work and energy traps",
+          "color": "blue",
+          "text": "Exam mastery: work and energy traps — deep study"
+        },
+        {
+          "type": "concept",
+          "title": "Core concept",
+          "color": "blue",
+          "text": "Do not write W = Fs when the force is not constant or is not parallel to the displacement without considering the angle. Do not confuse work with power: work is energy transfer, power is rate of transfer. Do not say kinetic energy is proportional to speed; it is proportional to speed squared in the classical expression."
+        },
+        {
+          "type": "concept",
+          "title": "Detailed explanation",
+          "color": "blue",
+          "text": "When a body is lifted at constant speed, the net work on the body can be zero because kinetic energy does not change, even though the lifting force does positive work and gravity does negative work. This is an excellent example of why net work differs from work by an individual force."
+        },
+        {
+          "type": "concept",
+          "title": "Exam-level interpretation",
+          "color": "blue",
+          "text": "Always state the system and the reference level for potential energy when a problem involves conservation of mechanical energy. This makes the energy equation transparent and reduces sign errors."
+        },
+        {
+          "type": "important",
+          "title": "Important Points",
+          "color": "green",
+          "text": "Remember the definition of exam mastery: work and energy traps, identify the physical quantity involved, state the conditions under which the formula or model applies, and keep units and directions consistent."
+        },
+        {
+          "type": "formula",
+          "title": "Formula / reasoning box",
+          "color": "orange",
+          "text": "Core relations: W = Fs cosθ for a constant force; W_net = ΔK; K = 1/2mv²; U_g = mgh near Earth; P = W/t; efficiency = useful output/input × 100%."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example A",
+          "color": "orange",
+          "text": "A 20 N force moves a box 3 m in the same direction. Work = Fs = 20×3 = 60 J."
+        },
+        {
+          "type": "example",
+          "title": "Worked Example B",
+          "color": "orange",
+          "text": "A 2 kg object moves at 5 m/s. K = 1/2×2×25 = 25 J. If its speed doubles to 10 m/s, K becomes 100 J, four times as large."
+        },
+        {
+          "type": "method",
+          "title": "Step-by-step method",
+          "color": "purple",
+          "text": "1. Read the situation carefully. 2. Identify the object or system. 3. Write the known quantities with SI units. 4. Choose a sign convention if direction matters. 5. Select the physical law that matches the conditions. 6. Substitute carefully. 7. Check the unit and whether the result is physically reasonable. 8. State the answer in a complete sentence."
+        },
+        {
+          "type": "error",
+          "title": "Error Detective",
+          "color": "red",
+          "text": "Watch for unit mixing, incorrect signs, confusing scalar and vector quantities, applying a formula outside its conditions, or treating a net quantity as one individual force. If a result looks impossible, return to the definitions before changing the arithmetic."
+        },
+        {
+          "type": "thinking",
+          "title": "Scientific Thinking",
+          "color": "teal",
+          "text": "Ask: what observation would change if one variable in exam mastery: work and energy traps were doubled? Which quantities are vectors? Which assumptions are idealisations? What measurement could verify the prediction? These questions turn formula practice into physical reasoning."
+        },
+        {
+          "type": "practice",
+          "title": "Practice",
+          "color": "blue",
+          "text": "1) Find work done by a 15 N force over 4 m. 2) Find kinetic energy of a 3 kg mass at 6 m/s. 3) Explain zero work for a perpendicular force. 4) Distinguish work and power. 5) Describe an energy transformation in a hydroelectric plant."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A lifting machine raises the same load through the same height in two different times. Compare the work done and the power required, then explain why equal work does not imply equal power."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Begin with the definition or law relevant to exam mastery: work and energy traps. State the condition/model used, write the equation with symbols, substitute SI values, show the calculation, and finish with a unit-bearing conclusion. For a conceptual question, include the cause → physical process → result chain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define exam mastery: work and energy traps without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
         }
       ]
     }
   ],
   "importantPoints": [
-    {
-      "title": "Understand before memorising",
-      "text": "Start with the physical definition, then connect it to equations, graphs and real-life situations."
-    },
-    {
-      "title": "Use SI units",
-      "text": "Convert quantities to compatible SI units before using standard equations unless a question explicitly provides another unit system."
-    },
-    {
-      "title": "Respect direction",
-      "text": "Velocity, acceleration, force, momentum and displacement are vector quantities; use a clear sign convention when solving one-dimensional problems."
-    },
-    {
-      "title": "Check assumptions",
-      "text": "Use equations only when their conditions are satisfied, such as constant acceleration or an isolated system for momentum conservation."
-    },
-    {
-      "title": "Read figures carefully",
-      "text": "Axes, arrows, labels, units and reference levels carry physical meaning. A figure is part of the explanation, not decoration."
-    },
-    {
-      "title": "Verify the answer",
-      "text": "Check units, sign, order of magnitude and whether the result makes physical sense."
-    }
+    "Identify the object, force and displacement before deciding whether work is done.",
+    "Zero work does not mean zero force; it means no energy transfer through that force’s component along displacement.",
+    "Always square the speed before multiplying by mass and one-half.",
+    "Use net work, not merely the work of one arbitrary force.",
+    "Reference level can be chosen conveniently; do not treat one universal zero height as mandatory.",
+    "“Mechanical energy lost” does not mean total energy destroyed; energy has changed form.",
+    "Power is a rate; watt is not a unit of energy.",
+    "Track where the energy goes rather than saying it simply disappears.",
+    "Useful output is not necessarily all the energy transferred; identify the system boundary.",
+    "Do not mix energy values from different reference levels without accounting for the change in reference."
   ],
   "keyTerms": [
-    {
-      "term": "Reference frame",
-      "definition": "Chosen viewpoint or coordinate system relative to which position and motion are described."
-    },
-    {
-      "term": "Displacement",
-      "definition": "Directed change in position from initial to final position."
-    },
-    {
-      "term": "Velocity",
-      "definition": "Rate of change of displacement."
-    },
-    {
-      "term": "Acceleration",
-      "definition": "Rate of change of velocity."
-    },
-    {
-      "term": "Force",
-      "definition": "An interaction that can change the motion of an object."
-    },
-    {
-      "term": "Momentum",
-      "definition": "Product of mass and velocity."
-    },
-    {
-      "term": "Gravitational force",
-      "definition": "Attractive force between masses."
-    },
-    {
-      "term": "Pressure",
-      "definition": "Normal force per unit area."
-    },
-    {
-      "term": "Density",
-      "definition": "Mass per unit volume."
-    },
-    {
-      "term": "Work",
-      "definition": "Energy transferred by a force through displacement, with sign determined by the angle between force and displacement."
-    },
-    {
-      "term": "Kinetic energy",
-      "definition": "Energy associated with motion."
-    },
-    {
-      "term": "Potential energy",
-      "definition": "Energy associated with position or configuration."
-    },
-    {
-      "term": "Power",
-      "definition": "Rate of doing work or transferring energy."
-    },
-    {
-      "term": "Frequency",
-      "definition": "Number of complete cycles per second."
-    },
-    {
-      "term": "Wavelength",
-      "definition": "Distance between successive points in the same phase of a wave."
-    },
-    {
-      "term": "Amplitude",
-      "definition": "Maximum displacement from the equilibrium position in an ideal sinusoidal description."
-    }
+    "Meaning of work",
+    "Positive, negative and zero work",
+    "Kinetic energy",
+    "Work-energy theorem",
+    "Potential energy",
+    "Mechanical energy",
+    "Power",
+    "Conservation of energy",
+    "Energy transformations",
+    "Problem-solving with energy"
   ],
   "detailedSummary": [
     "Chapter 4 builds Work and Energy from definitions to applications.",
@@ -1993,710 +2952,54 @@ window.ChapterData = {
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
     }
   ],
-  "figures": [
+  "figureSources": [
     {
-      "title": "Meaning of work — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Meaning of work — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Meaning of work — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
+      "title": "Work in physics",
+      "file": "Work_(physics).svg",
+      "license": "CC0",
+      "author": "すじにくシチュー",
+      "source": "https://commons.wikimedia.org/wiki/File:Work_(physics).svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28physics%29.svg"
     },
     {
-      "title": "Meaning of work — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Meaning of work — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Meaning of work — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
+      "title": "Work from force and displacement",
+      "file": "Work_(W_=_F_⋅_s).svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Laurens R. Krol",
+      "source": "https://commons.wikimedia.org/wiki/File:Work_(W_%3D_F_%E2%8B%85_s).svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28W_%3D_F_%E2%8B%85_s%29.svg"
     },
     {
-      "title": "Meaning of work — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Meaning of work — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Meaning of work — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
+      "title": "Force–distance graph",
+      "file": "Force-distance-diagram.svg",
+      "license": "CC BY-SA 3.0",
+      "author": "MartinThoma",
+      "source": "https://commons.wikimedia.org/wiki/File:Force-distance-diagram.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Force-distance-diagram.svg"
     },
     {
-      "title": "Positive, negative and zero work — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Positive, negative and zero work — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Positive, negative and zero work — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
+      "title": "Pendulum energy conversion",
+      "file": "PendulumEnergy.svg",
+      "license": "CC BY-SA 3.0",
+      "author": "Patrick Edwin Moran",
+      "source": "https://commons.wikimedia.org/wiki/File:PendulumEnergy.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PendulumEnergy.svg"
     },
     {
-      "title": "Positive, negative and zero work — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Positive, negative and zero work — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Positive, negative and zero work — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
+      "title": "Roller-coaster energy conservation with friction",
+      "file": "RollerCoasterFriction.png",
+      "license": "CC0",
+      "author": "Guy vandegrift",
+      "source": "https://commons.wikimedia.org/wiki/File:RollerCoasterFriction.png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RollerCoasterFriction.png"
     },
     {
-      "title": "Positive, negative and zero work — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Positive, negative and zero work — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Positive, negative and zero work — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Kinetic energy — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Kinetic energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Kinetic energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Kinetic energy — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Kinetic energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Kinetic energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Kinetic energy — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Kinetic energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Kinetic energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Work-energy theorem — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Work-energy theorem — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Work-energy theorem — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Work-energy theorem — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Work-energy theorem — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Work-energy theorem — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Work-energy theorem — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Work-energy theorem — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Work-energy theorem — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Potential energy — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Potential energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Potential energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Potential energy — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Potential energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Potential energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Potential energy — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Potential energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Potential energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Mechanical energy — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mechanical energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mechanical energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Mechanical energy — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mechanical energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mechanical energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Mechanical energy — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Mechanical energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Mechanical energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Power — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Power — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Power — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Power — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Power — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Power — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Power — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Power — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Power — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Conservation of energy — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Conservation of energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Conservation of energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Conservation of energy — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Conservation of energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Conservation of energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Conservation of energy — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Conservation of energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Conservation of energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Energy transformations — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Energy transformations — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Energy transformations — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Energy transformations — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Energy transformations — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Energy transformations — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Energy transformations — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Energy transformations — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Energy transformations — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Problem-solving with energy — Concept flow",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Problem-solving with energy — Concept flow\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Problem-solving with energy — Concept flow</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Physical situation</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Definition / quantity</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Cause and effect</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Formula or graphical relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Real-life interpretation</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic learning figure; not to scale.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Problem-solving with energy — Relationship map",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Problem-solving with energy — Relationship map\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Problem-solving with energy — Relationship map</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Known quantities</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Relevant physical law</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Substitute with SI units</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Calculate</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">Interpret direction / magnitude</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Schematic problem-solving figure; symbols and values must come from the question.</text></svg>",
-      "caption": ""
-    },
-    {
-      "title": "Problem-solving with energy — Revision ladder",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 520\" role=\"img\" aria-label=\"Problem-solving with energy — Revision ladder\"><rect x=\"10\" y=\"10\" width=\"980\" height=\"500\" rx=\"26\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"42\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"30\" font-weight=\"700\" fill=\"#111827\">Problem-solving with energy — Revision ladder</text><rect x=\"100\" y=\"115\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">1. Identify the concept</text><text x=\"482\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"197\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">2. Recall definition</text><text x=\"482\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"279\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">3. Check assumptions</text><text x=\"482\" y=\"362\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"361\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"400\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">4. Apply relation</text><text x=\"482\" y=\"444\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#2563eb\">↓</text><rect x=\"100\" y=\"443\" width=\"800\" height=\"62\" rx=\"14\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"125\" y=\"482\" font-family=\"Arial,sans-serif\" font-size=\"23\" fill=\"#111827\">5. Verify result</text><text x=\"42\" y=\"485\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#475569\">Use this ladder for revision and numerical questions.</text></svg>",
-      "caption": ""
+      "title": "Mechanical energy demonstration",
+      "file": "Regional_Science_Centre,_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Utkarshraj Atmaram",
+      "source": "https://commons.wikimedia.org/wiki/File:Regional_Science_Centre,_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Regional_Science_Centre%2C_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg"
     }
-  ],
-  "workedExamples": [
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Meaning of work?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Meaning of work without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Positive, negative and zero work?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Positive, negative and zero work without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Kinetic energy?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Kinetic energy without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Work-energy theorem?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Work-energy theorem without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Potential energy?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Potential energy without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Mechanical energy?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Mechanical energy without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Power?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Power without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    },
-    {
-      "title": "Worked Example 1",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 2",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example 3",
-      "question": "",
-      "steps": [],
-      "answer": ""
-    },
-    {
-      "title": "Worked Example — concept application",
-      "question": "How should a Class 9 student approach a problem based on Conservation of energy?",
-      "steps": [
-        "Write the given quantities and units.",
-        "State the required quantity.",
-        "Choose the relation whose assumptions match the situation.",
-        "Substitute with a consistent sign convention.",
-        "Calculate, attach the SI unit, and check whether the result is physically reasonable."
-      ],
-      "answer": "A complete solution includes the physical reasoning, not only the final number."
-    },
-    {
-      "title": "Worked Example — error check",
-      "question": "A student uses a formula for Conservation of energy without checking its conditions. What should be checked first?",
-      "steps": [
-        "Identify the physical situation.",
-        "List the assumptions behind the formula.",
-        "Check units and directions.",
-        "Only then substitute values."
-      ],
-      "answer": "The formula must match the physical situation and its assumptions."
-    }
-  ],
-  "practice": [
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Meaning of work precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Meaning of work.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Meaning of work is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Meaning of work?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Positive, negative and zero work precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Positive, negative and zero work.",
-          "answer": "W = Fs cosθ; sign depends on angle between force and displacement"
-        },
-        {
-          "question": "Name one situation where Positive, negative and zero work is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Positive, negative and zero work?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Kinetic energy precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Kinetic energy.",
-          "answer": "K = ½mv²"
-        },
-        {
-          "question": "Name one situation where Kinetic energy is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Kinetic energy?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Work-energy theorem precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Work-energy theorem.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Work-energy theorem is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Work-energy theorem?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Potential energy precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Potential energy.",
-          "answer": "near Earth: U = mgh relative to a chosen zero level"
-        },
-        {
-          "question": "Name one situation where Potential energy is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Potential energy?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Mechanical energy precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Mechanical energy.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Mechanical energy is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Mechanical energy?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Power precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Power.",
-          "answer": "P = W/t"
-        },
-        {
-          "question": "Name one situation where Power is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Power?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Conservation of energy precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Conservation of energy.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Conservation of energy is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Conservation of energy?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Energy transformations precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Energy transformations.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Energy transformations is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Energy transformations?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    },
-    {
-      "type": "practice",
-      "title": "Deep self-check",
-      "questions": [
-        {
-          "question": "Define Problem-solving with energy precisely.",
-          "answer": "Use the standard definition and include the essential physical condition."
-        },
-        {
-          "question": "Write the main relationship for Problem-solving with energy.",
-          "answer": "Use the definition, physical conditions, units and direction carefully."
-        },
-        {
-          "question": "Name one situation where Problem-solving with energy is useful.",
-          "answer": "Give a real physical example and explain the connection."
-        },
-        {
-          "question": "What unit or direction check should be made for Problem-solving with energy?",
-          "answer": "Use compatible SI units and state direction where the quantity is vectorial."
-        }
-      ]
-    }
-  ],
-  "summary": "This ultra-detailed Chapter 4 set is designed for deep Class 9 study: concept → figure → worked examples → important points → HOTS → challenge → error detection → scientific thinking → exam writing → self-check."
+  ]
 };
-window.chapter = window.ChapterData;
