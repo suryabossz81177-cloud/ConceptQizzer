@@ -171,12 +171,7 @@ async function loadChapter(key){
       "$1window.CQ_LOADED_CHAPTER ="
     );
 
-    converted = converted.replace(
-      /window\.ChapterData\s*=/,
-      "window.CQ_LOADED_CHAPTER ="
-    );
-
-    /* Compatibility: chapter files may end with window.chapter = ChapterData. */
+    /* Handle both the required global format and legacy aliases safely. */
     converted = converted.replace(
       /window\.ChapterData\s*=\s*ChapterData\s*;?/g,
       "window.CQ_LOADED_CHAPTER = window.CQ_LOADED_CHAPTER;"
@@ -185,6 +180,11 @@ async function loadChapter(key){
     converted = converted.replace(
       /window\.chapter\s*=\s*ChapterData\s*;?/g,
       "window.chapter = window.CQ_LOADED_CHAPTER;"
+    );
+
+    converted = converted.replace(
+      /window\.ChapterData\s*=/g,
+      "window.CQ_LOADED_CHAPTER ="
     );
 
     if (!/window\.CQ_LOADED_CHAPTER\s*=/.test(converted)) {
@@ -2362,17 +2362,6 @@ function initPackage12AI() {
     converted = converted.replace(
       /window\.ChapterData\s*=/,
       "window.__CQ_KNOWLEDGE_CHAPTER ="
-    );
-
-    /* Compatibility for chapter files exposing window.chapter = ChapterData. */
-    converted = converted.replace(
-      /window\.ChapterData\s*=\s*ChapterData\s*;?/g,
-      "window.__CQ_KNOWLEDGE_CHAPTER = window.__CQ_KNOWLEDGE_CHAPTER;"
-    );
-
-    converted = converted.replace(
-      /window\.chapter\s*=\s*ChapterData\s*;?/g,
-      "window.chapter = window.__CQ_KNOWLEDGE_CHAPTER;"
     );
 
     if (!/window\.__CQ_KNOWLEDGE_CHAPTER\s*=/.test(converted)) return null;
