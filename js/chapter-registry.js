@@ -5,6 +5,55 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
+  {
+    "id": "class9-physics-motion",
+    "class": 9,
+    "subject": "Physics",
+    "chapterNumber": 1,
+    "title": "Motion",
+    "file": "js/notes/class9/physics/motion.js",
+    "enabled": true
+  },
+    
+  {
+    "id": "class9-physics-force-and-laws-of-motion",
+    "class": 9,
+    "subject": "Physics",
+    "chapterNumber": 2,
+    "title": "Force and Laws of Motion",
+    "file": "js/notes/class9/physics/force-and-laws-of-motion.js",
+    "enabled": true
+  },
+    
+  {
+    "id": "class9-physics-gravitation",
+    "class": 9,
+    "subject": "Physics",
+    "chapterNumber": 3,
+    "title": "Gravitation",
+    "file": "js/notes/class9/physics/gravitation.js",
+    "enabled": true
+  },
+    
+  {
+    "id": "class9-physics-work-and-energy",
+    "class": 9,
+    "subject": "Physics",
+    "chapterNumber": 4,
+    "title": "Work and Energy",
+    "file": "js/notes/class9/physics/work-and-energy.js",
+    "enabled": true
+  },
+    
+  {
+    "id": "class9-physics-sound",
+    "class": 9,
+    "subject": "Physics",
+    "chapterNumber": 5,
+    "title": "Sound",
+    "file": "js/notes/class9/physics/sound.js",
+    "enabled": true
+  },
   /* =========================
    CLASS 9 - BIOLOGY
    ========================= */
