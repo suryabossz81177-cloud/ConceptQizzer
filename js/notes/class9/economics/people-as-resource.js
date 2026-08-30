@@ -2,7 +2,7 @@
 /* Primary basis: NCERT Class 9 Economics; paraphrased study material. */
 "use strict";
 
-const ChapterData = {
+window.ChapterData = {
   "id": "9-economics-people-as-resource",
   "title": "People as Resource",
   "class": 9,
@@ -1239,5 +1239,4 @@ const ChapterData = {
   "finalChapterTest": []
 };
 
-window.ChapterData = ChapterData;
-window.chapter = ChapterData;
+window.chapter = window.ChapterData;

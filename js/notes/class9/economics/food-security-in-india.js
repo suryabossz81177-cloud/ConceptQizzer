@@ -2,7 +2,7 @@
 /* Primary basis: NCERT Class 9 Economics; paraphrased study material. */
 "use strict";
 
-const ChapterData = {
+window.ChapterData = {
   "id": "9-economics-food-security-in-india",
   "title": "Food Security in India",
   "class": 9,
@@ -1275,5 +1275,4 @@ const ChapterData = {
   "finalChapterTest": []
 };
 
-window.ChapterData = ChapterData;
-window.chapter = ChapterData;
+window.chapter = window.ChapterData;

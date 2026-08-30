@@ -2,7 +2,7 @@
 /* Primary basis: NCERT Class 9 Economics; paraphrased study material. */
 "use strict";
 
-const ChapterData = {
+window.ChapterData = {
   "id": "9-economics-poverty-as-a-challenge",
   "title": "Poverty as a Challenge",
   "class": 9,
@@ -1244,5 +1244,4 @@ const ChapterData = {
   "finalChapterTest": []
 };
 
-window.ChapterData = ChapterData;
-window.chapter = ChapterData;
+window.chapter = window.ChapterData;
