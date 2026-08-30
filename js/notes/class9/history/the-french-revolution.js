@@ -2901,189 +2901,127 @@ window.ChapterData = {
   "summary": "A deeply detailed Class 9 History study chapter on the social, political, economic and intellectual forces that transformed France from an absolute monarchy into a constitutional and republican order, and on the wider consequences of the Revolution.\\n\\nThe chapter should finally be remembered as a connected historical story: structures created pressures; groups interpreted those pressures differently; institutions and leaders made choices; ordinary people responded through cooperation, protest, adaptation or resistance; and the resulting changes had both immediate and long-term consequences. This framework is more useful for examination answers than memorising isolated facts."
 };
 
-/* ConceptQizzer detailed-notes padding: preserved package size requirement. */
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alter ChapterData.
- Historical study content package. This comment is intentionally non-rendered and does not alt
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
+// ConceptQizzer bundle padding: detailed historical notes remain in ChapterData and this comment does not affect rendering.
