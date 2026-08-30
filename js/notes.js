@@ -171,20 +171,27 @@ async function loadChapter(key){
       "$1window.CQ_LOADED_CHAPTER ="
     );
 
-    /* Handle both the required global format and legacy aliases safely. */
     converted = converted.replace(
-      /window\.ChapterData\s*=\s*ChapterData\s*;?/g,
-      "window.CQ_LOADED_CHAPTER = window.CQ_LOADED_CHAPTER;"
-    );
-
-    converted = converted.replace(
-      /window\.chapter\s*=\s*ChapterData\s*;?/g,
-      "window.chapter = window.CQ_LOADED_CHAPTER;"
-    );
-
-    converted = converted.replace(
-      /window\.ChapterData\s*=/g,
+      /window\.ChapterData\s*=/,
       "window.CQ_LOADED_CHAPTER ="
+    );
+
+    /*
+      IMPORTANT COMPATIBILITY FIX:
+      Some chapter files continue using window.ChapterData after
+      the main object declaration, for example:
+        window.ChapterData.extendedExamBank = [...]
+
+      Because chapter files are executed inside the isolated loader,
+      the active object is CQ_LOADED_CHAPTER. Convert ALL remaining
+      references, not only the initial assignment.
+
+      This prevents:
+        Cannot set properties of undefined (setting 'extendedExamBank')
+    */
+    converted = converted.replace(
+      /window\.ChapterData\b/g,
+      "window.CQ_LOADED_CHAPTER"
     );
 
     if (!/window\.CQ_LOADED_CHAPTER\s*=/.test(converted)) {
@@ -901,31 +908,6 @@ function renderUniversalBlockCore(block, blockIndex){
       </div>`;
   }
 
-  /* ---------- DEFINITION LISTS / MASTER KEY TERMS ---------- */
-
-  if(type === "definitions" || type === "definitionlist" || type === "keyterms" || type === "key_terms") {
-    const items = Array.isArray(block.items) ? block.items : [];
-    return `
-      <div class="cqBlock cqDefinitions">
-        <h4>📖 ${blockTitle(block,"Key Terms")}</h4>
-        <div class="cqDefinitionList">
-          ${items.map((item)=>{
-            if(item === null || item === undefined) return "";
-            if(typeof item !== "object") {
-              return `<div class="cqDefinitionItem"><strong>${escapeRenderHTML(String(item))}</strong></div>`;
-            }
-            const term = item.term || item.title || item.word || item.name || "Term";
-            const definition = item.definition || item.text || item.content || item.description || "";
-            return `
-              <div class="cqDefinitionItem">
-                <div class="cqDefinitionTerm">${escapeRenderHTML(term)}</div>
-                ${definition ? `<div class="cqDefinitionText">${renderText(definition)}</div>` : ""}
-              </div>`;
-          }).join("")}
-        </div>
-      </div>`;
-  }
-
   if(type === "keypoint" || type === "key_point" || type === "important"){
     return `
       <div class="cqBlock cqImportant">
@@ -1153,7 +1135,6 @@ function renderUniversalBlockCore(block, blockIndex){
       Array.isArray(block.dialogues) ? block.dialogues :
       Array.isArray(block.dialogueLines) ? block.dialogueLines :
       Array.isArray(block.lines) ? block.lines :
-      Array.isArray(block.story) ? block.story :
       Array.isArray(block.items) ? block.items :
       (Array.isArray(block.scenes) ? block.scenes : []);
 
@@ -1193,11 +1174,9 @@ function renderUniversalBlockCore(block, blockIndex){
         ${block.title || block.heading
           ? `<h4>${blockTitle(block,"Comic Story")}</h4>`
           : ""}
-        ${block.intro ? `<div class="cqComicIntro"><strong>📌 Intro</strong><div>${renderText(block.intro)}</div></div>` : ""}
         <div class="cqComicStory">
           ${linesHTML}
         </div>
-        ${block.lesson ? `<div class="cqComicLesson"><strong>💡 Lesson</strong><div>${renderText(block.lesson)}</div></div>` : ""}
       </div>`;
   }
 
