@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 3,
   "title": "Poverty as a Challenge",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v9",
+  "formatVersion": "continuous-detailed-v15-2x-30kb-minimum",
   "blocks": [
     {
       "type": "content",
@@ -151,6 +151,221 @@ window.ChapterData = {
       "type": "content",
       "heading": "Lesson from the comic",
       "text": "Assets, savings and reliable support can reduce the chance that a temporary shock becomes long-term poverty."
+    },
+    {
+      "type": "content",
+      "heading": "Why one policy cannot solve every form of poverty",
+      "text": "A household facing chronic low income may need a stable livelihood, while a household hit by a temporary illness may need immediate support. A child who has left school may need educational assistance, while an unemployed adult may need skills and access to jobs. Because the causes and forms of deprivation differ, poverty reduction requires a combination of measures rather than a single universal solution."
+    },
+    {
+      "type": "content",
+      "heading": "Poverty and the quality of employment",
+      "text": "Having a job does not automatically guarantee economic security. A worker may have very low wages, irregular hours, unsafe conditions or no protection against illness and unemployment. The quality and stability of employment therefore matter when assessing household well-being. Productive and reasonably secure livelihoods can reduce both poverty and vulnerability."
+    },
+    {
+      "type": "content",
+      "heading": "Why inflation can hurt poor households",
+      "text": "Low-income families spend a large share of their resources on essential goods. When prices of food, transport or other necessities rise, these households may have little room to reduce other expenses. Their real purchasing power can fall even when money income has not changed. This is one reason price stability and social protection matter for vulnerable households."
+    },
+    {
+      "type": "content",
+      "heading": "Breaking the poverty cycle",
+      "text": "Breaking a cycle of poverty usually requires improvements that reinforce one another. Better nutrition can improve learning; education can increase skills; skills can improve employment prospects; stable employment can raise income; and higher income can allow greater investment in health and education. The process is cumulative, which is why long-term interventions matter."
+    },
+    {
+      "type": "content",
+      "heading": "Judging a poverty programme",
+      "text": "A useful evaluation asks who received support, how much support reached them, whether it improved consumption or livelihood security, whether the benefits lasted and whether vulnerable groups were excluded. Looking only at the amount of money allocated to a programme does not reveal its actual impact."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 1",
+      "text": [
+        "Poverty has several dimensions",
+        "Poverty can involve insufficient food, poor housing, inadequate healthcare, interrupted schooling, insecure work and limited access to productive assets. A household's economic position can also change after illness, job loss, crop failure or a sudden price increase. These features explain why poverty is better understood as deprivation and insecurity rather than as a single number."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 2",
+      "text": [
+        "Using a poverty line carefully",
+        "A poverty line provides a specified threshold for identifying people below a particular minimum standard under a given measurement method. It is useful for estimating the extent of poverty and comparing changes over time. However, it does not capture every aspect of deprivation. Two households near the same threshold can have very different health, housing, employment or educational conditions."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 3",
+      "text": [
+        "Poverty and vulnerability",
+        "Vulnerability refers to the likelihood of becoming poor or experiencing severe hardship after a shock. A household with no savings, few assets and irregular work may be highly vulnerable even if its current income is temporarily above a poverty threshold. Savings, productive assets, insurance, diversified livelihoods and public support can strengthen resilience."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 4",
+      "text": [
+        "Assets and borrowing",
+        "Assets can provide income, security and a source of support during difficult periods. Households with few assets may depend on borrowing after a shock and may have to sell productive possessions if repayment becomes difficult. Access to affordable credit can help, but credit cannot replace a stable livelihood when income remains chronically inadequate."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 5",
+      "text": [
+        "Education, health and the poverty cycle",
+        "Poverty can reinforce itself across generations. Low household resources may lead to poor nutrition or interrupted schooling. These disadvantages can reduce future productivity and employment opportunities, keeping income low. Policies that protect schooling, health and nutrition can weaken this cycle by building human capabilities."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 6",
+      "text": [
+        "Growth and employment",
+        "Economic growth can contribute to poverty reduction when it creates productive employment and raises incomes. Growth can also expand public revenue and allow greater investment in services. But the impact is not automatic: the availability of opportunities, access to education and the distribution of gains influence whether poor households benefit."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 7",
+      "text": [
+        "Public facilities and effective income",
+        "A household's living standard is affected not only by money income but also by access to schools, healthcare, water, sanitation and transport. Affordable public facilities can reduce the amount households must spend privately on essential services. They can also increase capabilities that support future income."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 8",
+      "text": [
+        "Policy implementation",
+        "A programme's actual effect depends on delivery. People may be excluded through incorrect records, lack of information or difficult procedures. Delayed payments and weak monitoring can also reduce impact. Transparency, accessible information, local monitoring and grievance mechanisms can help connect policy design with real outcomes."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 9",
+      "text": [
+        "Comic Story: A Temporary Shock",
+        "Prince: Last month the family was above the minimum threshold.\n\nSurya: This month the main earner is ill and savings are almost gone.\n\nVerma Sir: A current measurement does not fully reveal vulnerability. A serious shock can quickly reduce a household's ability to meet basic needs.\n\nPrince: So resilience matters when we study poverty."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 10",
+      "text": [
+        "Lesson from the comic",
+        "Poverty analysis should consider both present deprivation and the ability of households to withstand future shocks."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: poverty as insecurity",
+      "text": "A household can experience poverty not only through low consumption today but also through fear of being unable to meet essential needs tomorrow. Irregular employment, lack of savings and dependence on a single uncertain livelihood increase this insecurity. A household with stable income and assets may be better protected even if its current income is similar to that of a more vulnerable household."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: why measurement needs context",
+      "text": "A statistical poverty estimate is meaningful only when we understand the method used to produce it. Prices, consumption patterns and the chosen threshold affect the result. Comparing figures across years also requires attention to changes in prices and methodology. Statistics are valuable tools, but they should be interpreted rather than treated as complete descriptions of people's lives."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: opportunities and social conditions",
+      "text": "Economic opportunities are influenced by education, health, infrastructure, discrimination, location and access to markets. Two people with similar effort may therefore face different opportunities if their starting conditions differ greatly. Poverty reduction can become more durable when policies expand access to capabilities and productive opportunities."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: employment and resilience",
+      "text": "Stable employment provides predictable income and can allow households to save. Savings can then protect the household when an emergency occurs. Where stable jobs are unavailable, public employment or other forms of social protection can reduce the severity of income shocks. The broader goal is to prevent temporary setbacks from destroying long-term productive capacity."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: evaluating solutions",
+      "text": "A strong poverty-reduction strategy combines immediate protection with long-term capability building. Immediate assistance can protect food consumption and essential needs. Education, healthcare, skills, infrastructure and employment can improve future earning capacity. Good implementation determines whether these measures reach the people for whom they are intended."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: the central lesson",
+      "text": "Poverty is a complex economic and social challenge. Measurement helps identify its extent, while deeper analysis explains vulnerability, deprivation and unequal opportunities. Growth, employment, public services, social protection and accountable institutions can all contribute to reduction. No single indicator or programme can capture the whole problem."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: two households, different vulnerability",
+      "text": "Imagine two households with similar current incomes. The first has savings and a secure dwelling; the second has no savings and depends on irregular daily work. A sudden medical expense affects both, but the second household may have to borrow at difficult terms or sell an asset. Their current income was similar, yet their economic security was different."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: real purchasing power",
+      "text": "Money income should be interpreted with prices. If income rises by 5 percent while essential prices rise by 10 percent, the household's purchasing power for those goods can fall. Poor households can be particularly affected when essentials form a large share of their spending. This is one reason that price movements matter when analysing living standards."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: education as prevention",
+      "text": "Keeping a child in school can appear to reduce current household income when the child could otherwise work. Over time, however, education can improve literacy, skills and employment prospects. Support that reduces the immediate cost of schooling can therefore help prevent a short-term income problem from becoming a long-term cycle of low capability."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: employment quality",
+      "text": "A household may report that an adult is employed, but the work may be irregular, poorly paid or available for only a few hours. Looking at employment quality helps explain why employment statistics alone cannot fully describe economic security. Stable and productive work is more likely to provide predictable income and opportunities for saving."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: evaluating an intervention",
+      "text": "A poverty programme should be evaluated by asking whether the intended people received the benefit, whether it improved their ability to meet essential needs, whether the effect lasted and whether any groups were excluded. This approach focuses on outcomes rather than only expenditure."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: two households, different vulnerability",
+      "text": "Imagine two households with similar current incomes. The first has savings and a secure dwelling; the second has no savings and depends on irregular daily work. A sudden medical expense affects both, but the second household may have to borrow at difficult terms or sell an asset. Their current income was similar, yet their economic security was different."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: real purchasing power",
+      "text": "Money income should be interpreted with prices. If income rises by 5 percent while essential prices rise by 10 percent, the household's purchasing power for those goods can fall. Poor households can be particularly affected when essentials form a large share of their spending. This is one reason that price movements matter when analysing living standards."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: education as prevention",
+      "text": "Keeping a child in school can appear to reduce current household income when the child could otherwise work. Over time, however, education can improve literacy, skills and employment prospects. Support that reduces the immediate cost of schooling can therefore help prevent a short-term income problem from becoming a long-term cycle of low capability."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: employment quality",
+      "text": "A household may report that an adult is employed, but the work may be irregular, poorly paid or available for only a few hours. Looking at employment quality helps explain why employment statistics alone cannot fully describe economic security. Stable and productive work is more likely to provide predictable income and opportunities for saving."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: evaluating an intervention",
+      "text": "A poverty programme should be evaluated by asking whether the intended people received the benefit, whether it improved their ability to meet essential needs, whether the effect lasted and whether any groups were excluded. This approach focuses on outcomes rather than only expenditure."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Concept connection",
+      "text": "Poverty analysis becomes stronger when current income, assets, employment, health, education and vulnerability are considered together. A household's condition can change after a shock, and the same income can produce different living standards when access to public services differs. Long-term reduction therefore requires both protection against immediate deprivation and expansion of capabilities. Growth, employment, education, healthcare, infrastructure, social protection and accountable delivery can reinforce one another when policies are designed and implemented effectively. This perspective is useful for concept connection: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Application lens",
+      "text": "Poverty analysis becomes stronger when current income, assets, employment, health, education and vulnerability are considered together. A household's condition can change after a shock, and the same income can produce different living standards when access to public services differs. Long-term reduction therefore requires both protection against immediate deprivation and expansion of capabilities. Growth, employment, education, healthcare, infrastructure, social protection and accountable delivery can reinforce one another when policies are designed and implemented effectively. This perspective is useful for application lens: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Revision reasoning",
+      "text": "Poverty analysis becomes stronger when current income, assets, employment, health, education and vulnerability are considered together. A household's condition can change after a shock, and the same income can produce different living standards when access to public services differs. Long-term reduction therefore requires both protection against immediate deprivation and expansion of capabilities. Growth, employment, education, healthcare, infrastructure, social protection and accountable delivery can reinforce one another when policies are designed and implemented effectively. This perspective is useful for revision reasoning: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Exam reasoning",
+      "text": "Poverty analysis becomes stronger when current income, assets, employment, health, education and vulnerability are considered together. A household's condition can change after a shock, and the same income can produce different living standards when access to public services differs. Long-term reduction therefore requires both protection against immediate deprivation and expansion of capabilities. Growth, employment, education, healthcare, infrastructure, social protection and accountable delivery can reinforce one another when policies are designed and implemented effectively. This perspective is useful for exam reasoning: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Real-life interpretation",
+      "text": "Poverty analysis becomes stronger when current income, assets, employment, health, education and vulnerability are considered together. A household's condition can change after a shock, and the same income can produce different living standards when access to public services differs. Long-term reduction therefore requires both protection against immediate deprivation and expansion of capabilities. Growth, employment, education, healthcare, infrastructure, social protection and accountable delivery can reinforce one another when policies are designed and implemented effectively. This perspective is useful for real-life interpretation: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Integrated understanding",
+      "text": "Poverty analysis becomes stronger when current income, assets, employment, health, education and vulnerability are considered together. A household's condition can change after a shock, and the same income can produce different living standards when access to public services differs. Long-term reduction therefore requires both protection against immediate deprivation and expansion of capabilities. Growth, employment, education, healthcare, infrastructure, social protection and accountable delivery can reinforce one another when policies are designed and implemented effectively. This perspective is useful for integrated understanding: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
     },
     {
       "type": "content",

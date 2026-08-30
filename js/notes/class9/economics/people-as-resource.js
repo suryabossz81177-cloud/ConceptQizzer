@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 2,
   "title": "People as Resource",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v9",
+  "formatVersion": "continuous-detailed-v15-2x-30kb-minimum",
   "blocks": [
     {
       "type": "content",
@@ -151,6 +151,229 @@ window.ChapterData = {
       "type": "content",
       "heading": "Lesson from the comic",
       "text": "The timing of employment matters. Seasonal unemployment can occur even when a person is willing and able to work."
+    },
+    {
+      "type": "content",
+      "heading": "Human capital and productivity in everyday life",
+      "text": "A teacher uses subject knowledge and communication skills, a mechanic combines technical training with experience, and a farmer uses agricultural knowledge with physical labour. In each case, education and experience change what a person can produce. Productivity is therefore influenced by the quality of human capabilities as well as by machines and other physical resources."
+    },
+    {
+      "type": "content",
+      "heading": "The long-term return to learning",
+      "text": "Learning can create benefits that continue after the original period of education. A person who develops strong foundational skills may learn advanced skills more easily later. Training can open access to new occupations, while experience can improve performance. These effects explain why investment in people can influence economic opportunities over a long period."
+    },
+    {
+      "type": "content",
+      "heading": "Why unemployment is an economic loss",
+      "text": "When a willing and capable worker remains without suitable employment, the economy loses potential output while the worker loses income and experience. Long periods without work can also weaken skills. Policies that expand productive employment can therefore create benefits beyond the income received by an individual worker."
+    },
+    {
+      "type": "content",
+      "heading": "Education, health and inequality of opportunity",
+      "text": "Children from households with different resources may have unequal access to good schools, nutrition, healthcare, digital tools and safe learning environments. These differences can affect later skills and employment. Improving basic services can reduce barriers and make human-capital formation more broadly available."
+    },
+    {
+      "type": "content",
+      "heading": "Human resources require productive opportunities",
+      "text": "Education and training improve capabilities, but people also need jobs, enterprises and productive workplaces in which to use them. An economy that expands education without creating sufficient opportunities can still experience educated unemployment. Human-capital policy therefore works best when connected with employment, investment and economic activity."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 1",
+      "text": [
+        "Population and productive capacity",
+        "Population becomes an economic resource when people have capabilities that can be productively used. Education, health, training and experience affect these capabilities. A large population with weak opportunities for learning and employment can contain substantial underused labour, whereas a population with strong human-capital formation can support productivity and innovation."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 2",
+      "text": [
+        "Education as an investment",
+        "Spending on education involves present costs but can produce future benefits. Schooling can develop literacy, numeracy, reasoning and communication, while higher and vocational education can provide specialised skills. The return depends on the quality and relevance of education and on the opportunities available after learning."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 3",
+      "text": [
+        "Health as productive capacity",
+        "Health affects attendance, stamina, concentration and the ability to perform work. Illness can reduce earnings and increase household expenses. Preventive measures such as sanitation, nutrition, clean water and vaccination, along with access to treatment, can protect human productive capacity. Health investment therefore has both private and wider social benefits."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 4",
+      "text": [
+        "Market and non-market activities",
+        "Market activities involve production for which people receive remuneration, while many household services are performed without a direct market payment. Cooking, cleaning and caring work require time and effort even when no wage is received. Distinguishing these categories helps us understand labour participation without assuming that unpaid work has no economic importance."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 5",
+      "text": [
+        "Women and employment",
+        "Women's participation in paid work is influenced by education, safety, transport, childcare, social norms, local job availability and household responsibilities. Better access to skills and employment can increase economic independence. At the same time, unpaid household work continues to contribute to family well-being and should not be ignored when considering the use of human resources."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 6",
+      "text": [
+        "Types of unemployment in context",
+        "Seasonal unemployment occurs when work is available only during particular periods. Disguised unemployment occurs when more workers are engaged than necessary for the existing output, so removing some workers may not reduce production. Educated unemployment can occur when educated people cannot find suitable employment. These forms have different causes and therefore require different policy responses."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 7",
+      "text": [
+        "Skill mismatch",
+        "An economy may simultaneously contain unemployed workers and employers looking for particular skills. This mismatch can arise when training does not keep pace with technological or industrial change. Apprenticeships, vocational training, career guidance and practical experience can improve the connection between learning and employment, but job creation also requires productive investment and demand."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 8",
+      "text": [
+        "Human capital and lifelong learning",
+        "Technology changes the tasks workers perform. A worker may need to learn new equipment, software or production methods after leaving school. Continuous learning helps people adapt to these changes. Human capital should therefore be viewed as something that can be strengthened throughout working life."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 9",
+      "text": [
+        "Public investment and social benefits",
+        "Education and healthcare can create benefits beyond the individual recipient. A healthier population can reduce the spread and economic burden of disease, while a better educated population can improve productivity and participation. Public provision can help households that cannot afford to make sufficient private investments on their own."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 10",
+      "text": [
+        "Comic Story: Skills That Fit",
+        "Surya: Two workers have similar qualifications, but only one has training for the new machine.\n\nArushi: The second worker may need additional training before becoming equally effective.\n\nVerma Sir: Exactly. Human capital is useful when knowledge and skills fit the tasks being performed.\n\nSurya: So a certificate and productive capability are related, but not identical."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 11",
+      "text": [
+        "Lesson from the comic",
+        "Human capital means usable capabilities. Education, training, experience and health together determine how effectively people can contribute to production."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: capability versus population size",
+      "text": "Population size by itself cannot tell us whether people are an economic strength. What matters is the capability of people and the opportunities to use those capabilities. Education, health and training improve the quality of human resources. Employment and productive enterprises provide the setting in which these capabilities can be applied."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: education and mobility",
+      "text": "Education can increase a person's ability to move between occupations as economic conditions change. Foundational skills make later learning easier, while specialised education can open particular professional opportunities. However, education is most effective when learning is meaningful and when labour markets provide opportunities for people to use their skills."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: health and household economics",
+      "text": "Illness can impose several costs at once: medical expenses, lost wages, reduced productivity and time spent caring for an ill family member. Preventive healthcare can therefore have economic value even before an illness occurs. Nutrition and sanitation also influence long-term human-capital formation, particularly during childhood."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: unemployment as underuse",
+      "text": "When capable people remain without suitable work, potential production is lost. In disguised unemployment, the apparent number of workers can exceed the number needed for the current output. In seasonal unemployment, workers may have employment in one part of the year but not another. Understanding the form of underuse is essential before choosing a remedy."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: women and the economy",
+      "text": "Women contribute through paid employment, self-employment and extensive unpaid household work. Barriers to education, mobility, safety and childcare can reduce access to paid work even when women have the ability and willingness to work. Removing such barriers can improve the use of human resources while also increasing household economic security."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: the central lesson",
+      "text": "Human beings are not simply consumers. Their knowledge, health, skills, creativity and experience can produce goods and services and improve the productivity of other resources. Investment in people is therefore a form of economic investment, while unemployment, poor health and low-quality education represent losses of productive potential."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: learning by doing",
+      "text": "A worker can become more productive through experience even without acquiring a new formal qualification. Repeated practice can improve speed, accuracy and judgement. Experience can therefore complement schooling and training. At the same time, experience with an outdated process may not substitute for learning when technology changes."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: health shock",
+      "text": "Suppose a household's main earner becomes ill for several weeks. The family can lose wages while facing medical expenses at the same time. If illness is frequent, the cumulative effect can reduce savings and make continued education difficult for children. This illustrates the close relationship among health, income and human-capital formation."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: disguised unemployment",
+      "text": "On a small family farm, several family members may appear employed because all participate in the work. If some workers leave temporarily and output remains almost unchanged, the original labour use contained disguised unemployment. The issue is not that the workers are unwilling to work; it is that the activity does not require all of the labour currently engaged."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: education and labour demand",
+      "text": "Education can raise capabilities, but employment depends on the demand for labour as well. If an economy creates few suitable jobs, even educated workers may remain unemployed. This is why human-capital development and productive economic growth need to support one another."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: transferable skills",
+      "text": "Communication, numeracy, problem-solving and digital skills can be useful across many occupations. Such transferable capabilities can help workers adapt when industries or technologies change. A strong education system therefore provides foundations for both current employment and future learning."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: learning by doing",
+      "text": "A worker can become more productive through experience even without acquiring a new formal qualification. Repeated practice can improve speed, accuracy and judgement. Experience can therefore complement schooling and training. At the same time, experience with an outdated process may not substitute for learning when technology changes."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: health shock",
+      "text": "Suppose a household's main earner becomes ill for several weeks. The family can lose wages while facing medical expenses at the same time. If illness is frequent, the cumulative effect can reduce savings and make continued education difficult for children. This illustrates the close relationship among health, income and human-capital formation."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: disguised unemployment",
+      "text": "On a small family farm, several family members may appear employed because all participate in the work. If some workers leave temporarily and output remains almost unchanged, the original labour use contained disguised unemployment. The issue is not that the workers are unwilling to work; it is that the activity does not require all of the labour currently engaged."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: education and labour demand",
+      "text": "Education can raise capabilities, but employment depends on the demand for labour as well. If an economy creates few suitable jobs, even educated workers may remain unemployed. This is why human-capital development and productive economic growth need to support one another."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: transferable skills",
+      "text": "Communication, numeracy, problem-solving and digital skills can be useful across many occupations. Such transferable capabilities can help workers adapt when industries or technologies change. A strong education system therefore provides foundations for both current employment and future learning."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Concept connection",
+      "text": "Human-resource development is a long process in which education, health, training and experience interact. Schooling creates foundations, training develops occupational skills, experience improves application, and health allows capabilities to be used consistently. At the economy-wide level, these investments can raise productivity and support adaptation to technology. But capabilities need productive opportunities: without sufficient employment and enterprise activity, education can coexist with unemployment. A complete view therefore connects people, skills, health, technology, labour demand and institutions. This perspective is useful for concept connection: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Application lens",
+      "text": "Human-resource development is a long process in which education, health, training and experience interact. Schooling creates foundations, training develops occupational skills, experience improves application, and health allows capabilities to be used consistently. At the economy-wide level, these investments can raise productivity and support adaptation to technology. But capabilities need productive opportunities: without sufficient employment and enterprise activity, education can coexist with unemployment. A complete view therefore connects people, skills, health, technology, labour demand and institutions. This perspective is useful for application lens: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Revision reasoning",
+      "text": "Human-resource development is a long process in which education, health, training and experience interact. Schooling creates foundations, training develops occupational skills, experience improves application, and health allows capabilities to be used consistently. At the economy-wide level, these investments can raise productivity and support adaptation to technology. But capabilities need productive opportunities: without sufficient employment and enterprise activity, education can coexist with unemployment. A complete view therefore connects people, skills, health, technology, labour demand and institutions. This perspective is useful for revision reasoning: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Exam reasoning",
+      "text": "Human-resource development is a long process in which education, health, training and experience interact. Schooling creates foundations, training develops occupational skills, experience improves application, and health allows capabilities to be used consistently. At the economy-wide level, these investments can raise productivity and support adaptation to technology. But capabilities need productive opportunities: without sufficient employment and enterprise activity, education can coexist with unemployment. A complete view therefore connects people, skills, health, technology, labour demand and institutions. This perspective is useful for exam reasoning: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Real-life interpretation",
+      "text": "Human-resource development is a long process in which education, health, training and experience interact. Schooling creates foundations, training develops occupational skills, experience improves application, and health allows capabilities to be used consistently. At the economy-wide level, these investments can raise productivity and support adaptation to technology. But capabilities need productive opportunities: without sufficient employment and enterprise activity, education can coexist with unemployment. A complete view therefore connects people, skills, health, technology, labour demand and institutions. This perspective is useful for real-life interpretation: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Integrated understanding",
+      "text": "Human-resource development is a long process in which education, health, training and experience interact. Schooling creates foundations, training develops occupational skills, experience improves application, and health allows capabilities to be used consistently. At the economy-wide level, these investments can raise productivity and support adaptation to technology. But capabilities need productive opportunities: without sufficient employment and enterprise activity, education can coexist with unemployment. A complete view therefore connects people, skills, health, technology, labour demand and institutions. This perspective is useful for integrated understanding: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
     },
     {
       "type": "content",

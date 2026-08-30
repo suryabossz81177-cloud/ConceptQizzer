@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 4,
   "title": "Food Security in India",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v9",
+  "formatVersion": "continuous-detailed-v15-2x-30kb-minimum",
   "blocks": [
     {
       "type": "content",
@@ -161,6 +161,221 @@ window.ChapterData = {
       "type": "content",
       "heading": "Lesson from the comic",
       "text": "Food security is about sufficient and nutritious food, not merely the availability of one staple."
+    },
+    {
+      "type": "content",
+      "heading": "Why access can fail even when supply is adequate",
+      "text": "Food can be present at the national or market level while a household remains food insecure because its income is insufficient, the nearest market is inaccessible or distribution support is unavailable. This distinction between aggregate supply and household access is central to understanding food security."
+    },
+    {
+      "type": "content",
+      "heading": "Prices and food choices",
+      "text": "When food prices rise faster than household income, families may reduce quantities, substitute cheaper foods or cut dietary variety. Such adjustments can protect calories in the short run but may reduce nutritional quality. Affordability therefore influences not only how much food is consumed but also what kind of food is consumed."
+    },
+    {
+      "type": "content",
+      "heading": "Why storage and transport matter",
+      "text": "Foodgrains must be protected from moisture, pests and deterioration and must be moved from production areas or procurement centres to locations where they are required. Storage capacity and transport networks are therefore physical foundations of food security. Delays can be costly during emergencies because food needs are immediate."
+    },
+    {
+      "type": "content",
+      "heading": "Public distribution and accountability",
+      "text": "A distribution system works best when eligibility is clear, supplies are regular, records are transparent and beneficiaries can report problems. Local monitoring can help identify missing supplies or unfair practices. Accountability is important because the final objective is not merely moving grain through the system but improving access for households."
+    },
+    {
+      "type": "content",
+      "heading": "Food security and future resilience",
+      "text": "Long-term food security requires resilient agriculture, sustainable resource use, stable livelihoods and effective public institutions. Climate variability, water stress, crop disease and market disruptions can affect food systems. Building resilience reduces the chance that a temporary disturbance becomes a widespread food-access crisis."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 1",
+      "text": [
+        "The three dimensions together",
+        "Food security requires availability, access and affordability. Availability is related to production, imports and public stocks. Access depends on whether households can obtain food through markets, their own production or public distribution. Affordability depends on purchasing power relative to prices. A weakness in any one dimension can create food insecurity."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 2",
+      "text": [
+        "Household purchasing power",
+        "A market can contain sufficient food while a household remains unable to buy enough because its income is low or irregular. Rising prices can reduce the quantity and variety that a family can afford. Employment and wages are therefore important parts of food security even though they are not food supplies themselves."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 3",
+      "text": [
+        "Seasonal and chronic insecurity",
+        "Seasonal food insecurity can occur during recurring periods when employment or agricultural income falls. Chronic food insecurity is more persistent and can result from long-term inadequate income or access. Identifying the type matters because temporary seasonal support and long-term livelihood improvement address different problems."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 4",
+      "text": [
+        "Buffer stocks and public procurement",
+        "Public agencies can procure foodgrains and maintain stocks for distribution and emergency needs. Procurement can also provide farmers with an assured market under specified arrangements. Maintaining stocks requires storage, transport and management. Stocks must be sufficient and usable, and they must reach the places where demand is greatest."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 5",
+      "text": [
+        "Distribution and the last mile",
+        "Food security depends on the final delivery of food to households. Even when grain has been procured and stored, shortages at local distribution points, documentation problems, delays or leakage can reduce access. Effective administration, transparent records and monitoring are therefore important components of food policy."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 6",
+      "text": [
+        "Nutrition is broader than calories",
+        "A sufficient quantity of staple grain does not automatically provide a balanced diet. Protein, fats, vitamins, minerals and dietary diversity contribute to health. Poor nutrition can affect children's growth and learning and can reduce adult work capacity. Food-security measures therefore need to consider nutritional quality as well as quantity."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 7",
+      "text": [
+        "Food security during crises",
+        "Floods, droughts, crop failures, health emergencies and sudden job losses can affect both supply and purchasing power. Public stocks and distribution systems can provide a buffer, while income support and employment measures can protect access. Preparedness is important because assistance is most valuable when households are facing the disruption."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 8",
+      "text": [
+        "Producer and consumer sides",
+        "A resilient food system needs both productive agriculture and households able to access food. Farmers require inputs, infrastructure, markets and appropriate incentives. Consumers require income and dependable supply. Policy that focuses on only one side can leave the other side weak."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 9",
+      "text": [
+        "Comic Story: The Warehouse and the Shop",
+        "Ansh: The warehouse has enough grain, so the food-security problem is solved.\n\nSurya: Not necessarily. It still has to be transported and distributed to the households that need it.\n\nVerma Sir: Correct. A reserve becomes useful only when the distribution chain can deliver it effectively."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 10",
+      "text": [
+        "Lesson from the comic",
+        "Food security is a complete system. Production, procurement, storage, transport and final access must work together."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: availability is not access",
+      "text": "A country can have food stored in warehouses and still contain households that cannot obtain enough food. This happens when income is inadequate, prices are too high, markets are distant or distribution mechanisms fail. The distinction is essential because increasing aggregate supply alone may not solve household-level food insecurity."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: the role of employment",
+      "text": "For many households, wages or self-employment income determine how much food can be purchased. A job loss can therefore create food insecurity without any immediate change in physical food supply. Employment programmes and livelihood support can protect purchasing power during difficult periods."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: storage and public stocks",
+      "text": "Public stocks are a form of preparedness. They allow authorities to release food when supplies are disrupted or when distribution programmes require additional grain. But storage has a cost and food can deteriorate. Effective stock management requires suitable facilities, rotation, transport planning and timely decisions about procurement and release."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: distribution as an institution",
+      "text": "A distribution system involves rules, identification, records, transport, storage and local outlets. Each link can affect the final result. Transparent procedures and accountability help ensure that food intended for vulnerable households reaches them. Evaluating a programme at the warehouse alone is therefore insufficient; the final household experience matters."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: nutrition and human development",
+      "text": "Food quantity and nutritional quality are connected but not identical. A diet can provide sufficient energy while remaining deficient in important nutrients. Poor nutrition can affect learning, growth, immunity and work capacity. Food-security policy therefore has implications for human capital and long-term economic development."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: the central lesson",
+      "text": "Food security is strongest when production, procurement, storage, transport, markets, employment and public support reinforce one another. Availability, access and affordability must be considered together. Resilient food systems also require attention to nutrition and to the ability of households to withstand shocks."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: a household food budget",
+      "text": "Consider a household whose income is fixed while the prices of staple food, vegetables and cooking fuel rise. The family may have to rearrange its budget. It may buy less variety, reduce quantities or postpone other purchases. This illustrates why affordability is an economic dimension of food security: the relevant question is not simply whether food exists, but whether the household can obtain an adequate diet with its available resources."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: a supply shock",
+      "text": "Suppose a drought reduces crop output in an important producing region. Market arrivals can fall and prices may rise. Households with low incomes can be affected particularly strongly because they have less flexibility in their budgets. Public stocks and distribution arrangements can provide a buffer if they are available and can be released and transported in time."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: the distribution chain",
+      "text": "Food moves through several stages before consumption. It may be procured, transported, stored, allocated, transported again and finally distributed through a local outlet. A problem at any stage can reduce the amount or regularity of food reaching households. This is why food-security administration must consider the complete chain rather than only the quantity initially procured."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: nutrition choices",
+      "text": "A household may have enough cereal but insufficient protein or micronutrients. If food prices or income make a varied diet unaffordable, nutritional quality may suffer. School meals, maternal and child nutrition programmes and other targeted measures can supplement household purchasing power and improve the diets of vulnerable groups."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: resilience",
+      "text": "A resilient food system can respond to both supply and income shocks. Farmers need productive resources and infrastructure; consumers need purchasing power; and public institutions need reserves and distribution capacity. Resilience is strengthened when these parts work together rather than when one component is improved in isolation."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: a household food budget",
+      "text": "Consider a household whose income is fixed while the prices of staple food, vegetables and cooking fuel rise. The family may have to rearrange its budget. It may buy less variety, reduce quantities or postpone other purchases. This illustrates why affordability is an economic dimension of food security: the relevant question is not simply whether food exists, but whether the household can obtain an adequate diet with its available resources."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: a supply shock",
+      "text": "Suppose a drought reduces crop output in an important producing region. Market arrivals can fall and prices may rise. Households with low incomes can be affected particularly strongly because they have less flexibility in their budgets. Public stocks and distribution arrangements can provide a buffer if they are available and can be released and transported in time."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: the distribution chain",
+      "text": "Food moves through several stages before consumption. It may be procured, transported, stored, allocated, transported again and finally distributed through a local outlet. A problem at any stage can reduce the amount or regularity of food reaching households. This is why food-security administration must consider the complete chain rather than only the quantity initially procured."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: nutrition choices",
+      "text": "A household may have enough cereal but insufficient protein or micronutrients. If food prices or income make a varied diet unaffordable, nutritional quality may suffer. School meals, maternal and child nutrition programmes and other targeted measures can supplement household purchasing power and improve the diets of vulnerable groups."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: resilience",
+      "text": "A resilient food system can respond to both supply and income shocks. Farmers need productive resources and infrastructure; consumers need purchasing power; and public institutions need reserves and distribution capacity. Resilience is strengthened when these parts work together rather than when one component is improved in isolation."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Concept connection",
+      "text": "Food security connects agricultural production, household income, market prices, public stocks, procurement, transport and distribution. A complete analysis should follow food from production to the household table and ask at every stage whether quantity, access, affordability and nutritional quality are protected. This systems approach explains why a shortage is not the only possible source of food insecurity. A household may be surrounded by food yet remain unable to purchase enough, or it may receive calories without a sufficiently diverse diet. Effective policy therefore combines supply-side preparation with measures that protect purchasing power and access. This perspective is useful for concept connection: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Application lens",
+      "text": "Food security connects agricultural production, household income, market prices, public stocks, procurement, transport and distribution. A complete analysis should follow food from production to the household table and ask at every stage whether quantity, access, affordability and nutritional quality are protected. This systems approach explains why a shortage is not the only possible source of food insecurity. A household may be surrounded by food yet remain unable to purchase enough, or it may receive calories without a sufficiently diverse diet. Effective policy therefore combines supply-side preparation with measures that protect purchasing power and access. This perspective is useful for application lens: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Revision reasoning",
+      "text": "Food security connects agricultural production, household income, market prices, public stocks, procurement, transport and distribution. A complete analysis should follow food from production to the household table and ask at every stage whether quantity, access, affordability and nutritional quality are protected. This systems approach explains why a shortage is not the only possible source of food insecurity. A household may be surrounded by food yet remain unable to purchase enough, or it may receive calories without a sufficiently diverse diet. Effective policy therefore combines supply-side preparation with measures that protect purchasing power and access. This perspective is useful for revision reasoning: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Exam reasoning",
+      "text": "Food security connects agricultural production, household income, market prices, public stocks, procurement, transport and distribution. A complete analysis should follow food from production to the household table and ask at every stage whether quantity, access, affordability and nutritional quality are protected. This systems approach explains why a shortage is not the only possible source of food insecurity. A household may be surrounded by food yet remain unable to purchase enough, or it may receive calories without a sufficiently diverse diet. Effective policy therefore combines supply-side preparation with measures that protect purchasing power and access. This perspective is useful for exam reasoning: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Real-life interpretation",
+      "text": "Food security connects agricultural production, household income, market prices, public stocks, procurement, transport and distribution. A complete analysis should follow food from production to the household table and ask at every stage whether quantity, access, affordability and nutritional quality are protected. This systems approach explains why a shortage is not the only possible source of food insecurity. A household may be surrounded by food yet remain unable to purchase enough, or it may receive calories without a sufficiently diverse diet. Effective policy therefore combines supply-side preparation with measures that protect purchasing power and access. This perspective is useful for real-life interpretation: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: Integrated understanding",
+      "text": "Food security connects agricultural production, household income, market prices, public stocks, procurement, transport and distribution. A complete analysis should follow food from production to the household table and ask at every stage whether quantity, access, affordability and nutritional quality are protected. This systems approach explains why a shortage is not the only possible source of food insecurity. A household may be surrounded by food yet remain unable to purchase enough, or it may receive calories without a sufficiently diverse diet. Effective policy therefore combines supply-side preparation with measures that protect purchasing power and access. This perspective is useful for integrated understanding: connect the concept to causes, consequences, examples and the choices faced by households, workers, producers or institutions instead of memorising an isolated definition."
     },
     {
       "type": "content",

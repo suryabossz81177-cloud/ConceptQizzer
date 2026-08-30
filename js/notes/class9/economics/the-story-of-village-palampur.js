@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 1,
   "title": "The Story of Village Palampur",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v9",
+  "formatVersion": "continuous-detailed-v13-2x-30kb-minimum",
   "blocks": [
     {
       "type": "content",
@@ -171,6 +171,149 @@ window.ChapterData = {
       "type": "content",
       "heading": "Lesson from the comic",
       "text": "The best production method depends on local costs, available resources, scale and the nature of the work."
+    },
+    {
+      "type": "content",
+      "heading": "Detailed application: choosing between crops",
+      "text": "A farmer does not choose a crop only because its yield is high. The decision can depend on the availability of irrigation, the length of the growing season, seed and fertiliser costs, labour requirements, expected prices and the farmer's ability to bear risk. A crop that gives a large physical yield may still be less attractive if its inputs are expensive or if its market price is uncertain. This is why economic decisions consider both benefits and costs."
+    },
+    {
+      "type": "content",
+      "heading": "Why capital differences affect opportunities",
+      "text": "Two farmers working in the same village may face different choices because their capital positions are different. A farmer with savings can purchase inputs when required and may be able to wait for a suitable selling opportunity. A farmer with little savings may need credit immediately and may have to sell output quickly after harvest. The same market conditions can therefore produce different decisions for households with different access to capital."
+    },
+    {
+      "type": "content",
+      "heading": "Interdependence among village occupations",
+      "text": "Farmers, labourers, shopkeepers, dairy producers and transport providers depend on one another. A farmer buys goods and services from other producers, while farm output provides income that can be spent in village shops. A transport operator earns income by moving agricultural goods and inputs. Such interdependence means that an increase or decline in one activity can affect other local activities through changes in demand and income."
+    },
+    {
+      "type": "content",
+      "heading": "Efficiency versus maximum input use",
+      "text": "Using more fertiliser, water or labour does not always mean proportionately greater output. Once an input is used beyond a suitable level, the additional benefit may become small or may even create costs. Efficient production therefore seeks a sensible combination of inputs. The objective is not to maximise every input but to obtain the desired output with resources used carefully."
+    },
+    {
+      "type": "content",
+      "heading": "A complete economic picture",
+      "text": "The story of Palampur brings together scarcity, choice, production, distribution and exchange. Land is limited, labour has alternative uses, capital requires saving or borrowing, and output has to be allocated between consumption and sale. The village therefore provides a simple setting in which major economic ideas can be understood through everyday decisions."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 1",
+      "text": [
+        "The complete production chain",
+        "Agricultural production can be understood as a chain of decisions. Before sowing, the farmer considers the crop, seed, water, labour, tools, expected costs and likely market conditions. During cultivation, timing matters because delays in ploughing, sowing, irrigation or harvesting can affect output. After harvesting, the crop must be stored, consumed, processed or sold. Thus production is not one isolated action but a sequence in which each stage influences the next."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 2",
+      "text": [
+        "Land, labour and capital work together",
+        "Land provides the physical space and natural conditions for cultivation. Labour supplies human effort and judgement. Fixed capital such as tools, buildings and machines can be used repeatedly, while working capital such as seeds, fertilisers, fuel and cash is required during the production cycle. The farmer's knowledge determines how these resources are combined. If one essential input is missing, the productivity of the others can fall."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 3",
+      "text": [
+        "Why multiple cropping matters",
+        "When cultivated land is limited, increasing the number of crops grown on the same land during a year can raise annual output. Multiple cropping requires suitable water, soil, climate, labour and timely farm operations. Irrigation is particularly important because dependence only on rainfall may restrict the number of crops that can be grown. The idea demonstrates how productivity can rise without increasing the physical area of land."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 4",
+      "text": [
+        "Modern methods and complementary inputs",
+        "Improved seeds, irrigation, fertilisers, pesticides, machinery and better agricultural knowledge can raise output per unit of land when used appropriately. These inputs are complementary: improved seeds may require reliable irrigation and nutrients, while machines require fuel, maintenance and skilled operation. Therefore the introduction of one modern input does not make all other inputs unnecessary."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 5",
+      "text": [
+        "Small farmers and the problem of surplus",
+        "A small farmer may produce enough for the household but have little left for sale after meeting consumption needs. Limited savings can also make it difficult to purchase inputs for the next production cycle. A larger farmer may have a greater surplus and more savings, allowing greater self-financing. This difference in initial resources can influence production choices and access to technology."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 6",
+      "text": [
+        "Economic calculation in farming",
+        "Suppose a farmer sells 60 units at ₹35 each. Sales revenue is ₹2,100. If total relevant production and selling costs are ₹1,500, the amount left after these costs is ₹600. The example shows why output, revenue and profit are different concepts. A producer who increases output but faces much higher costs or a much lower selling price may not experience a proportional increase in profit."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 7",
+      "text": [
+        "Why non-farm work matters",
+        "Dairy, small-scale manufacturing, shopkeeping and transport provide alternatives to cultivation. They also support farming by supplying services, moving goods and creating local markets. A transport operator may carry farm inputs to the village and crops to a market. A shopkeeper may sell seeds or household goods. Economic activity therefore forms a network rather than a collection of unrelated occupations."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 8",
+      "text": [
+        "Risk and uncertainty",
+        "Agriculture is affected by weather, pests, disease, changes in input prices and changes in crop prices. A producer has to make decisions before all outcomes are known. Diversifying income sources can reduce dependence on one activity. Savings and access to suitable credit can also help households deal with unexpected expenses or temporary losses."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 9",
+      "text": [
+        "Resource conservation",
+        "Higher production today can create future problems if soil fertility and water resources are damaged. Efficient irrigation, suitable cropping practices and careful use of inputs can support long-term productivity. Sustainability is therefore an economic concern because the resources used today also affect the production possibilities available in the future."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 10",
+      "text": [
+        "Comic Story: Before the Sowing",
+        "Surya: The field is ready, so let's start sowing immediately.\n\nAnsh: First check the seeds, water supply, labour and money needed for inputs.\n\nSurya: And we should think about the expected crop price too.\n\nVerma Sir: Good. Production decisions are made under resource constraints and uncertainty.\n\nSurya: So preparation is part of production, not something separate from it."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study note 11",
+      "text": [
+        "Lesson from the comic",
+        "A production cycle begins before physical production. Planning inputs, timing, costs, markets and risks helps a producer use scarce resources more effectively."
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: scarcity and choice",
+      "text": "Land, labour and capital are scarce relative to the wants they can satisfy. A farmer cannot use the same plot for every possible purpose at the same time, and a worker cannot supply the same hour of labour to two activities simultaneously. Every choice therefore has an opportunity cost: using a resource for one purpose means giving up its next best alternative use. Thinking in terms of alternatives makes the village story an economic problem rather than only an agricultural description."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: production decisions over time",
+      "text": "Agriculture has a time gap between expenditure and return. Inputs are purchased and work is performed before the harvest is sold. This timing makes working capital and credit important. It also means that a producer must form expectations about weather, yield and prices. Decisions made at sowing cannot always be changed after the crop has developed, so information and risk management matter."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: distribution of resources",
+      "text": "The distribution of land and capital affects the choices available to different households. A household with a very small holding may have to combine farming with wage labour or another activity. A household with more land may have greater scope for generating surplus. This does not mean that every large farmer makes better decisions, but it does mean that initial resource differences can shape opportunities."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: markets and specialisation",
+      "text": "Specialisation can make production more efficient when people focus on activities for which they have suitable resources or skills. But specialisation also increases dependence on exchange. A farmer depends on shops, transport and markets, while a shopkeeper depends on customers who have income. The village economy therefore combines specialisation with mutual dependence."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: interpreting modernisation",
+      "text": "Modern agricultural methods should be judged by their actual effects under local conditions. A technology can save labour but require more capital; it can raise yield but also raise costs; or it can reduce risk in one respect while creating environmental pressure in another. Economic reasoning compares these benefits and costs instead of treating 'modern' as automatically equal to 'better'."
+    },
+    {
+      "type": "content",
+      "heading": "Deep study: what Palampur teaches",
+      "text": "The most important lesson is that economic activity involves choices under constraints. Producers combine factors, households allocate income, workers choose among opportunities and markets connect separate activities. Productivity can increase through better methods, but access to resources determines who can adopt them. The village story therefore provides a foundation for understanding production, employment, capital, markets and development."
     },
     {
       "type": "content",
