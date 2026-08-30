@@ -5,6 +5,50 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
+  /* =========================
+   CLASS 9 - CHEMISTRY
+   ========================= */
+
+{
+  id: "class9-chemistry-matter-in-our-surroundings",
+  class: 9,
+  subject: "Chemistry",
+  chapterNumber: 1,
+  title: "Matter in Our Surroundings",
+  file: "js/notes/class9/chemistry/matter-in-our-surroundings.js",
+  enabled: true
+},
+
+{
+  id: "class9-chemistry-is-matter-around-us-pure",
+  class: 9,
+  subject: "Chemistry",
+  chapterNumber: 2,
+  title: "Is Matter Around Us Pure",
+  file: "js/notes/class9/chemistry/is-matter-around-us-pure.js",
+  enabled: true
+},
+
+{
+  id: "class9-chemistry-atoms-and-molecules",
+  class: 9,
+  subject: "Chemistry",
+  chapterNumber: 3,
+  title: "Atoms and Molecules",
+  file: "js/notes/class9/chemistry/atoms-and-molecules.js",
+  enabled: true
+},
+
+{
+  id: "class9-chemistry-structure-of-the-atom",
+  class: 9,
+  subject: "Chemistry",
+  chapterNumber: 4,
+  title: "Structure of the Atom",
+  file: "js/notes/class9/chemistry/structure-of-the-atom.js",
+  enabled: true
+},
+  
   {
   id: "9-mathematics-circles",
   class: 9,
