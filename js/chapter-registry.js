@@ -6,7 +6,7 @@
   =================================================*/
 window.ChapterRegistry = [
   {
-  id: "class9-economics-the-story-of-village-palampur",
+  id: "9-economics-the-story-of-village-palampur",
   class: 9,
   subject: "Economics",
   chapterNumber: 1,
@@ -16,7 +16,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-economics-people-as-resource",
+  id: "9-economics-people-as-resource",
   class: 9,
   subject: "Economics",
   chapterNumber: 2,
@@ -26,7 +26,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-economics-poverty-as-a-challenge",
+  id: "9-economics-poverty-as-a-challenge",
   class: 9,
   subject: "Economics",
   chapterNumber: 3,
@@ -36,7 +36,7 @@ window.ChapterRegistry = [
 },
   
 {
-  id: "class9-economics-food-security-in-india",
+  id: "9-economics-food-security-in-india",
   class: 9,
   subject: "Economics",
   chapterNumber: 4,
