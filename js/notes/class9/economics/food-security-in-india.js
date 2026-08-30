@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 4,
   "title": "Food Security in India",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v6",
+  "formatVersion": "continuous-detailed-v9",
   "blocks": [
     {
       "type": "content",
@@ -76,6 +76,91 @@ window.ChapterData = {
       "type": "content",
       "heading": "Food security as a system",
       "text": "Food security works through a chain that begins with production and continues through procurement, storage, transportation, markets and household access. Income and employment influence affordability, while public programmes can support vulnerable groups. Nutrition adds another dimension because sufficient quantities of staple food do not automatically provide a balanced diet. The strongest approach therefore considers the entire food system rather than one stage alone."
+    },
+    {
+      "type": "content",
+      "heading": "Food security and purchasing power",
+      "text": "Food may be available in markets while some households remain food insecure because they cannot afford enough of it. Employment, wages and prices therefore affect food access. Availability, access and affordability must be considered together."
+    },
+    {
+      "type": "content",
+      "heading": "Seasonal hunger",
+      "text": "Where employment and income follow agricultural seasons, households may face lean periods. Limited savings can make these periods especially difficult. Diversified employment and reliable support can reduce seasonal food insecurity."
+    },
+    {
+      "type": "content",
+      "heading": "Buffer-stock trade-offs",
+      "text": "Public stocks provide a reserve for shortages and distribution programmes, but procurement, storage and transport require resources. Stocks must also be managed to reduce deterioration and losses. Effective policy balances preparedness with efficient management."
+    },
+    {
+      "type": "content",
+      "heading": "Procurement and distribution",
+      "text": "Procurement can provide a market for farmers and help build public stocks. The distribution chain then has to move food through storage and transport to the intended households. A failure at any stage can reduce the practical benefit."
+    },
+    {
+      "type": "content",
+      "heading": "Nutrition and human development",
+      "text": "Food security is not only about calories or grain quantity. Protein, fats, vitamins, minerals and dietary diversity matter for health. Poor nutrition can affect children's growth and learning and can reduce adult work capacity."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Empty Wallet",
+      "text": "Shashank: The market has food, but the family has lost its income.\n\nSurya: Then availability exists, but affordability has fallen.\n\nVerma Sir: Exactly. A food-security problem can arise from weak purchasing power even when supplies are present."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Always examine availability, access and affordability together when judging food security."
+    },
+    {
+      "type": "content",
+      "heading": "Food security as a household question",
+      "text": "National food availability and household food security are related but not identical. A country can have adequate overall supplies while a household struggles to buy sufficient food. Household income, prices, employment, access to markets and public support determine whether available food becomes actual consumption."
+    },
+    {
+      "type": "content",
+      "heading": "Chronic and seasonal food insecurity",
+      "text": "Chronic food insecurity can arise when households have persistently inadequate income or food access. Seasonal food insecurity is linked to recurring periods when work and earnings decline. Recognising the difference helps policymakers design appropriate responses, from long-term livelihood improvement to support during predictable lean periods."
+    },
+    {
+      "type": "content",
+      "heading": "Public stocks and emergency response",
+      "text": "A reserve of foodgrains can provide an important safety mechanism when production falls or distribution is disrupted. Its usefulness depends on procurement, storage, transport and timely release. Emergency capacity therefore requires both physical stocks and institutions capable of moving those stocks to areas and households that need them."
+    },
+    {
+      "type": "content",
+      "heading": "The last-mile problem",
+      "text": "Food policy does not end when grain reaches a warehouse. It must travel through transport and distribution systems before reaching consumers. Records, eligibility systems, shop-level supply and transparency influence whether benefits reach the intended people. A well-designed programme can still have weak outcomes if the final delivery stage fails."
+    },
+    {
+      "type": "content",
+      "heading": "Food security and nutrition",
+      "text": "Staple grains provide energy, but a healthy diet also needs other nutrients. Children and other vulnerable groups can be particularly affected by inadequate diet quality. Nutrition programmes, school meals and maternal-child support can therefore complement foodgrain distribution and help translate food availability into improved human development."
+    },
+    {
+      "type": "content",
+      "heading": "Agriculture and food security together",
+      "text": "Food security depends on a productive and resilient agricultural system as well as access to food. Farmers need inputs, markets, infrastructure and incentives to produce. Consumers need income and dependable distribution. Policies that consider both producer and consumer sides are more capable of supporting food security over the long term."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Transport Breakdown",
+      "text": "Ansh: The warehouse has enough grain, but the trucks cannot reach the ration shops.\n\nSurya: Then the stock exists but households cannot receive it.\n\nVerma Sir: Exactly. Food security depends on the complete chain from procurement and storage to transport and final distribution."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "A food reserve has practical value only when it can reach the people who need it."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: More Than Grain",
+      "text": "Divya: The family has enough grain but very little variety in its diet.\n\nArushi: Quantity alone does not guarantee adequate nutrition.\n\nVerma Sir: Correct. Food security should also consider the quality and nutritional adequacy of food."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Food security is about sufficient and nutritious food, not merely the availability of one staple."
     },
     {
       "type": "content",

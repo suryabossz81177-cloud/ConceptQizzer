@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 1,
   "title": "The Story of Village Palampur",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v6",
+  "formatVersion": "continuous-detailed-v9",
   "blocks": [
     {
       "type": "content",
@@ -86,6 +86,91 @@ window.ChapterData = {
       "type": "content",
       "heading": "Understanding production decisions",
       "text": "The Palampur story shows that production is an organised process. A producer has to decide which resources to use, in what quantity and at what time. A farmer compares expected output with the costs and risks of different methods. A shopkeeper considers what consumers are likely to buy. A transport operator considers demand, fuel, maintenance and the availability of vehicles. Economics studies these choices because every resource has alternative uses."
+    },
+    {
+      "type": "content",
+      "heading": "Production as a connected process",
+      "text": "A producer has to arrange land, labour, fixed capital, working capital and knowledge at the right time. A tractor without fuel, an irrigation pump without water, or good seeds without suitable cultivation conditions cannot deliver the expected result. Production therefore depends on a complementary combination of resources."
+    },
+    {
+      "type": "content",
+      "heading": "Productivity, output and profit",
+      "text": "Productivity measures output in relation to an input. If one hectare produces 20 quintals in one season and improved practices raise this to 28 quintals on the same hectare, output per hectare has risen. But higher output is not identical to higher profit. Revenue depends on quantity and price, while profit also requires deduction of production and selling costs."
+    },
+    {
+      "type": "content",
+      "heading": "Credit and financial risk",
+      "text": "A farmer may borrow for seeds, fertiliser, fuel, irrigation or hired labour because many expenses occur before the crop is sold. Borrowing can support production, but repayment creates an obligation. A poor harvest or fall in price can make repayment difficult, especially when interest is high. Thus the conditions of credit influence the economic risk faced by a small producer."
+    },
+    {
+      "type": "content",
+      "heading": "Markets, infrastructure and diversification",
+      "text": "Roads, electricity, transport and communication connect village producers with larger markets. Farmers can purchase inputs and sell surplus more easily when transport is reliable. Non-farm activities such as dairy, shopkeeping, small manufacturing and transport diversify income and create additional demand for local goods and services."
+    },
+    {
+      "type": "content",
+      "heading": "Sustainability and resource limits",
+      "text": "Increasing current production is not the only objective. Soil, groundwater and other natural resources must retain their productive capacity. Excessive or unsuitable use of water and chemical inputs can create long-term costs. Efficient production therefore includes attention to future resource availability."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Complete Plan",
+      "text": "Surya: I have land, so production can begin.\n\nAnsh: What about seeds, labour, water, tools and working capital?\n\nSurya: I forgot that all the inputs have to work together.\n\nVerma Sir: Exactly. A production plan must consider the complete cycle, including costs, timing and risk."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Production is a coordinated activity. One resource rarely works effectively without the complementary resources needed to use it."
+    },
+    {
+      "type": "content",
+      "heading": "How a farmer plans a production cycle",
+      "text": "A farming season begins before the crop appears in the field. The producer has to arrange seeds, prepare the soil, organise labour, obtain water, select suitable tools or machines and estimate the money required until harvest. After harvesting, output has to be stored, transported and sold or used by the household. Each stage affects the next stage, so a disruption in one part can change the outcome of the entire production cycle."
+    },
+    {
+      "type": "content",
+      "heading": "Why land is a special resource",
+      "text": "Land used for cultivation is limited and cannot normally be increased quickly. When more people depend on the same cultivated area, increasing output per hectare becomes important. This explains the importance of irrigation, multiple cropping and improvements in productivity. It also explains why the distribution of land matters: households with very small holdings have fewer physical resources with which to generate a surplus."
+    },
+    {
+      "type": "content",
+      "heading": "Comparing production methods",
+      "text": "A producer may choose between labour-intensive and machine-intensive methods depending on the scale of operation, local wages, availability of machinery and the task being performed. A machine can complete some operations rapidly, but it requires investment, fuel and maintenance. Labour may be flexible for tasks requiring close attention. Economic choice therefore depends on relative costs, available resources and the production objective rather than on the idea that one input is always superior."
+    },
+    {
+      "type": "content",
+      "heading": "From output to income",
+      "text": "Physical production becomes an economic return only when output can be used or exchanged. A farmer may consume part of the crop, keep some as seed and sell the remaining surplus. The money received from sales is revenue. Production costs include spending on inputs and hired services. The amount left after relevant costs is the return to the producer. Keeping these concepts separate helps explain why two farmers producing similar quantities can have different financial outcomes."
+    },
+    {
+      "type": "content",
+      "heading": "Non-farm activities and the village economy",
+      "text": "Non-farm activities are important because they create employment outside cultivation and provide services needed by other households. Dairy producers supply milk, shopkeepers make goods available to consumers, transport operators move people and commodities, and small manufacturers transform materials into useful products. Income earned from these activities can then be spent on farm inputs and household needs, creating a circular connection between different parts of the local economy."
+    },
+    {
+      "type": "content",
+      "heading": "Technology is not only machinery",
+      "text": "Modernisation can involve improved seeds, better irrigation, scientific knowledge, improved timing, better storage and more efficient organisation. Machinery is one part of technology rather than its complete meaning. A useful technology must fit local conditions and must be accompanied by the resources required to operate it. The economic benefit depends on whether the additional output or saving in time justifies the additional cost and risk."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Harvest Plan",
+      "text": "Surya: We should calculate the harvest before deciding how much to sell.\n\nAnsh: Why?\n\nSurya: The family needs some grain, seed may be needed for the next cycle, and only the remaining amount is available as surplus.\n\nVerma Sir: Good. Production decisions connect present consumption, future production and market sales."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Marketable surplus is not simply total production. A producer has to consider household use and other requirements before deciding what can be sold."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: Machine or Labour",
+      "text": "Prince: The tractor will always be the cheapest choice.\n\nShashank: It depends on the task, the cost of hiring or owning the machine, fuel, maintenance and the availability of labour.\n\nVerma Sir: Exactly. Economic decisions compare alternatives instead of assuming that one input is always best."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "The best production method depends on local costs, available resources, scale and the nature of the work."
     },
     {
       "type": "content",

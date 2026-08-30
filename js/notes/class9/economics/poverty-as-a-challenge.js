@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 3,
   "title": "Poverty as a Challenge",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v6",
+  "formatVersion": "continuous-detailed-v9",
   "blocks": [
     {
       "type": "content",
@@ -71,6 +71,86 @@ window.ChapterData = {
       "type": "content",
       "heading": "Reducing vulnerability",
       "text": "A household can remain vulnerable even when it is temporarily above a poverty threshold. An illness, crop failure, job loss or price increase can push a household into hardship. Savings, insurance, diversified livelihoods, affordable credit and reliable public services can reduce the impact of such shocks. Reducing vulnerability is therefore an important part of improving economic security."
+    },
+    {
+      "type": "content",
+      "heading": "Poverty as capability deprivation",
+      "text": "Low income can restrict access to food, education, healthcare, housing and productive assets. These restrictions can reduce future earning ability. Poverty is therefore connected with the capabilities people have to live, learn, work and participate."
+    },
+    {
+      "type": "content",
+      "heading": "Poverty and inequality are different questions",
+      "text": "A poverty line can identify households below a specified minimum threshold, while inequality compares the distribution of resources across people or groups. A household may be above a poverty threshold and still be relatively disadvantaged. The two concepts should not be treated as identical."
+    },
+    {
+      "type": "content",
+      "heading": "Vulnerability to shocks",
+      "text": "A household can move into severe hardship after illness, job loss, crop failure or a sharp rise in essential prices. Savings, assets, insurance, diversified livelihoods and reliable public services can provide protection. Reducing vulnerability is therefore an important part of long-term poverty reduction."
+    },
+    {
+      "type": "content",
+      "heading": "Assets and opportunities",
+      "text": "Land, livestock, tools, housing, savings or a small enterprise can provide income and security. Households with few assets often have fewer ways to manage shocks. Access to education, credit, markets and productive employment can expand opportunities."
+    },
+    {
+      "type": "content",
+      "heading": "Implementation and accountability",
+      "text": "Anti-poverty programmes depend on accurate identification, awareness, accessible procedures and reliable delivery. Delays, exclusion or leakage can reduce their effect. Transparency, monitoring and grievance mechanisms can improve accountability."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: One Bad Month",
+      "text": "Prince: This family was managing well last month.\n\nSurya: The main earner lost work, and now there is no savings cushion.\n\nVerma Sir: A shock can create serious hardship when a household is vulnerable.\n\nPrince: So vulnerability is not the same as measuring income on one particular day."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Poverty analysis should include resilience and vulnerability, not only current income."
+    },
+    {
+      "type": "content",
+      "heading": "Why poverty persists",
+      "text": "Poverty can persist because disadvantages reinforce one another. Low income can reduce access to good education and healthcare; weak education can restrict employment opportunities; poor health can reduce working capacity; and lack of assets can increase dependence on uncertain work. Breaking these links requires more than a single short-term intervention."
+    },
+    {
+      "type": "content",
+      "heading": "Poverty measurement and interpretation",
+      "text": "A poverty threshold provides a common statistical reference for estimating the number or proportion of people below a specified minimum level. Such a measure is useful for tracking change over time, but it does not describe every aspect of deprivation. Analysts should therefore interpret poverty estimates together with information about health, education, nutrition, housing and employment."
+    },
+    {
+      "type": "content",
+      "heading": "Rural and urban dimensions",
+      "text": "The nature of poverty can differ between rural and urban areas. Rural households may depend heavily on agriculture and casual labour, while urban poor households may depend on informal jobs with irregular income. In both settings, limited assets and insecure employment can make households vulnerable to sudden changes."
+    },
+    {
+      "type": "content",
+      "heading": "Poverty reduction through capabilities",
+      "text": "Long-term poverty reduction involves expanding people's ability to earn, learn and remain healthy. Quality schooling, healthcare, skill development, infrastructure and productive employment can improve these capabilities. Income-support programmes may provide immediate relief, while capability-building measures can strengthen future economic security."
+    },
+    {
+      "type": "content",
+      "heading": "Growth, distribution and opportunities",
+      "text": "Economic growth can create jobs and raise incomes, but the effect on poverty depends on who receives new opportunities. If growth is accompanied by employment generation and access to education, infrastructure and markets, its poverty-reducing effect can be stronger. Public policy can influence these conditions through investment and social programmes."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Same Income",
+      "text": "Surya: Two families have the same monthly income.\n\nArushi: One has access to a nearby public school and health centre; the other spends heavily to reach essential services.\n\nVerma Sir: Their money income is the same, but their effective living conditions are not. Access to public facilities matters when evaluating deprivation."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Income is important, but real well-being also depends on access to essential services and opportunities."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Asset Cushion",
+      "text": "Prince: The worker lost his job for two months.\n\nShashank: The household sold an important asset because it had no savings.\n\nVerma Sir: This shows why asset ownership and financial security can affect vulnerability. A household with a cushion may survive a temporary shock without losing productive capacity."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Assets, savings and reliable support can reduce the chance that a temporary shock becomes long-term poverty."
     },
     {
       "type": "content",

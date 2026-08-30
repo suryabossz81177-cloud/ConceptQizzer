@@ -5,7 +5,7 @@ window.ChapterData = {
   "chapterNumber": 2,
   "title": "People as Resource",
   "enabled": true,
-  "formatVersion": "continuous-detailed-v6",
+  "formatVersion": "continuous-detailed-v9",
   "blocks": [
     {
       "type": "content",
@@ -66,6 +66,91 @@ window.ChapterData = {
       "type": "content",
       "heading": "Human development and economic development",
       "text": "Investment in people can improve more than measured income. Education can expand choices and participation, while health allows people to live and work with greater capability. A society with better educated and healthier people can make more effective use of technology and institutions. Human-resource development is therefore connected with both economic growth and broader development."
+    },
+    {
+      "type": "content",
+      "heading": "Human capital develops over time",
+      "text": "Human capital is built through schooling, training, health, experience and learning by doing. A person's capabilities can change throughout life. Education may provide basic foundations, specialised training may add occupational skills, and experience can improve judgement and efficiency."
+    },
+    {
+      "type": "content",
+      "heading": "Opportunity cost of education",
+      "text": "Education uses time and resources in the present. A student may postpone paid employment in order to study. This foregone opportunity is part of the cost of education. The expected future benefits depend on the quality and relevance of learning and on employment opportunities."
+    },
+    {
+      "type": "content",
+      "heading": "Quality of education",
+      "text": "Years of schooling alone do not reveal what a learner can actually do. Literacy, numeracy, conceptual understanding, practical skills and problem-solving ability all affect productivity. Effective education therefore requires learning, not merely attendance or certification."
+    },
+    {
+      "type": "content",
+      "heading": "Employment and skill mismatch",
+      "text": "An economy can have unemployed educated people while employers face shortages of particular skills. This can occur when education and training do not match changing demand. Vocational education, apprenticeships and practical training can help, although training cannot by itself create jobs where productive demand is absent."
+    },
+    {
+      "type": "content",
+      "heading": "Public investment in people",
+      "text": "Education, health, sanitation and nutrition can generate benefits for individuals and society. Better health can reduce productivity losses from illness, while education can improve capabilities and participation. This is why governments often support human-capital formation through public services."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Certificate",
+      "text": "Shashank: He has a certificate, so he must have every skill the job requires.\n\nSurya: A qualification is useful, but actual skills and their relevance to the job also matter.\n\nVerma Sir: Correct. Human capital is about capabilities that can be used productively."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Certificates can signal education, but productive human capital depends on what a person actually knows and can do."
+    },
+    {
+      "type": "content",
+      "heading": "From population to productive capability",
+      "text": "A large population is not automatically an economic advantage. Its contribution depends on education, health, skills, employment opportunities and the organisation of production. When people acquire capabilities that can be used productively, population can become a valuable human resource. Without adequate opportunities, the same population may include substantial unused or underused labour."
+    },
+    {
+      "type": "content",
+      "heading": "Investment decisions and future returns",
+      "text": "Families and governments spend resources on schooling, training and health because these investments can produce future benefits. The return is not always immediate or measurable only in money. Better education can increase the ability to learn new skills; better health can reduce time lost to illness. The decision to invest therefore involves comparing present costs with expected future gains."
+    },
+    {
+      "type": "content",
+      "heading": "Different kinds of unemployment",
+      "text": "Unemployment should be identified carefully. Seasonal unemployment is associated with work being available during only particular seasons. Disguised unemployment occurs when some workers can be removed from an activity without reducing its output. Educated unemployment refers to educated people who are unable to find appropriate employment. These forms require different responses because their causes and circumstances are not identical."
+    },
+    {
+      "type": "content",
+      "heading": "Labour participation and unpaid work",
+      "text": "Household production includes cooking, cleaning, caring for children or elderly people and many other activities. Much of this work is not directly paid in a market. Market statistics can therefore fail to show the full amount of useful work performed in society. At the same time, access to paid employment gives people income, experience and greater economic independence."
+    },
+    {
+      "type": "content",
+      "heading": "Technology and lifelong learning",
+      "text": "Technological change can alter the tasks performed in a workplace. Workers may need to learn new procedures, operate new equipment or develop digital skills. Education therefore should not be understood as something that ends with school. Training and lifelong learning can help workers adjust to changes in technology and demand."
+    },
+    {
+      "type": "content",
+      "heading": "Human capital and society",
+      "text": "Human-capital investment can create benefits for other people as well. An educated worker may share knowledge, a trained health professional can improve community health, and healthier children can participate more effectively in school. These spillover benefits help explain why public investment in education, healthcare and nutrition can be economically and socially important."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: The Two Workers",
+      "text": "Surya: Both workers have the same number of years of experience.\n\nArushi: But one has received training for the new equipment.\n\nVerma Sir: Experience and training are different forms of human-capital development. Their usefulness depends on the tasks the workers have to perform.\n\nSurya: So productivity depends on the fit between capability and work."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "Human capital is not just the number of years a person has worked. Relevant knowledge, skills, health and experience all contribute to productive capability."
+    },
+    {
+      "type": "content",
+      "heading": "Comic Story: A Seasonal Job",
+      "text": "Divya: The worker has a job during harvest but no agricultural work is available afterward.\n\nAnsh: That is different from having no willingness to work.\n\nVerma Sir: Correct. Seasonal employment can leave workers without work during part of the year. Diversifying employment opportunities can reduce this insecurity."
+    },
+    {
+      "type": "content",
+      "heading": "Lesson from the comic",
+      "text": "The timing of employment matters. Seasonal unemployment can occur even when a person is willing and able to work."
     },
     {
       "type": "content",
