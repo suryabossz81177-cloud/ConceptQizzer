@@ -193,13 +193,19 @@ async function loadChapter(key){
 
     executeChapter(window);
 
-    const chapter =
-      window.CQ_LOADED_CHAPTER;
+    let chapter = window.CQ_LOADED_CHAPTER;
 
-    if (
-      !chapter ||
-      !Array.isArray(chapter.sections)
-    ) {
+    /*
+      IMPORTANT: Different chapter packages have historically used
+      sections, lessons, topics, units, blocks, contentSections or even
+      direct content objects.  The old loader rejected everything that
+      did not contain `sections`, which is why valid chapters appeared
+      empty/invalid. Normalize every supported shape into sections while
+      preserving the original data.
+    */
+    chapter = normalizeChapterData(chapter, entry);
+
+    if (!chapter || !Array.isArray(chapter.sections) || !chapter.sections.length) {
       throw new Error(
         "Chapter data is empty or invalid: " + entry.title
       );
@@ -300,6 +306,62 @@ function showNotesLoadError(message){
 
 /* Start the permanent chapter loader. */
 loadChapter(chapterKey);
+
+function normalizeChapterData(raw, entry){
+
+  if(!raw || typeof raw !== "object") return null;
+
+  const chapter = raw;
+
+  if(!chapter.title && entry && entry.title) chapter.title = entry.title;
+  if(!chapter.description && entry && entry.description) chapter.description = entry.description;
+
+  const candidates = [
+    chapter.sections,
+    chapter.lessons,
+    chapter.topics,
+    chapter.units,
+    chapter.contentSections
+  ];
+
+  let sections = candidates.find(v => Array.isArray(v) && v.length);
+
+  if(!sections && Array.isArray(chapter.blocks) && chapter.blocks.length){
+    sections = [{ title:"", blocks:chapter.blocks }];
+  }
+
+  if(!sections && Array.isArray(chapter.contentBlocks) && chapter.contentBlocks.length){
+    sections = [{ title:"", blocks:chapter.contentBlocks }];
+  }
+
+  if(!sections && chapter.content !== undefined && chapter.content !== null){
+    sections = [{ title:"", content:chapter.content }];
+  }
+
+  /* Some older files keep the educational fields directly on ChapterData. */
+  if(!sections){
+    const directKeys = [
+      "explanation","conceptExpansion","definitions","keyPoints",
+      "figures","maps","tables","data","workedExamples",
+      "examples","activities","practice","questions","timeline",
+      "importantPoints","keyTerms"
+    ];
+    const direct = [];
+    for(const key of directKeys){
+      const value = chapter[key];
+      if(value === undefined || value === null || value === "") continue;
+      if(Array.isArray(value)) direct.push(...value.map(v =>
+        typeof v === "object" ? v : {type:"paragraph",text:String(v)}
+      ));
+      else if(typeof value === "object") direct.push(value);
+      else direct.push({type:"paragraph",title:key,text:String(value)});
+    }
+    if(direct.length) sections = [{title:"",blocks:direct}];
+  }
+
+  chapter.sections = Array.isArray(sections) ? sections : [];
+  return chapter;
+}
 
 function renderChapter(chapter){
 
@@ -421,102 +483,71 @@ function normalizeUnitBlocks(unit){
     return [{type:"paragraph",text:String(unit)}];
   }
 
-  /*
-    IMPORTANT: Some ConceptQizzer chapters store their actual lesson
-    content directly on each section instead of inside `blocks`.
-    Example:
-      { title, explanation, conceptExpansion, definitions,
-        keyPoints, figures, workedExamples, practice, ... }
-
-    The old renderer treated those sections as a generic object, so
-    the page created large coloured cards but had no learner-facing
-    content inside them. Convert those direct fields into the same
-    renderer-compatible block format used by block-based chapters.
-  */
   const direct=[];
 
-  if(unit.explanation !== undefined && unit.explanation !== null && String(unit.explanation).trim() !== ""){
-    direct.push({type:"concept",title:"Concept Explained",text:unit.explanation});
+  /* Prefer an explicit block array. */
+  for(const key of ["blocks","scienceBlocks","contentBlocks"]){
+    if(Array.isArray(unit[key]) && unit[key].length) return unit[key];
   }
 
+  if(Array.isArray(unit.content) && unit.content.length) return unit.content;
+
+  if(unit.type || unit.kind){
+    /* A typed object is already a renderable block. */
+    return [unit];
+  }
+
+  /* Convert direct educational fields into renderable blocks instead of
+     dropping them into an opaque object card. */
+  if(unit.explanation) direct.push({type:"concept",title:"Concept Explained",text:unit.explanation});
+
   if(Array.isArray(unit.conceptExpansion)){
-    unit.conceptExpansion.forEach((item,i)=>{
-      if(item === null || item === undefined || String(item).trim() === "") return;
-      direct.push({type:"paragraph",title:i === 0 ? "Concept Expansion" : "",text:typeof item === "object" ? (item.text ?? item.content ?? item.description ?? JSON.stringify(item)) : String(item)});
+    unit.conceptExpansion.forEach((v,i)=>{
+      if(v && typeof v === "object") direct.push(v);
+      else if(v !== undefined && v !== null && String(v).trim()) direct.push({type:"paragraph",title:i===0?"Concept Expansion":"",text:String(v)});
     });
   }
 
   if(Array.isArray(unit.definitions)){
-    unit.definitions.forEach((item)=>{
-      if(!item || typeof item !== "object") return;
-      const term=item.term || item.title || item.name || "Definition";
-      const definition=item.definition ?? item.text ?? item.content ?? item.description ?? "";
-      if(String(definition).trim() !== "") direct.push({type:"definition",title:String(term),text:String(definition)});
+    unit.definitions.forEach(v=>{
+      if(!v) return;
+      if(typeof v !== "object") direct.push({type:"definition",text:String(v)});
+      else direct.push({type:"definition",title:v.term||v.title||v.name||"Definition",text:v.definition??v.text??v.content??v.description??""});
     });
   }
 
-  if(Array.isArray(unit.keyPoints)){
-    direct.push({type:"keypoint",title:"Key Points",items:unit.keyPoints});
+  for(const key of ["keyPoints","importantPoints"]){
+    if(Array.isArray(unit[key]) && unit[key].length) direct.push({type:"keypoint",title:key==="keyPoints"?"Key Points":"Important Points",items:unit[key]});
   }
 
-  if(Array.isArray(unit.figures)){
-    unit.figures.forEach((item)=>{
-      if(!item || typeof item !== "object") return;
-      direct.push({type:"figure",title:item.title || item.caption || "Figure",image:item.image || item.src || item.url || "",html:item.html || item.svg || "",caption:item.caption || ""});
+  for(const key of ["figures","maps","tables","data","workedExamples","examples","activities","practice","questions","timeline"]){
+    const value=unit[key];
+    if(value===undefined || value===null || value==="") continue;
+    if(Array.isArray(value)) value.forEach(v=>{
+      if(v && typeof v === "object") direct.push(normalizeSpecialObject(v,key));
+      else direct.push({type:key==="maps"?"map":key==="figures"?"figure":key==="tables"?"table":key==="data"?"data":key==="practice"||key==="questions"?"practice":key==="activities"?"activity":key==="timeline"?"timeline":"example",text:String(v)});
     });
+    else if(typeof value === "object") direct.push(normalizeSpecialObject(value,key));
+    else direct.push({type:"paragraph",title:humanizeFieldName(key),text:String(value)});
   }
 
-  if(Array.isArray(unit.workedExamples)){
-    unit.workedExamples.forEach((item)=>{
-      if(!item || typeof item !== "object") return;
-      direct.push({type:"example",title:item.title || "Worked Example",question:item.question || "",text:item.text || item.explanation || "",steps:Array.isArray(item.steps) ? item.steps : (item.solution ? [item.solution] : []),answer:item.answer});
-    });
-  }
-
-  if(unit.practice && typeof unit.practice === "object"){
-    const questions=[];
-    Object.entries(unit.practice).forEach(([level,value])=>{
-      if(!Array.isArray(value)) return;
-      value.forEach(q=>{
-        if(q && typeof q === "object") questions.push({...q,difficulty:q.difficulty || level});
-        else if(q !== null && q !== undefined) questions.push({question:String(q),difficulty:level});
-      });
-    });
-    if(questions.length) direct.push({type:"practice",title:"Practice",questions});
-  }
-
-  if(Array.isArray(unit.commonMistakes) && unit.commonMistakes.length){
-    direct.push({type:"warning",title:"Common Mistakes",text:unit.commonMistakes.map(x=>typeof x === "object" ? (x.text ?? x.mistake ?? x.description ?? JSON.stringify(x)) : String(x)).join("\n")});
-  }
-
-  if(Array.isArray(unit.examPoints) && unit.examPoints.length){
-    direct.push({type:"examtip",title:"Exam Points",text:unit.examPoints.map(x=>typeof x === "object" ? (x.text ?? x.point ?? x.description ?? JSON.stringify(x)) : String(x)).join("\n")});
+  if(unit.content !== undefined && unit.content !== null && !Array.isArray(unit.content)){
+    if(typeof unit.content === "object") direct.push(unit.content);
+    else direct.push({type:"paragraph",title:unit.title||unit.heading||"",text:String(unit.content)});
   }
 
   if(direct.length) return direct;
 
-  if(Array.isArray(unit.blocks)) return unit.blocks;
-  if(Array.isArray(unit.scienceBlocks)) return unit.scienceBlocks;
-  if(Array.isArray(unit.contentBlocks)) return unit.contentBlocks;
-  if(Array.isArray(unit.content)) return unit.content;
+  return [{type:"generic",title:unit.title || unit.heading || unit.name || "",data:unit}];
+}
 
-  if(unit.type || unit.kind) return [unit];
-
-  if(unit.content !== undefined && unit.content !== null){
-    if(typeof unit.content === "object") return [unit.content];
-
-    return [{
-      type:"paragraph",
-      title:unit.title || unit.heading || "",
-      text:unit.content
-    }];
+function normalizeSpecialObject(value,key){
+  if(!value || typeof value !== "object") return {type:"paragraph",text:String(value)};
+  const copy=Object.assign({},value);
+  if(!copy.type && !copy.kind){
+    copy.type = key==="maps"?"map":key==="figures"?"figure":key==="tables"?"table":key==="data"?"data":key==="practice"||key==="questions"?"practice":key==="activities"?"activity":key==="timeline"?"timeline":"example";
   }
-
-  return [{
-    type:"generic",
-    title:unit.title || unit.heading || unit.name || "",
-    data:unit
-  }];
+  return copy;
 }
 
 function renderSections(sections){
@@ -744,17 +775,28 @@ function renderAnyValue(value,depth=0){
   }
 
   return Object.entries(value)
-    .filter(([key,val]) => !isRenderMetaField(key) && val !== undefined && val !== null && val !== "")
+    .filter(([key,val]) => {
+      if(isRenderMetaField(key)) return false;
+      if(["id","renderAs","render_as","renderStyle","render_style"].includes(key)) return false;
+      return val !== undefined && val !== null && val !== "";
+    })
     .map(([key,val])=>{
-    if(val === undefined || val === null || val === "") return "";
+      if(val === undefined || val === null || val === "") return "";
 
-    return `
-      <div class="cqAnyField">
-        <h5>${escapeRenderHTML(humanizeFieldName(key))}</h5>
-        ${renderAnyValue(val,depth+1)}
-      </div>
-    `;
-  }).join("");
+      /* Known visual payloads get their dedicated renderer inside generic data. */
+      const nk=normaliseRenderFieldKey(key);
+      if(["figures","figure","maps","map","geographyMap","geographymap"].includes(nk)) {
+        const arr=Array.isArray(val)?val:[val];
+        return arr.map((item,i)=>renderUniversalBlock(normalizeSpecialObject(item,nk.includes("map")?"maps":"figures"),i)).join("");
+      }
+
+      return `
+        <div class="cqAnyField">
+          <h5>${escapeRenderHTML(humanizeFieldName(key))}</h5>
+          ${renderAnyValue(val,depth+1)}
+        </div>
+      `;
+    }).join("");
 }
 
 function renderExtraBlockFields(block){
@@ -1398,8 +1440,19 @@ function renderUniversalBlockCore(block, blockIndex){
     return `<div class="cqBlock cqRawHTML">${block.content || block.html || ""}</div>`;
   }
 
+  /* ---------- GENERIC / DATA OBJECTS ---------- */
+  if(type === "generic" || type === "custom" || type === "object") {
+    const payload = block.data !== undefined ? block.data : block;
+    const payloadHTML = renderAnyValue(payload);
+    return `
+      <div class="cqBlock cqCustomContent">
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Content")}</h4>` : ""}
+        ${payloadHTML || "<p>Content is available but has no renderable fields.</p>"}
+      </div>`;
+  }
+
   /* ---------- UNKNOWN / CUSTOM ---------- */
-  /* Do not expose renderer/debug metadata such as id, data, Card Style, etc. */
+  /* Do not expose renderer/debug metadata such as id, Card Style, etc. */
   const nestedHTML = nestedBlocks
     ? nestedBlocks.map((item,i)=>renderUniversalBlock(item,i)).join("")
     : "";
@@ -2028,12 +2081,16 @@ window.location.href="notes.html";
 
 function updateProgress(chapter){
 
-const total = chapter.sections.length;
+const sections = Array.isArray(chapter && chapter.sections) ? chapter.sections : [];
+const total = sections.length;
 
-const completed = chapter.sections.filter(
-section => section.blocks && section.blocks.length > 0
-).length;
+if(!total){
+  progressText.textContent = "0%";
+  progressFill.style.width = "0%";
+  return;
+}
 
+const completed = sections.filter(section => normalizeUnitBlocks(section).length > 0).length;
 const percent = Math.round((completed / total) * 100);
 
 progressText.textContent = percent + "%";
