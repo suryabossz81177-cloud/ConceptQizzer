@@ -6,6 +6,40 @@
   =================================================*/
 window.ChapterRegistry = [
   /* =========================
+   CLASS 9 - BIOLOGY
+   ========================= */
+
+{
+  id: "class9-biology-the-fundamental-unit-of-life",
+  class: 9,
+  subject: "Biology",
+  chapterNumber: 1,
+  title: "The Fundamental Unit of Life",
+  file: "js/notes/class9/biology/the-fundamental-unit-of-life.js",
+  enabled: true
+},
+
+{
+  id: "class9-biology-tissues",
+  class: 9,
+  subject: "Biology",
+  chapterNumber: 2,
+  title: "Tissues",
+  file: "js/notes/class9/biology/tissues.js",
+  enabled: true
+},
+
+{
+  id: "class9-biology-improvement-in-food-resources",
+  class: 9,
+  subject: "Biology",
+  chapterNumber: 3,
+  title: "Improvement in Food Resources",
+  file: "js/notes/class9/biology/improvement-in-food-resources.js",
+  enabled: true
+},
+  
+  /* =========================
    CLASS 9 - CHEMISTRY
    ========================= */
 
