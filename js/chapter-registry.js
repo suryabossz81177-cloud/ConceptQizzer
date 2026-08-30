@@ -6,6 +6,46 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class9-economics-the-story-of-village-palampur",
+  class: 9,
+  subject: "Economics",
+  chapterNumber: 1,
+  title: "The Story of Village Palampur",
+  file: "js/notes/class9/economics/the-story-of-village-palampur.js",
+  enabled: true
+},
+  
+{
+  id: "class9-economics-people-as-resource",
+  class: 9,
+  subject: "Economics",
+  chapterNumber: 2,
+  title: "People as Resource",
+  file: "js/notes/class9/economics/people-as-resource.js",
+  enabled: true
+},
+  
+{
+  id: "class9-economics-poverty-as-a-challenge",
+  class: 9,
+  subject: "Economics",
+  chapterNumber: 3,
+  title: "Poverty as a Challenge",
+  file: "js/notes/class9/economics/poverty-as-a-challenge.js",
+  enabled: true
+},
+  
+{
+  id: "class9-economics-food-security-in-india",
+  class: 9,
+  subject: "Economics",
+  chapterNumber: 4,
+  title: "Food Security in India",
+  file: "js/notes/class9/economics/food-security-in-india.js",
+  enabled: true
+},
+  
+  {
   id: "class9-political-science-what-is-democracy-why-democracy",
   class: 9,
   subject: "Political Science",
