@@ -1,5 +1,5 @@
 window.chapter = {
-  "id": "class9-it-data-entry-keyboarding-skills",
+  "id": "9-it-data-entry-keyboarding-skills",
   "class": 9,
   "subject": "Information Technology",
   "title": "Data Entry & Keyboarding Skills",
