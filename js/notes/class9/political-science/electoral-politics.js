@@ -1,6 +1,6 @@
 /* Class 9 Political Science — Electoral Politics — continuous chapter data */
 /* No maps are included, as requested. Render content sequentially without nested chapter sections. */
-const chapter = {
+const ChapterData = {
   "id": "class9-political-science-electoral-politics",
   "class": 9,
   "subject": "Political Science",
@@ -3954,4 +3954,4 @@ const chapter = {
   ]
 };
 
-export default chapter;
+

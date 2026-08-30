@@ -1,6 +1,6 @@
 /* Class 9 Political Science — What is Democracy? Why Democracy? — continuous chapter data */
 /* No maps are included, as requested. Render content sequentially without nested chapter sections. */
-const chapter = {
+const ChapterData = {
   "id": "class9-political-science-what-is-democracy-why-democracy",
   "class": 9,
   "subject": "Political Science",
@@ -3873,4 +3873,4 @@ const chapter = {
   ]
 };
 
-export default chapter;
+

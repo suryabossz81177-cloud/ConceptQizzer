@@ -1,6 +1,6 @@
 /* Class 9 Political Science — Democratic Rights — continuous chapter data */
 /* No maps are included, as requested. Render content sequentially without nested chapter sections. */
-const chapter = {
+const ChapterData = {
   "id": "class9-political-science-democratic-rights",
   "class": 9,
   "subject": "Political Science",
@@ -3954,4 +3954,4 @@ const chapter = {
   ]
 };
 
-export default chapter;
+
