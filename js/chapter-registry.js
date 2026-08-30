@@ -6,6 +6,56 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class9-history-the-french-revolution",
+  class: 9,
+  subject: "History",
+  chapterNumber: 1,
+  title: "The French Revolution",
+  file: "js/notes/class9/history/the-french-revolution.js",
+  enabled: true
+},
+
+{
+  id: "class9-history-socialism-in-europe-and-the-russian-revolution",
+  class: 9,
+  subject: "History",
+  chapterNumber: 2,
+  title: "Socialism in Europe and the Russian Revolution",
+  file: "js/notes/class9/history/socialism-in-europe-and-the-russian-revolution.js",
+  enabled: true
+},
+
+{
+  id: "class9-history-nazism-and-the-rise-of-hitler",
+  class: 9,
+  subject: "History",
+  chapterNumber: 3,
+  title: "Nazism and the Rise of Hitler",
+  file: "js/notes/class9/history/nazism-and-the-rise-of-hitler.js",
+  enabled: true
+},
+
+{
+  id: "class9-history-forest-society-and-colonialism",
+  class: 9,
+  subject: "History",
+  chapterNumber: 4,
+  title: "Forest Society and Colonialism",
+  file: "js/notes/class9/history/forest-society-and-colonialism.js",
+  enabled: true
+},
+
+{
+  id: "class9-history-pastoralists-in-the-modern-world",
+  class: 9,
+  subject: "History",
+  chapterNumber: 5,
+  title: "Pastoralists in the Modern World",
+  file: "js/notes/class9/history/pastoralists-in-the-modern-world.js",
+  enabled: true
+},
+  
+  {
     "id": "class9-physics-motion",
     "class": 9,
     "subject": "Physics",
