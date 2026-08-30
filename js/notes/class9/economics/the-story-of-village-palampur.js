@@ -1,5 +1,3 @@
-/* ConceptQizzer — Class 9 Economics — clean continuous chapter */
-/* Structured like the working Political Science chapter format. No nested sections and no extended concept-note filler. */
 window.ChapterData = {
   "id": "class9-economics-the-story-of-village-palampur",
   "class": 9,
@@ -7,328 +5,103 @@ window.ChapterData = {
   "chapterNumber": 1,
   "title": "The Story of Village Palampur",
   "enabled": true,
-  "formatVersion": "continuous-v3",
-  "intro": "Palampur is a fictional village used by NCERT to explain how production takes place in a rural economy. Through farming, land, labour, capital, irrigation, technology, credit and non-farm activities, the chapter shows how different resources are combined to produce goods and services.",
-  "sections": [
+  "formatVersion": "continuous-detailed-v6",
+  "blocks": [
     {
-      "id": "continuous-chapter",
-      "title": "",
-      "blocks": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "The Story of Village Palampur"
+      "type": "content",
+      "heading": "The village and its economic life",
+      "text": "Palampur is presented as a village where farming is the main activity, while several other activities are carried out alongside cultivation. The story helps us understand a basic economic question: how do people organise scarce resources to produce goods and services? The village has land, labour, tools, machines, buildings and knowledge. These resources are combined to produce crops, milk, transport services, shop goods and other services. Because resources are limited, producers have to decide how to use them efficiently."
     },
     {
-      "type": "paragraph",
-      "text": "Palampur is a fictional village used by NCERT to explain how production takes place in a rural economy. Through farming, land, labour, capital, irrigation, technology, credit and non-farm activities, the chapter shows how different resources are combined to produce goods and services."
+      "type": "content",
+      "heading": "Factors of production",
+      "text": "Production requires a combination of resources. Land includes the fields and other natural resources used in production. Labour means the physical and mental effort of people. Physical capital includes tools, machines, buildings and equipment used repeatedly in production. Working capital includes raw materials and money in hand that are used up or transformed during production. Human knowledge and organisation also influence how effectively these resources are combined. A tractor alone cannot produce a crop: it needs land, an operator, fuel and a production plan."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Read the situation carefully, connect it with the economic idea being introduced, and try to explain the reason before checking the next point."
+      "type": "content",
+      "heading": "Farming in Palampur",
+      "text": "Farming is the principal production activity. Farmers cultivate land, arrange labour and use capital to obtain crops. The amount of land available for cultivation is limited, so farmers try to increase the output obtained from the same area. This makes the idea of multiple cropping important. If irrigation and other conditions permit, the same field can be used for more than one crop during a year. The annual production from the fixed area can therefore be increased without acquiring additional land."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "The village of Palampur"
+      "type": "content",
+      "heading": "Multiple cropping",
+      "text": "Multiple cropping means growing more than one crop on the same piece of land during a year. It is an important way of increasing production when the cultivated area cannot easily be expanded. Irrigation is especially important because crops grown in different seasons require a dependable supply of water. The possibility of using land repeatedly also depends on soil conditions, seeds, labour, technology and the timing of agricultural operations."
     },
     {
-      "type": "paragraph",
-      "text": "Palampur is presented as a well-connected village whose main activity is farming. The example is not meant to describe every Indian village exactly; it is a simplified model that helps us understand production and the choices made by producers."
+      "type": "content",
+      "heading": "Modern farming methods",
+      "text": "Modern farming methods can raise productivity by combining improved seeds, irrigation, fertilisers, pesticides, machinery and better farming practices. Improved seeds may produce higher yields under suitable conditions, but they generally require complementary inputs. Chemical fertilisers can supply nutrients, while pesticides can control particular pests. Machines can reduce the time required for ploughing, sowing, harvesting and threshing. These methods can increase output per unit of land, but they also increase the need for working capital and careful management."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "If the amount of cultivated land cannot be increased easily, how can farmers produce more from the same land?"
+      "type": "content",
+      "heading": "Small and large farmers",
+      "text": "Farmers do not all have equal access to land and capital. A farmer with a small plot may have little surplus after meeting household consumption needs. Such a farmer may need to borrow money to purchase seeds, fertiliser, irrigation services or other inputs. A larger farmer may generate a larger marketable surplus and may have more savings to finance the next production cycle. The difference in initial resources can therefore influence the choices available to different producers."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Production and the factors of production"
+      "type": "content",
+      "heading": "Surplus and sale",
+      "text": "After a farmer meets household requirements, the remaining output can be sold. This surplus provides cash for buying inputs, paying expenses and purchasing other goods and services. The size of the surplus depends on the amount produced, the family's consumption needs, prices and production costs. A good harvest does not automatically mean high profit: revenue depends on the selling price, while profit depends on revenue after costs are considered."
     },
     {
-      "type": "paragraph",
-      "text": "Production means creating goods and services that satisfy human wants. A farmer produces wheat or vegetables, a dairy worker produces milk, and a shopkeeper provides services to customers. Production requires the organised use of different inputs."
+      "type": "content",
+      "heading": "Labour and wages",
+      "text": "Cultivation requires labour for preparing land, sowing, transplanting, weeding, irrigation, harvesting and other tasks. Family members may provide labour without receiving a separate wage. Landless workers may work for wages on farms. The demand for labour varies with the agricultural season, so employment can be seasonal. Wage rates are influenced by the availability of workers, the demand for labour and local economic conditions."
     },
     {
-      "type": "paragraph",
-      "text": "The four broad requirements of production are land, labour, physical capital and human effort or enterprise. Land includes natural resources; labour is the work performed by people; physical capital includes tools, machines, buildings and raw materials; enterprise involves organising these resources and taking production decisions."
+      "type": "content",
+      "heading": "Credit and working capital",
+      "text": "Working capital is needed continuously during production. A farmer may need cash for seeds, fertiliser, pesticides, fuel, hired labour and repairs before the final crop is sold. If savings are insufficient, borrowing may be necessary. The cost and conditions of credit matter because interest payments reduce the amount of income left after production. Access to affordable and reliable credit can therefore affect the ability to adopt productive methods."
     },
     {
-      "type": "box",
-      "kind": "definition",
-      "title": "Production",
-      "text": "Production is the process of combining inputs to produce goods and services."
+      "type": "content",
+      "heading": "Non-farm activities",
+      "text": "Farming is not the only source of economic activity in a village. Dairy, small-scale manufacturing, shopkeeping and transport can provide employment and income. Dairy activities use animals, feed, labour and market connections to produce milk. Shopkeepers buy goods and sell them to consumers. Transport services move people and goods. Small manufacturing may involve producing or processing goods with simple tools or machines. These activities create links among different producers and consumers."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Land is a fixed resource"
+      "type": "content",
+      "heading": "Markets and infrastructure",
+      "text": "Roads, transport, electricity, communication and markets connect a village to nearby towns and wider regions. Better connectivity can make it easier to buy agricultural inputs and sell output. Electricity can support irrigation pumps, shops and small production units. Market access can influence what farmers produce because expected demand and prices affect production decisions. Infrastructure therefore changes the economic possibilities available to a village."
     },
     {
-      "type": "paragraph",
-      "text": "In Palampur, the area under cultivation is practically fixed. This creates an important economic problem: farmers cannot simply keep adding land whenever they want more output. They therefore look for ways of using the existing land more intensively."
+      "type": "content",
+      "heading": "Efficiency, risk and sustainability",
+      "text": "Using resources efficiently means trying to obtain useful output without unnecessary waste. Efficiency does not mean using the maximum possible quantity of every input. It means selecting a suitable combination of resources for the desired output. Agriculture also involves risk from weather, pests, diseases, price changes and input costs. Long-term production requires attention to soil, water and other natural resources because excessive or inappropriate use can reduce future productive capacity."
     },
     {
-      "type": "paragraph",
-      "text": "The limitation of fixed land makes multiple cropping important. When the same piece of land is used to grow more than one crop during a year, total production from that land can rise without increasing its area."
+      "type": "content",
+      "heading": "Comic Story: The Broken Pump",
+      "text": "Surya: The farmer has good seeds and a tractor, so the crop should be guaranteed.\n\nAnsh: The irrigation pump is broken. Without water, the plan may fail.\n\nVerma Sir: Exactly. Production requires complementary inputs. Having one modern input does not remove the need for other essential resources.\n\nSurya: So the producer must think about the complete production process, not just one machine.\n\nVerma Sir: Correct."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Multiple cropping"
+      "type": "content",
+      "heading": "Comic Story: The Surplus Decision",
+      "text": "Prince: The farmer harvested more grain than the family needs.\n\nSurya: The extra output can be sold and the money can be used for the next crop.\n\nVerma Sir: Yes. Marketable surplus can provide cash for future production and household purchases.\n\nPrince: But the amount available for sale depends on both production and family consumption.\n\nVerma Sir: Exactly."
     },
     {
-      "type": "paragraph",
-      "text": "Multiple cropping means growing more than one crop on the same piece of land in a year. It depends on the availability of water, suitable seeds, labour, knowledge and the timing of different crops."
+      "type": "content",
+      "heading": "Comic Story: One Field, More Crops",
+      "text": "Arushi: The farmer cannot simply create more land.\n\nSurya: But if irrigation and seasonal conditions allow, the same field can produce more than one crop in a year.\n\nVerma Sir: That is the basic idea behind multiple cropping.\n\nArushi: So annual output can increase even when the physical area stays fixed.\n\nVerma Sir: Well understood."
     },
     {
-      "type": "paragraph",
-      "text": "Palampur's example shows that well-developed irrigation can make multiple cropping possible. A farmer may grow one crop after the harvest of another instead of leaving the field unused for a large part of the year."
+      "type": "content",
+      "heading": "Understanding production decisions",
+      "text": "The Palampur story shows that production is an organised process. A producer has to decide which resources to use, in what quantity and at what time. A farmer compares expected output with the costs and risks of different methods. A shopkeeper considers what consumers are likely to buy. A transport operator considers demand, fuel, maintenance and the availability of vehicles. Economics studies these choices because every resource has alternative uses."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "A simple cropping sequence",
-      "text": "A field may produce a rainy-season crop and then a winter crop. The exact crops depend on local soil, water, climate and market conditions."
+      "type": "content",
+      "heading": "Chapter summary",
+      "text": "The village economy demonstrates how land, labour and capital are combined to produce goods and services. Farming is the main activity, and multiple cropping and modern inputs can increase productivity on limited land. Differences in land ownership and savings affect farmers' access to capital and their ability to invest. Surplus can be sold to obtain income, while wages provide livelihood to agricultural workers. Dairy, manufacturing, shopkeeping and transport diversify village employment. Markets and infrastructure connect local production with wider economic activity. The central lesson is that production depends on the coordinated use of scarce resources and on the economic choices made by producers."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Irrigation changes production possibilities"
+      "type": "content",
+      "heading": "Important points",
+      "text": "Land is a fixed natural resource in the farming story; labour is human effort; physical capital includes tools and machines; working capital includes inputs and money used during production. Multiple cropping increases annual use of the same land. Modern farming methods can raise productivity but often require complementary inputs and greater working capital. Small farmers may have little surplus and may depend more heavily on credit. Non-farm activities diversify village employment and connect farming with other services. Revenue is not the same as profit because costs must be considered."
     },
     {
-      "type": "paragraph",
-      "text": "Reliable irrigation reduces dependence on uncertain rainfall. In the Palampur example, electricity and tubewells helped farmers obtain groundwater and irrigate fields more reliably than relying only on rainfall."
-    },
-    {
-      "type": "paragraph",
-      "text": "Irrigation is not just a technical facility. It changes what farmers can grow, how many crops they can grow, and how confidently they can plan production."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Modern farming methods"
-    },
-    {
-      "type": "paragraph",
-      "text": "Modern farming methods aim to raise yield per unit of land. High-yielding variety seeds, chemical fertilisers, pesticides, assured irrigation and farm machinery can increase production when they are used appropriately."
-    },
-    {
-      "type": "paragraph",
-      "text": "Modern methods also require greater expenditure. Seeds, fertilisers, pesticides, diesel, electricity and machines cost money. Therefore, access to capital can strongly influence who can adopt such methods."
-    },
-    {
-      "type": "box",
-      "kind": "important",
-      "title": "Yield",
-      "text": "Yield refers to the amount of crop produced on a given area of land. Increasing yield means producing more from the same amount of land."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Traditional and modern methods"
-    },
-    {
-      "type": "paragraph",
-      "text": "Traditional methods may use locally available seeds, organic manure and simpler tools. Modern methods can raise output substantially, but they may also increase dependence on purchased inputs and can create environmental concerns if resources are used carelessly."
-    },
-    {
-      "type": "paragraph",
-      "text": "The important economic lesson is that a production method should be judged by its output, cost, resource requirements and longer-term effects rather than by the label 'modern' alone."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Distribution of land"
-    },
-    {
-      "type": "paragraph",
-      "text": "Land is unequally distributed among farmers in the Palampur example. Some families cultivate very small plots, while a smaller number of families own or cultivate much larger areas."
-    },
-    {
-      "type": "paragraph",
-      "text": "Small farmers face a major capital constraint. After meeting basic consumption needs, they may have little money left to purchase seeds, fertilisers and other inputs. Larger farmers generally have greater scope to finance production from their own savings."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Labour and wages"
-    },
-    {
-      "type": "paragraph",
-      "text": "Family members often provide labour on farms. Farmers who do not have enough family labour may hire workers. The payment received by hired workers is a wage."
-    },
-    {
-      "type": "paragraph",
-      "text": "The availability of labour and the number of workers required vary with the crop and the production method. Machinery can reduce the need for some forms of manual labour while creating demand for workers who can operate or maintain equipment."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Capital: fixed and working"
-    },
-    {
-      "type": "paragraph",
-      "text": "Fixed capital includes tools, machines, buildings and equipment that can be used repeatedly. Working capital includes raw materials and money in hand that are used during the production process."
-    },
-    {
-      "type": "paragraph",
-      "text": "For a farmer, a tractor or tubewell is an example of fixed capital, while seeds, fertilisers and money needed for day-to-day expenses are examples of working capital."
-    },
-    {
-      "type": "box",
-      "kind": "definition",
-      "title": "Working capital",
-      "text": "Inputs such as raw materials and cash that are used up or tied up during production are called working capital."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Credit and borrowing"
-    },
-    {
-      "type": "paragraph",
-      "text": "Farmers sometimes need to borrow money before they receive income from the harvest. Credit can help them purchase inputs and continue production, but the interest charged on a loan affects the final cost of production."
-    },
-    {
-      "type": "paragraph",
-      "text": "The source of credit matters because formal loans generally operate through regulated institutions, while informal lenders may charge high interest or impose conditions that can make repayment difficult."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Selling the surplus"
-    },
-    {
-      "type": "paragraph",
-      "text": "After meeting household consumption needs, farmers may have a surplus of produce to sell. The income from the sale can be used to purchase goods, repay loans, save, or invest in the next production cycle."
-    },
-    {
-      "type": "paragraph",
-      "text": "The amount of surplus depends on farm size, yield, input costs, prices, household consumption and losses. A high harvest does not automatically mean a high profit if costs or debts are also high."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Non-farm activities"
-    },
-    {
-      "type": "paragraph",
-      "text": "Palampur is not dependent only on farming. Dairy, small-scale manufacturing, transport and shopkeeping provide examples of non-farm activities that create additional sources of income."
-    },
-    {
-      "type": "paragraph",
-      "text": "Diversification into non-farm activities can reduce dependence on a single agricultural source of income. It can also create services needed by farmers and households within the village."
-    },
-    {
-      "type": "box",
-      "kind": "example",
-      "title": "Dairy activity",
-      "text": "A family can keep cattle, obtain milk, sell part of it locally and use the income for household expenses. The activity requires animals, feed, labour and some working capital."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Small-scale manufacturing"
-    },
-    {
-      "type": "paragraph",
-      "text": "Small-scale manufacturing in a village may involve producing goods with simple tools and equipment. Such enterprises generally operate with limited capital and may depend on local demand."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Transport and shops"
-    },
-    {
-      "type": "paragraph",
-      "text": "Transport connects producers, consumers and markets. Shopkeepers provide goods close to households, while transport services allow people and products to move between villages and nearby towns."
-    },
-    {
-      "type": "comic",
-      "title": "Comic 1: Why the Same Land Produces More",
-      "intro": "Surya and Ansh compare two farming methods and discover why irrigation and multiple cropping matter.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "Why can't the farmer simply buy another field?"
-        },
-        {
-          "speaker": "Ansh",
-          "text": "The village has limited cultivated land, so using the existing field more intensively may be the practical choice."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "Exactly. Multiple cropping can increase total output from the same land when water and other inputs are available."
-        }
-      ]
-    },
-    {
-      "type": "comic",
-      "title": "Comic 2: The Small Farmer's Problem",
-      "intro": "A small farmer has to decide whether to borrow money for modern inputs.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "The new seeds may increase production, but I also need money for fertiliser and irrigation."
-        },
-        {
-          "speaker": "Ansh",
-          "text": "So higher output does not come without additional cost."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "Correct. Capital, risk and the ability to repay a loan are important parts of a farmer's decision."
-        }
-      ]
-    },
-    {
-      "type": "comic",
-      "title": "Comic 3: Beyond Farming",
-      "intro": "The students notice a dairy worker, a shopkeeper and a transport operator earning incomes in the same village.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "So the village economy is not only about crops."
-        },
-        {
-          "speaker": "Ansh",
-          "text": "Right. Non-farm activities provide goods, services and additional employment."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "A diverse rural economy can connect farming with many other activities."
-        }
-      ]
-    },
-    {
-      "type": "box",
-      "kind": "case",
-      "title": "Case Lab: Two Farmers",
-      "text": "Farmer A owns a larger plot and can finance inputs from savings. Farmer B cultivates a tiny plot and must borrow for inputs. Compare their access to capital, risk and likely ability to invest."
-    },
-    {
-      "type": "box",
-      "kind": "important",
-      "title": "Chapter takeaway",
-      "text": "Production depends on the combination of land, labour and capital. Fixed land encourages intensive use such as multiple cropping, while irrigation, technology, credit and non-farm activities influence the wider rural economy."
-    },
-    {
-      "type": "box",
-      "kind": "summary",
-      "title": "Chapter Summary",
-      "text": "Palampur is a simplified village model. Farming is its main activity, but dairy, manufacturing, transport and shops also contribute. The chapter explains fixed land, multiple cropping, irrigation, modern methods, unequal land distribution, labour, fixed and working capital, credit and rural diversification."
+      "type": "content",
+      "heading": "Key terms",
+      "text": "Production; land; labour; physical capital; working capital; fixed capital; multiple cropping; irrigation; productivity; surplus; marketable surplus; wages; credit; non-farm activity; dairy; manufacturing; transport; infrastructure; revenue; profit; risk; efficiency."
     }
-      ]
-    }
-  ],
-  "importantPoints": [],
-  "keyTerms": [],
-  "chapterSummary": "",
-  "description": "Palampur is a fictional village used by NCERT to explain how production takes place in a rural economy. Through farming, land, labour, capital, irrigation, technology, credit and non-farm activities, the chapter shows how different resources are combined to produce goods and services.",
+  ]
 };
 window.chapter = window.ChapterData;

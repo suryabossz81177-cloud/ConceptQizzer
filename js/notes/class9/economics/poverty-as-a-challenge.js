@@ -1,5 +1,3 @@
-/* ConceptQizzer — Class 9 Economics — clean continuous chapter */
-/* Structured like the working Political Science chapter format. No nested sections and no extended concept-note filler. */
 window.ChapterData = {
   "id": "class9-economics-poverty-as-a-challenge",
   "class": 9,
@@ -7,240 +5,88 @@ window.ChapterData = {
   "chapterNumber": 3,
   "title": "Poverty as a Challenge",
   "enabled": true,
-  "formatVersion": "continuous-v3",
-  "intro": "Poverty is not only a shortage of income. It affects the ability of people to secure food, clothing, shelter, education, healthcare and other basic needs. The chapter examines poverty measurement, vulnerable groups, social exclusion, vulnerability, regional differences and anti-poverty strategies.",
-  "sections": [
+  "formatVersion": "continuous-detailed-v6",
+  "blocks": [
     {
-      "id": "continuous-chapter",
-      "title": "",
-      "blocks": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "Poverty as a Challenge"
+      "type": "content",
+      "heading": "Understanding poverty",
+      "text": "Poverty is more than a shortage of money. It can involve inadequate food, unsafe housing, limited access to healthcare and education, insecure employment and vulnerability to sudden shocks. A household may have income above one threshold but still face serious deprivation in another area. For this reason, economists and policymakers use income or consumption measures together with broader indicators of living conditions."
     },
     {
-      "type": "paragraph",
-      "text": "Poverty is not only a shortage of income. It affects the ability of people to secure food, clothing, shelter, education, healthcare and other basic needs. The chapter examines poverty measurement, vulnerable groups, social exclusion, vulnerability, regional differences and anti-poverty strategies."
+      "type": "content",
+      "heading": "Poverty line",
+      "text": "A poverty line is a threshold used to identify people whose level of consumption or income falls below a specified minimum standard under a particular method of measurement. It is a statistical tool rather than a complete description of poverty. The threshold must be interpreted in relation to prices, consumption needs and the method used to estimate resources available to households."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Read the situation carefully, connect it with the economic idea being introduced, and try to explain the reason before checking the next point."
+      "type": "content",
+      "heading": "Poverty and deprivation",
+      "text": "Low income can restrict a family's ability to obtain food, clothing, housing, education and healthcare. Lack of access to public facilities can make the situation worse because essential services may then have to be purchased privately. Social exclusion can also limit access to opportunities and institutions. Poverty therefore has economic, social and human dimensions."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Understanding poverty"
+      "type": "content",
+      "heading": "Vulnerable groups",
+      "text": "Some groups are more exposed to poverty because their employment is irregular, wages are low, assets are limited or social disadvantages restrict opportunities. Landless rural labourers, casual workers and households dependent on seasonal employment can be especially vulnerable to income shocks. Urban workers in informal occupations may also face unstable earnings and limited social protection."
     },
     {
-      "type": "paragraph",
-      "text": "Poverty describes a situation in which people are unable to secure the resources needed for a minimum acceptable standard of living. Its effects can be economic, social and human."
+      "type": "content",
+      "heading": "Intergenerational poverty",
+      "text": "Poverty can persist across generations when children grow up with inadequate nutrition, interrupted schooling, poor healthcare and limited access to productive assets. A child who leaves school early may enter low-paid work and have fewer opportunities as an adult. Policies that support education, health and livelihood security can weaken this cycle."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "If two families have the same income but very different access to healthcare, schooling and safe housing, can income alone describe their poverty equally well?"
+      "type": "content",
+      "heading": "Economic growth and poverty reduction",
+      "text": "Economic growth can reduce poverty when it creates productive employment, raises incomes and expands opportunities. Growth also increases government revenue, which can support public services. However, growth alone does not automatically reach every household. The pattern of growth, distribution of opportunities, access to education and the availability of social protection influence how strongly growth affects poverty."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "The poverty line"
+      "type": "content",
+      "heading": "Employment and livelihoods",
+      "text": "Stable employment is an important route out of poverty. Regular wages help households plan consumption and save for future needs. Public employment programmes can provide income support during periods when private employment is insufficient. Self-employment can also generate livelihoods when people have access to skills, credit, markets and productive assets."
     },
     {
-      "type": "paragraph",
-      "text": "A poverty line is a threshold used to identify people whose level of consumption or income falls below a specified minimum. It is a measurement tool, not a complete description of every aspect of poverty."
+      "type": "content",
+      "heading": "Public action and implementation",
+      "text": "Anti-poverty policies depend not only on their design but also on implementation. A programme may fail to help intended beneficiaries if people lack information, eligibility records are inaccurate, procedures are difficult or delivery is delayed. Transparency, monitoring, local participation and accountability can improve implementation. Effective poverty reduction therefore requires both resources and institutions capable of delivering them."
     },
     {
-      "type": "box",
-      "kind": "definition",
-      "title": "Poverty line",
-      "text": "A poverty line is a benchmark used to identify people whose resources or consumption are below a defined minimum level."
+      "type": "content",
+      "heading": "Comic Story: The Number and the Story",
+      "text": "Surya: The poverty percentage has changed, so now we know everything about poverty.\n\nAnsh: It tells us an important pattern, but it does not tell us every detail about who remains poor or how severe their deprivation is.\n\nVerma Sir: Correct. Statistics need interpretation and should be considered with information about employment, health, education and living conditions."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Poverty measurement"
+      "type": "content",
+      "heading": "Comic Story: School or Work",
+      "text": "Arushi: The household needs income immediately, but the child is doing well at school.\n\nSurya: Leaving school may solve an immediate problem but reduce future opportunities.\n\nVerma Sir: That is one way poverty can reproduce itself across generations.\n\nArushi: So protecting education can be part of long-term poverty reduction.\n\nVerma Sir: Exactly."
     },
     {
-      "type": "paragraph",
-      "text": "Poverty estimates have historically used consumption expenditure and other indicators to assess whether households can meet specified minimum requirements."
+      "type": "content",
+      "heading": "Comic Story: The Missing Information",
+      "text": "Divya: A support programme exists, but people do not know how to apply.\n\nSurya: Then a programme can exist on paper without reaching every intended household.\n\nVerma Sir: Awareness, accessibility and accountable delivery are essential parts of effective public policy.\n\nDivya: So implementation affects the real outcome.\n\nVerma Sir: Yes."
     },
     {
-      "type": "paragraph",
-      "text": "A poverty ratio shows the proportion of the population living below the poverty line according to the method and reference period used. Figures must always be read with their year, method and population coverage."
+      "type": "content",
+      "heading": "Measuring progress carefully",
+      "text": "A fall in the proportion of people below a specified poverty line is useful evidence of progress, but it should not be interpreted as proof that all forms of deprivation have disappeared. Analysts may also examine nutrition, schooling, health, housing, employment and access to services. Different measures answer different questions. Good economic reasoning therefore asks both what a statistic measures and what it leaves outside the measure."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Poverty is multidimensional"
+      "type": "content",
+      "heading": "Reducing vulnerability",
+      "text": "A household can remain vulnerable even when it is temporarily above a poverty threshold. An illness, crop failure, job loss or price increase can push a household into hardship. Savings, insurance, diversified livelihoods, affordable credit and reliable public services can reduce the impact of such shocks. Reducing vulnerability is therefore an important part of improving economic security."
     },
     {
-      "type": "paragraph",
-      "text": "Income is important, but poverty can also involve inadequate schooling, poor health, insecure housing, lack of sanitation, limited access to services and vulnerability to shocks."
+      "type": "content",
+      "heading": "Chapter summary",
+      "text": "Poverty involves deprivation and insecurity as well as low income. The poverty line is a statistical threshold used for measurement, but poverty has many dimensions that require broader indicators. Vulnerability is influenced by employment, assets, education, health and social circumstances. Poverty can persist across generations when children lack opportunities to build human capital. Economic growth, employment, public services and targeted programmes can contribute to poverty reduction, but implementation and accountability determine whether benefits reach intended households. Understanding poverty requires both statistical measurement and attention to real living conditions."
     },
     {
-      "type": "paragraph",
-      "text": "A multidimensional approach therefore asks not only how much money a household has, but also whether people can achieve essential human capabilities and access basic services."
+      "type": "content",
+      "heading": "Important points",
+      "text": "Poverty is multidimensional. The poverty line is a measurement tool, not a complete description of deprivation. Vulnerable households face a greater risk of falling into poverty after shocks. Education and health can interrupt intergenerational poverty. Employment and productive livelihoods are central to income security. Growth can help reduce poverty, but its benefits depend on employment and access to opportunities. Effective implementation, transparency and accountability matter in anti-poverty programmes."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Vulnerable groups"
-    },
-    {
-      "type": "paragraph",
-      "text": "Certain groups face a higher risk of poverty because of insecure employment, limited assets, low wages, social disadvantage or dependence on seasonal work. Rural landless labourers and casual workers are examples discussed in the poverty context."
-    },
-    {
-      "type": "paragraph",
-      "text": "Vulnerability can also change over time. A household just above a poverty threshold may fall below it after illness, job loss, crop failure or another major shock."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Social exclusion"
-    },
-    {
-      "type": "paragraph",
-      "text": "Social exclusion refers to processes through which individuals or groups are prevented from fully participating in social, economic or political life. It can reinforce poverty by limiting opportunities."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Vulnerability to poverty"
-    },
-    {
-      "type": "paragraph",
-      "text": "Vulnerability means the greater probability that a person or household may become poor in the future. It depends on assets, education, employment, social support and exposure to risks."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Rural and urban dimensions"
-    },
-    {
-      "type": "paragraph",
-      "text": "The causes and forms of poverty can differ between rural and urban areas. Rural poverty may be associated with landlessness, low agricultural productivity and seasonal employment, while urban poverty can involve insecure informal work, low wages and high living costs."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Causes of poverty"
-    },
-    {
-      "type": "paragraph",
-      "text": "Poverty has multiple causes. Limited employment opportunities, unequal access to assets, low productivity, inadequate human capital and historical patterns of development can contribute to persistent poverty."
-    },
-    {
-      "type": "paragraph",
-      "text": "Economic growth can create opportunities, but growth alone does not guarantee that every household will benefit equally. Distribution, access to services and the nature of employment also matter."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Anti-poverty strategy"
-    },
-    {
-      "type": "paragraph",
-      "text": "An effective anti-poverty strategy combines opportunities for income generation with programmes that improve access to basic services and protect vulnerable households."
-    },
-    {
-      "type": "paragraph",
-      "text": "Public policy can address poverty through employment opportunities, rural development, education, healthcare, food support, social protection and targeted programmes."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Why public action matters"
-    },
-    {
-      "type": "paragraph",
-      "text": "Poor households may have too few resources to invest in education, healthcare or productive assets. Public intervention can help reduce these constraints and improve the conditions needed for long-term mobility."
-    },
-    {
-      "type": "comic",
-      "title": "Comic 1: What Does the Number Tell Us?",
-      "intro": "Surya and Ansh see a poverty statistic in a report.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "Does this percentage tell us everything about poverty?"
-        },
-        {
-          "speaker": "Ansh",
-          "text": "It tells us how many people fall below a particular measurement threshold."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "Correct. Poverty is broader than one number; health, education, housing and vulnerability also matter."
-        }
-      ]
-    },
-    {
-      "type": "comic",
-      "title": "Comic 2: One Shock, Big Impact",
-      "intro": "A family loses income after a worker becomes ill.",
-      "dialogue": [
-        {
-          "speaker": "Arushi",
-          "text": "We were managing before the illness, but now medical expenses and lost wages are a problem."
-        },
-        {
-          "speaker": "Divya",
-          "text": "So a household can become vulnerable even if it was not poor earlier."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "Exactly. Vulnerability measures the risk of falling into poverty."
-        }
-      ]
-    },
-    {
-      "type": "comic",
-      "title": "Comic 3: Opportunity Matters",
-      "intro": "A student compares two neighbourhoods with very different access to schools and transport.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "Both families want better jobs, but their opportunities are not the same."
-        },
-        {
-          "speaker": "Ansh",
-          "text": "Access to education and services can affect future income."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "That is why poverty is also studied through capabilities and opportunities."
-        }
-      ]
-    },
-    {
-      "type": "box",
-      "kind": "case",
-      "title": "Case Lab: Two Families",
-      "text": "Family A has slightly higher income but poor access to healthcare and sanitation. Family B has lower income but better public services. Explain why a multidimensional view can reveal differences that income alone misses."
-    },
-    {
-      "type": "box",
-      "kind": "important",
-      "title": "Exam idea",
-      "text": "Do not define poverty only as 'lack of money'. Explain the minimum standard of living, poverty measurement, vulnerability and the wider deprivation of opportunities and basic services."
-    },
-    {
-      "type": "box",
-      "kind": "summary",
-      "title": "Chapter Summary",
-      "text": "Poverty is measured using a defined benchmark such as a poverty line, but poverty is multidimensional. The chapter explains measurement, vulnerable groups, social exclusion, vulnerability, rural and urban dimensions, causes of poverty and the role of public anti-poverty strategies."
+      "type": "content",
+      "heading": "Key terms",
+      "text": "Poverty; poverty line; deprivation; vulnerability; social exclusion; human capital; casual employment; informal work; intergenerational poverty; economic growth; employment; social protection; public services; poverty ratio; livelihood; inequality."
     }
-      ]
-    }
-  ],
-  "importantPoints": [],
-  "keyTerms": [],
-  "chapterSummary": "",
-  "description": "Poverty is not only a shortage of income. It affects the ability of people to secure food, clothing, shelter, education, healthcare and other basic needs. The chapter examines poverty measurement, vulnerable groups, social exclusion, vulnerability, regional differences and anti-poverty strategies.",
+  ]
 };
 window.chapter = window.ChapterData;

@@ -1,5 +1,3 @@
-/* ConceptQizzer — Class 9 Economics — clean continuous chapter */
-/* Structured like the working Political Science chapter format. No nested sections and no extended concept-note filler. */
 window.ChapterData = {
   "id": "class9-economics-food-security-in-india",
   "class": 9,
@@ -7,245 +5,93 @@ window.ChapterData = {
   "chapterNumber": 4,
   "title": "Food Security in India",
   "enabled": true,
-  "formatVersion": "continuous-v3",
-  "intro": "Food security exists when people have enough food available, can access it and can afford it. The chapter examines hunger, vulnerable groups, India's foodgrain policy, buffer stocks, minimum support price, the Public Distribution System and the role of cooperatives.",
-  "sections": [
+  "formatVersion": "continuous-detailed-v6",
+  "blocks": [
     {
-      "id": "continuous-chapter",
-      "title": "",
-      "blocks": [
-    {
-      "type": "heading",
-      "level": 1,
-      "text": "Food Security in India"
+      "type": "content",
+      "heading": "Meaning of food security",
+      "text": "Food security means that people have reliable access to sufficient, safe and nutritious food. Three connected ideas are important: availability of food, access to food and affordability. Food may exist in markets but remain inaccessible to a household with very low purchasing power. A household may also have purchasing power but face difficulty if supply is disrupted. Food security therefore connects production, markets, incomes, prices and public policy."
     },
     {
-      "type": "paragraph",
-      "text": "Food security exists when people have enough food available, can access it and can afford it. The chapter examines hunger, vulnerable groups, India's foodgrain policy, buffer stocks, minimum support price, the Public Distribution System and the role of cooperatives."
+      "type": "content",
+      "heading": "Availability, access and affordability",
+      "text": "Availability depends on domestic production, imports and public stocks. Access depends on whether households can obtain food through markets, their own production or public distribution. Affordability depends on income and prices. These dimensions interact: a rise in food prices can reduce affordability even when physical supplies are adequate. Food security policy therefore cannot focus on production alone."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Read the situation carefully, connect it with the economic idea being introduced, and try to explain the reason before checking the next point."
+      "type": "content",
+      "heading": "Who is vulnerable to food insecurity",
+      "text": "Food insecurity can be especially serious for households with irregular employment, low wages, limited assets or dependence on uncertain agricultural income. Seasonal hunger can occur when employment and income fall during particular periods. Children, pregnant women, nursing mothers and people with poor health may be especially affected by inadequate nutrition. Disasters and economic shocks can increase vulnerability."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Meaning of food security"
+      "type": "content",
+      "heading": "Buffer stocks",
+      "text": "Public agencies can procure foodgrains and maintain stocks that can be used later. A buffer stock can help the government respond to shortages, stabilise supply and support distribution programmes. Maintaining stocks involves procurement, storage, transport and management. Too little stock can weaken emergency capacity, while poor storage can cause losses. Effective stock management is therefore important."
     },
     {
-      "type": "paragraph",
-      "text": "Food security means that all people, at all times, should have physical and economic access to sufficient, safe and nutritious food needed for a healthy life."
+      "type": "content",
+      "heading": "Procurement and farmers",
+      "text": "Government procurement purchases foodgrains from farmers at announced conditions. Procurement can provide a market for producers and help build public stocks. The procurement system also connects agricultural production with food-distribution policy. Its effectiveness depends on storage capacity, transportation, procurement infrastructure and the ability of farmers to participate."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "A country may have enough grain in storage while some households still struggle to buy food. What does this tell us about food security?"
+      "type": "content",
+      "heading": "Public distribution system",
+      "text": "The public distribution system supplies selected food items through a network of fair-price or ration shops. It is intended to improve access to essential food for eligible households and to support food security. Its effectiveness depends on correct identification, regular supply, transparent records, fair dealing and accessible shops. Leakages, exclusion and delays can weaken the benefits of the system."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Three dimensions of food security"
+      "type": "content",
+      "heading": "Nutrition beyond grain",
+      "text": "Food security is not simply a question of calories. A healthy diet also requires protein, fats, vitamins, minerals and other nutrients. Public nutrition programmes can complement grain distribution by supporting meals for children and other vulnerable groups. The quality and diversity of food matter because nutritional deficiencies can affect growth, learning and health."
     },
     {
-      "type": "paragraph",
-      "text": "Food availability refers to the presence of enough food through domestic production, imports and previous stocks. Availability alone is not sufficient if people cannot obtain the food."
+      "type": "content",
+      "heading": "Cooperatives",
+      "text": "Cooperatives can support food security by organising producers or consumers collectively. Milk cooperatives, for example, can connect small producers to collection, processing and marketing systems. Cooperative institutions can also help distribute goods. Their contribution depends on effective management, participation, transparency and access to markets."
     },
     {
-      "type": "paragraph",
-      "text": "Food accessibility means that food is within the reach of people. Physical distance, distribution systems and social conditions can affect access."
+      "type": "content",
+      "heading": "Comic Story: Same Market, Different Basket",
+      "text": "Surya: Both families are shopping in the same market, but one buys a much more varied basket.\n\nAnsh: Their purchasing power is different.\n\nVerma Sir: Exactly. Food security includes affordability and access, not merely the physical presence of food in the market.\n\nSurya: So income affects the food choices a household can actually make.\n\nVerma Sir: Yes."
     },
     {
-      "type": "paragraph",
-      "text": "Food affordability means that people have enough purchasing power to buy the food they need. A household can face food insecurity even when markets are well supplied if its income is too low."
+      "type": "content",
+      "heading": "Comic Story: The Last Mile",
+      "text": "Ansh: The grain was procured and stored, but what happens if the ration shop does not supply it properly?\n\nSurya: Then the intended household may still remain food insecure.\n\nVerma Sir: Correct. Production, procurement, storage, transport and distribution form a chain. Failure at one stage can affect the final beneficiary.\n\nAnsh: So implementation is part of food security.\n\nVerma Sir: Exactly."
     },
     {
-      "type": "box",
-      "kind": "definition",
-      "title": "Food security",
-      "text": "Food security combines availability, accessibility and affordability of food."
+      "type": "content",
+      "heading": "Comic Story: Income Falls",
+      "text": "Shashank: The shops still have food, but a worker has lost employment and cannot buy the usual amount.\n\nSurya: The physical supply exists, but the family's access has weakened because purchasing power has fallen.\n\nVerma Sir: That is why livelihoods and food security are closely connected."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Who is food insecure?"
+      "type": "content",
+      "heading": "Food security during crises",
+      "text": "Floods, droughts, pandemics, conflict, crop failures and sudden employment losses can disrupt food systems. Transport restrictions can affect supplies, while unemployment can reduce household purchasing power. Public stocks, distribution networks, nutrition programmes and income support can reduce the effects of such shocks. Preparedness matters because households need assistance during the crisis, not only after the normal supply system has recovered."
     },
     {
-      "type": "paragraph",
-      "text": "Food insecurity is more likely among poor households and groups whose incomes are uncertain. Landless rural labourers, casual workers and households affected by disasters or loss of employment may be especially vulnerable."
+      "type": "content",
+      "heading": "Famine and starvation",
+      "text": "A famine involves severe disruption of food availability and access affecting large numbers of people. Starvation can occur when individuals or households cannot obtain sufficient food. Historical experience shows that food availability alone does not guarantee that every person can access food. Employment, purchasing power, distribution and public intervention can influence whether a food shortage becomes a widespread humanitarian crisis."
     },
     {
-      "type": "paragraph",
-      "text": "The degree of food insecurity can change with employment, prices, illness, crop failure, drought, floods and other shocks."
+      "type": "content",
+      "heading": "Food security as a system",
+      "text": "Food security works through a chain that begins with production and continues through procurement, storage, transportation, markets and household access. Income and employment influence affordability, while public programmes can support vulnerable groups. Nutrition adds another dimension because sufficient quantities of staple food do not automatically provide a balanced diet. The strongest approach therefore considers the entire food system rather than one stage alone."
     },
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Hunger: chronic and seasonal"
+      "type": "content",
+      "heading": "Chapter summary",
+      "text": "Food security requires availability, access and affordability of sufficient and nutritious food. Vulnerability is higher for households with low or unstable incomes, few assets and seasonal employment, and crises can worsen the situation. Public procurement and buffer stocks can support food availability and emergency response, while the public distribution system can improve access for eligible households. Nutrition programmes and cooperatives can complement these mechanisms. Effective food security depends on the entire chain from production to household access and on the ability of institutions to deliver support reliably."
     },
     {
-      "type": "paragraph",
-      "text": "Chronic hunger is associated with a persistent inability to obtain sufficient food. It may result from very low income and inadequate purchasing power over a long period."
+      "type": "content",
+      "heading": "Important points",
+      "text": "Food security has availability, access and affordability dimensions. Physical supply does not guarantee household access. Buffer stocks provide reserve food supplies and can support distribution during shortages. Procurement connects farmers with public food stocks. The public distribution system provides essential food through ration shops. Nutrition includes quality and diversity, not only calories. Employment and purchasing power strongly affect food access. Crises can disrupt both food supply and household income."
     },
     {
-      "type": "paragraph",
-      "text": "Seasonal hunger is linked to particular periods when work or income is unavailable. Agricultural labourers may experience difficulty during the gap between agricultural operations."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Food security after Independence"
-    },
-    {
-      "type": "paragraph",
-      "text": "India gave major importance to foodgrain production and food security after Independence, particularly because food shortages and dependence on imports had created serious risks."
-    },
-    {
-      "type": "paragraph",
-      "text": "The Green Revolution increased the production of wheat and rice in suitable regions through high-yielding varieties, irrigation, fertilisers and other inputs. It contributed to greater foodgrain self-sufficiency."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Buffer stock"
-    },
-    {
-      "type": "paragraph",
-      "text": "The government maintains buffer stocks of foodgrains so that supplies can be used when necessary. Stocks can support the public distribution system and help respond to shortages or emergencies."
-    },
-    {
-      "type": "box",
-      "kind": "important",
-      "title": "Buffer stock",
-      "text": "Buffer stock is the stock of foodgrains, especially wheat and rice, maintained by the government for food-security purposes."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Minimum Support Price"
-    },
-    {
-      "type": "paragraph",
-      "text": "The government announces a Minimum Support Price for selected crops and procures foodgrains from farmers through designated agencies. The policy is linked to production incentives and the creation of public stocks."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Public Distribution System"
-    },
-    {
-      "type": "paragraph",
-      "text": "The Public Distribution System distributes selected foodgrains and other essential commodities through a network of Fair Price Shops to eligible households at controlled prices according to applicable policy."
-    },
-    {
-      "type": "paragraph",
-      "text": "The effectiveness of a distribution system depends on procurement, storage, transport, identification of beneficiaries, availability of supplies and prevention of diversion."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Cooperatives and food security"
-    },
-    {
-      "type": "paragraph",
-      "text": "Cooperatives can contribute to food security by supporting production, distribution or access to essential goods. Their role varies across regions and activities."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Why food security needs several policies"
-    },
-    {
-      "type": "paragraph",
-      "text": "Food security cannot be guaranteed by production alone. It requires a combination of adequate food production and stocks, functioning markets, purchasing power, distribution mechanisms and support for vulnerable households."
-    },
-    {
-      "type": "paragraph",
-      "text": "During natural disasters or other emergencies, households may lose income or access to markets. Public intervention can help prevent a temporary shock from becoming severe food insecurity."
-    },
-    {
-      "type": "comic",
-      "title": "Comic 1: Grain in the Warehouse",
-      "intro": "Surya sees a government foodgrain stock and asks why it is stored.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "If the grain is not being eaten today, why keep it?"
-        },
-        {
-          "speaker": "Ansh",
-          "text": "It can be used when supplies are tight or for distribution through the public system."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "That is the basic purpose of a buffer stock."
-        }
-      ]
-    },
-    {
-      "type": "comic",
-      "title": "Comic 2: Enough Food, But No Money",
-      "intro": "Arushi's family finds that the market has grain, but their income has fallen.",
-      "dialogue": [
-        {
-          "speaker": "Arushi",
-          "text": "Food is available in the shop, but buying enough is difficult."
-        },
-        {
-          "speaker": "Divya",
-          "text": "So availability does not automatically mean affordability."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "Exactly. Food security requires availability, accessibility and affordability together."
-        }
-      ]
-    },
-    {
-      "type": "comic",
-      "title": "Comic 3: A Difficult Agricultural Season",
-      "intro": "A farming household faces crop loss after a flood.",
-      "dialogue": [
-        {
-          "speaker": "Surya",
-          "text": "The harvest failed, so both food and income are affected."
-        },
-        {
-          "speaker": "Ansh",
-          "text": "That can make the household vulnerable to food insecurity."
-        },
-        {
-          "speaker": "Verma Sir",
-          "text": "Public stocks and support systems become especially important during such shocks."
-        }
-      ]
-    },
-    {
-      "type": "box",
-      "kind": "case",
-      "title": "Case Lab: Food Security in a Crisis",
-      "text": "A drought reduces local production while poor households lose income. Explain how availability, affordability, buffer stocks and the Public Distribution System can interact during the crisis."
-    },
-    {
-      "type": "box",
-      "kind": "important",
-      "title": "Exam idea",
-      "text": "Remember the three dimensions: availability, accessibility and affordability. Then connect them with hunger, vulnerable groups, buffer stock, MSP and the Public Distribution System."
-    },
-    {
-      "type": "box",
-      "kind": "summary",
-      "title": "Chapter Summary",
-      "text": "Food security requires sufficient food to be available, physically accessible and economically affordable. India uses foodgrain production, procurement, buffer stocks and the Public Distribution System as important parts of its food-security framework. Hunger and food insecurity are especially serious for vulnerable households and during shocks."
+      "type": "content",
+      "heading": "Key terms",
+      "text": "Food security; availability; accessibility; affordability; buffer stock; procurement; public distribution system; ration shop; fair-price shop; foodgrain; nutrition; seasonal hunger; chronic hunger; famine; starvation; cooperative; purchasing power; vulnerability."
     }
-      ]
-    }
-  ],
-  "importantPoints": [],
-  "keyTerms": [],
-  "chapterSummary": "",
-  "description": "Food security exists when people have enough food available, can access it and can afford it. The chapter examines hunger, vulnerable groups, India's foodgrain policy, buffer stocks, minimum support price, the Public Distribution System and the role of cooperatives.",
+  ]
 };
 window.chapter = window.ChapterData;
