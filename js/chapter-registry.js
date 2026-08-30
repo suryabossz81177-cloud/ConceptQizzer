@@ -6,6 +6,56 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class9-information-technology-digital-documentation",
+  class: 9,
+  subject: "Information Technology",
+  chapterNumber: 1,
+  title: "Digital Documentation",
+  file: "js/notes/class9/information-technology/digital-documentation.js",
+  enabled: true
+},
+  
+{
+  id: "class9-information-technology-electronic-spreadsheet",
+  class: 9,
+  subject: "Information Technology",
+  chapterNumber: 2,
+  title: "Electronic Spreadsheet",
+  file: "js/notes/class9/information-technology/electronic-spreadsheet.js",
+  enabled: true
+},
+  
+{
+  id: "class9-information-technology-digital-presentation",
+  class: 9,
+  subject: "Information Technology",
+  chapterNumber: 3,
+  title: "Digital Presentation",
+  file: "js/notes/class9/information-technology/digital-presentation.js",
+  enabled: true
+},
+  
+{
+  id: "class9-information-technology-introduction-to-it-ites",
+  class: 9,
+  subject: "Information Technology",
+  chapterNumber: 4,
+  title: "Introduction to IT-ITeS",
+  file: "js/notes/class9/information-technology/introduction-to-it-ites.js",
+  enabled: true
+},
+  
+{
+  id: "class9-information-technology-data-entry-keyboarding-skills",
+  class: 9,
+  subject: "Information Technology",
+  chapterNumber: 5,
+  title: "Data Entry & Keyboarding Skills",
+  file: "js/notes/class9/information-technology/data-entry-keyboarding-skills.js",
+  enabled: true
+},
+  
+  {
   id: "9-economics-the-story-of-village-palampur",
   class: 9,
   subject: "Economics",
