@@ -6,6 +6,66 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class9-geography-india-size-and-location",
+  class: 9,
+  subject: "Geography",
+  chapterNumber: 1,
+  title: "India – Size and Location",
+  file: "js/notes/class9/geography/india-size-and-location.js",
+  enabled: true
+},
+  
+{
+  id: "class9-geography-physical-features-of-india",
+  class: 9,
+  subject: "Geography",
+  chapterNumber: 2,
+  title: "Physical Features of India",
+  file: "js/notes/class9/geography/physical-features-of-india.js",
+  enabled: true
+},
+  
+{
+  id: "class9-geography-drainage",
+  class: 9,
+  subject: "Geography",
+  chapterNumber: 3,
+  title: "Drainage",
+  file: "js/notes/class9/geography/drainage.js",
+  enabled: true
+},
+  
+{
+  id: "class9-geography-climate",
+  class: 9,
+  subject: "Geography",
+  chapterNumber: 4,
+  title: "Climate",
+  file: "js/notes/class9/geography/climate.js",
+  enabled: true
+},
+  
+{
+  id: "class9-geography-natural-vegetation-and-wildlife",
+  class: 9,
+  subject: "Geography",
+  chapterNumber: 5,
+  title: "Natural Vegetation and Wildlife",
+  file: "js/notes/class9/geography/natural-vegetation-and-wildlife.js",
+  enabled: true
+},
+  
+{
+  id: "class9-geography-population",
+  class: 9,
+  subject: "Geography",
+  chapterNumber: 6,
+  title: "Population",
+  file: "js/notes/class9/geography/population.js",
+  enabled: true
+},
+  
+  {
   id: "class9-history-the-french-revolution",
   class: 9,
   subject: "History",
