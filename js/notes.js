@@ -171,42 +171,9 @@ async function loadChapter(key){
       "$1window.CQ_LOADED_CHAPTER ="
     );
 
-    /*
-      IMPORTANT FIX: many large chapter files continue using
-      ChapterData after the initial declaration, for example:
-        ChapterData.extendedExamBank = [...]
-        window.ChapterData.someProperty = ...
-
-      The old loader changed only the declaration/assignment.
-      That left later references pointing at an undefined global
-      and caused: Cannot set properties of undefined
-      (setting 'extendedExamBank').
-
-      Redirect ALL remaining ChapterData references to the same
-      temporary chapter object before executing the file.
-    */
-    /* Redirect qualified references first, so
-       window.ChapterData.extendedExamBank becomes
-       window.CQ_LOADED_CHAPTER.extendedExamBank
-       (never window.window.CQ_LOADED_CHAPTER...). */
     converted = converted.replace(
-      /window\.ChapterData\b/g,
-      "window.CQ_LOADED_CHAPTER"
-    );
-
-    converted = converted.replace(
-      /(^|[^\w$.])ChapterData\b/g,
-      "$1window.CQ_LOADED_CHAPTER"
-    );
-
-    converted = converted.replace(
-      /window\.chapterData\b/g,
-      "window.CQ_LOADED_CHAPTER"
-    );
-
-    converted = converted.replace(
-      /(^|[^\w$.])chapterData\b/g,
-      "$1window.CQ_LOADED_CHAPTER"
+      /window\.ChapterData\s*=/,
+      "window.CQ_LOADED_CHAPTER ="
     );
 
     if (!/window\.CQ_LOADED_CHAPTER\s*=/.test(converted)) {
@@ -497,6 +464,9 @@ function renderSections(sections){
       ? (section.title || section.heading || section.name || "")
       : "";
 
+    /* Do not render empty exporter/debug headings such as Figures or Worked Examples. */
+    if(isEmptyMetadataHeading(section)) return;
+
     /* Meaningful topic heading only; never show id/section/render metadata. */
     if(title){
       html += `
@@ -635,7 +605,43 @@ function isMetadataOnlyBlock(block){
 
   if(!keys.length) return false;
 
-  return keys.every(key => isRenderMetaField(key));
+  /* Internal chapter-export fields must never become learner-facing cards. */
+  const hidden = new Set([
+    "id","difficulty","answerHidden","answer_hidden","position",
+    "figures","workedExamples","worked_examples","renderPosition",
+    "sectionType","blockType","displayOrder","order"
+  ]);
+
+  return keys.every(key =>
+    isRenderMetaField(key) || hidden.has(key) ||
+    hidden.has(String(key).replace(/[^a-zA-Z0-9_]/g,""))
+  );
+}
+
+function isEmptyMetadataHeading(block){
+  if(!block || typeof block !== "object" || Array.isArray(block)) return false;
+
+  const title = String(block.title || block.heading || block.name || "").trim().toLowerCase();
+  if(!title) return false;
+
+  const headingNames = new Set([
+    "figures","worked examples","worked example","practice","application"
+  ]);
+
+  if(!headingNames.has(title)) return false;
+
+  const realContentKeys = [
+    "text","content","description","explanation","question","answer",
+    "steps","solution","questions","items","options","html","svg",
+    "figure","image","src","url","caption","formula","rows","code",
+    "blocks","children"
+  ];
+
+  return !realContentKeys.some(key => {
+    const value = block[key];
+    return value !== undefined && value !== null &&
+      (Array.isArray(value) ? value.length > 0 : String(value).trim() !== "");
+  });
 }
 
 function renderAnyValue(value,depth=0){
@@ -684,6 +690,9 @@ function renderExtraBlockFields(block){
   /* Styling/meta fields are renderer instructions, never visible content. */
   const used=new Set([
     "type","kind","title","heading","name",
+    "id","difficulty","answerHidden","answer_hidden","position",
+    "figures","workedExamples","worked_examples","renderPosition",
+    "sectionType","blockType","displayOrder","order",
     "text","content","description","explanation",
     "question","answer","steps","solution","questions",
     "items","options","assertion","reason",
@@ -2354,30 +2363,8 @@ function initPackage12AI() {
     );
 
     converted = converted.replace(
-      /window\.ChapterData\s*=/g,
+      /window\.ChapterData\s*=/,
       "window.__CQ_KNOWLEDGE_CHAPTER ="
-    );
-
-    /* Large chapter files may reference ChapterData again after
-       declaring it. Redirect those references too. */
-    converted = converted.replace(
-      /window\.ChapterData\b/g,
-      "window.__CQ_KNOWLEDGE_CHAPTER"
-    );
-
-    converted = converted.replace(
-      /(^|[^\w$.])ChapterData\b/g,
-      "$1window.__CQ_KNOWLEDGE_CHAPTER"
-    );
-
-    converted = converted.replace(
-      /window\.chapterData\b/g,
-      "window.__CQ_KNOWLEDGE_CHAPTER"
-    );
-
-    converted = converted.replace(
-      /(^|[^\w$.])chapterData\b/g,
-      "$1window.__CQ_KNOWLEDGE_CHAPTER"
     );
 
     if (!/window\.__CQ_KNOWLEDGE_CHAPTER\s*=/.test(converted)) return null;
