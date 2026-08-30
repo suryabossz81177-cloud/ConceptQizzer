@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
+/* ConceptQizzer — Class 9 Physics — COMPLETE SOURCE-FREE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 4,
   "file": "js/notes/class9/physics/work-and-energy.js",
   "enabled": true,
-  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
-  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
+  "version": "ULTRA DETAILED • FIGURE-RICH • 2026",
+  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and non-AI figures embedded in the chapter.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -307,27 +307,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Work in physics — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Work in physics\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Work in physics</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28physics%29.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: すじにくシチュー • CC0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Work_(physics).svg",
-          "license": "CC0",
-          "author": "すじにくシチュー"
+          "title": "Work in physics",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Work in physics\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Work in physics</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28physics%29.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Work from force and displacement — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Work from force and displacement\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Work from force and displacement</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28W_%3D_F_%E2%8B%85_s%29.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Laurens R. Krol • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Work_(W_%3D_F_%E2%8B%85_s).svg",
-          "license": "CC BY-SA 4.0",
-          "author": "Laurens R. Krol"
+          "title": "Work from force and displacement",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Work from force and displacement\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Work from force and displacement</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28W_%3D_F_%E2%8B%85_s%29.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Force–distance graph — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Force–distance graph\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Force–distance graph</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Force-distance-diagram.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: MartinThoma • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Force-distance-diagram.svg",
-          "license": "CC BY-SA 3.0",
-          "author": "MartinThoma"
+          "title": "Force–distance graph",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Force–distance graph\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Force–distance graph</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Force-distance-diagram.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -492,27 +483,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Pendulum energy conversion — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Pendulum energy conversion\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Pendulum energy conversion</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/PendulumEnergy.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Patrick Edwin Moran • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:PendulumEnergy.svg",
-          "license": "CC BY-SA 3.0",
-          "author": "Patrick Edwin Moran"
+          "title": "Pendulum energy conversion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Pendulum energy conversion\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Pendulum energy conversion</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/PendulumEnergy.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Roller-coaster energy conservation with friction — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Roller-coaster energy conservation with friction\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Roller-coaster energy conservation with friction</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/RollerCoasterFriction.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Guy vandegrift • CC0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:RollerCoasterFriction.png",
-          "license": "CC0",
-          "author": "Guy vandegrift"
+          "title": "Roller-coaster energy conservation with friction",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Roller-coaster energy conservation with friction\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Roller-coaster energy conservation with friction</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/RollerCoasterFriction.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Mechanical energy demonstration — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Mechanical energy demonstration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Mechanical energy demonstration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Regional_Science_Centre%2C_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Utkarshraj Atmaram • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Regional_Science_Centre,_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg",
-          "license": "CC BY-SA 3.0",
-          "author": "Utkarshraj Atmaram"
+          "title": "Mechanical energy demonstration",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Mechanical energy demonstration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Mechanical energy demonstration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Regional_Science_Centre%2C_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -679,19 +661,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -858,19 +840,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1037,19 +1019,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1216,19 +1198,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1395,19 +1377,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1574,19 +1556,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1753,19 +1735,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1932,19 +1914,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -2950,56 +2932,6 @@ window.ChapterData = {
       "question": "Solve one numerical from this chapter and show every step.",
       "answer": "Use Given, Formula/Law, Substitution, Calculation and Answer.",
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
-    }
-  ],
-  "figureSources": [
-    {
-      "title": "Work in physics",
-      "file": "Work_(physics).svg",
-      "license": "CC0",
-      "author": "すじにくシチュー",
-      "source": "https://commons.wikimedia.org/wiki/File:Work_(physics).svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28physics%29.svg"
-    },
-    {
-      "title": "Work from force and displacement",
-      "file": "Work_(W_=_F_⋅_s).svg",
-      "license": "CC BY-SA 4.0",
-      "author": "Laurens R. Krol",
-      "source": "https://commons.wikimedia.org/wiki/File:Work_(W_%3D_F_%E2%8B%85_s).svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Work_%28W_%3D_F_%E2%8B%85_s%29.svg"
-    },
-    {
-      "title": "Force–distance graph",
-      "file": "Force-distance-diagram.svg",
-      "license": "CC BY-SA 3.0",
-      "author": "MartinThoma",
-      "source": "https://commons.wikimedia.org/wiki/File:Force-distance-diagram.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Force-distance-diagram.svg"
-    },
-    {
-      "title": "Pendulum energy conversion",
-      "file": "PendulumEnergy.svg",
-      "license": "CC BY-SA 3.0",
-      "author": "Patrick Edwin Moran",
-      "source": "https://commons.wikimedia.org/wiki/File:PendulumEnergy.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PendulumEnergy.svg"
-    },
-    {
-      "title": "Roller-coaster energy conservation with friction",
-      "file": "RollerCoasterFriction.png",
-      "license": "CC0",
-      "author": "Guy vandegrift",
-      "source": "https://commons.wikimedia.org/wiki/File:RollerCoasterFriction.png",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RollerCoasterFriction.png"
-    },
-    {
-      "title": "Mechanical energy demonstration",
-      "file": "Regional_Science_Centre,_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg",
-      "license": "CC BY-SA 3.0",
-      "author": "Utkarshraj Atmaram",
-      "source": "https://commons.wikimedia.org/wiki/File:Regional_Science_Centre,_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Regional_Science_Centre%2C_Bhopal_-_mechanical_energy_-_Rube_Goldberg_machine.jpg"
     }
   ]
 };

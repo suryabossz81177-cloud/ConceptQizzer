@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
+/* ConceptQizzer — Class 9 Physics — COMPLETE SOURCE-FREE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 3,
   "file": "js/notes/class9/physics/gravitation.js",
   "enabled": true,
-  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
-  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
+  "version": "ULTRA DETAILED • FIGURE-RICH • 2026",
+  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and non-AI figures embedded in the chapter.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -306,27 +306,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Falling body diagram — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Falling body diagram\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Falling body diagram</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Falling_body.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Subjektivisti • CC0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Falling_body.svg",
-          "license": "CC0",
-          "author": "Subjektivisti"
+          "title": "Falling body diagram",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Falling body diagram\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Falling body diagram</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Falling_body.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         },
         {
           "type": "figure",
-          "title": "Gravitation animation — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Gravitation animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Gravitation animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitation.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Thierry Dugnolle • CC0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Gravitation.gif",
-          "license": "CC0",
-          "author": "Thierry Dugnolle"
+          "title": "Gravitation animation",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Gravitation animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Gravitation animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitation.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         },
         {
           "type": "figure",
-          "title": "Galileo free-fall thought experiment — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Galileo free-fall thought experiment\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Galileo free-fall thought experiment</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Thought-experiment-free-falling-bodies.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Wikimedia Commons contributor • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Thought-experiment-free-falling-bodies.svg",
-          "license": "CC BY-SA 4.0",
-          "author": "Wikimedia Commons contributor"
+          "title": "Galileo free-fall thought experiment",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Galileo free-fall thought experiment\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Galileo free-fall thought experiment</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Thought-experiment-free-falling-bodies.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -491,27 +482,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Earth gravitational field lines — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Earth gravitational field lines\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Earth gravitational field lines</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: MikeRun • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines.svg",
-          "license": "CC BY-SA 4.0",
-          "author": "MikeRun"
+          "title": "Earth gravitational field lines",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Earth gravitational field lines\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Earth gravitational field lines</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Earth gravitational field and equipotentials — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Earth gravitational field and equipotentials\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Earth gravitational field and equipotentials</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines_equipotentials.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Sjlegg • Public domain</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines_equipotentials.svg",
-          "license": "Public domain",
-          "author": "Sjlegg"
+          "title": "Earth gravitational field and equipotentials",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Earth gravitational field and equipotentials\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Earth gravitational field and equipotentials</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines_equipotentials.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Quasi-satellite orbit — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Quasi-satellite orbit\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Quasi-satellite orbit</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/2002aa29-orbit-4.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: JPL/NEO; SVG by Michał Połtyn • Public domain (NASA/JPL)</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:2002aa29-orbit-4.svg",
-          "license": "Public domain (NASA/JPL)",
-          "author": "JPL/NEO; SVG by Michał Połtyn"
+          "title": "Quasi-satellite orbit",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Quasi-satellite orbit\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Quasi-satellite orbit</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/2002aa29-orbit-4.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -678,19 +660,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -857,19 +839,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1036,19 +1018,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1215,19 +1197,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1394,19 +1376,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1573,19 +1555,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1752,19 +1734,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1931,19 +1913,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -2949,56 +2931,6 @@ window.ChapterData = {
       "question": "Solve one numerical from this chapter and show every step.",
       "answer": "Use Given, Formula/Law, Substitution, Calculation and Answer.",
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
-    }
-  ],
-  "figureSources": [
-    {
-      "title": "Falling body diagram",
-      "file": "Falling_body.svg",
-      "license": "CC0",
-      "author": "Subjektivisti",
-      "source": "https://commons.wikimedia.org/wiki/File:Falling_body.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Falling_body.svg"
-    },
-    {
-      "title": "Gravitation animation",
-      "file": "Gravitation.gif",
-      "license": "CC0",
-      "author": "Thierry Dugnolle",
-      "source": "https://commons.wikimedia.org/wiki/File:Gravitation.gif",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gravitation.gif"
-    },
-    {
-      "title": "Galileo free-fall thought experiment",
-      "file": "Thought-experiment-free-falling-bodies.svg",
-      "license": "CC BY-SA 4.0",
-      "author": "Wikimedia Commons contributor",
-      "source": "https://commons.wikimedia.org/wiki/File:Thought-experiment-free-falling-bodies.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thought-experiment-free-falling-bodies.svg"
-    },
-    {
-      "title": "Earth gravitational field lines",
-      "file": "Gravitational_field_Earth_lines.svg",
-      "license": "CC BY-SA 4.0",
-      "author": "MikeRun",
-      "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines.svg"
-    },
-    {
-      "title": "Earth gravitational field and equipotentials",
-      "file": "Gravitational_field_Earth_lines_equipotentials.svg",
-      "license": "Public domain",
-      "author": "Sjlegg",
-      "source": "https://commons.wikimedia.org/wiki/File:Gravitational_field_Earth_lines_equipotentials.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gravitational_field_Earth_lines_equipotentials.svg"
-    },
-    {
-      "title": "Quasi-satellite orbit",
-      "file": "2002aa29-orbit-4.svg",
-      "license": "Public domain (NASA/JPL)",
-      "author": "JPL/NEO; SVG by Michał Połtyn",
-      "source": "https://commons.wikimedia.org/wiki/File:2002aa29-orbit-4.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2002aa29-orbit-4.svg"
     }
   ]
 };

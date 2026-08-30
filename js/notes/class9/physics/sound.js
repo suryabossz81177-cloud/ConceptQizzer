@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
+/* ConceptQizzer — Class 9 Physics — COMPLETE SOURCE-FREE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 5,
   "file": "js/notes/class9/physics/sound.js",
   "enabled": true,
-  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
-  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
+  "version": "ULTRA DETAILED • FIGURE-RICH • 2026",
+  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and non-AI figures embedded in the chapter.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -305,27 +305,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Historical tuning-fork and vibration illustration — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Historical tuning-fork and vibration illustration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Historical tuning-fork and vibration illustration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/PSM_V13_D055_Tuning_fork_and_sound_vibration.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Popular Science Monthly illustration • Public domain</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:PSM_V13_D055_Tuning_fork_and_sound_vibration.jpg",
-          "license": "Public domain",
-          "author": "Popular Science Monthly illustration"
+          "title": "Historical tuning-fork and vibration illustration",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Historical tuning-fork and vibration illustration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Historical tuning-fork and vibration illustration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/PSM_V13_D055_Tuning_fork_and_sound_vibration.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Sound-wave physics animation — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Sound-wave physics animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Sound-wave physics animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Sound_wave_physics.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Kulayada • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Sound_wave_physics.gif",
-          "license": "CC BY-SA 4.0",
-          "author": "Kulayada"
+          "title": "Sound-wave physics animation",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Sound-wave physics animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Sound-wave physics animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Sound_wave_physics.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Speaker and volume — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Speaker and volume\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Speaker and volume</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Speaker-volume-sound.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Jeff stbw • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Speaker-volume-sound.png",
-          "license": "CC BY-SA 4.0",
-          "author": "Jeff stbw"
+          "title": "Speaker and volume",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Speaker and volume\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Speaker and volume</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Speaker-volume-sound.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -490,27 +481,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Human ear anatomy — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Human ear anatomy\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Human ear anatomy</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/AnatomyHumanEar.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: OSHA source • Public domain (U.S. government)</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:AnatomyHumanEar.gif",
-          "license": "Public domain (U.S. government)",
-          "author": "OSHA source"
+          "title": "Human ear anatomy",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Human ear anatomy\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Human ear anatomy</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/AnatomyHumanEar.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Labelled cross-section of the human ear — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Labelled cross-section of the human ear\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Labelled cross-section of the human ear</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Anatomy_of_the_Human_Ear_cs-2.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Wikimedia Commons contributor • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear_cs-2.svg",
-          "license": "CC BY-SA 3.0",
-          "author": "Wikimedia Commons contributor"
+          "title": "Labelled cross-section of the human ear",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Labelled cross-section of the human ear\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Labelled cross-section of the human ear</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Anatomy_of_the_Human_Ear_cs-2.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Speaker producing sound waves — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Speaker producing sound waves\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Speaker producing sound waves</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Sound_wave_animation.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: KyleThayer • CC0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Sound_wave_animation.gif",
-          "license": "CC0",
-          "author": "KyleThayer"
+          "title": "Speaker producing sound waves",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Speaker producing sound waves\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Speaker producing sound waves</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Sound_wave_animation.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -677,19 +659,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -856,19 +838,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1035,19 +1017,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1214,19 +1196,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1393,19 +1375,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1572,19 +1554,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1751,19 +1733,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1930,19 +1912,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -2948,56 +2930,6 @@ window.ChapterData = {
       "question": "Solve one numerical from this chapter and show every step.",
       "answer": "Use Given, Formula/Law, Substitution, Calculation and Answer.",
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
-    }
-  ],
-  "figureSources": [
-    {
-      "title": "Historical tuning-fork and vibration illustration",
-      "file": "PSM_V13_D055_Tuning_fork_and_sound_vibration.jpg",
-      "license": "Public domain",
-      "author": "Popular Science Monthly illustration",
-      "source": "https://commons.wikimedia.org/wiki/File:PSM_V13_D055_Tuning_fork_and_sound_vibration.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PSM_V13_D055_Tuning_fork_and_sound_vibration.jpg"
-    },
-    {
-      "title": "Sound-wave physics animation",
-      "file": "Sound_wave_physics.gif",
-      "license": "CC BY-SA 4.0",
-      "author": "Kulayada",
-      "source": "https://commons.wikimedia.org/wiki/File:Sound_wave_physics.gif",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sound_wave_physics.gif"
-    },
-    {
-      "title": "Speaker and volume",
-      "file": "Speaker-volume-sound.png",
-      "license": "CC BY-SA 4.0",
-      "author": "Jeff stbw",
-      "source": "https://commons.wikimedia.org/wiki/File:Speaker-volume-sound.png",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Speaker-volume-sound.png"
-    },
-    {
-      "title": "Human ear anatomy",
-      "file": "AnatomyHumanEar.gif",
-      "license": "Public domain (U.S. government)",
-      "author": "OSHA source",
-      "source": "https://commons.wikimedia.org/wiki/File:AnatomyHumanEar.gif",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AnatomyHumanEar.gif"
-    },
-    {
-      "title": "Labelled cross-section of the human ear",
-      "file": "Anatomy_of_the_Human_Ear_cs-2.svg",
-      "license": "CC BY-SA 3.0",
-      "author": "Wikimedia Commons contributor",
-      "source": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear_cs-2.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anatomy_of_the_Human_Ear_cs-2.svg"
-    },
-    {
-      "title": "Speaker producing sound waves",
-      "file": "Sound_wave_animation.gif",
-      "license": "CC0",
-      "author": "KyleThayer",
-      "source": "https://commons.wikimedia.org/wiki/File:Sound_wave_animation.gif",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sound_wave_animation.gif"
     }
   ]
 };

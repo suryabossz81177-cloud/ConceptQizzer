@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
+/* ConceptQizzer — Class 9 Physics — COMPLETE SOURCE-FREE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 2,
   "file": "js/notes/class9/physics/force-and-laws-of-motion.js",
   "enabled": true,
-  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
-  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
+  "version": "ULTRA DETAILED • FIGURE-RICH • 2026",
+  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and non-AI figures embedded in the chapter.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -305,27 +305,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Newton's First Law apparatus — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Newton's First Law apparatus\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Newton's First Law apparatus</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_First_Law.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Aliva Sahoo • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Newton%27s_First_Law.jpg",
-          "license": "CC BY-SA 4.0",
-          "author": "Aliva Sahoo"
+          "title": "Newton's First Law apparatus",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Newton's First Law apparatus\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Newton's First Law apparatus</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_First_Law.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         },
         {
           "type": "figure",
-          "title": "Newton's Third Law — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Newton's Third Law\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Newton's Third Law</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_third_law.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Землеройкин • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Newton%27s_third_law.svg",
-          "license": "CC BY-SA 4.0",
-          "author": "Землеройкин"
+          "title": "Newton's Third Law",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Newton's Third Law\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Newton's Third Law</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_third_law.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         },
         {
           "type": "figure",
-          "title": "Free-body diagram — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Free-body diagram\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Free-body diagram</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Free_Body_Diagram.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: AndrewDressel • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Free_Body_Diagram.png",
-          "license": "CC BY-SA 3.0",
-          "author": "AndrewDressel"
+          "title": "Free-body diagram",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Free-body diagram\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Free-body diagram</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Free_Body_Diagram.png\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         }
       ]
     },
@@ -490,27 +481,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Newton's cradle — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Newton's cradle\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Newton's cradle</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_cradle.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: University of Dundee Museum Services • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Newton%27s_cradle.jpg",
-          "license": "CC BY-SA 4.0",
-          "author": "University of Dundee Museum Services"
+          "title": "Newton's cradle",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Newton's cradle\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Newton's cradle</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_cradle.jpg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         },
         {
           "type": "figure",
-          "title": "Conservation of momentum exhibit — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Conservation of momentum exhibit\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Conservation of momentum exhibit</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Conservation_of_Momentum_-_Exhibit_with_Schoolboys_-_MSE_Golden_Jubilee_Celebration_-_Science_City_-_Kolkata_2015-11-19_5780.JPG\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Biswarup Ganguly • CC BY 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Conservation_of_Momentum_-_Exhibit_with_Schoolboys_-_MSE_Golden_Jubilee_Celebration_-_Science_City_-_Kolkata_2015-11-19_5780.JPG",
-          "license": "CC BY 3.0",
-          "author": "Biswarup Ganguly"
+          "title": "Conservation of momentum exhibit",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Conservation of momentum exhibit\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Conservation of momentum exhibit</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Conservation_of_Momentum_-_Exhibit_with_Schoolboys_-_MSE_Golden_Jubilee_Celebration_-_Science_City_-_Kolkata_2015-11-19_5780.JPG\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         },
         {
           "type": "figure",
-          "title": "Friction between blocks — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Friction between blocks\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Friction between blocks</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Friction_Animation_2_Blocks.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Casint • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Friction_Animation_2_Blocks.gif",
-          "license": "CC BY-SA 4.0",
-          "author": "Casint"
+          "title": "Friction between blocks",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Friction between blocks\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Friction between blocks</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Friction_Animation_2_Blocks.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\"></text></svg>"
         }
       ]
     },
@@ -677,19 +659,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -856,19 +838,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1035,19 +1017,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1214,19 +1196,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1393,19 +1375,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1572,19 +1554,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1751,19 +1733,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1930,19 +1912,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -2948,56 +2930,6 @@ window.ChapterData = {
       "question": "Solve one numerical from this chapter and show every step.",
       "answer": "Use Given, Formula/Law, Substitution, Calculation and Answer.",
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
-    }
-  ],
-  "figureSources": [
-    {
-      "title": "Newton's First Law apparatus",
-      "file": "Newton's_First_Law.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "Aliva Sahoo",
-      "source": "https://commons.wikimedia.org/wiki/File:Newton%27s_First_Law.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_First_Law.jpg"
-    },
-    {
-      "title": "Newton's Third Law",
-      "file": "Newton's_third_law.svg",
-      "license": "CC BY-SA 4.0",
-      "author": "Землеройкин",
-      "source": "https://commons.wikimedia.org/wiki/File:Newton%27s_third_law.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_third_law.svg"
-    },
-    {
-      "title": "Free-body diagram",
-      "file": "Free_Body_Diagram.png",
-      "license": "CC BY-SA 3.0",
-      "author": "AndrewDressel",
-      "source": "https://commons.wikimedia.org/wiki/File:Free_Body_Diagram.png",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Free_Body_Diagram.png"
-    },
-    {
-      "title": "Newton's cradle",
-      "file": "Newton's_cradle.jpg",
-      "license": "CC BY-SA 4.0",
-      "author": "University of Dundee Museum Services",
-      "source": "https://commons.wikimedia.org/wiki/File:Newton%27s_cradle.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newton%27s_cradle.jpg"
-    },
-    {
-      "title": "Conservation of momentum exhibit",
-      "file": "Conservation_of_Momentum_-_Exhibit_with_Schoolboys_-_MSE_Golden_Jubilee_Celebration_-_Science_City_-_Kolkata_2015-11-19_5780.JPG",
-      "license": "CC BY 3.0",
-      "author": "Biswarup Ganguly",
-      "source": "https://commons.wikimedia.org/wiki/File:Conservation_of_Momentum_-_Exhibit_with_Schoolboys_-_MSE_Golden_Jubilee_Celebration_-_Science_City_-_Kolkata_2015-11-19_5780.JPG",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Conservation_of_Momentum_-_Exhibit_with_Schoolboys_-_MSE_Golden_Jubilee_Celebration_-_Science_City_-_Kolkata_2015-11-19_5780.JPG"
-    },
-    {
-      "title": "Friction between blocks",
-      "file": "Friction_Animation_2_Blocks.gif",
-      "license": "CC BY-SA 4.0",
-      "author": "Casint",
-      "source": "https://commons.wikimedia.org/wiki/File:Friction_Animation_2_Blocks.gif",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friction_Animation_2_Blocks.gif"
     }
   ]
 };

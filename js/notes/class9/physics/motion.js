@@ -1,4 +1,4 @@
-/* ConceptQizzer — Class 9 Physics — ULTRA DETAILED REAL-FIGURE EDITION */
+/* ConceptQizzer — Class 9 Physics — COMPLETE SOURCE-FREE EDITION */
 "use strict";
 
 window.ChapterData = {
@@ -9,8 +9,8 @@ window.ChapterData = {
   "chapter": 1,
   "file": "js/notes/class9/physics/motion.js",
   "enabled": true,
-  "version": "ULTRA DETAILED • REAL WIKIMEDIA FIGURES • 2026",
-  "description": "Expanded Class 9 Physics chapter with substantially more explanatory text, worked examples, practice, exam guidance, and real non-AI Wikimedia Commons figures. Figure licenses and authors are recorded in each figure and in the package README.",
+  "version": "ULTRA DETAILED • MOTION COMPLETE • SOURCE-FREE • 2026",
+  "description": "Large, concept-first Class 9 Physics Chapter 1 with complete types of motion, reference frames, graphs, numericals, applications, misconceptions, and topic-linked scientific figures. No source or license cards are included.",
   "learningObjectives": [
     "Understand concepts from first principles",
     "Use laws and formulas with conditions",
@@ -50,7 +50,27 @@ window.ChapterData = {
     "Uniform circular motion in detail",
     "Numerical reasoning and unit discipline",
     "Real-life applications of kinematics",
-    "Exam mastery: common traps in Motion"
+    "Exam mastery: common traps in Motion",
+    "Meaning of motion and rest",
+    "Reference point and reference frame",
+    "Types of motion",
+    "Translational motion",
+    "Rectilinear and curvilinear motion",
+    "Rotational motion",
+    "Circular motion",
+    "Oscillatory and vibratory motion",
+    "Periodic motion",
+    "Random motion",
+    "Distance and path length",
+    "Displacement and direction",
+    "Scalar and vector quantities",
+    "Speed and its types",
+    "Velocity and its types",
+    "Acceleration and retardation",
+    "Motion graphs",
+    "Equations of uniformly accelerated motion",
+    "Relative motion",
+    "Unit conversion and dimensional checks"
   ],
   "mainConcepts": [
     "Motion and reference frame",
@@ -72,7 +92,27 @@ window.ChapterData = {
     "Uniform circular motion in detail",
     "Numerical reasoning and unit discipline",
     "Real-life applications of kinematics",
-    "Exam mastery: common traps in Motion"
+    "Exam mastery: common traps in Motion",
+    "Meaning of motion and rest",
+    "Reference point and reference frame",
+    "Types of motion",
+    "Translational motion",
+    "Rectilinear and curvilinear motion",
+    "Rotational motion",
+    "Circular motion",
+    "Oscillatory and vibratory motion",
+    "Periodic motion",
+    "Random motion",
+    "Distance and path length",
+    "Displacement and direction",
+    "Scalar and vector quantities",
+    "Speed and its types",
+    "Velocity and its types",
+    "Acceleration and retardation",
+    "Motion graphs",
+    "Equations of uniformly accelerated motion",
+    "Relative motion",
+    "Unit conversion and dimensional checks"
   ],
   "formulaPropertyBank": [
     "Average speed = total distance / total time",
@@ -307,27 +347,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Distance–time graph example — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Distance–time graph example\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Distance–time graph example</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Distance-time_graph_example.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Sjlegg • Public domain</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Distance-time_graph_example.svg",
-          "license": "Public domain",
-          "author": "Sjlegg"
+          "title": "Distance–time graph example",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Distance–time graph example\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Distance–time graph example</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Distance-time_graph_example.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Velocity–time graph examples — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Velocity–time graph examples\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Velocity–time graph examples</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Example-velocity-time-diagramm.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: MikeRun • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Example-velocity-time-diagramm.svg",
-          "license": "CC BY-SA 4.0",
-          "author": "MikeRun"
+          "title": "Velocity–time graph examples",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Velocity–time graph examples\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Velocity–time graph examples</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Example-velocity-time-diagramm.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Uniform circular motion — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Uniform circular motion\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Uniform circular motion</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Uniform_circular_motion.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Brews ohare / Sjlegg • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Uniform_circular_motion.svg",
-          "license": "CC BY-SA 3.0",
-          "author": "Brews ohare / Sjlegg"
+          "title": "Uniform circular motion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Uniform circular motion\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Uniform circular motion</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Uniform_circular_motion.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -492,27 +523,18 @@ window.ChapterData = {
         },
         {
           "type": "figure",
-          "title": "Circular-motion velocity and acceleration — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Circular-motion velocity and acceleration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Circular-motion velocity and acceleration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Circular_motion_velocity_and_acceleration.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Feeb denroc • Public domain</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Circular_motion_velocity_and_acceleration.svg",
-          "license": "Public domain",
-          "author": "Feeb denroc"
+          "title": "Circular-motion velocity and acceleration",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Circular-motion velocity and acceleration\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Circular-motion velocity and acceleration</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Circular_motion_velocity_and_acceleration.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Uniform acceleration graphs — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Uniform acceleration graphs\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Uniform acceleration graphs</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Uniform-acceleration.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: MikeRun • CC BY-SA 4.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Uniform-acceleration.svg",
-          "license": "CC BY-SA 4.0",
-          "author": "MikeRun"
+          "title": "Uniform acceleration graphs",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Uniform acceleration graphs\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Uniform acceleration graphs</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Uniform-acceleration.svg\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         },
         {
           "type": "figure",
-          "title": "Free-fall animation — real source figure",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Free-fall animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Free-fall animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Free-fall.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/><text x=\"35\" y=\"657\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#475569\">Real Wikimedia Commons media • Author: Yuta Aoki • CC BY-SA 3.0</text></svg>",
-          "source": "https://commons.wikimedia.org/wiki/File:Free-fall.gif",
-          "license": "CC BY-SA 3.0",
-          "author": "Yuta Aoki"
+          "title": "Free-fall animation",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 700\" role=\"img\" aria-label=\"Free-fall animation\"><rect x=\"8\" y=\"8\" width=\"984\" height=\"684\" rx=\"22\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"35\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"26\" font-weight=\"700\" fill=\"#111827\">Free-fall animation</text><rect x=\"35\" y=\"65\" width=\"930\" height=\"560\" rx=\"12\" fill=\"#f8fafc\"/><image href=\"https://commons.wikimedia.org/wiki/Special:FilePath/Free-fall.gif\" x=\"55\" y=\"80\" width=\"890\" height=\"530\" preserveAspectRatio=\"xMidYMid meet\"/></svg>"
         }
       ]
     },
@@ -679,19 +701,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -858,19 +880,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1037,19 +1059,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1216,19 +1238,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1395,19 +1417,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1574,19 +1596,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1753,19 +1775,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -1932,19 +1954,19 @@ window.ChapterData = {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         },
         {
           "type": "important",
           "title": "Figure interpretation note",
           "color": "purple",
-          "text": "Interpret the real source figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
+          "text": "Interpret the figure above by identifying its axes, labels, direction arrows, scale, apparatus or physical components. The image is evidence or a diagram; it does not replace the written definition or calculation."
         }
       ]
     },
@@ -2907,6 +2929,546 @@ window.ChapterData = {
           "text": "Can you define exam mastery: common traps in motion without looking at the notes? Can you explain why the formula works? Can you identify one real-life example and one common misconception? If yes, the section is ready for revision."
         }
       ]
+    },
+    {
+      "id": "motion-rest-and-motion",
+      "title": "Motion: rest and motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Motion is a change in the position of an object with time relative to a chosen reference point or reference frame. Rest is the condition in which the position of an object does not change with time relative to that reference. Rest and motion are therefore not absolute descriptions in ordinary mechanics: a passenger sitting inside a moving bus is at rest relative to the bus but moving relative to a person standing on the road. A good answer always identifies the reference when the situation can be interpreted in more than one way."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A student sitting in a moving train is stationary relative to another passenger but is moving relative to a tree beside the railway track. The apparent contradiction disappears once the reference frames are stated."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "Can the same object be at rest and in motion at the same time? Explain using two reference frames."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Define motion, then state that position changes with time relative to a reference point/frame. Give one example showing why the reference frame matters."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you explain why motion is relative rather than simply saying that an object is moving?"
+        }
+      ]
+    },
+    {
+      "id": "types-of-motion-complete-classification",
+      "title": "Types of motion — complete classification",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Motion can be classified according to the path followed, the manner in which the body moves, and whether the motion repeats. Important Class 9 examples include translational motion, rectilinear motion, curvilinear motion, rotational motion, circular motion, oscillatory/vibratory motion, periodic motion and random motion. These categories can overlap: the motion of a point on a rotating wheel is circular, while the wheel as a rigid body undergoes rotational motion. Periodic describes repetition in time, so an oscillation can also be periodic when it repeats at regular intervals."
+        },
+        {
+          "type": "figure",
+          "title": "Types of motion — classification overview",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 620\" role=\"img\" aria-label=\"Types of motion — classification overview\"><rect x=\"12\" y=\"12\" width=\"976\" height=\"596\" rx=\"24\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"40\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#111827\">Types of motion — classification overview</text><rect x=\"80\" y=\"100\" width=\"840\" height=\"400\" rx=\"20\" fill=\"#f8fafc\" stroke=\"#64748b\" stroke-width=\"3\"/><text x=\"390\" y=\"145\" font-family=\"Arial\" font-size=\"28\" font-weight=\"700\">MOTION</text><line x1=\"500\" y1=\"165\" x2=\"500\" y2=\"470\" stroke=\"#64748b\" stroke-width=\"4\"/><line x1=\"160\" y1=\"245\" x2=\"840\" y2=\"245\" stroke=\"#64748b\" stroke-width=\"4\"/><text x=\"135\" y=\"210\" font-family=\"Arial\" font-size=\"23\" font-weight=\"700\">Path</text><text x=\"625\" y=\"210\" font-family=\"Arial\" font-size=\"23\" font-weight=\"700\">Pattern / behaviour</text><text x=\"115\" y=\"305\" font-family=\"Arial\" font-size=\"21\">Rectilinear</text><text x=\"115\" y=\"350\" font-family=\"Arial\" font-size=\"21\">Curvilinear</text><text x=\"115\" y=\"395\" font-family=\"Arial\" font-size=\"21\">Circular</text><text x=\"115\" y=\"440\" font-family=\"Arial\" font-size=\"21\">Other curved paths</text><text x=\"540\" y=\"305\" font-family=\"Arial\" font-size=\"21\">Translational</text><text x=\"540\" y=\"350\" font-family=\"Arial\" font-size=\"21\">Rotational</text><text x=\"540\" y=\"395\" font-family=\"Arial\" font-size=\"21\">Oscillatory / vibratory</text><text x=\"540\" y=\"440\" font-family=\"Arial\" font-size=\"21\">Periodic / random</text></svg>"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A ceiling fan shows rotational motion; a point on its blade follows a circular path; a simple pendulum shows oscillatory motion and, for ideal repeated swings, periodic motion. These descriptions are not mutually exclusive."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Classify the motion of the hands of a clock, a rolling wheel, a swinging pendulum and a car on a curved road. Give more than one valid classification where appropriate."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you name at least six types of motion and one example for each?"
+        }
+      ]
+    },
+    {
+      "id": "translational-rectilinear-and-curvilinear-motion",
+      "title": "Translational, rectilinear and curvilinear motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "In translational motion, a body moves from one region of space to another without being described primarily by rotation about an internal axis. In rectilinear motion the path is a straight line, while in curvilinear motion the path is curved. A car travelling along a straight road provides a simple rectilinear example; a stone thrown at an angle follows a curved trajectory under ideal conditions and is therefore curvilinear. Translational motion concerns the change of location of the body as a whole, while the path describes the geometry of that change."
+        },
+        {
+          "type": "figure",
+          "title": "Translational motion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 620\" role=\"img\" aria-label=\"Translational motion\"><rect x=\"12\" y=\"12\" width=\"976\" height=\"596\" rx=\"24\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"40\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#111827\">Translational motion</text><defs><marker id=\"a\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L9,3 L0,6 Z\" fill=\"#111827\"/></marker></defs><rect x=\"170\" y=\"250\" width=\"150\" height=\"90\" rx=\"12\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"4\"/><circle cx=\"205\" cy=\"295\" r=\"14\" fill=\"#2563eb\"/><circle cx=\"285\" cy=\"295\" r=\"14\" fill=\"#2563eb\"/><path d=\"M360 295 H820\" stroke=\"#111827\" stroke-width=\"6\" marker-end=\"url(#a)\"/><text x=\"175\" y=\"390\" font-family=\"Arial\" font-size=\"24\" fill=\"#111827\">A body changes its position from one place to another.</text></svg>"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A lift moving vertically is approximately rectilinear translational motion. A trolley moving around a curved track is curvilinear translational motion if its overall movement is considered without analysing rotation of its wheels."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "Why is a rolling wheel not best described using only one type of motion? Distinguish the motion of the wheel centre from the rotation of the wheel."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Differentiate rectilinear and curvilinear motion by comparing their paths and giving one example of each."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you identify the path first and then choose the appropriate classification?"
+        }
+      ]
+    },
+    {
+      "id": "rotational-motion",
+      "title": "Rotational motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Rotational motion occurs when a body turns about an axis. In an ideal rigid body rotating about a fixed axis, different points of the body move along circles whose centres lie on the axis. The angular position of the body changes with time. A ceiling fan, the blades of a mixer and the Earth rotating about its axis are familiar examples. Rotational motion should not be confused with the circular path of a single point: circular motion describes the path of a point, whereas rotational motion describes the turning of the body about an axis."
+        },
+        {
+          "type": "figure",
+          "title": "Rotational motion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 620\" role=\"img\" aria-label=\"Rotational motion\"><rect x=\"12\" y=\"12\" width=\"976\" height=\"596\" rx=\"24\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"40\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#111827\">Rotational motion</text><circle cx=\"500\" cy=\"310\" r=\"105\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"6\"/><circle cx=\"500\" cy=\"310\" r=\"18\" fill=\"#111827\"/><rect x=\"490\" y=\"180\" width=\"20\" height=\"130\" fill=\"#60a5fa\"/><path d=\"M690 260 A210 210 0 0 1 560 500\" fill=\"none\" stroke=\"#111827\" stroke-width=\"6\" marker-end=\"url(#a)\"/><text x=\"160\" y=\"555\" font-family=\"Arial\" font-size=\"24\" fill=\"#111827\">A body turns about a fixed axis.</text></svg>"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "For a ceiling fan, the fan rotates about its central axis. A point near the tip of a blade travels around a circle, while the blade itself undergoes rotation."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Explain why the centre of a rotating wheel about a fixed axle can remain at rest even though the wheel is undergoing rotational motion."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you state the difference between rotational motion and circular motion in one precise paragraph?"
+        }
+      ]
+    },
+    {
+      "id": "circular-motion-and-changing-velocity",
+      "title": "Circular motion and changing velocity",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Circular motion is motion along a circular path. Even if the speed remains constant, velocity need not remain constant because velocity includes direction. At every point on a circular path, the instantaneous velocity is tangent to the circle. Therefore the direction of velocity changes continuously. A force directed toward the centre is associated with the change in velocity in uniform circular motion; this is commonly called centripetal force. The key Class 9 idea is that constant speed does not imply zero acceleration when direction changes."
+        },
+        {
+          "type": "figure",
+          "title": "Circular motion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 620\" role=\"img\" aria-label=\"Circular motion\"><rect x=\"12\" y=\"12\" width=\"976\" height=\"596\" rx=\"24\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"40\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#111827\">Circular motion</text><circle cx=\"500\" cy=\"310\" r=\"155\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"6\"/><circle cx=\"500\" cy=\"310\" r=\"12\" fill=\"#111827\"/><circle cx=\"655\" cy=\"310\" r=\"24\" fill=\"#f59e0b\"/><path d=\"M655 310 H500\" stroke=\"#111827\" stroke-width=\"5\"/><path d=\"M655 310 C650 225 590 165 515 155\" fill=\"none\" stroke=\"#111827\" stroke-width=\"6\" marker-end=\"url(#a)\"/><text x=\"190\" y=\"555\" font-family=\"Arial\" font-size=\"24\" fill=\"#111827\">The path is circular; direction of velocity changes continuously.</text></svg>"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A stone tied to a string and whirled in a circle at constant speed has constant speed but changing velocity. Hence its motion is accelerated."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "A student says, “The speedometer reading is constant, so acceleration is zero.” Identify the mistake and correct the statement."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Explain why a body in uniform circular motion is accelerated even when its speed is constant."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "What changes in uniform circular motion: speed, direction of velocity, or both?"
+        }
+      ]
+    },
+    {
+      "id": "oscillatory-and-vibratory-motion",
+      "title": "Oscillatory and vibratory motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Oscillatory motion is repeated to-and-fro motion about a mean or equilibrium position. A simple pendulum swinging through small angles and a mass attached to a spring are standard examples. Vibratory motion is a rapid or small-amplitude oscillation, such as the vibration of a tuning-fork prong or a stretched string. In an ideal periodic oscillation, the body returns to the same state after equal intervals of time. The terms describe the pattern of motion, not a particular speed value."
+        },
+        {
+          "type": "figure",
+          "title": "Oscillatory motion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 620\" role=\"img\" aria-label=\"Oscillatory motion\"><rect x=\"12\" y=\"12\" width=\"976\" height=\"596\" rx=\"24\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"40\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#111827\">Oscillatory motion</text><line x1=\"180\" y1=\"310\" x2=\"820\" y2=\"310\" stroke=\"#64748b\" stroke-width=\"5\"/><circle cx=\"500\" cy=\"310\" r=\"28\" fill=\"#2563eb\"/><path d=\"M250 310 C300 180 350 440 400 310 C450 180 500 440 550 310 C600 180 650 440 700 310\" fill=\"none\" stroke=\"#7c3aed\" stroke-width=\"6\"/><text x=\"190\" y=\"555\" font-family=\"Arial\" font-size=\"24\" fill=\"#111827\">Repeated to-and-fro motion about a mean position.</text></svg>"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A pendulum moves from one extreme position through the mean position to the opposite extreme and back. Its direction changes repeatedly, and its position repeats after each complete cycle."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "At which position is the direction of motion reversed in an ideal oscillation? Describe what happens at the extreme and mean positions."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you define mean position, extreme position and one complete oscillation?"
+        }
+      ]
+    },
+    {
+      "id": "periodic-and-random-motion",
+      "title": "Periodic and random motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Periodic motion repeats itself after equal intervals of time. The Earth’s revolution around the Sun is approximately periodic, and an ideal oscillator can have a fixed period. Random motion does not follow a predictable fixed path or direction over successive observations; the motion of pollen or dust particles suspended in a fluid is an example at the school level. Periodic and random are descriptions of predictability and repetition, so a motion can be both periodic and oscillatory, while random motion is not periodic in the same idealised sense."
+        },
+        {
+          "type": "figure",
+          "title": "Periodic motion",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 620\" role=\"img\" aria-label=\"Periodic motion\"><rect x=\"12\" y=\"12\" width=\"976\" height=\"596\" rx=\"24\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"4\"/><text x=\"40\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#111827\">Periodic motion</text><line x1=\"160\" y1=\"480\" x2=\"840\" y2=\"480\" stroke=\"#64748b\" stroke-width=\"4\"/><path d=\"M170 480 C210 280 250 280 290 480 C330 680 370 680 410 480 C450 280 490 280 530 480 C570 680 610 680 650 480 C690 280 730 280 770 480\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"7\"/><text x=\"190\" y=\"120\" font-family=\"Arial\" font-size=\"25\" fill=\"#111827\">Same state repeats after equal intervals of time.</text></svg>"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "The repeated swing of an ideal pendulum is periodic. The irregular zig-zag movement of a tiny suspended particle caused by molecular collisions is random."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "Can a motion be both circular and periodic? Yes. Explain using the motion of a point on a uniformly rotating wheel."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "What feature must be present for a motion to be called periodic?"
+        }
+      ]
+    },
+    {
+      "id": "distance-displacement-and-path-geometry",
+      "title": "Distance, displacement and path geometry",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Distance is the total length of the actual path travelled by an object and is a scalar quantity. Displacement is the directed change from initial position to final position and is a vector quantity. Distance is always non-negative and is at least as large as the magnitude of displacement for a journey between the same initial and final positions. If an object returns to its starting point, its displacement is zero even though the distance travelled is not zero. This distinction is essential in numerical problems and graph interpretation."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A runner completes one 400 m lap and returns to the starting point. Distance = 400 m, while displacement = 0 m."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "Why can displacement be zero while distance is non-zero? Draw an imagined closed path and identify the initial and final positions."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Differentiate distance and displacement using definition, nature (scalar/vector), path dependence and one example."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you decide whether a question asks for total path length or net change in position?"
+        }
+      ]
+    },
+    {
+      "id": "scalar-and-vector-quantities-in-motion",
+      "title": "Scalar and vector quantities in Motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A scalar quantity has magnitude only, whereas a vector quantity has magnitude and direction. In this chapter, distance and speed are scalars; displacement and velocity are vectors. Acceleration is also a vector because it represents the rate of change of velocity. Direction becomes especially important in one-dimensional motion when a sign convention is chosen: for example, east may be taken as positive and west as negative. A negative value then indicates direction relative to the chosen convention; it does not automatically mean that the object is “slowing down.”"
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "If east is positive and a cyclist has velocity −5 m/s, the cyclist is moving west at 5 m/s relative to the chosen axis."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "Give an example in which negative acceleration corresponds to speeding up rather than slowing down. Explain using velocity and acceleration directions."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Which four quantities in this chapter should you classify as vectors: distance, displacement, speed, velocity, acceleration?"
+        }
+      ]
+    },
+    {
+      "id": "speed-velocity-and-their-averages",
+      "title": "Speed, velocity and their averages",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Speed measures how quickly distance is covered. Average speed equals total distance divided by total time. Velocity describes displacement per unit time, and average velocity equals total displacement divided by total time. Average speed and average velocity are therefore not interchangeable. For a complete round trip ending where it began, average velocity is zero, but average speed is generally positive. Instantaneous speed and instantaneous velocity describe the motion at a particular instant, while average quantities describe an interval."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A student walks 60 m east and then 40 m west in 20 s. Total distance = 100 m, displacement = 20 m east, average speed = 5 m/s, and average velocity = 1 m/s east."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A vehicle covers equal distances at 30 km/h and 60 km/h. Find the average speed from total distance/total time and explain why the arithmetic mean is not valid here."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Compare average speed and average velocity and include their formulas and one round-trip example."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Do you know when the arithmetic mean of two speeds is valid and when it is not?"
+        }
+      ]
+    },
+    {
+      "id": "acceleration-retardation-and-sign-conventions",
+      "title": "Acceleration, retardation and sign conventions",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Acceleration is the rate of change of velocity with time: a = (v − u)/t. A positive or negative acceleration depends on the chosen positive direction. An object slows down when acceleration and velocity are in opposite directions; it speeds up when they are in the same direction. Thus “negative acceleration” is not a synonym for retardation. If east is positive, a car moving west may have a negative velocity; a negative acceleration could either increase or decrease its speed depending on the direction of its velocity."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "If u = 10 m/s and v = 4 m/s after 3 s in the positive direction, a = (4−10)/3 = −2 m/s². The negative sign indicates acceleration opposite to the chosen positive direction; here the speed decreases because velocity and acceleration are opposite."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "Suppose u = −4 m/s and a = −2 m/s². Is the object slowing down or speeding up? Explain without relying on the word “negative.”"
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you determine speeding up or slowing down by comparing velocity and acceleration directions?"
+        }
+      ]
+    },
+    {
+      "id": "uniform-and-non-uniform-motion",
+      "title": "Uniform and non-uniform motion",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Uniform motion means equal distances are covered in equal intervals of time along a straight path when the velocity remains constant. Non-uniform motion occurs when speed, direction, or both change with time. A body can have uniform speed but changing velocity if its direction changes, as in uniform circular motion. In everyday situations, motion is often non-uniform because vehicles accelerate, brake, turn or encounter changing conditions."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A train moving on a straight track at constant 20 m/s has constant velocity and hence uniform motion. A car moving around a circular track at constant speed has changing velocity and is therefore not uniform-velocity motion."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "Distinguish uniform and non-uniform motion. Include the role of equal distances, time intervals, speed and direction."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Is constant speed enough to guarantee constant velocity? Why or why not?"
+        }
+      ]
+    },
+    {
+      "id": "motion-graphs-reading-slope-correctly",
+      "title": "Motion graphs — reading slope correctly",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "A distance–time graph shows how distance changes with time. Its slope represents speed when distance is plotted against time. A straight line with constant slope represents constant speed; a horizontal line represents no change in distance with time. A velocity–time graph shows velocity against time. Its slope represents acceleration, while the signed area under the graph represents displacement for the chosen one-dimensional convention. Always inspect axis labels before interpreting a graph."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "For a velocity–time graph rising uniformly from 0 to 10 m/s in 5 s, acceleration is slope = (10−0)/5 = 2 m/s². The triangular area gives displacement = 1/2 × 5 × 10 = 25 m."
+        },
+        {
+          "type": "hots",
+          "title": "HOTS / Think Deeper",
+          "color": "purple",
+          "text": "Why is “steeper” not a complete description of a graph unless the axes and scales are known? Explain."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you state the slope meaning for d–t and v–t graphs without mixing them up?"
+        }
+      ]
+    },
+    {
+      "id": "equations-of-motion-when-and-why-they-apply",
+      "title": "Equations of motion — when and why they apply",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "The standard equations v = u + at, s = ut + 1/2 at² and v² − u² = 2as apply to straight-line motion with constant acceleration. Here u is initial velocity, v final velocity, a acceleration, t time and s displacement. They are not universal formulas for every motion. Before using them, identify the motion as one-dimensional with constant acceleration and keep a consistent sign convention. Deriving the equations from definitions helps prevent blind substitution."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "A body starts from rest and accelerates uniformly at 2 m/s² for 5 s. u=0, a=2 m/s², t=5 s. v=u+at=10 m/s. Displacement s=ut+1/2at²=25 m."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A student uses s = ut + 1/2at² for a car whose acceleration changes every second. Explain why the result cannot be trusted without additional information."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-ready answer frame",
+          "color": "green",
+          "text": "State the three equations of motion, define every symbol, and state the condition of constant acceleration."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Before using an equation, can you identify u, v, a, t, s and the sign convention?"
+        }
+      ]
+    },
+    {
+      "id": "relative-motion-and-reference-frames",
+      "title": "Relative motion and reference frames",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Relative motion compares the motion of one object with respect to another. In one dimension, if two objects move along the same axis, their relative velocity can be found by subtracting velocities with a consistent sign convention. If two cars travel east at 20 m/s and 12 m/s, the first moves at 8 m/s relative to the second. If they move in opposite directions, the signed values must be used rather than memorised “add” rules. The safest method is to choose a positive direction and calculate algebraically."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "Take east as positive. Car A: +20 m/s; Car B: +12 m/s. Velocity of A relative to B = 20 − 12 = +8 m/s, so A moves east at 8 m/s relative to B."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you explain relative motion using a moving train and a stationary tree?"
+        }
+      ]
+    },
+    {
+      "id": "units-conversions-and-numerical-discipline",
+      "title": "Units, conversions and numerical discipline",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Concept Explained",
+          "color": "blue",
+          "text": "Motion numericals become much safer when units are made consistent before substitution. The SI unit of distance is metre (m), time is second (s), speed and velocity are m/s, and acceleration is m/s². Useful conversion: 1 km/h = 5/18 m/s and 1 m/s = 18/5 km/h. A good solution writes Given → Required → Formula → Unit conversion → Substitution → Calculation → Final answer with unit → Reasonableness check. Do not round intermediate values unnecessarily."
+        },
+        {
+          "type": "worked",
+          "title": "Worked Example",
+          "color": "purple",
+          "text": "54 km/h = 54 × 5/18 = 15 m/s. If a question mixes km/h and seconds, convert before applying the formula."
+        },
+        {
+          "type": "challenge",
+          "title": "Challenge",
+          "color": "pink",
+          "text": "A student substitutes 72 km/h directly into an equation where acceleration is in m/s² and time is in seconds. Identify the unit error and repair it."
+        },
+        {
+          "type": "check",
+          "title": "Self-check",
+          "color": "teal",
+          "text": "Can you convert 36 km/h, 72 km/h and 10 m/s without a calculator?"
+        }
+      ]
     }
   ],
   "importantPoints": [
@@ -2919,7 +3481,14 @@ window.ChapterData = {
     "Do not confuse the slope and area meanings: slope of v-t is acceleration; area of v-t is displacement.",
     "Write Given → Formula → Substitution → Answer. Check that acceleration is constant before using these equations.",
     "Never conclude “zero acceleration” merely because the speedometer reading is constant.",
-    "A correct formula with an inconsistent sign convention can still produce a wrong answer; signs are part of the physics, not decoration."
+    "A correct formula with an inconsistent sign convention can still produce a wrong answer; signs are part of the physics, not decoration.",
+    "Rest and motion are reference-frame dependent.",
+    "Types of motion include translational, rectilinear, curvilinear, rotational, circular, oscillatory, periodic and random motion.",
+    "Distance is path length; displacement is directed change in position.",
+    "Speed is scalar; velocity and acceleration are vectors.",
+    "Constant speed does not imply constant velocity in circular motion.",
+    "The equations of motion require constant acceleration.",
+    "Slope of a distance-time graph gives speed; slope of a velocity-time graph gives acceleration."
   ],
   "keyTerms": [
     "Motion and reference frame",
@@ -2931,7 +3500,29 @@ window.ChapterData = {
     "Velocity-time graph",
     "Equations of motion",
     "Uniform circular motion",
-    "Numerical problem strategy"
+    "Numerical problem strategy",
+    "Reference frame",
+    "Rest",
+    "Motion",
+    "Translational motion",
+    "Rectilinear motion",
+    "Curvilinear motion",
+    "Rotational motion",
+    "Circular motion",
+    "Oscillatory motion",
+    "Vibratory motion",
+    "Periodic motion",
+    "Random motion",
+    "Distance",
+    "Displacement",
+    "Scalar",
+    "Vector",
+    "Speed",
+    "Velocity",
+    "Retardation",
+    "Uniform motion",
+    "Non-uniform motion",
+    "Relative velocity"
   ],
   "detailedSummary": [
     "Chapter 1 builds Motion from definitions to applications.",
@@ -2939,7 +3530,7 @@ window.ChapterData = {
     "Figures are embedded as SVG so the notes do not depend on external image links.",
     "Worked examples, HOTS and challenges are included throughout."
   ],
-  "chapterSummary": "This ultra-detailed Chapter 1 set is designed for deep Class 9 study: concept → figure → worked examples → important points → HOTS → challenge → error detection → scientific thinking → exam writing → self-check.",
+  "chapterSummary": "A complete Motion chapter covering rest and motion, reference frames, types of motion, distance/displacement, scalar/vector quantities, speed/velocity, acceleration, uniform and non-uniform motion, graphs, equations of motion, circular motion, relative motion, units and exam strategy.",
   "finalChapterTest": [
     {
       "question": "Explain the central idea of Chapter 1: Motion and give two applications.",
@@ -2950,56 +3541,6 @@ window.ChapterData = {
       "question": "Solve one numerical from this chapter and show every step.",
       "answer": "Use Given, Formula/Law, Substitution, Calculation and Answer.",
       "solution": "A complete solution must include units and direction wherever relevant, followed by an independent reasonableness check."
-    }
-  ],
-  "figureSources": [
-    {
-      "title": "Distance–time graph example",
-      "file": "Distance-time_graph_example.svg",
-      "license": "Public domain",
-      "author": "Sjlegg",
-      "source": "https://commons.wikimedia.org/wiki/File:Distance-time_graph_example.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Distance-time_graph_example.svg"
-    },
-    {
-      "title": "Velocity–time graph examples",
-      "file": "Example-velocity-time-diagramm.svg",
-      "license": "CC BY-SA 4.0",
-      "author": "MikeRun",
-      "source": "https://commons.wikimedia.org/wiki/File:Example-velocity-time-diagramm.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Example-velocity-time-diagramm.svg"
-    },
-    {
-      "title": "Uniform circular motion",
-      "file": "Uniform_circular_motion.svg",
-      "license": "CC BY-SA 3.0",
-      "author": "Brews ohare / Sjlegg",
-      "source": "https://commons.wikimedia.org/wiki/File:Uniform_circular_motion.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uniform_circular_motion.svg"
-    },
-    {
-      "title": "Circular-motion velocity and acceleration",
-      "file": "Circular_motion_velocity_and_acceleration.svg",
-      "license": "Public domain",
-      "author": "Feeb denroc",
-      "source": "https://commons.wikimedia.org/wiki/File:Circular_motion_velocity_and_acceleration.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Circular_motion_velocity_and_acceleration.svg"
-    },
-    {
-      "title": "Uniform acceleration graphs",
-      "file": "Uniform-acceleration.svg",
-      "license": "CC BY-SA 4.0",
-      "author": "MikeRun",
-      "source": "https://commons.wikimedia.org/wiki/File:Uniform-acceleration.svg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uniform-acceleration.svg"
-    },
-    {
-      "title": "Free-fall animation",
-      "file": "Free-fall.gif",
-      "license": "CC BY-SA 3.0",
-      "author": "Yuta Aoki",
-      "source": "https://commons.wikimedia.org/wiki/File:Free-fall.gif",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Free-fall.gif"
     }
   ]
 };
