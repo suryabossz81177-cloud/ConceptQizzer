@@ -1,5 +1,4 @@
-/* Class 9 Political Science — Democratic Rights — continuous chapter data */
-/* No maps are included, as requested. Render content sequentially without nested chapter sections. */
+/* Class 9 Political Science — clean continuous chapter data. */
 const ChapterData = {
   "id": "class9-political-science-democratic-rights",
   "class": 9,
@@ -11,8 +10,7 @@ const ChapterData = {
   "intro": "Democracy becomes meaningful when citizens possess rights that protect their freedom, equality and dignity. Rights place limits on government and give people the ability to participate in public life. This chapter explains the Fundamental Rights guaranteed by the Indian Constitution, their importance, reasonable limitations and the role of courts in protecting them.",
   "content": [
     {
-      "type": "heading",
-      "level": 1,
+      "type": "chapterHeading",
       "text": "Democratic Rights"
     },
     {
@@ -20,14 +18,7 @@ const ChapterData = {
       "text": "Democracy becomes meaningful when citizens possess rights that protect their freedom, equality and dignity. Rights place limits on government and give people the ability to participate in public life. This chapter explains the Fundamental Rights guaranteed by the Indian Constitution, their importance, reasonable limitations and the role of courts in protecting them."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Before reading further, try to explain the chapter's central idea in your own words. Then ask: Who gets power? What limits that power? How can citizens participate? What happens when a decision is challenged?"
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Why rights matter in a democracy"
     },
     {
@@ -51,22 +42,11 @@ const ChapterData = {
       "text": "Democracy is not simply majority rule. Citizens need basic freedoms and equal treatment so that they can participate as citizens rather than live at the mercy of whoever holds power. To understand why rights matter in a democracy, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with why rights matter in a democracy. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Why rights matter in a democracy in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 1: The Equal Line",
       "intro": "Students discover why equal citizenship means more than treating friends equally.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discover why equal citizenship means more than treating friends equally. What rule should we start with?"
@@ -99,12 +79,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Fundamental Rights"
     },
     {
@@ -128,22 +106,11 @@ const ChapterData = {
       "text": "The Constitution of India guarantees Fundamental Rights in Part III. These rights provide important protections against arbitrary state action and help secure democratic citizenship. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with fundamental rights. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Fundamental Rights in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 2: The Speech Question",
       "intro": "A student asks why freedom of expression has constitutional limits.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student asks why freedom of expression has constitutional limits. What rule should we start with?"
@@ -176,8 +143,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -192,8 +158,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Right to Equality"
     },
     {
@@ -217,22 +182,11 @@ const ChapterData = {
       "text": "The Right to Equality includes equality before the law and equal protection of the laws and prohibits discrimination on specified grounds. It also addresses equality of opportunity in public employment and abolishes untouchability. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with right to equality. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Right to Equality in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 3: The Peaceful Assembly",
       "intro": "Students plan a peaceful meeting about a school issue.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students plan a peaceful meeting about a school issue. What rule should we start with?"
@@ -265,12 +219,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Right to Freedom"
     },
     {
@@ -294,22 +246,11 @@ const ChapterData = {
       "text": "The Right to Freedom protects several important freedoms, including speech and expression, peaceful assembly, association, movement, residence and profession, subject to constitutional limitations. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with right to freedom. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Right to Freedom in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 4: The Association Club",
       "intro": "Students form a group and learn about lawful association.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students form a group and learn about lawful association. What rule should we start with?"
@@ -342,8 +283,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -358,8 +298,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Right against Exploitation"
     },
     {
@@ -383,22 +322,11 @@ const ChapterData = {
       "text": "The Constitution prohibits trafficking and forced labour and places restrictions on child labour in specified hazardous contexts. These protections recognise that freedom is undermined when people are exploited through coercion. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with right against exploitation. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Right against Exploitation in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 5: The Religion Choice",
       "intro": "Students discuss freedom of conscience and respectful coexistence.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss freedom of conscience and respectful coexistence. What rule should we start with?"
@@ -431,12 +359,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Right to Freedom of Religion"
     },
     {
@@ -460,22 +386,11 @@ const ChapterData = {
       "text": "Freedom of religion protects the freedom of conscience and the right to profess, practise and propagate religion subject to constitutional limitations. India follows a secular constitutional framework. To understand right to freedom of religion, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with right to freedom of religion. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Right to Freedom of Religion in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 6: The Exploitation Warning",
       "intro": "A student notices coercion and learns why forced labour is prohibited.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student notices coercion and learns why forced labour is prohibited. What rule should we start with?"
@@ -508,8 +423,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -524,8 +438,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Cultural and Educational Rights"
     },
     {
@@ -549,22 +462,11 @@ const ChapterData = {
       "text": "These rights protect the interests of minorities and support the preservation of language, script and culture. They also include protections concerning educational institutions of minorities. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with cultural and educational rights. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Cultural and Educational Rights in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 7: The Untouchability Rule",
       "intro": "Students examine why a discriminatory practice is constitutionally prohibited.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students examine why a discriminatory practice is constitutionally prohibited. What rule should we start with?"
@@ -597,12 +499,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Right to Constitutional Remedies"
     },
     {
@@ -626,22 +526,11 @@ const ChapterData = {
       "text": "Citizens can approach courts for enforcement of Fundamental Rights. Dr B. R. Ambedkar described this remedy as especially important because rights need an effective mechanism of enforcement. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with right to constitutional remedies. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Right to Constitutional Remedies in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 8: The Minority Library",
       "intro": "A group protects its language and cultural practices through lawful means.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a group protects its language and cultural practices through lawful means. What rule should we start with?"
@@ -674,8 +563,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -690,8 +578,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reasonable restrictions"
     },
     {
@@ -715,22 +602,11 @@ const ChapterData = {
       "text": "Rights are not always absolute. The Constitution permits certain restrictions under specified conditions, such as considerations relating to public order, security, morality and other constitutional grounds. Restrictions must have a lawful basis and cannot simply be invented by officials. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with reasonable restrictions. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Reasonable restrictions in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 9: The Court Door",
       "intro": "A student learns why a right without a remedy can be difficult to enforce.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student learns why a right without a remedy can be difficult to enforce. What rule should we start with?"
@@ -763,12 +639,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Rights and minorities"
     },
     {
@@ -792,22 +666,11 @@ const ChapterData = {
       "text": "Democracy must protect individuals and groups even when they are not part of the majority. Rights make equal citizenship meaningful by placing certain protections beyond ordinary political convenience. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with rights and minorities. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Rights and minorities in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 10: The Reasonable Restriction",
       "intro": "Students distinguish a lawful restriction from an arbitrary ban.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students distinguish a lawful restriction from an arbitrary ban. What rule should we start with?"
@@ -840,8 +703,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -856,8 +718,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Rights and the judiciary"
     },
     {
@@ -881,22 +742,11 @@ const ChapterData = {
       "text": "Courts play an important role in interpreting constitutional rights and providing remedies. Judicial protection helps turn constitutional promises into enforceable claims. To understand rights and the judiciary, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with rights and the judiciary. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Rights and the judiciary in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 11: The Rumour and Reputation",
       "intro": "Students balance expression with responsibility and lawful limits.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students balance expression with responsibility and lawful limits. What rule should we start with?"
@@ -929,12 +779,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Expanding the meaning of rights"
     },
     {
@@ -958,22 +806,11 @@ const ChapterData = {
       "text": "Constitutional interpretation can give rights practical meaning as society changes. Courts have developed jurisprudence around life, liberty and dignity within the constitutional framework. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with expanding the meaning of rights. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Expanding the meaning of rights in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 12: The Equal Opportunity",
       "intro": "Students examine fairness in access to public employment.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students examine fairness in access to public employment. What rule should we start with?"
@@ -1006,8 +843,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -1022,8 +858,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Rights and duties"
     },
     {
@@ -1047,22 +882,11 @@ const ChapterData = {
       "text": "Rights support democratic participation, while responsible citizenship also involves respecting the rights of others and following lawful democratic procedures. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with rights and duties. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Rights and duties in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 13: The Dignity Case",
       "intro": "A dispute is resolved by focusing on the dignity of the person.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a dispute is resolved by focusing on the dignity of the person. What rule should we start with?"
@@ -1095,14 +919,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 17: The Equal Line",
       "intro": "Students discover why equal citizenship means more than treating friends equally.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discover why equal citizenship means more than treating friends equally. What rule should we start with?"
@@ -1135,14 +959,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 18: The Speech Question",
       "intro": "A student asks why freedom of expression has constitutional limits.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student asks why freedom of expression has constitutional limits. What rule should we start with?"
@@ -1175,14 +999,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 19: The Peaceful Assembly",
       "intro": "Students plan a peaceful meeting about a school issue.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students plan a peaceful meeting about a school issue. What rule should we start with?"
@@ -1215,14 +1039,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 20: The Association Club",
       "intro": "Students form a group and learn about lawful association.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students form a group and learn about lawful association. What rule should we start with?"
@@ -1255,14 +1079,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 21: The Religion Choice",
       "intro": "Students discuss freedom of conscience and respectful coexistence.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss freedom of conscience and respectful coexistence. What rule should we start with?"
@@ -1295,14 +1119,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 22: The Exploitation Warning",
       "intro": "A student notices coercion and learns why forced labour is prohibited.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student notices coercion and learns why forced labour is prohibited. What rule should we start with?"
@@ -1335,14 +1159,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 23: The Untouchability Rule",
       "intro": "Students examine why a discriminatory practice is constitutionally prohibited.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students examine why a discriminatory practice is constitutionally prohibited. What rule should we start with?"
@@ -1375,14 +1199,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 24: The Minority Library",
       "intro": "A group protects its language and cultural practices through lawful means.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a group protects its language and cultural practices through lawful means. What rule should we start with?"
@@ -1415,14 +1239,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 25: The Court Door",
       "intro": "A student learns why a right without a remedy can be difficult to enforce.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student learns why a right without a remedy can be difficult to enforce. What rule should we start with?"
@@ -1455,14 +1279,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 26: The Reasonable Restriction",
       "intro": "Students distinguish a lawful restriction from an arbitrary ban.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students distinguish a lawful restriction from an arbitrary ban. What rule should we start with?"
@@ -1495,14 +1319,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 27: The Rumour and Reputation",
       "intro": "Students balance expression with responsibility and lawful limits.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students balance expression with responsibility and lawful limits. What rule should we start with?"
@@ -1535,14 +1359,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 28: The Equal Opportunity",
       "intro": "Students examine fairness in access to public employment.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students examine fairness in access to public employment. What rule should we start with?"
@@ -1575,14 +1399,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 29: The Dignity Case",
       "intro": "A dispute is resolved by focusing on the dignity of the person.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a dispute is resolved by focusing on the dignity of the person. What rule should we start with?"
@@ -1615,14 +1439,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 30: The Rights Shield",
       "intro": "Students map everyday situations to Fundamental Rights.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students map everyday situations to fundamental rights. What rule should we start with?"
@@ -1655,14 +1479,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 31: The Government Order",
       "intro": "A public authority's decision is questioned against constitutional protections.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a public authority's decision is questioned against constitutional protections. What rule should we start with?"
@@ -1695,14 +1519,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 32: The Responsible Citizen",
       "intro": "Students connect their own freedoms with respect for others.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students connect their own freedoms with respect for others. What rule should we start with?"
@@ -1735,12 +1559,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Connect the Ideas"
     },
     {
@@ -1828,8 +1650,7 @@ const ChapterData = {
       "text": "Connection 20: A useful way to revise democratic rights is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Quick Checks"
     },
     {
@@ -1983,8 +1804,7 @@ const ChapterData = {
       "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Key Terms"
     },
     {
@@ -2063,8 +1883,7 @@ const ChapterData = {
       "meaning": "Secularism is an important concept in democratic rights. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Important Points for Revision"
     },
     {
@@ -2188,8 +2007,7 @@ const ChapterData = {
       "text": "Revision Point 30: Right to Freedom should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Complete Chapter Summary"
     },
     {
@@ -2249,619 +2067,511 @@ const ChapterData = {
       "text": "Rights and duties: Rights support democratic participation, while responsible citizenship also involves respecting the rights of others and following lawful democratic procedures."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Final Revision Challenge"
     },
     {
-      "type": "box",
-      "kind": "challenge",
-      "title": "Teach It Without Looking",
-      "text": "Close the notes and explain Democratic Rights to another student. Use at least five key terms, two real-life examples, one case-based argument and one explanation of how a democratic institution or safeguard makes the principle work."
-    },
-    {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 1: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 2: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 3: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 4: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 5: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 6: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 7: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 8: Read a new situation related to right to constitutional remedies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 9: Read a new situation related to reasonable restrictions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 10: Read a new situation related to rights and minorities and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 11: Read a new situation related to rights and the judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 12: Read a new situation related to expanding the meaning of rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 13: Read a new situation related to rights and duties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 14: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 15: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 16: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 17: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 18: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 19: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 20: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 1: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 2: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 3: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 4: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 5: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 6: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 7: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 8: Read a new situation related to right to constitutional remedies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 9: Read a new situation related to reasonable restrictions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 10: Read a new situation related to rights and minorities and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 11: Read a new situation related to rights and the judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 12: Read a new situation related to expanding the meaning of rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 13: Read a new situation related to rights and duties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 14: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 15: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 16: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 17: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 18: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 19: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 20: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 1: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 2: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 3: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 4: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 5: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 6: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 7: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 8: Read a new situation related to right to constitutional remedies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 9: Read a new situation related to reasonable restrictions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 10: Read a new situation related to rights and minorities and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 11: Read a new situation related to rights and the judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 12: Read a new situation related to expanding the meaning of rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 13: Read a new situation related to rights and duties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 14: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 15: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 16: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 17: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 18: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 19: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 20: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 1: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 2: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 3: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 4: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 5: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 6: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 7: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 8: Read a new situation related to right to constitutional remedies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 9: Read a new situation related to reasonable restrictions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 10: Read a new situation related to rights and minorities and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 11: Read a new situation related to rights and the judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 12: Read a new situation related to expanding the meaning of rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 13: Read a new situation related to rights and duties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 14: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 15: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 16: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 17: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 18: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 19: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 20: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 1: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 2: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 3: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 4: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 5: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 6: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 7: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 8: Read a new situation related to right to constitutional remedies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 9: Read a new situation related to reasonable restrictions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 10: Read a new situation related to rights and minorities and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 11: Read a new situation related to rights and the judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 12: Read a new situation related to expanding the meaning of rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 13: Read a new situation related to rights and duties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 14: Read a new situation related to why rights matter in a democracy and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 15: Read a new situation related to fundamental rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 16: Read a new situation related to right to equality and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 17: Read a new situation related to right to freedom and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 18: Read a new situation related to right against exploitation and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 19: Read a new situation related to right to freedom of religion and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 20: Read a new situation related to cultural and educational rights and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Equality"
     },
     {
@@ -2873,14 +2583,7 @@ const ChapterData = {
       "text": "In practical life, Right to Equality can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Equality, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Freedom"
     },
     {
@@ -2892,14 +2595,7 @@ const ChapterData = {
       "text": "In practical life, Right to Freedom can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Freedom, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right Against Exploitation"
     },
     {
@@ -2911,14 +2607,7 @@ const ChapterData = {
       "text": "In practical life, Right against Exploitation can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right against Exploitation, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Freedom Of Religion"
     },
     {
@@ -2930,14 +2619,7 @@ const ChapterData = {
       "text": "In practical life, Freedom of Religion can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Freedom of Religion, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Cultural And Educational Rights"
     },
     {
@@ -2949,14 +2631,7 @@ const ChapterData = {
       "text": "In practical life, Cultural and Educational Rights can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Cultural and Educational Rights, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Constitutional Remedies"
     },
     {
@@ -2968,14 +2643,7 @@ const ChapterData = {
       "text": "In practical life, Right to Constitutional Remedies can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Constitutional Remedies, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Reasonable Restrictions"
     },
     {
@@ -2987,14 +2655,7 @@ const ChapterData = {
       "text": "In practical life, reasonable restrictions can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising reasonable restrictions, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Dignity"
     },
     {
@@ -3006,14 +2667,7 @@ const ChapterData = {
       "text": "In practical life, dignity can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising dignity, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Equality"
     },
     {
@@ -3025,14 +2679,7 @@ const ChapterData = {
       "text": "In practical life, Right to Equality can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Equality, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Freedom"
     },
     {
@@ -3044,14 +2691,7 @@ const ChapterData = {
       "text": "In practical life, Right to Freedom can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Freedom, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right Against Exploitation"
     },
     {
@@ -3063,14 +2703,7 @@ const ChapterData = {
       "text": "In practical life, Right against Exploitation can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right against Exploitation, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Freedom Of Religion"
     },
     {
@@ -3082,14 +2715,7 @@ const ChapterData = {
       "text": "In practical life, Freedom of Religion can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Freedom of Religion, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Cultural And Educational Rights"
     },
     {
@@ -3101,14 +2727,7 @@ const ChapterData = {
       "text": "In practical life, Cultural and Educational Rights can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Cultural and Educational Rights, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Constitutional Remedies"
     },
     {
@@ -3120,14 +2739,7 @@ const ChapterData = {
       "text": "In practical life, Right to Constitutional Remedies can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Constitutional Remedies, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Reasonable Restrictions"
     },
     {
@@ -3139,14 +2751,7 @@ const ChapterData = {
       "text": "In practical life, reasonable restrictions can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising reasonable restrictions, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Dignity"
     },
     {
@@ -3158,14 +2763,7 @@ const ChapterData = {
       "text": "In practical life, dignity can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising dignity, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Equality"
     },
     {
@@ -3177,14 +2775,7 @@ const ChapterData = {
       "text": "In practical life, Right to Equality can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Equality, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Right To Freedom"
     },
     {
@@ -3194,18 +2785,13 @@ const ChapterData = {
     {
       "type": "paragraph",
       "text": "In practical life, Right to Freedom can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
-    },
-    {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Right to Freedom, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
     },
     {
       "type": "comic",
       "title": "Comic Story 30: The Civic Problem — Right To Equality",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right to Equality. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right to Equality with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right to Equality means in this situation."
@@ -3238,14 +2824,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right to Equality with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 31: The Civic Problem — Right To Freedom",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right to Freedom. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right to Freedom with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right to Freedom means in this situation."
@@ -3278,14 +2864,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right to Freedom with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 32: The Civic Problem — Right Against Exploitation",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right against Exploitation. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right against Exploitation with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right against Exploitation means in this situation."
@@ -3318,14 +2904,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right against Exploitation with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 33: The Civic Problem — Freedom Of Religion",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Freedom of Religion. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Freedom of Religion with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Freedom of Religion means in this situation."
@@ -3358,14 +2944,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Freedom of Religion with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 34: The Civic Problem — Cultural And Educational Rights",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Cultural and Educational Rights. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Cultural and Educational Rights with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Cultural and Educational Rights means in this situation."
@@ -3398,14 +2984,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Cultural and Educational Rights with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 35: The Civic Problem — Right To Constitutional Remedies",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right to Constitutional Remedies. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right to Constitutional Remedies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right to Constitutional Remedies means in this situation."
@@ -3438,14 +3024,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right to Constitutional Remedies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 36: The Civic Problem — Reasonable Restrictions",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand reasonable restrictions. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects reasonable restrictions with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what reasonable restrictions means in this situation."
@@ -3478,14 +3064,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects reasonable restrictions with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 37: The Civic Problem — Dignity",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand dignity. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects dignity with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what dignity means in this situation."
@@ -3518,14 +3104,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects dignity with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 38: The Civic Problem — Right To Equality",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right to Equality. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right to Equality with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right to Equality means in this situation."
@@ -3558,14 +3144,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right to Equality with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 39: The Civic Problem — Right To Freedom",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right to Freedom. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right to Freedom with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right to Freedom means in this situation."
@@ -3598,14 +3184,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right to Freedom with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 40: The Civic Problem — Right Against Exploitation",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Right against Exploitation. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Right against Exploitation with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Right against Exploitation means in this situation."
@@ -3638,14 +3224,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Right against Exploitation with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 41: The Civic Problem — Freedom Of Religion",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Freedom of Religion. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Freedom of Religion with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Freedom of Religion means in this situation."
@@ -3678,280 +3264,232 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Freedom of Religion with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Right to Equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Right to Freedom. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Freedom in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Right against Exploitation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right against Exploitation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Freedom of Religion. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Freedom of Religion in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Cultural and Educational Rights. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Cultural and Educational Rights in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Right to Constitutional Remedies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Constitutional Remedies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about reasonable restrictions. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reasonable restrictions in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about dignity. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain dignity in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Right to Equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Right to Freedom. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Freedom in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Right against Exploitation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right against Exploitation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Freedom of Religion. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Freedom of Religion in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Cultural and Educational Rights. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Cultural and Educational Rights in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Right to Constitutional Remedies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Constitutional Remedies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about reasonable restrictions. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reasonable restrictions in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about dignity. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain dignity in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Right to Equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Right to Freedom. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Freedom in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Right against Exploitation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right against Exploitation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Freedom of Religion. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Freedom of Religion in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Cultural and Educational Rights. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Cultural and Educational Rights in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Right to Constitutional Remedies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Constitutional Remedies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about reasonable restrictions. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reasonable restrictions in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about dignity. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain dignity in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Right to Equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Right to Freedom. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Freedom in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Right against Exploitation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right against Exploitation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Freedom of Religion. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Freedom of Religion in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Cultural and Educational Rights. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Cultural and Educational Rights in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Right to Constitutional Remedies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Constitutional Remedies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about reasonable restrictions. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reasonable restrictions in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about dignity. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain dignity in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Right to Equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Right to Freedom. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Freedom in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Right against Exploitation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right against Exploitation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Freedom of Religion. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Freedom of Religion in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Cultural and Educational Rights. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Cultural and Educational Rights in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Right to Constitutional Remedies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Constitutional Remedies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about reasonable restrictions. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reasonable restrictions in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about dignity. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain dignity in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Right to Equality. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Equality in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Right to Freedom. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right to Freedom in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Right against Exploitation. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Right against Exploitation in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about Freedom of Religion. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Freedom of Religion in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Cultural and Educational Rights. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Cultural and Educational Rights in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     }
   ]
 };
-
-

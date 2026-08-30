@@ -1,5 +1,4 @@
-/* Class 9 Political Science — Electoral Politics — continuous chapter data */
-/* No maps are included, as requested. Render content sequentially without nested chapter sections. */
+/* Class 9 Political Science — clean continuous chapter data. */
 const ChapterData = {
   "id": "class9-political-science-electoral-politics",
   "class": 9,
@@ -11,8 +10,7 @@ const ChapterData = {
   "intro": "Elections are the central mechanism through which citizens choose representatives in a representative democracy. But an election is not merely a day on which votes are counted. It involves constituencies, candidates, political parties, campaigning, electoral rules, the Election Commission, polling, counting, representation and the conditions required for a genuinely democratic contest.",
   "content": [
     {
-      "type": "heading",
-      "level": 1,
+      "type": "chapterHeading",
       "text": "Electoral Politics"
     },
     {
@@ -20,14 +18,7 @@ const ChapterData = {
       "text": "Elections are the central mechanism through which citizens choose representatives in a representative democracy. But an election is not merely a day on which votes are counted. It involves constituencies, candidates, political parties, campaigning, electoral rules, the Election Commission, polling, counting, representation and the conditions required for a genuinely democratic contest."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Before reading further, try to explain the chapter's central idea in your own words. Then ask: Who gets power? What limits that power? How can citizens participate? What happens when a decision is challenged?"
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Why elections are needed"
     },
     {
@@ -51,22 +42,11 @@ const ChapterData = {
       "text": "In a large democracy, citizens cannot participate directly in every government decision. Elections allow them to choose representatives who make decisions on their behalf. They also provide a peaceful mechanism for changing representatives. To understand why elections are needed, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with why elections are needed. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Why elections are needed in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 1: The Constituency Map",
       "intro": "Students understand why a large area is divided into constituencies.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students understand why a large area is divided into constituencies. What rule should we start with?"
@@ -99,12 +79,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "What makes an election democratic"
     },
     {
@@ -128,22 +106,11 @@ const ChapterData = {
       "text": "A democratic election requires real choice, regular competition, equal value of votes, freedom from coercion, accepted rules and a credible process for counting and announcing results. Merely holding a vote does not automatically make an election democratic. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with what makes an election democratic. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write What makes an election democratic in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 2: The Candidate List",
       "intro": "A student learns what nomination means.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student learns what nomination means. What rule should we start with?"
@@ -176,8 +143,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -192,8 +158,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Electoral constituencies"
     },
     {
@@ -217,22 +182,11 @@ const ChapterData = {
       "text": "For elections to representative bodies, a country is divided into constituencies or electoral areas. Voters in each constituency choose a representative according to the relevant electoral system. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with electoral constituencies. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Electoral constituencies in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 3: The Equal Vote Booth",
       "intro": "Students discuss why each voter gets one vote of equal value.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss why each voter gets one vote of equal value. What rule should we start with?"
@@ -265,12 +219,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reserved constituencies"
     },
     {
@@ -294,22 +246,11 @@ const ChapterData = {
       "text": "In India, certain constituencies are reserved for Scheduled Castes and Scheduled Tribes in legislatures to ensure representation of communities that have historically faced exclusion. Reservation in constituencies does not mean that only members of that community can vote there. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with reserved constituencies. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Reserved constituencies in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 4: The Campaign Promise",
       "intro": "Two candidates present different programmes and answer questions.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: two candidates present different programmes and answer questions. What rule should we start with?"
@@ -342,8 +283,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -358,8 +298,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Voters and electoral rolls"
     },
     {
@@ -383,22 +322,11 @@ const ChapterData = {
       "text": "A voter needs to be included in the electoral roll according to the applicable rules. Electoral rolls are important because they establish who is entitled to participate in a particular election. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with voters and electoral rolls. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Voters and electoral rolls in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 5: The Secret Choice",
       "intro": "A student explains why no one should be forced to reveal a vote.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student explains why no one should be forced to reveal a vote. What rule should we start with?"
@@ -431,12 +359,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Candidates and nomination"
     },
     {
@@ -460,22 +386,11 @@ const ChapterData = {
       "text": "Candidates must meet the legal conditions for contesting and complete the nomination process. The nomination stage is part of making electoral competition orderly and transparent. To understand candidates and nomination, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with candidates and nomination. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Candidates and nomination in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 6: The Fake Rumour",
       "intro": "Students verify a campaign claim before sharing it.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students verify a campaign claim before sharing it. What rule should we start with?"
@@ -508,8 +423,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -524,8 +438,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Political parties"
     },
     {
@@ -549,22 +462,11 @@ const ChapterData = {
       "text": "Parties organise political choices by presenting programmes, selecting candidates, campaigning and coordinating representatives. They also help voters connect individual candidates with broader policy positions. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with political parties. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Political parties in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 7: The Reserved Seat",
       "intro": "Students learn the purpose of reserved constituencies without confusing it with separate electorates.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn the purpose of reserved constituencies without confusing it with separate electorates. What rule should we start with?"
@@ -597,12 +499,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Election campaign"
     },
     {
@@ -626,22 +526,11 @@ const ChapterData = {
       "text": "Campaigns give candidates and parties an opportunity to communicate their programmes and persuade voters. Democratic campaigning is expected to follow electoral law and ethical standards rather than intimidation, bribery or appeals that undermine equal citizenship. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with election campaign. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Election campaign in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 8: The Polling Day",
       "intro": "Students walk through a clean, orderly voting process.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students walk through a clean, orderly voting process. What rule should we start with?"
@@ -674,8 +563,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -690,8 +578,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Polling and secret ballot"
     },
     {
@@ -715,22 +602,11 @@ const ChapterData = {
       "text": "The voting process is designed to allow citizens to cast their vote freely. The secrecy of the ballot helps protect voters from pressure by reducing the possibility that others can force them to reveal their choice. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with polling and secret ballot. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Polling and secret ballot in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 9: The Counting Table",
       "intro": "Students see why transparent counting matters.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students see why transparent counting matters. What rule should we start with?"
@@ -763,12 +639,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Counting and results"
     },
     {
@@ -792,22 +666,11 @@ const ChapterData = {
       "text": "Votes are counted according to established procedures and results are declared. Confidence in the counting process is essential because the legitimacy of representation depends on accurate aggregation of votes. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with counting and results. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Counting and results in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 10: The Election Referee",
       "intro": "The class compares election administration with a neutral referee.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: the class compares election administration with a neutral referee. What rule should we start with?"
@@ -840,8 +703,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -856,8 +718,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Election Commission"
     },
     {
@@ -881,22 +742,11 @@ const ChapterData = {
       "text": "The Election Commission of India is a constitutional authority responsible for superintendence, direction and control of elections to Parliament, state legislatures and the offices specified in the Constitution. Its role is central to administering elections. To understand election commission, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with election commission. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Election Commission in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 11: The Model Code Debate",
       "intro": "Students discuss why campaign conduct needs rules.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss why campaign conduct needs rules. What rule should we start with?"
@@ -929,12 +779,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Challenges in electoral politics"
     },
     {
@@ -958,22 +806,11 @@ const ChapterData = {
       "text": "Money power, criminalisation, misuse of official machinery, misleading campaign practices and social divisions can affect electoral competition. Democratic institutions therefore need rules, enforcement and informed citizens. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with challenges in electoral politics. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Challenges in electoral politics in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 12: The Money Problem",
       "intro": "Students explore why excessive money power can distort competition.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students explore why excessive money power can distort competition. What rule should we start with?"
@@ -1006,8 +843,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -1022,8 +858,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Popular participation and accountability"
     },
     {
@@ -1047,22 +882,11 @@ const ChapterData = {
       "text": "Voting is important, but democratic participation does not end at the polling station. Citizens can question representatives, discuss policies, use lawful public forums and evaluate performance before the next election. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with popular participation and accountability. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Popular participation and accountability in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 13: The Representative's Promise",
       "intro": "Students compare a campaign promise with later performance.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students compare a campaign promise with later performance. What rule should we start with?"
@@ -1095,14 +919,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 17: The Constituency Map",
       "intro": "Students understand why a large area is divided into constituencies.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students understand why a large area is divided into constituencies. What rule should we start with?"
@@ -1135,14 +959,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 18: The Candidate List",
       "intro": "A student learns what nomination means.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student learns what nomination means. What rule should we start with?"
@@ -1175,14 +999,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 19: The Equal Vote Booth",
       "intro": "Students discuss why each voter gets one vote of equal value.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss why each voter gets one vote of equal value. What rule should we start with?"
@@ -1215,14 +1039,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 20: The Campaign Promise",
       "intro": "Two candidates present different programmes and answer questions.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: two candidates present different programmes and answer questions. What rule should we start with?"
@@ -1255,14 +1079,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 21: The Secret Choice",
       "intro": "A student explains why no one should be forced to reveal a vote.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student explains why no one should be forced to reveal a vote. What rule should we start with?"
@@ -1295,14 +1119,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 22: The Fake Rumour",
       "intro": "Students verify a campaign claim before sharing it.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students verify a campaign claim before sharing it. What rule should we start with?"
@@ -1335,14 +1159,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 23: The Reserved Seat",
       "intro": "Students learn the purpose of reserved constituencies without confusing it with separate electorates.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn the purpose of reserved constituencies without confusing it with separate electorates. What rule should we start with?"
@@ -1375,14 +1199,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 24: The Polling Day",
       "intro": "Students walk through a clean, orderly voting process.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students walk through a clean, orderly voting process. What rule should we start with?"
@@ -1415,14 +1239,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 25: The Counting Table",
       "intro": "Students see why transparent counting matters.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students see why transparent counting matters. What rule should we start with?"
@@ -1455,14 +1279,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 26: The Election Referee",
       "intro": "The class compares election administration with a neutral referee.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: the class compares election administration with a neutral referee. What rule should we start with?"
@@ -1495,14 +1319,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 27: The Model Code Debate",
       "intro": "Students discuss why campaign conduct needs rules.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss why campaign conduct needs rules. What rule should we start with?"
@@ -1535,14 +1359,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 28: The Money Problem",
       "intro": "Students explore why excessive money power can distort competition.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students explore why excessive money power can distort competition. What rule should we start with?"
@@ -1575,14 +1399,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 29: The Representative's Promise",
       "intro": "Students compare a campaign promise with later performance.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students compare a campaign promise with later performance. What rule should we start with?"
@@ -1615,14 +1439,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 30: The Voter Question Hour",
       "intro": "Voters ask candidates about policies rather than personalities.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: voters ask candidates about policies rather than personalities. What rule should we start with?"
@@ -1655,14 +1479,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 31: The Close Contest",
       "intro": "Students learn why a small number of votes can change representation.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn why a small number of votes can change representation. What rule should we start with?"
@@ -1695,14 +1519,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 32: The Peaceful Change",
       "intro": "A losing candidate accepts the result and prepares for the next election.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a losing candidate accepts the result and prepares for the next election. What rule should we start with?"
@@ -1735,12 +1559,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Connect the Ideas"
     },
     {
@@ -1828,8 +1650,7 @@ const ChapterData = {
       "text": "Connection 20: A useful way to revise electoral politics is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Quick Checks"
     },
     {
@@ -1983,8 +1804,7 @@ const ChapterData = {
       "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Key Terms"
     },
     {
@@ -2063,8 +1883,7 @@ const ChapterData = {
       "meaning": "Turnout is an important concept in electoral politics. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Important Points for Revision"
     },
     {
@@ -2188,8 +2007,7 @@ const ChapterData = {
       "text": "Revision Point 30: Reserved constituencies should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Complete Chapter Summary"
     },
     {
@@ -2249,619 +2067,511 @@ const ChapterData = {
       "text": "Popular participation and accountability: Voting is important, but democratic participation does not end at the polling station. Citizens can question representatives, discuss policies, use lawful public forums and evaluate performance before the next election."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Final Revision Challenge"
     },
     {
-      "type": "box",
-      "kind": "challenge",
-      "title": "Teach It Without Looking",
-      "text": "Close the notes and explain Electoral Politics to another student. Use at least five key terms, two real-life examples, one case-based argument and one explanation of how a democratic institution or safeguard makes the principle work."
-    },
-    {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 1: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 2: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 3: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 4: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 5: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 6: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 7: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 8: Read a new situation related to election campaign and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 9: Read a new situation related to polling and secret ballot and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 10: Read a new situation related to counting and results and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 11: Read a new situation related to election commission and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 12: Read a new situation related to challenges in electoral politics and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 13: Read a new situation related to popular participation and accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 14: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 15: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 16: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 17: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 18: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 19: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 20: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 1: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 2: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 3: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 4: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 5: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 6: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 7: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 8: Read a new situation related to election campaign and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 9: Read a new situation related to polling and secret ballot and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 10: Read a new situation related to counting and results and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 11: Read a new situation related to election commission and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 12: Read a new situation related to challenges in electoral politics and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 13: Read a new situation related to popular participation and accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 14: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 15: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 16: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 17: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 18: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 19: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 20: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 1: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 2: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 3: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 4: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 5: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 6: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 7: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 8: Read a new situation related to election campaign and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 9: Read a new situation related to polling and secret ballot and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 10: Read a new situation related to counting and results and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 11: Read a new situation related to election commission and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 12: Read a new situation related to challenges in electoral politics and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 13: Read a new situation related to popular participation and accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 14: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 15: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 16: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 17: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 18: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 19: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 20: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 1: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 2: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 3: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 4: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 5: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 6: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 7: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 8: Read a new situation related to election campaign and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 9: Read a new situation related to polling and secret ballot and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 10: Read a new situation related to counting and results and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 11: Read a new situation related to election commission and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 12: Read a new situation related to challenges in electoral politics and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 13: Read a new situation related to popular participation and accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 14: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 15: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 16: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 17: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 18: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 19: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 20: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 1: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 2: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 3: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 4: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 5: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 6: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 7: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 8: Read a new situation related to election campaign and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 9: Read a new situation related to polling and secret ballot and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 10: Read a new situation related to counting and results and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 11: Read a new situation related to election commission and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 12: Read a new situation related to challenges in electoral politics and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 13: Read a new situation related to popular participation and accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 14: Read a new situation related to why elections are needed and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 15: Read a new situation related to what makes an election democratic and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 16: Read a new situation related to electoral constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 17: Read a new situation related to reserved constituencies and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 18: Read a new situation related to voters and electoral rolls and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 19: Read a new situation related to candidates and nomination and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 20: Read a new situation related to political parties and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Constituencies"
     },
     {
@@ -2873,14 +2583,7 @@ const ChapterData = {
       "text": "In practical life, constituencies can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising constituencies, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Electoral Rolls"
     },
     {
@@ -2892,14 +2595,7 @@ const ChapterData = {
       "text": "In practical life, electoral rolls can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising electoral rolls, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Candidate Nomination"
     },
     {
@@ -2911,14 +2607,7 @@ const ChapterData = {
       "text": "In practical life, candidate nomination can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising candidate nomination, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Political Parties"
     },
     {
@@ -2930,14 +2619,7 @@ const ChapterData = {
       "text": "In practical life, political parties can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising political parties, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Campaigns"
     },
     {
@@ -2949,14 +2631,7 @@ const ChapterData = {
       "text": "In practical life, campaigns can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising campaigns, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Secret Ballot"
     },
     {
@@ -2968,14 +2643,7 @@ const ChapterData = {
       "text": "In practical life, secret ballot can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising secret ballot, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Counting"
     },
     {
@@ -2987,14 +2655,7 @@ const ChapterData = {
       "text": "In practical life, counting can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising counting, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Election Commission"
     },
     {
@@ -3006,14 +2667,7 @@ const ChapterData = {
       "text": "In practical life, Election Commission can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Election Commission, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Reserved Constituencies"
     },
     {
@@ -3025,14 +2679,7 @@ const ChapterData = {
       "text": "In practical life, reserved constituencies can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising reserved constituencies, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Electoral Accountability"
     },
     {
@@ -3044,14 +2691,7 @@ const ChapterData = {
       "text": "In practical life, electoral accountability can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising electoral accountability, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Constituencies"
     },
     {
@@ -3063,14 +2703,7 @@ const ChapterData = {
       "text": "In practical life, constituencies can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising constituencies, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Electoral Rolls"
     },
     {
@@ -3082,14 +2715,7 @@ const ChapterData = {
       "text": "In practical life, electoral rolls can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising electoral rolls, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Candidate Nomination"
     },
     {
@@ -3101,14 +2727,7 @@ const ChapterData = {
       "text": "In practical life, candidate nomination can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising candidate nomination, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Political Parties"
     },
     {
@@ -3120,14 +2739,7 @@ const ChapterData = {
       "text": "In practical life, political parties can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising political parties, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Campaigns"
     },
     {
@@ -3139,14 +2751,7 @@ const ChapterData = {
       "text": "In practical life, campaigns can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising campaigns, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Secret Ballot"
     },
     {
@@ -3158,14 +2763,7 @@ const ChapterData = {
       "text": "In practical life, secret ballot can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising secret ballot, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Counting"
     },
     {
@@ -3177,14 +2775,7 @@ const ChapterData = {
       "text": "In practical life, counting can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising counting, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Election Commission"
     },
     {
@@ -3196,16 +2787,11 @@ const ChapterData = {
       "text": "In practical life, Election Commission can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Election Commission, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 30: The Civic Problem — Constituencies",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand constituencies. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects constituencies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what constituencies means in this situation."
@@ -3238,14 +2824,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects constituencies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 31: The Civic Problem — Electoral Rolls",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand electoral rolls. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects electoral rolls with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what electoral rolls means in this situation."
@@ -3278,14 +2864,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects electoral rolls with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 32: The Civic Problem — Candidate Nomination",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand candidate nomination. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects candidate nomination with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what candidate nomination means in this situation."
@@ -3318,14 +2904,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects candidate nomination with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 33: The Civic Problem — Political Parties",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand political parties. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects political parties with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what political parties means in this situation."
@@ -3358,14 +2944,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects political parties with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 34: The Civic Problem — Campaigns",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand campaigns. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects campaigns with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what campaigns means in this situation."
@@ -3398,14 +2984,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects campaigns with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 35: The Civic Problem — Secret Ballot",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand secret ballot. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects secret ballot with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what secret ballot means in this situation."
@@ -3438,14 +3024,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects secret ballot with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 36: The Civic Problem — Counting",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand counting. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects counting with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what counting means in this situation."
@@ -3478,14 +3064,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects counting with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 37: The Civic Problem — Election Commission",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Election Commission. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Election Commission with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Election Commission means in this situation."
@@ -3518,14 +3104,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Election Commission with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 38: The Civic Problem — Reserved Constituencies",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand reserved constituencies. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects reserved constituencies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what reserved constituencies means in this situation."
@@ -3558,14 +3144,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects reserved constituencies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 39: The Civic Problem — Electoral Accountability",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand electoral accountability. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects electoral accountability with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what electoral accountability means in this situation."
@@ -3598,14 +3184,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects electoral accountability with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 40: The Civic Problem — Constituencies",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand constituencies. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects constituencies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what constituencies means in this situation."
@@ -3638,14 +3224,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects constituencies with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 41: The Civic Problem — Electoral Rolls",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand electoral rolls. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects electoral rolls with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what electoral rolls means in this situation."
@@ -3678,280 +3264,232 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects electoral rolls with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about electoral rolls. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral rolls in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about candidate nomination. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain candidate nomination in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political parties. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political parties in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about campaigns. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain campaigns in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about secret ballot. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain secret ballot in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about counting. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain counting in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Election Commission. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Election Commission in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about reserved constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reserved constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about electoral accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about electoral rolls. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral rolls in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about candidate nomination. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain candidate nomination in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political parties. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political parties in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about campaigns. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain campaigns in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about secret ballot. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain secret ballot in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about counting. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain counting in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Election Commission. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Election Commission in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about reserved constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reserved constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about electoral accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about electoral rolls. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral rolls in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about candidate nomination. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain candidate nomination in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political parties. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political parties in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about campaigns. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain campaigns in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about secret ballot. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain secret ballot in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about counting. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain counting in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Election Commission. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Election Commission in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about reserved constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reserved constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about electoral accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about electoral rolls. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral rolls in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about candidate nomination. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain candidate nomination in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political parties. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political parties in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about campaigns. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain campaigns in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about secret ballot. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain secret ballot in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about counting. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain counting in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Election Commission. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Election Commission in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about reserved constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain reserved constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about electoral accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about constituencies. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain constituencies in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about electoral rolls. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain electoral rolls in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about candidate nomination. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain candidate nomination in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political parties. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political parties in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about campaigns. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain campaigns in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     }
   ]
 };
-
-

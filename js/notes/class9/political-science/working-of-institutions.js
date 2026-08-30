@@ -1,5 +1,4 @@
-/* Class 9 Political Science — Working of Institutions — continuous chapter data */
-/* No maps are included, as requested. Render content sequentially without nested chapter sections. */
+/* Class 9 Political Science — clean continuous chapter data. */
 const ChapterData = {
   "id": "class9-political-science-working-of-institutions",
   "class": 9,
@@ -11,8 +10,7 @@ const ChapterData = {
   "intro": "Democratic government does not operate through one person making every decision. It works through institutions with defined roles, procedures and relationships. This chapter explains how major decisions are taken in India through the Parliament, political executive and judiciary, and why institutional checks, consultation, accountability and constitutional rules matter.",
   "content": [
     {
-      "type": "heading",
-      "level": 1,
+      "type": "chapterHeading",
       "text": "Working of Institutions"
     },
     {
@@ -20,14 +18,7 @@ const ChapterData = {
       "text": "Democratic government does not operate through one person making every decision. It works through institutions with defined roles, procedures and relationships. This chapter explains how major decisions are taken in India through the Parliament, political executive and judiciary, and why institutional checks, consultation, accountability and constitutional rules matter."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Before reading further, try to explain the chapter's central idea in your own words. Then ask: Who gets power? What limits that power? How can citizens participate? What happens when a decision is challenged?"
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Why institutions matter"
     },
     {
@@ -51,22 +42,11 @@ const ChapterData = {
       "text": "Institutions provide established procedures for making and implementing public decisions. They prevent government from becoming entirely dependent on personal preference and make authority more predictable. To understand why institutions matter, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with why institutions matter. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Why institutions matter in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 1: The Cabinet Decision",
       "intro": "Students discover that a major policy cannot be decided by one person casually.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discover that a major policy cannot be decided by one person casually. What rule should we start with?"
@@ -99,12 +79,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Parliament"
     },
     {
@@ -128,22 +106,11 @@ const ChapterData = {
       "text": "Parliament is the national legislature. It consists of the President and two Houses: the Lok Sabha and the Rajya Sabha. Parliament performs law-making functions and exercises control and scrutiny over the executive through procedures such as questions, debates and financial oversight. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with parliament. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Parliament in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 2: The Parliament Question",
       "intro": "A student council asks why representatives question the committee in charge.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student council asks why representatives question the committee in charge. What rule should we start with?"
@@ -176,8 +143,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -192,8 +158,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Lok Sabha"
     },
     {
@@ -217,22 +182,11 @@ const ChapterData = {
       "text": "The Lok Sabha is the House of the People. Its members are directly elected from constituencies. The Council of Ministers is collectively responsible to the Lok Sabha, which gives the elected House an important role in determining whether the government continues in office. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with lok sabha. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Lok Sabha in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 3: The Two Houses",
       "intro": "Students compare two chambers with different representative roles.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students compare two chambers with different representative roles. What rule should we start with?"
@@ -265,12 +219,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Rajya Sabha"
     },
     {
@@ -294,22 +246,11 @@ const ChapterData = {
       "text": "The Rajya Sabha represents the states and union territories within the Union legislature. It participates in legislation and performs constitutional functions alongside the Lok Sabha. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with rajya sabha. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Rajya Sabha in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 4: The Minister and Officer",
       "intro": "A classroom project shows the difference between political leadership and permanent administration.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a classroom project shows the difference between political leadership and permanent administration. What rule should we start with?"
@@ -342,8 +283,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -358,8 +298,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Political executive"
     },
     {
@@ -383,22 +322,11 @@ const ChapterData = {
       "text": "The political executive consists of elected or politically accountable office-holders who take policy decisions, while permanent executive officials assist in administration and implementation. The distinction helps explain how democratic responsibility operates. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with political executive. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Political executive in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 5: The Prime Minister's Team",
       "intro": "Students see why the head of government works through a team of ministers.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students see why the head of government works through a team of ministers. What rule should we start with?"
@@ -431,12 +359,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Prime Minister and Council of Ministers"
     },
     {
@@ -460,22 +386,11 @@ const ChapterData = {
       "text": "The Prime Minister is the head of the government and leads the Council of Ministers. Ministers have responsibilities for different areas of government and work collectively within the constitutional framework. To understand prime minister and council of ministers, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with prime minister and council of ministers. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Prime Minister and Council of Ministers in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 6: The Constitutional Head",
       "intro": "Students discuss the difference between formal constitutional position and day-to-day political leadership.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss the difference between formal constitutional position and day-to-day political leadership. What rule should we start with?"
@@ -508,8 +423,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -524,8 +438,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "President"
     },
     {
@@ -549,22 +462,11 @@ const ChapterData = {
       "text": "The President is the constitutional head of the Union. The office has important constitutional powers, but the parliamentary system operates through a Council of Ministers headed by the Prime Minister to aid and advise the President as provided by the Constitution. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with president. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write President in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 7: The Court Challenge",
       "intro": "A student challenges a decision and learns how an independent court can review legality.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student challenges a decision and learns how an independent court can review legality. What rule should we start with?"
@@ -597,12 +499,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Judiciary"
     },
     {
@@ -626,22 +526,11 @@ const ChapterData = {
       "text": "The judiciary interprets laws, settles disputes and protects constitutional principles. Its independence is important because courts may need to decide disputes involving governments and citizens. Another useful distinction is between the principle itself and its application. A democratic rule may be general, but its practical effect depends on circumstances, institutions, evidence and the safeguards available to people affected by a decision."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with judiciary. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Judiciary in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 8: The Committee Check",
       "intro": "A proposal is examined before the final decision.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a proposal is examined before the final decision. What rule should we start with?"
@@ -674,8 +563,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -690,8 +578,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Judicial review"
     },
     {
@@ -715,22 +602,11 @@ const ChapterData = {
       "text": "Courts can examine whether laws and executive actions are consistent with the Constitution in cases where such questions arise. This contributes to constitutional limits on public power. Students should avoid reducing this idea to a single keyword. The stronger understanding is to explain the purpose of the rule, the problem it addresses, the institution connected with it and the way it protects democratic government."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with judicial review. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Judicial review in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 9: The Money Vote",
       "intro": "Students learn why public money requires legislative approval and scrutiny.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn why public money requires legislative approval and scrutiny. What rule should we start with?"
@@ -763,12 +639,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Checks and balances"
     },
     {
@@ -792,22 +666,11 @@ const ChapterData = {
       "text": "Institutions do not operate as completely isolated boxes. Their powers overlap in carefully defined ways. Parliamentary scrutiny, executive responsibility and judicial review create mechanisms through which public authority can be questioned. In an examination answer, the best approach is to begin with the core meaning, explain the mechanism, give a relevant example and then show why the principle matters for citizens. This demonstrates understanding rather than memorisation."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with checks and balances. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Checks and balances in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 10: The Accountability Chain",
       "intro": "A policy travels from decision to implementation to review.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a policy travels from decision to implementation to review. What rule should we start with?"
@@ -840,8 +703,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -856,8 +718,7 @@ const ChapterData = {
       "answer": "A strong answer identifies the relevant democratic principle, distinguishes preference from rule, checks the authority and procedure involved, considers equal citizenship and proposes a peaceful, accountable remedy."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Major policy decisions"
     },
     {
@@ -881,22 +742,11 @@ const ChapterData = {
       "text": "Important government decisions usually pass through formal and informal processes involving ministers, officials, Parliament, committees, public debate and sometimes courts. The process is more complex than a single person issuing an order. To understand major policy decisions, it is useful to connect the principle with an actual decision-making situation. A rule has meaning only when we can identify who is bound by it, who can question its application and what happens when the rule is ignored."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with major policy decisions. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Major policy decisions in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 11: The Institutional Conflict",
       "intro": "Two groups claim the same power and consult the rules to resolve the dispute.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: two groups claim the same power and consult the rules to resolve the dispute. What rule should we start with?"
@@ -929,12 +779,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Accountability"
     },
     {
@@ -958,22 +806,11 @@ const ChapterData = {
       "text": "Institutional accountability means that decision-makers must operate through rules and remain answerable through appropriate constitutional and democratic mechanisms. The idea also has an institutional side. Citizens, representatives, officials and courts may have different roles, so a democratic system needs procedures that make responsibilities visible rather than leaving everything to personal discretion."
     },
     {
-      "type": "box",
-      "kind": "example",
-      "title": "Example in Everyday Life",
-      "text": "Imagine a school or neighbourhood decision connected with accountability. Ask who makes the decision, whose interests are affected, what procedure is followed, whether the rule is applied equally, and what peaceful remedy is available if the process is unfair."
-    },
-    {
-      "type": "box",
-      "kind": "exam",
-      "title": "Exam Focus",
-      "text": "Write Accountability in four steps: define the idea, explain how it works, give a concrete example, and state why it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 12: The Question Hour",
       "intro": "Students learn how questioning can expose problems without replacing government.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn how questioning can expose problems without replacing government. What rule should we start with?"
@@ -1006,8 +843,7 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "case",
@@ -1025,7 +861,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic Story 17: The Cabinet Decision",
       "intro": "Students discover that a major policy cannot be decided by one person casually.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discover that a major policy cannot be decided by one person casually. What rule should we start with?"
@@ -1058,14 +895,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 18: The Parliament Question",
       "intro": "A student council asks why representatives question the committee in charge.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student council asks why representatives question the committee in charge. What rule should we start with?"
@@ -1098,14 +935,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 19: The Two Houses",
       "intro": "Students compare two chambers with different representative roles.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students compare two chambers with different representative roles. What rule should we start with?"
@@ -1138,14 +975,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 20: The Minister and Officer",
       "intro": "A classroom project shows the difference between political leadership and permanent administration.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a classroom project shows the difference between political leadership and permanent administration. What rule should we start with?"
@@ -1178,14 +1015,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 21: The Prime Minister's Team",
       "intro": "Students see why the head of government works through a team of ministers.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students see why the head of government works through a team of ministers. What rule should we start with?"
@@ -1218,14 +1055,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 22: The Constitutional Head",
       "intro": "Students discuss the difference between formal constitutional position and day-to-day political leadership.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss the difference between formal constitutional position and day-to-day political leadership. What rule should we start with?"
@@ -1258,14 +1095,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 23: The Court Challenge",
       "intro": "A student challenges a decision and learns how an independent court can review legality.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a student challenges a decision and learns how an independent court can review legality. What rule should we start with?"
@@ -1298,14 +1135,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 24: The Committee Check",
       "intro": "A proposal is examined before the final decision.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a proposal is examined before the final decision. What rule should we start with?"
@@ -1338,14 +1175,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 25: The Money Vote",
       "intro": "Students learn why public money requires legislative approval and scrutiny.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn why public money requires legislative approval and scrutiny. What rule should we start with?"
@@ -1378,14 +1215,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 26: The Accountability Chain",
       "intro": "A policy travels from decision to implementation to review.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: a policy travels from decision to implementation to review. What rule should we start with?"
@@ -1418,14 +1255,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 27: The Institutional Conflict",
       "intro": "Two groups claim the same power and consult the rules to resolve the dispute.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: two groups claim the same power and consult the rules to resolve the dispute. What rule should we start with?"
@@ -1458,14 +1295,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 28: The Question Hour",
       "intro": "Students learn how questioning can expose problems without replacing government.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn how questioning can expose problems without replacing government. What rule should we start with?"
@@ -1498,14 +1335,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 29: The Court and the Government",
       "intro": "Students understand why courts can decide disputes involving government.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students understand why courts can decide disputes involving government. What rule should we start with?"
@@ -1538,14 +1375,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 30: The Resignation Test",
       "intro": "Students discuss political responsibility after loss of legislative confidence.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students discuss political responsibility after loss of legislative confidence. What rule should we start with?"
@@ -1578,14 +1415,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 31: The Permanent Office",
       "intro": "Students learn why administration continues when elected leaders change.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students learn why administration continues when elected leaders change. What rule should we start with?"
@@ -1618,14 +1455,14 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 32: The Democratic Machine",
       "intro": "Students connect legislature, executive and judiciary as parts of one constitutional system.",
-      "dialogue": [
+      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "Something is confusing us in this situation: students connect legislature, executive and judiciary as parts of one constitutional system. What rule should we start with?"
@@ -1658,12 +1495,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Democratic institutions are designed to make public power answerable, predictable and connected to common rules."
         }
-      ],
-      "lesson": "The situation shows how a democratic principle becomes meaningful through fair procedure, accountable authority, equal citizenship and the possibility of review or correction."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Connect the Ideas"
     },
     {
@@ -1751,8 +1586,7 @@ const ChapterData = {
       "text": "Connection 20: A useful way to revise working of institutions is to ask four questions in sequence—what is the principle, what problem does it solve, which institution or citizen action makes it meaningful, and what safeguard prevents its misuse. This approach avoids memorising disconnected lines and helps in application-based questions."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Quick Checks"
     },
     {
@@ -1906,8 +1740,7 @@ const ChapterData = {
       "answer": "The relevant democratic principle is accountable, rule-based decision-making. The exact concept depends on the situation, but a complete answer should connect authority with procedure, equal citizenship and the possibility of review."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Key Terms"
     },
     {
@@ -1986,8 +1819,7 @@ const ChapterData = {
       "meaning": "Constitutional Authority is an important concept in working of institutions. In an answer, define it clearly, connect it to the democratic system and give a short example showing how it operates."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Important Points for Revision"
     },
     {
@@ -2111,8 +1943,7 @@ const ChapterData = {
       "text": "Revision Point 30: Prime Minister and Council of Ministers should be understood in terms of its meaning, purpose, institutional connection, practical example and democratic significance."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Complete Chapter Summary"
     },
     {
@@ -2168,619 +1999,511 @@ const ChapterData = {
       "text": "Accountability: Institutional accountability means that decision-makers must operate through rules and remain answerable through appropriate constitutional and democratic mechanisms."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Final Revision Challenge"
     },
     {
-      "type": "box",
-      "kind": "challenge",
-      "title": "Teach It Without Looking",
-      "text": "Close the notes and explain Working of Institutions to another student. Use at least five key terms, two real-life examples, one case-based argument and one explanation of how a democratic institution or safeguard makes the principle work."
-    },
-    {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 1: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 2: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 3: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 4: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 5: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 6: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 7: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 8: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 9: Read a new situation related to judicial review and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 10: Read a new situation related to checks and balances and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 11: Read a new situation related to major policy decisions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 12: Read a new situation related to accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 13: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 14: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 15: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 16: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 17: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 18: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 19: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Basic Understanding",
       "question": "Basic Understanding 20: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 1: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 2: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 3: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 4: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 5: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 6: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 7: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 8: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 9: Read a new situation related to judicial review and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 10: Read a new situation related to checks and balances and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 11: Read a new situation related to major policy decisions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 12: Read a new situation related to accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 13: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 14: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 15: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 16: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 17: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 18: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 19: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Concept Application",
       "question": "Concept Application 20: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 1: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 2: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 3: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 4: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 5: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 6: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 7: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 8: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 9: Read a new situation related to judicial review and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 10: Read a new situation related to checks and balances and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 11: Read a new situation related to major policy decisions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 12: Read a new situation related to accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 13: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 14: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 15: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 16: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 17: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 18: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 19: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Reasoning",
       "question": "Reasoning 20: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 1: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 2: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 3: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 4: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 5: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 6: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 7: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 8: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 9: Read a new situation related to judicial review and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 10: Read a new situation related to checks and balances and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 11: Read a new situation related to major policy decisions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 12: Read a new situation related to accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 13: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 14: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 15: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 16: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 17: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 18: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 19: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "Case Analysis",
       "question": "Case Analysis 20: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 1: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 2: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 3: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 4: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 5: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 6: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 7: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 8: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 9: Read a new situation related to judicial review and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 10: Read a new situation related to checks and balances and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 11: Read a new situation related to major policy decisions and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 12: Read a new situation related to accountability and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 13: Read a new situation related to why institutions matter and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 14: Read a new situation related to parliament and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 15: Read a new situation related to lok sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 16: Read a new situation related to rajya sabha and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 17: Read a new situation related to political executive and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 18: Read a new situation related to prime minister and council of ministers and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 19: Read a new situation related to president and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "HOTS 20: Read a new situation related to judiciary and explain the principle, the relevant process, the possible risk and the fairest remedy.",
       "answer": "A high-quality response should identify the concept, explain the rule in context, avoid unsupported assumptions, distinguish rights from preferences, and justify the proposed conclusion with democratic principles."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Parliament"
     },
     {
@@ -2792,14 +2515,7 @@ const ChapterData = {
       "text": "In practical life, Parliament can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Parliament, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Lok Sabha"
     },
     {
@@ -2811,14 +2527,7 @@ const ChapterData = {
       "text": "In practical life, Lok Sabha can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Lok Sabha, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Rajya Sabha"
     },
     {
@@ -2830,14 +2539,7 @@ const ChapterData = {
       "text": "In practical life, Rajya Sabha can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Rajya Sabha, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Political Executive"
     },
     {
@@ -2849,14 +2551,7 @@ const ChapterData = {
       "text": "In practical life, political executive can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising political executive, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Prime Minister And Council Of Ministers"
     },
     {
@@ -2868,14 +2563,7 @@ const ChapterData = {
       "text": "In practical life, Prime Minister and Council of Ministers can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Prime Minister and Council of Ministers, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: President"
     },
     {
@@ -2887,14 +2575,7 @@ const ChapterData = {
       "text": "In practical life, President can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising President, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Judiciary"
     },
     {
@@ -2906,14 +2587,7 @@ const ChapterData = {
       "text": "In practical life, judiciary can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising judiciary, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Judicial Review"
     },
     {
@@ -2925,14 +2599,7 @@ const ChapterData = {
       "text": "In practical life, judicial review can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising judicial review, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Parliamentary Scrutiny"
     },
     {
@@ -2944,14 +2611,7 @@ const ChapterData = {
       "text": "In practical life, parliamentary scrutiny can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising parliamentary scrutiny, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Institutional Accountability"
     },
     {
@@ -2963,14 +2623,7 @@ const ChapterData = {
       "text": "In practical life, institutional accountability can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising institutional accountability, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Parliament"
     },
     {
@@ -2982,14 +2635,7 @@ const ChapterData = {
       "text": "In practical life, Parliament can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Parliament, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Lok Sabha"
     },
     {
@@ -3001,14 +2647,7 @@ const ChapterData = {
       "text": "In practical life, Lok Sabha can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Lok Sabha, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Rajya Sabha"
     },
     {
@@ -3020,14 +2659,7 @@ const ChapterData = {
       "text": "In practical life, Rajya Sabha can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Rajya Sabha, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Political Executive"
     },
     {
@@ -3039,14 +2671,7 @@ const ChapterData = {
       "text": "In practical life, political executive can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising political executive, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Prime Minister And Council Of Ministers"
     },
     {
@@ -3058,14 +2683,7 @@ const ChapterData = {
       "text": "In practical life, Prime Minister and Council of Ministers can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising Prime Minister and Council of Ministers, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: President"
     },
     {
@@ -3077,14 +2695,7 @@ const ChapterData = {
       "text": "In practical life, President can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising President, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Judiciary"
     },
     {
@@ -3096,14 +2707,7 @@ const ChapterData = {
       "text": "In practical life, judiciary can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising judiciary, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Reading the Idea More Deeply: Judicial Review"
     },
     {
@@ -3115,16 +2719,11 @@ const ChapterData = {
       "text": "In practical life, judicial review can appear in ordinary decisions even when the word itself is not used. A student, citizen, representative or public official may face competing interests. Democratic reasoning does not require everyone to agree. Instead, it asks whether the decision is made through a recognised authority, follows a fair procedure, respects applicable rights, gives affected people an opportunity to participate or respond, and remains open to lawful review. This is why the chapter is best learned as a connected story about how public power is organised and constrained."
     },
     {
-      "type": "box",
-      "kind": "remember",
-      "title": "Remember the Reason",
-      "text": "When revising judicial review, remember five links: the problem it addresses, the rule or principle involved, the institution or citizen action that gives it effect, the safeguard against misuse, and the reason it matters for democratic citizenship."
-    },
-    {
       "type": "comic",
       "title": "Comic Story 29: The Civic Problem — Parliament",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Parliament. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Parliament with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Parliament means in this situation."
@@ -3157,14 +2756,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Parliament with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 30: The Civic Problem — Lok Sabha",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Lok Sabha. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Lok Sabha with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Lok Sabha means in this situation."
@@ -3197,14 +2796,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Lok Sabha with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 31: The Civic Problem — Rajya Sabha",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Rajya Sabha. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Rajya Sabha with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Rajya Sabha means in this situation."
@@ -3237,14 +2836,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Rajya Sabha with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 32: The Civic Problem — Political Executive",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand political executive. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects political executive with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what political executive means in this situation."
@@ -3277,14 +2876,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects political executive with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 33: The Civic Problem — Prime Minister And Council Of Ministers",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Prime Minister and Council of Ministers. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Prime Minister and Council of Ministers with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Prime Minister and Council of Ministers means in this situation."
@@ -3317,14 +2916,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Prime Minister and Council of Ministers with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 34: The Civic Problem — President",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand President. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects President with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what President means in this situation."
@@ -3357,14 +2956,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects President with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 35: The Civic Problem — Judiciary",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand judiciary. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects judiciary with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what judiciary means in this situation."
@@ -3397,14 +2996,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects judiciary with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 36: The Civic Problem — Judicial Review",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand judicial review. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects judicial review with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what judicial review means in this situation."
@@ -3437,14 +3036,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects judicial review with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 37: The Civic Problem — Parliamentary Scrutiny",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand parliamentary scrutiny. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects parliamentary scrutiny with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what parliamentary scrutiny means in this situation."
@@ -3477,14 +3076,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects parliamentary scrutiny with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 38: The Civic Problem — Institutional Accountability",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand institutional accountability. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects institutional accountability with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what institutional accountability means in this situation."
@@ -3517,14 +3116,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects institutional accountability with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 39: The Civic Problem — Parliament",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Parliament. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Parliament with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Parliament means in this situation."
@@ -3557,14 +3156,14 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Parliament with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "comic",
       "title": "Comic Story 40: The Civic Problem — Lok Sabha",
       "intro": "Surya, Ansh and their classmates face an everyday problem that helps them understand Lok Sabha. Instead of immediately choosing a side, they examine the rule, the authority involved and the possible consequences.",
-      "dialogue": [
+      "lesson": "The comic connects Lok Sabha with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "I think we should first understand what Lok Sabha means in this situation."
@@ -3597,280 +3196,232 @@ const ChapterData = {
           "speaker": "Surya",
           "text": "Now the concept feels like something we can use to analyse a real problem, not just something to memorise."
         }
-      ],
-      "lesson": "The comic connects Lok Sabha with authority, fair procedure, equal citizenship, accountability and peaceful resolution of disagreement."
+      ]
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Parliament. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Parliament in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Lok Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Lok Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Rajya Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Rajya Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political executive. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political executive in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Prime Minister and Council of Ministers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Prime Minister and Council of Ministers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about President. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain President in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about judiciary. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judiciary in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about judicial review. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judicial review in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about parliamentary scrutiny. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain parliamentary scrutiny in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about institutional accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain institutional accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Parliament. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Parliament in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Lok Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Lok Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Rajya Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Rajya Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political executive. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political executive in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Prime Minister and Council of Ministers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Prime Minister and Council of Ministers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about President. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain President in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about judiciary. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judiciary in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about judicial review. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judicial review in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about parliamentary scrutiny. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain parliamentary scrutiny in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about institutional accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain institutional accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Parliament. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Parliament in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Lok Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Lok Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Rajya Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Rajya Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political executive. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political executive in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Prime Minister and Council of Ministers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Prime Minister and Council of Ministers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about President. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain President in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about judiciary. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judiciary in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about judicial review. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judicial review in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about parliamentary scrutiny. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain parliamentary scrutiny in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about institutional accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain institutional accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Parliament. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Parliament in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Lok Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Lok Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Rajya Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Rajya Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political executive. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political executive in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Prime Minister and Council of Ministers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Prime Minister and Council of Ministers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about President. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain President in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about judiciary. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judiciary in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about judicial review. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain judicial review in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about parliamentary scrutiny. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain parliamentary scrutiny in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about institutional accountability. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain institutional accountability in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Understand",
       "question": "Consider a situation in which people disagree about Parliament. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Parliament in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Apply",
       "question": "Consider a situation in which people disagree about Lok Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Lok Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Analyse",
       "question": "Consider a situation in which people disagree about Rajya Sabha. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Rajya Sabha in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "Evaluate",
       "question": "Consider a situation in which people disagree about political executive. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain political executive in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     },
     {
       "type": "practice",
-      "level": "HOTS",
       "question": "Consider a situation in which people disagree about Prime Minister and Council of Ministers. Explain the issue, identify the democratic principle involved, describe the fair procedure that should be followed, and state what safeguard could prevent misuse of power.",
       "answer": "A complete answer should explain Prime Minister and Council of Ministers in context rather than giving only a definition. It should identify legitimate authority, fair procedure, equal treatment, accountability and an appropriate peaceful or constitutional remedy."
     }
   ]
 };
-
-

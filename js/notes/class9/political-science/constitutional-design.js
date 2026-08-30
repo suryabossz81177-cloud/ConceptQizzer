@@ -1,5 +1,4 @@
-/* Class 9 Political Science — Constitutional Design — continuous chapter data */
-/* No maps are included, as requested. Render `content` sequentially without creating chapter sections. */
+/* Class 9 Political Science — clean continuous chapter data. */
 const ChapterData = {
   "id": "class9-political-science-constitutional-design",
   "class": 9,
@@ -11,8 +10,7 @@ const ChapterData = {
   "intro": "A constitution is not merely a list of laws. It is the basic framework through which a democratic country decides how power will be organised, how institutions will work, what limits will apply to rulers, and which values and rights must be respected. This chapter follows the making of South Africa's democratic constitution and connects that experience with the making and working of the Constitution of India.",
   "content": [
     {
-      "type": "heading",
-      "level": 1,
+      "type": "chapterHeading",
       "text": "Constitutional Design"
     },
     {
@@ -24,16 +22,11 @@ const ChapterData = {
       "text": "The word constitution is often used for a written document, but its deeper meaning is a set of fundamental principles and rules according to which a country is governed. It explains the structure of government, distributes powers among institutions, limits public authority, and expresses important commitments of the political community. A good constitution does not remove disagreement; it creates a fair framework in which disagreement can be handled peacefully."
     },
     {
-      "type": "box",
-      "kind": "think",
-      "title": "Think First",
-      "text": "Imagine that your school has to choose a monitor, organise a class fund and settle disputes. If there are no agreed rules, a powerful group might change the decision whenever it wants. If everyone knows the rules in advance, decisions become more predictable and people can challenge unfair treatment."
-    },
-    {
       "type": "comic",
       "title": "Comic 1: The School Constitution",
       "intro": "Surya and Ansh notice that their class has no agreed rules for choosing a monitor or resolving disagreements.",
-      "dialogue": [
+      "lesson": "A constitution creates a predictable framework for government, limits arbitrary power and protects important principles.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "If everyone follows a different rule, how will we decide anything fairly?"
@@ -58,12 +51,10 @@ const ChapterData = {
           "speaker": "Ansh",
           "text": "And everyone knows the rules before the decision is made."
         }
-      ],
-      "lesson": "A constitution creates a predictable framework for government, limits arbitrary power and protects important principles."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Why Do We Need a Constitution?"
     },
     {
@@ -86,7 +77,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 2: The Rule Before the Decision",
       "intro": "A class committee is about to spend money from a common fund. Different students want different things.",
-      "dialogue": [
+      "lesson": "Constitutional rules protect the decision-making process and help prevent arbitrary use of collective resources.",
+      "dialogues": [
         {
           "speaker": "Prince",
           "text": "Let's just buy what our group wants. We have more students."
@@ -111,12 +103,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Yes. Democracy is not simply majority rule without limits."
         }
-      ],
-      "lesson": "Constitutional rules protect the decision-making process and help prevent arbitrary use of collective resources."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "South Africa: From Apartheid to Democracy"
     },
     {
@@ -139,7 +129,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 3: Two Different South Africas",
       "intro": "Surya and Ansh are reading about apartheid and imagine what it means when laws themselves create unequal citizenship.",
-      "dialogue": [
+      "lesson": "Democratic constitutionalism is concerned with equal citizenship and with preventing institutions from reproducing arbitrary discrimination.",
+      "dialogues": [
         {
           "speaker": "Ansh",
           "text": "If two people live in the same country but the law gives them different political rights because of race, can that be democratic?"
@@ -156,12 +147,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Correct. Constitutional design can help transform an unequal political order into one based on equal citizenship."
         }
-      ],
-      "lesson": "Democratic constitutionalism is concerned with equal citizenship and with preventing institutions from reproducing arbitrary discrimination."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "The Negotiation for a New Constitution"
     },
     {
@@ -184,7 +173,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 4: The Difficult Agreement",
       "intro": "A classroom debate shows why constitutional compromises can be necessary.",
-      "dialogue": [
+      "lesson": "Constitutional settlements often require negotiation and compromise so that different groups can accept a common democratic framework.",
+      "dialogues": [
         {
           "speaker": "Prince",
           "text": "Why should we compromise? If our side has more supporters, we should decide everything."
@@ -209,12 +199,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Yes. A settlement is stronger when people can see a place for themselves in it."
         }
-      ],
-      "lesson": "Constitutional settlements often require negotiation and compromise so that different groups can accept a common democratic framework."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "What Makes a Constitution Democratic?"
     },
     {
@@ -275,7 +263,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 5: More Than Voting",
       "intro": "The class is discussing whether an election alone is enough to call a system democratic.",
-      "dialogue": [
+      "lesson": "Elections are central to democracy, but constitutional democracy also requires rights, accountability, institutional limits and equal citizenship.",
+      "dialogues": [
         {
           "speaker": "Sharma Sir",
           "text": "Suppose we hold an election, but after winning, the monitor refuses to let anyone question a decision. Is that enough?"
@@ -296,12 +285,10 @@ const ChapterData = {
           "speaker": "Sharma Sir",
           "text": "Exactly. Constitutional democracy makes power answerable to principles and institutions."
         }
-      ],
-      "lesson": "Elections are central to democracy, but constitutional democracy also requires rights, accountability, institutional limits and equal citizenship."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "The Making of the Indian Constitution"
     },
     {
@@ -324,7 +311,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 6: Building a Country",
       "intro": "Surya imagines the Constituent Assembly as a giant classroom where representatives must design rules for an extremely diverse country.",
-      "dialogue": [
+      "lesson": "Constitution-making requires balancing common citizenship, diversity, rights, institutions and long-term stability.",
+      "dialogues": [
         {
           "speaker": "Surya",
           "text": "How can one constitution work for people speaking different languages and following different traditions?"
@@ -349,12 +337,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly."
         }
-      ],
-      "lesson": "Constitution-making requires balancing common citizenship, diversity, rights, institutions and long-term stability."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "The Preamble: The Philosophy of the Constitution"
     },
     {
@@ -381,7 +367,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 7: Reading the Preamble",
       "intro": "A group of students reads the Preamble slowly instead of memorising it mechanically.",
-      "dialogue": [
+      "lesson": "The Preamble expresses foundational constitutional values and helps interpret the purpose of the democratic system.",
+      "dialogues": [
         {
           "speaker": "Divya",
           "text": "Why does it start with 'We, the People of India'?"
@@ -406,12 +393,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly."
         }
-      ],
-      "lesson": "The Preamble expresses foundational constitutional values and helps interpret the purpose of the democratic system."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Key Features of Constitutional Design in India"
     },
     {
@@ -476,7 +461,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 8: Who Can Stop a Powerful Ruler?",
       "intro": "The class imagines a leader who wants to make a decision without following established rules.",
-      "dialogue": [
+      "lesson": "Constitutional democracy prevents elected power from becoming unlimited personal power.",
+      "dialogues": [
         {
           "speaker": "Prince",
           "text": "If I am elected, why can't I do whatever I think is best?"
@@ -501,12 +487,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Precisely."
         }
-      ],
-      "lesson": "Constitutional democracy prevents elected power from becoming unlimited personal power."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Constitutional Amendment and Constitutional Change"
     },
     {
@@ -521,7 +505,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 9: Too Easy or Too Hard?",
       "intro": "Students are deciding how to change their class rules.",
-      "dialogue": [
+      "lesson": "Constitutional change requires a balance between stability and adaptability.",
+      "dialogues": [
         {
           "speaker": "Ansh",
           "text": "If anyone can change the rules whenever they want, the rules are useless."
@@ -538,12 +523,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly. Constitutions need stability as well as the capacity to adapt."
         }
-      ],
-      "lesson": "Constitutional change requires a balance between stability and adaptability."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Constitutional Values in Everyday Life"
     },
     {
@@ -562,7 +545,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 10: The Opportunity",
       "intro": "A school announces that only a small group can participate in a public-speaking competition without explaining the criteria.",
-      "dialogue": [
+      "lesson": "Fair procedures, clear criteria and accountability are important dimensions of democratic and constitutional life.",
+      "dialogues": [
         {
           "speaker": "Arushi",
           "text": "Why were some students excluded?"
@@ -587,12 +571,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Exactly."
         }
-      ],
-      "lesson": "Fair procedures, clear criteria and accountability are important dimensions of democratic and constitutional life."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Why Constitution-Making Requires Deliberation"
     },
     {
@@ -611,7 +593,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 11: The Debate",
       "intro": "The class has two proposals for selecting a committee.",
-      "dialogue": [
+      "lesson": "Deliberation strengthens democratic decision-making by encouraging reasoned disagreement and mutual understanding.",
+      "dialogues": [
         {
           "speaker": "Shashank",
           "text": "Our proposal is obviously best."
@@ -636,12 +619,10 @@ const ChapterData = {
           "speaker": "Sharma Sir",
           "text": "That is already a democratic gain."
         }
-      ],
-      "lesson": "Deliberation strengthens democratic decision-making by encouraging reasoned disagreement and mutual understanding."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Constitutional Design as a Living Democratic Framework"
     },
     {
@@ -660,7 +641,8 @@ const ChapterData = {
       "type": "comic",
       "title": "Comic 12: The Final Test",
       "intro": "The students are asked to explain the entire chapter in one situation.",
-      "dialogue": [
+      "lesson": "Constitutional design organises power, limits authority, protects rights, establishes institutions and creates procedures for democratic governance and change.",
+      "dialogues": [
         {
           "speaker": "Verma Sir",
           "text": "Suppose a new school is created with thousands of students. What should its basic rulebook contain?"
@@ -689,12 +671,10 @@ const ChapterData = {
           "speaker": "Verma Sir",
           "text": "Excellent. That is constitutional design in simple form."
         }
-      ],
-      "lesson": "Constitutional design organises power, limits authority, protects rights, establishes institutions and creates procedures for democratic governance and change."
+      ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Quick Concept Checks"
     },
     {
@@ -738,8 +718,7 @@ const ChapterData = {
       "answer": "It is the careful consideration of different arguments and viewpoints before reaching a decision."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Important Points for Revision"
     },
     {
@@ -769,8 +748,7 @@ const ChapterData = {
       ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Key Terms"
     },
     {
@@ -859,8 +837,7 @@ const ChapterData = {
       ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Exam Master"
     },
     {
@@ -905,8 +882,7 @@ const ChapterData = {
       ]
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Chapter Summary"
     },
     {
@@ -914,8 +890,7 @@ const ChapterData = {
       "text": "Constitutional design is the process of creating a framework for governing a country. A constitution establishes institutions, distributes power, limits government authority, protects rights and records important political values. South Africa's experience under apartheid demonstrates why democratic constitutional change can be essential when a political system denies equal citizenship. The transition to democracy required negotiation, compromise and a new constitutional order. India also developed its Constitution through the Constituent Assembly in the context of the freedom struggle, Partition and the challenge of governing a highly diverse society. The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950. Its Preamble expresses the ideals of justice, liberty, equality and fraternity and describes India as a Sovereign Socialist Secular Democratic Republic. The Constitution combines popular participation with institutional limits, Fundamental Rights, federal arrangements, parliamentary government and an independent judiciary. Because societies change, the Constitution also provides procedures for amendment. The overall lesson is that democracy needs more than elections: it needs fair rules, equal citizenship, protected rights, accountable institutions and a constitutional framework within which disagreements can be resolved peacefully."
     },
     {
-      "type": "heading",
-      "level": 2,
+      "type": "chapterHeading",
       "text": "Practice: Think, Apply and Explain"
     },
     {
@@ -1665,2521 +1640,3 @@ const ChapterData = {
     }
   ]
 };
-
-
-/* Additional deep-learning material appended to keep the chapter rich and continuous. The renderer should display these blocks in sequence. */
-chapter.content.push(...[
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 1",
-    "text": "Constitutional design can be understood at another level through example 1. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 2",
-    "text": "Constitutional design can be understood at another level through example 2. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 3",
-    "text": "Constitutional design can be understood at another level through example 3. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 4",
-    "text": "Constitutional design can be understood at another level through example 4. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 5",
-    "text": "Constitutional design can be understood at another level through example 5. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 6",
-    "text": "Constitutional design can be understood at another level through example 6. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 7",
-    "text": "Constitutional design can be understood at another level through example 7. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 8",
-    "text": "Constitutional design can be understood at another level through example 8. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 9",
-    "text": "Constitutional design can be understood at another level through example 9. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 10",
-    "text": "Constitutional design can be understood at another level through example 10. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 11",
-    "text": "Constitutional design can be understood at another level through example 11. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 12",
-    "text": "Constitutional design can be understood at another level through example 12. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 13",
-    "text": "Constitutional design can be understood at another level through example 13. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 14",
-    "text": "Constitutional design can be understood at another level through example 14. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 15",
-    "text": "Constitutional design can be understood at another level through example 15. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 16",
-    "text": "Constitutional design can be understood at another level through example 16. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 17",
-    "text": "Constitutional design can be understood at another level through example 17. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 18",
-    "text": "Constitutional design can be understood at another level through example 18. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 19",
-    "text": "Constitutional design can be understood at another level through example 19. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 20",
-    "text": "Constitutional design can be understood at another level through example 20. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 21",
-    "text": "Constitutional design can be understood at another level through example 21. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 22",
-    "text": "Constitutional design can be understood at another level through example 22. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 23",
-    "text": "Constitutional design can be understood at another level through example 23. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 24",
-    "text": "Constitutional design can be understood at another level through example 24. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 25",
-    "text": "Constitutional design can be understood at another level through example 25. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 26",
-    "text": "Constitutional design can be understood at another level through example 26. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 27",
-    "text": "Constitutional design can be understood at another level through example 27. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 28",
-    "text": "Constitutional design can be understood at another level through example 28. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 29",
-    "text": "Constitutional design can be understood at another level through example 29. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 30",
-    "text": "Constitutional design can be understood at another level through example 30. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 31",
-    "text": "Constitutional design can be understood at another level through example 31. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 32",
-    "text": "Constitutional design can be understood at another level through example 32. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 33",
-    "text": "Constitutional design can be understood at another level through example 33. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 34",
-    "text": "Constitutional design can be understood at another level through example 34. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 35",
-    "text": "Constitutional design can be understood at another level through example 35. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 36",
-    "text": "Constitutional design can be understood at another level through example 36. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 37",
-    "text": "Constitutional design can be understood at another level through example 37. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 38",
-    "text": "Constitutional design can be understood at another level through example 38. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 39",
-    "text": "Constitutional design can be understood at another level through example 39. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 40",
-    "text": "Constitutional design can be understood at another level through example 40. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 41",
-    "text": "Constitutional design can be understood at another level through example 41. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 42",
-    "text": "Constitutional design can be understood at another level through example 42. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 43",
-    "text": "Constitutional design can be understood at another level through example 43. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 44",
-    "text": "Constitutional design can be understood at another level through example 44. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 45",
-    "text": "Constitutional design can be understood at another level through example 45. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 46",
-    "text": "Constitutional design can be understood at another level through example 46. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 47",
-    "text": "Constitutional design can be understood at another level through example 47. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 48",
-    "text": "Constitutional design can be understood at another level through example 48. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 49",
-    "text": "Constitutional design can be understood at another level through example 49. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 50",
-    "text": "Constitutional design can be understood at another level through example 50. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 51",
-    "text": "Constitutional design can be understood at another level through example 51. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 52",
-    "text": "Constitutional design can be understood at another level through example 52. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 53",
-    "text": "Constitutional design can be understood at another level through example 53. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 54",
-    "text": "Constitutional design can be understood at another level through example 54. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 55",
-    "text": "Constitutional design can be understood at another level through example 55. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 56",
-    "text": "Constitutional design can be understood at another level through example 56. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 57",
-    "text": "Constitutional design can be understood at another level through example 57. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 58",
-    "text": "Constitutional design can be understood at another level through example 58. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 59",
-    "text": "Constitutional design can be understood at another level through example 59. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "deepDive",
-    "title": "Deep Understanding 60",
-    "text": "Constitutional design can be understood at another level through example 60. A democratic political system has to answer several connected questions: who authorises public power, how representatives are selected, which institution performs which task, what rights citizens possess, how conflicts are settled, how rulers are held accountable, and how the basic framework itself can be changed. If any one of these questions is ignored, the political system may become unpredictable or unfair. This is why a constitution is a framework for relationships rather than merely a collection of isolated rules. It connects citizens to government, institutions to one another and present decisions to long-term constitutional principles."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 13: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 1."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 14: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 2."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 15: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 3."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 16: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 4."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 17: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 5."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 18: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 6."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 19: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 7."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 20: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 8."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 21: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 9."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 22: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 10."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 23: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 11."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 24: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 12."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 25: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 13."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 26: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 14."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 27: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 15."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 28: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 16."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 29: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 17."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 30: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 18."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 31: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 19."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 32: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 20."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 33: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 21."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 34: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 22."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 35: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 23."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 36: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 24."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 37: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 25."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 38: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 26."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 39: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 27."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 40: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 28."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 41: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 29."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 42: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 30."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 43: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 31."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 44: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 32."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 45: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 33."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 46: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 34."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 47: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 35."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 48: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 36."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 49: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 37."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 50: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 38."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 51: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 39."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comic",
-    "title": "Comic Story 52: The Constitution in Action",
-    "intro": "The students encounter a new civic problem and use constitutional reasoning instead of relying only on personal preference.",
-    "dialogue": [
-      [
-        "Surya",
-        "Let's first understand the rule and the reason behind it in situation 40."
-      ],
-      [
-        "Ansh",
-        "Then we should ask whether the decision treats people fairly."
-      ],
-      [
-        "Arushi",
-        "And we should check whether the person making the decision actually has the authority to do it."
-      ],
-      [
-        "Verma Sir",
-        "Good. Constitutional thinking always connects power with rules, limits and accountability."
-      ],
-      [
-        "Prince",
-        "So even a decision that seems useful must follow the proper framework."
-      ],
-      [
-        "Verma Sir",
-        "Exactly. A democratic constitution is designed to make public power responsible and predictable."
-      ]
-    ],
-    "lesson": "The constitutional approach asks about authority, procedure, equality, limits and accountability before accepting the exercise of public power."
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 1",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 2",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 3",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 4",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 5",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 6",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 7",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 8",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 9",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 10",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 11",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 12",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 13",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 14",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 15",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 16",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 17",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 18",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 19",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 20",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 21",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 22",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 23",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 24",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 25",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 26",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 27",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 28",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 29",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  },
-  {
-    "type": "comparison",
-    "title": "Concept Comparison 30",
-    "rows": [
-      [
-        "Election",
-        "Chooses representatives through a democratic procedure",
-        "Does not by itself remove constitutional limits"
-      ],
-      [
-        "Constitution",
-        "Provides the basic framework of government",
-        "Is broader than an election procedure"
-      ],
-      [
-        "Majority",
-        "Can determine many ordinary political decisions",
-        "Cannot automatically justify violation of basic constitutional principles"
-      ],
-      [
-        "Rights",
-        "Protect important freedoms and equal citizenship",
-        "Need institutions and laws for effective protection"
-      ],
-      [
-        "Amendment",
-        "Allows lawful constitutional change",
-        "Is different from casually changing an ordinary rule"
-      ]
-    ]
-  }
-]);
-
-
-if (typeof module !== 'undefined' && module.exports) module.exports = chapter;
