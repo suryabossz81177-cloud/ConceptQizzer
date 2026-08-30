@@ -11,7 +11,7 @@ window.ChapterRegistry = [
     "subject": "Physics",
     "chapterNumber": 1,
     "title": "Motion",
-    "file": "js/notes/class9/physics/motion.js",
+    "file": "js/notes/class9/physics/motions.js",
     "enabled": true
   },
     
