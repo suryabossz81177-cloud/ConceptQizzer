@@ -171,27 +171,42 @@ async function loadChapter(key){
       "$1window.CQ_LOADED_CHAPTER ="
     );
 
-    converted = converted.replace(
-      /window\.ChapterData\s*=/,
-      "window.CQ_LOADED_CHAPTER ="
-    );
-
     /*
-      IMPORTANT COMPATIBILITY FIX:
-      Some chapter files continue using window.ChapterData after
-      the main object declaration, for example:
-        window.ChapterData.extendedExamBank = [...]
+      IMPORTANT FIX: many large chapter files continue using
+      ChapterData after the initial declaration, for example:
+        ChapterData.extendedExamBank = [...]
+        window.ChapterData.someProperty = ...
 
-      Because chapter files are executed inside the isolated loader,
-      the active object is CQ_LOADED_CHAPTER. Convert ALL remaining
-      references, not only the initial assignment.
+      The old loader changed only the declaration/assignment.
+      That left later references pointing at an undefined global
+      and caused: Cannot set properties of undefined
+      (setting 'extendedExamBank').
 
-      This prevents:
-        Cannot set properties of undefined (setting 'extendedExamBank')
+      Redirect ALL remaining ChapterData references to the same
+      temporary chapter object before executing the file.
     */
+    /* Redirect qualified references first, so
+       window.ChapterData.extendedExamBank becomes
+       window.CQ_LOADED_CHAPTER.extendedExamBank
+       (never window.window.CQ_LOADED_CHAPTER...). */
     converted = converted.replace(
       /window\.ChapterData\b/g,
       "window.CQ_LOADED_CHAPTER"
+    );
+
+    converted = converted.replace(
+      /(^|[^\w$.])ChapterData\b/g,
+      "$1window.CQ_LOADED_CHAPTER"
+    );
+
+    converted = converted.replace(
+      /window\.chapterData\b/g,
+      "window.CQ_LOADED_CHAPTER"
+    );
+
+    converted = converted.replace(
+      /(^|[^\w$.])chapterData\b/g,
+      "$1window.CQ_LOADED_CHAPTER"
     );
 
     if (!/window\.CQ_LOADED_CHAPTER\s*=/.test(converted)) {
@@ -2339,8 +2354,30 @@ function initPackage12AI() {
     );
 
     converted = converted.replace(
-      /window\.ChapterData\s*=/,
+      /window\.ChapterData\s*=/g,
       "window.__CQ_KNOWLEDGE_CHAPTER ="
+    );
+
+    /* Large chapter files may reference ChapterData again after
+       declaring it. Redirect those references too. */
+    converted = converted.replace(
+      /window\.ChapterData\b/g,
+      "window.__CQ_KNOWLEDGE_CHAPTER"
+    );
+
+    converted = converted.replace(
+      /(^|[^\w$.])ChapterData\b/g,
+      "$1window.__CQ_KNOWLEDGE_CHAPTER"
+    );
+
+    converted = converted.replace(
+      /window\.chapterData\b/g,
+      "window.__CQ_KNOWLEDGE_CHAPTER"
+    );
+
+    converted = converted.replace(
+      /(^|[^\w$.])chapterData\b/g,
+      "$1window.__CQ_KNOWLEDGE_CHAPTER"
     );
 
     if (!/window\.__CQ_KNOWLEDGE_CHAPTER\s*=/.test(converted)) return null;
