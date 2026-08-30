@@ -5,15 +5,16 @@
   Designed for 300+ Chapters
   =================================================*/
 window.ChapterRegistry = [
-{
-  id: "class9-physics-motion",
-  class: 9,
-  subject: "Physics",
-  chapterNumber: 1,
-  title: "Motion",
-  file: "js/notes/class9/physics/motion.js",
-  enabled: true
-},    
+  {
+    "id": "class9-physics-motion",
+    "class": 9,
+    "subject": "Physics",
+    "chapterNumber": 1,
+    "title": "Motion",
+    "file": "js/notes/class9/physics/motion.js",
+    "enabled": true
+  },
+    
   {
     "id": "class9-physics-force-and-laws-of-motion",
     "class": 9,
