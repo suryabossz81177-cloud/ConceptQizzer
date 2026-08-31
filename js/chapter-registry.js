@@ -26,7 +26,7 @@ window.ChapterRegistry = [
 },
 
 {
-  id: "9-artificial-intelligence-advance-python-data-science",
+  id: "9-artificial-intelligence-advance-python-data-sciences",
   class: 9,
   subject: "Artificial Intelligence",
   chapterNumber: 3,
