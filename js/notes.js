@@ -1428,15 +1428,15 @@ function renderUniversalBlockCore(block, blockIndex){
 
   /* ---------- FIGURES / DIAGRAMS / MAPS ---------- */
 
-  if(type === "diagram" || type === "figure" || type === "sciencefigure" || type === "illustration"){
+  if(type === "diagram" || type === "figure" || type === "sciencefigure" || type === "illustration" || type === "image" || type === "photo"){
     const visual = block.html || block.svg || block.content || block.figure || "";
     const image = block.image || block.src || block.url || "";
     const alt = escapeRenderHTML(block.alt || block.caption || block.title || "Physics figure");
-    const fallback = escapeRenderHTML(block.fallback || "Related figure could not be loaded. Check your internet connection.");
+    const fallback = escapeRenderHTML(block.fallback || "Embedded chapter diagram could not be displayed.");
     return `
       <div class="cqBlock cqFigure" data-cq-related-topic="${alt}">
         <h4>🖼️ ${blockTitle(block,"Figure / Diagram")}</h4>
-        ${image ? `<figure class="cqFigureMedia"><img src="${escapeRenderHTML(image)}" alt="${alt}" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div class="cqImageFallback">⚠️ ${fallback}</div></figure>` : ""}
+        ${image ? `<figure class="cqFigureMedia"><img src="${escapeRenderHTML(image)}" alt="${alt}" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div class="cqImageFallback" style="display:none">⚠️ ${fallback}</div></figure>` : ""}
         ${visual ? `<div class="cqVisual">${visual}</div>` : ""}
         ${block.caption ? `<p class="cqCaption">${renderText(block.caption)}</p>` : ""}
       </div>`;
@@ -1527,7 +1527,8 @@ function renderUniversalBlockCore(block, blockIndex){
   if(type === "table" || type === "numbertable" || type === "comparison" ||
      type === "compare" || type === "comparetable" || type === "compare_table"){
     const rows = Array.isArray(block.rows) ? block.rows : [];
-    if(!rows.length){
+    const headers = Array.isArray(block.headers) ? block.headers : [];
+    if(!rows.length && !headers.length){
       return `<div class="cqBlock cqTable"><h4>📊 ${blockTitle(block,"Table")}</h4>${text ? renderText(text) : ""}</div>`;
     }
     return `
@@ -1535,12 +1536,11 @@ function renderUniversalBlockCore(block, blockIndex){
         <h4>📊 ${blockTitle(block,"Table")}</h4>
         <div class="cqTableScroll">
           <table>
+            ${headers.length ? `<thead><tr>${headers.map(cell=>`<th>${renderText(cell)}</th>`).join("")}</tr></thead>` : ""}
             <tbody>
-              ${rows.map((row,r)=>`
+              ${rows.map(row=>`
                 <tr>
-                  ${(Array.isArray(row) ? row : [row]).map(cell =>
-                    r === 0 ? `<th>${renderText(cell)}</th>` : `<td>${renderText(cell)}</td>`
-                  ).join("")}
+                  ${(Array.isArray(row) ? row : [row]).map(cell => `<td>${renderText(cell)}</td>`).join("")}
                 </tr>`).join("")}
             </tbody>
           </table>
