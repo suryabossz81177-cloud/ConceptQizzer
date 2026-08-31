@@ -6,6 +6,56 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "9-artificial-intelligence-introduction-to-ai",
+  class: 9,
+  subject: "Artificial Intelligence",
+  chapterNumber: 1,
+  title: "Introduction to AI",
+  file: "js/notes/class9/artificial-intelligence/introduction-to-ai.js",
+  enabled: true
+},
+
+{
+  id: "9-artificial-intelligence-ai-project-cycle",
+  class: 9,
+  subject: "Artificial Intelligence",
+  chapterNumber: 2,
+  title: "AI Project Cycle",
+  file: "js/notes/class9/artificial-intelligence/ai-project-cycle.js",
+  enabled: true
+},
+
+{
+  id: "9-artificial-intelligence-advance-python-data-science",
+  class: 9,
+  subject: "Artificial Intelligence",
+  chapterNumber: 3,
+  title: "Advance Python / Data Science",
+  file: "js/notes/class9/artificial-intelligence/advance-python-data-science.js",
+  enabled: true
+},
+
+{
+  id: "9-artificial-intelligence-computer-vision",
+  class: 9,
+  subject: "Artificial Intelligence",
+  chapterNumber: 4,
+  title: "Computer Vision",
+  file: "js/notes/class9/artificial-intelligence/computer-vision.js",
+  enabled: true
+},
+
+{
+  id: "9-artificial-intelligence-natural-language-processing",
+  class: 9,
+  subject: "Artificial Intelligence",
+  chapterNumber: 5,
+  title: "Natural Language Processing",
+  file: "js/notes/class9/artificial-intelligence/natural-language-processing.js",
+  enabled: true
+},
+  
+  {
   id: "9-information-technology-digital-documentation",
   class: 9,
   subject: "Information Technology",
