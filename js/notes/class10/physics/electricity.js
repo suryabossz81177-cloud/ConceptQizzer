@@ -17,11 +17,6 @@ window.ChapterData = {
       "text": "Electric current is the rate of flow of charge. I=Q/t and its SI unit is ampere. Conventional current is taken in the direction a positive charge would move in the external circuit."
     },
     {
-      "type": "think",
-      "question": "Think about Charge and current: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Charge and current to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Circuit",
       "text": "A working circuit provides a conducting path between a source and components. A switch controls continuity. The source establishes potential difference and components transfer or transform electrical energy."
@@ -36,19 +31,9 @@ window.ChapterData = {
       "license": "Commons source"
     },
     {
-      "type": "think",
-      "question": "Think about Circuit: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Circuit to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Potential difference",
       "text": "Potential difference is work done per unit charge: V=W/Q. It is an energy-per-charge quantity, not a flow itself. Its SI unit is volt."
-    },
-    {
-      "type": "think",
-      "question": "Think about Potential difference: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Potential difference to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -56,29 +41,14 @@ window.ChapterData = {
       "text": "For an ohmic conductor under constant physical conditions, V is proportional to I, so V=IR. A V-I graph is linear through the origin and its slope is resistance."
     },
     {
-      "type": "think",
-      "question": "Think about Ohm's law: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Ohm's law to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Resistance",
       "text": "Resistance opposes current. R=V/I for an ohmic situation. For a uniform conductor R=ρL/A, so length, cross-sectional area, material and temperature conditions matter."
     },
     {
-      "type": "think",
-      "question": "Think about Resistance: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Resistance to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Resistivity",
       "text": "Resistivity is a material property with SI unit Ω m. It is different from resistance because resistance also depends on the dimensions of the conductor."
-    },
-    {
-      "type": "think",
-      "question": "Think about Resistivity: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Resistivity to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -95,19 +65,9 @@ window.ChapterData = {
       "license": "Commons source"
     },
     {
-      "type": "think",
-      "question": "Think about Series resistors: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Series resistors to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Parallel resistors",
       "text": "Each parallel branch has the same potential difference. 1/R=1/R1+1/R2+... . Current divides among branches. This arrangement permits independent operation of household appliances."
-    },
-    {
-      "type": "think",
-      "question": "Think about Parallel resistors: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Parallel resistors to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -115,19 +75,9 @@ window.ChapterData = {
       "text": "Electrical energy can become heat in a resistance. H=I²Rt=VIt=V²t/R. This is useful in heaters and irons but unwanted heating can waste energy and damage equipment."
     },
     {
-      "type": "think",
-      "question": "Think about Heating effect: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Heating effect to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Power",
       "text": "Electrical power is the rate of electrical energy transfer. P=VI=I²R=V²/R. Its SI unit is watt."
-    },
-    {
-      "type": "think",
-      "question": "Think about Power: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Power to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -135,29 +85,14 @@ window.ChapterData = {
       "text": "E=Pt. Household consumption is commonly measured in kilowatt-hour. One kilowatt-hour is the energy used by a 1 kW appliance in one hour."
     },
     {
-      "type": "think",
-      "question": "Think about Electrical energy: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Electrical energy to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Fuses and safety",
       "text": "A fuse is connected in series and melts when excessive current causes enough heating. Proper earthing, insulation and circuit protection reduce shock and fire hazards."
     },
     {
-      "type": "think",
-      "question": "Think about Fuses and safety: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Fuses and safety to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Numerical strategy",
       "text": "Write given values with units, convert to SI when required, choose the relation, substitute carefully, calculate and then check the answer using a second relation when possible."
-    },
-    {
-      "type": "think",
-      "question": "Think about Numerical strategy: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Numerical strategy to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "table",
@@ -517,940 +452,190 @@ window.ChapterData = {
       "text": "Can you define every key term without mixing it with a related term? Can you draw the main diagram from memory? Can you select the correct formula from the data given? Can you explain the physical reason behind the result? Can you identify the unit of every calculated quantity? If any answer is no, revise that concept before attempting the harder questions."
     },
     {
-      "type": "information-block",
-      "title": "Extended study 1 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Current and charge",
-      "text": "Current is charge flow rate: I=Q/t. One ampere means one coulomb per second. Conventional current direction is taken as the direction positive charge would move, while electrons in metals drift opposite to it. Keep the distinction clear in circuit explanations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Potential difference",
-      "text": "Potential difference is work done per unit charge: V=W/Q. A cell supplies energy to charges and maintains a potential difference. Voltage is not a substance that flows through a wire; it is an energy-per-charge difference between two points. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Ohm law",
-      "text": "For a suitable conductor at constant physical conditions, V=IR. A V-I graph is a straight line through the origin for an ohmic conductor. Its slope is resistance. Heating can change resistance, so not every device has a perfectly linear V-I characteristic. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Resistance and resistivity",
-      "text": "R=ρL/A. Longer wire means greater resistance, larger area means lower resistance, and resistivity identifies the material at a specified temperature. Resistance belongs to the particular sample; resistivity is a material property. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Series combination",
-      "text": "In series there is one path: current is the same through all resistors. Total voltage is the sum of drops and Rₛ=R₁+R₂+.... Adding resistance in series increases the equivalent resistance. A break anywhere interrupts the whole path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Parallel combination",
-      "text": "In parallel each branch is connected to the same two nodes, so voltage is common and currents add. For two resistors, 1/R=1/R₁+1/R₂. Equivalent resistance is less than the smallest branch resistance. Independent branches explain domestic parallel wiring. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Heating effect",
-      "text": "Joule heating is H=I²Rt. Equivalent forms H=VIt and H=(V²/R)t follow from Ohm law. Heating is useful in heaters, irons and kettles but excessive heating in wires can be dangerous. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Power and energy",
-      "text": "P=VI=I²R=V²/R is electrical power, the rate of energy transfer. E=Pt is energy. 1 kWh=3.6×10⁶ J. Do not confuse kW, a power unit, with kWh, an energy unit. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Measuring instruments",
-      "text": "An ammeter is placed in series and has very low resistance. A voltmeter is placed in parallel and has very high resistance. Correct polarity and connections matter. Incorrect placement changes the circuit and can damage instruments. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Domestic protection",
-      "text": "A fuse is a series protective device that melts under excessive current. An MCB trips automatically. Earthing provides a low-resistance path for fault current from exposed metal parts. Overloading means excessive demand; short circuit means an unintended very-low-resistance path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
       "type": "practice",
       "title": "Board mastery task 1: Electric charge",
-      "question": "Explain Electric charge, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electric charge precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electric charge?",
+      "answer": "Electric charge is a fundamental property of matter."
     },
     {
       "type": "practice",
       "title": "Board mastery task 2: Electric current",
-      "question": "Explain Electric current, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electric current precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electric current?",
+      "answer": "Electric current is the rate of flow of charge."
     },
     {
       "type": "practice",
       "title": "Board mastery task 3: Ampere",
-      "question": "Explain Ampere, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Ampere precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is the ampere?",
+      "answer": "I=Q/t and its SI unit is ampere."
     },
     {
       "type": "practice",
       "title": "Board mastery task 4: Potential difference",
-      "question": "Explain Potential difference, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Potential difference precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Potential difference?",
+      "answer": "Potential difference is the work done per unit charge: V = W/Q."
     },
     {
       "type": "practice",
       "title": "Board mastery task 5: Volt",
-      "question": "Explain Volt, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Volt precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is the volt?",
+      "answer": "Its SI unit is volt."
     },
     {
       "type": "practice",
       "title": "Board mastery task 6: Circuit",
-      "question": "Explain Circuit, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Circuit precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Circuit?",
+      "answer": "An electric circuit is a closed conducting path through which current can flow when a potential difference is maintained."
     },
     {
       "type": "practice",
       "title": "Board mastery task 7: Cell",
-      "question": "Explain Cell, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Cell precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Cell?",
+      "answer": "A source such as a cell uses chemical energy to separate charge and maintain a potential difference."
     },
     {
       "type": "practice",
       "title": "Board mastery task 8: Battery",
-      "question": "Explain Battery, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Battery precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Battery?",
+      "answer": "The supplied chapter material does not give a standalone definition for this term."
     },
     {
       "type": "practice",
       "title": "Board mastery task 9: Ammeter",
-      "question": "Explain Ammeter, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Ammeter precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Ammeter?",
+      "answer": "An ammeter measures current and is connected in series so the same current passes through it."
     },
     {
       "type": "practice",
       "title": "Board mastery task 10: Voltmeter",
-      "question": "Explain Voltmeter, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Voltmeter precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Voltmeter?",
+      "answer": "A voltmeter measures potential difference and is connected in parallel across the component."
     },
     {
       "type": "practice",
       "title": "Board mastery task 11: Resistance",
-      "question": "Explain Resistance, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Resistance precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Resistance?",
+      "answer": "Equivalent resistance is R=R1+R2+..."
     },
     {
       "type": "practice",
       "title": "Board mastery task 12: Ohm",
-      "question": "Explain Ohm, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Ohm precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is the ohm?",
+      "answer": "The ohm (Ω) is the SI unit of electrical resistance."
     },
     {
       "type": "practice",
       "title": "Board mastery task 13: Ohm’s law",
-      "question": "Explain Ohm’s law, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Ohm’s law precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "State Ohm’s law.",
+      "answer": "Combining Ohm’s law gives P=I²R and P=V²/R."
     },
     {
       "type": "practice",
       "title": "Board mastery task 14: Resistivity",
-      "question": "Explain Resistivity, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Resistivity precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Resistivity?",
+      "answer": "Resistivity is a material property with SI unit Ω m."
     },
     {
       "type": "practice",
       "title": "Board mastery task 15: Series combination",
-      "question": "Explain Series combination, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Series combination precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Series combination?",
+      "answer": "In a series combination the same current passes through every component, so a change in one component affects the whole path."
     },
     {
       "type": "practice",
       "title": "Board mastery task 16: Parallel combination",
-      "question": "Explain Parallel combination, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Parallel combination precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Parallel combination?",
+      "answer": "In a parallel combination, components are connected across the same two nodes, so the potential difference across each branch is the same."
     },
     {
       "type": "practice",
       "title": "Board mastery task 17: Equivalent resistance",
-      "question": "Explain Equivalent resistance, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Equivalent resistance precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Equivalent resistance?",
+      "answer": "Equivalent resistance is the single resistance that has the same electrical effect as a given resistor combination."
     },
     {
       "type": "practice",
       "title": "Board mastery task 18: Heating effect",
-      "question": "Explain Heating effect, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Heating effect precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Heating effect?",
+      "answer": "The heating effect explains devices such as heaters and fuses, while power and energy quantify the rate and amount of electrical energy transfer."
     },
     {
       "type": "practice",
       "title": "Board mastery task 19: Joule heating",
-      "question": "Explain Joule heating, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Joule heating precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Joule heating?",
+      "answer": "These ideas are applications of resistance, current and Joule heating rather than separate facts."
     },
     {
       "type": "practice",
       "title": "Board mastery task 20: Electrical power",
-      "question": "Explain Electrical power, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electrical power precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electrical power?",
+      "answer": "Electrical power is the rate of electrical energy transfer."
     },
     {
       "type": "practice",
       "title": "Board mastery task 21: Electrical energy",
-      "question": "Explain Electrical energy, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electrical energy precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electrical energy?",
+      "answer": "Electrical energy transferred is E = Pt."
     },
     {
       "type": "practice",
       "title": "Board mastery task 22: Watt",
-      "question": "Explain Watt, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Watt precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is the watt?",
+      "answer": "Its SI unit is watt."
     },
     {
       "type": "practice",
       "title": "Board mastery task 23: Joule",
-      "question": "Explain Joule, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Joule precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is the joule?",
+      "answer": "The joule (J) is the SI unit of energy."
     },
     {
       "type": "practice",
       "title": "Board mastery task 24: Kilowatt-hour",
-      "question": "Explain Kilowatt-hour, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Kilowatt-hour precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Kilowatt-hour?",
+      "answer": "Household consumption is commonly measured in kilowatt-hour."
     },
     {
       "type": "practice",
       "title": "Board mastery task 25: Fuse",
-      "question": "Explain Fuse, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Fuse precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Fuse?",
+      "answer": "This effect is useful in heaters, irons, kettles and fuses."
     },
     {
       "type": "practice",
       "title": "Board mastery task 26: MCB",
-      "question": "Explain MCB, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define MCB precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is MCB?",
+      "answer": "Domestic safety depends on correct wiring, earthing, fuses/MCBs and avoiding overloading and short circuits."
     },
     {
       "type": "practice",
       "title": "Board mastery task 27: Earthing",
-      "question": "Explain Earthing, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Earthing precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Earthing?",
+      "answer": "Domestic safety depends on correct wiring, earthing, fuses/MCBs and avoiding overloading and short circuits."
     },
     {
       "type": "practice",
       "title": "Board mastery task 28: Short circuit",
-      "question": "Explain Short circuit, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Short circuit precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Short circuit?",
+      "answer": "A short circuit creates an unintended low-resistance path and can cause a dangerously large current."
     },
     {
       "type": "practice",
       "title": "Board mastery task 29: Overloading",
-      "question": "Explain Overloading, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Overloading precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Overloading?",
+      "answer": "Overloading occurs when the current demanded by connected appliances exceeds the safe capacity of the circuit."
     },
     {
       "type": "practice",
       "title": "Board mastery task 30: Conductor",
-      "question": "Explain Conductor, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Conductor precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Conductor?",
+      "answer": "For an ohmic conductor under constant physical conditions, V is proportional to I, so V=IR."
     },
     {
       "type": "practice",
       "title": "Board mastery task 31: Insulator",
-      "question": "Explain Insulator, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Insulator precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Insulator?",
+      "answer": "An insulator is a material that strongly opposes the flow of electric current."
     }
   ],
   "practice": [
@@ -2726,6 +1911,7 @@ window.ChapterData = {
     "figures": "placed-near-related-topic",
     "comparisonTables": "use-explicit-headers",
     "math": "MathJax-compatible",
-    "fallbackImages": "enabled"
+    "fallbackImages": "enabled",
+    "deduplication": "sentence-level duplicate prose and duplicate images removed; practice answers kept direct and step-free"
   }
 };

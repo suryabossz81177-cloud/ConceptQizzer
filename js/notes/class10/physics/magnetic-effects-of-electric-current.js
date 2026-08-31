@@ -17,11 +17,6 @@ window.ChapterData = {
       "text": "A magnetic field is the region where magnetic effects can be detected. Field lines represent direction and relative strength. The tangent gives direction and closer spacing represents a stronger field. Field lines do not cross."
     },
     {
-      "type": "think",
-      "question": "Think about Magnetic field: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Magnetic field to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Straight current-carrying wire",
       "text": "A straight current-carrying conductor produces concentric circular magnetic field lines. The right-hand thumb rule gives their direction. At a fixed distance the field becomes stronger when current increases and weaker as distance increases."
@@ -54,19 +49,9 @@ window.ChapterData = {
       "license": "Commons source"
     },
     {
-      "type": "think",
-      "question": "Think about Straight current-carrying wire: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Straight current-carrying wire to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Circular loop",
       "text": "A current-carrying loop produces a field pattern resembling a bar magnet. At the centre, contributions from the loop add in the same general direction. More turns and larger current can strengthen the field."
-    },
-    {
-      "type": "think",
-      "question": "Think about Circular loop: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Circular loop to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -92,29 +77,14 @@ window.ChapterData = {
       "license": "Commons source"
     },
     {
-      "type": "think",
-      "question": "Think about Solenoid: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Solenoid to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Force on conductor",
       "text": "A current-carrying conductor in an external magnetic field can experience a force. The force depends on current, field strength, conductor length in the field and orientation. Fleming's left-hand rule gives direction."
     },
     {
-      "type": "think",
-      "question": "Think about Force on conductor: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Force on conductor to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Fleming left-hand rule",
       "text": "With thumb, forefinger and middle finger mutually perpendicular, the forefinger gives magnetic-field direction, middle finger current direction and thumb force/motion direction."
-    },
-    {
-      "type": "think",
-      "question": "Think about Fleming left-hand rule: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Fleming left-hand rule to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -140,11 +110,6 @@ window.ChapterData = {
       "license": "CC BY-SA 4.0"
     },
     {
-      "type": "think",
-      "question": "Think about Electric motor: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Electric motor to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Electromagnetic induction",
       "text": "A change in magnetic flux linked with a circuit can produce an induced potential difference. Relative motion between magnet and coil is a common demonstration."
@@ -166,11 +131,6 @@ window.ChapterData = {
       "alt": "Historical induction experiment",
       "source": "Wikimedia Commons",
       "license": "Public domain in USA"
-    },
-    {
-      "type": "think",
-      "question": "Think about Electromagnetic induction: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Electromagnetic induction to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -196,19 +156,9 @@ window.ChapterData = {
       "license": "Commons source"
     },
     {
-      "type": "think",
-      "question": "Think about Generator: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Generator to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "DC and AC",
       "text": "Direct current has one direction; alternating current reverses direction periodically. AC frequency is measured in hertz. AC is useful for power transmission because voltage can be transformed efficiently."
-    },
-    {
-      "type": "think",
-      "question": "Think about DC and AC: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect DC and AC to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -216,19 +166,9 @@ window.ChapterData = {
       "text": "Domestic systems use live, neutral and earth conductors. Appliances are connected in parallel so each receives the supply potential difference and can operate independently. Protective devices interrupt dangerous currents."
     },
     {
-      "type": "think",
-      "question": "Think about Domestic circuit: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Domestic circuit to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Safety",
       "text": "Domestic electricity can cause severe injury. Wet conditions, damaged insulation, overloads and poor connections are dangerous. Earthing, suitable protective devices and proper insulation are essential."
-    },
-    {
-      "type": "think",
-      "question": "Think about Safety: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Safety to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "table",
@@ -600,928 +540,178 @@ window.ChapterData = {
       "text": "Can you define every key term without mixing it with a related term? Can you draw the main diagram from memory? Can you select the correct formula from the data given? Can you explain the physical reason behind the result? Can you identify the unit of every calculated quantity? If any answer is no, revise that concept before attempting the harder questions."
     },
     {
-      "type": "information-block",
-      "title": "Extended study 1 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Magnetic field lines",
-      "text": "Field lines show direction by their tangent and relative strength by spacing. They do not cross because the field direction at a point is unique. Around a long straight current-carrying wire they form concentric circles. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Right-hand thumb rule",
-      "text": "Point the right thumb in the conventional current direction; curled fingers show the magnetic field direction around the conductor. Reversing current reverses the field direction. The rule is for field direction, not for force direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Circular coil",
-      "text": "A current loop produces a magnetic field whose contributions from all segments combine. The field near the centre is stronger than that of a comparable single straight segment, and more turns strengthen the effect. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Solenoid",
-      "text": "A long coil produces nearly parallel field lines inside an ideal solenoid and a bar-magnet-like field outside. Increasing current or turns per unit length increases field strength in the ideal model. A magnetic core can strengthen an electromagnet. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Force on conductor",
-      "text": "A current-carrying conductor in an external magnetic field experiences a force. The force is greatest for perpendicular current and field in the simple case and vanishes for parallel orientation. Fleming’s left-hand rule gives the direction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Electric motor",
-      "text": "A motor converts electrical energy into mechanical energy. Opposite sides of a current-carrying coil experience opposite forces, producing torque. The split-ring commutator reverses current every half-turn so the torque remains in the same rotational sense. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Electromagnetic induction",
-      "text": "Changing magnetic flux linked with a circuit produces induced emf and, in a closed circuit, induced current. A stationary magnet near a stationary coil does not create a sustained induced current merely by being present. Motion or another change in flux is required. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Lenz law",
-      "text": "The induced current opposes the change in magnetic flux that causes it. This direction rule is consistent with conservation of energy because external work is required to produce the induced electrical energy. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Generator",
-      "text": "A generator converts mechanical energy into electrical energy through electromagnetic induction. Rotation changes magnetic flux through a coil. Slip rings allow alternating output in an AC generator; a commutator arrangement can provide unidirectional external current in the simplified DC-generator model. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Domestic circuit",
-      "text": "Domestic appliances are connected in parallel for independent operation and intended supply voltage. Live, neutral and earth wires have different roles. Protective devices interrupt excessive current, while earthing provides a safe path for fault current. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
       "type": "practice",
       "title": "Board mastery task 1: Magnetic field",
-      "question": "Explain Magnetic field, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Magnetic field precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Magnetic field?",
+      "answer": "A current-carrying conductor produces a magnetic field around itself."
     },
     {
       "type": "practice",
       "title": "Board mastery task 2: Magnetic field line",
-      "question": "Explain Magnetic field line, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Magnetic field line precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Magnetic field line?",
+      "answer": "A straight current-carrying conductor produces concentric circular magnetic field lines."
     },
     {
       "type": "practice",
       "title": "Board mastery task 3: Current-carrying conductor",
-      "question": "Explain Current-carrying conductor, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Current-carrying conductor precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Current-carrying conductor?",
+      "answer": "A current-carrying conductor produces a magnetic field around itself."
     },
     {
       "type": "practice",
       "title": "Board mastery task 4: Right-hand thumb rule",
-      "question": "Explain Right-hand thumb rule, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Right-hand thumb rule precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "State Right-hand thumb rule.",
+      "answer": "The right-hand thumb rule gives their direction."
     },
     {
       "type": "practice",
       "title": "Board mastery task 5: Circular coil",
-      "question": "Explain Circular coil, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Circular coil precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Circular coil?",
+      "answer": "Straight wires, circular coils and solenoids create different field patterns."
     },
     {
       "type": "practice",
       "title": "Board mastery task 6: Solenoid",
-      "question": "Explain Solenoid, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Solenoid precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Solenoid?",
+      "answer": "A solenoid is a long coil of many turns."
     },
     {
       "type": "practice",
       "title": "Board mastery task 7: Electromagnet",
-      "question": "Explain Electromagnet, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electromagnet precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electromagnet?",
+      "answer": "This is the basic idea behind generators and many electromagnetic devices."
     },
     {
       "type": "practice",
       "title": "Board mastery task 8: Force on conductor",
-      "question": "Explain Force on conductor, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Force on conductor precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Force on conductor?",
+      "answer": "The supplied chapter material does not give a standalone definition for this term."
     },
     {
       "type": "practice",
       "title": "Board mastery task 9: Fleming’s left-hand rule",
-      "question": "Explain Fleming’s left-hand rule, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Fleming’s left-hand rule precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "State Fleming’s left-hand rule.",
+      "answer": "Fleming's left-hand rule gives direction."
     },
     {
       "type": "practice",
       "title": "Board mastery task 10: Electric motor",
-      "question": "Explain Electric motor, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electric motor precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electric motor?",
+      "answer": "An electric motor uses this principle to convert electrical energy into mechanical energy."
     },
     {
       "type": "practice",
       "title": "Board mastery task 11: Armature",
-      "question": "Explain Armature, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Armature precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Armature?",
+      "answer": "At the initial position, current enters the armature through brushes and the split ring."
     },
     {
       "type": "practice",
       "title": "Board mastery task 12: Split-ring commutator",
-      "question": "Explain Split-ring commutator, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Split-ring commutator precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Split-ring commutator?",
+      "answer": "A split-ring commutator reverses current every half-turn so the rotation continues."
     },
     {
       "type": "practice",
       "title": "Board mastery task 13: Brushes",
-      "question": "Explain Brushes, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Brushes precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Brushes?",
+      "answer": "Brushes maintain electrical contact with the rotating coil."
     },
     {
       "type": "practice",
       "title": "Board mastery task 14: Electromagnetic induction",
-      "question": "Explain Electromagnetic induction, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Electromagnetic induction precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Electromagnetic induction?",
+      "answer": "A generator converts mechanical energy into electrical energy using electromagnetic induction."
     },
     {
       "type": "practice",
       "title": "Board mastery task 15: Magnetic flux",
-      "question": "Explain Magnetic flux, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Magnetic flux precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Magnetic flux?",
+      "answer": "Current produces magnetic fields; magnetic fields can exert forces on current-carrying conductors; changing magnetic flux can induce electricity."
     },
     {
       "type": "practice",
       "title": "Board mastery task 16: Induced current",
-      "question": "Explain Induced current, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Induced current precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Induced current?",
+      "answer": "Holding the magnet stationary gives no sustained induced current."
     },
     {
       "type": "practice",
       "title": "Board mastery task 17: Fleming’s right-hand rule",
-      "question": "Explain Fleming’s right-hand rule, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Fleming’s right-hand rule precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "State Fleming’s right-hand rule.",
+      "answer": "Generator direction is obtained by Fleming's right-hand rule."
     },
     {
       "type": "practice",
       "title": "Board mastery task 18: Generator",
-      "question": "Explain Generator, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Generator precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Generator?",
+      "answer": "Generator direction is obtained by Fleming's right-hand rule."
     },
     {
       "type": "practice",
       "title": "Board mastery task 19: Slip rings",
-      "question": "Explain Slip rings, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Slip rings precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Slip rings?",
+      "answer": "In an AC generator, slip rings connect the rotating coil to the external circuit and the induced current reverses periodically."
     },
     {
       "type": "practice",
       "title": "Board mastery task 20: AC",
-      "question": "Explain AC, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define AC precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is AC?",
+      "answer": "AC frequency is measured in hertz."
     },
     {
       "type": "practice",
       "title": "Board mastery task 21: DC",
-      "question": "Explain DC, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define DC precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is DC?",
+      "answer": "AC and DC have different current-direction behaviour."
     },
     {
       "type": "practice",
       "title": "Board mastery task 22: Live wire",
-      "question": "Explain Live wire, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Live wire precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Live wire?",
+      "answer": "The live wire carries the supply potential, the neutral provides the return path, and the earth wire provides a safety path for fault current."
     },
     {
       "type": "practice",
       "title": "Board mastery task 23: Neutral wire",
-      "question": "Explain Neutral wire, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Neutral wire precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Neutral wire?",
+      "answer": "The supplied chapter material does not give a standalone definition for this term."
     },
     {
       "type": "practice",
       "title": "Board mastery task 24: Earth wire",
-      "question": "Explain Earth wire, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Earth wire precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Earth wire?",
+      "answer": "The live wire carries the supply potential, the neutral provides the return path, and the earth wire provides a safety path for fault current."
     },
     {
       "type": "practice",
       "title": "Board mastery task 25: Fuse",
-      "question": "Explain Fuse, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Fuse precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Fuse?",
+      "answer": "Although fuses and MCBs are often taught with domestic electricity, they belong naturally here because current, magnetic effects and safety are interconnected."
     },
     {
       "type": "practice",
       "title": "Board mastery task 26: MCB",
-      "question": "Explain MCB, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define MCB precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is MCB?",
+      "answer": "Although fuses and MCBs are often taught with domestic electricity, they belong naturally here because current, magnetic effects and safety are interconnected."
     },
     {
       "type": "practice",
       "title": "Board mastery task 27: Earthing",
-      "question": "Explain Earthing, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Earthing precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Earthing?",
+      "answer": "Earthing, suitable protective devices and proper insulation are essential."
     },
     {
       "type": "practice",
       "title": "Board mastery task 28: Overloading",
-      "question": "Explain Overloading, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Overloading precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Overloading?",
+      "answer": "Overloading occurs when the current demanded by connected appliances exceeds the safe capacity of the circuit."
     },
     {
       "type": "practice",
       "title": "Board mastery task 29: Short circuit",
-      "question": "Explain Short circuit, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Short circuit precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Short circuit?",
+      "answer": "A short circuit creates an unintended low-resistance path and can cause a dangerously large current."
     }
   ],
   "practice": [
@@ -2742,6 +1932,7 @@ window.ChapterData = {
     "figures": "placed-near-related-topic",
     "comparisonTables": "use-explicit-headers",
     "math": "MathJax-compatible",
-    "fallbackImages": "enabled"
+    "fallbackImages": "enabled",
+    "deduplication": "sentence-level duplicate prose and duplicate images removed; practice answers kept direct and step-free"
   }
 };

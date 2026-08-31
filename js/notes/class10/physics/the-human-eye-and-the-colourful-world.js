@@ -44,19 +44,9 @@ window.ChapterData = {
       "license": "CC BY-SA 4.0"
     },
     {
-      "type": "think",
-      "question": "Think about Human eye: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Human eye to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Accommodation",
       "text": "Accommodation is the ability of the eye lens to change focal length. For distant objects the lens is relatively thin; for nearby objects it becomes more curved and its focal length decreases. The conventional near point of a normal adult eye is about 25 cm and its far point is effectively infinity."
-    },
-    {
-      "type": "think",
-      "question": "Think about Accommodation: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Accommodation to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -64,29 +54,14 @@ window.ChapterData = {
       "text": "In myopia, distant objects tend to form an image in front of the retina. A concave lens reduces convergence before light enters the eye and allows the corrected system to focus on the retina."
     },
     {
-      "type": "think",
-      "question": "Think about Myopia: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Myopia to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Hypermetropia",
       "text": "In hypermetropia, a nearby object tends to form an image behind the retina. A convex lens adds convergence and helps bring the final image onto the retina."
     },
     {
-      "type": "think",
-      "question": "Think about Hypermetropia: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Hypermetropia to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Presbyopia",
       "text": "Age-related reduction in accommodation is called presbyopia. Correction depends on the person's visual needs and may use a suitable converging or combined optical correction."
-    },
-    {
-      "type": "think",
-      "question": "Think about Presbyopia: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Presbyopia to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -103,11 +78,6 @@ window.ChapterData = {
       "license": "CC BY 4.0"
     },
     {
-      "type": "think",
-      "question": "Think about Prism refraction: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Prism refraction to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Dispersion",
       "text": "White light contains a range of visible wavelengths. A prism separates these components because the refractive index of glass varies with wavelength. Violet is deviated more than red in ordinary glass."
@@ -122,19 +92,9 @@ window.ChapterData = {
       "license": "Commons source licence"
     },
     {
-      "type": "think",
-      "question": "Think about Dispersion: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Dispersion to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Atmospheric refraction",
       "text": "Air density changes with altitude and temperature, so the atmosphere contains layers with different optical properties. Light can bend gradually through these layers, producing effects such as apparent shifts and twinkling."
-    },
-    {
-      "type": "think",
-      "question": "Think about Atmospheric refraction: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Atmospheric refraction to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -169,29 +129,14 @@ window.ChapterData = {
       "license": "Commons source licence"
     },
     {
-      "type": "think",
-      "question": "Think about Scattering: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Scattering to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Sunset colours",
       "text": "When sunlight travels a longer path through the atmosphere near the horizon, more shorter-wavelength light is scattered out of the direct beam. The remaining direct sunlight can therefore appear yellow, orange or red. Dust and aerosols can change the exact appearance."
     },
     {
-      "type": "think",
-      "question": "Think about Sunset colours: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Sunset colours to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Tyndall effect",
       "text": "A beam becomes visible in a colloidal or dusty medium because suspended particles scatter light toward the observer. The effect demonstrates the role of scattering centres in making a light path visible."
-    },
-    {
-      "type": "think",
-      "question": "Think about Tyndall effect: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Tyndall effect to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "table",
@@ -406,7 +351,7 @@ window.ChapterData = {
     {
       "type": "information-block",
       "title": "Dispersion of white light",
-      "text": "White light contains a range of visible wavelengths. In glass, refractive index depends on wavelength, so different colours travel at different speeds in the material and are refracted by different amounts. This separation of white light into its constituent colours is dispersion. In a typical prism diagram, violet is deviated more and red less. A spectrum is the ordered band of colours produced by dispersion.",
+      "text": "In glass, refractive index depends on wavelength, so different colours travel at different speeds in the material and are refracted by different amounts. This separation of white light into its constituent colours is dispersion. In a typical prism diagram, violet is deviated more and red less. A spectrum is the ordered band of colours produced by dispersion.",
       "renderPosition": "inline"
     },
     {
@@ -498,904 +443,154 @@ window.ChapterData = {
       "text": "Can you define every key term without mixing it with a related term? Can you draw the main diagram from memory? Can you select the correct formula from the data given? Can you explain the physical reason behind the result? Can you identify the unit of every calculated quantity? If any answer is no, revise that concept before attempting the harder questions."
     },
     {
-      "type": "information-block",
-      "title": "Extended study 1 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Eye as an optical system",
-      "text": "The cornea provides strong initial refraction, the iris controls pupil size, the crystalline lens provides adjustable focusing, and the retina receives the focused image. The optic nerve carries signals to the brain. Ciliary muscles change lens curvature during accommodation. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Accommodation",
-      "text": "For distant objects the eye lens is relatively thin and its focal length is longer. For nearby objects it becomes more rounded and focal length decreases. Accommodation keeps the image on the retina as object distance changes. A normal adult near point is conventionally about 25 cm. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Myopia",
-      "text": "A myopic eye tends to form the image of distant objects in front of the retina. A concave lens diverges the incoming rays before they enter the eye, reducing the effective convergence and shifting the final focus back onto the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Hypermetropia",
-      "text": "A hypermetropic eye tends to form the image of a nearby object behind the retina. A convex lens adds convergence before the light enters the eye so that the eye can focus the final rays on the retina. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Presbyopia",
-      "text": "Presbyopia is associated with reduced accommodation, commonly with age. Near vision becomes difficult. Depending on the person, a near addition, bifocal lens or progressive correction may be used. If another defect is present, the full correction must address both. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Prism",
-      "text": "A prism has two non-parallel refracting faces. Light is refracted at both faces, producing a net deviation. Because refractive index depends on wavelength, different colours can experience different deviations. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Dispersion",
-      "text": "White light contains a range of visible wavelengths. Glass refracts these components by different amounts, separating them into a spectrum. In ordinary glass, violet is deviated more than red. Dispersion is therefore wavelength-dependent refraction. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Atmospheric refraction",
-      "text": "Air density and refractive index vary through the atmosphere. Light from stars and the Sun bends through these layers. Turbulence can produce changing apparent intensity and direction, causing twinkling. Refraction near the horizon also explains advanced sunrise and delayed sunset. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Scattering",
-      "text": "Small particles and molecules redirect light. In the ideal Rayleigh picture, shorter wavelengths scatter more strongly than longer wavelengths. This helps explain the blue daytime sky and the reddish direct Sun near the horizon after a long atmospheric path. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Tyndall effect",
-      "text": "The Tyndall effect is visible scattering by colloidal or very fine suspended particles. A beam becomes visible from the side because some light is scattered toward the observer. Dust, smoke and mist can make the path of light apparent. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
       "type": "practice",
       "title": "Board mastery task 1: Cornea",
-      "question": "Explain Cornea, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Cornea precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Cornea?",
+      "answer": "The cornea is the transparent front surface and contributes strongly to refraction."
     },
     {
       "type": "practice",
       "title": "Board mastery task 2: Iris",
-      "question": "Explain Iris, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Iris precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Iris?",
+      "answer": "The iris controls pupil size."
     },
     {
       "type": "practice",
       "title": "Board mastery task 3: Pupil",
-      "question": "Explain Pupil, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Pupil precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Pupil?",
+      "answer": "The iris controls pupil size."
     },
     {
       "type": "practice",
       "title": "Board mastery task 4: Crystalline lens",
-      "question": "Explain Crystalline lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Crystalline lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Crystalline lens?",
+      "answer": "The crystalline lens provides adjustable focusing and helps form a focused image on the retina."
     },
     {
       "type": "practice",
       "title": "Board mastery task 5: Retina",
-      "question": "Explain Retina, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Retina precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Retina?",
+      "answer": "The retinal image is real and inverted; the brain interprets the visual information."
     },
     {
       "type": "practice",
       "title": "Board mastery task 6: Optic nerve",
-      "question": "Explain Optic nerve, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Optic nerve precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Optic nerve?",
+      "answer": "The retina converts optical information into electrical signals that travel through the optic nerve to the brain."
     },
     {
       "type": "practice",
       "title": "Board mastery task 7: Accommodation",
-      "question": "Explain Accommodation, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Accommodation precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Accommodation?",
+      "answer": "The ability to vary focal length is accommodation."
     },
     {
       "type": "practice",
       "title": "Board mastery task 8: Near point",
-      "question": "Explain Near point, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Near point precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Near point?",
+      "answer": "A normal eye has a near point of about 25 cm for a young adult and a far point effectively at infinity."
     },
     {
       "type": "practice",
       "title": "Board mastery task 9: Far point",
-      "question": "Explain Far point, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Far point precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Far point?",
+      "answer": "The far point is the farthest point of clear vision; for a normal eye it is effectively at infinity."
     },
     {
       "type": "practice",
       "title": "Board mastery task 10: Myopia",
-      "question": "Explain Myopia, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Myopia precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Myopia?",
+      "answer": "Myopia, hypermetropia and presbyopia are common vision defects and are corrected using suitable lenses."
     },
     {
       "type": "practice",
       "title": "Board mastery task 11: Hypermetropia",
-      "question": "Explain Hypermetropia, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Hypermetropia precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Hypermetropia?",
+      "answer": "Myopia, hypermetropia and presbyopia are common vision defects and are corrected using suitable lenses."
     },
     {
       "type": "practice",
       "title": "Board mastery task 12: Presbyopia",
-      "question": "Explain Presbyopia, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Presbyopia precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Presbyopia?",
+      "answer": "Age-related reduction in accommodation is called presbyopia."
     },
     {
       "type": "practice",
       "title": "Board mastery task 13: Power of lens",
-      "question": "Explain Power of lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Power of lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Power of lens?",
+      "answer": "The power of a lens is P = 1/f when f is measured in metres, and its unit is the dioptre."
     },
     {
       "type": "practice",
       "title": "Board mastery task 14: Bifocal lens",
-      "question": "Explain Bifocal lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Bifocal lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Bifocal lens?",
+      "answer": "Bifocal lenses have different powers in different regions: one part can correct distant vision and another near vision."
     },
     {
       "type": "practice",
       "title": "Board mastery task 15: Prism",
-      "question": "Explain Prism, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Prism precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Prism?",
+      "answer": "A prism is a transparent optical element that can deviate and disperse light."
     },
     {
       "type": "practice",
       "title": "Board mastery task 16: Dispersion",
-      "question": "Explain Dispersion, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Dispersion precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Dispersion?",
+      "answer": "Dispersion is the separation of white light into its component colours by a prism."
     },
     {
       "type": "practice",
       "title": "Board mastery task 17: Spectrum",
-      "question": "Explain Spectrum, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Spectrum precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Spectrum?",
+      "answer": "The resulting band of colours is a spectrum."
     },
     {
       "type": "practice",
       "title": "Board mastery task 18: Atmospheric refraction",
-      "question": "Explain Atmospheric refraction, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Atmospheric refraction precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Atmospheric refraction?",
+      "answer": "Atmospheric refraction is the bending of light as it travels through air layers having different optical properties."
     },
     {
       "type": "practice",
       "title": "Board mastery task 19: Twinkling",
-      "question": "Explain Twinkling, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Twinkling precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Twinkling?",
+      "answer": "Twinkling is primarily an atmospheric refraction effect, while the blue sky is primarily a scattering effect."
     },
     {
       "type": "practice",
       "title": "Board mastery task 20: Scattering",
-      "question": "Explain Scattering, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Scattering precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Scattering?",
+      "answer": "Scattering is the redirection of light by particles in a medium."
     },
     {
       "type": "practice",
       "title": "Board mastery task 21: Tyndall effect",
-      "question": "Explain Tyndall effect, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Tyndall effect precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Tyndall effect?",
+      "answer": "The Tyndall effect refers to the visible scattering of light by colloidal particles or very fine suspended particles, making a beam’s path visible when viewed from the side."
     },
     {
       "type": "practice",
       "title": "Board mastery task 22: Rayleigh scattering",
-      "question": "Explain Rayleigh scattering, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Rayleigh scattering precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Rayleigh scattering?",
+      "answer": "Rayleigh scattering is wavelength-dependent scattering by particles much smaller than the wavelength of light."
     },
     {
       "type": "practice",
       "title": "Board mastery task 23: Wavelength",
-      "question": "Explain Wavelength, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Wavelength precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Wavelength?",
+      "answer": "Wavelength is the distance between successive corresponding points of a wave; for light, v = fλ."
     },
     {
       "type": "practice",
       "title": "Board mastery task 24: Optically denser medium",
-      "question": "Explain Optically denser medium, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Optically denser medium precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Optically denser medium?",
+      "answer": "An optically denser medium has a higher refractive index than an optically rarer medium."
     },
     {
       "type": "practice",
       "title": "Board mastery task 25: Optically rarer medium",
-      "question": "Explain Optically rarer medium, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Optically rarer medium precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Optically rarer medium?",
+      "answer": "An optically rarer medium has a lower refractive index than an optically denser medium."
     }
   ],
   "practice": [
@@ -2646,6 +1841,7 @@ window.ChapterData = {
     "figures": "placed-near-related-topic",
     "comparisonTables": "use-explicit-headers",
     "math": "MathJax-compatible",
-    "fallbackImages": "enabled"
+    "fallbackImages": "enabled",
+    "deduplication": "sentence-level duplicate prose and duplicate images removed; practice answers kept direct and step-free"
   }
 };

@@ -26,29 +26,14 @@ window.ChapterData = {
       "license": "Public domain"
     },
     {
-      "type": "think",
-      "question": "Think about Light and vision: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Light and vision to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Reflection",
       "text": "Reflection is the return of light into the same medium after it strikes a reflecting surface. The incident ray, reflected ray and normal lie in one plane, and the angle of incidence equals the angle of reflection. The angles are measured from the normal, not from the surface."
     },
     {
-      "type": "think",
-      "question": "Think about Reflection: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Reflection to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Regular and diffuse reflection",
       "text": "A polished surface can produce regular reflection, while a rough surface produces diffuse reflection. Diffuse reflection does not violate the reflection laws: each small part of the rough surface has its own normal and obeys the same law."
-    },
-    {
-      "type": "think",
-      "question": "Think about Regular and diffuse reflection: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Regular and diffuse reflection to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -63,11 +48,6 @@ window.ChapterData = {
       "alt": "Spherical mirror geometry",
       "source": "Wikimedia Commons",
       "license": "Public domain"
-    },
-    {
-      "type": "think",
-      "question": "Think about Spherical mirrors: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Spherical mirrors to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -93,11 +73,6 @@ window.ChapterData = {
       "license": "Public domain"
     },
     {
-      "type": "think",
-      "question": "Think about Concave mirror images: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Concave mirror images to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Convex mirror images",
       "text": "A convex mirror produces a virtual, erect and diminished image behind the mirror for ordinary object positions. Its wide field of view makes it useful in vehicle rear-view mirrors."
@@ -121,19 +96,9 @@ window.ChapterData = {
       "license": "Public domain"
     },
     {
-      "type": "think",
-      "question": "Think about Convex mirror images: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Convex mirror images to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Mirror formula and magnification",
       "text": "Using the Cartesian sign convention, the mirror formula is 1/f=1/v+1/u and magnification is m=hᵢ/hₒ=-v/u. Always attach signs before substitution. The sign and magnitude of magnification provide information about orientation and relative size."
-    },
-    {
-      "type": "think",
-      "question": "Think about Mirror formula and magnification: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Mirror formula and magnification to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -150,19 +115,9 @@ window.ChapterData = {
       "license": "CC BY-SA 3.0"
     },
     {
-      "type": "think",
-      "question": "Think about Refraction: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Refraction to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Refractive index and Snell's law",
       "text": "For a pair of media, sin i/sin r is constant. Absolute refractive index is n=c/v. It has no unit. A higher refractive index means a lower speed of light in that medium."
-    },
-    {
-      "type": "think",
-      "question": "Think about Refractive index and Snell's law: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Refractive index and Snell's law to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -170,19 +125,9 @@ window.ChapterData = {
       "text": "A ray through a parallel-sided glass slab bends at entry and bends back at exit. The emergent ray is parallel to the incident ray but laterally displaced."
     },
     {
-      "type": "think",
-      "question": "Think about Glass slab: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Glass slab to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Lenses",
       "text": "A convex lens is thicker at the centre and converges parallel rays; a concave lens is thinner at the centre and diverges them. The optical centre and principal axis provide the reference geometry for ray diagrams."
-    },
-    {
-      "type": "think",
-      "question": "Think about Lenses: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Lenses to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -190,19 +135,9 @@ window.ChapterData = {
       "text": "Beyond 2F the image is real, inverted and diminished; at 2F it is real, inverted and equal; between F and 2F it is real, inverted and enlarged; at F the image is effectively at infinity; within F it is virtual, erect and magnified."
     },
     {
-      "type": "think",
-      "question": "Think about Convex lens images: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Convex lens images to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Concave lens images",
       "text": "A concave lens generally forms a virtual, erect and diminished image. The backward extensions of diverging rays meet at the principal focus on the object side."
-    },
-    {
-      "type": "think",
-      "question": "Think about Concave lens images: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Concave lens images to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "concept",
@@ -210,19 +145,9 @@ window.ChapterData = {
       "text": "For a thin lens, 1/f=1/v-1/u and m=v/u. Power P=1/f when f is in metres, measured in dioptres. Convex lenses have positive power and concave lenses negative power."
     },
     {
-      "type": "think",
-      "question": "Think about Lens formula and power: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Lens formula and power to a physical cause and an observable result, rather than giving only a definition."
-    },
-    {
       "type": "concept",
       "title": "Applications",
       "text": "Concave mirrors can provide magnification or convergence. Convex mirrors provide a wider field of view. Convex lenses are used in magnifiers, cameras and many optical instruments. Concave lenses provide controlled divergence and are used in optical correction."
-    },
-    {
-      "type": "think",
-      "question": "Think about Applications: what observation would convince you that this concept is operating?",
-      "answer": "A good answer should connect Applications to a physical cause and an observable result, rather than giving only a definition."
     },
     {
       "type": "table",
@@ -579,940 +504,190 @@ window.ChapterData = {
       "text": "Can you define every key term without mixing it with a related term? Can you draw the main diagram from memory? Can you select the correct formula from the data given? Can you explain the physical reason behind the result? Can you identify the unit of every calculated quantity? If any answer is no, revise that concept before attempting the harder questions."
     },
     {
-      "type": "information-block",
-      "title": "Extended study 1 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 1 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 2 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 3 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 4 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 5 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 6 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 7 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 8 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 9 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 10 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 11 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 12 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 13 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 14 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Reflection reasoning",
-      "text": "Use the normal as the reference for both angles. The incident ray, reflected ray and normal are coplanar, and i=r. If the mirror is rotated, its normal rotates by the same angle, so the reflected direction changes accordingly. This geometric rule applies to smooth and rough surfaces at each local point. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Plane mirror image",
-      "text": "A plane mirror gives a virtual, erect and same-sized image. Object and image are equally distant from the mirror and the image is laterally inverted. Because reflected rays only appear to meet behind the mirror, the image cannot be caught on a screen. These facts should be stated together in board answers. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Concave mirror cases",
-      "text": "Beyond C gives an image between C and F, real, inverted and diminished. At C the image is at C and same size. Between C and F the image is beyond C and enlarged. At F the image is at infinity. Between F and P the image is virtual, erect and enlarged behind the mirror. Use two standard rays to justify each case. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Convex mirror case",
-      "text": "For an ordinary real object a convex mirror always gives a virtual, erect and diminished image behind the mirror, between P and F. Its wide field of view makes it useful for rear-view mirrors. The reduction in image size is the reason a large region can be viewed at once. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Mirror numericals",
-      "text": "Write the Cartesian signs first. Use 1/f=1/v+1/u and m=-v/u. Interpret v after solving: its sign tells the side of image formation. Interpret m: negative means inverted, positive means erect; |m| greater than one means enlarged and less than one means diminished. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Refraction mechanism",
-      "text": "At a boundary, light changes speed because the optical properties of the medium change. Oblique rays therefore change direction. Into an optically denser medium they bend towards the normal; into a rarer medium they bend away. At normal incidence there is no angular bending, although speed and wavelength still change. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Snell law and wavelength",
-      "text": "For two media, n₁ sin i=n₂ sin r. Absolute refractive index is n=c/v. At a stationary boundary frequency remains fixed by the source, so when speed changes wavelength changes according to v=fλ. Never state that frequency changes simply because the medium changes. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Glass slab",
-      "text": "The emergent ray from a rectangular slab is parallel to the incident ray when the outside medium is the same, but it is laterally displaced. Draw both normals and explain the two refractions. Thickness, incidence angle and refractive index affect the displacement. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Lens image formation",
-      "text": "A convex lens can form real or virtual images depending on object position. Beyond 2F: diminished; at 2F: same size; between F and 2F: enlarged; at F: image at infinity; inside F: virtual, erect and enlarged. A concave lens normally gives a virtual, erect and diminished image. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
-      "type": "information-block",
-      "title": "Extended study 15 — Lens formula and power",
-      "text": "Use 1/f=1/v-1/u and m=v/u for a thin lens under the Cartesian convention. Power P=1/f with f in metres. Convex lens has positive f and power; concave lens has negative f and power. If two thin lenses are in contact, their powers add algebraically. For board preparation, connect the definition to the mechanism, then add the relevant equation, diagram feature, unit or application. If a numerical is involved, state known quantities with signs and units before substitution. If it is a comparison, keep the same feature order for both sides."
-    },
-    {
       "type": "practice",
       "title": "Board mastery task 1: Ray",
-      "question": "Explain Ray, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Ray precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Ray?",
+      "answer": "A ray of light is represented as a straight-line path in a uniform transparent medium."
     },
     {
       "type": "practice",
       "title": "Board mastery task 2: Beam",
-      "question": "Explain Beam, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Beam precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Beam?",
+      "answer": "A beam is a collection of light rays travelling together in a definite direction."
     },
     {
       "type": "practice",
       "title": "Board mastery task 3: Normal",
-      "question": "Explain Normal, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Normal precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Normal?",
+      "answer": "The normal is a line drawn perpendicular to the reflecting or refracting surface at the point of incidence."
     },
     {
       "type": "practice",
       "title": "Board mastery task 4: Angle of incidence",
-      "question": "Explain Angle of incidence, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Angle of incidence precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Angle of incidence?",
+      "answer": "The angle of incidence is the angle between the incident ray and the normal at the point of incidence."
     },
     {
       "type": "practice",
       "title": "Board mastery task 5: Angle of reflection",
-      "question": "Explain Angle of reflection, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Angle of reflection precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Angle of reflection?",
+      "answer": "The angle of reflection is the angle between the reflected ray and the normal at the point of incidence."
     },
     {
       "type": "practice",
       "title": "Board mastery task 6: Reflection",
-      "question": "Explain Reflection, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Reflection precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Reflection?",
+      "answer": "Reflection is the return of light into the same medium after it strikes a reflecting surface."
     },
     {
       "type": "practice",
       "title": "Board mastery task 7: Refraction",
-      "question": "Explain Refraction, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Refraction precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Refraction?",
+      "answer": "Refraction is the change in direction of light when it passes obliquely between transparent media because its speed changes."
     },
     {
       "type": "practice",
       "title": "Board mastery task 8: Refractive index",
-      "question": "Explain Refractive index, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Refractive index precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Refractive index?",
+      "answer": "Absolute refractive index is n=c/v."
     },
     {
       "type": "practice",
       "title": "Board mastery task 9: Snell’s law",
-      "question": "Explain Snell’s law, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Snell’s law precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "State Snell’s law.",
+      "answer": "For two media, Snell’s law is n₁ sin i=n₂ sin r."
     },
     {
       "type": "practice",
       "title": "Board mastery task 10: Optically denser medium",
-      "question": "Explain Optically denser medium, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Optically denser medium precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Optically denser medium?",
+      "answer": "An optically denser medium has a higher refractive index than an optically rarer medium."
     },
     {
       "type": "practice",
       "title": "Board mastery task 11: Optically rarer medium",
-      "question": "Explain Optically rarer medium, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Optically rarer medium precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Optically rarer medium?",
+      "answer": "An optically rarer medium has a lower refractive index than an optically denser medium."
     },
     {
       "type": "practice",
       "title": "Board mastery task 12: Spherical mirror",
-      "question": "Explain Spherical mirror, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Spherical mirror precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Spherical mirror?",
+      "answer": "A spherical mirror is a portion of a spherical reflecting surface."
     },
     {
       "type": "practice",
       "title": "Board mastery task 13: Pole",
-      "question": "Explain Pole, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Pole precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Pole?",
+      "answer": "The pole is the centre of the reflecting surface of a spherical mirror."
     },
     {
       "type": "practice",
       "title": "Board mastery task 14: Principal axis",
-      "question": "Explain Principal axis, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Principal axis precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Principal axis?",
+      "answer": "Pole, centre of curvature, radius of curvature, principal axis, focus and focal length are the essential geometrical terms."
     },
     {
       "type": "practice",
       "title": "Board mastery task 15: Centre of curvature",
-      "question": "Explain Centre of curvature, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Centre of curvature precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Centre of curvature?",
+      "answer": "The centre of curvature is the centre of the sphere of which a spherical mirror is a part."
     },
     {
       "type": "practice",
       "title": "Board mastery task 16: Radius of curvature",
-      "question": "Explain Radius of curvature, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Radius of curvature precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Radius of curvature?",
+      "answer": "The radius of curvature is the distance between the pole and the centre of curvature."
     },
     {
       "type": "practice",
       "title": "Board mastery task 17: Principal focus",
-      "question": "Explain Principal focus, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Principal focus precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Principal focus?",
+      "answer": "The principal focus is the point where paraxial rays parallel to the principal axis converge, or from which they appear to diverge."
     },
     {
       "type": "practice",
       "title": "Board mastery task 18: Focal length",
-      "question": "Explain Focal length, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Focal length precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Focal length?",
+      "answer": "Focal length is the distance between the pole or optical centre and the principal focus, as appropriate."
     },
     {
       "type": "practice",
       "title": "Board mastery task 19: Paraxial rays",
-      "question": "Explain Paraxial rays, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Paraxial rays precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Paraxial rays?",
+      "answer": "For paraxial rays, the principal focus F of a concave mirror lies midway between P and C, giving f=R/2."
     },
     {
       "type": "practice",
       "title": "Board mastery task 20: Real image",
-      "question": "Explain Real image, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Real image precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Real image?",
+      "answer": "The negative v identifies a real image in front of the mirror, while m=-1 tells us the image is inverted and equal in size."
     },
     {
       "type": "practice",
       "title": "Board mastery task 21: Virtual image",
-      "question": "Explain Virtual image, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Virtual image precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Virtual image?",
+      "answer": "A virtual image is formed by the apparent intersection of backward extensions of rays and cannot be obtained on a screen."
     },
     {
       "type": "practice",
       "title": "Board mastery task 22: Magnification",
-      "question": "Explain Magnification, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Magnification precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Magnification?",
+      "answer": "Magnification is m=hᵢ/hₒ=-v/u."
     },
     {
       "type": "practice",
       "title": "Board mastery task 23: Cartesian sign convention",
-      "question": "Explain Cartesian sign convention, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Cartesian sign convention precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Cartesian sign convention?",
+      "answer": "Using the Cartesian sign convention, the mirror formula is 1/f=1/v+1/u and magnification is m=hᵢ/hₒ=-v/u."
     },
     {
       "type": "practice",
       "title": "Board mastery task 24: Optical centre",
-      "question": "Explain Optical centre, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Optical centre precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Optical centre?",
+      "answer": "The optical centre is a point in a thin lens through which a ray passes approximately undeviated."
     },
     {
       "type": "practice",
       "title": "Board mastery task 25: Principal focus of lens",
-      "question": "Explain Principal focus of lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Principal focus of lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Principal focus of lens?",
+      "answer": "The supplied chapter material does not give a standalone definition for this term."
     },
     {
       "type": "practice",
       "title": "Board mastery task 26: Convex lens",
-      "question": "Explain Convex lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Convex lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Convex lens?",
+      "answer": "Convex lenses have positive power and concave lenses negative power."
     },
     {
       "type": "practice",
       "title": "Board mastery task 27: Concave lens",
-      "question": "Explain Concave lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Concave lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Concave lens?",
+      "answer": "Convex lenses have positive power and concave lenses negative power."
     },
     {
       "type": "practice",
       "title": "Board mastery task 28: Power of lens",
-      "question": "Explain Power of lens, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Power of lens precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Power of lens?",
+      "answer": "The power of a lens is P = 1/f when f is measured in metres, and its unit is the dioptre."
     },
     {
       "type": "practice",
       "title": "Board mastery task 29: Dioptre",
-      "question": "Explain Dioptre, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Dioptre precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is the dioptre?",
+      "answer": "Power P=1/f when f is in metres, measured in dioptres."
     },
     {
       "type": "practice",
       "title": "Board mastery task 30: Dispersion",
-      "question": "Explain Dispersion, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Dispersion precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Dispersion?",
+      "answer": "Dispersion is the separation of white light into its component colours by a prism."
     },
     {
       "type": "practice",
       "title": "Board mastery task 31: Prism",
-      "question": "Explain Prism, relate it to one neighbouring concept, and give the most important equation, rule, diagram label or application associated with it.",
-      "answer": "A complete answer should define Prism precisely, explain its physical role, distinguish it from related terms, and include the relevant equation/rule/application when one exists."
+      "question": "What is Prism?",
+      "answer": "A prism is a transparent optical element that can deviate and disperse light."
     }
   ],
   "practice": [
@@ -2730,6 +1905,7 @@ window.ChapterData = {
     "figures": "placed-near-related-topic",
     "comparisonTables": "use-explicit-headers",
     "math": "MathJax-compatible",
-    "fallbackImages": "enabled"
+    "fallbackImages": "enabled",
+    "deduplication": "sentence-level duplicate prose and duplicate images removed; practice answers kept direct and step-free"
   }
 };
