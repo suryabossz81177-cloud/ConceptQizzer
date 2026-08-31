@@ -213,6 +213,9 @@ async function loadChapter(key){
 
     activeChapter = chapter;
 
+    /* Start the math renderer without changing chapter loading behaviour. */
+    loadMathRenderer();
+
     /*
       Keep the active chapter available to the AI/search
       features without touching the old ChapterData.
@@ -606,6 +609,12 @@ function renderSections(sections){
 
   bindUniversalInteractions();
 
+  loadMathRenderer().then(function(){
+    if(window.MathJax && typeof window.MathJax.typesetPromise === "function"){
+      window.MathJax.typesetPromise([card]).catch(()=>{});
+    }
+  });
+
   const searchInput=document.getElementById("chapterSearch");
   if(searchInput && !searchInput.dataset.bound){
     searchInput.dataset.bound="true";
@@ -646,9 +655,113 @@ function escapeRenderHTML(value){
     .replace(/'/g,"&#039;");
 }
 
+/*==================================================
+  PHYSICS / MATH RENDERING LAYER — NON-DESTRUCTIVE
+  --------------------------------------------------
+  Keeps the existing universal renderer intact, but makes
+  equations embedded inside normal Physics prose render as
+  real mathematical notation.  MathJax is loaded lazily;
+  if it cannot load, the original text remains visible.
+==================================================*/
+
+let CQ_MATH_READY = null;
+
+function loadMathRenderer(){
+  if(window.MathJax && typeof window.MathJax.typesetPromise === "function"){
+    return Promise.resolve();
+  }
+
+  if(CQ_MATH_READY) return CQ_MATH_READY;
+
+  window.MathJax = window.MathJax || {};
+  window.MathJax.tex = window.MathJax.tex || {};
+  window.MathJax.tex.inlineMath = [["\\(","\\)"]];
+  window.MathJax.tex.displayMath = [["\\[","\\]"]];
+  window.MathJax.options = window.MathJax.options || {};
+  window.MathJax.options.skipHtmlTags = ["script","noscript","style","textarea","pre","code"];
+
+  CQ_MATH_READY = new Promise(function(resolve){
+    const existing=document.querySelector('script[data-cq-mathjax="true"]');
+    if(existing){
+      existing.addEventListener("load",()=>resolve(),{once:true});
+      existing.addEventListener("error",()=>resolve(),{once:true});
+      return;
+    }
+
+    const script=document.createElement("script");
+    script.async=true;
+    script.src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
+    script.dataset.cqMathjax="true";
+    script.onload=()=>resolve();
+    script.onerror=()=>resolve();
+    document.head.appendChild(script);
+  });
+
+  return CQ_MATH_READY;
+}
+
+/* Convert common school-Physics notation to TeX without changing
+   ordinary prose.  This is intentionally conservative. */
+function physicsTex(value){
+  let s=String(value ?? "");
+
+  if(!s.trim()) return s;
+  if(/\\\(|\\\[/.test(s)) return s;
+
+  /* Protect HTML tags while detecting equations. */
+  const parts=s.split(/(<[^>]+>)/g);
+
+  const symbolMap={
+    "ρ":"\\rho","λ":"\\lambda","μ":"\\mu","Ω":"\\Omega",
+    "π":"\\pi","θ":"\\theta","α":"\\alpha","β":"\\beta",
+    "γ":"\\gamma","Δ":"\\Delta","δ":"\\delta","∞":"\\infty",
+    "√":"\\sqrt{}","×":"\\times","÷":"\\div","→":"\\to",
+    "∝":"\\propto","≤":"\\le","≥":"\\ge","≠":"\\ne"
+  };
+
+  function convertText(t){
+    if(!t || /^(?:\\s*)$/.test(t)) return t;
+
+    /* Normalize a few common Unicode scientific symbols. */
+    Object.keys(symbolMap).forEach(sym=>{
+      const replacement=symbolMap[sym];
+      if(sym!=="√") t=t.split(sym).join(replacement);
+    });
+
+    /* Formula-looking runs: equations, ratios and common Physics units.
+       Avoid converting ordinary hyphenated prose. */
+    const formulaPattern=/((?:[0-9]+\s*\/\s*)?(?:[A-Za-zΔρλμΩαβγθ][A-Za-z0-9_²³⁻⁺]*|[0-9]+)\s*(?:=|≈|∝)\s*[^.;,:!?<>()]{1,90})|(?:\b\d+\s*\/\s*\d+\b)|(?:\b(?:m|cm|mm|km|s|min|h|A|V|W|J|N|Pa|Hz|Ω|ohm|Ωm|m\/s|m\/s²|kg|C|F|T|D)\b)/g;
+
+    return t.replace(formulaPattern,function(match){
+      let m=match.trim();
+      if(!m) return match;
+
+      /* Units alone should not become ugly math islands. */
+      if(/^[A-Za-zΩ]+(?:\s*m(?:\/s)?(?:²)?|\/s(?:²)?|\.?m)?$/.test(m) && !/[=≈∝]/.test(m)) return match;
+
+      m=m.replace(/²/g,"^2").replace(/³/g,"^3");
+      m=m.replace(/([A-Za-z])([₀-₉])/g,(a,b,c)=>b+"_"+String.fromCharCode(c.charCodeAt(0)-0x2080+48));
+      m=m.replace(/([A-Za-z])\s*\/\s*([A-Za-z0-9]+)/g,"\\frac{$1}{$2}");
+      m=m.replace(/×/g,"\\times").replace(/÷/g,"\\div");
+      m=m.replace(/rho/g,"\\rho");
+      return "\\("+m+"\\)";
+    });
+  }
+
+  return parts.map((part,i)=>i%2===1 ? part : convertText(part)).join("");
+}
+
 function renderText(value){
-  return String(value ?? "")
-    .replace(/\n/g,"<br>");
+  return physicsTex(value).replace(/\n/g,"<br>");
+}
+
+function renderFormula(value){
+  const raw=String(value ?? "").trim();
+  if(!raw) return "";
+  if(/^\[/.test(raw) || /^\(/.test(raw)) return raw;
+  let f=physicsTex(raw);
+  f=f.replace(/^\\\(/,"").replace(/\\\)$/ ,"");
+  return "\\[" + f.replace(/²/g,"^2").replace(/³/g,"^3") + "\\]";
 }
 
 function blockTitle(block, fallback){
@@ -1230,7 +1343,7 @@ function renderUniversalBlockCore(block, blockIndex){
     return `
       <div class="cqBlock cqFormula">
         <h4>📐 ${blockTitle(block,type === "theorem" ? "Theorem" : "Formula")}</h4>
-        <div class="formulaContent">${renderText(block.formula || text)}</div>
+        <div class="formulaContent">${renderFormula(block.formula || text)}</div>
         ${block.explanation ? `<p>${renderText(block.explanation)}</p>` : ""}
       </div>`;
   }
