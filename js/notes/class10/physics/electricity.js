@@ -266,6 +266,122 @@ window.ChapterData = {
       "type": "common-mistakes",
       "title": "Common physics mistakes",
       "text": "Do not confuse a definition with a law, do not ignore units, do not use unsigned distances when a sign convention is required, do not reverse the roles of Fleming's left and right hand rules, and do not draw a ray or field diagram without arrows and labels."
+    },
+    {
+      "type": "information-block",
+      "title": "Building a circuit logically",
+      "text": "A circuit is best understood as a closed path in which a source establishes potential difference and components provide resistance or perform useful work. A switch changes whether the path is continuous. Ammeter connections are made in series so the circuit current passes through the meter, while a voltmeter is connected in parallel across the component whose potential difference is being measured."
+    },
+    {
+      "type": "information-block",
+      "title": "Resistance and material",
+      "text": "Resistance is not solely a property of the name of a material. For a uniform conductor it depends on length and cross-sectional area as well as the material's resistivity and physical conditions. Increasing length increases resistance, while increasing cross-sectional area decreases resistance for the same material and conditions."
+    },
+    {
+      "type": "information-block",
+      "title": "Series versus parallel in real circuits",
+      "text": "In a series combination the same current passes through every component, so a change in one component affects the whole path. In parallel, each branch receives the same potential difference and the total current divides between branches. This is why domestic appliances are connected in parallel: one appliance can be switched off without stopping the others."
+    },
+    {
+      "type": "information-block",
+      "title": "Heating effect and energy",
+      "text": "Whenever current passes through resistance, electrical energy is transferred to internal energy. This effect is useful in heaters, irons, kettles and fuses. It can also represent unwanted energy loss in wires. The relation H=I²Rt shows why a large current through a resistance can produce substantial heating."
+    },
+    {
+      "type": "information-block",
+      "title": "Power and electricity consumption",
+      "text": "Power tells how rapidly electrical energy is transferred. Energy consumption depends on both power and time. A high-power appliance used for a short period may consume less energy than a lower-power appliance used continuously for a much longer time. Household electrical energy is commonly expressed in kilowatt-hour."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Measuring instruments",
+      "headers": [
+        "Instrument",
+        "Connection",
+        "Measures",
+        "Ideal characteristic"
+      ],
+      "rows": [
+        [
+          "Ammeter",
+          "Series",
+          "Current",
+          "Very low resistance"
+        ],
+        [
+          "Voltmeter",
+          "Parallel",
+          "Potential difference",
+          "Very high resistance"
+        ]
+      ]
+    },
+    {
+      "type": "comparison-table",
+      "title": "Series and parallel resistors",
+      "headers": [
+        "Feature",
+        "Series",
+        "Parallel"
+      ],
+      "rows": [
+        [
+          "Current",
+          "Same through each resistor",
+          "Divides among branches"
+        ],
+        [
+          "Potential difference",
+          "Divided among resistors",
+          "Same across each branch"
+        ],
+        [
+          "Equivalent resistance",
+          "Sum of resistances",
+          "Less than the smallest branch resistance"
+        ],
+        [
+          "Failure of one branch",
+          "Can interrupt whole path",
+          "Other branches can continue"
+        ],
+        [
+          "Typical use",
+          "Controlled/simple series paths",
+          "Independent appliance branches"
+        ]
+      ]
+    },
+    {
+      "type": "comparison-table",
+      "title": "Power relations",
+      "headers": [
+        "Known quantities",
+        "Useful expression"
+      ],
+      "rows": [
+        [
+          "V and I",
+          "P=VI"
+        ],
+        [
+          "I and R",
+          "P=I²R"
+        ],
+        [
+          "V and R",
+          "P=V²/R"
+        ],
+        [
+          "Power and time",
+          "E=Pt"
+        ]
+      ]
+    },
+    {
+      "type": "information-block",
+      "title": "Board numerical strategy",
+      "text": "Keep every quantity in compatible units before substitution. If a question gives electrical energy in kilowatt-hour, remember that 1 kWh is an energy unit, not a power unit. In combination problems, find the equivalent resistance first if that simplifies the current or voltage calculation. Always state the final unit."
     }
   ],
   "practice": [
@@ -1293,40 +1409,201 @@ window.ChapterData = {
       "type": "numerical-reasoning",
       "question": "Numerical reasoning 82: A problem based on Resistivity gives several quantities. How should you decide which equation to use?",
       "answer": "List the known and unknown quantities, identify the physical law linking them, write the equation with units/signs, substitute and then check the result."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 1: Explain Charge and current using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Charge and current, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 2: Explain Circuit using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Circuit, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 3: Explain Potential difference using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Potential difference, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 4: Explain Ohm's law using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Ohm's law, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 5: Explain Resistance using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Resistance, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 6: Explain Resistivity using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Resistivity, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 7: Explain Series resistors using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Series resistors, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 8: Explain Parallel resistors using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Parallel resistors, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 9: Explain Heating effect using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Heating effect, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 10: Explain Power using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Power, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 11: Explain Electrical energy using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Electrical energy, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 12: Explain Fuses and safety using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Fuses and safety, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 13: Explain Numerical strategy using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Numerical strategy, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 14: Explain Charge and current using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Charge and current, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 15: Explain Circuit using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Circuit, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 16: Explain Potential difference using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Potential difference, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 17: Explain Ohm's law using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Ohm's law, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 18: Explain Resistance using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Resistance, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 19: Explain Resistivity using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Resistivity, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 20: Explain Series resistors using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Series resistors, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 21: Explain Parallel resistors using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Parallel resistors, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 22: Explain Heating effect using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Heating effect, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 23: Explain Power using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Power, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 24: Explain Electrical energy using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Electrical energy, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 25: Explain Fuses and safety using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Fuses and safety, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 26: Explain Numerical strategy using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Numerical strategy, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 27: Explain Charge and current using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Charge and current, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 28: Explain Circuit using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Circuit, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 29: Explain Potential difference using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Potential difference, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 30: Explain Ohm's law using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Ohm's law, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
     }
   ],
   "revision": {
     "key_terms": [
-      "Charge and current",
-      "Circuit",
-      "Potential difference",
+      "electric charge",
+      "electric current",
+      "potential difference",
+      "resistance",
+      "resistivity",
       "Ohm's law",
-      "Resistance",
-      "Resistivity",
-      "Series resistors",
-      "Parallel resistors",
-      "Heating effect",
-      "Power",
-      "Electrical energy",
-      "Fuses and safety",
-      "Numerical strategy"
+      "ammeter",
+      "voltmeter",
+      "series combination",
+      "parallel combination",
+      "heating effect",
+      "electrical power",
+      "electrical energy",
+      "kilowatt-hour",
+      "fuse",
+      "overload",
+      "short circuit"
     ],
     "important_points": [
-      "Charge and current: understand the mechanism, relation and application.",
-      "Circuit: understand the mechanism, relation and application.",
-      "Potential difference: understand the mechanism, relation and application.",
-      "Ohm's law: understand the mechanism, relation and application.",
-      "Resistance: understand the mechanism, relation and application.",
-      "Resistivity: understand the mechanism, relation and application.",
-      "Series resistors: understand the mechanism, relation and application.",
-      "Parallel resistors: understand the mechanism, relation and application.",
-      "Heating effect: understand the mechanism, relation and application.",
-      "Power: understand the mechanism, relation and application.",
-      "Electrical energy: understand the mechanism, relation and application.",
-      "Fuses and safety: understand the mechanism, relation and application.",
-      "Numerical strategy: understand the mechanism, relation and application."
+      "Current is the rate of flow of electric charge.",
+      "Potential difference is work done per unit charge.",
+      "V=IR for an ohmic conductor under constant physical conditions.",
+      "Resistance depends on material, dimensions and physical conditions.",
+      "R=ρL/A for a uniform conductor.",
+      "In series, current is the same through all components.",
+      "In parallel, potential difference is the same across branches.",
+      "Parallel equivalent resistance is less than the smallest individual resistance.",
+      "Heating effect can be represented by H=I²Rt.",
+      "Electrical power is the rate of energy transfer.",
+      "P=VI=I²R=V²/R.",
+      "Electrical energy is E=Pt.",
+      "One kilowatt-hour is a unit of electrical energy.",
+      "A fuse is a series protective device designed to interrupt excessive current."
     ],
-    "chapter_summary": "Electric circuits are understood through current, potential difference and resistance. Ohm's law links these quantities under suitable conditions, while series/parallel combinations explain circuit behaviour. Heating, power and energy describe how electrical energy is transferred and used."
+    "chapter_summary": "Electricity becomes quantitatively manageable when charge flow, potential difference and resistance are separated clearly. Ohm's law connects these quantities under suitable conditions, while resistivity explains how conductor dimensions and material affect resistance. Series and parallel arrangements determine how current and voltage are distributed. Heating, power and energy then describe useful operation, energy consumption and protection in practical circuits."
   },
-  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata."
+  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata.",
+  "board_preparation": {
+    "focus": "Class 10 board-oriented preparation",
+    "answer_method": "For theory: definition/principle → explanation → equation or diagram where relevant → application/result. For numericals: Given → Required → Formula → Substitution → Unit → Conclusion.",
+    "diagram_rule": "Draw standard diagrams neatly, label all essential parts, use arrows for ray/field/current directions and avoid decorative unlabeled sketches.",
+    "revision_rule": "Revise concepts first, then formulas and diagrams, then comparison tables, then application/HOTS questions."
+  }
 };

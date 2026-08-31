@@ -327,6 +327,129 @@ window.ChapterData = {
       "type": "common-mistakes",
       "title": "Common physics mistakes",
       "text": "Do not confuse a definition with a law, do not ignore units, do not use unsigned distances when a sign convention is required, do not reverse the roles of Fleming's left and right hand rules, and do not draw a ray or field diagram without arrows and labels."
+    },
+    {
+      "type": "information-block",
+      "title": "From current to magnetic field",
+      "text": "A current-carrying conductor produces a magnetic field around itself. For a straight wire the field lines form concentric circles. Their direction depends on current direction and can be found with the right-hand thumb rule. Increasing current strengthens the field, while moving farther from the conductor weakens it."
+    },
+    {
+      "type": "information-block",
+      "title": "Why a solenoid behaves like a magnet",
+      "text": "A solenoid contains many current-carrying turns. The magnetic fields of individual turns reinforce one another inside the coil, producing a strong field that is approximately uniform near the central region of a sufficiently long solenoid. The overall field resembles that of a bar magnet, with identifiable north-like and south-like ends."
+    },
+    {
+      "type": "information-block",
+      "title": "Force and the electric motor",
+      "text": "When a current-carrying conductor is placed in an external magnetic field, the magnetic interaction can produce a force. If the forces on different sides of a coil form a turning effect, the coil can rotate. An electric motor uses this principle to convert electrical energy into mechanical energy."
+    },
+    {
+      "type": "information-block",
+      "title": "Role of the split-ring commutator",
+      "text": "After half a rotation, the sides of the motor coil exchange their positions. The split ring reverses the current through the coil at this stage, reversing the forces on the two sides in a way that keeps the turning effect in the same rotational direction. Without this switching action, continuous rotation in the same direction would not be maintained."
+    },
+    {
+      "type": "information-block",
+      "title": "Electromagnetic induction",
+      "text": "A changing magnetic environment can induce a potential difference in a conductor. Moving a magnet toward or away from a coil changes the magnetic linkage and can produce an induced current when the circuit is closed. This is the basic idea behind generators and many electromagnetic devices."
+    },
+    {
+      "type": "information-block",
+      "title": "Motor versus generator",
+      "text": "A motor and generator are closely related machines but their energy conversions are opposite. A motor receives electrical energy and delivers mechanical output. A generator receives mechanical input and produces electrical output. The underlying magnetic interaction is central to both."
+    },
+    {
+      "type": "information-block",
+      "title": "Domestic circuit and protection",
+      "text": "Domestic circuits use parallel connections so appliances receive the supply potential difference and operate independently. Live, neutral and earth conductors serve different purposes. Protective devices such as fuses or circuit breakers disconnect a circuit when current becomes dangerously high. Earthing provides a safer path for fault current in suitably designed systems."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Motor and generator",
+      "headers": [
+        "Feature",
+        "Electric motor",
+        "Electric generator"
+      ],
+      "rows": [
+        [
+          "Energy conversion",
+          "Electrical → mechanical",
+          "Mechanical → electrical"
+        ],
+        [
+          "Key principle",
+          "Force on current-carrying conductor in magnetic field",
+          "Electromagnetic induction"
+        ],
+        [
+          "Main useful output",
+          "Motion/rotation",
+          "Electrical energy"
+        ],
+        [
+          "Direction rule commonly used",
+          "Fleming's left-hand rule",
+          "Fleming's right-hand rule"
+        ]
+      ]
+    },
+    {
+      "type": "comparison-table",
+      "title": "Magnetic field patterns",
+      "headers": [
+        "Source",
+        "Characteristic field",
+        "Direction method"
+      ],
+      "rows": [
+        [
+          "Straight current-carrying wire",
+          "Concentric circles",
+          "Right-hand thumb rule"
+        ],
+        [
+          "Current-carrying loop",
+          "Bar-magnet-like pattern",
+          "Right-hand rule"
+        ],
+        [
+          "Solenoid",
+          "Strong, nearly uniform internal field",
+          "Right-hand grip rule"
+        ]
+      ]
+    },
+    {
+      "type": "comparison-table",
+      "title": "Domestic protection",
+      "headers": [
+        "Device/practice",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "Fuse",
+          "Melts and breaks the circuit when excessive current causes dangerous heating"
+        ],
+        [
+          "Circuit breaker",
+          "Automatically interrupts an unsafe circuit condition"
+        ],
+        [
+          "Earthing",
+          "Provides a safer route for fault current in an appropriately earthed system"
+        ],
+        [
+          "Insulation",
+          "Prevents unintended contact with live conductors"
+        ]
+      ]
+    },
+    {
+      "type": "information-block",
+      "title": "Board diagram checklist",
+      "text": "For a motor diagram, label the magnetic poles, rectangular coil, split ring, brushes, axle and source. For a field-line diagram, include arrows and show the correct pattern. For a solenoid, distinguish the strong internal field from the weaker external return field. For a domestic circuit, show parallel appliance branches and the protective arrangement clearly."
     }
   ],
   "practice": [
@@ -1299,38 +1422,203 @@ window.ChapterData = {
       "type": "numerical-reasoning",
       "question": "Numerical reasoning 78: A problem based on Electromagnetic induction gives several quantities. How should you decide which equation to use?",
       "answer": "List the known and unknown quantities, identify the physical law linking them, write the equation with units/signs, substitute and then check the result."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 1: Explain Magnetic field using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Magnetic field, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 2: Explain Straight current-carrying wire using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Straight current-carrying wire, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 3: Explain Circular loop using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Circular loop, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 4: Explain Solenoid using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Solenoid, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 5: Explain Force on conductor using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Force on conductor, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 6: Explain Fleming left-hand rule using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Fleming left-hand rule, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 7: Explain Electric motor using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Electric motor, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 8: Explain Electromagnetic induction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Electromagnetic induction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 9: Explain Generator using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Generator, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 10: Explain DC and AC using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of DC and AC, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 11: Explain Domestic circuit using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Domestic circuit, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 12: Explain Safety using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Safety, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 13: Explain Magnetic field using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Magnetic field, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 14: Explain Straight current-carrying wire using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Straight current-carrying wire, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 15: Explain Circular loop using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Circular loop, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 16: Explain Solenoid using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Solenoid, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 17: Explain Force on conductor using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Force on conductor, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 18: Explain Fleming left-hand rule using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Fleming left-hand rule, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 19: Explain Electric motor using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Electric motor, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 20: Explain Electromagnetic induction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Electromagnetic induction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 21: Explain Generator using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Generator, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 22: Explain DC and AC using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of DC and AC, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 23: Explain Domestic circuit using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Domestic circuit, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 24: Explain Safety using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Safety, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 25: Explain Magnetic field using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Magnetic field, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 26: Explain Straight current-carrying wire using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Straight current-carrying wire, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 27: Explain Circular loop using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Circular loop, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 28: Explain Solenoid using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Solenoid, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 29: Explain Force on conductor using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Force on conductor, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 30: Explain Fleming left-hand rule using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Fleming left-hand rule, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
     }
   ],
   "revision": {
     "key_terms": [
-      "Magnetic field",
-      "Straight current-carrying wire",
-      "Circular loop",
-      "Solenoid",
-      "Force on conductor",
-      "Fleming left-hand rule",
-      "Electric motor",
-      "Electromagnetic induction",
-      "Generator",
-      "DC and AC",
-      "Domestic circuit",
-      "Safety"
+      "magnetic field",
+      "magnetic field line",
+      "right-hand thumb rule",
+      "solenoid",
+      "electromagnet",
+      "force on conductor",
+      "Fleming's left-hand rule",
+      "electric motor",
+      "split-ring commutator",
+      "brush",
+      "armature",
+      "electromagnetic induction",
+      "induced current",
+      "generator",
+      "alternating current",
+      "direct current",
+      "live wire",
+      "neutral wire",
+      "earth wire",
+      "fuse"
     ],
     "important_points": [
-      "Magnetic field: understand the mechanism, relation and application.",
-      "Straight current-carrying wire: understand the mechanism, relation and application.",
-      "Circular loop: understand the mechanism, relation and application.",
-      "Solenoid: understand the mechanism, relation and application.",
-      "Force on conductor: understand the mechanism, relation and application.",
-      "Fleming left-hand rule: understand the mechanism, relation and application.",
-      "Electric motor: understand the mechanism, relation and application.",
-      "Electromagnetic induction: understand the mechanism, relation and application.",
-      "Generator: understand the mechanism, relation and application.",
-      "DC and AC: understand the mechanism, relation and application.",
-      "Domestic circuit: understand the mechanism, relation and application.",
-      "Safety: understand the mechanism, relation and application."
+      "Current-carrying conductors produce magnetic fields.",
+      "Field-line direction around a straight conductor is obtained with the right-hand thumb rule.",
+      "More current generally produces a stronger magnetic field around the same conductor.",
+      "A solenoid can produce a strong, approximately uniform internal field.",
+      "An electromagnet combines a coil with a suitable magnetic core.",
+      "A current-carrying conductor in an external magnetic field can experience force.",
+      "Fleming's left-hand rule gives the force direction for the motor situation.",
+      "An electric motor converts electrical energy into mechanical energy.",
+      "The split ring acts as a commutator in a simple DC motor.",
+      "Electromagnetic induction produces induced potential difference when magnetic linkage changes.",
+      "A generator converts mechanical energy into electrical energy.",
+      "Domestic appliances are connected in parallel for independent operation.",
+      "Fuses, circuit breakers, insulation and earthing contribute to electrical safety."
     ],
-    "chapter_summary": "Current produces magnetic fields; magnetic fields can exert forces on current-carrying conductors; changing magnetic flux can induce electricity. These linked ideas explain electromagnets, motors, generators and important parts of domestic electrical systems."
+    "chapter_summary": "The chapter builds a chain from the magnetic field produced by current to the force on a current-carrying conductor, then to motors, electromagnetic induction and generators. Straight wires, loops and solenoids provide different field patterns, while rules such as the right-hand thumb rule and Fleming's rules give directions. The same ideas connect directly to domestic electrical systems, where correct connection and protection are essential."
   },
-  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata."
+  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata.",
+  "board_preparation": {
+    "focus": "Class 10 board-oriented preparation",
+    "answer_method": "For theory: definition/principle → explanation → equation or diagram where relevant → application/result. For numericals: Given → Required → Formula → Substitution → Unit → Conclusion.",
+    "diagram_rule": "Draw standard diagrams neatly, label all essential parts, use arrows for ray/field/current directions and avoid decorative unlabeled sketches.",
+    "revision_rule": "Revise concepts first, then formulas and diagrams, then comparison tables, then application/HOTS questions."
+  }
 };

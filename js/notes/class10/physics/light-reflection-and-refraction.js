@@ -305,6 +305,118 @@ window.ChapterData = {
       "type": "common-mistakes",
       "title": "Common physics mistakes",
       "text": "Do not confuse a definition with a law, do not ignore units, do not use unsigned distances when a sign convention is required, do not reverse the roles of Fleming's left and right hand rules, and do not draw a ray or field diagram without arrows and labels."
+    },
+    {
+      "type": "information-block",
+      "title": "Why ray diagrams matter",
+      "text": "Ray diagrams are not decorative drawings. They are a compact method of predicting where rays travel, where they meet, and whether an image is real or virtual. In board answers, a neat diagram should have a principal axis, relevant points such as P, F and C for mirrors or O and F for lenses, arrows showing direction of light, and the image marked clearly. A diagram should support the explanation rather than replace it."
+    },
+    {
+      "type": "information-block",
+      "title": "Cartesian sign convention",
+      "text": "For numerical questions involving mirrors and lenses, the sign convention must be applied consistently. Distances are measured from the pole for a mirror and from the optical centre for a lens. Distances measured in the direction of incident light are taken positive and those measured opposite to it negative; heights above the principal axis are positive and below it negative. The safest method is to write the convention before substitution."
+    },
+    {
+      "type": "information-block",
+      "title": "Real image versus virtual image",
+      "text": "A real image is formed where light rays actually meet after reflection or refraction and can generally be obtained on a screen. A virtual image is formed by the apparent intersection of backward extensions of rays and cannot be obtained on a screen. A convex mirror and a concave lens ordinarily form virtual images, while a concave mirror and convex lens can form either type depending on object position."
+    },
+    {
+      "type": "information-block",
+      "title": "How to answer a ray-diagram question",
+      "text": "First identify the optical element and object position. Next choose two standard rays whose paths are known. Draw them with arrows, locate their intersection or backward intersection, and then state the image position, size, orientation and nature. If the question asks for magnification, use the appropriate signed relation only after the geometry is established."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Mirror comparison",
+      "headers": [
+        "Feature",
+        "Concave mirror",
+        "Convex mirror"
+      ],
+      "rows": [
+        [
+          "Reflecting surface",
+          "Inner surface of a spherical shell",
+          "Outer surface of a spherical shell"
+        ],
+        [
+          "Action on parallel rays",
+          "Converges",
+          "Diverges"
+        ],
+        [
+          "Principal focus",
+          "Real, in front of mirror",
+          "Virtual, behind mirror"
+        ],
+        [
+          "Image nature",
+          "Can be real or virtual",
+          "Virtual for ordinary real objects"
+        ],
+        [
+          "Image size",
+          "Can be diminished, same or enlarged",
+          "Diminished"
+        ],
+        [
+          "Field of view",
+          "Relatively narrow",
+          "Relatively wide"
+        ],
+        [
+          "Typical application",
+          "Shaving/makeup mirror, headlights, solar applications",
+          "Rear-view mirror"
+        ]
+      ]
+    },
+    {
+      "type": "comparison-table",
+      "title": "Convex and concave lenses",
+      "headers": [
+        "Feature",
+        "Convex lens",
+        "Concave lens"
+      ],
+      "rows": [
+        [
+          "Shape",
+          "Thicker at centre",
+          "Thinner at centre"
+        ],
+        [
+          "Effect on parallel rays",
+          "Converges rays",
+          "Diverges rays"
+        ],
+        [
+          "Power",
+          "Positive",
+          "Negative"
+        ],
+        [
+          "Ordinary image",
+          "Can be real or virtual",
+          "Virtual, erect and diminished"
+        ],
+        [
+          "Common optical role",
+          "Magnification/convergence",
+          "Divergence/correction of myopia"
+        ]
+      ]
+    },
+    {
+      "type": "information-block",
+      "title": "Board numerical checklist",
+      "text": "For a numerical, write: Given → Required → Formula → Sign convention → Substitution → Answer with unit → Interpretation. In mirror and lens problems, a negative image distance does not mean the calculation is wrong; it tells you the image is on the side indicated by the convention. Similarly, the sign of magnification carries information about orientation."
+    },
+    {
+      "type": "information-block",
+      "title": "High-value board points",
+      "text": "The laws of reflection apply to both regular and diffuse reflection. For spherical mirrors, focal length is half the radius of curvature under the standard paraxial approximation. Refraction occurs because the speed of light changes between media. Frequency remains unchanged at a stationary boundary while speed and wavelength can change. Power of a lens is expressed in dioptres when focal length is in metres."
     }
   ],
   "practice": [
@@ -1272,44 +1384,203 @@ window.ChapterData = {
       "type": "numerical-reasoning",
       "question": "Numerical reasoning 73: A problem based on Applications gives several quantities. How should you decide which equation to use?",
       "answer": "List the known and unknown quantities, identify the physical law linking them, write the equation with units/signs, substitute and then check the result."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 1: Explain Light and vision using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Light and vision, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 2: Explain Reflection using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Reflection, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 3: Explain Regular and diffuse reflection using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Regular and diffuse reflection, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 4: Explain Spherical mirrors using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Spherical mirrors, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 5: Explain Concave mirror images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Concave mirror images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 6: Explain Convex mirror images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Convex mirror images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 7: Explain Mirror formula and magnification using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Mirror formula and magnification, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 8: Explain Refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 9: Explain Refractive index and Snell's law using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Refractive index and Snell's law, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 10: Explain Glass slab using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Glass slab, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 11: Explain Lenses using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Lenses, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 12: Explain Convex lens images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Convex lens images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 13: Explain Concave lens images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Concave lens images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 14: Explain Lens formula and power using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Lens formula and power, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 15: Explain Applications using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Applications, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 16: Explain Light and vision using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Light and vision, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 17: Explain Reflection using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Reflection, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 18: Explain Regular and diffuse reflection using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Regular and diffuse reflection, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 19: Explain Spherical mirrors using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Spherical mirrors, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 20: Explain Concave mirror images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Concave mirror images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 21: Explain Convex mirror images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Convex mirror images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 22: Explain Mirror formula and magnification using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Mirror formula and magnification, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 23: Explain Refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 24: Explain Refractive index and Snell's law using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Refractive index and Snell's law, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 25: Explain Glass slab using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Glass slab, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 26: Explain Lenses using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Lenses, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 27: Explain Convex lens images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Convex lens images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 28: Explain Concave lens images using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Concave lens images, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 29: Explain Lens formula and power using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Lens formula and power, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 30: Explain Applications using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Applications, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
     }
   ],
   "revision": {
     "key_terms": [
-      "Light and vision",
-      "Reflection",
-      "Regular and diffuse reflection",
-      "Spherical mirrors",
-      "Concave mirror images",
-      "Convex mirror images",
-      "Mirror formula and magnification",
-      "Refraction",
-      "Refractive index and Snell's law",
-      "Glass slab",
-      "Lenses",
-      "Convex lens images",
-      "Concave lens images",
-      "Lens formula and power",
-      "Applications"
+      "incident ray",
+      "reflected ray",
+      "normal",
+      "angle of incidence",
+      "angle of reflection",
+      "pole",
+      "principal axis",
+      "centre of curvature",
+      "radius of curvature",
+      "principal focus",
+      "focal length",
+      "real image",
+      "virtual image",
+      "magnification",
+      "refraction",
+      "refractive index",
+      "optical centre",
+      "power of lens",
+      "dioptre",
+      "lateral displacement"
     ],
     "important_points": [
-      "Light and vision: understand the mechanism, relation and application.",
-      "Reflection: understand the mechanism, relation and application.",
-      "Regular and diffuse reflection: understand the mechanism, relation and application.",
-      "Spherical mirrors: understand the mechanism, relation and application.",
-      "Concave mirror images: understand the mechanism, relation and application.",
-      "Convex mirror images: understand the mechanism, relation and application.",
-      "Mirror formula and magnification: understand the mechanism, relation and application.",
-      "Refraction: understand the mechanism, relation and application.",
-      "Refractive index and Snell's law: understand the mechanism, relation and application.",
-      "Glass slab: understand the mechanism, relation and application.",
-      "Lenses: understand the mechanism, relation and application.",
-      "Convex lens images: understand the mechanism, relation and application.",
-      "Concave lens images: understand the mechanism, relation and application.",
-      "Lens formula and power: understand the mechanism, relation and application.",
-      "Applications: understand the mechanism, relation and application."
+      "Angle of incidence and reflection are measured from the normal.",
+      "Concave mirrors can form both real and virtual images.",
+      "Convex mirrors provide a wide field of view.",
+      "Refraction changes direction because light speed changes between media.",
+      "Frequency does not change simply because light crosses a stationary boundary.",
+      "For a spherical mirror, f=R/2 in the standard approximation.",
+      "Mirror formula: 1/f=1/v+1/u.",
+      "Mirror magnification: m=-v/u.",
+      "Lens formula: 1/f=1/v-1/u.",
+      "Lens magnification: m=v/u.",
+      "Power P=1/f when f is measured in metres.",
+      "Convex lens power is positive; concave lens power is negative.",
+      "A glass slab gives lateral displacement while the emergent ray remains parallel to the incident ray."
     ],
-    "chapter_summary": "Reflection explains how light returns from surfaces; refraction explains how its path changes between media. Spherical mirrors and lenses form images according to their geometry, and the mirror/lens equations turn ray diagrams into numerical predictions."
+    "chapter_summary": "The chapter develops a single optical picture from reflection to refraction and then to image formation. Reflection from spherical mirrors is understood through the principal axis, focus and centre of curvature. Refraction explains the bending of light at a boundary, and refractive index connects optical behaviour with speed. Lenses use the same ray-tracing logic but transmit and refract light rather than reflecting it. Board preparation should combine standard ray diagrams, image characteristics, sign conventions, formula-based numericals and applications."
   },
-  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata."
+  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata.",
+  "board_preparation": {
+    "focus": "Class 10 board-oriented preparation",
+    "answer_method": "For theory: definition/principle → explanation → equation or diagram where relevant → application/result. For numericals: Given → Required → Formula → Substitution → Unit → Conclusion.",
+    "diagram_rule": "Draw standard diagrams neatly, label all essential parts, use arrows for ray/field/current directions and avoid decorative unlabeled sketches.",
+    "revision_rule": "Revise concepts first, then formulas and diagrams, then comparison tables, then application/HOTS questions."
+  }
 };

@@ -264,6 +264,102 @@ window.ChapterData = {
       "type": "common-mistakes",
       "title": "Common physics mistakes",
       "text": "Do not confuse a definition with a law, do not ignore units, do not use unsigned distances when a sign convention is required, do not reverse the roles of Fleming's left and right hand rules, and do not draw a ray or field diagram without arrows and labels."
+    },
+    {
+      "type": "information-block",
+      "title": "The eye as an optical system",
+      "text": "The eye can be treated as a compact optical system in which the cornea and crystalline lens provide most of the focusing power, the iris regulates the amount of light entering through the pupil, and the retina receives the focused image. The optic nerve carries the resulting neural information to the brain. Understanding this sequence makes accommodation and vision defects easier to reason about."
+    },
+    {
+      "type": "information-block",
+      "title": "Accommodation and object distance",
+      "text": "When an object is moved closer to the eye, the eye lens must become more converging to keep the image on the retina. When the object is moved farther away, less convergence is required. The ability to change focal length in this way is accommodation. A normal eye has a near point of about 25 cm for a young adult and a far point effectively at infinity."
+    },
+    {
+      "type": "information-block",
+      "title": "Why corrective lenses work",
+      "text": "A corrective lens does not simply make an eye 'stronger'. It changes the direction of incoming rays before they enter the eye so that the combined optical system produces a focused image on the retina. A concave lens supplies divergence for myopia; a convex lens supplies additional convergence for hypermetropia."
+    },
+    {
+      "type": "information-block",
+      "title": "Atmospheric refraction in everyday life",
+      "text": "The atmosphere is not optically uniform. Temperature and density vary with height, so light may follow a continuously changing path. This helps explain why stars can appear to twinkle and why celestial objects may appear slightly displaced from their geometrical positions. These are consequences of refraction through changing layers."
+    },
+    {
+      "type": "information-block",
+      "title": "Dispersion and spectrum",
+      "text": "A prism separates white light because different wavelengths experience different refractive indices in glass. The resulting band of colours is a spectrum. Dispersion is different from scattering: dispersion separates wavelengths through wavelength-dependent refraction, whereas scattering redirects light from particles or molecules."
+    },
+    {
+      "type": "information-block",
+      "title": "Why the sky appears blue",
+      "text": "Sunlight contains many visible wavelengths. Small molecules in the atmosphere scatter shorter wavelengths more strongly than longer wavelengths. Light scattered into the observer's field from many directions therefore contains a strong blue component during daytime. Near sunrise and sunset, the direct beam travels through a longer atmospheric path, so the shorter wavelengths are scattered out more strongly before the direct light reaches the observer."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Eye defects and correction",
+      "headers": [
+        "Feature",
+        "Myopia",
+        "Hypermetropia",
+        "Presbyopia"
+      ],
+      "rows": [
+        [
+          "Main difficulty",
+          "Distant objects",
+          "Nearby objects",
+          "Reduced accommodation with age"
+        ],
+        [
+          "Image tendency without correction",
+          "In front of retina",
+          "Behind retina",
+          "Insufficient focusing for near work"
+        ],
+        [
+          "Typical correction",
+          "Concave lens",
+          "Convex lens",
+          "Suitable converging/combined correction depending on need"
+        ]
+      ]
+    },
+    {
+      "type": "comparison-table",
+      "title": "Atmospheric optical effects",
+      "headers": [
+        "Effect",
+        "Main optical cause",
+        "Typical observation"
+      ],
+      "rows": [
+        [
+          "Twinkling of stars",
+          "Changing atmospheric refraction",
+          "Rapid apparent brightness variation"
+        ],
+        [
+          "Advanced/early apparent position",
+          "Atmospheric refraction",
+          "Object appears slightly displaced"
+        ],
+        [
+          "Blue sky",
+          "Preferential scattering of shorter wavelengths",
+          "Sky looks blue in daytime"
+        ],
+        [
+          "Reddish sunrise/sunset",
+          "Longer atmospheric path plus scattering",
+          "Direct sunlight looks orange/red"
+        ]
+      ]
+    },
+    {
+      "type": "information-block",
+      "title": "Board answer strategy",
+      "text": "For a defect of vision, always write three things: the defect, where the image tends to form relative to the retina, and the type of lens used for correction. For sky-colour questions, mention wavelength-dependent scattering and the longer atmospheric path near the horizon. For prism questions, distinguish refraction from dispersion and explain why colours deviate by different amounts."
     }
   ],
   "practice": [
@@ -1271,36 +1367,202 @@ window.ChapterData = {
       "type": "numerical-reasoning",
       "question": "Numerical reasoning 83: A problem based on Atmospheric refraction gives several quantities. How should you decide which equation to use?",
       "answer": "List the known and unknown quantities, identify the physical law linking them, write the equation with units/signs, substitute and then check the result."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 1: Explain Human eye using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Human eye, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 2: Explain Accommodation using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Accommodation, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 3: Explain Myopia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Myopia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 4: Explain Hypermetropia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Hypermetropia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 5: Explain Presbyopia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Presbyopia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 6: Explain Prism refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Prism refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 7: Explain Dispersion using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Dispersion, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 8: Explain Atmospheric refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Atmospheric refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 9: Explain Scattering using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Scattering, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 10: Explain Sunset colours using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Sunset colours, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 11: Explain Tyndall effect using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Tyndall effect, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 12: Explain Human eye using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Human eye, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 13: Explain Accommodation using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Accommodation, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 14: Explain Myopia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Myopia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 15: Explain Hypermetropia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Hypermetropia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 16: Explain Presbyopia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Presbyopia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 17: Explain Prism refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Prism refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 18: Explain Dispersion using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Dispersion, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 19: Explain Atmospheric refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Atmospheric refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 20: Explain Scattering using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Scattering, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 21: Explain Sunset colours using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Sunset colours, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 22: Explain Tyndall effect using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Tyndall effect, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 23: Explain Human eye using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Human eye, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 24: Explain Accommodation using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Accommodation, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 25: Explain Myopia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Myopia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 26: Explain Hypermetropia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Hypermetropia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 27: Explain Presbyopia using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Presbyopia, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 28: Explain Prism refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Prism refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 29: Explain Dispersion using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Dispersion, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
+    },
+    {
+      "type": "board-application",
+      "question": "Board practice 30: Explain Atmospheric refraction using one physical reason and one consequence. If a diagram or equation is relevant, include it in your written answer.",
+      "answer": "A complete answer should explain the mechanism of Atmospheric refraction, connect it to an observable/result, and use the relevant diagram or relation when appropriate."
     }
   ],
   "revision": {
     "key_terms": [
-      "Human eye",
-      "Accommodation",
-      "Myopia",
-      "Hypermetropia",
-      "Presbyopia",
-      "Prism refraction",
-      "Dispersion",
-      "Atmospheric refraction",
-      "Scattering",
-      "Sunset colours",
-      "Tyndall effect"
+      "cornea",
+      "iris",
+      "pupil",
+      "crystalline lens",
+      "retina",
+      "optic nerve",
+      "accommodation",
+      "near point",
+      "far point",
+      "myopia",
+      "hypermetropia",
+      "presbyopia",
+      "prism",
+      "dispersion",
+      "spectrum",
+      "atmospheric refraction",
+      "scattering",
+      "Tyndall effect",
+      "wavelength",
+      "refractive index"
     ],
     "important_points": [
-      "Human eye: understand the mechanism, relation and application.",
-      "Accommodation: understand the mechanism, relation and application.",
-      "Myopia: understand the mechanism, relation and application.",
-      "Hypermetropia: understand the mechanism, relation and application.",
-      "Presbyopia: understand the mechanism, relation and application.",
-      "Prism refraction: understand the mechanism, relation and application.",
-      "Dispersion: understand the mechanism, relation and application.",
-      "Atmospheric refraction: understand the mechanism, relation and application.",
-      "Scattering: understand the mechanism, relation and application.",
-      "Sunset colours: understand the mechanism, relation and application.",
-      "Tyndall effect: understand the mechanism, relation and application."
+      "The iris controls the size of the pupil.",
+      "The retina is the light-sensitive screen of the eye.",
+      "Accommodation changes the effective focal length of the eye lens.",
+      "Myopia is corrected using a concave lens.",
+      "Hypermetropia is corrected using a convex lens.",
+      "Presbyopia is associated with reduced accommodation with age.",
+      "Different wavelengths are deviated differently by a prism.",
+      "Violet is deviated more than red in ordinary glass dispersion.",
+      "Atmospheric refraction occurs because atmospheric conditions vary with height.",
+      "Shorter visible wavelengths are scattered more strongly by very small atmospheric particles.",
+      "The longer atmospheric path near sunrise and sunset increases removal of shorter wavelengths from the direct beam.",
+      "Tyndall effect is visibility of a beam due to scattering by suspended particles."
     ],
-    "chapter_summary": "The eye is a living optical system. Accommodation controls focusing, defects arise from optical geometry, and lenses can correct them. A prism separates wavelengths by dispersion, while atmospheric refraction and scattering explain several familiar effects in the colourful sky."
+    "chapter_summary": "The chapter links the biology of vision with the physics of light. The eye focuses light on the retina by accommodation, while corrective lenses compensate for common focusing problems. A prism demonstrates wavelength-dependent refraction and dispersion. The atmosphere then becomes an optical medium: changing density produces refraction, while molecular and particulate scattering creates familiar effects such as the blue daytime sky and reddish sunsets."
   },
-  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata."
+  "image_policy": "Use real scientific diagrams/photographs from reusable Wikimedia Commons sources. Keep each image immediately beside its related concept and preserve source/licence metadata.",
+  "board_preparation": {
+    "focus": "Class 10 board-oriented preparation",
+    "answer_method": "For theory: definition/principle → explanation → equation or diagram where relevant → application/result. For numericals: Given → Required → Formula → Substitution → Unit → Conclusion.",
+    "diagram_rule": "Draw standard diagrams neatly, label all essential parts, use arrows for ray/field/current directions and avoid decorative unlabeled sketches.",
+    "revision_rule": "Revise concepts first, then formulas and diagrams, then comparison tables, then application/HOTS questions."
+  }
 };
