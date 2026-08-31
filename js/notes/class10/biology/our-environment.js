@@ -4,1334 +4,427 @@ window.ChapterData = {
   "subject": "Biology",
   "chapterNumber": 5,
   "title": "Our Environment",
-  "format": "continuous-chapter-flow",
-  "contentLevel": "Class 10 board detailed",
-  "selfContainedImages": true,
-  "duplicatePolicy": "No exact duplicate image, paragraph, question, answer, caption, heading or block within this chapter.",
-  "opening": "Every organism lives within an environment made of living and non-living components. Energy enters most ecosystems through sunlight, moves through food chains and is progressively dissipated as heat. Materials such as carbon, oxygen, water and nutrients cycle through ecosystems. The chapter also examines ozone, waste, biodegradable and non-biodegradable materials, and responsible environmental management.",
-  "learningGoals": [
-    "Identify biotic and abiotic components of an ecosystem.",
-    "Explain food chains, food webs and trophic levels.",
-    "Describe energy flow and the ten-percent law.",
-    "Explain biological magnification.",
-    "Describe ozone formation and depletion at a school level.",
-    "Distinguish biodegradable and non-biodegradable wastes and suggest responsible practices."
-  ],
-  "lessons": [
-    {
-      "number": 1,
-      "title": "What is an ecosystem?",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "What is an ecosystem?",
-          "content": "An ecosystem is a functional unit in which living organisms interact with one another and with physical factors such as light, water, air, temperature and soil. Producers capture energy, consumers obtain food by feeding on organisms, and decomposers break down dead organic material. The boundaries of an ecosystem can be small, such as a pond, or very large."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Biotic components are living components.",
-            "Abiotic components are non-living physical and chemical factors.",
-            "Energy flow and matter cycling connect the components."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 2,
-      "title": "Producers and consumers",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Producers and consumers",
-          "content": "Green plants and algae are major producers because they synthesise organic matter using light energy. Herbivores are primary consumers; animals that eat herbivores occupy higher consumer levels. Omnivores can feed at more than one trophic level depending on the food they consume."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Producer is not synonymous with plant in every ecosystem; photosynthetic algae are also producers.",
-            "Consumers depend directly or indirectly on producers for food energy."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Food chains and food webs",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Food chains and food webs",
-          "content": "A food chain shows a linear sequence of feeding relationships. A food web connects several food chains because organisms usually eat more than one type of food and may themselves have several predators. Arrows indicate the direction of energy and food transfer from the organism being eaten toward the eater."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What does an arrow in a food chain represent?",
-          "answer": "The arrow represents the direction of transfer of food and associated chemical energy from one trophic level to the next. It points from the organism being eaten toward the organism that receives the food."
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "Trophic levels",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Trophic levels",
-          "content": "Each step in a food chain is a trophic level. Producers occupy the first trophic level, primary consumers the second, secondary consumers the third and so on. An organism can occupy different trophic levels in different food chains depending on what it eats."
-        },
-        {
-          "type": "mistake",
-          "title": "Common mistake",
-          "content": "Do not count the Sun as a trophic level. The Sun is the major energy source for most ecosystems, while trophic levels describe feeding positions of organisms."
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Energy flow and the ten-percent law",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Energy flow and the ten-percent law",
-          "content": "Energy enters most ecosystems as sunlight and is captured by producers. At each trophic transfer, only a small fraction of the energy stored in one trophic level becomes available to the next. A commonly taught approximation is that about ten percent is transferred, while much of the rest is used in respiration, movement, maintenance and other activities or dissipated as heat."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are food chains usually short?",
-          "answer": "Energy available decreases sharply at each trophic transfer. Because only a small fraction of energy is passed to the next level, there is insufficient energy to support many successive trophic levels."
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Decomposers and nutrient recycling",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Decomposers and nutrient recycling",
-          "content": "Bacteria and fungi break down dead organisms and organic wastes. They release simpler substances and return nutrients to the environment. Decomposition is essential because it prevents dead matter from simply accumulating and makes elements available again for producers."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are decomposers essential to an ecosystem?",
-          "answer": "Decomposers break down dead organisms and organic wastes, releasing simpler substances and helping recycle nutrients. Without decomposition, nutrients would remain locked in dead material and ecosystems would function poorly."
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Biogeochemical cycles",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Biogeochemical cycles",
-          "content": "Matter is not destroyed when organisms use it; atoms move between organisms and the physical environment. Water circulates through evaporation, condensation, precipitation, runoff and biological processes. Carbon moves through photosynthesis, respiration, decomposition and combustion. These cycles connect ecosystems to the atmosphere, soil and water bodies."
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Biological magnification",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Biological magnification",
-          "content": "Some pollutants are persistent and are not easily broken down. If such substances enter a food chain, they can accumulate in organisms and become more concentrated at higher trophic levels. Top consumers are therefore at particular risk. The phenomenon is called biological magnification or biomagnification."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are top carnivores often more affected by biomagnification?",
-          "answer": "Persistent pollutants can accumulate in organisms and their concentration can increase at successive trophic levels. A top carnivore consumes many organisms from lower levels and can therefore receive a relatively high pollutant concentration."
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Ozone and ultraviolet radiation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Ozone and ultraviolet radiation",
-          "content": "Ozone in the stratosphere absorbs a significant part of harmful ultraviolet radiation. Certain compounds released by human activities can participate in chemical reactions that destroy ozone molecules. Increased ultraviolet exposure can damage living tissues, so protecting the ozone layer is an environmental priority."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is the ozone layer important?",
-          "answer": "Stratospheric ozone absorbs much of the harmful ultraviolet radiation from the Sun. Reduction of this protective layer can increase the amount of biologically damaging ultraviolet radiation reaching Earth's surface."
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Biodegradable and non-biodegradable materials",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Biodegradable and non-biodegradable materials",
-          "content": "Biodegradable substances can be broken down by microorganisms under suitable conditions. Food scraps and many natural materials are biodegradable. Many plastics and other persistent synthetic materials resist biological decomposition and can remain in the environment for long periods. Waste management should therefore prioritise reducing unnecessary material use and preventing leakage into ecosystems."
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Responsible waste management",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Responsible waste management",
-          "content": "The most effective waste strategy is to prevent waste before it is created. Choosing durable products, refusing unnecessary packaging, reusing containers, repairing items and segregating recyclable material can reduce environmental pressure. Composting suitable organic waste returns nutrients to soil. Hazardous waste requires specialised handling rather than ordinary disposal."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Segregate waste at source.",
-            "Keep organic and recyclable streams separate.",
-            "Avoid single-use materials when practical.",
-            "Do not burn mixed waste in open spaces."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 12,
-      "title": "Interdependence in ecosystems",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Interdependence in ecosystems",
-          "content": "No organism exists in isolation. Producers support consumers, predators influence prey populations, decomposers return nutrients and abiotic conditions determine what can survive. A change in one population can therefore influence several others. Food webs provide a more realistic picture of ecosystem interactions than a single chain."
-        },
-        {
-          "type": "think",
-          "question": "Why can removing one species affect several other species?",
-          "answer": "Species are linked through feeding relationships, competition and other interactions. Removing one species can alter food availability or population sizes at several connected points in the food web."
-        }
-      ]
-    }
-  ],
-  "diagrams": [
-    {
-      "id": "our-environment-fig-1",
-      "title": "Ecosystem components",
-      "caption": "Basic organisation of an ecosystem.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Ecosystem components\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Ecosystem components</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nAbiotic: light, temperature, water, soil, air and minerals. Biotic: producers, consumers and decomposers. These components interact continuously through energy flow and matter cycling.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-2",
-      "title": "Food chain",
-      "caption": "A simple terrestrial food chain.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Food chain\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Food chain</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nSun → grass → grasshopper → frog → snake → eagle. Arrows show the direction of transfer of food energy from one trophic level to the next.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-3",
-      "title": "Food web",
-      "caption": "A network of interconnected food chains.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Food web\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Food web</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nGrass can feed grasshoppers and rabbits; grasshoppers can be eaten by frogs and birds; rabbits can be eaten by foxes; snakes may eat frogs and birds. Multiple linked chains form a food web.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-4",
-      "title": "Trophic levels",
-      "caption": "Trophic organisation of an ecosystem.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Trophic levels\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Trophic levels</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nProducer → primary consumer → secondary consumer → tertiary consumer. Energy available generally decreases at higher trophic levels because much energy is used in life processes and lost as heat.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-5",
-      "title": "Energy pyramid",
-      "caption": "Energy decreases along trophic levels.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Energy pyramid\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Energy pyramid</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nLarge energy input at producer level → smaller amount available to herbivores → still smaller amount at higher consumers. Only a fraction of energy is transferred upward at each step.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-6",
-      "title": "Decomposer action",
-      "caption": "Role of decomposers in nutrient cycling.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Decomposer action\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Decomposer action</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nDead plants and animals + organic waste → microbial decomposition → simpler substances returned to the environment. Decomposers recycle matter and prevent accumulation of dead organic material.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-7",
-      "title": "Carbon cycle",
-      "caption": "Simplified carbon movement through an ecosystem.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Carbon cycle\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#64748b\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Carbon cycle</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nCarbon dioxide ↔ photosynthesis ↔ organic matter → respiration and decomposition → carbon dioxide. Combustion also returns carbon dioxide to the atmosphere.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-8",
-      "title": "Water cycle",
-      "caption": "Main stages of the water cycle.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Water cycle\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0284c7\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Water cycle</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nEvaporation and transpiration → condensation → precipitation → runoff and infiltration → collection → renewed evaporation. Living organisms participate through transpiration and metabolism.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-9",
-      "title": "Biological magnification",
-      "caption": "Why persistent pollutants can become concentrated in food chains.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Biological magnification\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Biological magnification</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nA persistent pollutant enters a food chain at low concentration → accumulates in organisms → concentration becomes greater at successive trophic levels. Top consumers can receive the highest concentration.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-10",
-      "title": "Ozone layer and UV",
-      "caption": "Protective role of stratospheric ozone.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Ozone layer and UV\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#4f46e5\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Ozone layer and UV</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nStratospheric ozone absorbs much harmful ultraviolet radiation. Certain chemicals can catalyse ozone breakdown, reducing protection and allowing more UV radiation to reach Earth&#x27;s surface.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-11",
-      "title": "Biodegradable and non-biodegradable waste",
-      "caption": "Two broad waste categories.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Biodegradable and non-biodegradable waste\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Biodegradable and non-biodegradable waste</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nBiodegradable materials can be broken down by microorganisms under suitable conditions. Many non-biodegradable materials persist for long periods and can accumulate if poorly managed.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "our-environment-fig-12",
-      "title": "Waste hierarchy",
-      "caption": "A practical hierarchy for reducing waste.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Waste hierarchy\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0f766e\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Waste hierarchy</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nRefuse unnecessary material → reduce consumption → reuse items → repair/refill → recycle suitable materials → recover energy where appropriate → dispose safely as the last option.\n</div></foreignObject>\n</svg>"
-    }
-  ],
-  "comparisonTables": [
-    {
-      "title": "Food chain and food web",
-      "headers": [
-        "Feature",
-        "Food chain",
-        "Food web"
-      ],
-      "rows": [
-        [
-          "Structure",
-          "Single linear pathway",
-          "Several interconnected pathways"
-        ],
-        [
-          "Stability",
-          "Can be more vulnerable to loss of one link",
-          "Alternative feeding pathways may provide some resilience"
-        ],
-        [
-          "Representation",
-          "Simplified",
-          "More realistic for complex ecosystems"
-        ]
-      ]
-    },
-    {
-      "title": "Biodegradable and non-biodegradable materials",
-      "headers": [
-        "Feature",
-        "Biodegradable",
-        "Non-biodegradable"
-      ],
-      "rows": [
-        [
-          "Microbial breakdown",
-          "Generally possible under suitable conditions",
-          "Often very slow or absent"
-        ],
-        [
-          "Persistence",
-          "Usually lower",
-          "Often high"
-        ],
-        [
-          "Management focus",
-          "Composting or controlled decomposition",
-          "Reduction, reuse, recycling and safe disposal"
-        ]
-      ]
-    }
-  ],
-  "caseStudies": [
-    {
-      "title": "Case: Pesticide in a pond ecosystem",
-      "situation": "A persistent pesticide enters water and is taken up by small organisms. Fish eat those organisms, and birds eat the fish.",
-      "questions": [
-        {
-          "question": "What environmental process may occur?",
-          "answer": "The persistent pesticide can accumulate in organisms and become more concentrated at higher trophic levels, producing biological magnification."
-        },
-        {
-          "question": "Which organisms are likely to face the highest concentration?",
-          "answer": "Predators at higher trophic levels, such as fish-eating birds in this example, are likely to receive the highest concentration."
-        }
-      ]
-    },
-    {
-      "title": "Case: Mixed household waste",
-      "situation": "A household places food scraps, paper, plastic packaging and broken electronic items in one open bin.",
-      "questions": [
-        {
-          "question": "What is the first practical improvement?",
-          "answer": "Segregate waste at the source so biodegradable, recyclable and hazardous streams can be handled appropriately."
-        },
-        {
-          "question": "Why should electronic waste not be treated as ordinary compost?",
-          "answer": "Electronic items can contain metals and chemicals that require specialised collection and recycling. They should not be mixed with biodegradable kitchen waste."
-        }
-      ]
-    }
-  ],
-  "boardPractice": [
-    {
-      "question": "Explain the ten-percent law of energy transfer.",
-      "answer": "Only a small fraction of the energy available at one trophic level is transferred to the next. A commonly used approximation is that about ten percent is passed on, while most energy is used in life processes and dissipated as heat. Therefore energy decreases sharply along a food chain."
-    },
-    {
-      "question": "Explain biological magnification with an example.",
-      "answer": "A persistent pollutant entering a food chain can accumulate in organisms. When organisms at one level are eaten by organisms at the next level, the pollutant concentration can increase. Thus a top predator may contain a much higher concentration than organisms at the base of the chain."
-    }
-  ],
+  "description": "An ecosystem contains organisms interacting with one another and with physical conditions. Producers introduce usable energy, consumers transfer it through feeding relationships, and decomposers recycle nutrients. Energy decreases at successive trophic levels, while matter cycles. Biological magnification, ozone protection and waste management connect ecological concepts with real environmental problems.",
+  "summary": "An ecosystem contains organisms interacting with one another and with physical conditions. Producers introduce usable energy, consumers transfer it through feeding relationships, and decomposers recycle nutrients. Energy decreases at successive trophic levels, while matter cycles. Biological magnification, ozone protection and waste management connect ecological concepts with real environmental problems.",
   "importantPoints": [
-    "An ecosystem contains biotic and abiotic components.",
-    "Producers capture energy and form the base of most food chains.",
-    "Arrows show direction of energy transfer.",
-    "Energy decreases at successive trophic levels.",
-    "Decomposers recycle nutrients.",
-    "Persistent pollutants can biomagnify.",
-    "Stratospheric ozone protects against harmful ultraviolet radiation.",
-    "Waste reduction is better than relying only on disposal."
+    "Draw arrows in food chains in the direction of energy transfer.",
+    "State the ten-percent principle as an approximation.",
+    "Differentiate energy flow from matter cycling.",
+    "Mention persistence when explaining biological magnification.",
+    "An ecosystem contains organisms interacting with one another and with physical conditions",
+    "Producers introduce usable energy, consumers transfer it through feeding relationships, and decomposers recycle nutrients",
+    "Energy decreases at successive trophic levels, while matter cycles"
   ],
   "keyTerms": [
-    [
-      "Ecosystem",
-      "A functional unit of interacting organisms and physical surroundings."
-    ],
-    [
-      "Producer",
-      "An organism that synthesises organic food, usually using light energy."
-    ],
-    [
-      "Consumer",
-      "An organism that obtains food by feeding on other organisms."
-    ],
-    [
-      "Trophic level",
-      "A feeding position in a food chain or web."
-    ],
-    [
-      "Decomposer",
-      "An organism that breaks down dead organic material and releases simpler substances."
-    ],
-    [
-      "Biomagnification",
-      "Increase in concentration of a persistent pollutant at higher trophic levels."
-    ],
-    [
-      "Biodegradable",
-      "Capable of being broken down by microorganisms under suitable conditions."
-    ],
-    [
-      "Ozone layer",
-      "A region of the stratosphere containing ozone that absorbs harmful ultraviolet radiation."
-    ]
-  ],
-  "chapterSummary": "An ecosystem is formed by interactions among organisms and their physical environment. Producers capture energy, consumers transfer it through feeding relationships and decomposers recycle matter. Food chains and food webs show trophic relationships, while energy decreases at successive levels and is ultimately dissipated as heat. Water and carbon cycle between living and non-living components. Persistent pollutants can undergo biological magnification. Stratospheric ozone protects life from harmful ultraviolet radiation. Responsible waste management focuses on prevention, reduction, reuse, recycling and safe treatment.",
-  "quickRevision": [
-    "Biotic + abiotic components = ecosystem.",
-    "Producer → primary consumer → higher consumers.",
-    "Only a small fraction of energy moves to the next trophic level.",
-    "Decomposers recycle nutrients.",
-    "Persistent pollutants can biomagnify.",
-    "Ozone absorbs harmful UV radiation.",
-    "Reduce and segregate waste before disposal."
-  ],
-  "boardFocus": [
-    "Define ecosystem and identify components.",
-    "Construct and interpret food chains and food webs.",
-    "Explain trophic levels and energy transfer.",
-    "State the ten-percent law.",
-    "Explain decomposers and nutrient cycling.",
-    "Explain biomagnification.",
-    "Explain the protective role of ozone.",
-    "Differentiate biodegradable and non-biodegradable waste."
-  ],
-  "deepDive": [
-    "Energy and matter behave differently in ecosystems. Energy enters, is transferred and eventually dissipated as heat, so ecosystems require a continuing energy input. Matter such as carbon and water is repeatedly recycled between organisms and the environment. This distinction is central to understanding why nutrient cycles can be closed while energy flow is one-way.",
-    "A food-chain arrow points from food to consumer because it represents transfer of chemical energy. Saying that the arrow means 'the predator moves toward the prey' reverses the ecological meaning. The same convention applies when interpreting a food web.",
-    "The ten-percent value is a useful school-level approximation rather than a universal constant for every ecosystem and every trophic transfer. The central idea is that energy available to higher trophic levels decreases strongly because organisms use much of the incoming energy for metabolism and maintenance.",
-    "Biomagnification is most important for persistent substances that resist degradation and can remain associated with organisms. The phenomenon is different from simple exposure: concentration can rise through feeding relationships, so organisms at higher trophic positions may receive disproportionate amounts.",
-    "Decomposers are not merely waste removers. Their activity releases nutrients from dead organic matter, making elements available for reuse by producers. Without decomposition, the recycling of matter would slow and dead material would accumulate.",
-    "Environmental protection is more effective when prevention occurs early in the material cycle. Reducing unnecessary consumption avoids extraction, manufacturing, transport and disposal impacts at the same time. Recycling is valuable, but it should not be treated as a reason to consume unlimited disposable products."
-  ],
-  "boardMasteryNotes": [
-    {
-      "number": 1,
-      "title": "Ecosystem as a functional unit — Board Mastery",
-      "explanation": "Ecosystem as a functional unit — extended study note. An ecosystem includes organisms and the physical conditions with which they interact. Its functioning depends on energy flow, feeding relationships and recycling of matter. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Define both living and non-living components.",
-      "selfCheck": "Can you explain ecosystem as a functional unit without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 2,
-      "title": "Biotic components — Board Mastery",
-      "explanation": "Biotic components — extended study note. Plants, animals, fungi, bacteria and other organisms form the biotic part of an ecosystem. Their roles include production, consumption and decomposition. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Give functional roles rather than just listing species.",
-      "selfCheck": "Can you explain biotic components without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 3,
-      "title": "Abiotic components — Board Mastery",
-      "explanation": "Abiotic components — extended study note. Light, temperature, water, soil, air and minerals are abiotic factors. They influence which organisms can survive and how rapidly processes occur. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use examples in definition answers.",
-      "selfCheck": "Can you explain abiotic components without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 4,
-      "title": "Producers — Board Mastery",
-      "explanation": "Producers — extended study note. Producers synthesise organic matter, usually by photosynthesis. They form the entry point for energy into most ecosystems. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not call every organism at the base of a chain a consumer.",
-      "selfCheck": "Can you explain producers without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 5,
-      "title": "Primary consumers — Board Mastery",
-      "explanation": "Primary consumers — extended study note. Herbivores feed directly on producers and occupy the next trophic level. They transfer part of the chemical energy stored by plants to animal biomass. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "The word 'primary' refers to trophic position, not size.",
-      "selfCheck": "Can you explain primary consumers without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 6,
-      "title": "Secondary consumers — Board Mastery",
-      "explanation": "Secondary consumers — extended study note. Secondary consumers feed on primary consumers. Depending on the food web, an organism can occupy different consumer levels. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Food-web questions may allow one species to have multiple trophic roles.",
-      "selfCheck": "Can you explain secondary consumers without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 7,
-      "title": "Trophic level — Board Mastery",
-      "explanation": "Trophic level — extended study note. A trophic level represents a feeding position in a food chain or web. Producers occupy the first trophic level. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not count sunlight as a trophic level.",
-      "selfCheck": "Can you explain trophic level without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 8,
-      "title": "Food chain arrows — Board Mastery",
-      "explanation": "Food chain arrows — extended study note. The arrow points from food organism to consumer, showing the direction of energy and food transfer. It does not show physical movement of the predator. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a common one-mark trap.",
-      "selfCheck": "Can you explain food chain arrows without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 9,
-      "title": "Food webs — Board Mastery",
-      "explanation": "Food webs — extended study note. A food web combines several food chains and reflects the fact that organisms usually have multiple feeding relationships. Webs can show alternative pathways of energy flow. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use a web when asked about ecosystem complexity.",
-      "selfCheck": "Can you explain food webs without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 10,
-      "title": "Energy entry — Board Mastery",
-      "explanation": "Energy entry — extended study note. Sunlight is the main energy source for most ecosystems. Producers convert a fraction of incoming light into chemical energy stored in organic matter. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Energy is not recycled in the same way as matter.",
-      "selfCheck": "Can you explain energy entry without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 11,
-      "title": "Ten-percent law — Board Mastery",
-      "explanation": "Ten-percent law — extended study note. A commonly taught approximation is that about ten percent of the energy at one trophic level becomes available to the next. The rest is used in life processes or dissipated as heat. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Treat ten percent as an approximate rule for school-level explanation.",
-      "selfCheck": "Can you explain ten-percent law without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 12,
-      "title": "Why energy decreases — Board Mastery",
-      "explanation": "Why energy decreases — extended study note. Organisms use energy for respiration, movement, growth, repair and maintenance. Therefore only a fraction of the energy stored in biomass is available to the next consumer. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This explains why higher trophic levels are smaller in many ecosystems.",
-      "selfCheck": "Can you explain why energy decreases without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 13,
-      "title": "Short food chains — Board Mastery",
-      "explanation": "Short food chains — extended study note. Because energy decreases strongly at each transfer, long chains support progressively less available energy. This limits the number of trophic steps that can be sustained. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use the energy argument, not a vague statement about 'less food'.",
-      "selfCheck": "Can you explain short food chains without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 14,
-      "title": "Decomposers — Board Mastery",
-      "explanation": "Decomposers — extended study note. Bacteria and fungi break down dead organisms and organic wastes. Their activity releases simpler substances and supports nutrient recycling. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not describe decomposers as a trophic level that only eats plants.",
-      "selfCheck": "Can you explain decomposers without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 15,
-      "title": "Detritus and decomposition — Board Mastery",
-      "explanation": "Detritus and decomposition — extended study note. Dead leaves, animal remains and organic waste provide material for decomposers. Moisture, temperature and oxygen availability can affect the rate of decomposition. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This connects ecology with environmental conditions.",
-      "selfCheck": "Can you explain detritus and decomposition without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 16,
-      "title": "Carbon cycle — Board Mastery",
-      "explanation": "Carbon cycle — extended study note. Plants remove carbon dioxide during photosynthesis and incorporate carbon into organic matter. Respiration, decomposition and combustion return carbon dioxide to the atmosphere. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use arrows in the correct direction for a cycle diagram.",
-      "selfCheck": "Can you explain carbon cycle without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 17,
-      "title": "Water cycle — Board Mastery",
-      "explanation": "Water cycle — extended study note. Evaporation, condensation, precipitation, runoff, infiltration and transpiration move water through the environment. Organisms are active participants in the cycle. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not omit transpiration when discussing biological involvement.",
-      "selfCheck": "Can you explain water cycle without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 18,
-      "title": "Matter versus energy — Board Mastery",
-      "explanation": "Matter versus energy — extended study note. Matter cycles through ecosystems, while energy generally flows in one direction and is eventually dissipated as heat. This distinction explains why ecosystems need continuous energy input. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a high-value conceptual comparison.",
-      "selfCheck": "Can you explain matter versus energy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 19,
-      "title": "Biomagnification — Board Mastery",
-      "explanation": "Biomagnification — extended study note. Persistent pollutants can accumulate in organisms and become more concentrated at higher trophic levels. Top predators can therefore receive high concentrations. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Mention persistence and trophic increase together.",
-      "selfCheck": "Can you explain biomagnification without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 20,
-      "title": "Why persistent pollutants matter — Board Mastery",
-      "explanation": "Why persistent pollutants matter — extended study note. A substance that breaks down rapidly is less likely to remain in the food chain for long. Persistence allows repeated uptake and accumulation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not call every pollutant biomagnified.",
-      "selfCheck": "Can you explain why persistent pollutants matter without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 21,
-      "title": "Ozone layer — Board Mastery",
-      "explanation": "Ozone layer — extended study note. Stratospheric ozone absorbs a significant part of harmful ultraviolet radiation. It is therefore an important protective component of Earth's atmosphere. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Avoid saying ozone is harmful everywhere; location and concentration matter.",
-      "selfCheck": "Can you explain ozone layer without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 22,
-      "title": "Ozone depletion — Board Mastery",
-      "explanation": "Ozone depletion — extended study note. Certain human-released chemicals can participate in catalytic reactions that break down ozone. Reduction of protective ozone can increase ultraviolet exposure at the surface. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Focus on the protective role and the consequence.",
-      "selfCheck": "Can you explain ozone depletion without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 23,
-      "title": "Ultraviolet radiation — Board Mastery",
-      "explanation": "Ultraviolet radiation — extended study note. Excessive UV exposure can damage biological molecules and tissues. The ozone layer reduces the amount of the most harmful UV reaching Earth's surface. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This explains why ozone protection matters to living organisms.",
-      "selfCheck": "Can you explain ultraviolet radiation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 24,
-      "title": "Biodegradable materials — Board Mastery",
-      "explanation": "Biodegradable materials — extended study note. Microorganisms can break down biodegradable materials under suitable conditions. Many natural food and plant residues fall into this category. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Biodegradable does not mean 'disappears instantly'.",
-      "selfCheck": "Can you explain biodegradable materials without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 25,
-      "title": "Non-biodegradable materials — Board Mastery",
-      "explanation": "Non-biodegradable materials — extended study note. Some synthetic materials resist biological decomposition and can persist for long periods. Poor management can lead to accumulation and pollution. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Give plastics as a familiar example but avoid claiming every plastic behaves identically.",
-      "selfCheck": "Can you explain non-biodegradable materials without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 26,
-      "title": "Waste segregation — Board Mastery",
-      "explanation": "Waste segregation — extended study note. Separating waste at the source helps organic, recyclable and hazardous materials reach appropriate treatment pathways. Mixing streams often makes recovery harder. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a practical environmental-management answer.",
-      "selfCheck": "Can you explain waste segregation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 27,
-      "title": "Reduce before recycle — Board Mastery",
-      "explanation": "Reduce before recycle — extended study note. Reducing unnecessary consumption prevents environmental impacts before they occur. Reuse and repair extend product life, while recycling recovers material from items that remain. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use the hierarchy rather than presenting recycling as the only solution.",
-      "selfCheck": "Can you explain reduce before recycle without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 28,
-      "title": "Composting — Board Mastery",
-      "explanation": "Composting — extended study note. Suitable organic waste can be decomposed under controlled conditions to produce compost. This returns organic matter to soil and reduces the amount of waste sent for disposal. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not compost hazardous or electronic waste.",
-      "selfCheck": "Can you explain composting without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 29,
-      "title": "Electronic waste — Board Mastery",
-      "explanation": "Electronic waste — extended study note. Discarded electronics may contain metals and chemicals requiring specialised collection and recycling. They should not be mixed with ordinary household compost. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a useful modern application of waste management.",
-      "selfCheck": "Can you explain electronic waste without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 30,
-      "title": "Food chain stability — Board Mastery",
-      "explanation": "Food chain stability — extended study note. Removing one organism can affect several populations because feeding relationships are interconnected. A food web often buffers some changes by providing alternative pathways, but major disturbances can still propagate widely. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use interdependence in case-based answers.",
-      "selfCheck": "Can you explain food chain stability without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 31,
-      "title": "Predator-prey balance — Board Mastery",
-      "explanation": "Predator-prey balance — extended study note. Predators can limit prey populations, while prey availability affects predator numbers. These feedbacks can create changing population sizes rather than fixed counts. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not describe predators as simply harmful to ecosystems.",
-      "selfCheck": "Can you explain predator-prey balance without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 32,
-      "title": "Competition — Board Mastery",
-      "explanation": "Competition — extended study note. Organisms may compete for food, water, space, light or mates. Competition is one of the interactions that shapes population distribution and abundance. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This adds depth to ecosystem interaction questions.",
-      "selfCheck": "Can you explain competition without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 33,
-      "title": "Habitat and niche — Board Mastery",
-      "explanation": "Habitat and niche — extended study note. A habitat is the place where an organism lives; a niche describes its functional role and interactions in the ecosystem. The two terms should not be treated as synonyms. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use simple examples if the distinction is asked.",
-      "selfCheck": "Can you explain habitat and niche without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 34,
-      "title": "Pyramid of energy — Board Mastery",
-      "explanation": "Pyramid of energy — extended study note. An energy pyramid is always upright in the school-level model because available energy decreases at successive trophic levels. This differs from some biomass or number pyramids that can have other shapes. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "State why energy pyramids are upright.",
-      "selfCheck": "Can you explain pyramid of energy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 35,
-      "title": "Biological control and food webs — Board Mastery",
-      "explanation": "Biological control and food webs — extended study note. Changes in one consumer can alter several other populations through feeding relationships. Understanding the food web helps predict unintended effects of ecological interventions. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use a network perspective rather than a single chain.",
-      "selfCheck": "Can you explain biological control and food webs without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 36,
-      "title": "Environmental change — Board Mastery",
-      "explanation": "Environmental change — extended study note. Pollution, habitat loss, resource overuse and climate-related changes can alter abiotic conditions and species interactions. Ecosystem responses depend on the type, scale and duration of the disturbance. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Avoid saying every disturbance causes the same effect.",
-      "selfCheck": "Can you explain environmental change without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 37,
-      "title": "Human responsibility — Board Mastery",
-      "explanation": "Human responsibility — extended study note. Environmental management requires both personal choices and organised systems. Source segregation, efficient treatment, regulation and ecosystem conservation work together. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A board answer should offer practical measures, not only slogans.",
-      "selfCheck": "Can you explain human responsibility without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 38,
-      "title": "Common misconception — Board Mastery",
-      "explanation": "Common misconception — extended study note. Decomposers do not create energy. They transfer and recycle matter while obtaining energy from organic material. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This distinction between energy and matter is essential.",
-      "selfCheck": "Can you explain common misconception without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 39,
-      "title": "Common misconception — Board Mastery",
-      "explanation": "Common misconception — extended study note. A food chain does not show every organism in an ecosystem. A food web is a better representation when multiple feeding links exist. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use the correct model for the question.",
-      "selfCheck": "Can you explain common misconception without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 40,
-      "title": "Case-study strategy — Board Mastery",
-      "explanation": "Case-study strategy — extended study note. For pollution questions, identify the pollutant, its persistence, entry pathway, affected trophic levels and likely ecological consequence. Then propose a prevention or management measure. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This gives a complete structure for case-based answers.",
-      "selfCheck": "Can you explain case-study strategy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 41,
-      "title": "Diagram strategy — Board Mastery",
-      "explanation": "Diagram strategy — extended study note. Food-chain arrows should be large and unambiguous. In a cycle diagram, arrows should form a closed pathway and labels should not overlap. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Neat diagrams improve interpretation.",
-      "selfCheck": "Can you explain diagram strategy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 42,
-      "title": "Energy and matter integration — Board Mastery",
-      "explanation": "Energy and matter integration — extended study note. Plants capture energy while simultaneously drawing carbon and other elements into living matter. Consumers redistribute that matter through feeding, and decomposers return simpler substances to the environment. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is the core systems view of ecology.",
-      "selfCheck": "Can you explain energy and matter integration without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 43,
-      "title": "Final integration — Board Mastery",
-      "explanation": "Final integration — extended study note. An ecosystem can be understood as a network in which energy flows from sunlight through organisms while matter cycles between living and non-living components. Human waste and pollution can disturb these pathways. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use this as the chapter's final synthesis.",
-      "selfCheck": "Can you explain final integration without looking at the notes and connect it to one structure or process?"
-    }
-  ],
-  "renderingHints": {
-    "formulaFont": "normal-responsive",
-    "imageMode": "embedded-inline-svg",
-    "tableMode": "responsive-horizontal",
-    "summaryMode": "wrap-no-overflow"
-  },
-  "deepConnections": [
-    {
-      "number": 1,
-      "title": "Deep connection 1: Ecosystem as a functional unit",
-      "content": "To understand ecosystem as a functional unit, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 2,
-      "title": "Deep connection 2: Biotic components",
-      "content": "To understand biotic components, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 3,
-      "title": "Deep connection 3: Abiotic components",
-      "content": "To understand abiotic components, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 4,
-      "title": "Deep connection 4: Producers",
-      "content": "To understand producers, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 5,
-      "title": "Deep connection 5: Primary consumers",
-      "content": "To understand primary consumers, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 6,
-      "title": "Deep connection 6: Secondary consumers",
-      "content": "To understand secondary consumers, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 7,
-      "title": "Deep connection 7: Trophic level",
-      "content": "To understand trophic level, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 8,
-      "title": "Deep connection 8: Food chain arrows",
-      "content": "To understand food chain arrows, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 9,
-      "title": "Deep connection 9: Food webs",
-      "content": "To understand food webs, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 10,
-      "title": "Deep connection 10: Energy entry",
-      "content": "To understand energy entry, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 11,
-      "title": "Deep connection 11: Ten-percent law",
-      "content": "To understand ten-percent law, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 12,
-      "title": "Deep connection 12: Why energy decreases",
-      "content": "To understand why energy decreases, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 13,
-      "title": "Deep connection 13: Short food chains",
-      "content": "To understand short food chains, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 14,
-      "title": "Deep connection 14: Decomposers",
-      "content": "To understand decomposers, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 15,
-      "title": "Deep connection 15: Detritus and decomposition",
-      "content": "To understand detritus and decomposition, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 16,
-      "title": "Deep connection 16: Carbon cycle",
-      "content": "To understand carbon cycle, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 17,
-      "title": "Deep connection 17: Water cycle",
-      "content": "To understand water cycle, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 18,
-      "title": "Deep connection 18: Matter versus energy",
-      "content": "To understand matter versus energy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 19,
-      "title": "Deep connection 19: Biomagnification",
-      "content": "To understand biomagnification, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 20,
-      "title": "Deep connection 20: Why persistent pollutants matter",
-      "content": "To understand why persistent pollutants matter, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 21,
-      "title": "Deep connection 21: Ozone layer",
-      "content": "To understand ozone layer, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 22,
-      "title": "Deep connection 22: Ozone depletion",
-      "content": "To understand ozone depletion, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 23,
-      "title": "Deep connection 23: Ultraviolet radiation",
-      "content": "To understand ultraviolet radiation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 24,
-      "title": "Deep connection 24: Biodegradable materials",
-      "content": "To understand biodegradable materials, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 25,
-      "title": "Deep connection 25: Non-biodegradable materials",
-      "content": "To understand non-biodegradable materials, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 26,
-      "title": "Deep connection 26: Waste segregation",
-      "content": "To understand waste segregation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 27,
-      "title": "Deep connection 27: Reduce before recycle",
-      "content": "To understand reduce before recycle, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 28,
-      "title": "Deep connection 28: Composting",
-      "content": "To understand composting, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 29,
-      "title": "Deep connection 29: Electronic waste",
-      "content": "To understand electronic waste, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 30,
-      "title": "Deep connection 30: Food chain stability",
-      "content": "To understand food chain stability, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 31,
-      "title": "Deep connection 31: Predator-prey balance",
-      "content": "To understand predator-prey balance, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 32,
-      "title": "Deep connection 32: Competition",
-      "content": "To understand competition, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 33,
-      "title": "Deep connection 33: Habitat and niche",
-      "content": "To understand habitat and niche, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 34,
-      "title": "Deep connection 34: Pyramid of energy",
-      "content": "To understand pyramid of energy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 35,
-      "title": "Deep connection 35: Biological control and food webs",
-      "content": "To understand biological control and food webs, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 36,
-      "title": "Deep connection 36: Environmental change",
-      "content": "To understand environmental change, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 37,
-      "title": "Deep connection 37: Human responsibility",
-      "content": "To understand human responsibility, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 38,
-      "title": "Deep connection 38: Common misconception",
-      "content": "To understand common misconception, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 39,
-      "title": "Deep connection 39: Common misconception",
-      "content": "To understand common misconception, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 40,
-      "title": "Deep connection 40: Case-study strategy",
-      "content": "To understand case-study strategy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 41,
-      "title": "Deep connection 41: Diagram strategy",
-      "content": "To understand diagram strategy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 42,
-      "title": "Deep connection 42: Energy and matter integration",
-      "content": "To understand energy and matter integration, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 43,
-      "title": "Deep connection 43: Final integration",
-      "content": "To understand final integration, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    }
-  ],
-  "chapterChecklist": [
-    "Read the continuous explanation before memorising keywords.",
-    "Reproduce every major process as a short arrow sequence.",
-    "Practise labelled diagrams without tracing.",
-    "Attempt board questions using complete, direct answers.",
-    "Check that definitions, comparisons and examples use distinct wording.",
-    "Revise the chapter summary only after understanding the detailed sections."
+    "ecosystem",
+    "biotic",
+    "abiotic",
+    "producer",
+    "consumer",
+    "decomposer",
+    "food chain",
+    "food web",
+    "trophic level",
+    "energy flow",
+    "ten percent principle",
+    "decomposition",
+    "nutrient cycling",
+    "biological magnification",
+    "persistent pollutant",
+    "ozone",
+    "ultraviolet radiation",
+    "biodegradable",
+    "non-biodegradable",
+    "waste management",
+    "recycling"
   ],
   "sections": [
     {
-      "number": 1,
-      "title": "What is an ecosystem?",
+      "title": "1. Ecosystem",
       "blocks": [
         {
-          "type": "concept",
-          "title": "What is an ecosystem?",
-          "content": "An ecosystem is a functional unit in which living organisms interact with one another and with physical factors such as light, water, air, temperature and soil. Producers capture energy, consumers obtain food by feeding on organisms, and decomposers break down dead organic material. The boundaries of an ecosystem can be small, such as a pond, or very large."
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "An ecosystem is a functional unit in which living organisms interact with one another and with non-living components. Biotic components include producers, consumers and decomposers. Abiotic components include light, temperature, water, air, soil and mineral nutrients. The size of an ecosystem can vary; what matters is the interaction among its components."
         },
         {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Biotic components are living components.",
-            "Abiotic components are non-living physical and chemical factors.",
-            "Energy flow and matter cycling connect the components."
-          ]
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Ecosystems are dynamic. Populations change with seasons, food availability, disease and competition. A disturbance can alter several components because organisms are linked by feeding relationships and shared resources. This interdependence explains why environmental changes can have effects far beyond the point where they begin."
         },
         {
-          "id": "our-environment-fig-1",
-          "title": "Ecosystem components",
-          "caption": "Basic organisation of an ecosystem.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Ecosystem components\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Ecosystem components</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Abiotic: light, temperature, water, soil, air and minerals.</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Biotic: producers, consumers and decomposers. These components</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">interact continuously through energy flow and matter cycling.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Ecosystem components"
+          "type": "realImage",
+          "title": "Pond ecosystem",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A_Pond_Ecosystem.jpg",
+          "alt": "Real photograph of a pond ecosystem",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC BY-SA 4.0",
+          "source": "Wikimedia Commons — A Pond Ecosystem.jpg"
         },
         {
-          "id": "our-environment-fig-3",
-          "title": "Food web",
-          "caption": "A network of interconnected food chains.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Food web\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Food web</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Grass can feed grasshoppers and rabbits; grasshoppers can be</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">eaten by frogs and birds; rabbits can be eaten by foxes;</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">snakes may eat frogs and birds. Multiple linked chains form a</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">food web.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Food web"
-        },
-        {
-          "id": "our-environment-fig-5",
-          "title": "Energy pyramid",
-          "caption": "Energy decreases along trophic levels.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Energy pyramid\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Energy pyramid</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Large energy input at producer level → smaller amount</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">available to herbivores → still smaller amount at higher</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">consumers. Only a fraction of energy is transferred upward at</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">each step.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Energy pyramid"
-        },
-        {
-          "id": "our-environment-fig-6",
-          "title": "Decomposer action",
-          "caption": "Role of decomposers in nutrient cycling.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Decomposer action\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Decomposer action</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Dead plants and animals + organic waste → microbial</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">decomposition → simpler substances returned to the</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">environment. Decomposers recycle matter and prevent</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">accumulation of dead organic material.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Decomposer action"
-        },
-        {
-          "id": "our-environment-fig-8",
-          "title": "Water cycle",
-          "caption": "Main stages of the water cycle.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Water cycle\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0284c7\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Water cycle</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Evaporation and transpiration → condensation → precipitation →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">runoff and infiltration → collection → renewed evaporation.</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Living organisms participate through transpiration and</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">metabolism.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Water cycle"
-        },
-        {
-          "id": "our-environment-fig-12",
-          "title": "Waste hierarchy",
-          "caption": "A practical hierarchy for reducing waste.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Waste hierarchy\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0f766e\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Waste hierarchy</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Refuse unnecessary material → reduce consumption → reuse items</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">→ repair/refill → recycle suitable materials → recover energy</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">where appropriate → dispose safely as the last option.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Waste hierarchy"
-        }
-      ]
-    },
-    {
-      "number": 2,
-      "title": "Producers and consumers",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Producers and consumers",
-          "content": "Green plants and algae are major producers because they synthesise organic matter using light energy. Herbivores are primary consumers; animals that eat herbivores occupy higher consumer levels. Omnivores can feed at more than one trophic level depending on the food they consume."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Producer is not synonymous with plant in every ecosystem; photosynthetic algae are also producers.",
-            "Consumers depend directly or indirectly on producers for food energy."
-          ]
-        },
-        {
-          "id": "our-environment-fig-4",
-          "title": "Trophic levels",
-          "caption": "Trophic organisation of an ecosystem.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Trophic levels\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Trophic levels</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Producer → primary consumer → secondary consumer → tertiary</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">consumer. Energy available generally decreases at higher</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">trophic levels because much energy is used in life processes</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and lost as heat.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Trophic levels"
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Food chains and food webs",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Food chains and food webs",
-          "content": "A food chain shows a linear sequence of feeding relationships. A food web connects several food chains because organisms usually eat more than one type of food and may themselves have several predators. Arrows indicate the direction of energy and food transfer from the organism being eaten toward the eater."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What does an arrow in a food chain represent?",
-          "answer": "The arrow represents the direction of transfer of food and associated chemical energy from one trophic level to the next. It points from the organism being eaten toward the organism that receives the food."
-        },
-        {
-          "id": "our-environment-fig-2",
-          "title": "Food chain",
-          "caption": "A simple terrestrial food chain.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Food chain\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Food chain</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Sun → grass → grasshopper → frog → snake → eagle. Arrows show</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">the direction of transfer of food energy from one trophic</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">level to the next.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Food chain"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "Trophic levels",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Trophic levels",
-          "content": "Each step in a food chain is a trophic level. Producers occupy the first trophic level, primary consumers the second, secondary consumers the third and so on. An organism can occupy different trophic levels in different food chains depending on what it eats."
-        },
-        {
-          "type": "mistake",
-          "title": "Common mistake",
-          "content": "Do not count the Sun as a trophic level. The Sun is the major energy source for most ecosystems, while trophic levels describe feeding positions of organisms."
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Energy flow and the ten-percent law",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Energy flow and the ten-percent law",
-          "content": "Energy enters most ecosystems as sunlight and is captured by producers. At each trophic transfer, only a small fraction of the energy stored in one trophic level becomes available to the next. A commonly taught approximation is that about ten percent is transferred, while much of the rest is used in respiration, movement, maintenance and other activities or dissipated as heat."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are food chains usually short?",
-          "answer": "Energy available decreases sharply at each trophic transfer. Because only a small fraction of energy is passed to the next level, there is insufficient energy to support many successive trophic levels."
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Decomposers and nutrient recycling",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Decomposers and nutrient recycling",
-          "content": "Bacteria and fungi break down dead organisms and organic wastes. They release simpler substances and return nutrients to the environment. Decomposition is essential because it prevents dead matter from simply accumulating and makes elements available again for producers."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are decomposers essential to an ecosystem?",
-          "answer": "Decomposers break down dead organisms and organic wastes, releasing simpler substances and helping recycle nutrients. Without decomposition, nutrients would remain locked in dead material and ecosystems would function poorly."
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Biogeochemical cycles",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Biogeochemical cycles",
-          "content": "Matter is not destroyed when organisms use it; atoms move between organisms and the physical environment. Water circulates through evaporation, condensation, precipitation, runoff and biological processes. Carbon moves through photosynthesis, respiration, decomposition and combustion. These cycles connect ecosystems to the atmosphere, soil and water bodies."
-        },
-        {
-          "id": "our-environment-fig-7",
-          "title": "Carbon cycle",
-          "caption": "Simplified carbon movement through an ecosystem.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Carbon cycle\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#64748b\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Carbon cycle</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Carbon dioxide ↔ photosynthesis ↔ organic matter → respiration</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and decomposition → carbon dioxide. Combustion also returns</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">carbon dioxide to the atmosphere.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Carbon cycle"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Biological magnification",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Biological magnification",
-          "content": "Some pollutants are persistent and are not easily broken down. If such substances enter a food chain, they can accumulate in organisms and become more concentrated at higher trophic levels. Top consumers are therefore at particular risk. The phenomenon is called biological magnification or biomagnification."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are top carnivores often more affected by biomagnification?",
-          "answer": "Persistent pollutants can accumulate in organisms and their concentration can increase at successive trophic levels. A top carnivore consumes many organisms from lower levels and can therefore receive a relatively high pollutant concentration."
-        },
-        {
-          "id": "our-environment-fig-9",
-          "title": "Biological magnification",
-          "caption": "Why persistent pollutants can become concentrated in food chains.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Biological magnification\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Biological magnification</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A persistent pollutant enters a food chain at low</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">concentration → accumulates in organisms → concentration</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">becomes greater at successive trophic levels. Top consumers</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">can receive the highest concentration.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Biological magnification"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Ozone and ultraviolet radiation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Ozone and ultraviolet radiation",
-          "content": "Ozone in the stratosphere absorbs a significant part of harmful ultraviolet radiation. Certain compounds released by human activities can participate in chemical reactions that destroy ozone molecules. Increased ultraviolet exposure can damage living tissues, so protecting the ozone layer is an environmental priority."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is the ozone layer important?",
-          "answer": "Stratospheric ozone absorbs much of the harmful ultraviolet radiation from the Sun. Reduction of this protective layer can increase the amount of biologically damaging ultraviolet radiation reaching Earth's surface."
-        },
-        {
-          "id": "our-environment-fig-10",
-          "title": "Ozone layer and UV",
-          "caption": "Protective role of stratospheric ozone.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Ozone layer and UV\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#4f46e5\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Ozone layer and UV</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Stratospheric ozone absorbs much harmful ultraviolet</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">radiation. Certain chemicals can catalyse ozone breakdown,</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reducing protection and allowing more UV radiation to reach</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Earth&#x27;s surface.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Ozone layer and UV"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Biodegradable and non-biodegradable materials",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Biodegradable and non-biodegradable materials",
-          "content": "Biodegradable substances can be broken down by microorganisms under suitable conditions. Food scraps and many natural materials are biodegradable. Many plastics and other persistent synthetic materials resist biological decomposition and can remain in the environment for long periods. Waste management should therefore prioritise reducing unnecessary material use and preventing leakage into ecosystems."
-        },
-        {
-          "id": "our-environment-fig-11",
-          "title": "Biodegradable and non-biodegradable waste",
-          "caption": "Two broad waste categories.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Biodegradable and non-biodegradable waste\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Biodegradable and non-biodegradable waste</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Biodegradable materials can be broken down by microorganisms</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">under suitable conditions. Many non-biodegradable materials</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">persist for long periods and can accumulate if poorly managed.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Biodegradable and non-biodegradable waste"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Responsible waste management",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Responsible waste management",
-          "content": "The most effective waste strategy is to prevent waste before it is created. Choosing durable products, refusing unnecessary packaging, reusing containers, repairing items and segregating recyclable material can reduce environmental pressure. Composting suitable organic waste returns nutrients to soil. Hazardous waste requires specialised handling rather than ordinary disposal."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Segregate waste at source.",
-            "Keep organic and recyclable streams separate.",
-            "Avoid single-use materials when practical.",
-            "Do not burn mixed waste in open spaces."
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Ecosystem with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
           ]
         }
       ]
     },
     {
-      "number": 12,
-      "title": "Interdependence in ecosystems",
+      "title": "2. Producers",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Interdependence in ecosystems",
-          "content": "No organism exists in isolation. Producers support consumers, predators influence prey populations, decomposers return nutrients and abiotic conditions determine what can survive. A change in one population can therefore influence several others. Food webs provide a more realistic picture of ecosystem interactions than a single chain."
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Producers manufacture organic food, usually by photosynthesis. They capture external energy and store it in chemical form. In a typical terrestrial ecosystem, green plants form the base of the grazing food chain. In aquatic ecosystems, algae and microscopic photosynthetic organisms can play a similar role."
         },
         {
-          "type": "think",
-          "question": "Why can removing one species affect several other species?",
-          "answer": "Species are linked through feeding relationships, competition and other interactions. Removing one species can alter food availability or population sizes at several connected points in the food web."
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "The producer level is crucial because consumers cannot obtain new usable chemical energy from nowhere. Energy entering the producer becomes available to other organisms through feeding, although much of it is used by the producers themselves for respiration and maintenance."
+        },
+        {
+          "type": "realImage",
+          "title": "Forest",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Image_of_a_forest.jpg",
+          "alt": "Real photograph of a forest ecosystem",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Image of a forest.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Producers with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
         }
       ]
     },
     {
-      "title": "Food chain and food web",
+      "title": "3. Consumers and trophic levels",
       "blocks": [
         {
-          "type": "comparison-table",
-          "title": "Food chain and food web",
-          "headers": [
-            "Feature",
-            "Food chain",
-            "Food web"
-          ],
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Consumers obtain organic food by feeding on other organisms. Herbivores feed directly on producers, primary carnivores feed on herbivores, and higher consumers feed at still higher positions. Omnivores may occupy more than one trophic level depending on their diet."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "A trophic level describes a feeding position, not a permanent label for every organism. The same species can occupy different levels in different food chains. This matters when interpreting food webs because an organism can receive energy through several pathways."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Consumers and trophic levels with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Food chains",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "A food chain is a sequence showing feeding relationships and the direction in which energy and matter move. A simple example is grass → grasshopper → frog → snake → eagle. The arrow points from the food organism towards the consumer."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Food chains simplify nature for study. Real ecosystems contain many chains connected into food webs. A change in one population can therefore affect several other populations because predators may share prey and organisms may have multiple food sources."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Food chains with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Food webs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "A food web is a network of interconnected food chains. It represents multiple feeding pathways and gives a more realistic picture of ecosystem relationships. If one prey species declines, a predator may sometimes shift to another food source, reducing the immediate effect."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Food webs can still be disturbed by large changes. Removing a top predator, eliminating a producer or introducing a persistent pollutant can alter several populations. The web concept therefore helps explain why ecological effects can spread through apparently unrelated organisms."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Food webs with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Energy flow",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Energy enters most ecosystems through sunlight and is captured by producers. It then moves through consumers as organisms feed. At each trophic transfer, much energy is used in respiration, movement, growth and maintenance and is ultimately dissipated as heat."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Because energy is continually lost as heat, it is not recycled in the ecosystem in the same way as matter. Energy flow is therefore directional. This is a key distinction between energy transfer and nutrient cycling."
+        },
+        {
+          "type": "realImage",
+          "title": "Algae in pond",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Algae_in_a_pond.jpg",
+          "alt": "Real photograph of algae in a pond",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Algae in a pond.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Energy flow with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Ten-percent principle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "A common school-level approximation is that about ten percent of the energy present at one trophic level becomes available to the next. If producers contain 10,000 units, primary consumers receive about 1,000, secondary consumers about 100 and tertiary consumers about 10 under the simple model."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "The ten-percent figure is an approximation used to explain the general pattern. Actual ecological transfer efficiencies vary among ecosystems and organisms. The important idea is the large decline in usable energy as trophic position rises."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Ten-percent principle with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Decomposers",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Decomposers such as bacteria and fungi obtain nutrients from dead organic matter. They release enzymes that break complex material into simpler substances and absorb the products. Decomposition prevents dead matter from accumulating indefinitely and returns nutrients to the environment."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Temperature, moisture, oxygen and the chemical nature of the material affect decomposition. Composting uses controlled conditions to support microbial breakdown. The resulting material can contribute organic matter and nutrients to soil."
+        },
+        {
+          "type": "realImage",
+          "title": "Saprotrophic fungi",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Saprotrophic_fungi_as_decomposers.jpg",
+          "alt": "Real photograph of saprotrophic fungi",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC BY-SA 4.0",
+          "source": "Wikimedia Commons — Saprotrophic fungi as decomposers.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Decomposers with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9. Nutrient cycling",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Matter is recycled through ecosystems. Elements such as carbon and nitrogen move between organisms, soil, water and the atmosphere. Decomposers help return nutrients from dead material to forms that can be reused. Producers then take up many of these substances again."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Unlike energy, matter does not simply disappear after an organism uses it. Atoms are rearranged into new compounds and transferred between components. This is why decomposers are essential for long-term ecosystem functioning."
+        },
+        {
+          "type": "realImage",
+          "title": "Mushrooms",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mushroom_image.jpg",
+          "alt": "Real photograph of mushrooms",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Mushroom image.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Nutrient cycling with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10. Biological magnification",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Some pollutants persist in the environment and accumulate in organisms. If contaminated prey are repeatedly eaten, the pollutant concentration can become greater at higher trophic levels. This process is called biological magnification."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "The effect is especially important for persistent substances that are stored in tissues rather than rapidly broken down or excreted. Top predators can therefore receive much higher concentrations than the surrounding water or soil initially contained."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Biological magnification with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "11. Ozone and ultraviolet radiation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Ozone in the upper atmosphere absorbs much of the harmful ultraviolet radiation arriving from the Sun. Excess ultraviolet radiation can damage cells and genetic material and can increase risks to living organisms. The ozone layer therefore acts as a protective atmospheric filter."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Certain chemicals can participate in reactions that reduce ozone concentration. International efforts to control ozone-depleting substances illustrate how scientific understanding can lead to environmental policy and technological change."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Ozone and ultraviolet radiation with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "12. Waste management",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Biodegradable waste can be broken down by microorganisms under suitable conditions, while non-biodegradable waste persists for much longer. Persistent plastics can accumulate on land and in water and may enter food systems. Waste reduction begins with avoiding unnecessary consumption."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Reuse, recycling, recovery and safe disposal reduce the environmental burden. Segregating wet organic waste from recyclable and hazardous materials improves treatment. Composting organic waste returns useful material to soil while reducing the quantity sent to disposal sites."
+        },
+        {
+          "type": "realImage",
+          "title": "Plastic waste",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Plastic_waste_at_the_beach.jpg",
+          "alt": "Real photograph of plastic waste on a beach",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC BY-SA 4.0",
+          "source": "Wikimedia Commons — Plastic waste at the beach.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Waste management with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "13. Comparison tables",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Energy flow and matter cycling",
           "rows": [
             [
-              "Structure",
-              "Single linear pathway",
-              "Several interconnected pathways"
+              "Feature",
+              "Energy",
+              "Matter"
             ],
             [
-              "Stability",
-              "Can be more vulnerable to loss of one link",
-              "Alternative feeding pathways may provide some resilience"
+              "Pattern",
+              "One-way flow",
+              "Repeated cycling"
             ],
             [
-              "Representation",
-              "Simplified",
-              "More realistic for complex ecosystems"
+              "Major source",
+              "Sunlight in typical ecosystems",
+              "Elements already present in environment"
+            ],
+            [
+              "Heat loss",
+              "Yes",
+              "Not described as energy loss; atoms are rearranged"
+            ],
+            [
+              "Decomposers",
+              "Transfer energy indirectly",
+              "Help return nutrients"
             ]
           ]
-        }
-      ]
-    },
-    {
-      "title": "Biodegradable and non-biodegradable materials",
-      "blocks": [
+        },
         {
-          "type": "comparison-table",
-          "title": "Biodegradable and non-biodegradable materials",
-          "headers": [
-            "Feature",
-            "Biodegradable",
-            "Non-biodegradable"
-          ],
+          "type": "comparison",
+          "title": "Biodegradable and non-biodegradable waste",
           "rows": [
             [
-              "Microbial breakdown",
-              "Generally possible under suitable conditions",
-              "Often very slow or absent"
+              "Feature",
+              "Biodegradable",
+              "Non-biodegradable"
+            ],
+            [
+              "Breakdown",
+              "Microorganisms can break it down",
+              "Resists ordinary biological breakdown"
             ],
             [
               "Persistence",
               "Usually lower",
-              "Often high"
+              "Often much higher"
             ],
             [
-              "Management focus",
-              "Composting or controlled decomposition",
+              "Management",
+              "Composting and biological treatment",
               "Reduction, reuse, recycling and safe disposal"
             ]
           ]
@@ -1339,69 +432,1019 @@ window.ChapterData = {
       ]
     },
     {
-      "title": "Case: Pesticide in a pond ecosystem",
+      "title": "14. Board Answer Bank",
       "blocks": [
         {
-          "type": "caseStudy",
-          "title": "Case: Pesticide in a pond ecosystem",
-          "text": "A persistent pesticide enters water and is taken up by small organisms. Fish eat those organisms, and birds eat the fish.",
+          "type": "practice",
+          "title": "Actual board-style questions with complete answers",
           "questions": [
             {
-              "question": "What environmental process may occur?",
-              "answer": "The persistent pesticide can accumulate in organisms and become more concentrated at higher trophic levels, producing biological magnification."
+              "question": "Why are food chains usually short?",
+              "answer": "Usable energy decreases strongly at each trophic transfer because organisms use energy for life processes and much is dissipated as heat. Higher levels therefore have progressively less energy available."
             },
             {
-              "question": "Which organisms are likely to face the highest concentration?",
-              "answer": "Predators at higher trophic levels, such as fish-eating birds in this example, are likely to receive the highest concentration."
+              "question": "Why are decomposers important?",
+              "answer": "They break down dead organic material and return nutrients to the environment. Producers can then reuse many of these nutrients, keeping matter cycling."
+            },
+            {
+              "question": "What is biological magnification?",
+              "answer": "It is the increase in concentration of a persistent pollutant at successive trophic levels when contaminated organisms are repeatedly eaten."
+            },
+            {
+              "question": "Why is energy not recycled like matter?",
+              "answer": "Energy entering an ecosystem is transformed and eventually dissipated as heat. Matter is made of atoms that can be rearranged and reused in new compounds."
+            },
+            {
+              "question": "How does the ozone layer protect life?",
+              "answer": "Ozone in the upper atmosphere absorbs a substantial part of harmful ultraviolet radiation, reducing exposure of living organisms at Earth’s surface."
+            },
+            {
+              "question": "How can waste reduction protect ecosystems?",
+              "answer": "Reducing consumption decreases the amount of material extracted, transported and discarded. Less waste means less pressure on landfills, water bodies and natural habitats."
             }
           ]
         }
       ]
     },
     {
-      "title": "Case: Mixed household waste",
+      "title": "15. Quick Revision and Writing Strategy",
       "blocks": [
         {
-          "type": "caseStudy",
-          "title": "Case: Mixed household waste",
-          "text": "A household places food scraps, paper, plastic packaging and broken electronic items in one open bin.",
-          "questions": [
-            {
-              "question": "What is the first practical improvement?",
-              "answer": "Segregate waste at the source so biodegradable, recyclable and hazardous streams can be handled appropriately."
-            },
-            {
-              "question": "Why should electronic waste not be treated as ordinary compost?",
-              "answer": "Electronic items can contain metals and chemicals that require specialised collection and recycling. They should not be mixed with biodegradable kitchen waste."
-            }
+          "type": "keypoint",
+          "title": "Last-minute revision",
+          "items": [
+            "An ecosystem contains organisms interacting with one another and with physical conditions",
+            "Producers introduce usable energy, consumers transfer it through feeding relationships, and decomposers recycle nutrients",
+            "Energy decreases at successive trophic levels, while matter cycles",
+            "Biological magnification, ozone protection and waste management connect ecological concepts with real environmental problems."
           ]
-        }
-      ]
-    },
-    {
-      "title": "Board Practice",
-      "blocks": [
+        },
         {
-          "type": "practice",
-          "title": "Board Practice",
-          "question": "Explain the ten-percent law of energy transfer.",
-          "answer": "Only a small fraction of the energy available at one trophic level is transferred to the next. A commonly used approximation is that about ten percent is passed on, while most energy is used in life processes and dissipated as heat. Therefore energy decreases sharply along a food chain."
-        }
-      ]
-    },
-    {
-      "title": "Board Practice",
-      "blocks": [
+          "type": "keypoint",
+          "title": "Board writing tips",
+          "items": [
+            "Draw arrows in food chains in the direction of energy transfer.",
+            "State the ten-percent principle as an approximation.",
+            "Differentiate energy flow from matter cycling.",
+            "Mention persistence when explaining biological magnification."
+          ]
+        },
         {
-          "type": "practice",
-          "title": "Board Practice",
-          "question": "Explain biological magnification with an example.",
-          "answer": "A persistent pollutant entering a food chain can accumulate in organisms. When organisms at one level are eaten by organisms at the next level, the pollutant concentration can increase. Thus a top predator may contain a much higher concentration than organisms at the base of the chain."
+          "type": "definition",
+          "title": "How to write a 5-mark answer",
+          "text": "Start with a precise definition or identification. Then write the mechanism in logical order, using scientific terms. Add one example or application where useful. End with the significance or result. Avoid filler statements and do not repeat the same idea in different words."
         }
       ]
     }
-  ],
-  "description": "Every organism lives within an environment made of living and non-living components. Energy enters most ecosystems through sunlight, moves through food chains and is progressively dissipated as heat. Materials such as carbon, oxygen, water and nutrients cycle through ecosystems. The chapter also examines ozone, waste, biodegradable and non-biodegradable materials, and responsible environmental management.",
-  "summary": "An ecosystem is formed by interactions among organisms and their physical environment. Producers capture energy, consumers transfer it through feeding relationships and decomposers recycle matter. Food chains and food webs show trophic relationships, while energy decreases at successive levels and is ultimately dissipated as heat. Water and carbon cycle between living and non-living components. Persistent pollutants can undergo biological magnification. Stratospheric ozone protects life from harmful ultraviolet radiation. Responsible waste management focuses on prevention, reduction, reuse, recycling and safe treatment.",
-  "rendering": "compatible-with-concept-quizzer-universal-renderer"
+  ]
 };
+
+/* Extended detailed board layer — previous chapter data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Deep Board Mastery 1 — ecosystem",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "ecosystem is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on ecosystem, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "ecosystem: identify the starting condition before explaining the process.",
+          "ecosystem: connect the mechanism to its biological advantage or consequence.",
+          "ecosystem: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 2 — biotic components",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "biotic components is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on biotic components, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "biotic components: identify the starting condition before explaining the process.",
+          "biotic components: connect the mechanism to its biological advantage or consequence.",
+          "biotic components: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 3 — abiotic components",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "abiotic components is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on abiotic components, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "abiotic components: identify the starting condition before explaining the process.",
+          "abiotic components: connect the mechanism to its biological advantage or consequence.",
+          "abiotic components: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 4 — producers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "producers is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on producers, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "producers: identify the starting condition before explaining the process.",
+          "producers: connect the mechanism to its biological advantage or consequence.",
+          "producers: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 5 — consumers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "consumers is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on consumers, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "consumers: identify the starting condition before explaining the process.",
+          "consumers: connect the mechanism to its biological advantage or consequence.",
+          "consumers: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 6 — food chains",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "food chains is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on food chains, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "food chains: identify the starting condition before explaining the process.",
+          "food chains: connect the mechanism to its biological advantage or consequence.",
+          "food chains: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 7 — food webs",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "food webs is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on food webs, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "food webs: identify the starting condition before explaining the process.",
+          "food webs: connect the mechanism to its biological advantage or consequence.",
+          "food webs: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 8 — trophic levels",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "trophic levels is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on trophic levels, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "trophic levels: identify the starting condition before explaining the process.",
+          "trophic levels: connect the mechanism to its biological advantage or consequence.",
+          "trophic levels: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 9 — energy flow",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "energy flow is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on energy flow, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "energy flow: identify the starting condition before explaining the process.",
+          "energy flow: connect the mechanism to its biological advantage or consequence.",
+          "energy flow: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 10 — ten-percent principle",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "ten-percent principle is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on ten-percent principle, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "ten-percent principle: identify the starting condition before explaining the process.",
+          "ten-percent principle: connect the mechanism to its biological advantage or consequence.",
+          "ten-percent principle: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 11 — decomposers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "decomposers is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on decomposers, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "decomposers: identify the starting condition before explaining the process.",
+          "decomposers: connect the mechanism to its biological advantage or consequence.",
+          "decomposers: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 12 — nutrient cycling",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "nutrient cycling is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on nutrient cycling, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "nutrient cycling: identify the starting condition before explaining the process.",
+          "nutrient cycling: connect the mechanism to its biological advantage or consequence.",
+          "nutrient cycling: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Case Studies and Application Questions",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Case-based board practice with actual answers",
+        "questions": [
+          {
+            "question": "Case study: ecosystem. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of ecosystem. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: biotic components. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of biotic components. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: abiotic components. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of abiotic components. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: producers. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of producers. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: consumers. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of consumers. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: food chains. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of food chains. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Extended Board Question Bank",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Additional 1–5 mark questions with actual answers",
+        "questions": [
+          {
+            "question": "Write a complete board answer on ecosystem.",
+            "answer": "ecosystem should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on producer.",
+            "answer": "producer should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on consumer.",
+            "answer": "consumer should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on food chain.",
+            "answer": "food chain should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on food web.",
+            "answer": "food web should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on trophic level.",
+            "answer": "trophic level should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on energy flow.",
+            "answer": "energy flow should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on ten-percent principle.",
+            "answer": "ten-percent principle should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on decomposer.",
+            "answer": "decomposer should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on decomposition.",
+            "answer": "decomposition should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on nutrient cycle.",
+            "answer": "nutrient cycle should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on biological magnification.",
+            "answer": "biological magnification should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on persistent pollutant.",
+            "answer": "persistent pollutant should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on ozone.",
+            "answer": "ozone should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on ultraviolet radiation.",
+            "answer": "ultraviolet radiation should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on biodegradable waste.",
+            "answer": "biodegradable waste should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on non-biodegradable waste.",
+            "answer": "non-biodegradable waste should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on waste segregation.",
+            "answer": "waste segregation should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on recycling.",
+            "answer": "recycling should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on composting.",
+            "answer": "composting should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on environmental balance.",
+            "answer": "environmental balance should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on interdependence.",
+            "answer": "interdependence should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on population change.",
+            "answer": "population change should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on habitat disturbance.",
+            "answer": "habitat disturbance should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on energy pyramid.",
+            "answer": "energy pyramid should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on matter cycling.",
+            "answer": "matter cycling should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on top consumer.",
+            "answer": "top consumer should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on producer level.",
+            "answer": "producer level should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          },
+          {
+            "question": "Write a complete board answer on pollution.",
+            "answer": "pollution should be explained using the relationship between organisms and their environment. Identify the relevant component or trophic position, describe the transfer or cycle involved, and state the ecological consequence. Numerical questions should show the calculation clearly, while pollution questions should identify persistence, exposure pathway and biological effect. Avoid confusing one-way energy flow with recycling of matter."
+          }
+        ]
+      }
+    ]
+  }
+]); })();
+
+/* Further detailed board layer; previous data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Advanced Notes 1 — ecosystem",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of ecosystem can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of ecosystem lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in ecosystem. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving ecosystem can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For ecosystem, write the process in the correct order before adding an example.",
+          "Use the exact term ecosystem when the question asks for a definition or identification.",
+          "End a long answer on ecosystem with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 2 — producers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of producers can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of producers lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in producers. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving producers can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For producers, write the process in the correct order before adding an example.",
+          "Use the exact term producers when the question asks for a definition or identification.",
+          "End a long answer on producers with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 3 — consumers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of consumers can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of consumers lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in consumers. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving consumers can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For consumers, write the process in the correct order before adding an example.",
+          "Use the exact term consumers when the question asks for a definition or identification.",
+          "End a long answer on consumers with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 4 — trophic levels",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of trophic levels can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of trophic levels lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in trophic levels. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving trophic levels can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For trophic levels, write the process in the correct order before adding an example.",
+          "Use the exact term trophic levels when the question asks for a definition or identification.",
+          "End a long answer on trophic levels with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 5 — food chains",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of food chains can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of food chains lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in food chains. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving food chains can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For food chains, write the process in the correct order before adding an example.",
+          "Use the exact term food chains when the question asks for a definition or identification.",
+          "End a long answer on food chains with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 6 — food webs",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of food webs can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of food webs lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in food webs. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving food webs can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For food webs, write the process in the correct order before adding an example.",
+          "Use the exact term food webs when the question asks for a definition or identification.",
+          "End a long answer on food webs with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 7 — energy flow",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of energy flow can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of energy flow lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in energy flow. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving energy flow can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For energy flow, write the process in the correct order before adding an example.",
+          "Use the exact term energy flow when the question asks for a definition or identification.",
+          "End a long answer on energy flow with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 8 — ten-percent principle",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of ten-percent principle can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of ten-percent principle lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in ten-percent principle. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving ten-percent principle can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For ten-percent principle, write the process in the correct order before adding an example.",
+          "Use the exact term ten-percent principle when the question asks for a definition or identification.",
+          "End a long answer on ten-percent principle with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 9 — decomposers",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of decomposers can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of decomposers lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in decomposers. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving decomposers can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For decomposers, write the process in the correct order before adding an example.",
+          "Use the exact term decomposers when the question asks for a definition or identification.",
+          "End a long answer on decomposers with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 10 — nutrient cycling",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of nutrient cycling can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of nutrient cycling lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in nutrient cycling. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving nutrient cycling can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For nutrient cycling, write the process in the correct order before adding an example.",
+          "Use the exact term nutrient cycling when the question asks for a definition or identification.",
+          "End a long answer on nutrient cycling with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 11 — biological magnification",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of biological magnification can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of biological magnification lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in biological magnification. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving biological magnification can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For biological magnification, write the process in the correct order before adding an example.",
+          "Use the exact term biological magnification when the question asks for a definition or identification.",
+          "End a long answer on biological magnification with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 12 — waste management",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The ecological role of waste management can be understood by tracing energy, matter and interactions. Producers capture energy, consumers transfer it through feeding relationships, and decomposers return nutrients to the environment. Abiotic conditions influence all of these processes. Because components are connected, a change in one part can alter population sizes, feeding relationships and nutrient availability elsewhere in the ecosystem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the concept matters",
+        "text": "The importance of waste management lies in maintaining ecological functioning. Energy availability limits the number of trophic levels that can be supported, while nutrient recycling allows producers to continue obtaining essential elements. Persistent pollutants can move through the same feeding relationships and create risks at higher trophic positions. Environmental management therefore depends on understanding the natural pathways rather than treating pollution as an isolated problem."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Students often confuse energy with matter in waste management. Energy flows through an ecosystem and is progressively dissipated as heat, whereas atoms of matter can be rearranged and reused. Another common mistake is to reverse food-chain arrows. The arrow points from the food organism to the consumer because it represents transfer of energy and matter."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving waste management can be solved by identifying the trophic position, the direction of transfer and whether the substance or resource is recycled. Pollution questions should ask whether the pollutant persists, whether it accumulates in organisms and whether concentration can rise at higher trophic levels. Waste questions should distinguish reduction at source from later treatment."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For waste management, write the process in the correct order before adding an example.",
+          "Use the exact term waste management when the question asks for a definition or identification.",
+          "End a long answer on waste management with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Application Casebook — board-style situations",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Case studies with actual answers",
+        "questions": [
+          {
+            "question": "A pesticide is present in very low concentration in water but much higher concentration is measured in a top predator. Explain.",
+            "answer": "If the pesticide is persistent and accumulates in organisms, contaminated prey are repeatedly eaten by predators. The substance can become concentrated at successive trophic levels, producing biological magnification."
+          },
+          {
+            "question": "Why does removing a producer affect many other organisms?",
+            "answer": "Producers form the base of typical food chains and introduce usable chemical energy into the ecosystem. Herbivores depend on them directly, and carnivores depend on herbivores, so a reduction in producers can affect several trophic levels."
+          },
+          {
+            "question": "A compost heap becomes warm. What does this indicate?",
+            "answer": "Microorganisms are actively decomposing organic matter. Their respiration releases energy, some of which appears as heat. The observation is evidence that biological breakdown is occurring."
+          },
+          {
+            "question": "Why is recycling alone not enough to solve waste problems?",
+            "answer": "Recycling can recover useful material, but it still requires collection, processing and energy. Reducing unnecessary consumption and reusing products can prevent waste from being created in the first place. Safe disposal is needed for material that cannot be recovered."
+          },
+          {
+            "question": "Why is the ozone layer important even though ozone near the ground can be harmful?",
+            "answer": "The location matters. Ozone high in the atmosphere absorbs harmful ultraviolet radiation and protects life, whereas ozone near the ground can contribute to air pollution. The same molecule can therefore have different environmental effects depending on where it occurs."
+          }
+        ]
+      }
+    ]
+  }
+]); })();
+
+/* Final board booster; previous data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Final Board Booster — Our Environment",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Why energy limits ecosystem size",
+        "text": "Every trophic transfer leaves less usable energy available for the next level. Producers use part of captured energy for their own respiration and maintenance, and consumers similarly spend energy to remain alive. Heat dissipated during these processes cannot be recovered by the ecosystem as chemical food energy. This is why large populations of top predators require a broad base of producers and prey."
+      },
+      {
+        "type": "paragraph",
+        "title": "Decomposition is not destruction of matter",
+        "text": "When decomposers break down a dead leaf, the atoms do not vanish. Complex organic molecules are transformed into simpler substances, some of which enter the soil, air or water and can later be taken up by other organisms. The process therefore represents transformation and recycling of matter. Energy stored in the dead material is simultaneously used by decomposers and partly released as heat."
+      },
+      {
+        "type": "paragraph",
+        "title": "Food web stability",
+        "text": "A food web contains alternative feeding pathways. If one prey becomes scarce, a predator may switch to another species, although this can create secondary effects elsewhere. The web therefore provides some buffering against small changes, but large disturbances can still produce cascading effects. Understanding these links is important when predicting ecological consequences of removing a species."
+      },
+      {
+        "type": "paragraph",
+        "title": "Persistent pollutants and trophic position",
+        "text": "A pollutant that is rapidly broken down or excreted is less likely to show strong biological magnification. Persistent substances that remain in tissues can move with food and become concentrated in organisms that consume many contaminated prey. Therefore the danger of a pollutant depends not only on its concentration outside organisms but also on its persistence, accumulation and movement through feeding relationships."
+      },
+      {
+        "type": "paragraph",
+        "title": "Waste hierarchy",
+        "text": "The most effective waste strategy is often to prevent waste before it is produced. Reuse keeps products in service, recycling recovers materials, composting treats suitable organic waste and safe disposal handles residues that cannot be recovered. Source segregation makes each treatment route more effective. This hierarchy connects individual choices with the larger goal of reducing pressure on ecosystems."
+      }
+    ]
+  }
+]); })();
+
+/* Final size-safe board layer; previous data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Final Board Precision — chapter-wide linkage",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Integrated exam note",
+        "text": "Environment final exam note: Always distinguish the direction of energy transfer from the recycling of matter. In a food chain, the arrow follows the movement of food energy from the organism eaten to the consumer. At every trophic transfer, much of the energy is used in respiration, movement, maintenance and growth and eventually becomes heat. Nutrient atoms, in contrast, can move through organisms, soil, water and air repeatedly. Decomposers connect dead organic matter with nutrient cycling. Pollution questions should then be analysed by asking whether the pollutant persists, accumulates and moves through feeding relationships. Waste questions should begin with prevention and reduction before treatment and disposal."
+      },
+      {
+        "type": "paragraph",
+        "title": "Answer construction",
+        "text": "For a 5-mark response, define the key term first, then explain the mechanism in a logical sequence, add one relevant example or application, and finish with the biological significance. Do not replace an actual answer with phrases such as “this is important” or “this should happen”; write the scientific reason explicitly."
+      }
+    ]
+  }
+]); })();

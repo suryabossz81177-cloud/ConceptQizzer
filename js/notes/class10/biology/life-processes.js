@@ -1,1570 +1,471 @@
+/* ================================================================
+   ConceptQizzer — Class 10 Biology
+   Chapter 1: Life Processes
+   Continuous-flow, board-focused, self-contained chapter data.
+   All visual assets below are embedded SVG schematics; there is no
+   dependency on a separate image folder or remote image URL.
+   ================================================================ */
+
 window.ChapterData = {
-  "id": "class10-biology-life-processes",
-  "class": 10,
-  "subject": "Biology",
-  "chapterNumber": 1,
-  "title": "Life Processes",
-  "format": "continuous-chapter-flow",
-  "contentLevel": "Class 10 board detailed",
-  "selfContainedImages": true,
-  "duplicatePolicy": "No exact duplicate image, paragraph, question, answer, caption, heading or block within this chapter.",
-  "opening": "Living organisms maintain themselves through coordinated processes such as nutrition, respiration, transport and excretion. These processes keep cells supplied with materials, energy and suitable internal conditions. The chapter moves from the need for maintenance to the organs and mechanisms that perform these functions in plants and animals.",
-  "learningGoals": [
-    "Explain why maintenance processes are essential for living organisms.",
-    "Trace nutrition from intake to absorption and assimilation.",
-    "Compare aerobic and anaerobic respiration and relate them to energy release.",
-    "Explain transport systems in plants and humans.",
-    "Describe removal of metabolic wastes and the role of kidneys."
+  id: "class10-biology-life-processes",
+  class: 10,
+  subject: "Biology",
+  chapterNumber: 1,
+  title: "Life Processes",
+  description: "A detailed, continuous study of nutrition, respiration, transport and excretion in plants and human beings, with mechanisms, observations, comparisons and board-style questions.",
+  summary: "Life processes are the basic maintenance activities that keep an organism alive and functioning. In this chapter, nutrition supplies materials and energy, respiration releases usable energy from food, transport distributes substances throughout the body, and excretion removes metabolic wastes. Plants and animals solve these problems differently because their body organisation and energy requirements differ. The most important board ideas are the relationship between structure and function, the role of diffusion and transport systems, photosynthesis, digestion, aerobic and anaerobic respiration, human circulation and double circulation, xylem and phloem transport, and nephron-based urine formation.",
+
+  importantPoints: [
+    "Life processes are necessary for maintenance, growth, repair and survival; reproduction is important for continuity of the species but is not itself a maintenance process for an individual.",
+    "Photosynthesis converts light energy into chemical energy stored in organic food. Carbon dioxide and water are the raw materials; chlorophyll captures light energy.",
+    "Human digestion involves ingestion, digestion, absorption, assimilation and egestion. The small intestine is the main site of digestion completion and nutrient absorption.",
+    "Aerobic respiration generally releases much more energy from glucose than anaerobic pathways because glucose is completely oxidised in the presence of oxygen.",
+    "The human heart has four chambers and maintains separation of oxygenated and deoxygenated blood. This supports efficient energy supply to the body.",
+    "Double circulation means that blood passes through the heart twice during one complete circuit: once through pulmonary circulation and once through systemic circulation.",
+    "Xylem mainly transports water and minerals upward from roots, whereas phloem translocates organic food from sources to sinks and can move material in different directions according to demand.",
+    "Nephrons filter blood, selectively reabsorb useful substances and form urine containing nitrogenous wastes and excess water and salts."
   ],
-  "lessons": [
+
+  keyTerms: [
+    "Life process", "Nutrition", "Autotrophic nutrition", "Heterotrophic nutrition", "Photosynthesis", "Stomata", "Chlorophyll", "Digestion", "Peristalsis", "Absorption", "Assimilation", "Respiration", "Aerobic respiration", "Anaerobic respiration", "ATP", "Alveoli", "Haemoglobin", "Transport", "Xylem", "Phloem", "Transpiration", "Translocation", "Circulation", "Double circulation", "Excretion", "Nephron", "Filtration", "Selective reabsorption", "Urine", "Dialysis"
+  ],
+
+  sections: [
     {
-      "number": 1,
-      "title": "Why organisms need life processes",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Why organisms need life processes",
-          "content": "A living organism is not a static structure. Its cells continuously build molecules, break down nutrients, exchange gases, maintain water and ion balance, repair damage and remove unwanted products. These activities require a constant supply of materials and energy. Life processes therefore refer to the basic maintenance functions that keep an organism alive and functioning."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Maintenance must continue even when an organism is not visibly moving.",
-            "Different organs cooperate rather than working as isolated units.",
-            "The same broad function can be achieved by different structures in plants and animals."
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Everyday connection",
-          "content": "A resting person is still breathing, circulating blood, digesting absorbed nutrients and forming urine."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are life processes necessary?",
-          "answer": "Life processes are necessary to obtain and use materials and energy, maintain the internal conditions of cells, transport substances to their sites of use and remove metabolic wastes. Without these coordinated activities, cells cannot continue their normal functions."
-        },
-        {
-          "type": "think",
-          "question": "Why can a plant be considered active even when it appears motionless?",
-          "answer": "A plant continuously performs photosynthesis, respiration, transport, growth, repair and waste removal. Visible movement is not the criterion for deciding whether maintenance is occurring."
-        }
+      title: "1. What are life processes?",
+      blocks: [
+        {type:"paragraph", title:"Meaning and need", text:"A living organism is not a static structure. Even when an organism appears to be resting, millions of chemical reactions are taking place inside its cells. Materials are entering and leaving cells, energy is being transferred, damaged components are being repaired, and conditions inside the body are being regulated. The coordinated activities that keep an organism alive are called life processes. At Class 10 level, the major maintenance processes studied here are nutrition, respiration, transport and excretion. Growth and reproduction depend on these processes because cells need matter and energy before they can build new material or produce new cells."},
+        {type:"paragraph", title:"Why maintenance needs energy", text:"Cells require energy for active transport, synthesis of proteins and other molecules, movement, repair, cell division and maintenance of internal conditions. The energy available in food cannot usually be used directly for every cellular task. Respiration transfers energy from food into ATP, a molecule that acts as a convenient energy currency in cells. Thus nutrition and respiration are closely connected: nutrition supplies food molecules, while respiration makes a usable fraction of their stored chemical energy available to the cell."},
+        {type:"embeddedImage", title:"Organisation of life-maintaining processes", alt:"A self-contained schematic showing interconnected life processes", svg:`<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="20" y="20" width="720" height="380" rx="42" fill="#f5f7ff"/><circle cx="380" cy="210" r="92" fill="#ffffff" stroke="#5865d8" stroke-width="10"/><path d="M380 118v-48M380 350v-48M288 210h-52M524 210h-52" stroke="#5865d8" stroke-width="10" stroke-linecap="round"/><circle cx="380" cy="50" r="30" fill="#e9b949"/><circle cx="380" cy="370" r="30" fill="#62b67a"/><circle cx="200" cy="210" r="30" fill="#ef7777"/><circle cx="560" cy="210" r="30" fill="#6aa7e8"/><path d="M380 140c-26 0-48 22-48 48s22 48 48 48 48-22 48-48-22-48-48-48Z" fill="#dfe4ff"/><path d="M355 210h50M380 185v50" stroke="#5865d8" stroke-width="10" stroke-linecap="round"/></svg>`, caption:"The central cellular activity depends on nutrition, respiration, transport and excretion working together."}
       ]
     },
+
     {
-      "number": 2,
-      "title": "Nutrition and the need for food",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Nutrition and the need for food",
-          "content": "Nutrition provides raw materials for growth, repair and synthesis as well as energy for cellular work. Autotrophic organisms manufacture organic food from simpler inorganic substances, whereas heterotrophic organisms obtain ready-made organic nutrients from other organisms or their products. The mode of nutrition determines how food is acquired, digested and distributed."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Autotrophs use light or another energy source to build organic compounds.",
-            "Heterotrophs depend directly or indirectly on autotrophs for organic food.",
-            "Complex food molecules often need digestion before absorption."
-          ]
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Differentiate autotrophic and heterotrophic nutrition.",
-          "answer": "Autotrophic nutrition involves synthesis of organic food from inorganic raw materials such as carbon dioxide and water using an energy source. Heterotrophic nutrition involves obtaining organic food from other organisms, their products or decomposed material."
-        }
+      title: "2. Nutrition — obtaining and using food",
+      blocks: [
+        {type:"paragraph", title:"Nutrition", text:"Nutrition is the process by which an organism obtains food and uses it for energy, growth, repair and maintenance. Plants can manufacture organic food from simple inorganic substances, whereas animals generally obtain ready-made organic substances from other organisms. Nutrition therefore provides the raw materials that enter the metabolic pathways of cells. The mode of nutrition is closely related to how an organism obtains carbon and energy."},
+        {type:"comparison", title:"Autotrophic and heterotrophic nutrition", rows:[
+          ["Feature","Autotrophic nutrition","Heterotrophic nutrition"],
+          ["Food source","Organic food is manufactured from simple raw materials","Organic food is obtained from other organisms or their products"],
+          ["Typical example","Green plants and many algae","Humans, animals and many fungi"],
+          ["Main carbon source","Carbon dioxide","Preformed organic compounds"],
+          ["Energy source","Usually light energy in photosynthetic organisms","Chemical energy present in food"],
+          ["Digestive system","Not required for making food","Often required to digest complex food into absorbable molecules"]
+        ]},
+        {type:"paragraph", title:"Photosynthesis", text:"Photosynthesis is the process in which green plants use light energy to convert carbon dioxide and water into carbohydrates, with oxygen released as a by-product. Chlorophyll absorbs light energy. The process involves several linked events: light is captured by pigments, water is made available to the photosynthetic tissues, carbon dioxide enters mainly through stomata, and the absorbed energy is used to drive the formation of carbohydrate. A simplified representation is: carbon dioxide + water —light/chlorophyll→ glucose + oxygen. The glucose formed may be used immediately for respiration, converted into starch for storage, or used to make other organic substances such as cellulose, fats and proteins after further biochemical steps."},
+        {type:"embeddedImage", title:"Leaf and gas exchange", alt:"Leaf-like green structure with stomatal pores and internal transport", svg:`<svg viewBox="0 0 760 430" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="430" rx="40" fill="#f0fff5"/><path d="M370 350C170 315 115 150 230 78c92-58 260-22 320 80 57 98-22 186-180 192Z" fill="#73c76f" stroke="#23884b" stroke-width="9"/><path d="M377 349C390 245 410 150 485 77" fill="none" stroke="#2d7d49" stroke-width="9" stroke-linecap="round"/><path d="M382 294C305 255 240 206 194 139M400 250c88-31 153-73 196-121M390 205c-72-22-124-50-169-92" fill="none" stroke="#4c9d58" stroke-width="7" stroke-linecap="round"/><g fill="#f2fff4" stroke="#1e6d3e" stroke-width="5"><ellipse cx="250" cy="350" rx="34" ry="18"/><ellipse cx="340" cy="370" rx="34" ry="18"/><ellipse cx="440" cy="365" rx="34" ry="18"/><ellipse cx="525" cy="338" rx="34" ry="18"/></g><g stroke="#69aee8" stroke-width="8" stroke-linecap="round"><path d="M115 100h70"/><path d="M610 105h70"/></g></svg>`, caption:"Stomata provide controlled openings for gaseous exchange; the leaf surface is also supplied with water and minerals through vascular tissues."},
+        {type:"paragraph", title:"Stomata and regulation", text:"Stomata are microscopic pores, usually abundant on the epidermis of leaves, surrounded by guard cells. They provide a pathway for carbon dioxide to enter and oxygen and water vapour to leave. Their opening and closing are regulated by changes in the guard cells. This regulation is important because the plant must obtain carbon dioxide for photosynthesis while limiting unnecessary water loss. Stomatal behaviour therefore links photosynthesis with transpiration."},
+        {type:"paragraph", title:"Factors affecting photosynthesis", text:"Light intensity, carbon dioxide concentration, temperature and water availability can influence the rate of photosynthesis. If light is very low, light energy becomes limiting. If carbon dioxide is insufficient, carbon fixation becomes limited. Temperature affects enzyme-controlled reactions, so an excessively high temperature can reduce photosynthetic efficiency. Severe water shortage can cause stomata to close, reducing carbon dioxide entry and therefore slowing photosynthesis. These factors do not act as isolated switches; the overall rate depends on the limiting conditions at a particular time."},
+        {type:"paragraph", title:"Heterotrophic nutrition", text:"In heterotrophic nutrition, organisms depend on other organisms for organic food. Humans show holozoic nutrition: food is taken into the body, digested into simpler soluble substances, absorbed, assimilated and finally the undigested residue is removed. Other organisms show different patterns. Saprotrophs obtain nutrients from dead and decaying organic matter by secreting digestive enzymes outside the body and absorbing the simpler products. Parasites obtain nutrients from a living host. The important common idea is that complex food must ultimately be converted into forms that cells can absorb and use."}
       ]
     },
+
     {
-      "number": 3,
-      "title": "Photosynthesis in green plants",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Photosynthesis in green plants",
-          "content": "Photosynthesis converts light energy into chemical energy stored in organic molecules. Chlorophyll absorbs suitable wavelengths of light, carbon dioxide enters mainly through stomata and water is supplied by roots. The overall process can be represented as: carbon dioxide + water → glucose + oxygen, in the presence of light and chlorophyll. The equation is a summary; photosynthesis itself involves several linked reactions."
-        },
-        {
-          "type": "process",
-          "title": "Main requirements",
-          "steps": [
-            "Roots absorb water and mineral ions.",
-            "Water reaches leaves through xylem.",
-            "Carbon dioxide enters through stomata.",
-            "Chlorophyll absorbs light energy.",
-            "Carbohydrates are synthesised and oxygen is released."
-          ]
-        },
-        {
-          "type": "equation",
-          "title": "Key relation",
-          "content": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light and chlorophyll)"
-        },
-        {
-          "type": "mistake",
-          "title": "Common mistake",
-          "content": "Do not say that plants take in food from soil. Soil supplies water and minerals; the organic food is synthesised mainly in green leaves."
-        }
+      title: "3. Human nutrition — digestion from mouth to intestine",
+      blocks: [
+        {type:"paragraph", title:"The path of food", text:"The human alimentary canal is a continuous muscular tube extending from the mouth to the anus. Food is mechanically broken down and chemically digested as it moves through different regions. Accessory glands such as salivary glands, the liver and the pancreas add secretions that help digestion. The small intestine receives bile and pancreatic juice and completes much of the chemical digestion. Its inner surface contains numerous folds and finger-like projections called villi, which provide a large surface for absorption."},
+        {type:"embeddedImage", title:"Human digestive tract", alt:"Self-contained schematic of the digestive tract", svg:`<svg viewBox="0 0 760 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="520" rx="40" fill="#fff6f0"/><path d="M385 48c-58 0-88 48-88 96 0 28 13 47 30 58-25 35-25 82 0 112 22 26 36 43 36 75 0 41-25 68-25 94 0 20 18 30 48 30s48-10 48-30c0-26-25-53-25-94 0-32 14-49 36-75 25-30 25-77 0-112 17-11 30-30 30-58 0-48-30-96-90-96Z" fill="#f4a6a6" stroke="#a74444" stroke-width="8"/><path d="M352 60c-25 42-25 76 0 102 27 28 29 54 0 83-29 29-27 63 0 93 25 27 27 55 0 91" fill="none" stroke="#fff0dc" stroke-width="24" stroke-linecap="round"/><path d="M427 150c54-20 96 12 83 49-9 25-34 34-59 26M430 260c67-20 101 15 86 50-10 24-36 34-61 25" fill="none" stroke="#f2c45e" stroke-width="20" stroke-linecap="round"/><path d="M328 126h-72M433 125h72M330 414h-76M430 414h76" stroke="#6aa7e8" stroke-width="8" stroke-linecap="round"/></svg>`, caption:"Food passes through the alimentary canal while digestive secretions break complex substances into absorbable molecules."},
+        {type:"paragraph", title:"Mouth and oesophagus", text:"Digestion begins in the mouth. Teeth cut and grind food, increasing its surface area, while the tongue mixes it with saliva. Salivary amylase begins the digestion of starch into simpler sugars. The tongue shapes the food into a bolus that can be swallowed. The oesophagus then moves the bolus toward the stomach by rhythmic muscular contractions called peristalsis. Peristalsis is a coordinated wave of contraction and relaxation; gravity is not the primary mechanism, which is why swallowing can occur even when a person is not upright."},
+        {type:"paragraph", title:"Stomach", text:"The stomach is a muscular sac that temporarily stores food and churns it. Its glands release hydrochloric acid, pepsin and mucus. Hydrochloric acid creates an acidic medium suitable for pepsin activity and also helps destroy many microbes entering with food. Pepsin begins protein digestion. The mucus lining protects the stomach wall from its own acidic contents and digestive enzymes. The partly digested food becomes a semi-liquid mixture that is gradually released into the small intestine."},
+        {type:"paragraph", title:"Small intestine and digestion", text:"The small intestine receives bile from the liver and pancreatic juice from the pancreas. Bile contains no digestive enzyme, but it helps by emulsifying large fat globules into smaller droplets and by providing an alkaline medium that supports enzyme action. Pancreatic enzymes digest carbohydrates, proteins and fats. Intestinal enzymes complete digestion, producing simple sugars, amino acids and fatty acids with glycerol or related products. These smaller molecules can cross the intestinal lining and enter the blood or lymphatic system."},
+        {type:"embeddedImage", title:"Villus and absorption", alt:"Finger-like villus with internal blood and lymph vessels", svg:`<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="440" rx="40" fill="#f7f3ff"/><path d="M155 395C155 300 185 268 220 225c28-35 41-79 41-133 0-27 20-46 43-46s43 19 43 46c0 54 13 98 41 133 35 43 65 75 65 170Z" fill="#f3b5b5" stroke="#a44d61" stroke-width="8"/><path d="M306 55c-7 69-7 120 0 174 7 58 7 109 0 160" fill="none" stroke="#c65b70" stroke-width="12" stroke-linecap="round"/><path d="M306 120c-44 70-63 136-63 242M306 120c44 70 63 136 63 242" fill="none" stroke="#e05f6e" stroke-width="7"/><path d="M285 98c-25 85-25 177 0 276M327 98c25 85 25 177 0 276" fill="none" stroke="#4c8fd1" stroke-width="7"/><path d="M95 365h115M500 365h165" stroke="#62b67a" stroke-width="14" stroke-linecap="round"/><circle cx="306" cy="70" r="13" fill="#ffffff"/></svg>`, caption:"Villi greatly increase the absorptive surface of the small intestine and contain blood capillaries; a central lymph vessel also assists fat absorption."},
+        {type:"paragraph", title:"Absorption, assimilation and egestion", text:"Absorption is the movement of digested food molecules through the intestinal wall into blood or lymph. The villi provide a large surface area, a thin barrier and an extensive transport network. Once absorbed, nutrients are delivered to cells. Assimilation means the incorporation and use of absorbed nutrients by body cells—for example, glucose may be used in respiration, while amino acids may be used to synthesise proteins. Egestion is the removal of undigested material from the alimentary canal; it is different from excretion, which removes metabolic wastes produced by cells."},
+        {type:"boardPractice", title:"Board answer — Why is the small intestine suited for absorption?", question:"Why is the small intestine the main site of absorption of digested food?", answer:"The small intestine is long and highly folded, and its inner surface bears numerous villi. The villi provide a very large surface area and have a thin epithelial covering. Each villus contains a network of blood capillaries, while a lymph vessel helps transport absorbed fats. These structural features allow digested nutrients to pass efficiently into transport systems and reach body cells.", marks:"3 marks"}
       ]
     },
+
     {
-      "number": 4,
-      "title": "Digestion in human beings",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Digestion in human beings",
-          "content": "Human nutrition involves ingestion, digestion, absorption, assimilation and egestion. Mechanical processing begins in the mouth, where chewing increases surface area and saliva begins starch digestion. The stomach provides acidic conditions and protein digestion begins there. In the small intestine, bile helps in fat emulsification and pancreatic and intestinal enzymes complete digestion. The intestinal wall absorbs soluble nutrients, and the large intestine mainly reabsorbs water and forms faeces."
-        },
-        {
-          "type": "process",
-          "title": "Food journey",
-          "steps": [
-            "Mouth: chewing and salivary action begin digestion.",
-            "Oesophagus: muscular contractions push the food onward.",
-            "Stomach: churning and acidic conditions support protein digestion.",
-            "Small intestine: digestion is completed and nutrients are absorbed.",
-            "Large intestine: water is reabsorbed and faeces are formed."
-          ]
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is the role of bile in digestion?",
-          "answer": "Bile is produced by the liver and stored in the gall bladder. It makes the acidic food mixture more suitable for intestinal enzymes and emulsifies fats into smaller droplets, increasing the surface area available for lipase action."
-        }
+      title: "4. Respiration — releasing usable energy",
+      blocks: [
+        {type:"paragraph", title:"Respiration and energy", text:"Respiration is a biochemical process in which food molecules are broken down to release energy for cellular work. Glucose is a common starting substrate. The first stage of glucose breakdown occurs in the cytoplasm and produces smaller molecules. Depending on oxygen availability and the organism or cell, the pathway may continue through aerobic respiration or an anaerobic pathway. The released energy is captured partly in ATP, which can then drive energy-requiring reactions."},
+        {type:"comparison", title:"Aerobic and anaerobic respiration", rows:[
+          ["Feature","Aerobic respiration","Anaerobic pathway"],
+          ["Oxygen","Requires oxygen for complete oxidation","Does not require oxygen"],
+          ["Extent of oxidation","Glucose is broken down extensively","Glucose breakdown is incomplete"],
+          ["Energy yield","Much higher","Lower"],
+          ["Examples","Most human cells under normal conditions","Yeast; muscle cells during oxygen shortage"],
+          ["End products","Mainly carbon dioxide and water","May be ethanol and carbon dioxide in yeast, or lactic acid in human muscles"]
+        ]},
+        {type:"embeddedImage", title:"Gas exchange at an alveolus", alt:"Alveolus surrounded by capillary network with gas movement arrows", svg:`<svg viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="470" rx="40" fill="#eef7ff"/><circle cx="355" cy="235" r="125" fill="#ffd7df" stroke="#c64f70" stroke-width="10"/><path d="M210 145c-80 45-95 130-38 191 47 50 118 56 168 13M500 150c84 43 102 131 46 194-47 54-120 58-174 17" fill="none" stroke="#d55d74" stroke-width="22" stroke-linecap="round"/><path d="M230 210C170 190 115 190 72 208M230 250C165 270 120 274 72 258M480 210c70-23 118-21 170-2M480 252c69 21 118 22 170 5" fill="none" stroke="#6b9ee0" stroke-width="12" stroke-linecap="round"/><path d="M115 165l-42 43 55 2M645 165l42 43-55 2" fill="none" stroke="#4c7bd8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>`, caption:"The alveoli provide a moist, thin and extensive surface closely associated with blood capillaries, allowing rapid diffusion of gases."},
+        {type:"paragraph", title:"Why lungs are efficient", text:"The lungs contain a very large number of alveoli. Each alveolus has a moist surface, a very thin diffusion barrier and a rich capillary supply. These features create a large effective surface for gas exchange and keep the diffusion distance small. Oxygen moves from alveolar air into blood, while carbon dioxide moves from blood into the alveolar air. Haemoglobin in red blood cells binds oxygen and transports it to tissues."},
+        {type:"paragraph", title:"Breathing is not the same as respiration", text:"Breathing is a physical process in which air is moved into and out of the lungs. Respiration is a chemical process occurring in cells that releases usable energy from food. During inhalation, the diaphragm contracts and moves downward while the rib cage expands, increasing chest volume and drawing air into the lungs. During exhalation, the diaphragm relaxes and the thoracic volume decreases. The two processes are connected but should not be used as synonyms in a board answer."},
+        {type:"paragraph", title:"Respiration in plants", text:"Plants also respire continuously. Oxygen enters plant tissues mainly by diffusion through stomata, lenticels and surfaces such as roots. Carbon dioxide produced by respiration moves out by diffusion. Unlike animals, plants generally do not have a specialised respiratory organ because many cells lie close enough to surfaces or internal air spaces for diffusion to meet their needs. However, large plants still need transport systems to distribute water, minerals and food because diffusion alone is insufficient over long distances."},
+        {type:"paragraph", title:"Anaerobic respiration in muscles", text:"During vigorous exercise, the demand for oxygen may temporarily exceed the rate at which oxygen can be supplied to muscles. Muscle cells can then obtain some energy through an anaerobic pathway in which pyruvate is converted to lactic acid. Lactic acid accumulation is associated with muscle fatigue and discomfort. After exercise, continued oxygen supply helps restore normal conditions and allows further metabolism of accumulated products."},
+        {type:"boardPractice", title:"Board answer — Why does anaerobic respiration release less energy?", question:"Why does anaerobic respiration release less energy than aerobic respiration?", answer:"In anaerobic respiration, glucose is only partially broken down, so a considerable amount of chemical energy remains stored in the end products such as lactic acid or ethanol. In aerobic respiration, glucose is oxidised much more completely to carbon dioxide and water, so a much larger fraction of its stored energy can be transferred to ATP.", marks:"3 marks"}
       ]
     },
+
     {
-      "number": 5,
-      "title": "Respiration releases usable energy",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Respiration releases usable energy",
-          "content": "Respiration is a set of cellular reactions in which food molecules are broken down and energy is made available for cellular activities. In aerobic respiration, glucose is ultimately oxidised to carbon dioxide and water with a relatively high energy yield. If oxygen is insufficient, cells may use anaerobic pathways that release less energy and produce different end products."
-        },
-        {
-          "type": "equation",
-          "title": "Key relation",
-          "content": "Glucose + oxygen → carbon dioxide + water + energy"
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is respiration different from breathing?",
-          "answer": "Breathing is the physical exchange and movement of air, whereas respiration is the cellular process in which food molecules are broken down and energy is released in a usable form."
-        }
+      title: "5. Transport in human beings",
+      blocks: [
+        {type:"paragraph", title:"Why a transport system is needed", text:"In a multicellular organism, many cells are far from the external environment. Diffusion alone cannot deliver oxygen, nutrients and hormones quickly enough or remove carbon dioxide and other wastes efficiently. The circulatory system solves this problem by using a pump, a circulating fluid and a network of vessels. In humans, blood transports dissolved substances, cells and proteins, while the heart maintains a pressure difference that drives blood through vessels."},
+        {type:"embeddedImage", title:"Four-chambered heart", alt:"A self-contained colour schematic of a four-chambered heart without text labels", svg:`<svg viewBox="0 0 760 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="520" rx="40" fill="#fff2f4"/><path d="M382 444C337 397 181 306 181 177c0-65 47-105 101-105 47 0 82 28 100 68 18-40 53-68 100-68 54 0 101 40 101 105 0 129-156 220-201 267Z" fill="#ee6f7a" stroke="#9d3949" stroke-width="10"/><path d="M382 140v280" stroke="#fff" stroke-width="12"/><path d="M210 166c48-25 101-20 141 19M412 185c40-39 93-44 141-19" fill="none" stroke="#b72f43" stroke-width="12"/><path d="M300 115c-30-43-69-54-102-39M462 115c30-43 69-54 102-39" fill="none" stroke="#6f9fd9" stroke-width="22" stroke-linecap="round"/><path d="M290 390c35 35 69 55 92 66M474 390c-35 35-69 55-92 66" fill="none" stroke="#fff0f0" stroke-width="9"/></svg>`, caption:"The four chambers keep the two sides of the circulation organised so that oxygen-rich and oxygen-poor blood are efficiently routed."},
+        {type:"paragraph", title:"Heart and chambers", text:"The human heart is a muscular organ divided into four chambers: right atrium, right ventricle, left atrium and left ventricle. The right side receives deoxygenated blood from the body and sends it to the lungs. The left side receives oxygenated blood from the lungs and sends it to the rest of the body. Valves help maintain one-way flow. The thick muscular wall of the left ventricle is adapted to pump blood through the systemic circulation, which offers greater resistance than the short pulmonary route."},
+        {type:"paragraph", title:"Blood vessels", text:"Arteries carry blood away from the heart and generally have thick, elastic and muscular walls because blood leaves the heart under relatively high pressure. Veins return blood toward the heart and generally have thinner walls and valves that reduce backflow. Capillaries are microscopic vessels with very thin walls. Their large combined surface area and short diffusion distance make them suitable for exchange of gases, nutrients and wastes between blood and tissues."},
+        {type:"paragraph", title:"Double circulation", text:"In one complete circulation, human blood passes through the heart twice. In pulmonary circulation, the right ventricle pumps deoxygenated blood to the lungs and the oxygenated blood returns to the left atrium. In systemic circulation, the left ventricle pumps oxygenated blood to the body and deoxygenated blood returns to the right atrium. Complete separation of the two sides prevents significant mixing and supports a high oxygen supply to metabolically active tissues."},
+        {type:"embeddedImage", title:"Path of double circulation", alt:"Two-loop schematic showing pulmonary and systemic circulation", svg:`<svg viewBox="0 0 760 480" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="480" rx="40" fill="#f4f8ff"/><circle cx="380" cy="240" r="75" fill="#f17a86" stroke="#9d3949" stroke-width="9"/><ellipse cx="205" cy="240" rx="105" ry="155" fill="#ffd8df" stroke="#c45a6c" stroke-width="9"/><ellipse cx="555" cy="240" rx="105" ry="155" fill="#dceaff" stroke="#5d86c6" stroke-width="9"/><path d="M305 205C250 155 230 130 205 105M455 205C510 155 530 130 555 105M305 275C250 325 230 350 205 375M455 275C510 325 530 350 555 375" fill="none" stroke-width="13" stroke-linecap="round" stroke="#6a8ed4"/><path d="M380 165v-62M380 315v62" stroke="#9d3949" stroke-width="13" stroke-linecap="round"/><path d="M180 105l25-18 4 31M580 375l-25 18-4-31" fill="none" stroke="#6a8ed4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>`, caption:"The two loops connect at the heart but remain functionally separated: one loop serves the lungs and the other serves the body."},
+        {type:"paragraph", title:"Blood components", text:"Plasma is the liquid part of blood and transports dissolved nutrients, salts, hormones, carbon dioxide and other substances. Red blood cells contain haemoglobin and transport oxygen. White blood cells participate in defence against pathogens. Platelets help in clot formation at sites of injury. Together these components allow blood to perform transport, protection and regulation functions rather than simply carrying oxygen."}
       ]
     },
+
     {
-      "number": 6,
-      "title": "Gas exchange and the role of alveoli",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Gas exchange and the role of alveoli",
-          "content": "Efficient gas exchange needs a large surface, a thin diffusion barrier, moisture and a continuous blood supply. Human lungs contain numerous alveoli that provide a very large surface area. Oxygen diffuses from alveolar air into blood because of a concentration gradient, while carbon dioxide moves in the opposite direction. Haemoglobin helps transport oxygen in blood."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Alveolar walls are thin.",
-            "A rich capillary network maintains exchange.",
-            "Breathing continually renews alveolar air.",
-            "Diffusion is driven by concentration gradients."
-          ]
-        }
+      title: "6. Transport in plants",
+      blocks: [
+        {type:"paragraph", title:"Xylem transport", text:"Roots absorb water and mineral ions from the soil. These materials must reach stems, leaves and other tissues. Xylem is the conducting tissue mainly responsible for upward movement of water and dissolved minerals. Root pressure can contribute to movement under some conditions, but the major long-distance force in tall plants is linked to transpiration: water evaporates from leaf surfaces, creating tension that pulls a continuous water column upward through xylem. Cohesion between water molecules and adhesion to xylem walls help maintain this column."},
+        {type:"embeddedImage", title:"Water movement through a plant", alt:"Plant with roots, stem and leaves showing an upward water pathway", svg:`<svg viewBox="0 0 760 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="500" rx="40" fill="#f2fff3"/><path d="M380 395V180" stroke="#8b5a3c" stroke-width="38" stroke-linecap="round"/><path d="M380 205c-90-75-160-105-240-105 30 95 102 135 240 125M380 205c90-75 160-105 240-105-30 95-102 135-240 125" fill="#72c76e" stroke="#2e8a4d" stroke-width="8"/><path d="M380 395C315 435 255 445 190 442M380 395c65 40 125 50 190 47" fill="none" stroke="#9a6846" stroke-width="14" stroke-linecap="round"/><path d="M380 370V115" stroke="#4f8fd0" stroke-width="12" stroke-linecap="round"/><path d="M380 115l-17 28h34Z" fill="#4f8fd0"/><g fill="#8ed08a"><circle cx="140" cy="90" r="12"/><circle cx="175" cy="70" r="9"/><circle cx="620" cy="85" r="11"/><circle cx="650" cy="115" r="8"/></g></svg>`, caption:"Water absorbed by roots moves through xylem toward aerial parts; transpiration from leaves contributes to the upward pull."},
+        {type:"paragraph", title:"Phloem and translocation", text:"Phloem transports soluble products of photosynthesis, especially sucrose, from regions where food is produced or released to regions where it is used or stored. A mature leaf can act as a source, while a growing root, fruit, seed or storage organ can act as a sink. Translocation requires metabolic energy in the living phloem tissue. Unlike the usual upward direction of xylem water movement, phloem transport can occur in different directions in different sieve tubes according to the distribution of sources and sinks."},
+        {type:"paragraph", title:"Transpiration", text:"Transpiration is the loss of water vapour from aerial parts of plants, mainly through stomata. It can promote the upward movement of water and minerals, cool leaves and help maintain water movement through the plant. Excessive transpiration, however, can cause water stress. Plants therefore regulate stomatal opening according to water status and environmental conditions."},
+        {type:"comparison", title:"Xylem and phloem", rows:[
+          ["Feature","Xylem","Phloem"],
+          ["Main material","Water and dissolved minerals","Organic food, mainly sucrose and other solutes"],
+          ["Main direction","Mostly upward from roots","Source-to-sink; direction can vary in the plant"],
+          ["Energy requirement","Long-distance water pull is largely driven by transpiration; vessel elements are non-living at maturity","Translocation involves active loading/unloading and energy use"],
+          ["Important conducting elements","Vessels and tracheids","Sieve tubes with companion cells"]
+        ]}
       ]
     },
+
     {
-      "number": 7,
-      "title": "Transport in human beings",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Transport in human beings",
-          "content": "The circulatory system transports oxygen, nutrients, hormones, carbon dioxide and other substances. The heart acts as a muscular pump. Arteries generally carry blood away from the heart, veins generally return blood to the heart, and capillaries provide thin exchange surfaces between blood and tissues. Humans show double circulation: blood passes through the heart twice during one complete circuit."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is separation of oxygenated and deoxygenated blood useful in humans?",
-          "answer": "Separation permits efficient delivery of oxygen-rich blood to body tissues. This supports the high energy demand of warm-blooded animals and helps maintain a stable body temperature and active metabolism."
-        }
+      title: "7. Excretion in human beings",
+      blocks: [
+        {type:"paragraph", title:"Why excretion is essential", text:"Cellular metabolism produces wastes that can become harmful if they accumulate. Carbon dioxide is removed mainly through the lungs. Nitrogenous wastes formed from the metabolism of proteins and other compounds are handled largely by the kidneys. The excretory system also regulates the amount of water and salts in the body. Thus excretion is not simply the disposal of a single waste product; it contributes to the stability of the internal environment."},
+        {type:"embeddedImage", title:"Nephron structure", alt:"Self-contained schematic of a nephron with filtration and tubular flow", svg:`<svg viewBox="0 0 760 540" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="540" rx="40" fill="#f4f8ff"/><circle cx="235" cy="145" r="70" fill="#f1a1a8" stroke="#a74655" stroke-width="9"/><circle cx="235" cy="145" r="34" fill="#f7d8dc" stroke="#a74655" stroke-width="7"/><path d="M305 145C420 125 520 145 510 225c-8 62-100 47-92 105 7 50 83 34 86 90 3 49-56 72-112 44" fill="none" stroke="#d06a7a" stroke-width="20" stroke-linecap="round"/><path d="M315 145C430 115 575 145 565 230c-7 63-102 52-94 111 8 54 94 38 91 100" fill="none" stroke="#4c8fd1" stroke-width="7" stroke-linecap="round"/><path d="M166 145H92M235 75V35M235 215v70" stroke="#6d8fcb" stroke-width="10" stroke-linecap="round"/><path d="M95 145l25-15v30Z" fill="#6d8fcb"/><path d="M235 282l-15-25h30Z" fill="#6d8fcb"/></svg>`, caption:"A nephron contains a filtration region and a tubular system in which useful substances are selectively reabsorbed and the final urine is formed."},
+        {type:"paragraph", title:"Nephron and urine formation", text:"Each kidney contains a very large number of nephrons, the functional units responsible for urine formation. Blood enters a capillary knot called the glomerulus. High pressure causes filtration of water and small dissolved substances into Bowman's capsule, while large proteins and blood cells normally remain in the blood. As the filtrate passes through the tubule, useful substances such as appropriate amounts of glucose, amino acids, ions and water are selectively reabsorbed according to the body's needs. Remaining substances form urine, which passes through collecting ducts to the renal pelvis and then through the ureters to the urinary bladder."},
+        {type:"paragraph", title:"Dialysis", text:"When kidneys fail to perform adequate filtration and regulation, nitrogenous wastes and excess fluid can accumulate in the blood. Dialysis is a medical procedure that uses a special membrane and dialysis fluid to remove selected wastes and excess water from blood. It can support a patient when kidney function is severely reduced, although it does not reproduce every endocrine and regulatory function of healthy kidneys. Kidney transplantation can provide a more complete long-term replacement for suitable patients."},
+        {type:"boardPractice", title:"Board answer — Why is selective reabsorption important?", question:"Why does the nephron reabsorb substances from the filtrate instead of allowing all filtered material to leave as urine?", answer:"Filtration is relatively non-selective for small molecules, so many useful substances and a large amount of water enter the filtrate. Selective reabsorption returns substances such as needed water, ions, glucose and amino acids to the blood. This prevents loss of valuable materials and helps maintain the body's water and salt balance while wastes remain available for excretion.", marks:"3 marks"}
       ]
     },
+
     {
-      "number": 8,
-      "title": "The human heart and valves",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "The human heart and valves",
-          "content": "The heart has four chambers. The right atrium receives deoxygenated blood and passes it to the right ventricle, which pumps it to the lungs. Oxygenated blood returns to the left atrium and moves into the left ventricle, which pumps it through the aorta to the body. Valves prevent backflow and maintain one-way movement."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are valves important in the heart?",
-          "answer": "Valves open and close according to pressure differences so that blood moves in one direction. They prevent reverse flow when the chambers contract or relax."
-        }
+      title: "8. Integrated chapter picture",
+      blocks: [
+        {type:"paragraph", title:"How the four processes cooperate", text:"Nutrition, respiration, transport and excretion should not be memorised as four isolated headings. Food provides molecules that can be oxidised during respiration. Respiration releases energy that powers transport, synthesis and active processes. Transport carries oxygen and nutrients to cells and returns carbon dioxide and other wastes to organs that remove them. Excretion protects the internal environment from metabolic wastes and helps regulate water and ion balance. The same idea applies to plants: photosynthesis produces organic food, respiration uses it for energy, xylem supplies water and minerals, phloem distributes food, and stomatal regulation links gas exchange with water loss."},
+        {type:"embeddedImage", title:"Integrated life-process cycle", alt:"Four-part circular schematic connecting nutrition respiration transport and excretion", svg:`<svg viewBox="0 0 760 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="520" rx="40" fill="#f8f8ff"/><circle cx="380" cy="260" r="82" fill="#ffffff" stroke="#5865d8" stroke-width="10"/><path d="M380 75C530 75 655 160 655 260c0 100-125 185-275 185S105 360 105 260c0-100 125-185 275-185Z" fill="none" stroke="#d9ddf7" stroke-width="16"/><circle cx="380" cy="75" r="55" fill="#e9b949"/><circle cx="655" cy="260" r="55" fill="#ef7777"/><circle cx="380" cy="445" r="55" fill="#62b67a"/><circle cx="105" cy="260" r="55" fill="#6aa7e8"/><path d="M425 96c80 22 145 65 171 112M625 300c-28 62-93 105-174 125M335 425c-81-20-146-64-174-124M135 220c26-59 92-103 173-124" fill="none" stroke="#5865d8" stroke-width="9" stroke-linecap="round"/></svg>`, caption:"The processes form a connected maintenance network rather than independent topics."}
       ]
     },
+
     {
-      "number": 9,
-      "title": "Transport in plants: xylem",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Transport in plants: xylem",
-          "content": "Plants do not have a pumping organ equivalent to the human heart. Water and minerals absorbed by roots move through xylem. Root pressure can push water upward, but transpiration from leaf surfaces creates a major pull. Cohesion between water molecules and adhesion to vessel walls help maintain a continuous water column."
-        },
-        {
-          "type": "think",
-          "question": "Why does transpiration help water rise in a tall plant?",
-          "answer": "Evaporation of water from leaf surfaces lowers water potential in the leaf and creates tension in the continuous water column. This transpiration pull can draw water upward through xylem."
-        }
+      title: "9. Board practice — actual answers",
+      blocks: [
+        {type:"boardPractice", question:"Why is diffusion insufficient to meet the oxygen requirements of a multicellular organism such as a human?", answer:"Diffusion is effective only over short distances and is relatively slow for transporting substances across large body dimensions. Human cells are distributed throughout a large body and many are far from the external surface. A circulatory system therefore transports oxygen rapidly from the lungs to tissues and carries carbon dioxide back to the lungs for removal."},
+        {type:"boardPractice", question:"State two functions of hydrochloric acid in the stomach.", answer:"Hydrochloric acid provides an acidic medium required for the activity of pepsin and helps kill or inhibit many microorganisms that enter with food. The stomach lining is protected from the acid by a mucus layer."},
+        {type:"boardPractice", question:"How do alveoli increase the efficiency of gaseous exchange?", answer:"Alveoli are very numerous, giving the lungs a large total surface area. Their walls are extremely thin and moist, reducing the diffusion distance. They are surrounded by a dense network of capillaries, which maintains concentration gradients and rapidly carries absorbed oxygen away while bringing carbon dioxide toward the alveolar surface."},
+        {type:"boardPractice", question:"What is the role of haemoglobin in respiration?", answer:"Haemoglobin in red blood cells binds oxygen in the lungs and transports it through the blood to body tissues. This greatly increases the oxygen-carrying capacity of blood compared with oxygen simply dissolved in plasma."},
+        {type:"boardPractice", question:"Why are arteries thick-walled while capillaries have very thin walls?", answer:"Arteries receive blood directly from the heart and therefore withstand comparatively high pressure, so their walls are thick, elastic and muscular. Capillaries are exchange vessels; their walls are only about one cell thick, making the diffusion path short enough for efficient exchange of gases, nutrients and wastes."},
+        {type:"boardPractice", question:"Why is the left ventricle thicker than the right ventricle?", answer:"The left ventricle pumps blood through the entire systemic circulation, which requires a higher pressure because the blood travels through a long network of vessels. The right ventricle pumps blood only to the nearby lungs, so it needs to generate a lower pressure. Consequently, the left ventricular muscle is thicker."},
+        {type:"boardPractice", question:"What is translocation in plants?", answer:"Translocation is the transport of soluble organic food materials, especially sucrose, through phloem from source regions such as photosynthesising leaves to sink regions such as growing roots, fruits, seeds or storage organs. Loading and unloading of phloem can require metabolic energy."},
+        {type:"boardPractice", question:"How is transpiration useful to a plant?", answer:"Transpiration contributes to the upward pull that moves water and dissolved minerals through xylem. It also helps cool leaves and supports the continuous movement of water through the plant. Excessive transpiration, however, can lead to water loss and stress."},
+        {type:"boardPractice", question:"Differentiate between excretion and egestion.", answer:"Excretion is the removal of metabolic wastes produced by cells, such as carbon dioxide and nitrogenous wastes. Egestion is the removal of undigested and unabsorbed food material from the alimentary canal. The two processes have different origins and should not be treated as synonyms."},
+        {type:"boardPractice", question:"Explain the basic steps of urine formation.", answer:"Blood is filtered under pressure at the glomerulus into Bowman's capsule. The filtrate then passes through the nephron tubule, where useful substances and appropriate amounts of water and ions are selectively reabsorbed. The remaining fluid contains wastes and excess substances and becomes urine, which is collected and carried toward the urinary bladder."},
+        {type:"boardPractice", question:"Why do plants need transport systems even though gases can diffuse through stomata?", answer:"Diffusion can move gases over short distances, but water, minerals and food often need to travel over long distances between roots, stems, leaves and storage organs. Xylem and phloem provide specialised pathways that make long-distance transport much more efficient than diffusion alone."},
+        {type:"boardPractice", question:"Why is reproduction not included among the four maintenance life processes studied here?", answer:"Nutrition, respiration, transport and excretion directly maintain the functioning of an individual organism. Reproduction is essential for continuation of a species across generations, but an individual organism can remain alive without reproducing. Therefore reproduction is important for species continuity rather than immediate maintenance of the individual."},
+        {type:"boardPractice", question:"Explain why the small intestine has a large surface area.", answer:"The small intestine is long and its inner lining has numerous folds and villi. Each villus contains a network of capillaries and a lymph vessel. The enlarged surface, thin lining and transport network allow rapid absorption of digested nutrients."},
+        {type:"boardPractice", question:"What is the advantage of complete separation of oxygenated and deoxygenated blood in humans?", answer:"Complete separation prevents significant mixing of oxygen-rich blood returning from the lungs with oxygen-poor blood returning from the body. The tissues therefore receive blood with a high oxygen concentration, which supports efficient aerobic respiration and high energy demand."},
+        {type:"boardPractice", question:"Give one difference between aerobic respiration and fermentation in yeast.", answer:"Aerobic respiration uses oxygen and leads to extensive oxidation of glucose, producing carbon dioxide and water with a high energy yield. In yeast fermentation, oxygen is not required and glucose is incompletely broken down to ethanol and carbon dioxide, producing much less usable energy."}
       ]
     },
+
     {
-      "number": 10,
-      "title": "Transport in plants: phloem",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Transport in plants: phloem",
-          "content": "Sugars made in leaves are transported to regions where they are needed or stored. Phloem translocation can move material from a source to a sink, and the direction can differ in different parts of the plant at the same time. Loading and unloading of sugars involve energy-dependent processes, so phloem transport is not simply passive diffusion."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is translocation?",
-          "answer": "Translocation is the transport of soluble organic food, mainly sugars, through phloem from source tissues such as mature leaves to sink tissues such as roots, fruits, seeds or growing regions."
-        }
+      title: "10. Deep board mastery — connected explanations",
+      blocks: [
+        {type:"paragraph", title:'Nutrition and energy linkage', text:'Food is not valuable only because it fills the digestive tract; it provides chemical building blocks and potential energy. Carbohydrates can supply glucose for respiration, proteins supply amino acids for growth and repair, and fats provide a concentrated energy store as well as components of cell membranes. Digestion converts large molecules into smaller soluble units so that they can cross epithelial surfaces. Once absorbed, the body does not simply ‘store everything’. Cells constantly take up nutrients according to their immediate metabolic needs, while the liver and other tissues help regulate storage and distribution.'},
+        {type:"paragraph", title:'Why photosynthesis is a source process', text:'A green leaf is often described as a food-producing organ, but the deeper idea is that photosynthesis converts an external energy input—light—into chemical energy stored in organic compounds. The process therefore connects the physical environment with cellular metabolism. Carbon dioxide enters through stomata, water reaches the leaf through xylem, and the resulting carbohydrates can be transported away through phloem. The leaf is consequently connected to the entire plant by several transport and exchange systems rather than functioning as an isolated factory.'},
+        {type:"paragraph", title:'Digestive enzymes are specific', text:'Digestive enzymes do not act on every food substance in the same way. Their activity depends on the chemical nature of the substrate and the conditions in which the enzyme works. Salivary amylase acts on starch, pepsin acts mainly on proteins in the acidic stomach environment, and pancreatic and intestinal enzymes complete the breakdown of carbohydrates, proteins and fats. The products must be small enough and sufficiently soluble to cross the intestinal epithelium. This is why mechanical digestion and chemical digestion cooperate: grinding increases exposed area, while enzymes alter the molecules chemically.'},
+        {type:"paragraph", title:'Why the stomach does not digest itself', text:'The stomach contains acid and protein-digesting enzymes, yet its own wall is normally protected. A mucus barrier separates the epithelial surface from the harsh gastric contents, and epithelial cells are renewed regularly. The acidic environment also has an important defensive role because many microorganisms entering with food are damaged by it. If the protective mechanisms are disrupted, the stomach lining can become injured. In an exam answer, the safest explanation is to mention the mucus layer and its protective role rather than claiming that acid is harmless to all tissues.'},
+        {type:"paragraph", title:'Absorption depends on structure', text:'Efficient absorption is not produced by a single feature. The small intestine combines a large surface area, a thin epithelial barrier and a dense transport network. Villi and microscopic surface specialisations increase the area available for contact with digested nutrients. Blood capillaries carry absorbed sugars and amino acids away, helping maintain concentration gradients, while lymphatic vessels participate in the transport of many absorbed lipids. Structure and function therefore form a clear chain: large area plus short distance plus rapid removal equals efficient absorption.'},
+        {type:"paragraph", title:'Respiration begins before oxygen is used', text:'The first stage of glucose breakdown occurs in the cytoplasm and does not directly require oxygen. The resulting smaller molecules can then enter different pathways depending on conditions. With adequate oxygen, further oxidation occurs through mitochondrial processes and produces a much larger energy yield. When oxygen is insufficient, some cells temporarily use anaerobic pathways. This explains why respiration cannot be reduced to the statement ‘oxygen enters the lungs and gives energy’. Gas exchange supplies oxygen, but the actual energy-releasing reactions occur inside cells.'},
+        {type:"paragraph", title:'Why concentration gradients matter', text:'Diffusion is driven by differences in concentration or partial pressure. At the alveolar surface, oxygen concentration is effectively higher in freshly inhaled alveolar air than in the deoxygenated blood arriving in surrounding capillaries, so oxygen diffuses into the blood. Carbon dioxide has the opposite gradient. The blood flow then carries the gases away or toward the exchange surface, helping preserve the gradient. A good answer should therefore mention both the diffusion gradient and the transport of gases by blood.'},
+        {type:"paragraph", title:'The role of haemoglobin', text:'Only a limited amount of oxygen can dissolve directly in plasma. Haemoglobin greatly increases the carrying capacity of blood by reversibly binding oxygen in the lungs and releasing it in tissues. Red blood cells are specialised for this role because they are packed with haemoglobin and have a shape that supports gas exchange. The importance of haemoglobin becomes especially clear when considering why a liquid as abundant as plasma alone would not be enough to satisfy the oxygen demand of active tissues.'},
+        {type:"paragraph", title:'Why the heart is a pump', text:'The heart creates pressure differences that cause blood to flow through vessels. Muscular contraction of the atria and ventricles is coordinated with valve opening and closing. The atria receive blood and pass it to the ventricles; the ventricles then generate the stronger pumping action. Valves prevent significant backward movement. The four-chamber arrangement is especially important in humans because it permits separate handling of pulmonary and systemic circuits and supports high-pressure delivery to the whole body.'},
+        {type:"paragraph", title:'Why double circulation improves efficiency', text:'If oxygenated and deoxygenated blood mixed substantially, the oxygen concentration delivered to tissues would be reduced. In humans, the pulmonary and systemic circuits are arranged in series, with the heart between them. Blood returning from the body first reaches the right side and is sent to the lungs. After oxygenation it reaches the left side and is pumped at higher pressure to the body. This arrangement supports efficient aerobic metabolism and is particularly useful for warm-blooded animals with high energy demands.'},
+        {type:"paragraph", title:'Capillaries are exchange surfaces', text:'A capillary is not merely a very small artery. Its wall is extremely thin and the vessel network is extensive, placing blood close to individual cells. Oxygen and nutrients can leave the blood while carbon dioxide and other wastes enter it. The slow movement of blood through many capillary beds also provides time for exchange. The design illustrates a recurring biological principle: a structure specialised for exchange tends to have a large surface area, short diffusion distance and close contact between the two materials being exchanged.'},
+        {type:"paragraph", title:'Why blood needs several components', text:'Blood performs several jobs at the same time. Plasma is a transport medium for dissolved materials. Red blood cells carry oxygen. White blood cells contribute to defence. Platelets participate in clotting, reducing blood loss after injury. If blood consisted only of red cells, it could not distribute hormones, salts and many nutrients efficiently or provide the same protective functions. The components work as a coordinated tissue, each contributing a specialised role to the overall maintenance of the body.'},
+        {type:"paragraph", title:'Root absorption and water movement', text:'Root hairs provide a large contact area with the soil solution. Water enters root cells by osmosis when conditions favour movement into the root, while mineral ions may enter through membrane transport mechanisms. Once water enters the root, it passes through tissues toward xylem. The upward movement through the plant is then supported strongly by transpiration pull. Thus the movement of water is a pathway rather than a single event: soil → root surface → root tissues → xylem → stem → leaf → atmosphere.'},
+        {type:"paragraph", title:'Transpiration is both useful and risky', text:"Water loss through stomata can assist the movement of water and minerals from roots to leaves and can cool leaf tissues. At the same time, excessive water loss can lower the plant's water status and cause wilting. Plants balance these effects by regulating stomatal aperture. Environmental factors such as temperature, humidity, wind and soil water availability influence the rate of transpiration. The biological value of a process can therefore depend on its intensity and environmental context rather than being simply ‘good’ or ‘bad’."},
+        {type:"paragraph", title:'Phloem is a living transport tissue', text:'The main conducting pathway of phloem contains living cells. Food translocation involves loading sugars into phloem and unloading them at sinks, processes associated with energy use and pressure differences. A source can be a mature photosynthesising leaf, while a sink can be a developing fruit or a growing root. Because the location of sources and sinks changes with season and growth, phloem transport is not restricted to one permanent direction in the whole plant.'},
+        {type:"paragraph", title:'Excretion protects internal conditions', text:"Metabolism changes the chemical composition of the internal environment. Carbon dioxide can alter acidity, nitrogenous wastes can become toxic, and excess water or salts can disturb cell function. The excretory organs therefore contribute to homeostasis. The kidneys are especially important because they do not simply ‘remove urine’; they filter blood and then selectively adjust the filtrate by reabsorbing needed substances and water. The final urine reflects both waste production and the body's regulatory needs."},
+        {type:"paragraph", title:'Filtration is different from final urine formation', text:"The fluid entering Bowman's capsule is not identical to the final urine. Filtration initially transfers many small molecules from blood into the nephron, including water and useful solutes. The tubule then reabsorbs substances that the body needs to retain. Some substances can also be secreted into the tubular fluid. By the end of the nephron, the composition has been changed substantially. Therefore a board answer should not say that the glomerulus ‘produces urine’ by itself; it begins the filtration step of urine formation."},
+        {type:"paragraph", title:'Water balance and the kidneys', text:'The amount of water excreted in urine is not fixed. The body changes water reabsorption according to hydration and other physiological conditions. When water conservation is necessary, more water can be retained and urine becomes more concentrated. When excess water is available, more can be removed. This regulatory role shows why the urinary system belongs to both excretion and internal balance. A kidney that only removed wastes but could not regulate water and ions would not adequately maintain the internal environment.'},
+        {type:"paragraph", title:'Plant and animal transport compared', text:'Plants and animals both require internal transport, but their solutions differ. Humans use a pump-driven circulatory system with blood vessels because cells are numerous and metabolic demands are high. Plants use xylem and phloem because their materials have different sources and destinations and because much of their body is stationary. Plants do not need a heart because water movement can be driven by transpiration-related forces and food movement by pressure gradients in phloem. Comparing the systems is more useful than memorising them independently because both solve the same broad problem of long-distance distribution.'},
+        {type:"paragraph", title:'Why diffusion remains important', text:'Specialised transport systems do not make diffusion unnecessary. Gas exchange in alveoli and tissues still occurs by diffusion. Carbon dioxide and oxygen cross thin surfaces according to gradients. At the cellular level, diffusion also moves substances across short distances. Transport systems mainly solve the problem of long-distance movement and maintain conditions that make short-distance diffusion efficient. Thus diffusion is a fundamental physical mechanism underlying many biological transport processes.'},
+        {type:"paragraph", title:'Surface area is a recurring design principle', text:'The lungs use millions of alveoli, the small intestine uses villi, roots use root hairs and capillary networks branch extensively. These examples look different, but they share a structural principle: a larger effective surface provides more area for exchange. Whenever a question asks why a structure is efficient, check whether surface area, thickness, moisture, transport supply or concentration gradients are involved. Many high-quality board answers are built by linking these structural features to the physical process of diffusion or absorption.'},
+        {type:"paragraph", title:'Energy and active transport', text:'Some substances cannot move across a membrane simply because of a concentration gradient. Cells may need to move ions or molecules against a gradient, which requires energy. This is why ATP production is connected to transport. In plants, mineral uptake by roots and phloem loading are examples where cellular energy can be important. The broader lesson is that whenever movement occurs against a concentration gradient, the answer should consider active transport and energy expenditure rather than describing it as ordinary diffusion.'},
+        {type:"paragraph", title:'A complete maintenance story', text:'A human eats food, digests it, absorbs nutrients and sends them into blood. Oxygen enters the lungs and is carried by haemoglobin. The heart pumps both materials to cells, where respiration transfers energy from food into ATP. Carbon dioxide produced by cells returns in the blood to the lungs. Nitrogenous wastes are handled by the kidneys. Plants follow a different route but the logic is similar: photosynthesis builds food, respiration releases energy, xylem supplies water and minerals, phloem distributes food, and excretion or storage prevents harmful accumulation of unwanted substances. Life processes are therefore best understood as a network.'},
+        {type:"paragraph", title:'How to construct a five-mark answer', text:'For a five-mark mechanism question, first identify the process and define it in one sentence. Next present the sequence in the correct order, using named structures rather than vague references. Then explain the role of the key structural adaptations. If a diagram is relevant, draw it neatly and label only what the question requires. Finally, state the functional outcome. This approach prevents the common problem of writing many facts without showing how they connect. In biology, sequence and cause-effect relationships often earn more marks than isolated definitions.'},
+        {type:"boardPractice", question:"A student says that respiration occurs only in the lungs. Is the statement correct? Explain.", answer:"The statement is incorrect. The lungs are respiratory organs for gaseous exchange, but respiration is a cellular chemical process that occurs in body cells. Oxygen obtained through the lungs is transported by blood to tissues, where cells use it during aerobic respiration to release energy from food. Carbon dioxide produced by cells is then transported back to the lungs for removal."},
+        {type:"boardPractice", question:"A leaf has its stomata closed for a prolonged period. Predict two effects and explain them.", answer:"Carbon dioxide entry into the leaf decreases, so photosynthesis is likely to slow. Water loss through transpiration also decreases. The first effect can reduce carbohydrate production, while the second can help the plant conserve water. The actual response depends on environmental conditions and the plant's physiological state."},
+        {type:"boardPractice", question:"Why does a villus contain blood capillaries close to its surface?", answer:"The capillary network rapidly carries absorbed glucose, amino acids, water-soluble salts and other nutrients away from the intestinal surface. This helps maintain a concentration gradient and ensures that the products of digestion are distributed to tissues rather than accumulating near the epithelial surface."},
+        {type:"boardPractice", question:"Explain why the walls of alveoli and capillaries together form an efficient gas-exchange surface.", answer:"Both the alveolar wall and capillary wall are very thin, so the gases have a short distance to cross. The alveoli provide a large moist surface, while the surrounding capillary network continuously brings deoxygenated blood and carries oxygenated blood away. These features maintain favourable diffusion gradients."},
+        {type:"boardPractice", question:"Why can a plant survive without a heart but a human cannot normally survive without a circulatory pump?", answer:"Plants distribute materials through specialised tissues using forces such as transpiration pull and pressure-driven phloem transport, and their cells have lower and differently organised metabolic demands. Humans have a large, actively metabolising body in which many cells are far from exchange surfaces. A heart-generated pressure system is therefore essential for rapid circulation of oxygen, nutrients and wastes."},
+        {type:"boardPractice", question:"What would happen if the valves in the heart did not function properly?", answer:"Blood could flow backward when a chamber contracts or relaxes. This would reduce the efficiency of pumping because part of the cardiac output would move in the wrong direction. The heart would have to work harder to maintain adequate circulation, and the normal one-way sequence of blood movement would be disturbed."},
+        {type:"boardPractice", question:"Why is the nephron called the functional unit of the kidney?", answer:"The nephron carries out the essential steps involved in urine formation: filtration of blood, selective reabsorption and adjustment of the tubular fluid. The combined activity of many nephrons allows the kidneys to remove wastes while conserving substances that the body still needs and regulating water and ion balance."},
+        {type:"boardPractice", question:"How does the structure of a root hair help in absorption?", answer:"A root hair is a long, thin extension of an epidermal cell that increases the contact area between the root and the soil solution. Its thin wall provides a short pathway for water movement. Large numbers of root hairs greatly increase the total surface available for absorption."},
+        {type:"boardPractice", question:"Why is phloem transport described as translocation rather than simply upward transport?", answer:"Phloem carries organic food from sources to sinks, and the positions of sources and sinks can occur above, below or beside each other. For example, a mature leaf may supply food to a developing root or fruit. Therefore the direction is determined by source-sink relationships rather than a single permanent upward route."},
+        {type:"boardPractice", question:"A person breathes rapidly after running. Explain the biological reason.", answer:"Running increases the energy demand of muscles, so cellular respiration increases. More oxygen is required and more carbon dioxide is produced. Breathing becomes faster and deeper to increase oxygen uptake and carbon dioxide removal, while the circulatory system simultaneously increases delivery of oxygenated blood to active muscles."}
       ]
     },
+
     {
-      "number": 11,
-      "title": "Excretion in humans",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Excretion in humans",
-          "content": "Cells produce metabolic wastes that must be removed to keep the internal environment suitable. The kidneys filter blood and regulate the composition of body fluids. Each nephron begins with filtration at the glomerulus and Bowman's capsule. Selective reabsorption returns useful substances and appropriate amounts of water to the blood. The remaining fluid forms urine."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is selective reabsorption?",
-          "answer": "Selective reabsorption is the process by which useful substances such as glucose, amino acids, suitable amounts of salts and water are taken back from the filtrate into the blood according to the body's needs."
-        }
+      title: "11. Visual atlas — structures you should recognise",
+      blocks: [
+        {type:"embeddedImage", title:"Visual study 1", alt:"Embedded biology structure schematic 1", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#fff5ed"/><path d="M380 55c-45 0-70 32-70 72v30c0 28-22 50-22 83 0 55 44 96 92 96s92-41 92-96c0-33-22-55-22-83v-30c0-40-25-72-70-72Z" fill="#f1a1a1" stroke="#a54848" stroke-width="9"/><path d="M330 130c-55 20-95 55-103 104-8 53 29 91 77 95M430 130c55 20 95 55 103 104 8 53-29 91-77 95" fill="none" stroke="#d45b64" stroke-width="18" stroke-linecap="round"/><path d="M330 100h-58M430 100h58M330 360h-68M430 360h68" stroke="#6aa7e8" stroke-width="10" stroke-linecap="round"/></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 2", alt:"Embedded biology structure schematic 2", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#f8f3ff"/><path d="M380 410C260 410 190 345 190 260s70-150 190-150 190 65 190 150-70 150-190 150Z" fill="#f0b0b8" stroke="#a84c64" stroke-width="9"/><g fill="#fff3f5" stroke="#c55b72" stroke-width="5"><ellipse cx="235" cy="220" rx="25" ry="38" transform="rotate(-20 235 220)"/><ellipse cx="283" cy="262" rx="25" ry="38" transform="rotate(-12 283 262)"/><ellipse cx="331" cy="304" rx="25" ry="38" transform="rotate(-4 331 304)"/><ellipse cx="379" cy="220" rx="25" ry="38" transform="rotate(4 379 220)"/><ellipse cx="427" cy="262" rx="25" ry="38" transform="rotate(12 427 262)"/><ellipse cx="475" cy="304" rx="25" ry="38" transform="rotate(20 475 304)"/><ellipse cx="523" cy="220" rx="25" ry="38" transform="rotate(28 523 220)"/><ellipse cx="571" cy="262" rx="25" ry="38" transform="rotate(36 571 262)"/><ellipse cx="619" cy="304" rx="25" ry="38" transform="rotate(44 619 304)"/><ellipse cx="667" cy="220" rx="25" ry="38" transform="rotate(52 667 220)"/></g><path d="M180 105c65 35 125 45 200 45s135-10 200-45" fill="none" stroke="#6aa7e8" stroke-width="12" stroke-linecap="round"/></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 3", alt:"Embedded biology structure schematic 3", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#eef7ff"/><path d="M380 55v92" stroke="#6b91c9" stroke-width="24" stroke-linecap="round"/><path d="M380 140C310 140 260 185 245 235M380 140c70 0 120 45 135 95M245 235c-60 10-100 52-102 102M245 235c20 28 20 62 0 102M515 235c60 10 100 52 102 102M515 235c-20 28-20 62 0 102" fill="none" stroke="#5c86c9" stroke-width="18" stroke-linecap="round"/><path d="M143 337c-35 0-58 26-58 53s23 53 58 53M617 337c35 0 58 26 58 53s-23 53-58 53" fill="none" stroke="#ef7f8c" stroke-width="30" stroke-linecap="round"/><g fill="#f5a6b0"><circle cx="132" cy="330" r="20"/><circle cx="170" cy="360" r="16"/><circle cx="590" cy="330" r="20"/><circle cx="628" cy="360" r="16"/></g></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 4", alt:"Embedded biology structure schematic 4", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#fff9ed"/><g fill="#e94f64" stroke="#b73548" stroke-width="4"><circle cx="120" cy="115" r="18"/><circle cx="210" cy="115" r="21"/><circle cx="300" cy="115" r="24"/><circle cx="390" cy="115" r="18"/><circle cx="480" cy="115" r="21"/><circle cx="570" cy="115" r="24"/><circle cx="660" cy="115" r="18"/><circle cx="120" cy="210" r="21"/><circle cx="210" cy="210" r="24"/><circle cx="300" cy="210" r="18"/><circle cx="390" cy="210" r="21"/><circle cx="480" cy="210" r="24"/><circle cx="570" cy="210" r="18"/><circle cx="660" cy="210" r="21"/><circle cx="120" cy="305" r="24"/><circle cx="210" cy="305" r="18"/><circle cx="300" cy="305" r="21"/><circle cx="390" cy="305" r="24"/><circle cx="480" cy="305" r="18"/><circle cx="570" cy="305" r="21"/><circle cx="660" cy="305" r="24"/></g><g fill="#ffffff" stroke="#6b91c9" stroke-width="6"><circle cx="250" cy="350" r="30"/><circle cx="500" cy="345" r="28"/></g><g fill="#f0c85d"><circle cx="350" cy="330" r="10"/><circle cx="390" cy="360" r="12"/><circle cx="430" cy="330" r="9"/></g></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 5", alt:"Embedded biology structure schematic 5", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#effaf1"/><path d="M150 405V55M225 405V55M300 405V55" stroke="#4b9a65" stroke-width="24" stroke-linecap="round"/><path d="M455 405V55M530 405V55M605 405V55" stroke="#4b9a65" stroke-width="24" stroke-linecap="round"/><path d="M187 380C187 270 187 190 187 85M262 380C262 260 262 170 262 80M493 380C493 260 493 170 493 80M568 380C568 270 568 190 568 85" stroke="#9ad29d" stroke-width="8" stroke-linecap="round"/><path d="M110 390h210M420 390h230" stroke="#8b5a3c" stroke-width="10" stroke-linecap="round"/><path d="M170 60l17-25 17 25M245 60l17-25 17 25M476 60l17-25 17 25M551 60l17-25 17 25" fill="none" stroke="#4f8fd0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 6", alt:"Embedded biology structure schematic 6", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#f7f3ff"/><path d="M95 100h570v260H95z" fill="#f0eaff" stroke="#7559d6" stroke-width="9"/><g fill="#d96b7d" stroke="#9e4153" stroke-width="4"><ellipse cx="135" cy="150" rx="25" ry="12" transform="rotate(0 135 150)"/><ellipse cx="190" cy="208" rx="25" ry="12" transform="rotate(12 190 208)"/><ellipse cx="245" cy="266" rx="25" ry="12" transform="rotate(24 245 266)"/><ellipse cx="300" cy="324" rx="25" ry="12" transform="rotate(36 300 324)"/><ellipse cx="355" cy="150" rx="25" ry="12" transform="rotate(48 355 150)"/><ellipse cx="410" cy="208" rx="25" ry="12" transform="rotate(60 410 208)"/><ellipse cx="465" cy="266" rx="25" ry="12" transform="rotate(72 465 266)"/><ellipse cx="520" cy="324" rx="25" ry="12" transform="rotate(84 520 324)"/><ellipse cx="575" cy="150" rx="25" ry="12" transform="rotate(96 575 150)"/><ellipse cx="630" cy="208" rx="25" ry="12" transform="rotate(108 630 208)"/><ellipse cx="685" cy="266" rx="25" ry="12" transform="rotate(120 685 266)"/><ellipse cx="740" cy="324" rx="25" ry="12" transform="rotate(132 740 324)"/><ellipse cx="795" cy="150" rx="25" ry="12" transform="rotate(144 795 150)"/><ellipse cx="850" cy="208" rx="25" ry="12" transform="rotate(156 850 208)"/><ellipse cx="905" cy="266" rx="25" ry="12" transform="rotate(168 905 266)"/><ellipse cx="960" cy="324" rx="25" ry="12" transform="rotate(180 960 324)"/><ellipse cx="1015" cy="150" rx="25" ry="12" transform="rotate(192 1015 150)"/><ellipse cx="1070" cy="208" rx="25" ry="12" transform="rotate(204 1070 208)"/><ellipse cx="1125" cy="266" rx="25" ry="12" transform="rotate(216 1125 266)"/><ellipse cx="1180" cy="324" rx="25" ry="12" transform="rotate(228 1180 324)"/><ellipse cx="1235" cy="150" rx="25" ry="12" transform="rotate(240 1235 150)"/><ellipse cx="1290" cy="208" rx="25" ry="12" transform="rotate(252 1290 208)"/><ellipse cx="1345" cy="266" rx="25" ry="12" transform="rotate(264 1345 266)"/><ellipse cx="1400" cy="324" rx="25" ry="12" transform="rotate(276 1400 324)"/><ellipse cx="1455" cy="150" rx="25" ry="12" transform="rotate(288 1455 150)"/><ellipse cx="1510" cy="208" rx="25" ry="12" transform="rotate(300 1510 208)"/><ellipse cx="1565" cy="266" rx="25" ry="12" transform="rotate(312 1565 266)"/><ellipse cx="1620" cy="324" rx="25" ry="12" transform="rotate(324 1620 324)"/><ellipse cx="1675" cy="150" rx="25" ry="12" transform="rotate(336 1675 150)"/><ellipse cx="1730" cy="208" rx="25" ry="12" transform="rotate(348 1730 208)"/><ellipse cx="1785" cy="266" rx="25" ry="12" transform="rotate(360 1785 266)"/><ellipse cx="1840" cy="324" rx="25" ry="12" transform="rotate(372 1840 324)"/><ellipse cx="1895" cy="150" rx="25" ry="12" transform="rotate(384 1895 150)"/><ellipse cx="1950" cy="208" rx="25" ry="12" transform="rotate(396 1950 208)"/><ellipse cx="2005" cy="266" rx="25" ry="12" transform="rotate(408 2005 266)"/><ellipse cx="2060" cy="324" rx="25" ry="12" transform="rotate(420 2060 324)"/><ellipse cx="2115" cy="150" rx="25" ry="12" transform="rotate(432 2115 150)"/><ellipse cx="2170" cy="208" rx="25" ry="12" transform="rotate(444 2170 208)"/><ellipse cx="2225" cy="266" rx="25" ry="12" transform="rotate(456 2225 266)"/><ellipse cx="2280" cy="324" rx="25" ry="12" transform="rotate(468 2280 324)"/></g><path d="M110 315c100-65 210-65 320 0s220 65 220 0" fill="none" stroke="#4f8fd0" stroke-width="10" stroke-linecap="round"/></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 7", alt:"Embedded biology structure schematic 7", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#eef7ff"/><circle cx="260" cy="190" r="80" fill="#f2a2a9" stroke="#a64758" stroke-width="9"/><circle cx="260" cy="190" r="38" fill="#f8dce0" stroke="#a64758" stroke-width="7"/><path d="M340 190C500 145 600 180 565 260c-30 67-115 18-120 82-5 66 105 36 92 90-10 40-76 48-132 12" fill="none" stroke="#d26778" stroke-width="22" stroke-linecap="round"/><path d="M342 190C505 135 630 178 590 268c-28 62-120 15-125 79-5 69 116 35 103 93" fill="none" stroke="#5f95d2" stroke-width="8" stroke-linecap="round"/><path d="M175 190H90M260 110V55" stroke="#5f95d2" stroke-width="10" stroke-linecap="round"/></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"embeddedImage", title:"Visual study 8", alt:"Embedded biology structure schematic 8", svg:'<svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="760" height="460" rx="40" fill="#f7fbff"/><rect x="130" y="95" width="500" height="270" rx="32" fill="#ffffff" stroke="#6a8fd0" stroke-width="9"/><path d="M160 155h440M160 210h440M160 265h440M160 320h440" stroke="#d7e3f5" stroke-width="6"/><path d="M205 130v200M270 130v200M335 130v200M400 130v200M465 130v200M530 130v200" stroke="#d7e3f5" stroke-width="6"/><path d="M205 330c80-80 145-110 200-110 58 0 100-45 150-75" fill="none" stroke="#d86c7b" stroke-width="12" stroke-linecap="round"/><path d="M555 145l20-20 8 30" fill="none" stroke="#d86c7b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>', caption:"Use the structure shown here to connect shape, surface, transport pathway and function."},
+        {type:"paragraph", title:"How to use the visual atlas", text:"Do not memorise a diagram as a decorative picture. First identify the organ or tissue, then identify the direction of movement, then connect each structural feature to its function. In a board examination, a simple labelled sketch can strengthen an explanation when the question asks for a mechanism or structure. The most useful diagrams in this chapter are the digestive tract, villus, alveolus, heart, double circulation, xylem/phloem pathways and nephron."}
       ]
     },
+
     {
-      "number": 12,
-      "title": "Dialysis and artificial waste removal",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Dialysis and artificial waste removal",
-          "content": "When kidneys cannot adequately remove wastes, dialysis can assist in maintaining the chemical balance of the blood. In haemodialysis, blood is circulated beside a dialysis fluid across a selectively permeable membrane. Small waste molecules diffuse into the fluid while larger blood components are retained. Dialysis supports waste removal but does not reproduce every function of healthy kidneys."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why does dialysis fluid not contain a high concentration of urea?",
-          "answer": "The purpose is to maintain a concentration gradient so urea can diffuse from the patient's blood into the dialysis fluid. The fluid is formulated to avoid unwanted loss of useful substances while facilitating waste removal."
-        }
+      title: "12. Extra board question bank",
+      blocks: [
+        {type:"boardPractice", question:'A student observes that a destarched leaf exposed to light develops starch only in green regions. What does this show?', answer:'The observation shows that chlorophyll-containing regions are necessary for photosynthesis under the conditions of the experiment. Light is also required, and the starch detected is evidence that carbohydrates have been formed. The conclusion should be stated carefully: the green parts are the photosynthetically active regions that produced the stored starch.'},
+        {type:"boardPractice", question:'Why is iodine solution used when testing a leaf for starch?', answer:'Iodine gives a characteristic blue-black colour in the presence of starch. Since starch is a storage product formed from photosynthetic carbohydrates, the colour change provides visible evidence that starch is present. The leaf is usually treated appropriately before the test so that the result is easier to observe.'},
+        {type:"boardPractice", question:'Why is the inner lining of the small intestine highly folded?', answer:'Folding increases the effective surface area available for contact with digested food. Together with villi and microscopic surface specialisations, these folds allow more molecules to be absorbed at the same time. A larger area is especially useful because absorption occurs across the intestinal epithelium.'},
+        {type:"boardPractice", question:'What is the difference between digestion and absorption?', answer:'Digestion is the mechanical and chemical breakdown of complex food into simpler molecules that can be absorbed. Absorption is the movement of these digested molecules through the intestinal lining into blood or lymph. Digestion changes the food molecules; absorption transfers the resulting molecules into the internal transport system.'},
+        {type:"boardPractice", question:'Why does the pancreas release digestive enzymes into the small intestine rather than the stomach?', answer:'The pancreas contributes enzymes that act on carbohydrates, proteins and fats in the small intestine, where the partially digested food has entered after the stomach. The pancreatic secretion also contains alkaline components that help neutralise acidic chyme, creating conditions more suitable for intestinal enzyme activity.'},
+        {type:"boardPractice", question:'Why is bile important even though it does not contain a digestive enzyme?', answer:'Bile emulsifies large fat globules into many smaller droplets, increasing the surface area available for lipase action. It also contributes to an alkaline environment in the small intestine. Thus bile supports digestion by changing the physical state of fats and the chemical conditions of the intestinal contents.'},
+        {type:"boardPractice", question:'Why do we need oxygen for efficient energy release from glucose?', answer:'Oxygen allows the products of the initial glucose breakdown to undergo much more complete oxidation. This releases substantially more energy for transfer to ATP than incomplete anaerobic pathways. Oxygen therefore supports the high energy yield associated with aerobic respiration.'},
+        {type:"boardPractice", question:'Why does breathing rate increase during exercise even before severe oxygen shortage occurs?', answer:'Working muscles require more ATP, so respiration increases. The body responds by increasing ventilation and circulation so that oxygen delivery rises and carbon dioxide removal keeps pace with increased production. Neural and chemical signals coordinate these changes, allowing gas exchange and blood flow to adjust to demand.'},
+        {type:"boardPractice", question:'Why are alveoli kept moist?', answer:'Gases dissolve more readily in a thin moist film before crossing the respiratory surface. Moisture therefore facilitates diffusion of oxygen and carbon dioxide across the alveolar wall. The moisture must be balanced with mechanisms that prevent excessive fluid accumulation, because a thick fluid layer would increase diffusion distance.'},
+        {type:"boardPractice", question:'Why are red blood cells well suited to oxygen transport?', answer:'They contain a high concentration of haemoglobin, have a large surface-to-volume ratio and are flexible enough to pass through narrow capillaries. Their specialised structure allows them to load oxygen in the lungs and deliver it efficiently to tissues.'},
+        {type:"boardPractice", question:'Why does the right side of the heart pump to the lungs instead of the whole body?', answer:'The right side receives deoxygenated blood returning from the body and sends it to the lungs for gas exchange. After oxygenation, blood returns to the left side, which pumps it to the systemic circulation. This arrangement keeps the pulmonary circuit and systemic circuit organised and prevents major mixing of oxygenated and deoxygenated blood.'},
+        {type:"boardPractice", question:'Why are veins provided with valves?', answer:'Blood in veins returns to the heart at relatively low pressure, and in many parts of the body it must move against gravity. Valves help prevent backflow and support one-way movement toward the heart. Skeletal muscle contractions can also compress veins and assist venous return.'},
+        {type:"boardPractice", question:'Why can capillaries not have thick muscular walls like arteries?', answer:'Capillaries are exchange surfaces. A thick wall would increase the diffusion distance and hinder movement of oxygen, carbon dioxide, nutrients and wastes between blood and tissues. Their thin wall, combined with a large network, is therefore an adaptation for exchange rather than high-pressure transport.'},
+        {type:"boardPractice", question:'How does the circulatory system link the lungs and kidneys to the rest of the body?', answer:'Blood carries oxygen from the lungs to tissues and returns carbon dioxide to the lungs. It also carries nitrogenous wastes and excess substances from tissues to the kidneys. In this way, the circulatory system connects organs that exchange materials with the external environment to cells that continuously produce or consume those materials.'},
+        {type:"boardPractice", question:'Why is xylem transport mostly upward?', answer:'Water and mineral ions enter the plant mainly through roots and are needed in leaves and other aerial tissues. Transpiration from leaves creates a pulling force that contributes strongly to upward water movement. The physical properties of water and the continuous xylem pathway help maintain the column through which the water moves.'},
+        {type:"boardPractice", question:'What is the role of root hairs in plant nutrition?', answer:'Root hairs increase the surface area in contact with soil particles and the thin film of water around them. This improves the opportunity for water absorption and mineral uptake. They are therefore structural adaptations that make the root surface more effective without requiring a large increase in root diameter.'},
+        {type:"boardPractice", question:'Why is phloem transport energy dependent?', answer:'Organic food must often be loaded into phloem against a concentration gradient or maintained at concentrations different from surrounding tissues. Living phloem cells use metabolic energy in loading and unloading processes. The resulting pressure differences help drive movement of food solution through the conducting tissue.'},
+        {type:"boardPractice", question:'Why does closing stomata reduce both water loss and carbon dioxide entry?', answer:'Stomata are pores that provide a shared pathway for gases. When guard cells close the pore, water vapour escapes less readily, reducing transpiration. At the same time, atmospheric carbon dioxide has less access to internal leaf spaces, so photosynthesis can slow. Stomatal regulation therefore involves a trade-off between carbon acquisition and water conservation.'},
+        {type:"boardPractice", question:'Why is excretion considered a maintenance process?', answer:'Metabolic reactions continuously produce wastes that can disturb the internal chemical environment if they accumulate. Excretion removes these substances and helps regulate water and ion levels. By preventing harmful accumulation and supporting internal balance, excretion directly contributes to the continued functioning of cells.'},
+        {type:"boardPractice", question:'Why does the glomerulus have a dense capillary network?', answer:"A dense capillary network provides a large surface through which filtration can occur and maintains the blood supply required for continuous filtration. The pressure within the glomerular capillaries favours movement of water and small solutes into Bowman's capsule while retaining blood cells and most large proteins."},
+        {type:"boardPractice", question:'Why are proteins normally absent from the filtrate in significant amounts?', answer:'Proteins are relatively large molecules and the filtration barrier restricts their passage. Keeping most plasma proteins in the blood is important because they contribute to osmotic balance and other functions. Small molecules and water can pass more readily into the filtrate.'},
+        {type:"boardPractice", question:'Why does urine contain urea but normally not useful glucose in a healthy person?', answer:'Urea is a nitrogenous waste produced during metabolism and is deliberately excreted. Glucose is small enough to be filtered but is normally reabsorbed almost completely in the nephron because it is a valuable energy source. Therefore normal urine contains urea but little or no glucose.'},
+        {type:"boardPractice", question:'Why can a person survive after losing some kidney function but severe kidney failure is dangerous?', answer:'The kidneys have considerable functional reserve, so remaining nephrons can often maintain essential functions when some are lost. Severe failure, however, allows wastes, excess fluid and abnormal ion levels to accumulate and disrupt the internal environment. Without treatment such as dialysis or transplantation, this imbalance can become life-threatening.'},
+        {type:"boardPractice", question:'Explain the source-sink idea in phloem transport with one example.', answer:'A mature green leaf can act as a source because it produces and exports sucrose. A developing fruit can act as a sink because it imports sucrose for growth and storage. The phloem pathway connects the source to the sink, and the direction of movement depends on the current pattern of production and demand.'},
+        {type:"boardPractice", question:'Why should a diagram be labelled with functionally important parts in a board examination?', answer:"Labels allow the examiner to see that the student understands the structural basis of the process. For example, in a nephron diagram, identifying the glomerulus, Bowman's capsule and tubule supports an explanation of filtration and reabsorption. A clean, correctly oriented sketch with relevant labels can communicate several ideas efficiently and reduce ambiguity in a long answer."}
       ]
     },
+
     {
-      "number": 13,
-      "title": "Excretion in plants",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Excretion in plants",
-          "content": "Plants do not have a specialised excretory system comparable to animal kidneys. Gases may diffuse out through stomata and lenticels. Excess water is lost by transpiration, and some wastes can be stored in vacuoles, old leaves, bark or other tissues. Some substances are released into the surrounding soil or converted into less harmful forms."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Oxygen may leave through stomata during photosynthesis.",
-            "Carbon dioxide is produced during respiration.",
-            "Excess water can leave by transpiration.",
-            "Wastes may be stored in tissues later shed by the plant."
-          ]
-        }
+      title: "13. Detailed concept glossary",
+      blocks: [
+        {type:"concept", title:'ATP', text:'ATP is a short-term energy-transfer molecule used by cells. Energy released during respiration is captured partly in ATP and then made available for cellular work such as active transport, synthesis, movement and repair.'},
+        {type:"concept", title:'Assimilation', text:'Assimilation is the incorporation and use of absorbed nutrients by cells. For example, absorbed glucose can be used in respiration or converted into storage material, while amino acids can be assembled into proteins.'},
+        {type:"concept", title:'Autotrophic nutrition', text:'Autotrophic nutrition is a mode in which organisms manufacture organic food from simple inorganic substances. In green plants, photosynthesis uses light energy, carbon dioxide and water to produce carbohydrates.'},
+        {type:"concept", title:'Capillary', text:'A capillary is a very small blood vessel with a thin wall. Capillary networks bring blood close to cells and provide the short diffusion distance needed for exchange of gases, nutrients and metabolic wastes.'},
+        {type:"concept", title:'Double circulation', text:'Double circulation means that blood passes through the heart twice during one complete journey through the pulmonary and systemic circuits. It maintains separation between oxygenated and deoxygenated blood.'},
+        {type:"concept", title:'Egestion', text:'Egestion is the removal of undigested and unabsorbed food residues from the alimentary canal. It is different from excretion because the material being removed has not become a metabolic waste produced by cells.'},
+        {type:"concept", title:'Excretion', text:'Excretion is the removal of metabolic wastes from the body. In humans, the lungs remove carbon dioxide and the kidneys remove nitrogenous wastes and regulate water and salts.'},
+        {type:"concept", title:'Filtration', text:"Filtration in the nephron is the pressure-driven movement of water and small solutes from glomerular blood into Bowman's capsule. Blood cells and most large proteins remain in the blood."},
+        {type:"concept", title:'Haemoglobin', text:'Haemoglobin is the oxygen-binding pigment in red blood cells. It combines reversibly with oxygen in the lungs and transports it to tissues, greatly increasing the oxygen-carrying capacity of blood.'},
+        {type:"concept", title:'Heterotrophic nutrition', text:'Heterotrophic nutrition occurs when an organism obtains organic food from other organisms or their products rather than manufacturing all of its organic food from inorganic raw materials.'},
+        {type:"concept", title:'Nephron', text:'A nephron is the functional unit of the kidney. It contains a filtration region and a tubular system that modifies the filtrate by selective reabsorption and other processes before the final urine is formed.'},
+        {type:"concept", title:'Peristalsis', text:'Peristalsis is a coordinated wave of muscular contraction and relaxation that moves food through the alimentary canal. It helps propel the bolus through the oesophagus and contents through later regions of the gut.'},
+        {type:"concept", title:'Phloem', text:'Phloem is the living vascular tissue that transports soluble organic food from source regions to sink regions. Loading and unloading are associated with metabolic energy and pressure differences.'},
+        {type:"concept", title:'Photosynthesis', text:'Photosynthesis is the light-driven formation of organic food from carbon dioxide and water in chlorophyll-containing tissues, with oxygen released as a product. It stores light energy in chemical form.'},
+        {type:"concept", title:'Respiration', text:'Respiration is the cellular biochemical process in which energy stored in food molecules is transferred to usable forms such as ATP. It can proceed through aerobic or anaerobic pathways depending on conditions.'},
+        {type:"concept", title:'Selective reabsorption', text:"Selective reabsorption is the recovery of useful substances from nephron filtrate back into the blood. Water, ions, glucose and amino acids may be reabsorbed in amounts regulated by the body's needs."},
+        {type:"concept", title:'Stomata', text:'Stomata are microscopic pores controlled by guard cells. They allow carbon dioxide to enter leaves and permit oxygen and water vapour to leave. Their opening is regulated to balance gas exchange with water conservation.'},
+        {type:"concept", title:'Translocation', text:'Translocation is the movement of soluble organic food through phloem from source tissues to sink tissues. The direction in a plant depends on where food is produced and where it is currently required or stored.'},
+        {type:"concept", title:'Transpiration', text:'Transpiration is the loss of water vapour from aerial parts of a plant, mainly through stomata. It contributes to water movement, mineral transport and cooling, but excessive loss can cause water stress.'},
+        {type:"concept", title:'Villi', text:'Villi are finger-like projections in the lining of the small intestine. They greatly increase the absorptive surface and contain blood capillaries and lymphatic vessels for transport of absorbed nutrients.'},
+        {type:"concept", title:'Xylem', text:'Xylem is vascular tissue that conducts water and dissolved mineral ions from roots toward stems and leaves. Long-distance water movement is strongly supported by transpiration-related forces and the properties of water.'},
+        {type:"concept", title:'Aerobic respiration', text:'Aerobic respiration is respiration in which oxygen supports extensive oxidation of food molecules. It releases much more usable energy than anaerobic pathways and produces carbon dioxide and water as major end products of glucose oxidation.'},
+        {type:"concept", title:'Anaerobic respiration', text:'Anaerobic respiration refers to energy-releasing pathways that do not require oxygen. Glucose is incompletely broken down, so the energy yield is lower; products vary with the organism or tissue.'},
+        {type:"concept", title:'Absorption', text:'Absorption is the transfer of digested food molecules through the intestinal lining into blood or lymph. It occurs efficiently because the small intestine provides a large surface, thin barriers and a transport network.'},
+        {type:"concept", title:'Digestion', text:'Digestion is the mechanical and chemical conversion of complex food into simpler substances that can be absorbed. It involves physical breakdown and enzyme-mediated chemical reactions in the alimentary canal.'},
+        {type:"concept", title:'Nutrition', text:'Nutrition is the process by which an organism obtains and uses nutrients for energy, growth, repair and maintenance. The mode may be autotrophic or heterotrophic depending on how organic food is obtained.'},
+        {type:"concept", title:'Pulmonary circulation', text:'Pulmonary circulation carries deoxygenated blood from the right side of the heart to the lungs and returns oxygenated blood to the left side. It provides the gas-exchange link between lungs and heart.'},
+        {type:"concept", title:'Systemic circulation', text:'Systemic circulation carries oxygenated blood from the left side of the heart to body tissues and returns deoxygenated blood to the right side. It distributes oxygen and nutrients and collects wastes.'},
+        {type:"concept", title:'Homeostasis', text:'Homeostasis is the maintenance of relatively stable internal conditions despite changes outside the body. Excretion, circulation and kidney function all contribute to maintaining suitable chemical and physical conditions for cells.'},
+        {type:"concept", title:'Diffusion', text:'Diffusion is the net movement of particles from a region of higher concentration to a region of lower concentration due to random molecular motion. It is central to gaseous exchange and many short-distance biological exchanges.'}
+      ]
+    },
+
+    {
+      title: "14. Common mistakes and exam-quality corrections",
+      blocks: [
+        {type:"warning", title:'Common mistake: breathing vs respiration', text:'Do not write that respiration is simply inhaling oxygen. Inhalation and exhalation move air, whereas respiration is a cellular biochemical process that transfers energy from food to ATP. The lungs support respiration by supplying oxygen and removing carbon dioxide, but the energy-releasing reactions occur in cells.'},
+        {type:"warning", title:'Common mistake: arteries always carry oxygenated blood', text:'Arteries are defined by direction: they carry blood away from the heart. The pulmonary artery is a major exception to the common oxygen-content pattern because it carries deoxygenated blood from the right ventricle to the lungs. Likewise, pulmonary veins carry oxygenated blood toward the heart.'},
+        {type:"warning", title:'Common mistake: xylem only carries water', text:'Xylem mainly conducts water and dissolved mineral ions, but its tissues also provide mechanical support. In a board answer about transport, identify the transported material first and then explain the force or mechanism responsible for long-distance movement.'},
+        {type:"warning", title:'Common mistake: phloem only moves food upward', text:'Phloem transport is source-to-sink transport. A source may be a mature leaf and a sink may be a root, fruit or seed. Because source and sink positions vary, movement in phloem is not restricted to one universal direction.'},
+        {type:"warning", title:'Common mistake: urine is just filtered blood', text:'Urine is not simply the fluid that comes out of the glomerulus. Filtration is followed by selective reabsorption and other adjustments in the nephron. The final urine therefore represents the combined result of filtration, recovery of useful substances and retention of wastes.'},
+        {type:"warning", title:'Common mistake: bile digests fat', text:'Bile does not chemically digest fat by itself. It emulsifies large fat droplets into smaller ones and helps create a suitable alkaline environment for enzyme action. Lipase is the enzyme that catalyses the chemical digestion of fats.'},
+        {type:"warning", title:'Common mistake: all absorbed food goes directly to muscles', text:"Absorbed nutrients enter transport systems and are distributed according to the body's needs. Some are used immediately, some are stored and some are converted into other molecules. Assimilation is therefore a controlled cellular process rather than simple movement of food to one organ."},
+        {type:"warning", title:'Exam-quality structure-function rule', text:'Whenever a question asks ‘why is this structure suited to its function?’, mention at least two structural features and connect each feature to a consequence. For example, thin alveolar walls shorten diffusion distance and numerous alveoli increase surface area. This cause-and-effect format is stronger than listing features without explanation.'}
+      ]
+    },
+
+    {
+      title: "15. Final board checklist",
+      blocks: [
+        {type:"list", title:"Before the exam", items:["Know the definition and sequence of each life process.","Practise drawing the digestive tract, alveolus, heart, double circulation, plant transport pathway and nephron.","Learn structure-function links rather than isolated labels.","Be able to distinguish breathing, respiration, absorption, assimilation, egestion and excretion.","Use exact terms such as haemoglobin, villi, transpiration pull, translocation, glomerulus and selective reabsorption.","In long answers, write the mechanism in ordered steps and finish with the functional result."]},
+        {type:"paragraph", title:"Last-minute concept check", text:"If you can explain how food becomes available to cells, how oxygen reaches those cells, how energy is released from food, how materials move through a plant, how blood circulates through the heart and lungs, and how metabolic wastes are removed by the kidneys and lungs, then you understand the central logic of the chapter. The strongest preparation is not memorising isolated sentences; it is being able to rebuild the explanation from the sequence of events and the structure of the organs involved."},
+        {type:"paragraph", title:"One-line memory chain", text:"Obtain nutrients → digest or manufacture food → absorb and assimilate → release energy by respiration → transport useful materials and wastes → remove metabolic wastes → maintain the internal conditions required for life."},
+        {type:"paragraph", title:"Board-ready synthesis", text:"A complete answer should show continuity: raw materials enter the organism or are obtained by the organism; they are processed into usable molecules; energy is transferred through respiration; transport systems deliver materials to cells and collect wastes; and excretory organs prevent harmful accumulation. When a question gives a new situation, apply these same principles instead of searching for a memorised sentence. This is the central reasoning skill expected from a strong Class 10 biology answer."}
+      ]
+    },
+
+    {
+      title: "10. Rapid revision without losing the concept",
+      blocks: [
+        {type:"list", title:"Process chain", items:["Nutrition → food molecules become available to cells.","Respiration → food molecules are broken down and energy is transferred to ATP.","Transport → oxygen, nutrients, hormones and wastes are moved between organs and tissues.","Excretion → metabolic wastes and excess substances are removed and internal balance is maintained."]},
+        {type:"list", title:"Must-remember distinctions", items:["Breathing is physical gas movement; respiration is cellular energy release.","Absorption is movement of digested nutrients into blood or lymph; assimilation is their use by cells.","Egestion removes undigested food; excretion removes metabolic wastes.","Arteries carry blood away from the heart; veins carry blood toward the heart.","Xylem mainly carries water and minerals; phloem transports organic food.","Pulmonary circulation connects heart and lungs; systemic circulation connects heart and body."]},
+        {type:"paragraph", title:"Final board strategy", text:"For a three- or five-mark answer, begin with a direct definition or statement, then explain the mechanism in a logical sequence, and finally connect the structure to its function. Use precise terms such as diffusion, concentration gradient, villi, haemoglobin, double circulation, transpiration pull, translocation, glomerular filtration and selective reabsorption. Avoid vague statements such as ‘the organ helps in the process’ when the exact mechanism can be named. A good board answer is concise but complete: it identifies what happens, how it happens and why the structure or process is suitable."}
       ]
     }
-  ],
-  "diagrams": [
-    {
-      "id": "life-processes-fig-1",
-      "title": "Human digestive system",
-      "caption": "Major organs involved in human nutrition.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human digestive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human digestive system</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nMouth → oesophagus → stomach → small intestine → large intestine → rectum. Accessory glands: liver and pancreas. The small intestine is the major site of digestion completion and nutrient absorption.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-2",
-      "title": "Alveolus and gas exchange",
-      "caption": "Gas exchange across the alveolar surface.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Alveolus and gas exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Alveolus and gas exchange</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nAir enters an alveolus. A thin moist wall lies next to a dense capillary network. Oxygen diffuses into blood while carbon dioxide diffuses from blood into the alveolar air.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-3",
-      "title": "Double circulation",
-      "caption": "Pathway of blood in human double circulation.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Double circulation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b91c1c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Double circulation</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nRight side of heart → lungs → left side of heart → body tissues → right side of heart. The pulmonary and systemic circuits keep oxygenated and deoxygenated blood largely separated.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-4",
-      "title": "Human heart pathway",
-      "caption": "Direction of blood flow through the four chambers.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human heart pathway\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human heart pathway</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nVena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium → left ventricle → aorta.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-5",
-      "title": "Nephron",
-      "caption": "Functional plan of a nephron.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Nephron\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0f766e\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Nephron</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nBowman&#x27;s capsule surrounds a glomerulus. Filtrate passes through the renal tubule, where useful substances and water are selectively reabsorbed. The remaining fluid becomes urine.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-6",
-      "title": "Stomatal exchange",
-      "caption": "Stomata coordinate gaseous exchange and water loss.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Stomatal exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Stomatal exchange</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nTwo guard cells surround a stomatal pore. Carbon dioxide enters for photosynthesis; oxygen and water vapour can leave. Guard cells regulate the opening.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-7",
-      "title": "Xylem transport",
-      "caption": "Movement of water and minerals through xylem.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Xylem transport\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0369a1\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Xylem transport</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nRoots absorb water and mineral ions. Xylem vessels conduct them mainly upward. Root pressure can contribute, while transpiration pull is a major driving force in tall plants.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-8",
-      "title": "Phloem translocation",
-      "caption": "Translocation of food through phloem.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Phloem translocation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#a16207\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Phloem translocation</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nLeaves produce sugars. Phloem transports dissolved food from source regions to sinks such as roots, fruits, seeds and growing tissues. Direction can vary with source and sink position.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-9",
-      "title": "Photosynthesis sequence",
-      "caption": "Simplified sequence of photosynthesis.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Photosynthesis sequence\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Photosynthesis sequence</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nLight energy + chlorophyll → carbon dioxide and water are converted into carbohydrate; oxygen is released. Leaves provide a large surface and stomata regulate gas exchange.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-10",
-      "title": "Aerobic respiration",
-      "caption": "Overall pathway of aerobic respiration.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Aerobic respiration\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Aerobic respiration</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nGlucose → pyruvate → carbon dioxide + water + large amount of usable energy. In eukaryotic cells, most stages after glycolysis occur in mitochondria.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-11",
-      "title": "Anaerobic pathways",
-      "caption": "Two common anaerobic outcomes.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Anaerobic pathways\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Anaerobic pathways</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nIn yeast: glucose → ethanol + carbon dioxide + less energy. In oxygen-deficient muscle cells: glucose → lactic acid + less energy. The end products differ because the pathways differ.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "life-processes-fig-12",
-      "title": "Dialysis concept",
-      "caption": "Basic principle used in haemodialysis.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Dialysis concept\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Dialysis concept</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nBlood is passed through a dialysis apparatus where wastes such as urea diffuse across a selectively permeable membrane into dialysing fluid. Useful balance is restored through controlled treatment.\n</div></foreignObject>\n</svg>"
-    }
-  ],
-  "comparisonTables": [
-    {
-      "title": "Aerobic and anaerobic respiration",
-      "headers": [
-        "Feature",
-        "Aerobic respiration",
-        "Anaerobic respiration"
-      ],
-      "rows": [
-        [
-          "Oxygen",
-          "Usually requires oxygen",
-          "Occurs without sufficient oxygen"
-        ],
-        [
-          "Energy release",
-          "Relatively large",
-          "Relatively small"
-        ],
-        [
-          "End products",
-          "Carbon dioxide and water",
-          "Depends on organism; for example ethanol + carbon dioxide in yeast"
-        ],
-        [
-          "Typical site",
-          "Cytoplasm followed by mitochondria in eukaryotic cells",
-          "Cytoplasm"
-        ]
-      ]
-    },
-    {
-      "title": "Arteries and veins",
-      "headers": [
-        "Feature",
-        "Arteries",
-        "Veins"
-      ],
-      "rows": [
-        [
-          "Direction",
-          "Away from heart",
-          "Towards heart"
-        ],
-        [
-          "Walls",
-          "Thick and elastic",
-          "Thinner, less elastic"
-        ],
-        [
-          "Valves",
-          "Generally absent",
-          "Present in many veins"
-        ],
-        [
-          "Pressure",
-          "Higher",
-          "Lower"
-        ]
-      ]
-    }
-  ],
-  "caseStudies": [
-    {
-      "title": "Case: A runner after a sprint",
-      "situation": "A student finishes a short sprint and breathes rapidly. The leg muscles may temporarily experience oxygen shortage.",
-      "questions": [
-        {
-          "question": "Why does breathing remain fast immediately after exercise?",
-          "answer": "Rapid breathing helps supply more oxygen and remove carbon dioxide. It also supports recovery from the temporary oxygen deficit associated with strenuous activity."
-        },
-        {
-          "question": "Why can muscles ache after very intense activity?",
-          "answer": "During oxygen shortage, muscle cells can rely more on anaerobic respiration, producing lactic acid. Accumulation and associated changes in muscle conditions can contribute to fatigue and discomfort."
-        }
-      ]
-    }
-  ],
-  "boardPractice": [
-    {
-      "question": "Explain the pathway of food through the human alimentary canal.",
-      "answer": "Food passes from the mouth to the oesophagus, stomach, small intestine, large intestine, rectum and anus. Digestion begins in the mouth, continues in the stomach and is completed mainly in the small intestine. Nutrients are absorbed through the intestinal wall, while water is largely reabsorbed in the large intestine."
-    },
-    {
-      "question": "Describe the structure and function of a nephron.",
-      "answer": "A nephron consists of a glomerulus enclosed by Bowman's capsule followed by a renal tubule. Blood is filtered at the glomerulus. The filtrate then passes through the tubule, where useful substances and appropriate amounts of water and ions are selectively reabsorbed. The remaining fluid is urine."
-    }
-  ],
-  "importantPoints": [
-    "Life processes maintain cellular organisation.",
-    "Photosynthesis stores light energy as chemical energy.",
-    "Digestion converts complex food into absorbable forms.",
-    "Respiration makes energy available to cells.",
-    "The heart and blood vessels form a transport network.",
-    "Xylem carries water and minerals; phloem transports soluble food.",
-    "Kidneys remove nitrogenous wastes and regulate water and salt balance."
-  ],
-  "keyTerms": [
-    [
-      "Nutrition",
-      "The process of obtaining and using food materials."
-    ],
-    [
-      "Photosynthesis",
-      "Synthesis of organic food using light energy, carbon dioxide and water in chlorophyll-containing cells."
-    ],
-    [
-      "Respiration",
-      "Cellular breakdown of food molecules with release of usable energy."
-    ],
-    [
-      "Alveoli",
-      "Tiny air sacs where exchange of oxygen and carbon dioxide occurs."
-    ],
-    [
-      "Double circulation",
-      "Circulation in which blood passes through the heart twice in one complete circuit."
-    ],
-    [
-      "Nephron",
-      "Structural and functional unit of the kidney."
-    ],
-    [
-      "Transpiration",
-      "Loss of water vapour mainly from aerial parts of plants."
-    ],
-    [
-      "Translocation",
-      "Movement of soluble food through phloem."
-    ]
-  ],
-  "chapterSummary": "Life processes are the coordinated activities that maintain an organism. Nutrition supplies raw materials and energy sources; photosynthesis is the principal autotrophic pathway in green plants. Human digestion converts food into absorbable molecules. Respiration releases usable energy from food, while lungs provide efficient gas exchange. Blood and the heart transport materials in humans, whereas xylem and phloem perform major transport functions in plants. Excretion removes metabolic wastes; kidneys perform filtration and selective reabsorption through nephrons. Together these processes maintain the internal conditions required for life.",
-  "quickRevision": [
-    "Nutrition → ingestion → digestion → absorption → assimilation → egestion.",
-    "Photosynthesis needs carbon dioxide, water, light and chlorophyll.",
-    "Aerobic respiration gives more energy than anaerobic pathways.",
-    "Human circulation is double circulation.",
-    "Xylem: water/minerals; phloem: soluble food.",
-    "Nephron: filtration → selective reabsorption → urine formation."
-  ],
-  "boardFocus": [
-    "Draw and label the human digestive system.",
-    "Explain photosynthesis with a balanced word or symbolic equation.",
-    "Differentiate breathing and respiration.",
-    "Explain double circulation and the four chambers of the heart.",
-    "Explain transpiration pull and transport through xylem.",
-    "Describe nephron structure and urine formation."
-  ],
-  "deepDive": [
-    "Cells cannot remain functional simply because nutrients are present somewhere in the body. Materials must reach the right cells, cross membranes and enter controlled biochemical pathways. This is why life processes are linked: digestion makes molecules available, circulation distributes them, respiration transfers chemical energy into usable cellular forms and excretion prevents harmful accumulation.",
-    "Photosynthesis should be understood as an energy-conversion process rather than only a food-making statement. Light energy is captured by pigments and ultimately stored in chemical bonds. The carbohydrate produced can be used immediately in respiration, converted into other molecules or stored. Oxygen released during the process diffuses away and may support aerobic respiration in other organisms.",
-    "The small intestine is highly adapted for absorption. Its long length, folds and numerous villi increase the available surface area. The epithelial layer is thin, and blood capillaries carry absorbed nutrients away, helping maintain concentration gradients. Fat digestion products are transported through specialised lymphatic vessels before entering the blood circulation.",
-    "Respiration and breathing are related but distinct. Breathing supplies oxygen and removes carbon dioxide, whereas respiration describes intracellular chemical reactions. A person may breathe faster without every oxygen molecule immediately becoming part of a single respiration reaction; oxygen delivery, circulation and cellular demand are coordinated across several systems.",
-    "The heart's left ventricle has a thicker muscular wall than the right ventricle because it pumps blood through the entire systemic circulation. The right ventricle sends blood only to the lungs. This difference in workload explains the difference in wall thickness and illustrates how structure reflects function.",
-    "Plants use a combination of physical forces and cellular mechanisms for transport. Water movement through xylem is strongly associated with transpiration, while phloem movement depends on source-sink relationships and pressure differences generated by loading and unloading of sugars. Treating all plant transport as a single upward stream is therefore incorrect.",
-    "Urine formation is not simply the filtering of all blood into a waste liquid. Filtration produces a large volume of filtrate containing many useful substances. Selective reabsorption is essential because the body must retain nutrients, water and ions in amounts appropriate to current conditions. The final urine is therefore a regulated product rather than a direct copy of blood plasma.",
-    "Excretion and egestion are different. Egestion removes undigested food from the alimentary canal, while excretion removes metabolic wastes produced by cells. Confusing the two can lead to incorrect answers in board examinations."
-  ],
-  "boardMasteryNotes": [
-    {
-      "number": 1,
-      "title": "Maintenance before movement — Board Mastery",
-      "explanation": "Maintenance before movement — extended study note. A living organism may appear still while its cells remain metabolically active. Repair, synthesis, transport, respiration and removal of wastes continue in the background. This is why life processes are defined by maintenance of living organisation rather than by visible movement alone. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use this point when explaining why plants and resting animals are living systems.",
-      "selfCheck": "Can you explain maintenance before movement without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 2,
-      "title": "Food as both material and energy source — Board Mastery",
-      "explanation": "Food as both material and energy source — extended study note. Food is not useful only because it provides calories. Nutrients supply carbon skeletons, nitrogen, minerals and other raw materials needed to build cells and molecules. Energy released from suitable food molecules supports active transport, movement, synthesis and repair. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "In long answers, connect nutrition to both growth and energy requirements.",
-      "selfCheck": "Can you explain food as both material and energy source without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 3,
-      "title": "Surface area and exchange — Board Mastery",
-      "explanation": "Surface area and exchange — extended study note. Exchange surfaces become efficient when they combine large area with short diffusion distance and appropriate moisture. Intestinal villi and alveoli illustrate the same design principle even though their functions differ. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A common board question asks how structure is adapted to function; mention surface area and thin barriers.",
-      "selfCheck": "Can you explain surface area and exchange without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 4,
-      "title": "Why digestion is necessary — Board Mastery",
-      "explanation": "Why digestion is necessary — extended study note. Large food molecules cannot usually cross the intestinal wall in their original complex form. Enzymes hydrolyse carbohydrates, proteins and fats into smaller soluble products that can be absorbed and then used by cells. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Avoid saying that digestion creates energy directly; respiration makes energy available from absorbed nutrients.",
-      "selfCheck": "Can you explain why digestion is necessary without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 5,
-      "title": "Role of saliva — Board Mastery",
-      "explanation": "Role of saliva — extended study note. Saliva moistens food and contains salivary amylase, which begins the digestion of starch. Chewing also increases the food surface available to enzymes and helps form a bolus that can be swallowed. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "If asked for two functions of saliva, give both lubrication and the beginning of starch digestion.",
-      "selfCheck": "Can you explain role of saliva without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 6,
-      "title": "Stomach protection — Board Mastery",
-      "explanation": "Stomach protection — extended study note. The stomach contains acidic fluid and digestive enzymes, yet its lining is protected by mucus and other mechanisms. The acid provides a suitable environment for certain enzymes and helps control microbes entering with food. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not state that hydrochloric acid itself digests every nutrient; its role is mainly in the stomach environment and protection.",
-      "selfCheck": "Can you explain stomach protection without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 7,
-      "title": "Small intestine as a central site — Board Mastery",
-      "explanation": "Small intestine as a central site — extended study note. The small intestine receives bile, pancreatic secretions and intestinal secretions. Digestion is completed here and the enormous absorptive surface allows nutrients to enter circulation efficiently. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A labelled diagram answer should identify villi as absorption adaptations.",
-      "selfCheck": "Can you explain small intestine as a central site without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 8,
-      "title": "Assimilation after absorption — Board Mastery",
-      "explanation": "Assimilation after absorption — extended study note. Absorption moves digested nutrients across the intestinal wall, but the story does not end there. Assimilation is their use by body cells for energy release, synthesis, storage or repair. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Differentiate absorption from assimilation in definitions.",
-      "selfCheck": "Can you explain assimilation after absorption without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 9,
-      "title": "Why breathing and respiration differ — Board Mastery",
-      "explanation": "Why breathing and respiration differ — extended study note. Breathing is a physical process of ventilation and gas exchange, whereas cellular respiration is a biochemical process. Oxygen acquired by breathing can support oxidation reactions inside cells, but the two words describe different levels of organisation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This distinction is a frequent one-mark and two-mark question.",
-      "selfCheck": "Can you explain why breathing and respiration differ without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 10,
-      "title": "Energy yield in aerobic respiration — Board Mastery",
-      "explanation": "Energy yield in aerobic respiration — extended study note. Aerobic pathways completely oxidise glucose more extensively than anaerobic pathways and therefore make more usable energy available. Carbon dioxide and water are the final products in the simplified overall equation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not quote an exact ATP number unless the question specifically requires a level beyond the school treatment.",
-      "selfCheck": "Can you explain energy yield in aerobic respiration without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 11,
-      "title": "Anaerobic respiration in yeast — Board Mastery",
-      "explanation": "Anaerobic respiration in yeast — extended study note. Yeast can release energy without oxygen by converting glucose to ethanol and carbon dioxide. This is useful in fermentation processes and demonstrates that cells have alternative pathways when oxygen is unavailable. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Remember the products: ethanol and carbon dioxide, not lactic acid.",
-      "selfCheck": "Can you explain anaerobic respiration in yeast without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 12,
-      "title": "Muscle oxygen shortage — Board Mastery",
-      "explanation": "Muscle oxygen shortage — extended study note. During intense exercise, oxygen delivery may not immediately meet demand. Muscle cells can temporarily rely more on anaerobic metabolism, producing lactic acid and less energy per glucose molecule. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Explain fatigue as a consequence of intense metabolic demand rather than saying muscles 'stop breathing'.",
-      "selfCheck": "Can you explain muscle oxygen shortage without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 13,
-      "title": "Alveoli and diffusion — Board Mastery",
-      "explanation": "Alveoli and diffusion — extended study note. Alveoli provide a huge moist surface closely associated with capillaries. Oxygen and carbon dioxide cross the thin barrier by diffusion according to concentration gradients, allowing rapid gas exchange. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Include thin wall, large surface and rich blood supply in a structured answer.",
-      "selfCheck": "Can you explain alveoli and diffusion without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 14,
-      "title": "Haemoglobin and oxygen transport — Board Mastery",
-      "explanation": "Haemoglobin and oxygen transport — extended study note. Most oxygen is transported in blood associated with haemoglobin inside red blood cells. This greatly increases the oxygen-carrying capacity compared with oxygen simply dissolved in plasma. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "When asked why blood is efficient at transport, mention haemoglobin.",
-      "selfCheck": "Can you explain haemoglobin and oxygen transport without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 15,
-      "title": "Heart as a double pump — Board Mastery",
-      "explanation": "Heart as a double pump — extended study note. The right and left sides of the human heart perform different pumping tasks. The right side sends deoxygenated blood to the lungs, while the left side sends oxygenated blood to the body. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A good diagram answer should show pulmonary and systemic circuits separately.",
-      "selfCheck": "Can you explain heart as a double pump without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 16,
-      "title": "Why ventricles differ — Board Mastery",
-      "explanation": "Why ventricles differ — extended study note. The left ventricle pumps blood throughout the body and therefore works against greater resistance than the right ventricle, which pumps to the lungs. Its wall is consequently more muscular. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a structure-function explanation suitable for a three-mark answer.",
-      "selfCheck": "Can you explain why ventricles differ without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 17,
-      "title": "Valves maintain direction — Board Mastery",
-      "explanation": "Valves maintain direction — extended study note. Pressure changes during contraction and relaxation could otherwise allow blood to move backwards. Valves open in the permitted direction and close when pressure reverses. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use the phrase 'prevent backflow' in board answers.",
-      "selfCheck": "Can you explain valves maintain direction without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 18,
-      "title": "Capillaries as exchange sites — Board Mastery",
-      "explanation": "Capillaries as exchange sites — extended study note. Capillary walls are extremely thin and form extensive networks around tissues. This reduces diffusion distance between blood and cells and allows exchange of oxygen, nutrients and wastes. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not confuse capillaries with arteries; capillaries are the main exchange vessels.",
-      "selfCheck": "Can you explain capillaries as exchange sites without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 19,
-      "title": "Lymphatic contribution — Board Mastery",
-      "explanation": "Lymphatic contribution — extended study note. The lymphatic system returns excess tissue fluid to the circulation and participates in transport of absorbed fats from the intestine. It complements, rather than replaces, blood circulation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This detail strengthens a transport-system answer when extra explanation is useful.",
-      "selfCheck": "Can you explain lymphatic contribution without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 20,
-      "title": "Plant transport without a heart — Board Mastery",
-      "explanation": "Plant transport without a heart — extended study note. Plants move water and food without a central pumping organ. Water transport is strongly linked to transpiration and the properties of water, while phloem transport depends on source-sink relationships and pressure differences. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Avoid describing xylem and phloem as identical pipes.",
-      "selfCheck": "Can you explain plant transport without a heart without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 21,
-      "title": "Root absorption — Board Mastery",
-      "explanation": "Root absorption — extended study note. Root hairs provide a large contact area with soil particles. Water enters root cells mainly through osmosis when conditions favour it, while mineral ions can require active transport depending on concentration gradients. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Mention root hairs when explaining efficient absorption.",
-      "selfCheck": "Can you explain root absorption without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 22,
-      "title": "Transpiration as a driving force — Board Mastery",
-      "explanation": "Transpiration as a driving force — extended study note. Evaporation of water from leaf surfaces creates tension that can be transmitted through a continuous water column in xylem. This transpiration pull is especially important for long-distance water movement. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not say leaves 'suck' water in a literal mechanical sense.",
-      "selfCheck": "Can you explain transpiration as a driving force without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 23,
-      "title": "Factors affecting transpiration — Board Mastery",
-      "explanation": "Factors affecting transpiration — extended study note. Temperature, humidity, wind and light influence the rate at which water vapour leaves a plant. Open stomata generally increase gaseous exchange and can increase water loss. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A good application answer connects stomatal opening with both carbon dioxide entry and water loss.",
-      "selfCheck": "Can you explain factors affecting transpiration without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 24,
-      "title": "Stomata as adjustable pores — Board Mastery",
-      "explanation": "Stomata as adjustable pores — extended study note. Guard cells regulate stomatal aperture. When the pore is open, carbon dioxide can enter for photosynthesis but water vapour also escapes. Plants therefore balance carbon gain with water conservation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is an excellent example of coordination between two needs.",
-      "selfCheck": "Can you explain stomata as adjustable pores without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 25,
-      "title": "Phloem source and sink — Board Mastery",
-      "explanation": "Phloem source and sink — extended study note. A mature photosynthesising leaf can act as a source of sugars, while roots, fruits, seeds and growing regions can act as sinks. Source-sink relationships explain why phloem transport can occur in different directions in different tissues. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not write that phloem always carries food downward.",
-      "selfCheck": "Can you explain phloem source and sink without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 26,
-      "title": "Excretion versus egestion — Board Mastery",
-      "explanation": "Excretion versus egestion — extended study note. Egestion removes undigested food from the digestive tract. Excretion removes metabolic wastes produced by cells. They are biologically different processes and use different pathways. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This distinction is worth memorising exactly.",
-      "selfCheck": "Can you explain excretion versus egestion without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 27,
-      "title": "Filtration in the nephron — Board Mastery",
-      "explanation": "Filtration in the nephron — extended study note. Blood entering the glomerulus is under pressure that allows small molecules and water to pass into Bowman's capsule. Cells and large proteins are normally retained in the blood. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "In a nephron diagram, identify glomerulus and Bowman's capsule clearly.",
-      "selfCheck": "Can you explain filtration in the nephron without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 28,
-      "title": "Selective reabsorption — Board Mastery",
-      "explanation": "Selective reabsorption — extended study note. The filtrate contains useful materials as well as wastes. Tubular cells selectively return substances such as glucose, amino acids, ions and water to the blood according to the body's requirements. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Never say that everything filtered becomes urine.",
-      "selfCheck": "Can you explain selective reabsorption without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 29,
-      "title": "Urine as a regulated product — Board Mastery",
-      "explanation": "Urine as a regulated product — extended study note. Urine contains nitrogenous waste such as urea along with excess water and dissolved ions. Its final composition reflects filtration followed by selective reabsorption and other kidney functions. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A strong answer uses the sequence rather than listing ingredients only.",
-      "selfCheck": "Can you explain urine as a regulated product without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 30,
-      "title": "Kidneys and internal balance — Board Mastery",
-      "explanation": "Kidneys and internal balance — extended study note. Kidneys help regulate water and salt balance as well as removing nitrogenous waste. Their role therefore extends beyond simple waste disposal. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use 'osmoregulation' only when appropriate to the expected level; explain the idea in simple terms.",
-      "selfCheck": "Can you explain kidneys and internal balance without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 31,
-      "title": "Dialysis principle — Board Mastery",
-      "explanation": "Dialysis principle — extended study note. A dialysis membrane permits small waste molecules to move between blood and dialysing fluid while retaining cells and large proteins. Repeated treatment can help control waste concentration when kidney function is severely impaired. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Explain the concentration gradient rather than describing dialysis as an artificial kidney in every respect.",
-      "selfCheck": "Can you explain dialysis principle without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 32,
-      "title": "Plant waste storage — Board Mastery",
-      "explanation": "Plant waste storage — extended study note. Plants may store wastes in vacuoles, old leaves, bark or other tissues. Shedding leaves or bark can physically remove stored substances from the active plant body. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This illustrates why plants do not need an animal-style excretory organ.",
-      "selfCheck": "Can you explain plant waste storage without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 33,
-      "title": "Gas exchange in plants — Board Mastery",
-      "explanation": "Gas exchange in plants — extended study note. Plants exchange gases through stomata and other openings. Photosynthesis consumes carbon dioxide and releases oxygen in light, while respiration consumes oxygen and releases carbon dioxide continuously. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not say photosynthesis occurs only in daytime in an absolute sense; the school-level point is that it depends on light.",
-      "selfCheck": "Can you explain gas exchange in plants without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 34,
-      "title": "Respiration in plants — Board Mastery",
-      "explanation": "Respiration in plants — extended study note. All living plant cells respire because they require energy for maintenance. Green plants therefore both photosynthesise under suitable light conditions and respire continuously. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This corrects the common misconception that plants only photosynthesise.",
-      "selfCheck": "Can you explain respiration in plants without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 35,
-      "title": "Integration of life processes — Board Mastery",
-      "explanation": "Integration of life processes — extended study note. Nutrition, respiration, transport and excretion are linked. Absorbed nutrients must be transported to cells, oxygen supports aerobic respiration, and carbon dioxide and nitrogenous wastes must be removed. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use this integration as a concluding paragraph in a long answer.",
-      "selfCheck": "Can you explain integration of life processes without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 36,
-      "title": "Structure follows function — Board Mastery",
-      "explanation": "Structure follows function — extended study note. The repeated appearance of thin surfaces, large areas and specialised transport systems is not accidental. Biological structures are shaped by the requirements of the process they perform. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use one specific example—alveoli, villi or capillaries—to demonstrate the principle.",
-      "selfCheck": "Can you explain structure follows function without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 37,
-      "title": "Diffusion is not enough everywhere — Board Mastery",
-      "explanation": "Diffusion is not enough everywhere — extended study note. Small distances and concentration gradients allow diffusion to work efficiently across exchange surfaces, but whole-organism transport over long distances needs specialised systems. Blood, xylem and phloem solve this scale problem. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This explains why multicellular organisms need transport systems.",
-      "selfCheck": "Can you explain diffusion is not enough everywhere without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 38,
-      "title": "Why large organisms need transport — Board Mastery",
-      "explanation": "Why large organisms need transport — extended study note. As body size increases, the surface-area-to-volume relationship makes direct exchange insufficient for every cell. Internal transport networks reduce the distance between external exchange surfaces and internal tissues. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a high-value conceptual answer for 'why transport is necessary'.",
-      "selfCheck": "Can you explain why large organisms need transport without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 39,
-      "title": "Water balance in the body — Board Mastery",
-      "explanation": "Water balance in the body — extended study note. The body must keep water within a useful range. Kidneys adjust the amount of water returned to blood, while lungs and skin also contribute to water loss. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Link kidney function to regulation rather than only waste removal.",
-      "selfCheck": "Can you explain water balance in the body without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 40,
-      "title": "Board diagram strategy — Board Mastery",
-      "explanation": "Board diagram strategy — extended study note. Biological diagrams should be large enough to label, use straight leader lines and contain only necessary labels. A neat labelled structure often earns more reliably than a crowded artistic drawing. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Keep diagrams functional and scientifically labelled.",
-      "selfCheck": "Can you explain board diagram strategy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 41,
-      "title": "Equation strategy — Board Mastery",
-      "explanation": "Equation strategy — extended study note. A word equation communicates the substances involved, while a symbolic equation provides chemical formulae. In biology, simplified equations such as photosynthesis and respiration should be written with correct reactants and products. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not confuse a word equation with a mechanism.",
-      "selfCheck": "Can you explain equation strategy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 42,
-      "title": "Long-answer organisation — Board Mastery",
-      "explanation": "Long-answer organisation — extended study note. A strong five-mark answer usually begins with a definition or overview, then follows the actual sequence of events, adds a structural adaptation and ends with the outcome. This mirrors how biological processes operate. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use chronological order for digestion, urine formation and blood flow.",
-      "selfCheck": "Can you explain long-answer organisation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 43,
-      "title": "Common misconception check — Board Mastery",
-      "explanation": "Common misconception check — extended study note. Food is not 'digested in the blood'; digestion occurs in the alimentary canal. Similarly, oxygen is not produced by respiration; it is consumed in aerobic respiration. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "These paired corrections prevent frequent conceptual errors.",
-      "selfCheck": "Can you explain common misconception check without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 44,
-      "title": "Final integration — Board Mastery",
-      "explanation": "Final integration — extended study note. Life is maintained by a network rather than a list of isolated chapters. The same molecule may be absorbed in the intestine, transported in blood, used in cellular respiration and finally contribute to waste products that are removed. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use an integrated example to demonstrate understanding rather than memorising disconnected definitions.",
-      "selfCheck": "Can you explain final integration without looking at the notes and connect it to one structure or process?"
-    }
-  ],
-  "renderingHints": {
-    "formulaFont": "normal-responsive",
-    "imageMode": "embedded-inline-svg",
-    "tableMode": "responsive-horizontal",
-    "summaryMode": "wrap-no-overflow"
-  },
-  "deepConnections": [
-    {
-      "number": 1,
-      "title": "Deep connection 1: Maintenance before movement",
-      "content": "To understand maintenance before movement, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 2,
-      "title": "Deep connection 2: Food as both material and energy source",
-      "content": "To understand food as both material and energy source, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 3,
-      "title": "Deep connection 3: Surface area and exchange",
-      "content": "To understand surface area and exchange, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 4,
-      "title": "Deep connection 4: Why digestion is necessary",
-      "content": "To understand why digestion is necessary, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 5,
-      "title": "Deep connection 5: Role of saliva",
-      "content": "To understand role of saliva, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 6,
-      "title": "Deep connection 6: Stomach protection",
-      "content": "To understand stomach protection, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 7,
-      "title": "Deep connection 7: Small intestine as a central site",
-      "content": "To understand small intestine as a central site, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 8,
-      "title": "Deep connection 8: Assimilation after absorption",
-      "content": "To understand assimilation after absorption, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 9,
-      "title": "Deep connection 9: Why breathing and respiration differ",
-      "content": "To understand why breathing and respiration differ, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 10,
-      "title": "Deep connection 10: Energy yield in aerobic respiration",
-      "content": "To understand energy yield in aerobic respiration, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 11,
-      "title": "Deep connection 11: Anaerobic respiration in yeast",
-      "content": "To understand anaerobic respiration in yeast, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 12,
-      "title": "Deep connection 12: Muscle oxygen shortage",
-      "content": "To understand muscle oxygen shortage, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 13,
-      "title": "Deep connection 13: Alveoli and diffusion",
-      "content": "To understand alveoli and diffusion, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 14,
-      "title": "Deep connection 14: Haemoglobin and oxygen transport",
-      "content": "To understand haemoglobin and oxygen transport, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 15,
-      "title": "Deep connection 15: Heart as a double pump",
-      "content": "To understand heart as a double pump, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 16,
-      "title": "Deep connection 16: Why ventricles differ",
-      "content": "To understand why ventricles differ, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 17,
-      "title": "Deep connection 17: Valves maintain direction",
-      "content": "To understand valves maintain direction, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 18,
-      "title": "Deep connection 18: Capillaries as exchange sites",
-      "content": "To understand capillaries as exchange sites, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 19,
-      "title": "Deep connection 19: Lymphatic contribution",
-      "content": "To understand lymphatic contribution, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 20,
-      "title": "Deep connection 20: Plant transport without a heart",
-      "content": "To understand plant transport without a heart, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 21,
-      "title": "Deep connection 21: Root absorption",
-      "content": "To understand root absorption, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 22,
-      "title": "Deep connection 22: Transpiration as a driving force",
-      "content": "To understand transpiration as a driving force, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 23,
-      "title": "Deep connection 23: Factors affecting transpiration",
-      "content": "To understand factors affecting transpiration, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 24,
-      "title": "Deep connection 24: Stomata as adjustable pores",
-      "content": "To understand stomata as adjustable pores, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 25,
-      "title": "Deep connection 25: Phloem source and sink",
-      "content": "To understand phloem source and sink, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 26,
-      "title": "Deep connection 26: Excretion versus egestion",
-      "content": "To understand excretion versus egestion, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 27,
-      "title": "Deep connection 27: Filtration in the nephron",
-      "content": "To understand filtration in the nephron, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 28,
-      "title": "Deep connection 28: Selective reabsorption",
-      "content": "To understand selective reabsorption, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 29,
-      "title": "Deep connection 29: Urine as a regulated product",
-      "content": "To understand urine as a regulated product, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 30,
-      "title": "Deep connection 30: Kidneys and internal balance",
-      "content": "To understand kidneys and internal balance, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 31,
-      "title": "Deep connection 31: Dialysis principle",
-      "content": "To understand dialysis principle, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 32,
-      "title": "Deep connection 32: Plant waste storage",
-      "content": "To understand plant waste storage, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 33,
-      "title": "Deep connection 33: Gas exchange in plants",
-      "content": "To understand gas exchange in plants, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 34,
-      "title": "Deep connection 34: Respiration in plants",
-      "content": "To understand respiration in plants, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 35,
-      "title": "Deep connection 35: Integration of life processes",
-      "content": "To understand integration of life processes, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 36,
-      "title": "Deep connection 36: Structure follows function",
-      "content": "To understand structure follows function, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 37,
-      "title": "Deep connection 37: Diffusion is not enough everywhere",
-      "content": "To understand diffusion is not enough everywhere, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 38,
-      "title": "Deep connection 38: Why large organisms need transport",
-      "content": "To understand why large organisms need transport, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 39,
-      "title": "Deep connection 39: Water balance in the body",
-      "content": "To understand water balance in the body, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 40,
-      "title": "Deep connection 40: Board diagram strategy",
-      "content": "To understand board diagram strategy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 41,
-      "title": "Deep connection 41: Equation strategy",
-      "content": "To understand equation strategy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 42,
-      "title": "Deep connection 42: Long-answer organisation",
-      "content": "To understand long-answer organisation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 43,
-      "title": "Deep connection 43: Common misconception check",
-      "content": "To understand common misconception check, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 44,
-      "title": "Deep connection 44: Final integration",
-      "content": "To understand final integration, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    }
-  ],
-  "chapterChecklist": [
-    "Read the continuous explanation before memorising keywords.",
-    "Reproduce every major process as a short arrow sequence.",
-    "Practise labelled diagrams without tracing.",
-    "Attempt board questions using complete, direct answers.",
-    "Check that definitions, comparisons and examples use distinct wording.",
-    "Revise the chapter summary only after understanding the detailed sections."
-  ],
-  "sections": [
-    {
-      "number": 1,
-      "title": "Why organisms need life processes",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Why organisms need life processes",
-          "content": "A living organism is not a static structure. Its cells continuously build molecules, break down nutrients, exchange gases, maintain water and ion balance, repair damage and remove unwanted products. These activities require a constant supply of materials and energy. Life processes therefore refer to the basic maintenance functions that keep an organism alive and functioning."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Maintenance must continue even when an organism is not visibly moving.",
-            "Different organs cooperate rather than working as isolated units.",
-            "The same broad function can be achieved by different structures in plants and animals."
-          ]
-        },
-        {
-          "type": "example",
-          "title": "Everyday connection",
-          "content": "A resting person is still breathing, circulating blood, digesting absorbed nutrients and forming urine."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are life processes necessary?",
-          "answer": "Life processes are necessary to obtain and use materials and energy, maintain the internal conditions of cells, transport substances to their sites of use and remove metabolic wastes. Without these coordinated activities, cells cannot continue their normal functions."
-        },
-        {
-          "type": "think",
-          "question": "Why can a plant be considered active even when it appears motionless?",
-          "answer": "A plant continuously performs photosynthesis, respiration, transport, growth, repair and waste removal. Visible movement is not the criterion for deciding whether maintenance is occurring."
-        },
-        {
-          "id": "life-processes-fig-2",
-          "title": "Alveolus and gas exchange",
-          "caption": "Gas exchange across the alveolar surface.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Alveolus and gas exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Alveolus and gas exchange</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Air enters an alveolus. A thin moist wall lies next to a dense</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">capillary network. Oxygen diffuses into blood while carbon</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dioxide diffuses from blood into the alveolar air.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Alveolus and gas exchange"
-        },
-        {
-          "id": "life-processes-fig-6",
-          "title": "Stomatal exchange",
-          "caption": "Stomata coordinate gaseous exchange and water loss.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Stomatal exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Stomatal exchange</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Two guard cells surround a stomatal pore. Carbon dioxide</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">enters for photosynthesis; oxygen and water vapour can leave.</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Guard cells regulate the opening.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Stomatal exchange"
-        },
-        {
-          "id": "life-processes-fig-9",
-          "title": "Photosynthesis sequence",
-          "caption": "Simplified sequence of photosynthesis.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Photosynthesis sequence\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Photosynthesis sequence</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Light energy + chlorophyll → carbon dioxide and water are</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">converted into carbohydrate; oxygen is released. Leaves</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">provide a large surface and stomata regulate gas exchange.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Photosynthesis sequence"
-        }
-      ]
-    },
-    {
-      "number": 2,
-      "title": "Nutrition and the need for food",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Nutrition and the need for food",
-          "content": "Nutrition provides raw materials for growth, repair and synthesis as well as energy for cellular work. Autotrophic organisms manufacture organic food from simpler inorganic substances, whereas heterotrophic organisms obtain ready-made organic nutrients from other organisms or their products. The mode of nutrition determines how food is acquired, digested and distributed."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Autotrophs use light or another energy source to build organic compounds.",
-            "Heterotrophs depend directly or indirectly on autotrophs for organic food.",
-            "Complex food molecules often need digestion before absorption."
-          ]
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Differentiate autotrophic and heterotrophic nutrition.",
-          "answer": "Autotrophic nutrition involves synthesis of organic food from inorganic raw materials such as carbon dioxide and water using an energy source. Heterotrophic nutrition involves obtaining organic food from other organisms, their products or decomposed material."
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Photosynthesis in green plants",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Photosynthesis in green plants",
-          "content": "Photosynthesis converts light energy into chemical energy stored in organic molecules. Chlorophyll absorbs suitable wavelengths of light, carbon dioxide enters mainly through stomata and water is supplied by roots. The overall process can be represented as: carbon dioxide + water → glucose + oxygen, in the presence of light and chlorophyll. The equation is a summary; photosynthesis itself involves several linked reactions."
-        },
-        {
-          "type": "process",
-          "title": "Main requirements",
-          "steps": [
-            "Roots absorb water and mineral ions.",
-            "Water reaches leaves through xylem.",
-            "Carbon dioxide enters through stomata.",
-            "Chlorophyll absorbs light energy.",
-            "Carbohydrates are synthesised and oxygen is released."
-          ]
-        },
-        {
-          "type": "equation",
-          "title": "Key relation",
-          "content": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light and chlorophyll)"
-        },
-        {
-          "type": "mistake",
-          "title": "Common mistake",
-          "content": "Do not say that plants take in food from soil. Soil supplies water and minerals; the organic food is synthesised mainly in green leaves."
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "Digestion in human beings",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Digestion in human beings",
-          "content": "Human nutrition involves ingestion, digestion, absorption, assimilation and egestion. Mechanical processing begins in the mouth, where chewing increases surface area and saliva begins starch digestion. The stomach provides acidic conditions and protein digestion begins there. In the small intestine, bile helps in fat emulsification and pancreatic and intestinal enzymes complete digestion. The intestinal wall absorbs soluble nutrients, and the large intestine mainly reabsorbs water and forms faeces."
-        },
-        {
-          "type": "process",
-          "title": "Food journey",
-          "steps": [
-            "Mouth: chewing and salivary action begin digestion.",
-            "Oesophagus: muscular contractions push the food onward.",
-            "Stomach: churning and acidic conditions support protein digestion.",
-            "Small intestine: digestion is completed and nutrients are absorbed.",
-            "Large intestine: water is reabsorbed and faeces are formed."
-          ]
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is the role of bile in digestion?",
-          "answer": "Bile is produced by the liver and stored in the gall bladder. It makes the acidic food mixture more suitable for intestinal enzymes and emulsifies fats into smaller droplets, increasing the surface area available for lipase action."
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Respiration releases usable energy",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Respiration releases usable energy",
-          "content": "Respiration is a set of cellular reactions in which food molecules are broken down and energy is made available for cellular activities. In aerobic respiration, glucose is ultimately oxidised to carbon dioxide and water with a relatively high energy yield. If oxygen is insufficient, cells may use anaerobic pathways that release less energy and produce different end products."
-        },
-        {
-          "type": "equation",
-          "title": "Key relation",
-          "content": "Glucose + oxygen → carbon dioxide + water + energy"
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is respiration different from breathing?",
-          "answer": "Breathing is the physical exchange and movement of air, whereas respiration is the cellular process in which food molecules are broken down and energy is released in a usable form."
-        },
-        {
-          "id": "life-processes-fig-10",
-          "title": "Aerobic respiration",
-          "caption": "Overall pathway of aerobic respiration.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Aerobic respiration\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Aerobic respiration</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Glucose → pyruvate → carbon dioxide + water + large amount of</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">usable energy. In eukaryotic cells, most stages after</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">glycolysis occur in mitochondria.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Aerobic respiration"
-        },
-        {
-          "id": "life-processes-fig-11",
-          "title": "Anaerobic pathways",
-          "caption": "Two common anaerobic outcomes.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Anaerobic pathways\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Anaerobic pathways</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">In yeast: glucose → ethanol + carbon dioxide + less energy. In</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">oxygen-deficient muscle cells: glucose → lactic acid + less</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">energy. The end products differ because the pathways differ.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Anaerobic pathways"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Gas exchange and the role of alveoli",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Gas exchange and the role of alveoli",
-          "content": "Efficient gas exchange needs a large surface, a thin diffusion barrier, moisture and a continuous blood supply. Human lungs contain numerous alveoli that provide a very large surface area. Oxygen diffuses from alveolar air into blood because of a concentration gradient, while carbon dioxide moves in the opposite direction. Haemoglobin helps transport oxygen in blood."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Alveolar walls are thin.",
-            "A rich capillary network maintains exchange.",
-            "Breathing continually renews alveolar air.",
-            "Diffusion is driven by concentration gradients."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Transport in human beings",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Transport in human beings",
-          "content": "The circulatory system transports oxygen, nutrients, hormones, carbon dioxide and other substances. The heart acts as a muscular pump. Arteries generally carry blood away from the heart, veins generally return blood to the heart, and capillaries provide thin exchange surfaces between blood and tissues. Humans show double circulation: blood passes through the heart twice during one complete circuit."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is separation of oxygenated and deoxygenated blood useful in humans?",
-          "answer": "Separation permits efficient delivery of oxygen-rich blood to body tissues. This supports the high energy demand of warm-blooded animals and helps maintain a stable body temperature and active metabolism."
-        },
-        {
-          "id": "life-processes-fig-1",
-          "title": "Human digestive system",
-          "caption": "Major organs involved in human nutrition.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human digestive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human digestive system</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Mouth → oesophagus → stomach → small intestine → large</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">intestine → rectum. Accessory glands: liver and pancreas. The</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">small intestine is the major site of digestion completion and</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">nutrient absorption.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Human digestive system"
-        },
-        {
-          "id": "life-processes-fig-3",
-          "title": "Double circulation",
-          "caption": "Pathway of blood in human double circulation.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Double circulation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b91c1c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Double circulation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Right side of heart → lungs → left side of heart → body</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">tissues → right side of heart. The pulmonary and systemic</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">circuits keep oxygenated and deoxygenated blood largely</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">separated.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Double circulation"
-        },
-        {
-          "id": "life-processes-fig-4",
-          "title": "Human heart pathway",
-          "caption": "Direction of blood flow through the four chambers.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human heart pathway\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human heart pathway</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Vena cava → right atrium → right ventricle → pulmonary artery</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">→ lungs → pulmonary veins → left atrium → left ventricle →</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">aorta.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Human heart pathway"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "The human heart and valves",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "The human heart and valves",
-          "content": "The heart has four chambers. The right atrium receives deoxygenated blood and passes it to the right ventricle, which pumps it to the lungs. Oxygenated blood returns to the left atrium and moves into the left ventricle, which pumps it through the aorta to the body. Valves prevent backflow and maintain one-way movement."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are valves important in the heart?",
-          "answer": "Valves open and close according to pressure differences so that blood moves in one direction. They prevent reverse flow when the chambers contract or relax."
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Transport in plants: xylem",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Transport in plants: xylem",
-          "content": "Plants do not have a pumping organ equivalent to the human heart. Water and minerals absorbed by roots move through xylem. Root pressure can push water upward, but transpiration from leaf surfaces creates a major pull. Cohesion between water molecules and adhesion to vessel walls help maintain a continuous water column."
-        },
-        {
-          "type": "think",
-          "question": "Why does transpiration help water rise in a tall plant?",
-          "answer": "Evaporation of water from leaf surfaces lowers water potential in the leaf and creates tension in the continuous water column. This transpiration pull can draw water upward through xylem."
-        },
-        {
-          "id": "life-processes-fig-7",
-          "title": "Xylem transport",
-          "caption": "Movement of water and minerals through xylem.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Xylem transport\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0369a1\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Xylem transport</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Roots absorb water and mineral ions. Xylem vessels conduct</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">them mainly upward. Root pressure can contribute, while</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">transpiration pull is a major driving force in tall plants.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Xylem transport"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Transport in plants: phloem",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Transport in plants: phloem",
-          "content": "Sugars made in leaves are transported to regions where they are needed or stored. Phloem translocation can move material from a source to a sink, and the direction can differ in different parts of the plant at the same time. Loading and unloading of sugars involve energy-dependent processes, so phloem transport is not simply passive diffusion."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is translocation?",
-          "answer": "Translocation is the transport of soluble organic food, mainly sugars, through phloem from source tissues such as mature leaves to sink tissues such as roots, fruits, seeds or growing regions."
-        },
-        {
-          "id": "life-processes-fig-8",
-          "title": "Phloem translocation",
-          "caption": "Translocation of food through phloem.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Phloem translocation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#a16207\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Phloem translocation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Leaves produce sugars. Phloem transports dissolved food from</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">source regions to sinks such as roots, fruits, seeds and</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">growing tissues. Direction can vary with source and sink</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">position.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Phloem translocation"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Excretion in humans",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Excretion in humans",
-          "content": "Cells produce metabolic wastes that must be removed to keep the internal environment suitable. The kidneys filter blood and regulate the composition of body fluids. Each nephron begins with filtration at the glomerulus and Bowman's capsule. Selective reabsorption returns useful substances and appropriate amounts of water to the blood. The remaining fluid forms urine."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is selective reabsorption?",
-          "answer": "Selective reabsorption is the process by which useful substances such as glucose, amino acids, suitable amounts of salts and water are taken back from the filtrate into the blood according to the body's needs."
-        },
-        {
-          "id": "life-processes-fig-5",
-          "title": "Nephron",
-          "caption": "Functional plan of a nephron.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Nephron\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0f766e\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Nephron</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Bowman&#x27;s capsule surrounds a glomerulus. Filtrate passes</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">through the renal tubule, where useful substances and water</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">are selectively reabsorbed. The remaining fluid becomes urine.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Nephron"
-        }
-      ]
-    },
-    {
-      "number": 12,
-      "title": "Dialysis and artificial waste removal",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Dialysis and artificial waste removal",
-          "content": "When kidneys cannot adequately remove wastes, dialysis can assist in maintaining the chemical balance of the blood. In haemodialysis, blood is circulated beside a dialysis fluid across a selectively permeable membrane. Small waste molecules diffuse into the fluid while larger blood components are retained. Dialysis supports waste removal but does not reproduce every function of healthy kidneys."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why does dialysis fluid not contain a high concentration of urea?",
-          "answer": "The purpose is to maintain a concentration gradient so urea can diffuse from the patient's blood into the dialysis fluid. The fluid is formulated to avoid unwanted loss of useful substances while facilitating waste removal."
-        },
-        {
-          "id": "life-processes-fig-12",
-          "title": "Dialysis concept",
-          "caption": "Basic principle used in haemodialysis.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Dialysis concept\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Dialysis concept</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Blood is passed through a dialysis apparatus where wastes such</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">as urea diffuse across a selectively permeable membrane into</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dialysing fluid. Useful balance is restored through controlled</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">treatment.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Dialysis concept"
-        }
-      ]
-    },
-    {
-      "number": 13,
-      "title": "Excretion in plants",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Excretion in plants",
-          "content": "Plants do not have a specialised excretory system comparable to animal kidneys. Gases may diffuse out through stomata and lenticels. Excess water is lost by transpiration, and some wastes can be stored in vacuoles, old leaves, bark or other tissues. Some substances are released into the surrounding soil or converted into less harmful forms."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Oxygen may leave through stomata during photosynthesis.",
-            "Carbon dioxide is produced during respiration.",
-            "Excess water can leave by transpiration.",
-            "Wastes may be stored in tissues later shed by the plant."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Aerobic and anaerobic respiration",
-      "blocks": [
-        {
-          "type": "comparison-table",
-          "title": "Aerobic and anaerobic respiration",
-          "headers": [
-            "Feature",
-            "Aerobic respiration",
-            "Anaerobic respiration"
-          ],
-          "rows": [
-            [
-              "Oxygen",
-              "Usually requires oxygen",
-              "Occurs without sufficient oxygen"
-            ],
-            [
-              "Energy release",
-              "Relatively large",
-              "Relatively small"
-            ],
-            [
-              "End products",
-              "Carbon dioxide and water",
-              "Depends on organism; for example ethanol + carbon dioxide in yeast"
-            ],
-            [
-              "Typical site",
-              "Cytoplasm followed by mitochondria in eukaryotic cells",
-              "Cytoplasm"
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Arteries and veins",
-      "blocks": [
-        {
-          "type": "comparison-table",
-          "title": "Arteries and veins",
-          "headers": [
-            "Feature",
-            "Arteries",
-            "Veins"
-          ],
-          "rows": [
-            [
-              "Direction",
-              "Away from heart",
-              "Towards heart"
-            ],
-            [
-              "Walls",
-              "Thick and elastic",
-              "Thinner, less elastic"
-            ],
-            [
-              "Valves",
-              "Generally absent",
-              "Present in many veins"
-            ],
-            [
-              "Pressure",
-              "Higher",
-              "Lower"
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Case: A runner after a sprint",
-      "blocks": [
-        {
-          "type": "caseStudy",
-          "title": "Case: A runner after a sprint",
-          "text": "A student finishes a short sprint and breathes rapidly. The leg muscles may temporarily experience oxygen shortage.",
-          "questions": [
-            {
-              "question": "Why does breathing remain fast immediately after exercise?",
-              "answer": "Rapid breathing helps supply more oxygen and remove carbon dioxide. It also supports recovery from the temporary oxygen deficit associated with strenuous activity."
-            },
-            {
-              "question": "Why can muscles ache after very intense activity?",
-              "answer": "During oxygen shortage, muscle cells can rely more on anaerobic respiration, producing lactic acid. Accumulation and associated changes in muscle conditions can contribute to fatigue and discomfort."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Board Practice",
-      "blocks": [
-        {
-          "type": "practice",
-          "title": "Board Practice",
-          "question": "Explain the pathway of food through the human alimentary canal.",
-          "answer": "Food passes from the mouth to the oesophagus, stomach, small intestine, large intestine, rectum and anus. Digestion begins in the mouth, continues in the stomach and is completed mainly in the small intestine. Nutrients are absorbed through the intestinal wall, while water is largely reabsorbed in the large intestine."
-        }
-      ]
-    },
-    {
-      "title": "Board Practice",
-      "blocks": [
-        {
-          "type": "practice",
-          "title": "Board Practice",
-          "question": "Describe the structure and function of a nephron.",
-          "answer": "A nephron consists of a glomerulus enclosed by Bowman's capsule followed by a renal tubule. Blood is filtered at the glomerulus. The filtrate then passes through the tubule, where useful substances and appropriate amounts of water and ions are selectively reabsorbed. The remaining fluid is urine."
-        }
-      ]
-    }
-  ],
-  "description": "Living organisms maintain themselves through coordinated processes such as nutrition, respiration, transport and excretion. These processes keep cells supplied with materials, energy and suitable internal conditions. The chapter moves from the need for maintenance to the organs and mechanisms that perform these functions in plants and animals.",
-  "summary": "Life processes are the coordinated activities that maintain an organism. Nutrition supplies raw materials and energy sources; photosynthesis is the principal autotrophic pathway in green plants. Human digestion converts food into absorbable molecules. Respiration releases usable energy from food, while lungs provide efficient gas exchange. Blood and the heart transport materials in humans, whereas xylem and phloem perform major transport functions in plants. Excretion removes metabolic wastes; kidneys perform filtration and selective reabsorption through nephrons. Together these processes maintain the internal conditions required for life.",
-  "rendering": "compatible-with-concept-quizzer-universal-renderer"
+  ]
 };
+
+/* New unique board expansion; all previous Life Processes data above is preserved. */
+(function(){ if(!window.ChapterData||!Array.isArray(window.ChapterData.sections)) return; window.ChapterData.sections.push([
+  {
+    "title": "Board Expansion — Energy, digestion and transport",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Cellular maintenance and ATP",
+        "text": "A living cell constantly synthesises molecules, repairs structures, maintains membrane gradients and performs active transport. These activities require a usable energy supply. Food stores chemical energy, but cells do not simply release all of it in one uncontrolled step. Respiration transfers energy through a sequence of reactions and captures part of it in ATP. ATP can then power cellular work. This explains why nutrition and respiration are connected: nutrition supplies the raw material and respiration makes energy available in a controlled form."
+      },
+      {
+        "type": "paragraph",
+        "title": "Absorption versus assimilation",
+        "text": "Digestion changes complex food into simpler soluble molecules. Absorption is the movement of those digested substances through the intestinal wall into blood or lymph. Assimilation is the later use of absorbed substances by cells. Glucose may enter respiration, amino acids can be assembled into proteins, and absorbed fat products can be incorporated into membranes or stored. Keeping these terms separate makes long-answer responses much more precise."
+      },
+      {
+        "type": "realImage",
+        "title": "Human heart — real photograph",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_Human_Heart.jpg",
+        "alt": "Real photograph of a human heart",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "CC0 1.0",
+        "source": "Wikimedia Commons — The Human Heart.jpg"
+      },
+      {
+        "type": "realImage",
+        "title": "Human lungs — real photograph",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Human_lungs.png",
+        "alt": "Real photograph of human lungs",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "CC BY-SA 4.0",
+        "source": "Wikimedia Commons — Human lungs.png"
+      },
+      {
+        "type": "realImage",
+        "title": "Human kidneys — real photograph",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Human_kidneys.jpg",
+        "alt": "Real photograph of human kidneys",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "CC BY 4.0",
+        "source": "Wikimedia Commons — Human kidneys.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Board Expansion — Plant exchange and human digestion",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Stomata and gas exchange",
+        "text": "Stomata are microscopic pores controlled by guard cells. They provide a pathway for carbon dioxide to enter photosynthetic tissues and for oxygen and water vapour to leave. Their opening must be regulated because photosynthesis needs carbon dioxide while excessive water loss can damage the plant. Thus stomata link gas exchange, photosynthesis and transpiration in one coordinated process."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the small intestine is efficient",
+        "text": "The small intestine is long and has folds and villi that greatly enlarge the absorptive surface. The villi contain blood capillaries and lymph vessels, allowing absorbed substances to be transported away. Rapid removal helps maintain concentration differences and supports continued absorption. The large surface is therefore a structural adaptation to the functional need for efficient nutrient uptake."
+      },
+      {
+        "type": "realImage",
+        "title": "Digestive system — real photograph",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_Digestive_System.jpg",
+        "alt": "Real photograph of the human digestive system",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "CC0 1.0",
+        "source": "Wikimedia Commons — The Digestive System.jpg"
+      },
+      {
+        "type": "realImage",
+        "title": "Leaf stoma under microscope",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stoma_under_optical_microscope.jpg",
+        "alt": "Microscope photograph of a leaf stoma",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "CC0 1.0",
+        "source": "Wikimedia Commons — Stoma under optical microscope.jpg"
+      },
+      {
+        "type": "realImage",
+        "title": "Blood cells — microscope photograph",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blood_cells.jpg",
+        "alt": "Microscope photograph of blood cells",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "Public domain",
+        "source": "Wikimedia Commons — Blood cells.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Board Expansion — Excretion and plant transport",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Selective urine formation",
+        "text": "Urine formation is a selective process. Filtration produces a fluid containing water and many small dissolved substances. The nephron then reabsorbs useful substances in amounts needed by the body and adjusts water and ion content. The final urine contains nitrogenous wastes and excess substances that the body needs to eliminate. The sequence is therefore filtration, selective reabsorption and final adjustment rather than simple removal of all filtered material."
+      },
+      {
+        "type": "paragraph",
+        "title": "Transport is tied to distance",
+        "text": "Diffusion is effective over short distances but becomes inefficient as body size increases. Large organisms need specialised systems to deliver oxygen and nutrients and remove wastes. Human circulation uses the heart and blood vessels, while plants use xylem and phloem. Xylem mainly carries water and mineral ions, whereas phloem translocates organic food from source tissues to tissues that need or store it."
+      },
+      {
+        "type": "realImage",
+        "title": "Kidney and nephron",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kidney_and_Nephron.jpg",
+        "alt": "Real photograph showing a kidney and nephron",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "CC0 1.0",
+        "source": "Wikimedia Commons — Kidney and Nephron.jpg"
+      },
+      {
+        "type": "realImage",
+        "title": "Human hair root — microscope",
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Human_hair_root01.jpg",
+        "alt": "Microscope photograph of a human hair root",
+        "caption": "Real Wikimedia Commons image placed beside the related concept.",
+        "license": "GFDL/public-domain status noted on Commons",
+        "source": "Wikimedia Commons — Human hair root01.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Board Answer Bank — complete answers",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Long-answer board practice",
+        "questions": [
+          {
+            "question": "Why is the small intestine suited to absorption?",
+            "answer": "Its long length, folds and numerous villi provide a very large surface area. The villi have thin surfaces and contain blood capillaries and lymph vessels, so absorbed nutrients are transported away efficiently. This structural arrangement supports rapid and continuous absorption of digested food."
+          },
+          {
+            "question": "Why is double circulation useful in humans?",
+            "answer": "Blood passes through the heart twice in one complete circuit: once through the pulmonary circulation and once through the systemic circulation. This keeps oxygenated and deoxygenated blood largely separate and allows blood to reach the lungs and body tissues at appropriate pressures. Efficient oxygen delivery supports the high energy demand of human tissues."
+          },
+          {
+            "question": "How does transpiration assist water movement in plants?",
+            "answer": "Water evaporating from leaf surfaces creates a pull that contributes to upward movement of water through xylem. The continuous column of water is supported by cohesion between water molecules and adhesion with xylem walls. The same upward stream carries dissolved mineral ions from the roots towards aerial parts."
+          },
+          {
+            "question": "Why cannot a large organism depend only on diffusion?",
+            "answer": "Diffusion becomes too slow over long distances. Cells deep inside a large organism are far from the external environment and require rapid delivery of oxygen, nutrients and hormones as well as removal of wastes. Specialised transport systems overcome this distance limitation."
+          }
+        ]
+      }
+    ]
+  }
+]); })();

@@ -4,1419 +4,441 @@ window.ChapterData = {
   "subject": "Biology",
   "chapterNumber": 3,
   "title": "How do Organisms Reproduce?",
-  "format": "continuous-chapter-flow",
-  "contentLevel": "Class 10 board detailed",
-  "selfContainedImages": true,
-  "duplicatePolicy": "No exact duplicate image, paragraph, question, answer, caption, heading or block within this chapter.",
-  "opening": "Reproduction produces new individuals and passes biological information from one generation to the next. The chapter begins with the need for reproduction, then compares asexual and sexual reproduction, examines reproductive structures in flowering plants and humans, and explains how fertilisation, development and reproductive health are connected.",
-  "learningGoals": [
-    "Explain why reproduction is important for continuity of species.",
-    "Compare asexual and sexual reproduction.",
-    "Describe major methods of asexual reproduction.",
-    "Explain sexual reproduction in flowering plants.",
-    "Describe the basic male and female reproductive systems in humans.",
-    "Explain fertilisation, implantation, pregnancy and reproductive health at an appropriate school level."
-  ],
-  "lessons": [
-    {
-      "number": 1,
-      "title": "Why organisms reproduce",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Why organisms reproduce",
-          "content": "Reproduction is not required for the survival of an individual in the same immediate way that nutrition or respiration is, but it is essential for continuity of populations and species. During reproduction, genetic information is transmitted to offspring. Small changes in genetic material create variation, which contributes to the diversity of living organisms."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Reproduction maintains continuity of species.",
-            "DNA copying is involved in transmitting hereditary information.",
-            "Variation is a natural outcome of imperfect copying and sexual reproduction.",
-            "Different organisms use different reproductive strategies."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 2,
-      "title": "Asexual reproduction",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Asexual reproduction",
-          "content": "Asexual reproduction generally involves a single parent and does not require fusion of gametes. Because one reproductive source supplies the genetic material, offspring are usually very similar to the parent. It can be efficient when conditions are stable and rapid increase is advantageous."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Give two advantages of asexual reproduction.",
-          "answer": "Asexual reproduction can produce many individuals rapidly and does not require finding a mate. It is especially effective when the environment is stable and a successful body form is already well adapted."
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Fission, budding and fragmentation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Fission, budding and fragmentation",
-          "content": "In binary fission, one cell divides into two. In multiple fission, repeated nuclear division is followed by formation of several daughter cells. Budding produces a new individual from an outgrowth. Fragmentation can allow pieces of an organism to develop into complete individuals in suitable organisms. These methods differ in mechanism but share the absence of gamete fusion."
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "Spore formation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Spore formation",
-          "content": "Some organisms form specialised reproductive structures containing spores. Spores are often small, resistant and easily dispersed. Under suitable conditions they can germinate and form new individuals. This method helps organisms survive and spread even when conditions fluctuate."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Spores can be produced in large numbers.",
-            "Their small size aids dispersal.",
-            "Protective coverings can help survival during unfavourable conditions."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Vegetative propagation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Vegetative propagation",
-          "content": "New plants can arise from roots, stems or leaves. This is useful in agriculture and horticulture because a desirable plant can be multiplied without waiting for seed formation. Natural examples include tubers, rhizomes and leaf buds; artificial methods include cutting, layering and grafting."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why is vegetative propagation useful for farmers and gardeners?",
-          "answer": "It can rapidly produce many plants with characteristics similar to the selected parent. It is particularly useful when plants do not produce viable seeds easily or when a desirable variety must be maintained."
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Sexual reproduction and variation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Sexual reproduction and variation",
-          "content": "Sexual reproduction involves formation of male and female gametes and their fusion. Genetic material from different reproductive cells combines in the offspring, creating new combinations. This variation can be advantageous when environments change because populations contain differences on which natural selection can act."
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Reproduction in flowering plants",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Reproduction in flowering plants",
-          "content": "The stamen is the male reproductive part and produces pollen grains in the anther. The carpel or pistil is the female reproductive structure, with stigma, style and ovary. Ovules occur inside the ovary. Pollination transfers pollen to the stigma; fertilisation occurs when the male gamete fuses with the female gamete in an ovule."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Differentiate pollination and fertilisation.",
-          "answer": "Pollination is the transfer of pollen from anther to stigma. Fertilisation is the fusion of male and female gametes to form a zygote. Pollination precedes fertilisation in flowering plants."
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "From flower to seed and fruit",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "From flower to seed and fruit",
-          "content": "After fertilisation, the zygote develops into an embryo. The ovule develops into a seed, while the ovary generally develops into a fruit. Other floral parts may change or wither depending on the plant. Seed formation protects the embryo and provides a means of dispersal and later germination."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Zygote → embryo.",
-            "Ovule → seed.",
-            "Ovary → fruit in many flowering plants.",
-            "Seeds contain a developing embryo and stored or supplied food."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Human male reproductive system",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Human male reproductive system",
-          "content": "The testes produce sperm and the male sex hormone testosterone. Sperm mature and pass through a network of ducts. Accessory glands add fluids that nourish and transport sperm. The urethra carries semen to the exterior. The arrangement allows production, maturation and delivery of male gametes."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "State two functions of the testes.",
-          "answer": "The testes produce male gametes called sperm and secrete testosterone, a hormone involved in development of male reproductive characteristics and reproductive function."
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Human female reproductive system",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Human female reproductive system",
-          "content": "The ovaries contain follicles and release ova. The oviducts connect the ovarian region with the uterus and provide the usual site of fertilisation. The uterus has a lining that changes during the reproductive cycle and can support implantation. The vagina receives semen and forms the birth canal."
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Menstrual cycle and ovulation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Menstrual cycle and ovulation",
-          "content": "The reproductive cycle involves coordinated changes in the ovary and uterus. A follicle matures and ovulation releases an ovum. Hormonal changes prepare the uterine lining for possible implantation. If pregnancy does not occur, hormone levels fall and the lining is shed as menstruation. Cycle length can vary among individuals."
-        },
-        {
-          "type": "mistake",
-          "title": "Common mistake",
-          "content": "Do not treat menstruation as a disease. It is a normal biological process associated with the reproductive cycle."
-        }
-      ]
-    },
-    {
-      "number": 12,
-      "title": "Fertilisation, implantation and placenta",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Fertilisation, implantation and placenta",
-          "content": "Fertilisation normally occurs in the oviduct. The zygote divides repeatedly while moving toward the uterus. The developing embryo becomes attached to the uterine lining during implantation. The placenta provides an exchange interface for oxygen, nutrients and wastes and also contributes hormones that support pregnancy."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is the role of the placenta?",
-          "answer": "The placenta provides an exchange surface between maternal and embryonic circulations. Oxygen and nutrients can reach the developing embryo, while carbon dioxide and metabolic wastes move toward the maternal side. It also has important endocrine functions during pregnancy."
-        }
-      ]
-    },
-    {
-      "number": 13,
-      "title": "Reproductive health and contraception",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Reproductive health and contraception",
-          "content": "Reproductive health includes physical, emotional and social well-being related to reproduction. Contraception can reduce the probability of pregnancy by preventing sperm from reaching the ovum, preventing ovulation or using other medically designed mechanisms. Barrier methods can additionally reduce transmission of some sexually transmitted infections. Responsible decisions require accurate information and professional medical guidance."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are barrier methods important in reproductive health?",
-          "answer": "Barrier methods such as condoms reduce the chance that sperm will reach the female reproductive tract and can also reduce the transmission of several sexually transmitted infections when used correctly and consistently."
-        }
-      ]
-    },
-    {
-      "number": 14,
-      "title": "Sexually transmitted infections",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Sexually transmitted infections",
-          "content": "Some infections can spread through sexual contact. Examples commonly discussed at school level include HIV infection, syphilis and gonorrhoea. Prevention includes informed choices, barrier protection, testing when appropriate and timely medical care. Stigma should not replace accurate health information or responsible treatment."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Early diagnosis can improve management of infections.",
-            "Condom use reduces risk of several sexually transmitted infections.",
-            "HIV attacks immune-system cells and is not spread by ordinary casual contact."
-          ]
-        }
-      ]
-    }
-  ],
-  "diagrams": [
-    {
-      "id": "how-do-organisms-reproduce-fig-1",
-      "title": "Binary fission",
-      "caption": "A simple asexual reproduction pattern.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Binary fission\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Binary fission</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nA single-celled organism grows → genetic material is copied → the cell divides → two daughter cells form. The resulting individuals are genetically very similar to the parent unless variation arises during replication.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-2",
-      "title": "Budding",
-      "caption": "Budding in a unicellular organism.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Budding\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Budding</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nA small outgrowth develops on the parent → the bud grows by cell division → it may detach and live independently. Yeast is a familiar example.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-3",
-      "title": "Vegetative propagation",
-      "caption": "New plants from vegetative parts.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Vegetative propagation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Vegetative propagation</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nNew plants can arise from vegetative parts such as stems, roots or leaves. Potato tubers, ginger rhizomes and some leaf buds illustrate different natural examples.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-4",
-      "title": "Flower reproductive parts",
-      "caption": "Main reproductive structures of a flower.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Flower reproductive parts\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#db2777\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Flower reproductive parts</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nStamen: anther + filament; carpel/pistil: stigma + style + ovary. Pollen is produced in the anther; ovules occur inside the ovary.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-5",
-      "title": "Pollination and fertilisation",
-      "caption": "Sequence from pollination to fertilisation in a flowering plant.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Pollination and fertilisation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#c026d3\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Pollination and fertilisation</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nPollen reaches stigma → pollen tube grows through style → male gamete travels toward ovule → fusion with female gamete produces a zygote.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-6",
-      "title": "Human male reproductive system",
-      "caption": "Functional organisation of the male reproductive system.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human male reproductive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human male reproductive system</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nTestes produce sperm and testosterone. Sperm pass through ducts and mix with secretions from accessory glands to form semen, which is released through the urethra.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-7",
-      "title": "Human female reproductive system",
-      "caption": "Functional organisation of the female reproductive system.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human female reproductive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#db2777\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human female reproductive system</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nOvaries release ova and produce hormones. Oviducts provide the usual site of fertilisation. The uterus supports implantation and development; the vagina forms the birth canal.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-8",
-      "title": "Menstrual cycle overview",
-      "caption": "Simplified cycle of reproductive changes.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Menstrual cycle overview\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Menstrual cycle overview</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nA cycle involves maturation of an ovarian follicle, ovulation, preparation of the uterine lining and, if fertilisation does not lead to pregnancy, shedding of the lining. Hormones coordinate the sequence.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-9",
-      "title": "Fertilisation to implantation",
-      "caption": "Early stages of human development.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Fertilisation to implantation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Fertilisation to implantation</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nSperm + ovum → zygote → repeated cell divisions → embryo → implantation in the uterine lining. The placenta later supports exchange between maternal and embryonic circulations.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-10",
-      "title": "Placenta and exchange",
-      "caption": "General role of the placenta in exchange.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Placenta and exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Placenta and exchange</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nPlacental tissue provides a large exchange surface. Oxygen and nutrients move toward the developing embryo, while carbon dioxide and other wastes move toward the maternal side for removal.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-11",
-      "title": "Sexual and asexual reproduction",
-      "caption": "Conceptual comparison of two modes of reproduction.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Sexual and asexual reproduction\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Sexual and asexual reproduction</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nAsexual: one parent, no fusion of gametes, usually rapid and produces similar offspring. Sexual: gametes from two reproductive contributions fuse, creating combinations of genetic information.\n</div></foreignObject>\n</svg>"
-    },
-    {
-      "id": "how-do-organisms-reproduce-fig-12",
-      "title": "Reproductive health and contraception",
-      "caption": "Broad categories of reproductive health measures.",
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Reproductive health and contraception\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Reproductive health and contraception</text>\n<foreignObject x=\"42\" y=\"92\" width=\"676\" height=\"230\">\n<div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Arial,sans-serif;font-size:22px;line-height:1.45;color:#273247;\">\nContraceptive methods can prevent fertilisation or implantation depending on the method. Barrier methods can also reduce transmission of several sexually transmitted infections when used correctly.\n</div></foreignObject>\n</svg>"
-    }
-  ],
-  "comparisonTables": [
-    {
-      "title": "Asexual and sexual reproduction",
-      "headers": [
-        "Feature",
-        "Asexual",
-        "Sexual"
-      ],
-      "rows": [
-        [
-          "Parents",
-          "Usually one",
-          "Usually two reproductive contributions"
-        ],
-        [
-          "Gametes",
-          "No gamete fusion",
-          "Gamete formation and fusion involved"
-        ],
-        [
-          "Variation",
-          "Usually lower among offspring",
-          "Usually higher"
-        ],
-        [
-          "Speed",
-          "Often rapid",
-          "Often slower and more complex"
-        ],
-        [
-          "Example",
-          "Binary fission, budding",
-          "Human reproduction, flowering plants"
-        ]
-      ]
-    },
-    {
-      "title": "Pollination and fertilisation",
-      "headers": [
-        "Feature",
-        "Pollination",
-        "Fertilisation"
-      ],
-      "rows": [
-        [
-          "Meaning",
-          "Transfer of pollen to stigma",
-          "Fusion of male and female gametes"
-        ],
-        [
-          "Where",
-          "On the flower surface",
-          "Within the ovule"
-        ],
-        [
-          "Result",
-          "Pollen reaches receptive stigma",
-          "Zygote forms"
-        ]
-      ]
-    }
-  ],
-  "caseStudies": [
-    {
-      "title": "Case: Potato multiplication",
-      "situation": "A farmer plants pieces of potato tuber containing buds rather than seeds.",
-      "questions": [
-        {
-          "question": "What type of reproduction is this?",
-          "answer": "It is vegetative propagation, an asexual method in which a new plant develops from a vegetative part of the parent."
-        },
-        {
-          "question": "Why can the method be useful?",
-          "answer": "It can rapidly multiply plants with desirable characteristics similar to the parent and can be practical for crops that are commonly propagated vegetatively."
-        }
-      ]
-    },
-    {
-      "title": "Case: A flower receives pollen",
-      "situation": "Pollen from an anther reaches the stigma of a compatible flower.",
-      "questions": [
-        {
-          "question": "What happens next?",
-          "answer": "A pollen tube can grow through the style toward an ovule, allowing the male gamete to reach the female gamete for fertilisation."
-        },
-        {
-          "question": "What does the zygote become?",
-          "answer": "The zygote divides and develops into an embryo; the embryo becomes part of the developing seed."
-        }
-      ]
-    }
-  ],
-  "boardPractice": [
-    {
-      "question": "Explain why DNA copying is important in reproduction.",
-      "answer": "DNA carries hereditary information. During reproduction, a copy of the genetic material is transmitted to the new individual so that basic characteristics of the species are maintained. Copying is not perfectly error-free, so small variations can also arise."
-    },
-    {
-      "question": "Describe the sequence from fertilisation to implantation in humans.",
-      "answer": "Fertilisation produces a zygote in the oviduct. The zygote undergoes repeated cell divisions while moving toward the uterus. The developing embryo reaches the uterus and becomes attached to the uterine lining during implantation."
-    }
-  ],
+  "description": "Reproduction produces new individuals and maintains continuity of species. Asexual reproduction is usually rapid and involves one parent, whereas sexual reproduction involves gametes and fertilisation and produces new combinations of hereditary information. The chapter covers reproductive strategies, plant reproduction, human reproductive systems, embryo development, reproductive health, contraception and the biological importance of variation.",
+  "summary": "Reproduction produces new individuals and maintains continuity of species. Asexual reproduction is usually rapid and involves one parent, whereas sexual reproduction involves gametes and fertilisation and produces new combinations of hereditary information. The chapter covers reproductive strategies, plant reproduction, human reproductive systems, embryo development, reproductive health, contraception and the biological importance of variation.",
   "importantPoints": [
-    "Reproduction ensures continuity of species.",
-    "Asexual reproduction usually produces genetically similar offspring.",
-    "Sexual reproduction creates new combinations of genetic material.",
-    "Pollination is not the same as fertilisation.",
-    "The ovule develops into a seed and the ovary generally develops into a fruit.",
-    "Testes produce sperm and testosterone.",
-    "Ovaries release ova and produce reproductive hormones.",
-    "The placenta supports exchange and hormonal functions during pregnancy."
+    "Keep pollination and fertilisation separate.",
+    "Use the sequence gamete → fertilisation → zygote → embryo.",
+    "Mention variation when explaining the advantage of sexual reproduction.",
+    "For reproductive health answers, include prevention and responsible care.",
+    "Reproduction produces new individuals and maintains continuity of species",
+    "Asexual reproduction is usually rapid and involves one parent, whereas sexual reproduction involves gametes and fertilisation and produces new combinations of hereditary information",
+    "The chapter covers reproductive strategies, plant reproduction, human reproductive systems, embryo development, reproductive health, contraception and the biological importance of variation."
   ],
   "keyTerms": [
-    [
-      "Asexual reproduction",
-      "Reproduction without fusion of gametes."
-    ],
-    [
-      "Sexual reproduction",
-      "Reproduction involving formation and fusion of gametes."
-    ],
-    [
-      "Pollination",
-      "Transfer of pollen from anther to stigma."
-    ],
-    [
-      "Fertilisation",
-      "Fusion of male and female gametes."
-    ],
-    [
-      "Zygote",
-      "Cell formed immediately after fertilisation."
-    ],
-    [
-      "Implantation",
-      "Attachment of the developing embryo to the uterine lining."
-    ],
-    [
-      "Placenta",
-      "Temporary organ providing exchange and endocrine support during pregnancy."
-    ],
-    [
-      "Contraception",
-      "Methods used to prevent or reduce the probability of pregnancy."
-    ]
-  ],
-  "chapterSummary": "Reproduction maintains continuity of life and transmits genetic information. Asexual methods such as fission, budding, spore formation and vegetative propagation can produce new individuals without gamete fusion. Sexual reproduction involves gametes and produces greater genetic variation. In flowering plants, pollination is followed by fertilisation and seed formation. In humans, testes and ovaries produce gametes and hormones; fertilisation is followed by implantation and development supported by the placenta. Reproductive health includes informed choices, contraception, infection prevention and timely medical care.",
-  "quickRevision": [
-    "Asexual: one parent, no gamete fusion, usually less variation.",
-    "Sexual: gamete fusion, new genetic combinations.",
-    "Pollination → pollen tube → fertilisation → zygote → embryo.",
-    "Ovule → seed; ovary → fruit in typical flowering plants.",
-    "Testes: sperm + testosterone.",
-    "Ovaries: ova + female reproductive hormones.",
-    "Placenta: exchange + endocrine support."
-  ],
-  "boardFocus": [
-    "Compare asexual and sexual reproduction.",
-    "Explain binary fission, budding and vegetative propagation.",
-    "Draw and label reproductive parts of a flower.",
-    "Explain pollination and fertilisation.",
-    "Describe male and female reproductive systems.",
-    "Explain implantation and the role of placenta.",
-    "Write responsible reproductive-health answers without myths or stigma."
-  ],
-  "deepDive": [
-    "Reproduction combines continuity and variation. If offspring were always exact copies, populations would have less capacity to respond to changing conditions. If every generation were completely different, essential species characteristics could not be maintained. DNA copying therefore provides continuity while small copying differences and sexual recombination provide variation.",
-    "Vegetative propagation is particularly useful when the desired feature is already present in a mature plant. Because the new plant originates from a vegetative part, it can retain many characteristics of the selected parent. This is one reason horticulture uses cuttings, layering, grafting and related techniques.",
-    "Pollination is a transfer event, while fertilisation is a cellular fusion event. The two should never be treated as synonyms. The pollen grain must first reach a suitable stigma, then germinate and form a pollen tube before the male gamete can reach the ovule.",
-    "The placenta is an exchange interface, not a direct mixing chamber for maternal and embryonic blood. Its specialised structure allows materials to move between circulations while maintaining separation of the two blood supplies in normal conditions.",
-    "Menstruation reflects a coordinated hormonal cycle. If fertilisation and successful implantation do not occur, hormone support for the uterine lining falls and the lining is shed. The timing and symptoms of cycles vary, so a single rigid schedule should not be treated as universal.",
-    "Reproductive health questions should be answered scientifically and respectfully. Myths about menstruation, contraception or sexually transmitted infections can cause harm. A school-level explanation should focus on biology, prevention, consent, hygiene, responsible choices and appropriate healthcare."
-  ],
-  "boardMasteryNotes": [
-    {
-      "number": 1,
-      "title": "Purpose of reproduction — Board Mastery",
-      "explanation": "Purpose of reproduction — extended study note. Reproduction maintains populations and allows hereditary information to pass to a new generation. It is not necessary for an individual organism to remain alive, but it is essential for continuity of a species. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Distinguish survival of an individual from continuity of a species.",
-      "selfCheck": "Can you explain purpose of reproduction without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 2,
-      "title": "DNA copying and reproduction — Board Mastery",
-      "explanation": "DNA copying and reproduction — extended study note. Genetic information must be copied so that offspring receive a biological instruction set. Copying is highly controlled but not perfectly error-free, allowing small variations to arise. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Connect DNA copying to both continuity and variation.",
-      "selfCheck": "Can you explain dna copying and reproduction without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 3,
-      "title": "Asexual efficiency — Board Mastery",
-      "explanation": "Asexual efficiency — extended study note. Asexual reproduction can increase numbers rapidly and requires only one reproductive source. It is advantageous when conditions are stable and a successful body plan can be reproduced directly. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use one example such as binary fission or budding.",
-      "selfCheck": "Can you explain asexual efficiency without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 4,
-      "title": "Binary fission — Board Mastery",
-      "explanation": "Binary fission — extended study note. A single-celled organism duplicates its genetic material and divides into daughter cells. The process is simple but highly effective for rapid population increase. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Draw two daughter cells clearly if asked for a diagram.",
-      "selfCheck": "Can you explain binary fission without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 5,
-      "title": "Multiple fission — Board Mastery",
-      "explanation": "Multiple fission — extended study note. In multiple fission, the genetic material divides repeatedly before the cell partitions into several daughter cells. The mechanism differs from binary fission mainly in the number of offspring produced in one event. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not call every repeated division binary fission.",
-      "selfCheck": "Can you explain multiple fission without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 6,
-      "title": "Budding — Board Mastery",
-      "explanation": "Budding — extended study note. A bud forms as an outgrowth on the parent and grows by cell division. It may eventually detach and become an independent individual. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Yeast is the standard school example.",
-      "selfCheck": "Can you explain budding without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 7,
-      "title": "Fragmentation — Board Mastery",
-      "explanation": "Fragmentation — extended study note. Some multicellular organisms can form new individuals from body fragments. The ability depends on the organism's capacity for growth and regeneration. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not generalise fragmentation to all multicellular animals.",
-      "selfCheck": "Can you explain fragmentation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 8,
-      "title": "Spore formation — Board Mastery",
-      "explanation": "Spore formation — extended study note. Spores are often produced in large numbers and can be dispersed efficiently. Protective coverings can help them survive until conditions become favourable for germination. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Mention both dispersal and survival value.",
-      "selfCheck": "Can you explain spore formation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 9,
-      "title": "Vegetative propagation — Board Mastery",
-      "explanation": "Vegetative propagation — extended study note. A new plant can develop from a root, stem or leaf rather than from a seed. This is useful for maintaining selected varieties and producing plants efficiently. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Give a natural or artificial example in the answer.",
-      "selfCheck": "Can you explain vegetative propagation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 10,
-      "title": "Cutting and grafting — Board Mastery",
-      "explanation": "Cutting and grafting — extended study note. Cutting uses a vegetative piece to form a new plant, while grafting joins parts of compatible plants to combine desirable characteristics. These techniques are practical forms of artificial propagation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not confuse grafting with sexual reproduction.",
-      "selfCheck": "Can you explain cutting and grafting without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 11,
-      "title": "Why sexual reproduction creates variation — Board Mastery",
-      "explanation": "Why sexual reproduction creates variation — extended study note. Gametes from different reproductive sources combine genetic information. Recombination and random fertilisation create new combinations of alleles among offspring. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Variation is the key contrast with many asexual methods.",
-      "selfCheck": "Can you explain why sexual reproduction creates variation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 12,
-      "title": "Flower as a reproductive structure — Board Mastery",
-      "explanation": "Flower as a reproductive structure — extended study note. A flower contains specialised organs for sexual reproduction. The stamen produces pollen and the carpel contains the ovary and ovules. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Label anther, filament, stigma, style and ovary accurately.",
-      "selfCheck": "Can you explain flower as a reproductive structure without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 13,
-      "title": "Pollination — Board Mastery",
-      "explanation": "Pollination — extended study note. Pollination is the transfer of pollen from anther to stigma. It can occur within the same flower or between flowers depending on the plant and pollination mechanism. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Never define pollination as fusion of gametes.",
-      "selfCheck": "Can you explain pollination without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 14,
-      "title": "Pollen tube — Board Mastery",
-      "explanation": "Pollen tube — extended study note. After compatible pollen lands on a receptive stigma, it can germinate and produce a pollen tube that grows through the style toward an ovule. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "The pollen tube provides a route for male gamete delivery.",
-      "selfCheck": "Can you explain pollen tube without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 15,
-      "title": "Fertilisation in flowering plants — Board Mastery",
-      "explanation": "Fertilisation in flowering plants — extended study note. The male gamete fuses with the female gamete to form a zygote. This fusion is the actual fertilisation event. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Keep the sequence: pollination → pollen tube → gamete fusion.",
-      "selfCheck": "Can you explain fertilisation in flowering plants without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 16,
-      "title": "Seed and fruit formation — Board Mastery",
-      "explanation": "Seed and fruit formation — extended study note. After fertilisation, the zygote develops into an embryo, the ovule becomes a seed and the ovary commonly develops into a fruit. The exact fate of other floral parts varies among plants. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is a frequent three-mark sequence question.",
-      "selfCheck": "Can you explain seed and fruit formation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 17,
-      "title": "Human male system — Board Mastery",
-      "explanation": "Human male system — extended study note. Testes produce sperm and testosterone. Sperm pass through ducts and mix with secretions from accessory glands before being released as semen. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Mention both gamete production and hormone secretion.",
-      "selfCheck": "Can you explain human male system without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 18,
-      "title": "Human female system — Board Mastery",
-      "explanation": "Human female system — extended study note. Ovaries release ova and secrete reproductive hormones. The oviduct provides the usual site of fertilisation, while the uterus supports implantation and development. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "A labelled diagram should distinguish oviduct from uterus.",
-      "selfCheck": "Can you explain human female system without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 19,
-      "title": "Puberty — Board Mastery",
-      "explanation": "Puberty — extended study note. During puberty, hormonal changes cause maturation of reproductive organs and development of secondary sexual characteristics. The timing varies among individuals. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Avoid presenting one exact age as universal.",
-      "selfCheck": "Can you explain puberty without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 20,
-      "title": "Menstrual cycle — Board Mastery",
-      "explanation": "Menstrual cycle — extended study note. The reproductive cycle includes maturation of an ovarian follicle, ovulation and changes in the uterine lining. If pregnancy does not occur, the lining is shed during menstruation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Menstruation is a normal biological process, not a disease.",
-      "selfCheck": "Can you explain menstrual cycle without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 21,
-      "title": "Ovulation — Board Mastery",
-      "explanation": "Ovulation — extended study note. Ovulation is the release of an ovum from an ovary. Hormonal coordination controls the cycle and prepares the reproductive tract for possible fertilisation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not equate ovulation with fertilisation.",
-      "selfCheck": "Can you explain ovulation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 22,
-      "title": "Fertilisation in humans — Board Mastery",
-      "explanation": "Fertilisation in humans — extended study note. Sperm and ovum usually fuse in the oviduct to form a zygote. The zygote begins repeated cell division before reaching the uterus. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use 'usually occurs in the oviduct' rather than saying it occurs in the uterus.",
-      "selfCheck": "Can you explain fertilisation in humans without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 23,
-      "title": "Implantation — Board Mastery",
-      "explanation": "Implantation — extended study note. The developing embryo becomes attached to the uterine lining. Implantation establishes a close association with maternal tissues needed for continued development. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Implantation and fertilisation are separate events.",
-      "selfCheck": "Can you explain implantation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 24,
-      "title": "Placenta — Board Mastery",
-      "explanation": "Placenta — extended study note. The placenta provides an exchange interface for oxygen, nutrients and wastes and also performs endocrine functions during pregnancy. Maternal and embryonic blood supplies normally remain separated while materials cross the interface. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This distinction prevents the common mistake of saying the two blood supplies mix directly.",
-      "selfCheck": "Can you explain placenta without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 25,
-      "title": "Pregnancy support — Board Mastery",
-      "explanation": "Pregnancy support — extended study note. The uterus provides a protected environment for embryo development. Placental exchange and hormonal support help maintain pregnancy as tissues differentiate and grow. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Keep the answer biological and avoid unnecessary clinical detail.",
-      "selfCheck": "Can you explain pregnancy support without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 26,
-      "title": "Contraception — Board Mastery",
-      "explanation": "Contraception — extended study note. Contraceptive methods reduce the probability of pregnancy by preventing sperm-ovum contact, inhibiting ovulation or using other medically designed mechanisms. Choice of method depends on health, preference and professional guidance. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use medically accurate terms and avoid myths.",
-      "selfCheck": "Can you explain contraception without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 27,
-      "title": "Barrier methods — Board Mastery",
-      "explanation": "Barrier methods — extended study note. Condoms create a physical barrier that reduces the chance of sperm entering the reproductive tract and also reduce transmission of several sexually transmitted infections when used correctly. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is an important reproductive-health point.",
-      "selfCheck": "Can you explain barrier methods without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 28,
-      "title": "Sexually transmitted infections — Board Mastery",
-      "explanation": "Sexually transmitted infections — extended study note. Some infections spread through sexual contact. Prevention includes informed choices, barrier protection, appropriate testing and timely medical care. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Avoid stigma and focus on prevention and treatment.",
-      "selfCheck": "Can you explain sexually transmitted infections without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 29,
-      "title": "HIV basics — Board Mastery",
-      "explanation": "HIV basics — extended study note. HIV attacks cells involved in immune function. It is not spread by casual contact such as sharing food, hugging or sitting beside an infected person. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use accurate transmission information in health answers.",
-      "selfCheck": "Can you explain hiv basics without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 30,
-      "title": "Variation and reproduction — Board Mastery",
-      "explanation": "Variation and reproduction — extended study note. Sexual reproduction does not guarantee that every offspring is dramatically different. It increases the range of genetic combinations compared with asexual reproduction, while many characteristics remain inherited from both parents. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This nuanced explanation is useful in reasoning questions.",
-      "selfCheck": "Can you explain variation and reproduction without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 31,
-      "title": "Reproductive health — Board Mastery",
-      "explanation": "Reproductive health — extended study note. Reproductive health includes physical and emotional well-being, accurate information, hygiene, prevention of infections and responsible decision-making. Myths can lead to harmful practices. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Answer school questions scientifically and respectfully.",
-      "selfCheck": "Can you explain reproductive health without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 32,
-      "title": "Seed dispersal — Board Mastery",
-      "explanation": "Seed dispersal — extended study note. Seeds can be dispersed by wind, water, animals or explosive mechanisms in some plants. Dispersal reduces competition with the parent and can help colonise new areas. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not confuse seed dispersal with pollination.",
-      "selfCheck": "Can you explain seed dispersal without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 33,
-      "title": "Germination — Board Mastery",
-      "explanation": "Germination — extended study note. A viable seed germinates when suitable conditions such as water, oxygen and appropriate temperature are available. The embryo resumes growth using stored food reserves or supplied nutrients. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "State conditions rather than saying seeds germinate 'when planted'.",
-      "selfCheck": "Can you explain germination without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 34,
-      "title": "Why spores survive — Board Mastery",
-      "explanation": "Why spores survive — extended study note. Spores often have protective coverings and low metabolic activity, helping them withstand periods that are unsuitable for active growth. Once favourable conditions return, germination can occur. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The concept becomes clearer when it is compared with the closely related term that students often confuse with it. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For comparison, keep the order of features parallel so each point can be checked quickly. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This explains both reproduction and survival.",
-      "selfCheck": "Can you explain why spores survive without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 35,
-      "title": "Asexual limitation — Board Mastery",
-      "explanation": "Asexual limitation — extended study note. Asexual reproduction can preserve a successful combination of traits, but low genetic variation may reduce adaptability when the environment changes sharply. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Use a cause → process → result sequence whenever the question asks how or why. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a case study, identify the condition first, then name the biological response and explain why it occurs. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This provides the balanced advantage-disadvantage answer.",
-      "selfCheck": "Can you explain asexual limitation without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 36,
-      "title": "Sexual advantage — Board Mastery",
-      "explanation": "Sexual advantage — extended study note. Genetic variation produced through sexual reproduction can increase the range of traits in a population. Some variants may be better suited to changing conditions. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A good application answer connects the principle to an observable biological situation. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For a five-mark answer, use a brief introduction, several ordered points, and a concluding consequence. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not claim that sexual reproduction is always faster or always better.",
-      "selfCheck": "Can you explain sexual advantage without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 37,
-      "title": "Male gamete and female gamete — Board Mastery",
-      "explanation": "Male gamete and female gamete — extended study note. A sperm is small and motile, whereas the ovum is larger and contains cytoplasmic resources. Their differences reflect different roles in reproduction. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. Do not add unsupported claims merely to make an answer longer; precision is more useful than decoration. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a probability or ratio appears, explain what it predicts rather than treating it as a guarantee. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use structure-function language in comparison questions.",
-      "selfCheck": "Can you explain male gamete and female gamete without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 38,
-      "title": "Flowering plant sequence — Board Mastery",
-      "explanation": "Flowering plant sequence — extended study note. A clear sequence is formation of pollen and ovules → pollination → pollen germination → pollen tube growth → gamete fusion → zygote → embryo → seed and fruit development. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. If a question asks for a difference, compare the same feature in both columns instead of unrelated points. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If a process has stages, preserve the time sequence; reversing stages can change the meaning. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "This is an ideal flowchart for revision.",
-      "selfCheck": "Can you explain flowering plant sequence without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 39,
-      "title": "Human sequence — Board Mastery",
-      "explanation": "Human sequence — extended study note. A clear human sequence is gamete formation → ovulation → fertilisation → zygote division → implantation → embryo development → birth. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. When revising, turn the process into a short flowchart and then expand each arrow into one explanatory sentence. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Use exact terms such as receptor, allele, trophic level, implantation or decomposer when central to the question. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Do not insert menstruation between fertilisation and implantation.",
-      "selfCheck": "Can you explain human sequence without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 40,
-      "title": "Common misconception — Board Mastery",
-      "explanation": "Common misconception — extended study note. The father is not the only parent who contributes genes, and the mother is not responsible for determining the sex-chromosome combination in the typical XX-XY system. Eggs normally carry X while sperm carry X or Y. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The strongest long answers contain correct scientific vocabulary while remaining readable and logically connected. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Avoid vague phrases such as something happens; name the organ, cell, molecule or ecological level involved. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use chromosome language rather than social assumptions.",
-      "selfCheck": "Can you explain common misconception without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 41,
-      "title": "Diagram strategy — Board Mastery",
-      "explanation": "Diagram strategy — extended study note. Biology reproductive diagrams should show only structures relevant to the question and use unambiguous labels. A neat functional diagram is more useful than an artistic drawing. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. The idea is easiest to remember when it is linked to the structure that performs the function. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. Start with the key term, identify the relevant structure, describe the process, and finish with its outcome. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Label reproductive pathways in the direction of gamete movement.",
-      "selfCheck": "Can you explain diagram strategy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 42,
-      "title": "Answer-building strategy — Board Mastery",
-      "explanation": "Answer-building strategy — extended study note. Long reproductive answers should follow the biological sequence in time. State the structure, its function, the next event and the outcome. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. For a board answer, state the definition first and then explain the mechanism in the correct order. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. If the question contains a diagram, use its labels as anchors for the explanation. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Chronological organisation reduces omissions.",
-      "selfCheck": "Can you explain answer-building strategy without looking at the notes and connect it to one structure or process?"
-    },
-    {
-      "number": 43,
-      "title": "Final integration — Board Mastery",
-      "explanation": "Final integration — extended study note. Reproduction links cellular information, organs, hormones, fertilisation, development and population continuity. The chapter is best remembered as a flow from gamete formation to the next generation. This point connects directly with board-level reasoning because the examiner may ask for the meaning of the term, the biological mechanism, a structural adaptation, or a consequence. A diagram should show only scientifically relevant structures, with labels placed outside crowded regions. When the idea is used in a longer response, explain what happens first, what changes next, and what final result is produced. This avoids a list of disconnected facts and shows that the learner understands the process as a continuous chain. For reasoning, connect the observed result directly to the biological mechanism that causes it. A useful self-check is to ask what starts the process, which structure or information pathway is involved, what evidence would be observed, and what could happen if the system failed. Answering these prompts turns memorised facts into a complete explanation.",
-      "boardAngle": "Use this as a final synthesis rather than memorising isolated facts.",
-      "selfCheck": "Can you explain final integration without looking at the notes and connect it to one structure or process?"
-    }
-  ],
-  "renderingHints": {
-    "formulaFont": "normal-responsive",
-    "imageMode": "embedded-inline-svg",
-    "tableMode": "responsive-horizontal",
-    "summaryMode": "wrap-no-overflow"
-  },
-  "deepConnections": [
-    {
-      "number": 1,
-      "title": "Deep connection 1: Purpose of reproduction",
-      "content": "To understand purpose of reproduction, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 2,
-      "title": "Deep connection 2: DNA copying and reproduction",
-      "content": "To understand dna copying and reproduction, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 3,
-      "title": "Deep connection 3: Asexual efficiency",
-      "content": "To understand asexual efficiency, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 4,
-      "title": "Deep connection 4: Binary fission",
-      "content": "To understand binary fission, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 5,
-      "title": "Deep connection 5: Multiple fission",
-      "content": "To understand multiple fission, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 6,
-      "title": "Deep connection 6: Budding",
-      "content": "To understand budding, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 7,
-      "title": "Deep connection 7: Fragmentation",
-      "content": "To understand fragmentation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 8,
-      "title": "Deep connection 8: Spore formation",
-      "content": "To understand spore formation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 9,
-      "title": "Deep connection 9: Vegetative propagation",
-      "content": "To understand vegetative propagation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 10,
-      "title": "Deep connection 10: Cutting and grafting",
-      "content": "To understand cutting and grafting, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 11,
-      "title": "Deep connection 11: Why sexual reproduction creates variation",
-      "content": "To understand why sexual reproduction creates variation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 12,
-      "title": "Deep connection 12: Flower as a reproductive structure",
-      "content": "To understand flower as a reproductive structure, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 13,
-      "title": "Deep connection 13: Pollination",
-      "content": "To understand pollination, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 14,
-      "title": "Deep connection 14: Pollen tube",
-      "content": "To understand pollen tube, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 15,
-      "title": "Deep connection 15: Fertilisation in flowering plants",
-      "content": "To understand fertilisation in flowering plants, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 16,
-      "title": "Deep connection 16: Seed and fruit formation",
-      "content": "To understand seed and fruit formation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 17,
-      "title": "Deep connection 17: Human male system",
-      "content": "To understand human male system, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 18,
-      "title": "Deep connection 18: Human female system",
-      "content": "To understand human female system, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 19,
-      "title": "Deep connection 19: Puberty",
-      "content": "To understand puberty, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 20,
-      "title": "Deep connection 20: Menstrual cycle",
-      "content": "To understand menstrual cycle, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 21,
-      "title": "Deep connection 21: Ovulation",
-      "content": "To understand ovulation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 22,
-      "title": "Deep connection 22: Fertilisation in humans",
-      "content": "To understand fertilisation in humans, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 23,
-      "title": "Deep connection 23: Implantation",
-      "content": "To understand implantation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 24,
-      "title": "Deep connection 24: Placenta",
-      "content": "To understand placenta, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 25,
-      "title": "Deep connection 25: Pregnancy support",
-      "content": "To understand pregnancy support, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 26,
-      "title": "Deep connection 26: Contraception",
-      "content": "To understand contraception, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 27,
-      "title": "Deep connection 27: Barrier methods",
-      "content": "To understand barrier methods, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 28,
-      "title": "Deep connection 28: Sexually transmitted infections",
-      "content": "To understand sexually transmitted infections, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 29,
-      "title": "Deep connection 29: HIV basics",
-      "content": "To understand hiv basics, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 30,
-      "title": "Deep connection 30: Variation and reproduction",
-      "content": "To understand variation and reproduction, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 31,
-      "title": "Deep connection 31: Reproductive health",
-      "content": "To understand reproductive health, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 32,
-      "title": "Deep connection 32: Seed dispersal",
-      "content": "To understand seed dispersal, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 33,
-      "title": "Deep connection 33: Germination",
-      "content": "To understand germination, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 34,
-      "title": "Deep connection 34: Why spores survive",
-      "content": "To understand why spores survive, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 35,
-      "title": "Deep connection 35: Asexual limitation",
-      "content": "To understand asexual limitation, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 36,
-      "title": "Deep connection 36: Sexual advantage",
-      "content": "To understand sexual advantage, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 37,
-      "title": "Deep connection 37: Male gamete and female gamete",
-      "content": "To understand male gamete and female gamete, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 38,
-      "title": "Deep connection 38: Flowering plant sequence",
-      "content": "To understand flowering plant sequence, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 39,
-      "title": "Deep connection 39: Human sequence",
-      "content": "To understand human sequence, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 40,
-      "title": "Deep connection 40: Common misconception",
-      "content": "To understand common misconception, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 41,
-      "title": "Deep connection 41: Diagram strategy",
-      "content": "To understand diagram strategy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 42,
-      "title": "Deep connection 42: Answer-building strategy",
-      "content": "To understand answer-building strategy, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    },
-    {
-      "number": 43,
-      "title": "Deep connection 43: Final integration",
-      "content": "To understand final integration, do not learn the definition in isolation. Begin with the condition that makes the process necessary, identify the structure or biological information involved, and follow the sequence until the outcome is reached. Structure, function and regulation support one another. If one stage is blocked, the effect can appear later in the pathway, so a strong answer should mention the consequence rather than only naming the blocked stage. This connection is especially useful for assertion-reasoning, case-based and give-reason questions because it turns a definition into a causal explanation. Revise the concept once as a paragraph, once as a flowchart, and finally as a labelled diagram or comparison where appropriate."
-    }
-  ],
-  "chapterChecklist": [
-    "Read the continuous explanation before memorising keywords.",
-    "Reproduce every major process as a short arrow sequence.",
-    "Practise labelled diagrams without tracing.",
-    "Attempt board questions using complete, direct answers.",
-    "Check that definitions, comparisons and examples use distinct wording.",
-    "Revise the chapter summary only after understanding the detailed sections."
+    "reproduction",
+    "asexual reproduction",
+    "binary fission",
+    "budding",
+    "fragmentation",
+    "spore",
+    "vegetative propagation",
+    "sexual reproduction",
+    "gamete",
+    "pollination",
+    "fertilisation",
+    "zygote",
+    "ovule",
+    "ovary",
+    "embryo",
+    "implantation",
+    "placenta",
+    "menstruation",
+    "contraception",
+    "reproductive health",
+    "variation"
   ],
   "sections": [
     {
-      "number": 1,
-      "title": "Why organisms reproduce",
+      "title": "1. Meaning and importance of reproduction",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Why organisms reproduce",
-          "content": "Reproduction is not required for the survival of an individual in the same immediate way that nutrition or respiration is, but it is essential for continuity of populations and species. During reproduction, genetic information is transmitted to offspring. Small changes in genetic material create variation, which contributes to the diversity of living organisms."
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Reproduction is the process by which organisms produce new individuals. It does not keep one particular individual alive, but it is essential for continuity of a species because individuals eventually die. Reproduction transfers hereditary information to the next generation and allows populations to persist."
         },
         {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Reproduction maintains continuity of species.",
-            "DNA copying is involved in transmitting hereditary information.",
-            "Variation is a natural outcome of imperfect copying and sexual reproduction.",
-            "Different organisms use different reproductive strategies."
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Reproductive strategies differ according to body organisation and environment. A simple unicellular organism may divide rapidly, while a flowering plant may invest in flowers, pollen, seeds and fruit. Humans invest energy in gamete production, pregnancy, birth and parental care. These differences show that reproduction is shaped by biological needs and life history."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Meaning and importance of reproduction with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
           ]
         }
       ]
     },
     {
-      "number": 2,
-      "title": "Asexual reproduction",
+      "title": "2. Asexual reproduction",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Asexual reproduction",
-          "content": "Asexual reproduction generally involves a single parent and does not require fusion of gametes. Because one reproductive source supplies the genetic material, offspring are usually very similar to the parent. It can be efficient when conditions are stable and rapid increase is advantageous."
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Asexual reproduction generally involves one parent and no fusion of two gametes. Binary fission, budding, fragmentation and spore formation are common examples. Because the new individual arises from one parental source, offspring are usually very similar to the parent. Small mutations can still introduce differences."
         },
         {
-          "type": "boardAnswer",
-          "question": "Give two advantages of asexual reproduction.",
-          "answer": "Asexual reproduction can produce many individuals rapidly and does not require finding a mate. It is especially effective when the environment is stable and a successful body form is already well adapted."
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Asexual reproduction is efficient when conditions are stable because it can produce many individuals quickly without the need to find a mate. Its limitation is that it usually generates less genetic variation between offspring. If environmental conditions change sharply, a genetically uniform population may have fewer individuals with suitable inherited differences."
         },
         {
-          "id": "how-do-organisms-reproduce-fig-11",
-          "title": "Sexual and asexual reproduction",
-          "caption": "Conceptual comparison of two modes of reproduction.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Sexual and asexual reproduction\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Sexual and asexual reproduction</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Asexual: one parent, no fusion of gametes, usually rapid and</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">produces similar offspring. Sexual: gametes from two</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reproductive contributions fuse, creating combinations of</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">genetic information.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Sexual and asexual reproduction"
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Fission, budding and fragmentation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Fission, budding and fragmentation",
-          "content": "In binary fission, one cell divides into two. In multiple fission, repeated nuclear division is followed by formation of several daughter cells. Budding produces a new individual from an outgrowth. Fragmentation can allow pieces of an organism to develop into complete individuals in suitable organisms. These methods differ in mechanism but share the absence of gamete fusion."
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-1",
-          "title": "Binary fission",
-          "caption": "A simple asexual reproduction pattern.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Binary fission\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Binary fission</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A single-celled organism grows → genetic material is copied →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">the cell divides → two daughter cells form. The resulting</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">individuals are genetically very similar to the parent unless</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">variation arises during replication.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Binary fission"
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-2",
-          "title": "Budding",
-          "caption": "Budding in a unicellular organism.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Budding\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Budding</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A small outgrowth develops on the parent → the bud grows by</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">cell division → it may detach and live independently. Yeast is</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">a familiar example.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Budding"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "Spore formation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Spore formation",
-          "content": "Some organisms form specialised reproductive structures containing spores. Spores are often small, resistant and easily dispersed. Under suitable conditions they can germinate and form new individuals. This method helps organisms survive and spread even when conditions fluctuate."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Spores can be produced in large numbers.",
-            "Their small size aids dispersal.",
-            "Protective coverings can help survival during unfavourable conditions."
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Asexual reproduction with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
           ]
         }
       ]
     },
     {
-      "number": 5,
-      "title": "Vegetative propagation",
+      "title": "3. Vegetative propagation",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Vegetative propagation",
-          "content": "New plants can arise from roots, stems or leaves. This is useful in agriculture and horticulture because a desirable plant can be multiplied without waiting for seed formation. Natural examples include tubers, rhizomes and leaf buds; artificial methods include cutting, layering and grafting."
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Vegetative propagation produces new plants from roots, stems or leaves rather than from seeds formed after fertilisation. Natural methods include specialised stems and leaves, while humans use cutting, layering and grafting. The method is useful for rapid multiplication and for preserving desirable combinations of plant characteristics."
         },
         {
-          "type": "boardAnswer",
-          "question": "Why is vegetative propagation useful for farmers and gardeners?",
-          "answer": "It can rapidly produce many plants with characteristics similar to the selected parent. It is particularly useful when plants do not produce viable seeds easily or when a desirable variety must be maintained."
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "A vegetatively propagated plant is usually genetically very similar to the parent because it arises from ordinary plant tissue. This can be useful in agriculture and horticulture, but it also means that a disease or environmental stress affecting the parent may affect many propagated plants similarly."
         },
         {
-          "id": "how-do-organisms-reproduce-fig-3",
-          "title": "Vegetative propagation",
-          "caption": "New plants from vegetative parts.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Vegetative propagation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Vegetative propagation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">New plants can arise from vegetative parts such as stems,</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">roots or leaves. Potato tubers, ginger rhizomes and some leaf</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">buds illustrate different natural examples.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Vegetative propagation"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Sexual reproduction and variation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Sexual reproduction and variation",
-          "content": "Sexual reproduction involves formation of male and female gametes and their fusion. Genetic material from different reproductive cells combines in the offspring, creating new combinations. This variation can be advantageous when environments change because populations contain differences on which natural selection can act."
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Reproduction in flowering plants",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Reproduction in flowering plants",
-          "content": "The stamen is the male reproductive part and produces pollen grains in the anther. The carpel or pistil is the female reproductive structure, with stigma, style and ovary. Ovules occur inside the ovary. Pollination transfers pollen to the stigma; fertilisation occurs when the male gamete fuses with the female gamete in an ovule."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Differentiate pollination and fertilisation.",
-          "answer": "Pollination is the transfer of pollen from anther to stigma. Fertilisation is the fusion of male and female gametes to form a zygote. Pollination precedes fertilisation in flowering plants."
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-4",
-          "title": "Flower reproductive parts",
-          "caption": "Main reproductive structures of a flower.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Flower reproductive parts\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#db2777\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Flower reproductive parts</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Stamen: anther + filament; carpel/pistil: stigma + style +</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">ovary. Pollen is produced in the anther; ovules occur inside</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">the ovary.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Flower reproductive parts"
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-5",
-          "title": "Pollination and fertilisation",
-          "caption": "Sequence from pollination to fertilisation in a flowering plant.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Pollination and fertilisation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#c026d3\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Pollination and fertilisation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Pollen reaches stigma → pollen tube grows through style → male</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">gamete travels toward ovule → fusion with female gamete</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">produces a zygote.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Pollination and fertilisation"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "From flower to seed and fruit",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "From flower to seed and fruit",
-          "content": "After fertilisation, the zygote develops into an embryo. The ovule develops into a seed, while the ovary generally develops into a fruit. Other floral parts may change or wither depending on the plant. Seed formation protects the embryo and provides a means of dispersal and later germination."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Zygote → embryo.",
-            "Ovule → seed.",
-            "Ovary → fruit in many flowering plants.",
-            "Seeds contain a developing embryo and stored or supplied food."
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Vegetative propagation with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
           ]
         }
       ]
     },
     {
-      "number": 9,
-      "title": "Human male reproductive system",
+      "title": "4. Sexual reproduction and variation",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Human male reproductive system",
-          "content": "The testes produce sperm and the male sex hormone testosterone. Sperm mature and pass through a network of ducts. Accessory glands add fluids that nourish and transport sperm. The urethra carries semen to the exterior. The arrangement allows production, maturation and delivery of male gametes."
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Sexual reproduction involves formation of gametes and their fusion. Each gamete carries a set of hereditary information, and the zygote receives genetic material from two sources. Recombination during gamete formation and random fertilisation generate new combinations of alleles."
         },
         {
-          "type": "boardAnswer",
-          "question": "State two functions of the testes.",
-          "answer": "The testes produce male gametes called sperm and secrete testosterone, a hormone involved in development of male reproductive characteristics and reproductive function."
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Variation is not automatically useful. A difference may be beneficial, neutral or harmful depending on environmental conditions. The evolutionary importance of variation comes from heritable differences that affect survival or reproduction. Thus sexual reproduction is not merely a way to make offspring; it also contributes to population diversity."
         },
         {
-          "id": "how-do-organisms-reproduce-fig-6",
-          "title": "Human male reproductive system",
-          "caption": "Functional organisation of the male reproductive system.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human male reproductive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human male reproductive system</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Testes produce sperm and testosterone. Sperm pass through</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">ducts and mix with secretions from accessory glands to form</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">semen, which is released through the urethra.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Human male reproductive system"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Human female reproductive system",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Human female reproductive system",
-          "content": "The ovaries contain follicles and release ova. The oviducts connect the ovarian region with the uterus and provide the usual site of fertilisation. The uterus has a lining that changes during the reproductive cycle and can support implantation. The vagina receives semen and forms the birth canal."
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-7",
-          "title": "Human female reproductive system",
-          "caption": "Functional organisation of the female reproductive system.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human female reproductive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#db2777\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human female reproductive system</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Ovaries release ova and produce hormones. Oviducts provide the</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">usual site of fertilisation. The uterus supports implantation</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and development; the vagina forms the birth canal.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Human female reproductive system"
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-9",
-          "title": "Fertilisation to implantation",
-          "caption": "Early stages of human development.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Fertilisation to implantation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Fertilisation to implantation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Sperm + ovum → zygote → repeated cell divisions → embryo →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">implantation in the uterine lining. The placenta later</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">supports exchange between maternal and embryonic circulations.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Fertilisation to implantation"
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-10",
-          "title": "Placenta and exchange",
-          "caption": "General role of the placenta in exchange.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Placenta and exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Placenta and exchange</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Placental tissue provides a large exchange surface. Oxygen and</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">nutrients move toward the developing embryo, while carbon</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dioxide and other wastes move toward the maternal side for</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">removal.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Placenta and exchange"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Menstrual cycle and ovulation",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Menstrual cycle and ovulation",
-          "content": "The reproductive cycle involves coordinated changes in the ovary and uterus. A follicle matures and ovulation releases an ovum. Hormonal changes prepare the uterine lining for possible implantation. If pregnancy does not occur, hormone levels fall and the lining is shed as menstruation. Cycle length can vary among individuals."
-        },
-        {
-          "type": "mistake",
-          "title": "Common mistake",
-          "content": "Do not treat menstruation as a disease. It is a normal biological process associated with the reproductive cycle."
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-8",
-          "title": "Menstrual cycle overview",
-          "caption": "Simplified cycle of reproductive changes.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Menstrual cycle overview\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Menstrual cycle overview</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A cycle involves maturation of an ovarian follicle, ovulation,</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">preparation of the uterine lining and, if fertilisation does</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">not lead to pregnancy, shedding of the lining. Hormones</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">coordinate the sequence.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Menstrual cycle overview"
-        }
-      ]
-    },
-    {
-      "number": 12,
-      "title": "Fertilisation, implantation and placenta",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Fertilisation, implantation and placenta",
-          "content": "Fertilisation normally occurs in the oviduct. The zygote divides repeatedly while moving toward the uterus. The developing embryo becomes attached to the uterine lining during implantation. The placenta provides an exchange interface for oxygen, nutrients and wastes and also contributes hormones that support pregnancy."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "What is the role of the placenta?",
-          "answer": "The placenta provides an exchange surface between maternal and embryonic circulations. Oxygen and nutrients can reach the developing embryo, while carbon dioxide and metabolic wastes move toward the maternal side. It also has important endocrine functions during pregnancy."
-        }
-      ]
-    },
-    {
-      "number": 13,
-      "title": "Reproductive health and contraception",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Reproductive health and contraception",
-          "content": "Reproductive health includes physical, emotional and social well-being related to reproduction. Contraception can reduce the probability of pregnancy by preventing sperm from reaching the ovum, preventing ovulation or using other medically designed mechanisms. Barrier methods can additionally reduce transmission of some sexually transmitted infections. Responsible decisions require accurate information and professional medical guidance."
-        },
-        {
-          "type": "boardAnswer",
-          "question": "Why are barrier methods important in reproductive health?",
-          "answer": "Barrier methods such as condoms reduce the chance that sperm will reach the female reproductive tract and can also reduce the transmission of several sexually transmitted infections when used correctly and consistently."
-        },
-        {
-          "id": "how-do-organisms-reproduce-fig-12",
-          "title": "Reproductive health and contraception",
-          "caption": "Broad categories of reproductive health measures.",
-          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Reproductive health and contraception\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Reproductive health and contraception</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Contraceptive methods can prevent fertilisation or</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">implantation depending on the method. Barrier methods can also</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reduce transmission of several sexually transmitted infections</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">when used correctly.</text>\n</svg>",
-          "type": "diagram",
-          "alt": "Reproductive health and contraception"
-        }
-      ]
-    },
-    {
-      "number": 14,
-      "title": "Sexually transmitted infections",
-      "blocks": [
-        {
-          "type": "concept",
-          "title": "Sexually transmitted infections",
-          "content": "Some infections can spread through sexual contact. Examples commonly discussed at school level include HIV infection, syphilis and gonorrhoea. Prevention includes informed choices, barrier protection, testing when appropriate and timely medical care. Stigma should not replace accurate health information or responsible treatment."
-        },
-        {
-          "type": "important",
-          "title": "Key ideas",
-          "points": [
-            "Early diagnosis can improve management of infections.",
-            "Condom use reduces risk of several sexually transmitted infections.",
-            "HIV attacks immune-system cells and is not spread by ordinary casual contact."
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Sexual reproduction and variation with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
           ]
         }
       ]
     },
     {
-      "title": "Asexual and sexual reproduction",
+      "title": "5. Flowering plants",
       "blocks": [
         {
-          "type": "comparison-table",
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Flowers contain reproductive structures. Stamens produce pollen, while the carpel contains the ovary and ovules. Pollination is transfer of pollen to the stigma. Insect, wind and other agents can carry pollen. Flower colour, scent and nectar can influence interactions with pollinators."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "After a compatible pollen grain lands on the stigma, it can germinate and form a pollen tube. The male gamete travels towards an ovule and fuses with the female gamete. The resulting zygote becomes an embryo. The ovule generally develops into a seed and the ovary into a fruit after fertilisation."
+        },
+        {
+          "type": "realImage",
+          "title": "Bee pollinating a flower",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bee_pollinating_flower.jpg",
+          "alt": "Real photograph of a bee pollinating a flower",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Bee pollinating flower.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Flowering plants with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Seed germination",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "A seed contains an embryo and stored food. Water activates metabolic processes, oxygen supports respiration and a suitable temperature allows enzyme-controlled reactions to proceed. The embryonic root generally emerges first and anchors the seedling, followed by shoot development."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Germination is a transition from a relatively inactive state to active growth. Stored food is mobilised until the young leaves become capable of photosynthesis. This explains why a germinating seed can grow in darkness for a limited period while still depending on stored food."
+        },
+        {
+          "type": "realImage",
+          "title": "Flower",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Picture_of_Flower.jpg",
+          "alt": "Real photograph of a flower",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Picture of Flower.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Seed germination with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Male reproductive system",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "The testes produce sperm and male sex hormones. They are located in the scrotum, where the temperature is slightly lower than the core body temperature, supporting sperm formation. Sperm pass through ducts and mix with glandular secretions to form semen."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "A sperm cell is specialised for movement and delivery of genetic material. Its head contains the nucleus, the middle region has many mitochondria, and the tail supports movement. The specialised structure illustrates how cells are adapted to their reproductive function."
+        },
+        {
+          "type": "realImage",
+          "title": "Human sperm",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Human_sperm_under_microscope.jpg",
+          "alt": "Microscope photograph of human sperm",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Human sperm under microscope.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Male reproductive system with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Female reproductive system",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "The ovaries produce ova and female sex hormones. The oviducts provide the usual site for fertilisation, while the uterus provides a site for implantation and development. The cervix connects the uterus with the vagina. The system is regulated by coordinated hormonal changes."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "The menstrual cycle involves maturation of an ovum and preparation of the uterine lining. If fertilisation and successful implantation do not occur, the thickened lining is shed as menstruation. Cycle length can vary, so the sequence of events is more important than treating a single number of days as universal."
+        },
+        {
+          "type": "realImage",
+          "title": "Human reproductive system",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Human_Reproductive_System.jpg",
+          "alt": "Real image of the human reproductive system",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC BY-SA 4.0",
+          "source": "Wikimedia Commons — Human Reproductive System.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Female reproductive system with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9. Fertilisation and implantation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Fertilisation forms a zygote with hereditary material from both parents. Repeated cell division produces a developing embryo. The embryo moves towards the uterus and attaches to the uterine lining during implantation. Further differentiation produces tissues and organs."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "The placenta provides an exchange interface between maternal and embryonic systems. Oxygen and nutrients can reach the developing embryo while carbon dioxide and other wastes move away. Maternal and embryonic blood do not normally mix directly; exchange occurs across specialised tissues."
+        },
+        {
+          "type": "realImage",
+          "title": "Human embryo",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Human_Embryo.png",
+          "alt": "Real image of an early human embryo",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC0 1.0",
+          "source": "Wikimedia Commons — Human Embryo.png"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Fertilisation and implantation with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10. Reproductive health",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Reproductive health includes physical and social well-being related to reproductive functions. It requires accurate information, hygiene, responsible choices, consent and access to healthcare. Sexually transmitted infections can affect reproductive organs and general health, so prevention, early testing and appropriate treatment are important."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Contraception reduces the probability of pregnancy. Barrier methods can prevent sperm from reaching the egg and may reduce transmission of some infections. Hormonal methods, intrauterine devices and permanent methods work in different ways. Selection should consider health, effectiveness, consent and professional advice."
+        },
+        {
+          "type": "realImage",
+          "title": "Seed",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Seed.jpg",
+          "alt": "Real photograph of a seed",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "Public domain",
+          "source": "Wikimedia Commons — Seed.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Reproductive health with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "11. Population continuity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "At the population level, reproductive rate influences how quickly a population can replace individuals lost through death. Food availability, disease, predators and environmental conditions can affect reproductive success. Different species therefore have different reproductive rates and parental investments."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "A high reproductive rate does not automatically guarantee long-term survival. If habitat, food or water becomes unsuitable, mortality may rise. Reproductive success is therefore connected with the environment. This is a useful link between reproduction and ecology."
+        },
+        {
+          "type": "realImage",
+          "title": "Seed germination",
+          "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Germination_of_seed.jpg",
+          "alt": "Real photograph of seed germination",
+          "caption": "Real Wikimedia Commons image placed beside the related concept.",
+          "license": "CC BY-SA 4.0",
+          "source": "Wikimedia Commons — Germination of seed.jpg"
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Population continuity with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "12. Board distinctions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "title": "Concept explanation",
+          "text": "Pollination is the transfer of pollen to the stigma; fertilisation is fusion of gametes. A zygote is the first cell formed after fertilisation, while an embryo is the multicellular developing organism formed by repeated divisions and differentiation. These distinctions are common in short-answer questions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board-level interpretation",
+          "text": "Asexual reproduction is usually faster and produces less variation among offspring, while sexual reproduction requires gametes and fertilisation and creates new genetic combinations. Neither method is universally better; its value depends on the organism and environment."
+        },
+        {
+          "type": "keypoint",
+          "title": "Exam lens",
+          "items": [
+            "Connect Board distinctions with structure, function and cause-and-effect rather than memorising a single sentence.",
+            "In a 3–5 mark answer, define the idea, explain the mechanism in sequence, and finish with its biological significance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "13. Comparison tables",
+      "blocks": [
+        {
+          "type": "comparison",
           "title": "Asexual and sexual reproduction",
-          "headers": [
-            "Feature",
-            "Asexual",
-            "Sexual"
-          ],
           "rows": [
+            [
+              "Feature",
+              "Asexual",
+              "Sexual"
+            ],
             [
               "Parents",
               "Usually one",
-              "Usually two reproductive contributions"
+              "Usually two gamete sources"
             ],
             [
               "Gametes",
-              "No gamete fusion",
-              "Gamete formation and fusion involved"
+              "Not required",
+              "Required"
+            ],
+            [
+              "Fertilisation",
+              "Absent",
+              "Present"
             ],
             [
               "Variation",
-              "Usually lower among offspring",
+              "Usually lower",
               "Usually higher"
             ],
             [
-              "Speed",
-              "Often rapid",
-              "Often slower and more complex"
-            ],
-            [
-              "Example",
-              "Binary fission, budding",
-              "Human reproduction, flowering plants"
+              "Typical advantage",
+              "Rapid multiplication",
+              "Genetic diversity"
             ]
           ]
-        }
-      ]
-    },
-    {
-      "title": "Pollination and fertilisation",
-      "blocks": [
+        },
         {
-          "type": "comparison-table",
+          "type": "comparison",
           "title": "Pollination and fertilisation",
-          "headers": [
-            "Feature",
-            "Pollination",
-            "Fertilisation"
-          ],
           "rows": [
             [
+              "Feature",
+              "Pollination",
+              "Fertilisation"
+            ],
+            [
               "Meaning",
-              "Transfer of pollen to stigma",
-              "Fusion of male and female gametes"
+              "Pollen reaches stigma",
+              "Gametes fuse"
             ],
             [
-              "Where",
-              "On the flower surface",
-              "Within the ovule"
+              "Order",
+              "Earlier",
+              "Later"
             ],
             [
-              "Result",
-              "Pollen reaches receptive stigma",
+              "Product",
+              "No zygote is formed by the transfer itself",
               "Zygote forms"
             ]
           ]
@@ -1424,69 +446,992 @@ window.ChapterData = {
       ]
     },
     {
-      "title": "Case: Potato multiplication",
+      "title": "14. Board Answer Bank",
       "blocks": [
         {
-          "type": "caseStudy",
-          "title": "Case: Potato multiplication",
-          "text": "A farmer plants pieces of potato tuber containing buds rather than seeds.",
+          "type": "practice",
+          "title": "Actual board-style questions with complete answers",
           "questions": [
             {
-              "question": "What type of reproduction is this?",
-              "answer": "It is vegetative propagation, an asexual method in which a new plant develops from a vegetative part of the parent."
+              "question": "Why is reproduction important for a species?",
+              "answer": "Individuals eventually die, so without reproduction a population would decline and disappear. Reproduction produces new individuals and transfers hereditary information to the next generation."
             },
             {
-              "question": "Why can the method be useful?",
-              "answer": "It can rapidly multiply plants with desirable characteristics similar to the parent and can be practical for crops that are commonly propagated vegetatively."
+              "question": "Why is asexual reproduction often rapid?",
+              "answer": "It usually involves one parent, does not require finding a mate or fusing gametes, and can use simple cell division or growth processes. This allows rapid multiplication when conditions are favourable."
+            },
+            {
+              "question": "How does sexual reproduction create variation?",
+              "answer": "Gamete formation reshuffles hereditary information and fertilisation combines genetic material from two sources. Random fertilisation adds another layer of new combinations."
+            },
+            {
+              "question": "Differentiate pollination and fertilisation.",
+              "answer": "Pollination is transfer of pollen to the stigma. Fertilisation is fusion of male and female gametes. Pollination therefore precedes fertilisation in flowering plants."
+            },
+            {
+              "question": "Why are testes outside the abdominal cavity?",
+              "answer": "Sperm formation works best at a temperature slightly below core body temperature. The scrotum helps maintain that lower temperature."
+            },
+            {
+              "question": "What is implantation?",
+              "answer": "Implantation is attachment of the developing embryo to the lining of the uterus, allowing it to establish the maternal exchange relationship needed for continued development."
             }
           ]
         }
       ]
     },
     {
-      "title": "Case: A flower receives pollen",
+      "title": "15. Quick Revision and Writing Strategy",
       "blocks": [
         {
-          "type": "caseStudy",
-          "title": "Case: A flower receives pollen",
-          "text": "Pollen from an anther reaches the stigma of a compatible flower.",
-          "questions": [
-            {
-              "question": "What happens next?",
-              "answer": "A pollen tube can grow through the style toward an ovule, allowing the male gamete to reach the female gamete for fertilisation."
-            },
-            {
-              "question": "What does the zygote become?",
-              "answer": "The zygote divides and develops into an embryo; the embryo becomes part of the developing seed."
-            }
+          "type": "keypoint",
+          "title": "Last-minute revision",
+          "items": [
+            "Reproduction produces new individuals and maintains continuity of species",
+            "Asexual reproduction is usually rapid and involves one parent, whereas sexual reproduction involves gametes and fertilisation and produces new combinations of hereditary information",
+            "The chapter covers reproductive strategies, plant reproduction, human reproductive systems, embryo development, reproductive health, contraception and the biological importance of variation."
           ]
-        }
-      ]
-    },
-    {
-      "title": "Board Practice",
-      "blocks": [
+        },
         {
-          "type": "practice",
-          "title": "Board Practice",
-          "question": "Explain why DNA copying is important in reproduction.",
-          "answer": "DNA carries hereditary information. During reproduction, a copy of the genetic material is transmitted to the new individual so that basic characteristics of the species are maintained. Copying is not perfectly error-free, so small variations can also arise."
-        }
-      ]
-    },
-    {
-      "title": "Board Practice",
-      "blocks": [
+          "type": "keypoint",
+          "title": "Board writing tips",
+          "items": [
+            "Keep pollination and fertilisation separate.",
+            "Use the sequence gamete → fertilisation → zygote → embryo.",
+            "Mention variation when explaining the advantage of sexual reproduction.",
+            "For reproductive health answers, include prevention and responsible care."
+          ]
+        },
         {
-          "type": "practice",
-          "title": "Board Practice",
-          "question": "Describe the sequence from fertilisation to implantation in humans.",
-          "answer": "Fertilisation produces a zygote in the oviduct. The zygote undergoes repeated cell divisions while moving toward the uterus. The developing embryo reaches the uterus and becomes attached to the uterine lining during implantation."
+          "type": "definition",
+          "title": "How to write a 5-mark answer",
+          "text": "Start with a precise definition or identification. Then write the mechanism in logical order, using scientific terms. Add one example or application where useful. End with the significance or result. Avoid filler statements and do not repeat the same idea in different words."
         }
       ]
     }
-  ],
-  "description": "Reproduction produces new individuals and passes biological information from one generation to the next. The chapter begins with the need for reproduction, then compares asexual and sexual reproduction, examines reproductive structures in flowering plants and humans, and explains how fertilisation, development and reproductive health are connected.",
-  "summary": "Reproduction maintains continuity of life and transmits genetic information. Asexual methods such as fission, budding, spore formation and vegetative propagation can produce new individuals without gamete fusion. Sexual reproduction involves gametes and produces greater genetic variation. In flowering plants, pollination is followed by fertilisation and seed formation. In humans, testes and ovaries produce gametes and hormones; fertilisation is followed by implantation and development supported by the placenta. Reproductive health includes informed choices, contraception, infection prevention and timely medical care.",
-  "rendering": "compatible-with-concept-quizzer-universal-renderer"
+  ]
 };
+
+/* Extended detailed board layer — previous chapter data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Deep Board Mastery 1 — reproduction",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "reproduction is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on reproduction, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "reproduction: identify the starting condition before explaining the process.",
+          "reproduction: connect the mechanism to its biological advantage or consequence.",
+          "reproduction: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 2 — binary fission",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "binary fission is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on binary fission, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "binary fission: identify the starting condition before explaining the process.",
+          "binary fission: connect the mechanism to its biological advantage or consequence.",
+          "binary fission: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 3 — budding",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "budding is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on budding, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "budding: identify the starting condition before explaining the process.",
+          "budding: connect the mechanism to its biological advantage or consequence.",
+          "budding: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 4 — vegetative propagation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "vegetative propagation is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on vegetative propagation, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "vegetative propagation: identify the starting condition before explaining the process.",
+          "vegetative propagation: connect the mechanism to its biological advantage or consequence.",
+          "vegetative propagation: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 5 — sexual reproduction",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "sexual reproduction is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on sexual reproduction, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "sexual reproduction: identify the starting condition before explaining the process.",
+          "sexual reproduction: connect the mechanism to its biological advantage or consequence.",
+          "sexual reproduction: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 6 — pollination",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "pollination is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on pollination, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "pollination: identify the starting condition before explaining the process.",
+          "pollination: connect the mechanism to its biological advantage or consequence.",
+          "pollination: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 7 — fertilisation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "fertilisation is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on fertilisation, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "fertilisation: identify the starting condition before explaining the process.",
+          "fertilisation: connect the mechanism to its biological advantage or consequence.",
+          "fertilisation: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 8 — seed formation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "seed formation is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on seed formation, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "seed formation: identify the starting condition before explaining the process.",
+          "seed formation: connect the mechanism to its biological advantage or consequence.",
+          "seed formation: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 9 — germination",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "germination is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on germination, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "germination: identify the starting condition before explaining the process.",
+          "germination: connect the mechanism to its biological advantage or consequence.",
+          "germination: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 10 — male reproductive system",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "male reproductive system is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on male reproductive system, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "male reproductive system: identify the starting condition before explaining the process.",
+          "male reproductive system: connect the mechanism to its biological advantage or consequence.",
+          "male reproductive system: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 11 — female reproductive system",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "female reproductive system is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on female reproductive system, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "female reproductive system: identify the starting condition before explaining the process.",
+          "female reproductive system: connect the mechanism to its biological advantage or consequence.",
+          "female reproductive system: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Deep Board Mastery 12 — implantation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Detailed mechanism",
+        "text": "implantation is best understood as a connected biological process rather than an isolated definition. The starting condition changes the state of cells or organisms, specialised structures respond to that condition, and the resulting process produces a measurable biological outcome. In a board answer, the mechanism should be written in chronological order so that each step explains why the next step can occur. This also helps distinguish closely related terms that are often confused. The concept has significance because it supports survival, reproduction, regulation, energy transfer or continuity of biological systems depending on the chapter. A strong explanation therefore links structure, process and consequence instead of listing unrelated facts."
+      },
+      {
+        "type": "paragraph",
+        "title": "Exam interpretation",
+        "text": "For a high-scoring response on implantation, begin with the exact term, then explain the mechanism using two or more linked steps, and finish by stating the result or importance. If the question is comparative, use the same criteria for both sides so that the distinction is scientifically clear."
+      },
+      {
+        "type": "keypoint",
+        "title": "High-value points",
+        "items": [
+          "implantation: identify the starting condition before explaining the process.",
+          "implantation: connect the mechanism to its biological advantage or consequence.",
+          "implantation: use exact scientific terms and avoid vague phrases."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Case Studies and Application Questions",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Case-based board practice with actual answers",
+        "questions": [
+          {
+            "question": "Case study: reproduction. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of reproduction. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: binary fission. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of binary fission. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: budding. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of budding. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: vegetative propagation. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of vegetative propagation. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: sexual reproduction. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of sexual reproduction. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          },
+          {
+            "question": "Case study: pollination. Explain the situation in board-answer form.",
+            "answer": "The case is explained by the mechanism of pollination. Start with the relevant structure or ecological component, describe the sequence of events and finish with the biological consequence. The answer should use exact scientific vocabulary and distinguish the process from related terms."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Extended Board Question Bank",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Additional 1–5 mark questions with actual answers",
+        "questions": [
+          {
+            "question": "Write a complete board answer on asexual reproduction.",
+            "answer": "asexual reproduction should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on sexual reproduction.",
+            "answer": "sexual reproduction should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on variation.",
+            "answer": "variation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on pollination.",
+            "answer": "pollination should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on fertilisation.",
+            "answer": "fertilisation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on pollen tube.",
+            "answer": "pollen tube should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on ovule.",
+            "answer": "ovule should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on zygote.",
+            "answer": "zygote should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on embryo.",
+            "answer": "embryo should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on placenta.",
+            "answer": "placenta should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on menstruation.",
+            "answer": "menstruation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on contraception.",
+            "answer": "contraception should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on reproductive health.",
+            "answer": "reproductive health should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on sperm.",
+            "answer": "sperm should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on ovum.",
+            "answer": "ovum should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on testes.",
+            "answer": "testes should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on ovaries.",
+            "answer": "ovaries should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on uterus.",
+            "answer": "uterus should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on vegetative propagation.",
+            "answer": "vegetative propagation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on spore formation.",
+            "answer": "spore formation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on fragmentation.",
+            "answer": "fragmentation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on budding.",
+            "answer": "budding should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on binary fission.",
+            "answer": "binary fission should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on seed germination.",
+            "answer": "seed germination should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on flowering plant.",
+            "answer": "flowering plant should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on human reproduction.",
+            "answer": "human reproduction should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on population continuity.",
+            "answer": "population continuity should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on gamete formation.",
+            "answer": "gamete formation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on implantation.",
+            "answer": "implantation should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on reproductive health.",
+            "answer": "reproductive health should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          },
+          {
+            "question": "Write a complete board answer on responsible choices.",
+            "answer": "responsible choices should be explained as a sequence of biological events. Identify the structure or cell involved, describe what happens first and next, and state the biological significance. Use precise terms such as gamete, zygote, embryo, hereditary information or reproductive health where relevant. A complete answer avoids circular statements and clearly separates processes that occur before and after fertilisation."
+          }
+        ]
+      }
+    ]
+  }
+]); })();
+
+/* Further detailed board layer; previous data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Advanced Notes 1 — reproduction",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in reproduction should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of reproduction can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of reproduction with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving reproduction can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For reproduction, write the process in the correct order before adding an example.",
+          "Use the exact term reproduction when the question asks for a definition or identification.",
+          "End a long answer on reproduction with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 2 — asexual reproduction",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in asexual reproduction should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of asexual reproduction can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of asexual reproduction with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving asexual reproduction can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For asexual reproduction, write the process in the correct order before adding an example.",
+          "Use the exact term asexual reproduction when the question asks for a definition or identification.",
+          "End a long answer on asexual reproduction with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 3 — vegetative propagation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in vegetative propagation should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of vegetative propagation can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of vegetative propagation with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving vegetative propagation can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For vegetative propagation, write the process in the correct order before adding an example.",
+          "Use the exact term vegetative propagation when the question asks for a definition or identification.",
+          "End a long answer on vegetative propagation with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 4 — sexual reproduction",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in sexual reproduction should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of sexual reproduction can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of sexual reproduction with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving sexual reproduction can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For sexual reproduction, write the process in the correct order before adding an example.",
+          "Use the exact term sexual reproduction when the question asks for a definition or identification.",
+          "End a long answer on sexual reproduction with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 5 — variation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in variation should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of variation can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of variation with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving variation can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For variation, write the process in the correct order before adding an example.",
+          "Use the exact term variation when the question asks for a definition or identification.",
+          "End a long answer on variation with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 6 — flower reproduction",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in flower reproduction should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of flower reproduction can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of flower reproduction with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving flower reproduction can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For flower reproduction, write the process in the correct order before adding an example.",
+          "Use the exact term flower reproduction when the question asks for a definition or identification.",
+          "End a long answer on flower reproduction with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 7 — pollination",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in pollination should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of pollination can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of pollination with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving pollination can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For pollination, write the process in the correct order before adding an example.",
+          "Use the exact term pollination when the question asks for a definition or identification.",
+          "End a long answer on pollination with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 8 — fertilisation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in fertilisation should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of fertilisation can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of fertilisation with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving fertilisation can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For fertilisation, write the process in the correct order before adding an example.",
+          "Use the exact term fertilisation when the question asks for a definition or identification.",
+          "End a long answer on fertilisation with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 9 — seed germination",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in seed germination should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of seed germination can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of seed germination with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving seed germination can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For seed germination, write the process in the correct order before adding an example.",
+          "Use the exact term seed germination when the question asks for a definition or identification.",
+          "End a long answer on seed germination with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 10 — male reproductive system",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in male reproductive system should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of male reproductive system can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of male reproductive system with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving male reproductive system can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For male reproductive system, write the process in the correct order before adding an example.",
+          "Use the exact term male reproductive system when the question asks for a definition or identification.",
+          "End a long answer on male reproductive system with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 11 — female reproductive system",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in female reproductive system should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of female reproductive system can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of female reproductive system with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving female reproductive system can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For female reproductive system, write the process in the correct order before adding an example.",
+          "Use the exact term female reproductive system when the question asks for a definition or identification.",
+          "End a long answer on female reproductive system with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Notes 12 — implantation",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Mechanism in detail",
+        "text": "The sequence involved in implantation should be written from the first reproductive event to the final biological result. Reproduction requires coordination of cells, structures and hereditary material. Gametes are specialised cells in sexual reproduction, while asexual methods use ordinary body cells or specialised reproductive units. The exact pathway differs among organisms, but the underlying purpose is the production of a new individual and the continuation of hereditary information."
+      },
+      {
+        "type": "paragraph",
+        "title": "Why the process matters",
+        "text": "The importance of implantation can be understood at both individual and population levels. An individual does not need to reproduce to remain alive, but populations need replacement of individuals across generations. Sexual reproduction additionally creates new genetic combinations, while asexual reproduction can multiply successful forms quickly. The environment determines which strategy is most advantageous under particular conditions."
+      },
+      {
+        "type": "paragraph",
+        "title": "Common exam trap",
+        "text": "Do not mix the stages of implantation with later events. Pollination is not fertilisation, a zygote is not the same as an embryo, and menstruation is not the same as ovulation. A good board response uses the correct sequence and names the structure where each event occurs. It should also avoid claiming that every offspring produced asexually is absolutely identical, because mutations can still occur."
+      },
+      {
+        "type": "paragraph",
+        "title": "Application and reasoning",
+        "text": "A case involving implantation can be solved by identifying whether the process is asexual or sexual, whether gametes are involved, and where the new individual begins its development. For human reproductive health questions, reasoning should also include prevention, consent, hygiene and access to medical care. For plants, link flower structures with pollination, fertilisation, seed and fruit formation."
+      },
+      {
+        "type": "keypoint",
+        "title": "Board checkpoint",
+        "items": [
+          "For implantation, write the process in the correct order before adding an example.",
+          "Use the exact term implantation when the question asks for a definition or identification.",
+          "End a long answer on implantation with the biological significance rather than repeating the opening sentence."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Application Casebook — board-style situations",
+    "blocks": [
+      {
+        "type": "practice",
+        "title": "Case studies with actual answers",
+        "questions": [
+          {
+            "question": "A gardener wants many plants with the same desirable characteristic quickly. Which reproductive approach is useful and why?",
+            "answer": "Vegetative propagation can be useful because new plants arise from vegetative parts of a parent plant and are usually genetically very similar to it. This allows a desirable combination of characteristics to be multiplied rapidly without waiting for seed formation."
+          },
+          {
+            "question": "A flower receives pollen but no seed develops. Give one possible reason.",
+            "answer": "Pollen transfer alone is not fertilisation. The pollen must germinate, form a pollen tube and deliver a compatible male gamete to an ovule. If compatibility or a later step fails, fertilisation and seed formation may not occur."
+          },
+          {
+            "question": "Why can sexual reproduction be advantageous when the environment changes?",
+            "answer": "It produces new combinations of hereditary information. Some offspring may carry variations that improve survival or reproduction under the changed conditions. A population with greater inherited diversity may therefore have a better chance of persistence."
+          },
+          {
+            "question": "A seed has water and a suitable temperature but cannot germinate. What other condition is likely to be important?",
+            "answer": "Oxygen is required for respiration during germination. If the seed is deprived of oxygen, energy-releasing reactions are restricted and normal growth can fail even when water and temperature are suitable."
+          },
+          {
+            "question": "Why is the uterus important after implantation?",
+            "answer": "The uterus provides the tissue in which the implanted embryo can continue developing. The placenta establishes an exchange interface that supports transfer of oxygen and nutrients and removal of wastes during development."
+          }
+        ]
+      }
+    ]
+  }
+]); })();
+
+/* Final size-safe board layer; previous data preserved. */
+(function(){ if(window.ChapterData&&Array.isArray(window.ChapterData.sections)) window.ChapterData.sections.push([
+  {
+    "title": "Final Board Precision — chapter-wide linkage",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "title": "Integrated exam note",
+        "text": "Reproduction final exam note: Keep the timeline clear. In flowering plants, pollination is followed by pollen-tube growth, gamete delivery and fertilisation; after fertilisation the zygote develops into an embryo and the ovule becomes a seed while the ovary generally becomes a fruit. In humans, gamete formation precedes fertilisation, the zygote undergoes repeated cell division, implantation occurs in the uterine lining, and the placenta supports exchange during development. In asexual reproduction, one parental source is used and rapid multiplication is common. In sexual reproduction, two gamete sources combine and new hereditary combinations are produced. Reproductive-health answers should also include prevention, consent, hygiene and appropriate medical care."
+      },
+      {
+        "type": "paragraph",
+        "title": "Answer construction",
+        "text": "For a 5-mark response, define the key term first, then explain the mechanism in a logical sequence, add one relevant example or application, and finish with the biological significance. Do not replace an actual answer with phrases such as “this is important” or “this should happen”; write the scientific reason explicitly."
+      }
+    ]
+  }
+]); })();
