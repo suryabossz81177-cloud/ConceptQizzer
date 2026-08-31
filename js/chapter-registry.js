@@ -6,6 +6,56 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class10-biology-life-processes",
+  class: 10,
+  subject: "Biology",
+  chapterNumber: 1,
+  title: "Life Processes",
+  file: "js/notes/class10/biology/life-processes.js",
+  enabled: true
+},
+  
+{
+  id: "class10-biology-control-and-coordination",
+  class: 10,
+  subject: "Biology",
+  chapterNumber: 2,
+  title: "Control and Coordination",
+  file: "js/notes/class10/biology/control-and-coordination.js",
+  enabled: true
+},
+  
+{
+  id: "class10-biology-how-do-organisms-reproduce",
+  class: 10,
+  subject: "Biology",
+  chapterNumber: 3,
+  title: "How do Organisms Reproduce?",
+  file: "js/notes/class10/biology/how-do-organisms-reproduce.js",
+  enabled: true
+},
+  
+{
+  id: "class10-biology-heredity",
+  class: 10,
+  subject: "Biology",
+  chapterNumber: 4,
+  title: "Heredity",
+  file: "js/notes/class10/biology/heredity.js",
+  enabled: true
+},
+  
+{
+  id: "class10-biology-our-environment",
+  class: 10,
+  subject: "Biology",
+  chapterNumber: 5,
+  title: "Our Environment",
+  file: "js/notes/class10/biology/our-environment.js",
+  enabled: true
+},
+  
+  {
   id: "class10-chemistry-chemical-reactions-and-equations",
   class: 10,
   subject: "Chemistry",
