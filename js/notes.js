@@ -341,6 +341,33 @@ function normalizeChapterData(raw, entry){
     sections = [{ title:"", content:chapter.content }];
   }
 
+  /*
+    Preserve the chapter's complete top-level learning payload too.
+    Physics packages keep large board-preparation arrays outside `content`
+    (practice, revision, board_preparation). Older renderers silently
+    ignored those arrays. Append them to the same continuous learner flow
+    without changing or deleting the original data.
+  */
+  if(!Array.isArray(sections)) sections=[];
+
+  const topLevelFlowFields = [
+    ["practice", "Practice & Application"],
+    ["revision", "Revision & Self-Check"],
+    ["board_preparation", "Board Preparation"]
+  ];
+
+  topLevelFlowFields.forEach(([key,title])=>{
+    const value=chapter[key];
+    if(value === undefined || value === null || value === "") return;
+    if(Array.isArray(value) && value.length){
+      sections.push({title, blocks:value});
+    }else if(typeof value === "object") {
+      sections.push({title, blocks:[value]});
+    }else{
+      sections.push({title, content:value});
+    }
+  });
+
   /* Some older files keep the educational fields directly on ChapterData. */
   if(!sections){
     const directKeys = [
@@ -928,9 +955,10 @@ function renderExtraBlockFields(block){
     "aim","materials","procedure","observation",
     "result","conclusion","html","svg","figure",
     "image","src","url","caption","labels",
-    "formula","rows","code","output","prompt",
-    "example","front","back","quote","author",
+    "formula","formulas","expression","rows","headers","columns","cells","code","output","prompt",
+    "example","front","back","quote","author","source","license","alt",
     "branches","points","data","blocks","children",
+    "items","questions","answer","steps","solution",
     /* Interactive geography metadata is renderer-only and must never appear
        as raw Lat/Lon/Model/Render-As cards. */
     "mapMode","markers","highlightRegions","routes","legend","mapCenter","zoom","showStates",
@@ -1255,6 +1283,122 @@ function renderUniversalBlockCore(block, blockIndex){
         <h4>📚 ${blockTitle(block,"Case Study")}</h4>
         ${text ? `<div>${renderText(text)}</div>` : ""}
         ${block.questions ? `<div class="cqCaseQuestions">${renderQuestionList(block.questions)}</div>` : ""}
+      </div>`;
+  }
+
+  /* ---------- PHYSICS-SPECIFIC LEARNING BLOCKS ---------- */
+
+  if(type === "opening" || type === "overview" || type === "introduction") {
+    return `
+      <div class="cqBlock cqOpening">
+        <div class="cqBadge">🌟 Chapter Journey</div>
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Introduction")}</h4>` : ""}
+        ${text ? `<div>${renderText(text)}</div>` : ""}
+      </div>`;
+  }
+
+  if(type === "information-block" || type === "information" || type === "info" || type === "info-block") {
+    return `
+      <div class="cqBlock cqInformation">
+        <h4>📘 ${blockTitle(block,"Important Information")}</h4>
+        ${text ? `<div>${renderText(text)}</div>` : ""}
+      </div>`;
+  }
+
+  if(type === "think" || type === "think-prompt" || type === "thinking") {
+    return `
+      <div class="cqBlock cqThink">
+        <div class="cqBadge">🤔 Think About It</div>
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Think About It")}</h4>` : ""}
+        ${block.question ? `<div class="cqQuestion"><strong>Question</strong><div>${renderText(block.question)}</div></div>` : (text ? `<div>${renderText(text)}</div>` : "")}
+        ${block.answer !== undefined ? `<details><summary>Show reasoning</summary><div>${renderText(block.answer)}</div></details>` : ""}
+      </div>`;
+  }
+
+  if(type === "short" || type === "short-answer" || type === "short_answer") {
+    return `
+      <div class="cqBlock cqShortAnswer">
+        <h4>✍️ ${blockTitle(block,"Short Answer")}</h4>
+        ${block.question ? `<div class="cqQuestion"><b>Question:</b><div>${renderText(block.question)}</div></div>` : ""}
+        ${text && !block.question ? `<div>${renderText(text)}</div>` : ""}
+        ${block.answer !== undefined ? `<details><summary>Show answer</summary><div>${renderText(block.answer)}</div></details>` : ""}
+      </div>`;
+  }
+
+  if(type === "reasoning" || type === "reasoning-question" || type === "reasoning_question") {
+    return `
+      <div class="cqBlock cqReasoning">
+        <h4>🧠 ${blockTitle(block,"Reasoning Question")}</h4>
+        ${block.question ? `<div class="cqQuestion"><b>Question:</b><div>${renderText(block.question)}</div></div>` : ""}
+        ${text && !block.question ? `<div>${renderText(text)}</div>` : ""}
+        ${block.answer !== undefined ? `<details><summary>Show reasoning</summary><div>${renderText(block.answer)}</div></details>` : ""}
+      </div>`;
+  }
+
+  if(type === "exam" || type === "board-application" || type === "board_application" || type === "boardpractice" || type === "board-practice") {
+    const label = type === "exam" ? "🎯 Board Exam Practice" : "📝 Board Application";
+    return `
+      <div class="cqBlock cqBoardExam">
+        <div class="cqBadge">${label}</div>
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Board Practice")}</h4>` : ""}
+        ${block.question ? `<div class="cqQuestion"><strong>Question</strong><div>${renderText(block.question)}</div></div>` : ""}
+        ${text && !block.question ? `<div>${renderText(text)}</div>` : ""}
+        ${block.answer !== undefined ? `<details><summary>Show answer / marking idea</summary><div>${renderText(block.answer)}</div></details>` : ""}
+      </div>`;
+  }
+
+  if(type === "numerical-reasoning" || type === "numerical_reasoning" || type === "numerical-question" || type === "numerical_question") {
+    return `
+      <div class="cqBlock cqNumericalReasoning">
+        <div class="cqBadge">🧮 Numerical Reasoning</div>
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Numerical Reasoning")}</h4>` : ""}
+        ${block.question ? `<div class="cqQuestion"><strong>Problem</strong><div>${renderText(block.question)}</div></div>` : ""}
+        ${text && !block.question ? `<div>${renderText(text)}</div>` : ""}
+        ${block.formula ? `<div class="formulaContent">${renderFormula(block.formula)}</div>` : ""}
+        ${block.steps ? `<div class="cqSteps"><strong>Method</strong>${renderList(block.steps,true)}</div>` : ""}
+        ${block.answer !== undefined ? `<details><summary>Show reasoning</summary><div>${renderText(block.answer)}</div></details>` : ""}
+      </div>`;
+  }
+
+  if(type === "numerical-method" || type === "numerical_method" || type === "method") {
+    return `
+      <div class="cqBlock cqNumericalMethod">
+        <h4>🧮 ${blockTitle(block,"Numerical Solving Method")}</h4>
+        ${text ? `<div>${renderText(text)}</div>` : ""}
+        ${block.steps ? renderList(block.steps,true) : ""}
+      </div>`;
+  }
+
+  if(type === "common-mistakes" || type === "common_mistakes" || type === "mistakes") {
+    const items = Array.isArray(block.items) ? block.items : [];
+    return `
+      <div class="cqBlock cqMistakes">
+        <h4>⚠️ ${blockTitle(block,"Common Mistakes")}</h4>
+        ${text ? `<div>${renderText(text)}</div>` : ""}
+        ${items.length ? renderList(items) : ""}
+      </div>`;
+  }
+
+  if(type === "case" || type === "case-study" || type === "case_study") {
+    return `
+      <div class="cqBlock cqCase">
+        <div class="cqBadge">📚 Case-Based Question</div>
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Case Study")}</h4>` : ""}
+        ${text ? `<div>${renderText(text)}</div>` : ""}
+        ${block.question ? `<div class="cqQuestion"><strong>Question</strong><div>${renderText(block.question)}</div></div>` : ""}
+        ${block.questions ? renderQuestionList(block.questions) : ""}
+        ${block.answer !== undefined ? `<details><summary>Show answer</summary><div>${renderText(block.answer)}</div></details>` : ""}
+      </div>`;
+  }
+
+  if(type === "hots" || type === "HOTS".toLowerCase() || type === "higher-order-thinking" || type === "higher_order_thinking") {
+    return `
+      <div class="cqBlock cqHOTS">
+        <div class="cqBadge">🔥 HOTS</div>
+        ${block.title || block.heading ? `<h4>${blockTitle(block,"Higher Order Thinking")}</h4>` : ""}
+        ${block.question ? `<div class="cqQuestion"><strong>Challenge</strong><div>${renderText(block.question)}</div></div>` : ""}
+        ${text && !block.question ? `<div>${renderText(text)}</div>` : ""}
+        ${block.answer !== undefined ? `<details><summary>Show solution idea</summary><div>${renderText(block.answer)}</div></details>` : ""}
       </div>`;
   }
 
