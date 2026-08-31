@@ -783,12 +783,21 @@ function renderText(value){
 }
 
 function renderFormula(value){
-  const raw=String(value ?? "").trim();
+  /* Chemistry formula/equation cards intentionally use normal, responsive text.
+     This prevents long equations from being clipped on narrow mobile screens. */
+  let raw=String(value ?? "").trim();
   if(!raw) return "";
-  if(/^\[/.test(raw) || /^\(/.test(raw)) return raw;
-  let f=physicsTex(raw);
-  f=f.replace(/^\\\(/,"").replace(/\\\)$/ ,"");
-  return "\\[" + f.replace(/²/g,"^2").replace(/³/g,"^3") + "\\]";
+  raw=raw.replace(/\\mathrm\{([^}]*)\}/g,"$1")
+         .replace(/\\text\{([^}]*)\}/g,"$1")
+         .replace(/\\quad/g,"   ")
+         .replace(/\\;/g," ")
+         .replace(/\\,/g," ")
+         .replace(/\\!/g,"")
+         .replace(/\\log/g,"log");
+  /* If a formula was supplied with TeX delimiters, remove only the delimiters. */
+  raw=raw.replace(/^\\\[/,"").replace(/\\\]$/ ,"")
+         .replace(/^\\\(/,"").replace(/\\\)$/ ,"");
+  return escapeRenderHTML(raw);
 }
 
 function blockTitle(block, fallback){
@@ -2092,7 +2101,7 @@ function installUniversalRendererStyles(){
     .cqVisual{overflow:auto;max-width:100%;margin:10px 0}
     .cqCaption{font-style:italic;opacity:.8}
     .cqFormula{background:linear-gradient(135deg,#eff6ff,#f5f3ff)}
-    .formulaContent{font-size:22px;font-weight:800;padding:18px;border-radius:16px;background:#fff;text-align:center;overflow:auto}
+    .formulaContent{font-size:20px;font-weight:700;padding:18px;border-radius:16px;background:#fff;text-align:center;overflow-wrap:anywhere;word-break:normal;white-space:normal;max-width:100%;box-sizing:border-box;line-height:1.55}
     .cqTableScroll{overflow-x:auto}
     .cqTable table,.cqData table{border-collapse:collapse;width:100%;min-width:500px}
     .cqTable th,.cqTable td,.cqData th,.cqData td{border:1px solid #ddd;padding:10px;text-align:left}
@@ -2111,7 +2120,7 @@ function installUniversalRendererStyles(){
     .cqWarning{background:#fff1f2;border-left:6px solid #ef4444}
     .cqExam{background:#f1efff;border-left:6px solid #7c3aed}
     .cqApplication{background:#eff9ff;border-left:6px solid #0284c7}
-    .cqSummary{background:#f5f5ff;border-left:6px solid #6366f1}
+    .cqSummary{background:#f5f5ff;border-left:6px solid #6366f1;overflow:visible;max-width:100%;box-sizing:border-box}.cqSummary p,.cqSummary{overflow-wrap:anywhere;word-break:normal;white-space:normal}
     .cqFlashcard{background:linear-gradient(135deg,#fff7ed,#f4f0ff)}
     .cqQuote{background:#f8f8ff;border-left:6px solid #6366f1;font-size:18px}
     .cqComic{
