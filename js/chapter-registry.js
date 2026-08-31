@@ -6,6 +6,46 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class10-chemistry-chemical-reactions-and-equations",
+  class: 10,
+  subject: "Chemistry",
+  chapterNumber: 1,
+  title: "Chemical Reactions and Equations",
+  file: "js/notes/class10/chemistry/chemical-reactions-and-equations.js",
+  enabled: true
+},
+  
+{
+  id: "class10-chemistry-acids-bases-and-salts",
+  class: 10,
+  subject: "Chemistry",
+  chapterNumber: 2,
+  title: "Acids, Bases and Salts",
+  file: "js/notes/class10/chemistry/acids-bases-and-salts.js",
+  enabled: true
+},
+  
+{
+  id: "class10-chemistry-metals-and-non-metals",
+  class: 10,
+  subject: "Chemistry",
+  chapterNumber: 3,
+  title: "Metals and Non-metals",
+  file: "js/notes/class10/chemistry/metals-and-non-metals.js",
+  enabled: true
+},
+  
+{
+  id: "class10-chemistry-carbon-and-its-compounds",
+  class: 10,
+  subject: "Chemistry",
+  chapterNumber: 4,
+  title: "Carbon and Its Compounds",
+  file: "js/notes/class10/chemistry/carbon-and-its-compounds.js",
+  enabled: true
+},
+  
+  {
   id: "class10-physics-light-reflection-and-refraction",
   class: 10,
   subject: "Physics",
