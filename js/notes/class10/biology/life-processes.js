@@ -1073,5 +1073,498 @@ window.ChapterData = {
     "Attempt board questions using complete, direct answers.",
     "Check that definitions, comparisons and examples use distinct wording.",
     "Revise the chapter summary only after understanding the detailed sections."
-  ]
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Why organisms need life processes",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Why organisms need life processes",
+          "content": "A living organism is not a static structure. Its cells continuously build molecules, break down nutrients, exchange gases, maintain water and ion balance, repair damage and remove unwanted products. These activities require a constant supply of materials and energy. Life processes therefore refer to the basic maintenance functions that keep an organism alive and functioning."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Maintenance must continue even when an organism is not visibly moving.",
+            "Different organs cooperate rather than working as isolated units.",
+            "The same broad function can be achieved by different structures in plants and animals."
+          ]
+        },
+        {
+          "type": "example",
+          "title": "Everyday connection",
+          "content": "A resting person is still breathing, circulating blood, digesting absorbed nutrients and forming urine."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why are life processes necessary?",
+          "answer": "Life processes are necessary to obtain and use materials and energy, maintain the internal conditions of cells, transport substances to their sites of use and remove metabolic wastes. Without these coordinated activities, cells cannot continue their normal functions."
+        },
+        {
+          "type": "think",
+          "question": "Why can a plant be considered active even when it appears motionless?",
+          "answer": "A plant continuously performs photosynthesis, respiration, transport, growth, repair and waste removal. Visible movement is not the criterion for deciding whether maintenance is occurring."
+        },
+        {
+          "id": "life-processes-fig-2",
+          "title": "Alveolus and gas exchange",
+          "caption": "Gas exchange across the alveolar surface.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Alveolus and gas exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Alveolus and gas exchange</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Air enters an alveolus. A thin moist wall lies next to a dense</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">capillary network. Oxygen diffuses into blood while carbon</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dioxide diffuses from blood into the alveolar air.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Alveolus and gas exchange"
+        },
+        {
+          "id": "life-processes-fig-6",
+          "title": "Stomatal exchange",
+          "caption": "Stomata coordinate gaseous exchange and water loss.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Stomatal exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Stomatal exchange</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Two guard cells surround a stomatal pore. Carbon dioxide</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">enters for photosynthesis; oxygen and water vapour can leave.</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Guard cells regulate the opening.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Stomatal exchange"
+        },
+        {
+          "id": "life-processes-fig-9",
+          "title": "Photosynthesis sequence",
+          "caption": "Simplified sequence of photosynthesis.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Photosynthesis sequence\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Photosynthesis sequence</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Light energy + chlorophyll → carbon dioxide and water are</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">converted into carbohydrate; oxygen is released. Leaves</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">provide a large surface and stomata regulate gas exchange.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Photosynthesis sequence"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Nutrition and the need for food",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Nutrition and the need for food",
+          "content": "Nutrition provides raw materials for growth, repair and synthesis as well as energy for cellular work. Autotrophic organisms manufacture organic food from simpler inorganic substances, whereas heterotrophic organisms obtain ready-made organic nutrients from other organisms or their products. The mode of nutrition determines how food is acquired, digested and distributed."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Autotrophs use light or another energy source to build organic compounds.",
+            "Heterotrophs depend directly or indirectly on autotrophs for organic food.",
+            "Complex food molecules often need digestion before absorption."
+          ]
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Differentiate autotrophic and heterotrophic nutrition.",
+          "answer": "Autotrophic nutrition involves synthesis of organic food from inorganic raw materials such as carbon dioxide and water using an energy source. Heterotrophic nutrition involves obtaining organic food from other organisms, their products or decomposed material."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Photosynthesis in green plants",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Photosynthesis in green plants",
+          "content": "Photosynthesis converts light energy into chemical energy stored in organic molecules. Chlorophyll absorbs suitable wavelengths of light, carbon dioxide enters mainly through stomata and water is supplied by roots. The overall process can be represented as: carbon dioxide + water → glucose + oxygen, in the presence of light and chlorophyll. The equation is a summary; photosynthesis itself involves several linked reactions."
+        },
+        {
+          "type": "process",
+          "title": "Main requirements",
+          "steps": [
+            "Roots absorb water and mineral ions.",
+            "Water reaches leaves through xylem.",
+            "Carbon dioxide enters through stomata.",
+            "Chlorophyll absorbs light energy.",
+            "Carbohydrates are synthesised and oxygen is released."
+          ]
+        },
+        {
+          "type": "equation",
+          "title": "Key relation",
+          "content": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (light and chlorophyll)"
+        },
+        {
+          "type": "mistake",
+          "title": "Common mistake",
+          "content": "Do not say that plants take in food from soil. Soil supplies water and minerals; the organic food is synthesised mainly in green leaves."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Digestion in human beings",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Digestion in human beings",
+          "content": "Human nutrition involves ingestion, digestion, absorption, assimilation and egestion. Mechanical processing begins in the mouth, where chewing increases surface area and saliva begins starch digestion. The stomach provides acidic conditions and protein digestion begins there. In the small intestine, bile helps in fat emulsification and pancreatic and intestinal enzymes complete digestion. The intestinal wall absorbs soluble nutrients, and the large intestine mainly reabsorbs water and forms faeces."
+        },
+        {
+          "type": "process",
+          "title": "Food journey",
+          "steps": [
+            "Mouth: chewing and salivary action begin digestion.",
+            "Oesophagus: muscular contractions push the food onward.",
+            "Stomach: churning and acidic conditions support protein digestion.",
+            "Small intestine: digestion is completed and nutrients are absorbed.",
+            "Large intestine: water is reabsorbed and faeces are formed."
+          ]
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is the role of bile in digestion?",
+          "answer": "Bile is produced by the liver and stored in the gall bladder. It makes the acidic food mixture more suitable for intestinal enzymes and emulsifies fats into smaller droplets, increasing the surface area available for lipase action."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Respiration releases usable energy",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Respiration releases usable energy",
+          "content": "Respiration is a set of cellular reactions in which food molecules are broken down and energy is made available for cellular activities. In aerobic respiration, glucose is ultimately oxidised to carbon dioxide and water with a relatively high energy yield. If oxygen is insufficient, cells may use anaerobic pathways that release less energy and produce different end products."
+        },
+        {
+          "type": "equation",
+          "title": "Key relation",
+          "content": "Glucose + oxygen → carbon dioxide + water + energy"
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is respiration different from breathing?",
+          "answer": "Breathing is the physical exchange and movement of air, whereas respiration is the cellular process in which food molecules are broken down and energy is released in a usable form."
+        },
+        {
+          "id": "life-processes-fig-10",
+          "title": "Aerobic respiration",
+          "caption": "Overall pathway of aerobic respiration.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Aerobic respiration\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Aerobic respiration</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Glucose → pyruvate → carbon dioxide + water + large amount of</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">usable energy. In eukaryotic cells, most stages after</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">glycolysis occur in mitochondria.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Aerobic respiration"
+        },
+        {
+          "id": "life-processes-fig-11",
+          "title": "Anaerobic pathways",
+          "caption": "Two common anaerobic outcomes.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Anaerobic pathways\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Anaerobic pathways</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">In yeast: glucose → ethanol + carbon dioxide + less energy. In</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">oxygen-deficient muscle cells: glucose → lactic acid + less</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">energy. The end products differ because the pathways differ.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Anaerobic pathways"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Gas exchange and the role of alveoli",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Gas exchange and the role of alveoli",
+          "content": "Efficient gas exchange needs a large surface, a thin diffusion barrier, moisture and a continuous blood supply. Human lungs contain numerous alveoli that provide a very large surface area. Oxygen diffuses from alveolar air into blood because of a concentration gradient, while carbon dioxide moves in the opposite direction. Haemoglobin helps transport oxygen in blood."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Alveolar walls are thin.",
+            "A rich capillary network maintains exchange.",
+            "Breathing continually renews alveolar air.",
+            "Diffusion is driven by concentration gradients."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Transport in human beings",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Transport in human beings",
+          "content": "The circulatory system transports oxygen, nutrients, hormones, carbon dioxide and other substances. The heart acts as a muscular pump. Arteries generally carry blood away from the heart, veins generally return blood to the heart, and capillaries provide thin exchange surfaces between blood and tissues. Humans show double circulation: blood passes through the heart twice during one complete circuit."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is separation of oxygenated and deoxygenated blood useful in humans?",
+          "answer": "Separation permits efficient delivery of oxygen-rich blood to body tissues. This supports the high energy demand of warm-blooded animals and helps maintain a stable body temperature and active metabolism."
+        },
+        {
+          "id": "life-processes-fig-1",
+          "title": "Human digestive system",
+          "caption": "Major organs involved in human nutrition.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human digestive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human digestive system</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Mouth → oesophagus → stomach → small intestine → large</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">intestine → rectum. Accessory glands: liver and pancreas. The</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">small intestine is the major site of digestion completion and</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">nutrient absorption.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Human digestive system"
+        },
+        {
+          "id": "life-processes-fig-3",
+          "title": "Double circulation",
+          "caption": "Pathway of blood in human double circulation.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Double circulation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b91c1c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Double circulation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Right side of heart → lungs → left side of heart → body</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">tissues → right side of heart. The pulmonary and systemic</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">circuits keep oxygenated and deoxygenated blood largely</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">separated.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Double circulation"
+        },
+        {
+          "id": "life-processes-fig-4",
+          "title": "Human heart pathway",
+          "caption": "Direction of blood flow through the four chambers.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human heart pathway\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human heart pathway</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Vena cava → right atrium → right ventricle → pulmonary artery</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">→ lungs → pulmonary veins → left atrium → left ventricle →</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">aorta.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Human heart pathway"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The human heart and valves",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "The human heart and valves",
+          "content": "The heart has four chambers. The right atrium receives deoxygenated blood and passes it to the right ventricle, which pumps it to the lungs. Oxygenated blood returns to the left atrium and moves into the left ventricle, which pumps it through the aorta to the body. Valves prevent backflow and maintain one-way movement."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why are valves important in the heart?",
+          "answer": "Valves open and close according to pressure differences so that blood moves in one direction. They prevent reverse flow when the chambers contract or relax."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Transport in plants: xylem",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Transport in plants: xylem",
+          "content": "Plants do not have a pumping organ equivalent to the human heart. Water and minerals absorbed by roots move through xylem. Root pressure can push water upward, but transpiration from leaf surfaces creates a major pull. Cohesion between water molecules and adhesion to vessel walls help maintain a continuous water column."
+        },
+        {
+          "type": "think",
+          "question": "Why does transpiration help water rise in a tall plant?",
+          "answer": "Evaporation of water from leaf surfaces lowers water potential in the leaf and creates tension in the continuous water column. This transpiration pull can draw water upward through xylem."
+        },
+        {
+          "id": "life-processes-fig-7",
+          "title": "Xylem transport",
+          "caption": "Movement of water and minerals through xylem.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Xylem transport\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0369a1\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Xylem transport</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Roots absorb water and mineral ions. Xylem vessels conduct</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">them mainly upward. Root pressure can contribute, while</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">transpiration pull is a major driving force in tall plants.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Xylem transport"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Transport in plants: phloem",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Transport in plants: phloem",
+          "content": "Sugars made in leaves are transported to regions where they are needed or stored. Phloem translocation can move material from a source to a sink, and the direction can differ in different parts of the plant at the same time. Loading and unloading of sugars involve energy-dependent processes, so phloem transport is not simply passive diffusion."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is translocation?",
+          "answer": "Translocation is the transport of soluble organic food, mainly sugars, through phloem from source tissues such as mature leaves to sink tissues such as roots, fruits, seeds or growing regions."
+        },
+        {
+          "id": "life-processes-fig-8",
+          "title": "Phloem translocation",
+          "caption": "Translocation of food through phloem.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Phloem translocation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#a16207\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Phloem translocation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Leaves produce sugars. Phloem transports dissolved food from</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">source regions to sinks such as roots, fruits, seeds and</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">growing tissues. Direction can vary with source and sink</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">position.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Phloem translocation"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Excretion in humans",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Excretion in humans",
+          "content": "Cells produce metabolic wastes that must be removed to keep the internal environment suitable. The kidneys filter blood and regulate the composition of body fluids. Each nephron begins with filtration at the glomerulus and Bowman's capsule. Selective reabsorption returns useful substances and appropriate amounts of water to the blood. The remaining fluid forms urine."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is selective reabsorption?",
+          "answer": "Selective reabsorption is the process by which useful substances such as glucose, amino acids, suitable amounts of salts and water are taken back from the filtrate into the blood according to the body's needs."
+        },
+        {
+          "id": "life-processes-fig-5",
+          "title": "Nephron",
+          "caption": "Functional plan of a nephron.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Nephron\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0f766e\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Nephron</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Bowman&#x27;s capsule surrounds a glomerulus. Filtrate passes</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">through the renal tubule, where useful substances and water</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">are selectively reabsorbed. The remaining fluid becomes urine.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Nephron"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Dialysis and artificial waste removal",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Dialysis and artificial waste removal",
+          "content": "When kidneys cannot adequately remove wastes, dialysis can assist in maintaining the chemical balance of the blood. In haemodialysis, blood is circulated beside a dialysis fluid across a selectively permeable membrane. Small waste molecules diffuse into the fluid while larger blood components are retained. Dialysis supports waste removal but does not reproduce every function of healthy kidneys."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why does dialysis fluid not contain a high concentration of urea?",
+          "answer": "The purpose is to maintain a concentration gradient so urea can diffuse from the patient's blood into the dialysis fluid. The fluid is formulated to avoid unwanted loss of useful substances while facilitating waste removal."
+        },
+        {
+          "id": "life-processes-fig-12",
+          "title": "Dialysis concept",
+          "caption": "Basic principle used in haemodialysis.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Dialysis concept\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Dialysis concept</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Blood is passed through a dialysis apparatus where wastes such</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">as urea diffuse across a selectively permeable membrane into</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dialysing fluid. Useful balance is restored through controlled</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">treatment.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Dialysis concept"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Excretion in plants",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Excretion in plants",
+          "content": "Plants do not have a specialised excretory system comparable to animal kidneys. Gases may diffuse out through stomata and lenticels. Excess water is lost by transpiration, and some wastes can be stored in vacuoles, old leaves, bark or other tissues. Some substances are released into the surrounding soil or converted into less harmful forms."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Oxygen may leave through stomata during photosynthesis.",
+            "Carbon dioxide is produced during respiration.",
+            "Excess water can leave by transpiration.",
+            "Wastes may be stored in tissues later shed by the plant."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Aerobic and anaerobic respiration",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Aerobic and anaerobic respiration",
+          "headers": [
+            "Feature",
+            "Aerobic respiration",
+            "Anaerobic respiration"
+          ],
+          "rows": [
+            [
+              "Oxygen",
+              "Usually requires oxygen",
+              "Occurs without sufficient oxygen"
+            ],
+            [
+              "Energy release",
+              "Relatively large",
+              "Relatively small"
+            ],
+            [
+              "End products",
+              "Carbon dioxide and water",
+              "Depends on organism; for example ethanol + carbon dioxide in yeast"
+            ],
+            [
+              "Typical site",
+              "Cytoplasm followed by mitochondria in eukaryotic cells",
+              "Cytoplasm"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Arteries and veins",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Arteries and veins",
+          "headers": [
+            "Feature",
+            "Arteries",
+            "Veins"
+          ],
+          "rows": [
+            [
+              "Direction",
+              "Away from heart",
+              "Towards heart"
+            ],
+            [
+              "Walls",
+              "Thick and elastic",
+              "Thinner, less elastic"
+            ],
+            [
+              "Valves",
+              "Generally absent",
+              "Present in many veins"
+            ],
+            [
+              "Pressure",
+              "Higher",
+              "Lower"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: A runner after a sprint",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: A runner after a sprint",
+          "text": "A student finishes a short sprint and breathes rapidly. The leg muscles may temporarily experience oxygen shortage.",
+          "questions": [
+            {
+              "question": "Why does breathing remain fast immediately after exercise?",
+              "answer": "Rapid breathing helps supply more oxygen and remove carbon dioxide. It also supports recovery from the temporary oxygen deficit associated with strenuous activity."
+            },
+            {
+              "question": "Why can muscles ache after very intense activity?",
+              "answer": "During oxygen shortage, muscle cells can rely more on anaerobic respiration, producing lactic acid. Accumulation and associated changes in muscle conditions can contribute to fatigue and discomfort."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain the pathway of food through the human alimentary canal.",
+          "answer": "Food passes from the mouth to the oesophagus, stomach, small intestine, large intestine, rectum and anus. Digestion begins in the mouth, continues in the stomach and is completed mainly in the small intestine. Nutrients are absorbed through the intestinal wall, while water is largely reabsorbed in the large intestine."
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Describe the structure and function of a nephron.",
+          "answer": "A nephron consists of a glomerulus enclosed by Bowman's capsule followed by a renal tubule. Blood is filtered at the glomerulus. The filtrate then passes through the tubule, where useful substances and appropriate amounts of water and ions are selectively reabsorbed. The remaining fluid is urine."
+        }
+      ]
+    }
+  ],
+  "description": "Living organisms maintain themselves through coordinated processes such as nutrition, respiration, transport and excretion. These processes keep cells supplied with materials, energy and suitable internal conditions. The chapter moves from the need for maintenance to the organs and mechanisms that perform these functions in plants and animals.",
+  "summary": "Life processes are the coordinated activities that maintain an organism. Nutrition supplies raw materials and energy sources; photosynthesis is the principal autotrophic pathway in green plants. Human digestion converts food into absorbable molecules. Respiration releases usable energy from food, while lungs provide efficient gas exchange. Blood and the heart transport materials in humans, whereas xylem and phloem perform major transport functions in plants. Excretion removes metabolic wastes; kidneys perform filtration and selective reabsorption through nephrons. Together these processes maintain the internal conditions required for life.",
+  "rendering": "compatible-with-concept-quizzer-universal-renderer"
 };

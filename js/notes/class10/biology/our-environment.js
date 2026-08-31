@@ -984,5 +984,424 @@ window.ChapterData = {
     "Attempt board questions using complete, direct answers.",
     "Check that definitions, comparisons and examples use distinct wording.",
     "Revise the chapter summary only after understanding the detailed sections."
-  ]
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "What is an ecosystem?",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "What is an ecosystem?",
+          "content": "An ecosystem is a functional unit in which living organisms interact with one another and with physical factors such as light, water, air, temperature and soil. Producers capture energy, consumers obtain food by feeding on organisms, and decomposers break down dead organic material. The boundaries of an ecosystem can be small, such as a pond, or very large."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Biotic components are living components.",
+            "Abiotic components are non-living physical and chemical factors.",
+            "Energy flow and matter cycling connect the components."
+          ]
+        },
+        {
+          "id": "our-environment-fig-1",
+          "title": "Ecosystem components",
+          "caption": "Basic organisation of an ecosystem.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Ecosystem components\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Ecosystem components</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Abiotic: light, temperature, water, soil, air and minerals.</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Biotic: producers, consumers and decomposers. These components</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">interact continuously through energy flow and matter cycling.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Ecosystem components"
+        },
+        {
+          "id": "our-environment-fig-3",
+          "title": "Food web",
+          "caption": "A network of interconnected food chains.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Food web\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Food web</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Grass can feed grasshoppers and rabbits; grasshoppers can be</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">eaten by frogs and birds; rabbits can be eaten by foxes;</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">snakes may eat frogs and birds. Multiple linked chains form a</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">food web.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Food web"
+        },
+        {
+          "id": "our-environment-fig-5",
+          "title": "Energy pyramid",
+          "caption": "Energy decreases along trophic levels.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Energy pyramid\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Energy pyramid</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Large energy input at producer level → smaller amount</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">available to herbivores → still smaller amount at higher</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">consumers. Only a fraction of energy is transferred upward at</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">each step.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Energy pyramid"
+        },
+        {
+          "id": "our-environment-fig-6",
+          "title": "Decomposer action",
+          "caption": "Role of decomposers in nutrient cycling.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Decomposer action\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Decomposer action</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Dead plants and animals + organic waste → microbial</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">decomposition → simpler substances returned to the</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">environment. Decomposers recycle matter and prevent</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">accumulation of dead organic material.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Decomposer action"
+        },
+        {
+          "id": "our-environment-fig-8",
+          "title": "Water cycle",
+          "caption": "Main stages of the water cycle.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Water cycle\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0284c7\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Water cycle</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Evaporation and transpiration → condensation → precipitation →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">runoff and infiltration → collection → renewed evaporation.</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Living organisms participate through transpiration and</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">metabolism.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Water cycle"
+        },
+        {
+          "id": "our-environment-fig-12",
+          "title": "Waste hierarchy",
+          "caption": "A practical hierarchy for reducing waste.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Waste hierarchy\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0f766e\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Waste hierarchy</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Refuse unnecessary material → reduce consumption → reuse items</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">→ repair/refill → recycle suitable materials → recover energy</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">where appropriate → dispose safely as the last option.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Waste hierarchy"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Producers and consumers",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Producers and consumers",
+          "content": "Green plants and algae are major producers because they synthesise organic matter using light energy. Herbivores are primary consumers; animals that eat herbivores occupy higher consumer levels. Omnivores can feed at more than one trophic level depending on the food they consume."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Producer is not synonymous with plant in every ecosystem; photosynthetic algae are also producers.",
+            "Consumers depend directly or indirectly on producers for food energy."
+          ]
+        },
+        {
+          "id": "our-environment-fig-4",
+          "title": "Trophic levels",
+          "caption": "Trophic organisation of an ecosystem.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Trophic levels\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Trophic levels</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Producer → primary consumer → secondary consumer → tertiary</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">consumer. Energy available generally decreases at higher</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">trophic levels because much energy is used in life processes</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and lost as heat.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Trophic levels"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Food chains and food webs",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Food chains and food webs",
+          "content": "A food chain shows a linear sequence of feeding relationships. A food web connects several food chains because organisms usually eat more than one type of food and may themselves have several predators. Arrows indicate the direction of energy and food transfer from the organism being eaten toward the eater."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What does an arrow in a food chain represent?",
+          "answer": "The arrow represents the direction of transfer of food and associated chemical energy from one trophic level to the next. It points from the organism being eaten toward the organism that receives the food."
+        },
+        {
+          "id": "our-environment-fig-2",
+          "title": "Food chain",
+          "caption": "A simple terrestrial food chain.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Food chain\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Food chain</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Sun → grass → grasshopper → frog → snake → eagle. Arrows show</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">the direction of transfer of food energy from one trophic</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">level to the next.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Food chain"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Trophic levels",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Trophic levels",
+          "content": "Each step in a food chain is a trophic level. Producers occupy the first trophic level, primary consumers the second, secondary consumers the third and so on. An organism can occupy different trophic levels in different food chains depending on what it eats."
+        },
+        {
+          "type": "mistake",
+          "title": "Common mistake",
+          "content": "Do not count the Sun as a trophic level. The Sun is the major energy source for most ecosystems, while trophic levels describe feeding positions of organisms."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Energy flow and the ten-percent law",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Energy flow and the ten-percent law",
+          "content": "Energy enters most ecosystems as sunlight and is captured by producers. At each trophic transfer, only a small fraction of the energy stored in one trophic level becomes available to the next. A commonly taught approximation is that about ten percent is transferred, while much of the rest is used in respiration, movement, maintenance and other activities or dissipated as heat."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why are food chains usually short?",
+          "answer": "Energy available decreases sharply at each trophic transfer. Because only a small fraction of energy is passed to the next level, there is insufficient energy to support many successive trophic levels."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Decomposers and nutrient recycling",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Decomposers and nutrient recycling",
+          "content": "Bacteria and fungi break down dead organisms and organic wastes. They release simpler substances and return nutrients to the environment. Decomposition is essential because it prevents dead matter from simply accumulating and makes elements available again for producers."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why are decomposers essential to an ecosystem?",
+          "answer": "Decomposers break down dead organisms and organic wastes, releasing simpler substances and helping recycle nutrients. Without decomposition, nutrients would remain locked in dead material and ecosystems would function poorly."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Biogeochemical cycles",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Biogeochemical cycles",
+          "content": "Matter is not destroyed when organisms use it; atoms move between organisms and the physical environment. Water circulates through evaporation, condensation, precipitation, runoff and biological processes. Carbon moves through photosynthesis, respiration, decomposition and combustion. These cycles connect ecosystems to the atmosphere, soil and water bodies."
+        },
+        {
+          "id": "our-environment-fig-7",
+          "title": "Carbon cycle",
+          "caption": "Simplified carbon movement through an ecosystem.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Carbon cycle\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#64748b\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Carbon cycle</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Carbon dioxide ↔ photosynthesis ↔ organic matter → respiration</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and decomposition → carbon dioxide. Combustion also returns</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">carbon dioxide to the atmosphere.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Carbon cycle"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Biological magnification",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Biological magnification",
+          "content": "Some pollutants are persistent and are not easily broken down. If such substances enter a food chain, they can accumulate in organisms and become more concentrated at higher trophic levels. Top consumers are therefore at particular risk. The phenomenon is called biological magnification or biomagnification."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why are top carnivores often more affected by biomagnification?",
+          "answer": "Persistent pollutants can accumulate in organisms and their concentration can increase at successive trophic levels. A top carnivore consumes many organisms from lower levels and can therefore receive a relatively high pollutant concentration."
+        },
+        {
+          "id": "our-environment-fig-9",
+          "title": "Biological magnification",
+          "caption": "Why persistent pollutants can become concentrated in food chains.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Biological magnification\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Biological magnification</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A persistent pollutant enters a food chain at low</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">concentration → accumulates in organisms → concentration</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">becomes greater at successive trophic levels. Top consumers</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">can receive the highest concentration.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Biological magnification"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Ozone and ultraviolet radiation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Ozone and ultraviolet radiation",
+          "content": "Ozone in the stratosphere absorbs a significant part of harmful ultraviolet radiation. Certain compounds released by human activities can participate in chemical reactions that destroy ozone molecules. Increased ultraviolet exposure can damage living tissues, so protecting the ozone layer is an environmental priority."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is the ozone layer important?",
+          "answer": "Stratospheric ozone absorbs much of the harmful ultraviolet radiation from the Sun. Reduction of this protective layer can increase the amount of biologically damaging ultraviolet radiation reaching Earth's surface."
+        },
+        {
+          "id": "our-environment-fig-10",
+          "title": "Ozone layer and UV",
+          "caption": "Protective role of stratospheric ozone.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Ozone layer and UV\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#4f46e5\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Ozone layer and UV</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Stratospheric ozone absorbs much harmful ultraviolet</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">radiation. Certain chemicals can catalyse ozone breakdown,</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reducing protection and allowing more UV radiation to reach</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Earth&#x27;s surface.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Ozone layer and UV"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Biodegradable and non-biodegradable materials",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Biodegradable and non-biodegradable materials",
+          "content": "Biodegradable substances can be broken down by microorganisms under suitable conditions. Food scraps and many natural materials are biodegradable. Many plastics and other persistent synthetic materials resist biological decomposition and can remain in the environment for long periods. Waste management should therefore prioritise reducing unnecessary material use and preventing leakage into ecosystems."
+        },
+        {
+          "id": "our-environment-fig-11",
+          "title": "Biodegradable and non-biodegradable waste",
+          "caption": "Two broad waste categories.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Biodegradable and non-biodegradable waste\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Biodegradable and non-biodegradable waste</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Biodegradable materials can be broken down by microorganisms</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">under suitable conditions. Many non-biodegradable materials</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">persist for long periods and can accumulate if poorly managed.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Biodegradable and non-biodegradable waste"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Responsible waste management",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Responsible waste management",
+          "content": "The most effective waste strategy is to prevent waste before it is created. Choosing durable products, refusing unnecessary packaging, reusing containers, repairing items and segregating recyclable material can reduce environmental pressure. Composting suitable organic waste returns nutrients to soil. Hazardous waste requires specialised handling rather than ordinary disposal."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Segregate waste at source.",
+            "Keep organic and recyclable streams separate.",
+            "Avoid single-use materials when practical.",
+            "Do not burn mixed waste in open spaces."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Interdependence in ecosystems",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Interdependence in ecosystems",
+          "content": "No organism exists in isolation. Producers support consumers, predators influence prey populations, decomposers return nutrients and abiotic conditions determine what can survive. A change in one population can therefore influence several others. Food webs provide a more realistic picture of ecosystem interactions than a single chain."
+        },
+        {
+          "type": "think",
+          "question": "Why can removing one species affect several other species?",
+          "answer": "Species are linked through feeding relationships, competition and other interactions. Removing one species can alter food availability or population sizes at several connected points in the food web."
+        }
+      ]
+    },
+    {
+      "title": "Food chain and food web",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Food chain and food web",
+          "headers": [
+            "Feature",
+            "Food chain",
+            "Food web"
+          ],
+          "rows": [
+            [
+              "Structure",
+              "Single linear pathway",
+              "Several interconnected pathways"
+            ],
+            [
+              "Stability",
+              "Can be more vulnerable to loss of one link",
+              "Alternative feeding pathways may provide some resilience"
+            ],
+            [
+              "Representation",
+              "Simplified",
+              "More realistic for complex ecosystems"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Biodegradable and non-biodegradable materials",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Biodegradable and non-biodegradable materials",
+          "headers": [
+            "Feature",
+            "Biodegradable",
+            "Non-biodegradable"
+          ],
+          "rows": [
+            [
+              "Microbial breakdown",
+              "Generally possible under suitable conditions",
+              "Often very slow or absent"
+            ],
+            [
+              "Persistence",
+              "Usually lower",
+              "Often high"
+            ],
+            [
+              "Management focus",
+              "Composting or controlled decomposition",
+              "Reduction, reuse, recycling and safe disposal"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: Pesticide in a pond ecosystem",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: Pesticide in a pond ecosystem",
+          "text": "A persistent pesticide enters water and is taken up by small organisms. Fish eat those organisms, and birds eat the fish.",
+          "questions": [
+            {
+              "question": "What environmental process may occur?",
+              "answer": "The persistent pesticide can accumulate in organisms and become more concentrated at higher trophic levels, producing biological magnification."
+            },
+            {
+              "question": "Which organisms are likely to face the highest concentration?",
+              "answer": "Predators at higher trophic levels, such as fish-eating birds in this example, are likely to receive the highest concentration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: Mixed household waste",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: Mixed household waste",
+          "text": "A household places food scraps, paper, plastic packaging and broken electronic items in one open bin.",
+          "questions": [
+            {
+              "question": "What is the first practical improvement?",
+              "answer": "Segregate waste at the source so biodegradable, recyclable and hazardous streams can be handled appropriately."
+            },
+            {
+              "question": "Why should electronic waste not be treated as ordinary compost?",
+              "answer": "Electronic items can contain metals and chemicals that require specialised collection and recycling. They should not be mixed with biodegradable kitchen waste."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain the ten-percent law of energy transfer.",
+          "answer": "Only a small fraction of the energy available at one trophic level is transferred to the next. A commonly used approximation is that about ten percent is passed on, while most energy is used in life processes and dissipated as heat. Therefore energy decreases sharply along a food chain."
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain biological magnification with an example.",
+          "answer": "A persistent pollutant entering a food chain can accumulate in organisms. When organisms at one level are eaten by organisms at the next level, the pollutant concentration can increase. Thus a top predator may contain a much higher concentration than organisms at the base of the chain."
+        }
+      ]
+    }
+  ],
+  "description": "Every organism lives within an environment made of living and non-living components. Energy enters most ecosystems through sunlight, moves through food chains and is progressively dissipated as heat. Materials such as carbon, oxygen, water and nutrients cycle through ecosystems. The chapter also examines ozone, waste, biodegradable and non-biodegradable materials, and responsible environmental management.",
+  "summary": "An ecosystem is formed by interactions among organisms and their physical environment. Producers capture energy, consumers transfer it through feeding relationships and decomposers recycle matter. Food chains and food webs show trophic relationships, while energy decreases at successive levels and is ultimately dissipated as heat. Water and carbon cycle between living and non-living components. Persistent pollutants can undergo biological magnification. Stratospheric ozone protects life from harmful ultraviolet radiation. Responsible waste management focuses on prevention, reduction, reuse, recycling and safe treatment.",
+  "rendering": "compatible-with-concept-quizzer-universal-renderer"
 };

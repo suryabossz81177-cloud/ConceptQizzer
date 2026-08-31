@@ -950,5 +950,400 @@ window.ChapterData = {
     "Attempt board questions using complete, direct answers.",
     "Check that definitions, comparisons and examples use distinct wording.",
     "Revise the chapter summary only after understanding the detailed sections."
-  ]
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Heredity and variation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Heredity and variation",
+          "content": "Heredity is the transmission of biological information from parents to offspring. Variation refers to differences among individuals of the same species. Offspring inherit genetic information, but sexual reproduction combines information from two parents and DNA copying is not absolutely error-free. These processes explain both resemblance and diversity."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Genes are units of hereditary information in the classical school-level description.",
+            "Variation may be small or large.",
+            "Inherited variation can influence survival and reproduction.",
+            "Not every visible difference is inherited genetically."
+          ]
+        },
+        {
+          "id": "heredity-fig-10",
+          "title": "Pedigree idea",
+          "caption": "Conceptual family-trait tracing.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Pedigree idea\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#4f46e5\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Pedigree idea</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Family relationships can be represented using standard symbols</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">to trace how a trait appears across generations. Pedigrees</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">help infer possible inheritance patterns from family data.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Pedigree idea"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "DNA, genes and chromosomes",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "DNA, genes and chromosomes",
+          "content": "DNA stores hereditary information. Genes are specific segments of DNA associated with traits or biological functions. DNA is packaged into chromosomes, which are located in the nucleus of eukaryotic cells. A chromosome contains many genes, so gene and chromosome should not be used as interchangeable terms."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Differentiate a gene and a chromosome.",
+          "answer": "A gene is a segment of DNA carrying hereditary information associated with a particular function or characteristic. A chromosome is a larger DNA-protein structure that contains many genes and packages the genetic material inside the nucleus."
+        },
+        {
+          "id": "heredity-fig-1",
+          "title": "DNA, gene and chromosome",
+          "caption": "Relationship among DNA, genes and chromosomes.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"DNA, gene and chromosome\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">DNA, gene and chromosome</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">DNA is the hereditary molecule. A gene is a functional segment</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">of DNA associated with a characteristic or biological</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">function. DNA is packaged with proteins into chromosomes</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">inside the cell nucleus.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "DNA, gene and chromosome"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Mendel and the idea of traits",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Mendel and the idea of traits",
+          "content": "Inheritance patterns can be studied by following contrasting forms of a characteristic. In a simple monohybrid example, one allele may be dominant and the other recessive. The dominant phenotype appears in a heterozygote, while the recessive phenotype appears when the individual has two recessive alleles."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is a dominant trait?",
+          "answer": "A dominant trait is expressed in the phenotype when at least one dominant allele is present in the genotype, assuming complete dominance. A recessive trait is expressed when both alleles are recessive."
+        },
+        {
+          "id": "heredity-fig-3",
+          "title": "Dominant and recessive alleles",
+          "caption": "How allele combinations can affect phenotype.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Dominant and recessive alleles\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Dominant and recessive alleles</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">An individual with Tt shows the dominant phenotype when T is</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">completely dominant over t. The recessive phenotype appears in</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">tt because no dominant allele masks the recessive allele.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Dominant and recessive alleles"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Monohybrid inheritance",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Monohybrid inheritance",
+          "content": "Consider tallness represented by T and dwarfness by t, with T completely dominant. Crossing TT with tt gives F1 offspring all Tt. When F1 plants self-pollinate, Tt × Tt produces TT, Tt, Tt and tt. Thus the genotypic ratio is 1:2:1 and the phenotypic ratio is 3 tall:1 dwarf under complete dominance."
+        },
+        {
+          "type": "equation",
+          "title": "Key relation",
+          "content": "Tt × Tt → 1 TT : 2 Tt : 1 tt"
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why does the recessive phenotype reappear in the F2 generation?",
+          "answer": "The recessive allele is not destroyed in the heterozygous F1 generation. When two heterozygous individuals form gametes, two recessive alleles can meet in an offspring, producing the recessive genotype."
+        },
+        {
+          "id": "heredity-fig-2",
+          "title": "Monohybrid cross",
+          "caption": "A simple single-trait inheritance cross.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Monohybrid cross\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Monohybrid cross</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Parents: TT × tt → gametes T and t → F1: all Tt. If F1 plants</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">self-pollinate: Tt × Tt → TT, Tt, Tt, tt. Genotypic ratio:</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">1:2:1; phenotypic ratio for complete dominance: 3:1.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Monohybrid cross"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Independent assortment",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Independent assortment",
+          "content": "When two pairs of contrasting traits are followed together, allele pairs can form different combinations in gametes. In a simple unlinked school-level model, inheritance of one pair does not determine the allele received for the second pair. This independent assortment increases the number of possible combinations in offspring."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is independent assortment?",
+          "answer": "Independent assortment means that during gamete formation, different pairs of alleles can segregate independently, allowing multiple combinations of alleles to enter gametes when the genes are inherited independently."
+        },
+        {
+          "id": "heredity-fig-4",
+          "title": "Dihybrid assortment",
+          "caption": "Conceptual view of independent assortment.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Dihybrid assortment\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Dihybrid assortment</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Two pairs of alleles are considered together. During gamete</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">formation, allele pairs can assort independently when the</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">genes are not linked in a way that prevents independent</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">assortment. This creates several gamete combinations.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Dihybrid assortment"
+        },
+        {
+          "id": "heredity-fig-5",
+          "title": "Chromosome pair and alleles",
+          "caption": "Alleles occupy corresponding positions on homologous chromosomes.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Chromosome pair and alleles\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Chromosome pair and alleles</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A pair of homologous chromosomes carries corresponding genes</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">at matching positions. Different forms of a gene are called</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">alleles. One allele is inherited from each biological parent</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">in typical diploid inheritance.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Chromosome pair and alleles"
+        },
+        {
+          "id": "heredity-fig-9",
+          "title": "Acquired versus inherited traits",
+          "caption": "Why not every parental characteristic is inherited.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Acquired versus inherited traits\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Acquired versus inherited traits</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A trait caused by changes in body condition or experience</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">during life is generally not inherited through reproductive</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">DNA. A heritable trait depends on genetic information that can</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">be transmitted to offspring.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Acquired versus inherited traits"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Sex determination in humans",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Sex determination in humans",
+          "content": "Typical human body cells contain 22 pairs of autosomes and one pair of sex chromosomes. Eggs normally carry an X chromosome. Sperm are of two types with respect to the sex chromosome: X-bearing or Y-bearing. Fertilisation by an X-bearing sperm usually produces XX, while fertilisation by a Y-bearing sperm usually produces XY."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is it scientifically incorrect to blame the mother for the sex of a child?",
+          "answer": "The mother normally contributes an X chromosome through the egg. The father's sperm contributes either X or Y, so the sperm determines whether the zygote receives XX or XY in the typical chromosomal pattern."
+        },
+        {
+          "id": "heredity-fig-6",
+          "title": "Sex determination in humans",
+          "caption": "Chromosomal basis of typical human sex determination.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Sex determination in humans\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Sex determination in humans</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Eggs normally carry X. Sperm can carry X or Y. XX is typically</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">female and XY typically male. The sperm therefore determines</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">whether the zygote receives an X or Y chromosome.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Sex determination in humans"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Sources of variation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Sources of variation",
+          "content": "Variation can arise from differences introduced during DNA copying, mutation, recombination during sexual reproduction and independent assortment of chromosomes. Environmental factors can also influence phenotype without changing the inherited DNA sequence. For evolution, inherited variations are especially important because they can be passed to later generations."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Inherited and acquired characteristics",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Inherited and acquired characteristics",
+          "content": "A characteristic acquired during an individual's lifetime is not automatically encoded in the reproductive DNA. For example, increased muscle size from exercise is not inherited simply because a parent exercises. In contrast, a genetic variant that can enter reproductive cells may be transmitted to offspring."
+        },
+        {
+          "type": "mistake",
+          "title": "Common mistake",
+          "content": "Never say that every characteristic of a parent is inherited. Inheritance depends on whether the underlying information can be transmitted through reproductive cells."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Variation and natural selection",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Variation and natural selection",
+          "content": "A population contains variation. If environmental conditions favour individuals with a particular inherited variation, those individuals may survive and reproduce more successfully. Over generations, the favourable variant can become more common. Natural selection therefore changes populations rather than intentionally changing individual organisms because they 'need' a trait."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "How does natural selection lead to evolution?",
+          "answer": "Natural selection acts on existing heritable variation. Individuals with variants that improve survival or reproduction can leave more offspring, so those variants may become more common over successive generations. Accumulated changes can contribute to evolutionary change in populations."
+        },
+        {
+          "id": "heredity-fig-7",
+          "title": "Variation in a population",
+          "caption": "Sources and consequences of variation.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Variation in a population\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#a16207\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Variation in a population</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">DNA copying differences, mutation, recombination and sexual</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reproduction create variation. Environmental conditions can</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">influence which variants survive and reproduce more</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">successfully.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Variation in a population"
+        },
+        {
+          "id": "heredity-fig-8",
+          "title": "Natural selection",
+          "caption": "Simplified natural-selection sequence.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Natural selection\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Natural selection</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Population contains variation → environment creates</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">differential survival/reproduction → useful inherited variants</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">become more common over generations → population changes.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Natural selection"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Evolution and common ancestry",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Evolution and common ancestry",
+          "content": "Similarities among organisms can provide evidence of shared ancestry. Homologous structures may have similar basic organisation because they arose from a common ancestral pattern even if their functions differ. Fossils provide evidence about organisms that lived in the past. Evolution is a population-level change occurring across generations."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Evolution does not mean that one individual transforms into another species.",
+            "Natural selection is one important mechanism of evolutionary change.",
+            "Fossils and comparative anatomy provide evidence for evolutionary relationships."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Probability in inheritance",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Probability in inheritance",
+          "content": "Genetic crosses predict probabilities, not guaranteed outcomes for every small family or litter. A 3:1 phenotypic ratio describes an expected proportion across many offspring under the specified assumptions. A family with only a few children can show a different pattern simply because chance affects each fertilisation event."
+        },
+        {
+          "type": "think",
+          "question": "If the probability of a recessive phenotype is 1/4 in a cross, must exactly one out of every four offspring show it?",
+          "answer": "No. The ratio is a probability expectation over many independent outcomes. Small samples can deviate substantially from the expected proportion."
+        }
+      ]
+    },
+    {
+      "title": "Genotype and phenotype",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Genotype and phenotype",
+          "headers": [
+            "Term",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Genotype",
+              "Allele combination of an organism",
+              "TT, Tt or tt"
+            ],
+            [
+              "Phenotype",
+              "Observable expression of a characteristic",
+              "Tall or dwarf under complete dominance"
+            ],
+            [
+              "Homozygous",
+              "Two similar alleles",
+              "TT or tt"
+            ],
+            [
+              "Heterozygous",
+              "Two different alleles",
+              "Tt"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Inherited and acquired traits",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Inherited and acquired traits",
+          "headers": [
+            "Feature",
+            "Inherited trait",
+            "Acquired trait"
+          ],
+          "rows": [
+            [
+              "Basis",
+              "Genetic information transmitted through reproduction",
+              "Develops during life through environment, experience or body changes"
+            ],
+            [
+              "Transmission",
+              "Can pass to offspring if present in reproductive genetic material",
+              "Not automatically transmitted"
+            ],
+            [
+              "Example",
+              "A genetic blood-group characteristic",
+              "Muscle development due to exercise"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: A family trait",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: A family trait",
+          "text": "Two heterozygous parents have a child. A recessive allele is represented by a and the dominant allele by A.",
+          "questions": [
+            {
+              "question": "What genotypes are possible?",
+              "answer": "The cross Aa × Aa gives AA, Aa, Aa and aa. Thus the possible genotypes occur in the ratio 1:2:1."
+            },
+            {
+              "question": "What is the probability of the recessive phenotype under complete dominance?",
+              "answer": "The recessive phenotype occurs only in aa, so its probability is 1/4 or 25 percent for each conception under the stated model."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: A change in the environment",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: A change in the environment",
+          "text": "A population contains individuals with different inherited characteristics. The environment changes and one characteristic improves survival.",
+          "questions": [
+            {
+              "question": "What may happen over generations?",
+              "answer": "Individuals with the advantageous inherited variation may leave more offspring, causing that variation to become more common in the population."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain the 3:1 phenotypic ratio in a monohybrid cross.",
+          "answer": "When two heterozygous individuals Tt are crossed, the possible genotypes are TT, Tt, Tt and tt. If T is completely dominant, TT and Tt are tall while tt is dwarf. Therefore the expected phenotypic ratio is 3 tall : 1 dwarf."
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain sex determination in humans.",
+          "answer": "The egg normally carries X, whereas sperm can carry X or Y. An X-bearing sperm produces an XX zygote and a Y-bearing sperm produces an XY zygote in the typical chromosomal pattern. Therefore the sperm determines the sex-chromosome combination."
+        }
+      ]
+    }
+  ],
+  "description": "Offspring resemble their parents in many features, yet they are not exact copies. Heredity explains how biological information is transmitted, while variation explains differences within populations. The chapter develops the ideas of genes, chromosomes, dominant and recessive traits, Mendelian inheritance, sex determination and the role of variation in evolution.",
+  "summary": "Heredity explains the transmission of genetic information, while variation explains differences among individuals. DNA contains genes and is packaged into chromosomes. Simple Mendelian crosses show how dominant and recessive alleles can produce predictable genotype and phenotype ratios. Independent assortment creates additional combinations of alleles. In typical human sex determination, eggs carry X while sperm carry X or Y. Variation can arise through DNA copying differences, mutation and sexual reproduction. Natural selection acts on heritable variation and can change populations over generations, contributing to evolution.",
+  "rendering": "compatible-with-concept-quizzer-universal-renderer"
 };

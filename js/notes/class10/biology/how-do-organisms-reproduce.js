@@ -1026,5 +1026,467 @@ window.ChapterData = {
     "Attempt board questions using complete, direct answers.",
     "Check that definitions, comparisons and examples use distinct wording.",
     "Revise the chapter summary only after understanding the detailed sections."
-  ]
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Why organisms reproduce",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Why organisms reproduce",
+          "content": "Reproduction is not required for the survival of an individual in the same immediate way that nutrition or respiration is, but it is essential for continuity of populations and species. During reproduction, genetic information is transmitted to offspring. Small changes in genetic material create variation, which contributes to the diversity of living organisms."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Reproduction maintains continuity of species.",
+            "DNA copying is involved in transmitting hereditary information.",
+            "Variation is a natural outcome of imperfect copying and sexual reproduction.",
+            "Different organisms use different reproductive strategies."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Asexual reproduction",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Asexual reproduction",
+          "content": "Asexual reproduction generally involves a single parent and does not require fusion of gametes. Because one reproductive source supplies the genetic material, offspring are usually very similar to the parent. It can be efficient when conditions are stable and rapid increase is advantageous."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Give two advantages of asexual reproduction.",
+          "answer": "Asexual reproduction can produce many individuals rapidly and does not require finding a mate. It is especially effective when the environment is stable and a successful body form is already well adapted."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-11",
+          "title": "Sexual and asexual reproduction",
+          "caption": "Conceptual comparison of two modes of reproduction.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Sexual and asexual reproduction\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Sexual and asexual reproduction</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Asexual: one parent, no fusion of gametes, usually rapid and</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">produces similar offspring. Sexual: gametes from two</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reproductive contributions fuse, creating combinations of</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">genetic information.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Sexual and asexual reproduction"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fission, budding and fragmentation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Fission, budding and fragmentation",
+          "content": "In binary fission, one cell divides into two. In multiple fission, repeated nuclear division is followed by formation of several daughter cells. Budding produces a new individual from an outgrowth. Fragmentation can allow pieces of an organism to develop into complete individuals in suitable organisms. These methods differ in mechanism but share the absence of gamete fusion."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-1",
+          "title": "Binary fission",
+          "caption": "A simple asexual reproduction pattern.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Binary fission\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Binary fission</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A single-celled organism grows → genetic material is copied →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">the cell divides → two daughter cells form. The resulting</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">individuals are genetically very similar to the parent unless</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">variation arises during replication.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Binary fission"
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-2",
+          "title": "Budding",
+          "caption": "Budding in a unicellular organism.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Budding\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Budding</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A small outgrowth develops on the parent → the bud grows by</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">cell division → it may detach and live independently. Yeast is</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">a familiar example.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Budding"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Spore formation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Spore formation",
+          "content": "Some organisms form specialised reproductive structures containing spores. Spores are often small, resistant and easily dispersed. Under suitable conditions they can germinate and form new individuals. This method helps organisms survive and spread even when conditions fluctuate."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Spores can be produced in large numbers.",
+            "Their small size aids dispersal.",
+            "Protective coverings can help survival during unfavourable conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Vegetative propagation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Vegetative propagation",
+          "content": "New plants can arise from roots, stems or leaves. This is useful in agriculture and horticulture because a desirable plant can be multiplied without waiting for seed formation. Natural examples include tubers, rhizomes and leaf buds; artificial methods include cutting, layering and grafting."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is vegetative propagation useful for farmers and gardeners?",
+          "answer": "It can rapidly produce many plants with characteristics similar to the selected parent. It is particularly useful when plants do not produce viable seeds easily or when a desirable variety must be maintained."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-3",
+          "title": "Vegetative propagation",
+          "caption": "New plants from vegetative parts.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Vegetative propagation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Vegetative propagation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">New plants can arise from vegetative parts such as stems,</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">roots or leaves. Potato tubers, ginger rhizomes and some leaf</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">buds illustrate different natural examples.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Vegetative propagation"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Sexual reproduction and variation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Sexual reproduction and variation",
+          "content": "Sexual reproduction involves formation of male and female gametes and their fusion. Genetic material from different reproductive cells combines in the offspring, creating new combinations. This variation can be advantageous when environments change because populations contain differences on which natural selection can act."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Reproduction in flowering plants",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Reproduction in flowering plants",
+          "content": "The stamen is the male reproductive part and produces pollen grains in the anther. The carpel or pistil is the female reproductive structure, with stigma, style and ovary. Ovules occur inside the ovary. Pollination transfers pollen to the stigma; fertilisation occurs when the male gamete fuses with the female gamete in an ovule."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Differentiate pollination and fertilisation.",
+          "answer": "Pollination is the transfer of pollen from anther to stigma. Fertilisation is the fusion of male and female gametes to form a zygote. Pollination precedes fertilisation in flowering plants."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-4",
+          "title": "Flower reproductive parts",
+          "caption": "Main reproductive structures of a flower.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Flower reproductive parts\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#db2777\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Flower reproductive parts</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Stamen: anther + filament; carpel/pistil: stigma + style +</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">ovary. Pollen is produced in the anther; ovules occur inside</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">the ovary.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Flower reproductive parts"
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-5",
+          "title": "Pollination and fertilisation",
+          "caption": "Sequence from pollination to fertilisation in a flowering plant.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Pollination and fertilisation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#c026d3\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Pollination and fertilisation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Pollen reaches stigma → pollen tube grows through style → male</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">gamete travels toward ovule → fusion with female gamete</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">produces a zygote.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Pollination and fertilisation"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "From flower to seed and fruit",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "From flower to seed and fruit",
+          "content": "After fertilisation, the zygote develops into an embryo. The ovule develops into a seed, while the ovary generally develops into a fruit. Other floral parts may change or wither depending on the plant. Seed formation protects the embryo and provides a means of dispersal and later germination."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Zygote → embryo.",
+            "Ovule → seed.",
+            "Ovary → fruit in many flowering plants.",
+            "Seeds contain a developing embryo and stored or supplied food."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Human male reproductive system",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Human male reproductive system",
+          "content": "The testes produce sperm and the male sex hormone testosterone. Sperm mature and pass through a network of ducts. Accessory glands add fluids that nourish and transport sperm. The urethra carries semen to the exterior. The arrangement allows production, maturation and delivery of male gametes."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "State two functions of the testes.",
+          "answer": "The testes produce male gametes called sperm and secrete testosterone, a hormone involved in development of male reproductive characteristics and reproductive function."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-6",
+          "title": "Human male reproductive system",
+          "caption": "Functional organisation of the male reproductive system.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human male reproductive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human male reproductive system</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Testes produce sperm and testosterone. Sperm pass through</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">ducts and mix with secretions from accessory glands to form</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">semen, which is released through the urethra.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Human male reproductive system"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Human female reproductive system",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Human female reproductive system",
+          "content": "The ovaries contain follicles and release ova. The oviducts connect the ovarian region with the uterus and provide the usual site of fertilisation. The uterus has a lining that changes during the reproductive cycle and can support implantation. The vagina receives semen and forms the birth canal."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-7",
+          "title": "Human female reproductive system",
+          "caption": "Functional organisation of the female reproductive system.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human female reproductive system\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#db2777\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human female reproductive system</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Ovaries release ova and produce hormones. Oviducts provide the</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">usual site of fertilisation. The uterus supports implantation</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and development; the vagina forms the birth canal.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Human female reproductive system"
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-9",
+          "title": "Fertilisation to implantation",
+          "caption": "Early stages of human development.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Fertilisation to implantation\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Fertilisation to implantation</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Sperm + ovum → zygote → repeated cell divisions → embryo →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">implantation in the uterine lining. The placenta later</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">supports exchange between maternal and embryonic circulations.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Fertilisation to implantation"
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-10",
+          "title": "Placenta and exchange",
+          "caption": "General role of the placenta in exchange.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Placenta and exchange\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Placenta and exchange</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Placental tissue provides a large exchange surface. Oxygen and</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">nutrients move toward the developing embryo, while carbon</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dioxide and other wastes move toward the maternal side for</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">removal.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Placenta and exchange"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Menstrual cycle and ovulation",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Menstrual cycle and ovulation",
+          "content": "The reproductive cycle involves coordinated changes in the ovary and uterus. A follicle matures and ovulation releases an ovum. Hormonal changes prepare the uterine lining for possible implantation. If pregnancy does not occur, hormone levels fall and the lining is shed as menstruation. Cycle length can vary among individuals."
+        },
+        {
+          "type": "mistake",
+          "title": "Common mistake",
+          "content": "Do not treat menstruation as a disease. It is a normal biological process associated with the reproductive cycle."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-8",
+          "title": "Menstrual cycle overview",
+          "caption": "Simplified cycle of reproductive changes.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Menstrual cycle overview\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Menstrual cycle overview</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">A cycle involves maturation of an ovarian follicle, ovulation,</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">preparation of the uterine lining and, if fertilisation does</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">not lead to pregnancy, shedding of the lining. Hormones</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">coordinate the sequence.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Menstrual cycle overview"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Fertilisation, implantation and placenta",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Fertilisation, implantation and placenta",
+          "content": "Fertilisation normally occurs in the oviduct. The zygote divides repeatedly while moving toward the uterus. The developing embryo becomes attached to the uterine lining during implantation. The placenta provides an exchange interface for oxygen, nutrients and wastes and also contributes hormones that support pregnancy."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is the role of the placenta?",
+          "answer": "The placenta provides an exchange surface between maternal and embryonic circulations. Oxygen and nutrients can reach the developing embryo, while carbon dioxide and metabolic wastes move toward the maternal side. It also has important endocrine functions during pregnancy."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Reproductive health and contraception",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Reproductive health and contraception",
+          "content": "Reproductive health includes physical, emotional and social well-being related to reproduction. Contraception can reduce the probability of pregnancy by preventing sperm from reaching the ovum, preventing ovulation or using other medically designed mechanisms. Barrier methods can additionally reduce transmission of some sexually transmitted infections. Responsible decisions require accurate information and professional medical guidance."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why are barrier methods important in reproductive health?",
+          "answer": "Barrier methods such as condoms reduce the chance that sperm will reach the female reproductive tract and can also reduce the transmission of several sexually transmitted infections when used correctly and consistently."
+        },
+        {
+          "id": "how-do-organisms-reproduce-fig-12",
+          "title": "Reproductive health and contraception",
+          "caption": "Broad categories of reproductive health measures.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Reproductive health and contraception\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Reproductive health and contraception</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Contraceptive methods can prevent fertilisation or</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">implantation depending on the method. Barrier methods can also</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reduce transmission of several sexually transmitted infections</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">when used correctly.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Reproductive health and contraception"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Sexually transmitted infections",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Sexually transmitted infections",
+          "content": "Some infections can spread through sexual contact. Examples commonly discussed at school level include HIV infection, syphilis and gonorrhoea. Prevention includes informed choices, barrier protection, testing when appropriate and timely medical care. Stigma should not replace accurate health information or responsible treatment."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Early diagnosis can improve management of infections.",
+            "Condom use reduces risk of several sexually transmitted infections.",
+            "HIV attacks immune-system cells and is not spread by ordinary casual contact."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Asexual and sexual reproduction",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Asexual and sexual reproduction",
+          "headers": [
+            "Feature",
+            "Asexual",
+            "Sexual"
+          ],
+          "rows": [
+            [
+              "Parents",
+              "Usually one",
+              "Usually two reproductive contributions"
+            ],
+            [
+              "Gametes",
+              "No gamete fusion",
+              "Gamete formation and fusion involved"
+            ],
+            [
+              "Variation",
+              "Usually lower among offspring",
+              "Usually higher"
+            ],
+            [
+              "Speed",
+              "Often rapid",
+              "Often slower and more complex"
+            ],
+            [
+              "Example",
+              "Binary fission, budding",
+              "Human reproduction, flowering plants"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pollination and fertilisation",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Pollination and fertilisation",
+          "headers": [
+            "Feature",
+            "Pollination",
+            "Fertilisation"
+          ],
+          "rows": [
+            [
+              "Meaning",
+              "Transfer of pollen to stigma",
+              "Fusion of male and female gametes"
+            ],
+            [
+              "Where",
+              "On the flower surface",
+              "Within the ovule"
+            ],
+            [
+              "Result",
+              "Pollen reaches receptive stigma",
+              "Zygote forms"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: Potato multiplication",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: Potato multiplication",
+          "text": "A farmer plants pieces of potato tuber containing buds rather than seeds.",
+          "questions": [
+            {
+              "question": "What type of reproduction is this?",
+              "answer": "It is vegetative propagation, an asexual method in which a new plant develops from a vegetative part of the parent."
+            },
+            {
+              "question": "Why can the method be useful?",
+              "answer": "It can rapidly multiply plants with desirable characteristics similar to the parent and can be practical for crops that are commonly propagated vegetatively."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: A flower receives pollen",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: A flower receives pollen",
+          "text": "Pollen from an anther reaches the stigma of a compatible flower.",
+          "questions": [
+            {
+              "question": "What happens next?",
+              "answer": "A pollen tube can grow through the style toward an ovule, allowing the male gamete to reach the female gamete for fertilisation."
+            },
+            {
+              "question": "What does the zygote become?",
+              "answer": "The zygote divides and develops into an embryo; the embryo becomes part of the developing seed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain why DNA copying is important in reproduction.",
+          "answer": "DNA carries hereditary information. During reproduction, a copy of the genetic material is transmitted to the new individual so that basic characteristics of the species are maintained. Copying is not perfectly error-free, so small variations can also arise."
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Describe the sequence from fertilisation to implantation in humans.",
+          "answer": "Fertilisation produces a zygote in the oviduct. The zygote undergoes repeated cell divisions while moving toward the uterus. The developing embryo reaches the uterus and becomes attached to the uterine lining during implantation."
+        }
+      ]
+    }
+  ],
+  "description": "Reproduction produces new individuals and passes biological information from one generation to the next. The chapter begins with the need for reproduction, then compares asexual and sexual reproduction, examines reproductive structures in flowering plants and humans, and explains how fertilisation, development and reproductive health are connected.",
+  "summary": "Reproduction maintains continuity of life and transmits genetic information. Asexual methods such as fission, budding, spore formation and vegetative propagation can produce new individuals without gamete fusion. Sexual reproduction involves gametes and produces greater genetic variation. In flowering plants, pollination is followed by fertilisation and seed formation. In humans, testes and ovaries produce gametes and hormones; fertilisation is followed by implantation and development supported by the placenta. Reproductive health includes informed choices, contraception, infection prevention and timely medical care.",
+  "rendering": "compatible-with-concept-quizzer-universal-renderer"
 };

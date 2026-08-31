@@ -940,5 +940,415 @@ window.ChapterData = {
     "Attempt board questions using complete, direct answers.",
     "Check that definitions, comparisons and examples use distinct wording.",
     "Revise the chapter summary only after understanding the detailed sections."
-  ]
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title": "Coordination begins with detecting change",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Coordination begins with detecting change",
+          "content": "Coordination allows an organism to respond appropriately when conditions change. A stimulus is a detectable change, a receptor detects it, a coordinating system processes information and an effector produces a response. In animals, nervous and endocrine systems work together. In plants, chemical signals and differential growth provide coordination without a nervous system."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "A response is useful only when it is linked to a suitable stimulus.",
+            "Nervous coordination is generally rapid and targeted.",
+            "Hormonal coordination is often slower and longer lasting.",
+            "Plant coordination frequently appears as changes in growth or movement."
+          ]
+        },
+        {
+          "id": "control-and-coordination-fig-7",
+          "title": "Endocrine signalling",
+          "caption": "General pathway of hormonal coordination.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Endocrine signalling\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#0891b2\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Endocrine signalling</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Endocrine gland → hormone released into blood → hormone</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">reaches target tissue → receptor-mediated response. Hormones</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">act at specific target cells even though blood circulates</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">throughout the body.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Endocrine signalling"
+        },
+        {
+          "id": "control-and-coordination-fig-9",
+          "title": "Plant chemical coordination",
+          "caption": "Examples of plant hormones and broad functions.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Plant chemical coordination\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#65a30d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Plant chemical coordination</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Auxin → growth responses; gibberellins → growth and</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">germination; cytokinins → cell division; abscisic acid →</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">growth inhibition and stress responses. Ethylene also</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">regulates ripening and other developmental events.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Plant chemical coordination"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The neuron as the basic unit of nervous coordination",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "The neuron as the basic unit of nervous coordination",
+          "content": "A neuron is specialised to receive and transmit information. Dendrites receive signals, the cell body contains the nucleus and axon carries the impulse toward its terminals. At a synapse, chemical messengers can transmit the signal to another neuron or an effector. The arrangement creates an organised pathway rather than random electrical activity."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "How does a nerve impulse pass from one neuron to another?",
+          "answer": "An electrical impulse reaches the axon ending and triggers release of chemical neurotransmitters into the synaptic gap. These molecules bind to receptors on the next cell and can initiate a new electrical impulse there."
+        },
+        {
+          "id": "control-and-coordination-fig-1",
+          "title": "Neuron structure",
+          "caption": "Simplified structure and direction of information flow in a neuron.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Neuron structure\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Neuron structure</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Dendrites receive signals → cell body integrates them → axon</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">carries the impulse → nerve endings communicate with the next</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">cell. The direction of information flow is generally from</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">dendrites toward axon terminals.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Neuron structure"
+        },
+        {
+          "id": "control-and-coordination-fig-4",
+          "title": "Synapse",
+          "caption": "Communication across a synapse.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Synapse\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#9333ea\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Synapse</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Electrical impulse reaches the axon terminal →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">neurotransmitter is released into the synaptic gap → molecules</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">bind to receptors on the next cell → a new electrical signal</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">may begin.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Synapse"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Reflex action",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Reflex action",
+          "content": "A reflex action is a rapid, automatic response to a stimulus. A receptor detects the stimulus, a sensory neuron carries information to the central nervous system, and a motor neuron carries commands to the effector. The spinal cord often coordinates protective reflexes quickly, while the brain receives information and can influence later responses."
+        },
+        {
+          "type": "think",
+          "question": "Why can a reflex response be faster than a conscious response?",
+          "answer": "A reflex pathway can be coordinated through the spinal cord using a short neural route. This reduces the time needed for a conscious decision before the protective movement begins."
+        },
+        {
+          "id": "control-and-coordination-fig-2",
+          "title": "Reflex arc",
+          "caption": "Basic pathway of a reflex action.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Reflex arc\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#dc2626\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Reflex arc</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Receptor in skin → sensory neuron → spinal cord/interneuron →</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">motor neuron → muscle or gland. The response can occur rapidly</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">without waiting for conscious processing by the brain.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Reflex arc"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The human brain",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "The human brain",
+          "content": "The brain is protected by the skull and associated coverings and is connected to the spinal cord. The forebrain participates in conscious thought, sensory interpretation, memory and voluntary actions. The midbrain helps coordinate several reflex and relay functions. The hindbrain includes regions important for balance, posture and involuntary activities such as breathing and heartbeat."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is the spinal cord important even though the brain is the main control centre?",
+          "answer": "The spinal cord connects the brain with peripheral nerves and also coordinates many rapid reflexes. It therefore serves both as a communication pathway and as a local coordinating centre."
+        },
+        {
+          "id": "control-and-coordination-fig-3",
+          "title": "Human brain regions",
+          "caption": "Functional organisation of major brain regions.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Human brain regions\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Human brain regions</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Forebrain: conscious thought, sensory processing and voluntary</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">control. Midbrain: relay and reflex functions. Hindbrain:</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">balance, posture and involuntary functions such as breathing</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">and heartbeat.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Human brain regions"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Voluntary, involuntary and reflex actions",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Voluntary, involuntary and reflex actions",
+          "content": "Voluntary actions are performed with conscious control, such as writing. Involuntary actions occur without deliberate control, such as regulation of heartbeat. Reflex actions are rapid, automatic responses to specific stimuli and are often protective. These categories describe different patterns of control; a single body function may involve several levels of coordination."
+        },
+        {
+          "id": "control-and-coordination-fig-8",
+          "title": "Reflex versus voluntary response",
+          "caption": "Contrast between rapid reflex and conscious response pathways.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Reflex versus voluntary response\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#ea580c\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Reflex versus voluntary response</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Reflex: receptor → spinal pathway → effector, rapid and</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">protective. Voluntary: sensory information → brain processing</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">→ conscious decision → motor pathway → effector.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Reflex versus voluntary response"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Plant hormones",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Plant hormones",
+          "content": "Plants coordinate development through chemical messengers. Auxins influence cell elongation and directional growth; gibberellins promote stem growth and can support germination; cytokinins promote cell division; abscisic acid is associated with growth inhibition and stress responses; ethylene participates in fruit ripening and other developmental processes. Hormones act in very small quantities but can cause major changes in growth."
+        },
+        {
+          "type": "mistake",
+          "title": "Common mistake",
+          "content": "Do not describe plant hormones as if they are electrical nerve impulses. Plant responses depend strongly on chemical signalling and changes in growth or cell activity."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Tropic movements",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Tropic movements",
+          "content": "Tropisms are directional growth responses in which the direction of growth depends on the direction of the stimulus. Phototropism is a response to light, geotropism or gravitropism to gravity, hydrotropism to water and chemotropism to chemicals. A positive response grows toward the stimulus; a negative response grows away from it."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Explain phototropism in a shoot.",
+          "answer": "Light from one side causes auxin distribution to become unequal. Cells on the shaded side can elongate more, causing the shoot to bend toward the light. The bending is therefore a directional growth response."
+        },
+        {
+          "id": "control-and-coordination-fig-5",
+          "title": "Tropic response",
+          "caption": "Directional growth response in a plant shoot.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Tropic response\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#16a34a\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Tropic response</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Stimulus direction → unequal growth on two sides → organ</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">bends. In shoots, auxin redistribution can promote</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">differential cell elongation, producing bending toward light.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Tropic response"
+        },
+        {
+          "id": "control-and-coordination-fig-6",
+          "title": "Phototropism",
+          "caption": "Typical positive phototropic response of a shoot.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Phototropism\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#15803d\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Phototropism</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Light from one side → auxin distribution changes → shaded side</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">elongates more → shoot bends toward the light source.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Phototropism"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Endocrine coordination",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Endocrine coordination",
+          "content": "Endocrine glands release hormones into the blood rather than through ducts. Hormones travel to target tissues that possess suitable receptors. The pituitary, thyroid, pancreas, adrenal glands and reproductive glands are important examples. Hormonal effects often develop more slowly than nerve impulses but can persist longer and coordinate processes throughout the body."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "What is a hormone?",
+          "answer": "A hormone is a chemical messenger produced by an endocrine tissue and released into the bloodstream. It acts on specific target cells and changes their activity, helping coordinate functions such as growth, metabolism, reproduction and stress responses."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Hormones in growth and metabolism",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Hormones in growth and metabolism",
+          "content": "Growth hormone from the pituitary supports growth. Thyroxine from the thyroid regulates metabolic activity and requires iodine for its synthesis. Adrenaline prepares the body for sudden activity by increasing heart rate and directing blood flow toward tissues that need rapid energy. Insulin from the pancreas lowers blood glucose by promoting uptake and storage, while glucagon helps raise it when needed."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Why is iodine important in human nutrition?",
+          "answer": "Iodine is required to synthesise thyroid hormones such as thyroxine. Inadequate iodine can impair normal thyroid function and disturb growth and metabolism."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Feedback and internal balance",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Feedback and internal balance",
+          "content": "Coordination is not only about responding to outside stimuli. The body also monitors internal variables. Blood glucose regulation is an example: changes in glucose concentration influence pancreatic hormone secretion, and the resulting cellular response moves glucose levels toward a suitable range. Such feedback helps maintain stable internal conditions."
+        },
+        {
+          "id": "control-and-coordination-fig-10",
+          "title": "Feedback control of blood glucose",
+          "caption": "Illustration of hormonal feedback in glucose regulation.",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 360\" role=\"img\" aria-label=\"Feedback control of blood glucose\">\n<rect width=\"100%\" height=\"100%\" rx=\"28\" fill=\"#f8fafc\"/>\n<rect x=\"18\" y=\"18\" width=\"724\" height=\"324\" rx=\"24\" fill=\"#ffffff\" stroke=\"#b45309\" stroke-width=\"5\"/>\n<text x=\"42\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"28\" font-weight=\"700\" fill=\"#172033\">Feedback control of blood glucose</text>\n<text x=\"42\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">Blood glucose rises → pancreas releases insulin → cells take</text>\n<text x=\"42\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">up/store more glucose → blood glucose falls toward normal. If</text>\n<text x=\"42\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">glucose falls too low, glucagon promotes release of glucose</text>\n<text x=\"42\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#273247\">into blood.</text>\n</svg>",
+          "type": "diagram",
+          "alt": "Feedback control of blood glucose"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Nervous and hormonal coordination together",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Nervous and hormonal coordination together",
+          "content": "Many situations require both systems. A sudden danger may trigger a rapid nervous response and also stimulate hormonal changes that prepare the body for sustained activity. Nervous signals are precise and rapid; hormones are carried through blood and can affect multiple target tissues. Their cooperation makes whole-body responses coordinated rather than fragmented."
+        },
+        {
+          "type": "boardAnswer",
+          "question": "Give two differences between nervous and hormonal coordination.",
+          "answer": "Nervous coordination uses electrical impulses along neurons and is generally rapid and short-lived. Hormonal coordination uses chemical messengers carried in blood and is generally slower but can produce longer-lasting effects."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Protection and response",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Protection and response",
+          "content": "A good control system must detect a change, compare it with the organism's needs and activate an appropriate effector. Receptors in sense organs and tissues provide information; the central nervous system or endocrine system coordinates the response; muscles and glands act as effectors. The sequence explains why a response is organised rather than random."
+        },
+        {
+          "type": "important",
+          "title": "Key ideas",
+          "points": [
+            "Stimulus → receptor → coordinator → effector → response.",
+            "Reflex pathways prioritise rapid protection.",
+            "Hormones coordinate longer-term physiological changes."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nervous and hormonal coordination",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Nervous and hormonal coordination",
+          "headers": [
+            "Feature",
+            "Nervous coordination",
+            "Hormonal coordination"
+          ],
+          "rows": [
+            [
+              "Signal",
+              "Electrical impulses and neurotransmitters",
+              "Hormones"
+            ],
+            [
+              "Transport",
+              "Along neurons / across synapses",
+              "Through blood"
+            ],
+            [
+              "Speed",
+              "Usually rapid",
+              "Usually slower"
+            ],
+            [
+              "Duration",
+              "Often brief",
+              "Often longer lasting"
+            ],
+            [
+              "Reach",
+              "Specific pathways",
+              "All tissues reached by blood, but only target cells respond"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tropism and nastic movement",
+      "blocks": [
+        {
+          "type": "comparison-table",
+          "title": "Tropism and nastic movement",
+          "headers": [
+            "Feature",
+            "Tropic movement",
+            "Nastic movement"
+          ],
+          "rows": [
+            [
+              "Direction",
+              "Depends on stimulus direction",
+              "Does not primarily depend on stimulus direction"
+            ],
+            [
+              "Nature",
+              "Often growth-based",
+              "May involve turgor or growth changes"
+            ],
+            [
+              "Example",
+              "Shoot bends toward light",
+              "Mimosa leaves fold after touch"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: Touching a hot pan",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: Touching a hot pan",
+          "text": "A person accidentally touches a hot metal pan and pulls the hand away before consciously thinking about the event.",
+          "questions": [
+            {
+              "question": "Which type of response is shown?",
+              "answer": "The immediate withdrawal is a reflex action because it is rapid, automatic and protective."
+            },
+            {
+              "question": "What is the role of the spinal cord?",
+              "answer": "The spinal cord can coordinate the rapid reflex pathway between sensory input and motor output while information is also sent to the brain for conscious awareness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Case: A plant beside a window",
+      "blocks": [
+        {
+          "type": "caseStudy",
+          "title": "Case: A plant beside a window",
+          "text": "A young shoot grows toward a window from which light enters.",
+          "questions": [
+            {
+              "question": "Name the movement.",
+              "answer": "The response is positive phototropism because the shoot grows toward the light source."
+            },
+            {
+              "question": "Why does the shoot bend rather than remain straight?",
+              "answer": "Unequal distribution of auxin produces different rates of cell elongation on the two sides, causing differential growth and bending."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Describe a reflex arc.",
+          "answer": "A reflex arc includes a receptor that detects a stimulus, a sensory neuron that carries the signal to the spinal cord, a coordinating connection within the central nervous system, a motor neuron and an effector such as a muscle. The pathway produces a rapid protective response."
+        }
+      ]
+    },
+    {
+      "title": "Board Practice",
+      "blocks": [
+        {
+          "type": "practice",
+          "title": "Board Practice",
+          "question": "Explain how hormones help in coordination.",
+          "answer": "Endocrine glands release hormones into the blood. The hormones travel to target tissues and alter their activity. This provides chemical coordination of functions such as growth, metabolism, reproduction, stress responses and maintenance of internal conditions."
+        }
+      ]
+    }
+  ],
+  "description": "Organisms constantly receive information from their surroundings and from inside their bodies. They must detect changes, process information and produce suitable responses. Plants coordinate through chemical signals and growth responses, while animals use specialised nervous and endocrine systems. The chapter connects receptors, neurons, reflexes, the brain, hormones and plant movements into one continuous system.",
+  "summary": "Control and coordination allow organisms to detect changes and produce organised responses. Nervous coordination uses receptors, neurons, synapses, the spinal cord and brain. Reflex arcs provide rapid protective responses, while the brain integrates information and controls many voluntary and involuntary functions. Plants lack a nervous system but coordinate through hormones and growth responses such as phototropism and geotropism. Endocrine glands release hormones that regulate growth, metabolism, stress responses and internal balance. Nervous and hormonal systems complement one another.",
+  "rendering": "compatible-with-concept-quizzer-universal-renderer"
 };
