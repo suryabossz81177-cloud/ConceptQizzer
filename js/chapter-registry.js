@@ -26,12 +26,12 @@ window.ChapterRegistry = [
 },
 
 {
-  id: "9-artificialintelligence-advance-python-data-sciences",
+  id: "9-artificial-intelligence-advance-python-data-sciences",
   class: 9,
   subject: "Artificial Intelligence",
   chapterNumber: 3,
   title: "Advance Python / Data Science",
-  file: "js/notes/class9/artificial-intelligence/advance-python-data-science.js",
+  file: "js/notes/class9/artificial-intelligence/advance-python-data-sciences.js",
   enabled: true
 },
 
