@@ -6,7 +6,7 @@ window.ChapterData = {
   "title": "Chemical Reactions and Equations",
   "format": "continuous-flow-special-chemistry-self-contained",
   "description": "Board-focused, continuous Class 10 Chemistry notes with embedded local diagrams, exact answers and renderable blocks.",
-  "summary": "This chapter begins with the observable evidence of chemical change and ends with the chemical meaning of oxidation in everyday life. You should be able to write word and symbolic equations, add state symbols and conditions, balance equations without changing formulae, identify combination/decomposition/displacement/double-displacement patterns, recognise redox processes, distinguish exothermic from endothermic reactions, and explain corrosion and rancidity with prevention methods.",
+  "summary": "Chapter 1 connects the visible signs of chemical change with the symbolic language used to represent reactions. You should be able to identify chemical reactions from observations such as colour change, gas evolution, precipitate formation and temperature change; write word equations and correct chemical equations; add state symbols and reaction conditions; balance equations using coefficients without changing chemical formulae; classify reactions as combination, decomposition, displacement or double displacement; identify oxidation, reduction and redox reactions; distinguish exothermic and endothermic changes; and explain corrosion and rancidity along with practical prevention methods. For board preparation, learn the standard equations, observations, conditions and reaction types together rather than memorising isolated formulae.",
   "sections": [
     {
       "title": "Chapter 1 — Chemical Reactions and Equations",
@@ -315,7 +315,7 @@ window.ChapterData = {
         {
           "type": "summary",
           "title": "Chapter Summary",
-          "text": "This chapter begins with the observable evidence of chemical change and ends with the chemical meaning of oxidation in everyday life. You should be able to write word and symbolic equations, add state symbols and conditions, balance equations without changing formulae, identify combination/decomposition/displacement/double-displacement patterns, recognise redox processes, distinguish exothermic from endothermic reactions, and explain corrosion and rancidity with prevention methods."
+          "text": "Chapter 1 connects the visible signs of chemical change with the symbolic language used to represent reactions. You should be able to identify chemical reactions from observations such as colour change, gas evolution, precipitate formation and temperature change; write word equations and correct chemical equations; add state symbols and reaction conditions; balance equations using coefficients without changing chemical formulae; classify reactions as combination, decomposition, displacement or double displacement; identify oxidation, reduction and redox reactions; distinguish exothermic and endothermic changes; and explain corrosion and rancidity along with practical prevention methods. For board preparation, learn the standard equations, observations, conditions and reaction types together rather than memorising isolated formulae."
         },
         {
           "type": "information-block",

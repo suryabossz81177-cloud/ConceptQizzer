@@ -242,6 +242,23 @@ window.ChapterData = {
           "answer": "Aluminium is chemically reactive, but exposure to air quickly forms a thin, adherent aluminium oxide layer. This protective film blocks further contact between the metal and the environment, so the underlying aluminium is protected from rapid corrosion."
         },
         {
+          "type": "formula-bank",
+          "title": "Chapter Equation Bank",
+          "formulas": [
+            "2Na + 2H₂O → 2NaOH + H₂",
+            "Ca + 2H₂O → Ca(OH)₂ + H₂",
+            "Mg + 2HCl → MgCl₂ + H₂",
+            "Zn + H₂SO₄ → ZnSO₄ + H₂",
+            "Fe + CuSO₄ → FeSO₄ + Cu",
+            "CuO + H₂ → Cu + H₂O",
+            "2Al + 2NaOH + 2H₂O → 2NaAlO₂ + 3H₂",
+            "2Na + Cl₂ → 2NaCl",
+            "ZnCO₃ —heat→ ZnO + CO₂",
+            "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe + heat"
+          ],
+          "text": "Learn each equation with the reactants, products, condition and observable change. In board answers, never change subscripts while balancing."
+        },
+        {
           "type": "important",
           "title": "Important Points",
           "items": [
