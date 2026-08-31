@@ -6,6 +6,46 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+  id: "class10-physics-light-reflection-and-refraction",
+  class: 10,
+  subject: "Physics",
+  chapterNumber: 1,
+  title: "Light – Reflection and Refraction",
+  file: "js/notes/class10/physics/light-reflection-and-refraction.js",
+  enabled: true
+},
+
+{
+  id: "class10-physics-the-human-eye-and-the-colourful-world",
+  class: 10,
+  subject: "Physics",
+  chapterNumber: 2,
+  title: "The Human Eye and the Colourful World",
+  file: "js/notes/class10/physics/the-human-eye-and-the-colourful-world.js",
+  enabled: true
+},
+
+{
+  id: "class10-physics-electricity",
+  class: 10,
+  subject: "Physics",
+  chapterNumber: 3,
+  title: "Electricity",
+  file: "js/notes/class10/physics/electricity.js",
+  enabled: true
+},
+
+{
+  id: "class10-physics-magnetic-effects-of-electric-current",
+  class: 10,
+  subject: "Physics",
+  chapterNumber: 4,
+  title: "Magnetic Effects of Electric Current",
+  file: "js/notes/class10/physics/magnetic-effects-of-electric-current.js",
+  enabled: true
+},
+  
+  {
   id: "9-artificial-intelligence-introduction-to-ai",
   class: 9,
   subject: "Artificial Intelligence",
