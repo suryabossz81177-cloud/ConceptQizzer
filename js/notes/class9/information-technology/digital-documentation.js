@@ -1,7 +1,8 @@
-window.chapter = {
-  "id": "class9-it-digital-documentation",
+window.ChapterData = {
+  "id": "9-information-technology-digital-documentation",
   "class": 9,
   "subject": "Information Technology",
+  "chapterNumber": 1,
   "title": "Digital Documentation",
   "enabled": true,
   "formatVersion": "windows.chapter.continuous-v2-8x-expanded-real-images",

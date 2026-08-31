@@ -1,7 +1,8 @@
-window.chapter = {
-  "id": "class9-it-introduction-to-it-ites",
+window.ChapterData = {
+  "id": "9-information-technology-introduction-to-it-ites",
   "class": 9,
   "subject": "Information Technology",
+  "chapterNumber": 4,
   "title": "Introduction to IT-ITeS",
   "enabled": true,
   "formatVersion": "windows.chapter.continuous-v2-8x-expanded-real-images",

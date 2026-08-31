@@ -1,7 +1,8 @@
-window.chapter = {
-  "id": "class9-it-electronic-spreadsheet",
+window.ChapterData = {
+  "id": "9-information-technology-electronic-spreadsheet",
   "class": 9,
   "subject": "Information Technology",
+  "chapterNumber": 2,
   "title": "Electronic Spreadsheet",
   "enabled": true,
   "formatVersion": "windows.chapter.continuous-v2-8x-expanded-real-images",

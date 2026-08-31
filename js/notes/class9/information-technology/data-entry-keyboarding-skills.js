@@ -1,7 +1,8 @@
-window.chapter = {
+window.ChapterData = {
   "id": "9-information-technology-data-entry-keyboarding-skills",
   "class": 9,
   "subject": "Information Technology",
+  "chapterNumber": 5,
   "title": "Data Entry & Keyboarding Skills",
   "enabled": true,
   "formatVersion": "windows.chapter.continuous-v2-8x-expanded-real-images",
