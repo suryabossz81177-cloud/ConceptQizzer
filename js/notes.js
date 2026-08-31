@@ -3222,3 +3222,25 @@ document.addEventListener("DOMContentLoaded", function () {
     document.dispatchEvent(new Event("cq-ai-ready"));
   }
 });
+
+
+/* ================================================================
+   NON-DESTRUCTIVE REAL-IMAGE COMPATIBILITY ADDITION
+   The complete previous Notes.js above is preserved. This addition
+   only maps extra image aliases to the existing embedded renderer.
+================================================================ */
+(function(){
+  try{
+    const __cqPreviousRenderUniversalBlock = window.renderUniversalBlock || renderUniversalBlock;
+    window.renderUniversalBlock = function(block,index){
+      if(block && typeof block==='object' && !Array.isArray(block)){
+        const t=String(block.type||block.kind||'').toLowerCase().trim();
+        if(['realimage','real-image','wikimediaimage','commonsimage','mediaimage','photoimage'].includes(t)){
+          return __cqPreviousRenderUniversalBlock(Object.assign({},block,{type:'embeddedImage',src:block.src||block.url||block.image||''}),index);
+        }
+      }
+      return __cqPreviousRenderUniversalBlock(block,index);
+    };
+    renderUniversalBlock=window.renderUniversalBlock;
+  }catch(e){ console.warn('Real-image compatibility addition failed:',e); }
+})();
