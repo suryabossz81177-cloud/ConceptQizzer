@@ -1287,10 +1287,12 @@ function renderUniversalBlockCore(block, blockIndex){
   if(type === "diagram" || type === "figure" || type === "sciencefigure" || type === "illustration"){
     const visual = block.html || block.svg || block.content || block.figure || "";
     const image = block.image || block.src || block.url || "";
+    const alt = escapeRenderHTML(block.alt || block.caption || block.title || "Physics figure");
+    const fallback = escapeRenderHTML(block.fallback || "Related figure could not be loaded. Check your internet connection.");
     return `
-      <div class="cqBlock cqFigure">
+      <div class="cqBlock cqFigure" data-cq-related-topic="${alt}">
         <h4>🖼️ ${blockTitle(block,"Figure / Diagram")}</h4>
-        ${image ? `<img src="${escapeRenderHTML(image)}" alt="${blockTitle(block,"Figure")}" loading="lazy">` : ""}
+        ${image ? `<figure class="cqFigureMedia"><img src="${escapeRenderHTML(image)}" alt="${alt}" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div class="cqImageFallback">⚠️ ${fallback}</div></figure>` : ""}
         ${visual ? `<div class="cqVisual">${visual}</div>` : ""}
         ${block.caption ? `<p class="cqCaption">${renderText(block.caption)}</p>` : ""}
       </div>`;
@@ -1345,6 +1347,36 @@ function renderUniversalBlockCore(block, blockIndex){
         <h4>📐 ${blockTitle(block,type === "theorem" ? "Theorem" : "Formula")}</h4>
         <div class="formulaContent">${renderFormula(block.formula || text)}</div>
         ${block.explanation ? `<p>${renderText(block.explanation)}</p>` : ""}
+      </div>`;
+  }
+
+  if(type === "comparison-table" || type === "comparison_table" || type === "comparisonTable"){
+    const headers = Array.isArray(block.headers) ? block.headers : [];
+    const rows = Array.isArray(block.rows) ? block.rows : [];
+    return `
+      <div class="cqBlock cqComparisonTable">
+        <h4>📊 ${blockTitle(block,"Comparison")}</h4>
+        <div class="cqTableScroll">
+          <table class="cqComparison">
+            ${headers.length ? `<thead><tr>${headers.map(h=>`<th>${renderText(h)}</th>`).join("")}</tr></thead>` : ""}
+            <tbody>${rows.map(row=>`<tr>${(Array.isArray(row)?row:[row]).map(cell=>`<td>${renderText(cell)}</td>`).join("")}</tr>`).join("")}</tbody>
+          </table>
+        </div>
+      </div>`;
+  }
+
+  if(type === "formula-bank" || type === "formula_bank" || type === "formulabank"){
+    const formulas = Array.isArray(block.formulas) ? block.formulas : (Array.isArray(block.items) ? block.items : []);
+    return `
+      <div class="cqBlock cqFormulaBank">
+        <h4>📐 ${blockTitle(block,"Formula Bank")}</h4>
+        ${block.text ? `<p>${renderText(block.text)}</p>` : ""}
+        ${formulas.length ? `<div class="cqFormulaBankGrid">${formulas.map((x,i)=>{
+          const f = typeof x === "object" ? (x.formula || x.text || x.expression || "") : x;
+          const label = typeof x === "object" ? (x.title || x.name || `Formula ${i+1}`) : `Formula ${i+1}`;
+          const exp = typeof x === "object" ? (x.explanation || x.note || "") : "";
+          return `<div class="cqFormulaBankItem"><b>${escapeRenderHTML(label)}</b><div class="formulaContent">${renderFormula(f)}</div>${exp ? `<p>${renderText(exp)}</p>` : ""}</div>`;
+        }).join("")}</div>` : ""}
       </div>`;
   }
 
@@ -1904,7 +1936,15 @@ function installUniversalRendererStyles(){
     .cqObservation{background:#f4fbff;border-left:6px solid #0ea5e9}
     .cqHypothesis{background:#faf5ff;border-left:6px solid #8b5cf6}
     .cqFigure,.cqMap{text-align:center;background:#fff}
-    .cqFigure img,.cqMap img{max-width:100%;height:auto;border-radius:16px;margin:10px auto}
+    .cqFigure img,.cqMap img{display:block;max-width:100%;height:auto;max-height:520px;object-fit:contain;border-radius:16px;margin:10px auto}
+    .cqFigureMedia{margin:8px 0;padding:8px;border-radius:18px;background:rgba(99,102,241,.05)}
+    .cqImageFallback{display:none;padding:18px;border-radius:14px;background:#fff7ed;color:#7c2d12;font-weight:700}
+    .cqComparisonTable{background:linear-gradient(135deg,#f5f3ff,#eef7ff)}
+    .cqComparison{border-collapse:separate!important;border-spacing:0;width:100%;min-width:620px;overflow:hidden;border-radius:16px}
+    .cqComparison thead th{background:#e9e6ff!important;font-weight:900}
+    .cqComparison td,.cqComparison th{vertical-align:top}
+    .cqFormulaBankGrid{display:grid;gap:12px}
+    .cqFormulaBankItem{padding:12px;border-radius:16px;background:rgba(255,255,255,.72)}
     .cqVisual{overflow:auto;max-width:100%;margin:10px 0}
     .cqCaption{font-style:italic;opacity:.8}
     .cqFormula{background:linear-gradient(135deg,#eff6ff,#f5f3ff)}
