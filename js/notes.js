@@ -1437,6 +1437,19 @@ function renderUniversalBlockCore(block, blockIndex){
 
   /* ---------- FIGURES / DIAGRAMS / MAPS ---------- */
 
+  if(type === "embeddedimage" || type === "embedded_image" || type === "inlineimage" || type === "svgimage") {
+    const visual = block.svg || block.html || block.content || block.figure || "";
+    const image = block.image || block.src || block.url || "";
+    const alt = escapeRenderHTML(block.alt || block.caption || block.title || "Biology figure");
+    return `
+      <div class="cqBlock cqFigure cqEmbeddedFigure" data-cq-related-topic="${alt}">
+        <h4>🖼️ ${blockTitle(block,"Related visual")}</h4>
+        ${image ? `<figure class="cqFigureMedia"><img src="${escapeRenderHTML(image)}" alt="${alt}" loading="eager" decoding="async"></figure>` : ""}
+        ${visual ? `<div class="cqVisual">${visual}</div>` : ""}
+        ${block.caption ? `<p class="cqCaption">${renderText(block.caption)}</p>` : ""}
+      </div>`;
+  }
+
   if(type === "diagram" || type === "figure" || type === "sciencefigure" || type === "illustration" || type === "image" || type === "photo"){
     const visual = block.html || block.svg || block.content || block.figure || "";
     const image = block.image || block.src || block.url || "";
