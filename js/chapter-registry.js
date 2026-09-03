@@ -6,6 +6,146 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+    id: "class10-math-real-numbers",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 1,
+    title: "Real Numbers",
+    file: "js/notes/class10/math/real-numbers.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-polynomials",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 2,
+    title: "Polynomials",
+    file: "js/notes/class10/math/polynomials.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-pair-of-linear-equations-in-two-variables",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 3,
+    title: "Pair of Linear Equations in Two Variables",
+    file: "js/notes/class10/math/pair-of-linear-equations-in-two-variables.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-quadratic-equations",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 4,
+    title: "Quadratic Equations",
+    file: "js/notes/class10/math/quadratic-equations.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-arithmetic-progressions",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 5,
+    title: "Arithmetic Progressions",
+    file: "js/notes/class10/math/arithmetic-progressions.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-triangles",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 6,
+    title: "Triangles",
+    file: "js/notes/class10/math/triangles.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-coordinate-geometry",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 7,
+    title: "Coordinate Geometry",
+    file: "js/notes/class10/math/coordinate-geometry.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-introduction-to-trigonometry",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 8,
+    title: "Introduction to Trigonometry",
+    file: "js/notes/class10/math/introduction-to-trigonometry.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-some-applications-of-trigonometry",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 9,
+    title: "Some Applications of Trigonometry",
+    file: "js/notes/class10/math/some-applications-of-trigonometry.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-circles",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 10,
+    title: "Circles",
+    file: "js/notes/class10/math/circles.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-areas-related-to-circles",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 11,
+    title: "Areas Related to Circles",
+    file: "js/notes/class10/math/areas-related-to-circles.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-surface-areas-and-volumes",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 12,
+    title: "Surface Areas and Volumes",
+    file: "js/notes/class10/math/surface-areas-and-volumes.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-statistics",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 13,
+    title: "Statistics",
+    file: "js/notes/class10/math/statistics.js",
+    enabled: true
+  },
+  
+  {
+    id: "class10-math-probability",
+    class: 10,
+    subject: "Mathematics",
+    chapterNumber: 14,
+    title: "Probability",
+    file: "js/notes/class10/math/probability.js",
+    enabled: true
+  },
+  
+  {
   id: "class10-biology-life-processes",
   class: 10,
   subject: "Biology",
