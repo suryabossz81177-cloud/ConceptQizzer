@@ -1,7 +1,7 @@
 // Class 10 Mathematics — Chapter 6: Triangles
 // Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
 // The content is self-contained and designed for a continuous chapter renderer.
-const chapter = {
+const ChapterData = {
   id: "class10-math-triangles",
   class: 10,
   subject: "Mathematics",
@@ -83,4 +83,4 @@ const chapter = {
   ]
 };
 
-export default chapter;
+

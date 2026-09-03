@@ -1,7 +1,7 @@
 // Class 10 Mathematics — Chapter 9: Some Applications of Trigonometry
 // Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
 // The content is self-contained and designed for a continuous chapter renderer.
-const chapter = {
+const ChapterData = {
   id: "class10-math-some-applications-of-trigonometry",
   class: 10,
   subject: "Mathematics",
@@ -80,4 +80,4 @@ const chapter = {
   ]
 };
 
-export default chapter;
+
