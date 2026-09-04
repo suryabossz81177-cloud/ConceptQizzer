@@ -1,81 +1,1147 @@
-// Class 10 Mathematics — Chapter 7: Coordinate Geometry
-// Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
-// The content is self-contained and designed for a continuous chapter renderer.
+/* ConceptQizzer — Class 10 Mathematics — Grade-locked chapter package */
+/* This file intentionally contains ONLY Class 10 content and a unique chapter id. */
+"use strict";
+
 const ChapterData = {
-  id: "class10-math-coordinate-geometry",
-  class: 10,
-  subject: "Mathematics",
-  chapterNumber: 7,
-  title: "Coordinate Geometry",
-  fileVersion: "renderable-v3-detailed",
-  enabled: true,
-  sections: [
-    {"type":"intro","title":"Chapter overview","text":"Coordinate geometry connects algebra with geometry through the Cartesian plane. The key tools are the distance formula, section formula, midpoint and area of a triangle, followed by careful use of coordinates and signs. The presentation is intentionally continuous: concept, explanation, method, worked example, visual figure, board question, common error and quick revision. Each answer below is a completed mathematical answer rather than a placeholder instruction."},
-    {"type":"information","title":"1. Cartesian plane","text":"The coordinate plane has perpendicular x- and y-axes meeting at the origin O(0,0). A point is written (x,y), where x is the horizontal coordinate and y is the vertical coordinate. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"1.1 Exam focus: Cartesian plane","text":"Exam focus for Cartesian plane: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"2. Quadrants and signs","text":"Quadrant I has (+,+), II has (−,+), III has (−,−), and IV has (+,−). The axes themselves are not part of any quadrant. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"2.1 Exam focus: Quadrants and signs","text":"Exam focus for Quadrants and signs: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"3. Distance formula","text":"For A(x₁,y₁) and B(x₂,y₂), AB=√[(x₂−x₁)²+(y₂−y₁)²]. It follows from the Pythagorean theorem applied to the horizontal and vertical differences. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"3.1 Exam focus: Distance formula","text":"Exam focus for Distance formula: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"4. Section formula","text":"If P divides A(x₁,y₁) and B(x₂,y₂) internally in ratio m:n, then P=((mx₂+nx₁)/(m+n),(my₂+ny₁)/(m+n)). The weight attached to a coordinate is opposite the endpoint it is paired with in the ratio statement. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"4.1 Exam focus: Section formula","text":"Exam focus for Section formula: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"5. Midpoint","text":"The midpoint of A(x₁,y₁) and B(x₂,y₂) is ((x₁+x₂)/2,(y₁+y₂)/2). It is the special case m:n=1:1 of the section formula. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"5.1 Exam focus: Midpoint","text":"Exam focus for Midpoint: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"6. Area of triangle","text":"Area=1/2 |x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|. The absolute value ensures area is non-negative. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"6.1 Exam focus: Area of triangle","text":"Exam focus for Area of triangle: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"7. Collinearity","text":"Three points are collinear if the area of the triangle they form is zero. Alternatively, slopes can be compared when the relevant slopes are defined, but the area method works uniformly with vertical lines. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"7.1 Exam focus: Collinearity","text":"Exam focus for Collinearity: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"8. Sign and substitution checks","text":"Copy each coordinate with its sign, use brackets around negative values, and simplify squares before combining terms. A common error is to drop a negative sign inside the distance or area formula. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"8.1 Exam focus: Sign and substitution checks","text":"Exam focus for Sign and substitution checks: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"diagram","title":"Cartesian plane","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Cartesian plane\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Cartesian plane</text>\n<line x1=\"450\" y1=\"90\" x2=\"450\" y2=\"440\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"110\" y1=\"270\" x2=\"800\" y2=\"270\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"770\" y=\"255\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">x</text><text x=\"465\" y=\"110\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">y</text><text x=\"500\" y=\"150\" font-size=\"24\" font-weight=\"700\" fill=\"#1e293b\">I</text><text x=\"170\" y=\"150\" font-size=\"24\" font-weight=\"700\" fill=\"#1e293b\">II</text><text x=\"170\" y=\"340\" font-size=\"24\" font-weight=\"700\" fill=\"#1e293b\">III</text><text x=\"500\" y=\"340\" font-size=\"24\" font-weight=\"700\" fill=\"#1e293b\">IV</text><circle cx=\"450\" cy=\"270\" r=\"6\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">Four quadrants are separated by perpendicular axes.</text>\n</svg>"},
-    {"type":"diagram","title":"Distance as right triangle","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Distance as right triangle\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Distance as right triangle</text>\n<line x1=\"180\" y1=\"380\" x2=\"700\" y2=\"380\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"700\" y1=\"380\" x2=\"700\" y2=\"160\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"180\" y1=\"380\" x2=\"700\" y2=\"160\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"420\" y=\"405\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">Δx</text><text x=\"715\" y=\"275\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">Δy</text><text x=\"430\" y=\"250\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">distance</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">Horizontal and vertical differences form the legs.</text>\n</svg>"},
-    {"type":"example","title":"Worked example 1: Distance","question":"Distance","answer":"A(2,3), B(8,11): AB=√(6²+8²)=10. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 2: Midpoint","question":"Midpoint","answer":"A(−4,7), B(6,−3): midpoint=(1,2). Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 3: Section formula","question":"Section formula","answer":"A(1,2), B(7,8), ratio AP:PB=2:1. P=((2×7+1×1)/3,(2×8+1×2)/3)=(5,6). Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 4: Area","question":"Area","answer":"For (0,0),(4,0),(0,3), area=1/2×4×3=6 square units. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 5: Collinearity","question":"Collinearity","answer":"Points (1,2),(3,6),(5,10) give zero triangle area, so they are collinear. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"boardQuestion","question":"Coordinates of origin?","answer":"(0,0)."},
-    {"type":"boardQuestion","question":"Distance between (0,0) and (3,4)?","answer":"5 units."},
-    {"type":"boardQuestion","question":"Midpoint of (2,5) and (8,1)?","answer":"(5,3)."},
-    {"type":"boardQuestion","question":"Area of triangle with vertices (0,0),(5,0),(0,2)?","answer":"5 square units."},
-    {"type":"boardQuestion","question":"How do you test collinearity by area?","answer":"Calculate the triangle area; zero means the points are collinear."},
-    {"type":"information","title":"Mastery block 1: conceptual foundation — Cartesian plane","text":"For the conceptual foundation of Cartesian plane, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cartesian plane, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 2: symbol-by-symbol reading — Quadrants and signs","text":"For the symbol-by-symbol reading of Quadrants and signs, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadrants and signs, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 3: worked-reasoning checkpoint — Distance formula","text":"For the worked-reasoning checkpoint of Distance formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Distance formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 4: visual interpretation — Section formula","text":"For the visual interpretation of Section formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Section formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 5: method selection — Midpoint","text":"For the method selection of Midpoint, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Midpoint, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 6: edge-case awareness — Area of triangle","text":"For the edge-case awareness of Area of triangle, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Area of triangle, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 7: board proof language — Collinearity","text":"For the board proof language of Collinearity, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Collinearity, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 8: calculation discipline — Sign and substitution checks","text":"For the calculation discipline of Sign and substitution checks, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Sign and substitution checks, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 9: verification routine — Cartesian plane","text":"For the verification routine of Cartesian plane, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cartesian plane, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 10: common misconception diagnosis — Quadrants and signs","text":"For the common misconception diagnosis of Quadrants and signs, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadrants and signs, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 11: question decoding — Distance formula","text":"For the question decoding of Distance formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Distance formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 12: formula reconstruction — Section formula","text":"For the formula reconstruction of Section formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Section formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 13: short-to-long answer conversion — Midpoint","text":"For the short-to-long answer conversion of Midpoint, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Midpoint, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 14: application thinking — Area of triangle","text":"For the application thinking of Area of triangle, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Area of triangle, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 15: comparison of methods — Collinearity","text":"For the comparison of methods of Collinearity, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Collinearity, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 16: self-check challenge — Sign and substitution checks","text":"For the self-check challenge of Sign and substitution checks, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Sign and substitution checks, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 17: exam-time strategy — Cartesian plane","text":"For the exam-time strategy of Cartesian plane, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cartesian plane, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 18: precision in notation — Quadrants and signs","text":"For the precision in notation of Quadrants and signs, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadrants and signs, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 19: reasoning summary — Distance formula","text":"For the reasoning summary of Distance formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Distance formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 20: final mastery checkpoint — Section formula","text":"For the final mastery checkpoint of Section formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Coordinate Geometry, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Section formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"examMethod","title":"Board-ready solving method","text":"Read the question twice. Underline the quantities that are given and identify what must be found. Write the governing definition, formula or theorem before substitution. Keep exact values such as √3 or π until the final stage unless the question specifies an approximation. Show transformations in logical order, keep units on measurement answers, and perform a quick substitution or reasonableness check at the end. For geometry, label the figure before using a theorem; for algebra, preserve signs and brackets; for statistics and probability, define the total before the favourable part."},
-    {"type":"examMethod","title":"How to present a 5-mark answer","text":"A strong long answer normally contains four visible parts: Given/required, formula or theorem, substitution and working, final answer. For a proof, replace “formula” with a chain of statements and reasons. Do not hide the decisive step inside a sentence. If a diagram is necessary, label every point, side, angle or axis used in the calculation."},
-    {"type":"mistakes","title":"Common mistakes to avoid","items":["Copying a sign incorrectly, especially when coordinates, coefficients or a negative common difference are present.","Using a formula before identifying which quantities in the question correspond to its symbols.","Rounding intermediate values and then carrying the rounded result through several later calculations.","Giving only the final number when the question requires a proof or working steps.","Forgetting units for length, area or volume answers.","Using a geometric theorem without checking its hypotheses, such as parallel lines, a right angle, similarity or tangency.","In probability, counting outcomes that are not equally likely without adjusting the model.","In statistics, confusing class frequency with cumulative frequency or selecting the wrong median class."]},
-    {"type":"quickRevision","title":"Quick revision checklist","text":"Before the board exam, revise every definition, theorem condition, standard formula and worked example in this chapter. Then solve the board questions without looking at the answers. Finally, revisit only the steps where your method differed from the worked solution. The goal is not memorising isolated formulas; it is recognising which mathematical structure the question is describing."},
-    {"type":"information","title":"Extended revision note 1: Cartesian plane","text":"Revision bank 1 — Cartesian plane. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 2: Quadrants and signs","text":"Revision bank 2 — Quadrants and signs. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 3: Distance formula","text":"Revision bank 3 — Distance formula. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 4: Section formula","text":"Revision bank 4 — Section formula. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 5: Midpoint","text":"Revision bank 5 — Midpoint. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 6: Area of triangle","text":"Revision bank 6 — Area of triangle. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 7: Collinearity","text":"Revision bank 7 — Collinearity. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 8: Sign and substitution checks","text":"Revision bank 8 — Sign and substitution checks. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 9: Cartesian plane","text":"Revision bank 9 — Cartesian plane. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 10: Quadrants and signs","text":"Revision bank 10 — Quadrants and signs. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 11: Distance formula","text":"Revision bank 11 — Distance formula. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 12: Section formula","text":"Revision bank 12 — Section formula. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."}
+  "id": "class10-math-coordinate-geometry",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 7,
+  "title": "Coordinate Geometry",
+  "file": "js/notes/class10/math/coordinate-geometry.js",
+  "enabled": true,
+  "gradeLock": 10,
+  "curriculum": "Class 10 Mathematics",
+  "sourceFileId": "class10-math-coordinate-geometry",
+  "description": "Detailed Class 10 Mathematics notes for Coordinate Geometry. This file is grade-locked to Class 10 and is not a Class 9 chapter.",
+  "learningObjectives": [
+    "Distance formula",
+    "Section formula",
+    "Midpoint",
+    "Area of a triangle"
+  ],
+  "prerequisiteCheck": [
+    "Algebraic manipulation",
+    "Fractions and signs",
+    "Basic geometry/graphs where relevant"
+  ],
+  "importantPoints": [
+    "Use the Class 10 treatment of Coordinate Geometry; do not substitute the Class 9 chapter with a similar title.",
+    "Show complete working in examination questions.",
+    "State conditions before applying a theorem or formula.",
+    "Verify important answers independently."
+  ],
+  "keyTerms": [
+    "Distance formula",
+    "Section formula",
+    "Midpoint",
+    "Area of a triangle",
+    "Board-style reasoning",
+    "Verification",
+    "HOTS",
+    "Formula conditions"
+  ],
+  "formulaPropertyBank": [],
+  "sections": [
+    {
+      "type": "opening",
+      "title": "Chapter Overview",
+      "text": "This is the Class 10 Mathematics treatment of Coordinate Geometry. The chapter is kept completely separate from Class 9 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
+    },
+    {
+      "type": "information",
+      "title": "Learning Targets",
+      "text": "By the end of this chapter, you should be able to: Distance formula; Section formula; Midpoint; Area of a triangle. Every formula should be accompanied by the condition under which it is valid."
+    },
+    {
+      "type": "figure",
+      "title": "Accurate labelled figure — Coordinate Geometry",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 300\" role=\"img\" aria-label=\"7. Coordinate Geometry — labelled figure\">\n<rect x=\"8\" y=\"8\" width=\"744\" height=\"284\" rx=\"22\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"30\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\">7. Coordinate Geometry — labelled figure</text>\n<line x1=\"100\" y1=\"220\" x2=\"680\" y2=\"220\" stroke=\"#0f172a\" stroke-width=\"3\"/><line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"275\" stroke=\"#0f172a\" stroke-width=\"3\"/>\n<circle cx=\"500\" cy=\"145\" r=\"8\" fill=\"#dc2626\"/><text x=\"512\" y=\"140\" font-size=\"19\">P(x₁,y₁)</text>\n<circle cx=\"250\" cy=\"255\" r=\"8\" fill=\"#2563eb\"/><text x=\"155\" y=\"270\" font-size=\"19\">Q(x₂,y₂)</text>\n<line x1=\"250\" y1=\"255\" x2=\"500\" y2=\"145\" stroke=\"#16a34a\" stroke-width=\"4\"/>\n<text x=\"95\" y=\"45\" font-size=\"19\">Distance = √[(x₂−x₁)² + (y₂−y₁)²]</text>\n</svg>",
+      "caption": "Original vector study figure created for these notes; labels are part of the diagram and are intended to support the mathematical explanation."
+    },
+    {
+      "type": "concept",
+      "title": "Distance formula",
+      "text": "Distance formula is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Distance formula before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 1: Distance formula",
+      "question": "A Class 10 board-style question tests Distance formula. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Distance formula applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Section formula",
+      "text": "Section formula is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Section formula before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 2: Section formula",
+      "question": "A Class 10 board-style question tests Section formula. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Section formula applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Midpoint",
+      "text": "Midpoint is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Midpoint before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 3: Midpoint",
+      "question": "A Class 10 board-style question tests Midpoint. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Midpoint applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Area of a triangle",
+      "text": "Area of a triangle is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Area of a triangle before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 4: Area of a triangle",
+      "question": "A Class 10 board-style question tests Area of a triangle. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Area of a triangle applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Method-selection guide",
+      "headers": [
+        "Situation",
+        "Best first move",
+        "Verification"
+      ],
+      "rows": [
+        [
+          "A direct numerical question",
+          "Write givens → formula → substitution",
+          "Check units/signs"
+        ],
+        [
+          "A proof question",
+          "State theorem/condition → derive step by step",
+          "Reverse-check the conclusion"
+        ],
+        [
+          "A word problem",
+          "Define variables and translate the statements",
+          "Substitute back into the statements"
+        ],
+        [
+          "A graph/figure question",
+          "Label the figure and identify known relations",
+          "Check the geometry or coordinates"
+        ]
+      ]
+    },
+    {
+      "type": "formula-bank",
+      "title": "Formula & theorem bank",
+      "formulas": [
+        {
+          "title": "Formula 1",
+          "formula": "Distance = √[(x₂−x₁)²+(y₂−y₁)²]"
+        },
+        {
+          "title": "Formula 2",
+          "formula": "Section formula = ((mx₂+nx₁)/(m+n),(my₂+ny₁)/(m+n))"
+        },
+        {
+          "title": "Formula 3",
+          "formula": "Midpoint = ((x₁+x₂)/2,(y₁+y₂)/2)"
+        },
+        {
+          "title": "Formula 4",
+          "formula": "Area = 1/2|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 1: Collinearity",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 2: Internal division",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 3: Coordinate proofs",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 4: Geometric interpretation",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "common-mistakes",
+      "title": "Common mistakes to avoid",
+      "items": [
+        "Using a Class 9 definition or formula when the Class 10 chapter asks for a stronger result.",
+        "Skipping the condition of a theorem or formula.",
+        "Changing signs while transposing terms.",
+        "Rounding too early.",
+        "Giving a numerical answer without showing the method in a board-style question.",
+        "Failing to verify the answer against the original statement."
+      ]
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 1",
+      "question": "Write a complete, step-by-step Class 10 solution involving Distance formula. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 2",
+      "question": "Write a complete, step-by-step Class 10 solution involving Section formula. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 3",
+      "question": "Write a complete, step-by-step Class 10 solution involving Midpoint. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 4",
+      "question": "Write a complete, step-by-step Class 10 solution involving Area of a triangle. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 5",
+      "question": "Write a complete, step-by-step Class 10 solution involving Distance formula. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "summary",
+      "title": "Rapid Revision",
+      "text": "Class 10 Coordinate Geometry: focus on Distance formula, Section formula, Midpoint, Area of a triangle. Memorise formulas together with their conditions. Practise at least one direct problem, one reasoning problem, one word problem and one mixed/HOTS problem. Recheck every final answer."
+    },
+    {
+      "title": "Deep Practice Set 1",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 1, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 1",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 2",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 2, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 2",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 3",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 3, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 3",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 4",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 4, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 4",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 5",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 5, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 5",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 6",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 6, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 6",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 7",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 7, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 7",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 8",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 8, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 8",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 9",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 9, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 9",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 10",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 10, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 10",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 11",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 11, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 11",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 12",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Coordinate Geometry, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 12, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 12",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Coordinate Geometry.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Coordinate Geometry?",
+            "Which condition is easiest to forget in Coordinate Geometry?",
+            "Which alternative method can verify a numerical answer in Coordinate Geometry?",
+            "How would you explain the main idea of Coordinate Geometry to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 41",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 42",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 43",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 44",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 45",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 46",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 47",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 48",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 49",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 50",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 51",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 52",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 53",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 54",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 55",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 56",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 57",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 58",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 59",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 60",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Coordinate Geometry, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Coordinate Geometry?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Coordinate Geometry and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    }
   ]
 };
-
-

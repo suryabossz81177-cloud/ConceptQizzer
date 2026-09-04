@@ -1,85 +1,1173 @@
-// Class 10 Mathematics — Chapter 14: Probability
-// Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
-// The content is self-contained and designed for a continuous chapter renderer.
+/* ConceptQizzer — Class 10 Mathematics — Grade-locked chapter package */
+/* This file intentionally contains ONLY Class 10 content and a unique chapter id. */
+"use strict";
+
 const ChapterData = {
-  id: "class10-math-probability",
-  class: 10,
-  subject: "Mathematics",
-  chapterNumber: 14,
-  title: "Probability",
-  fileVersion: "renderable-v3-detailed",
-  enabled: true,
-  sections: [
-    {"type":"intro","title":"Chapter overview","text":"Probability measures uncertainty using favourable outcomes and total equally likely outcomes. The chapter develops classical probability, complements and the relationship between an event and its non-occurrence. The presentation is intentionally continuous: concept, explanation, method, worked example, visual figure, board question, common error and quick revision. Each answer below is a completed mathematical answer rather than a placeholder instruction."},
-    {"type":"information","title":"1. Random experiment","text":"A random experiment has a clearly defined set of possible outcomes, but the particular outcome cannot be predicted with certainty before the experiment is performed. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"1.1 Exam focus: Random experiment","text":"Exam focus for Random experiment: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"2. Sample space","text":"The sample space S is the set of all possible outcomes. An event E is a subset of S. For a finite equally likely sample space, P(E)=number of favourable outcomes/total number of outcomes. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"2.1 Exam focus: Sample space","text":"Exam focus for Sample space: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"3. Probability range","text":"For any event E, 0≤P(E)≤1. Probability 0 represents an impossible event, while probability 1 represents a certain event. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"3.1 Exam focus: Probability range","text":"Exam focus for Probability range: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"4. Complementary event","text":"The complement of E, written Ē, contains outcomes in S that are not in E. P(Ē)=1−P(E), so P(E)+P(Ē)=1. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"4.1 Exam focus: Complementary event","text":"Exam focus for Complementary event: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"5. Counting outcomes","text":"For a die, six outcomes are equally likely. For two coins, ordered outcomes HH, HT, TH, TT are four equally likely outcomes. Listing the sample space prevents missing or double-counting cases. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"5.1 Exam focus: Counting outcomes","text":"Exam focus for Counting outcomes: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"6. Cards and objects","text":"When drawing cards or selecting objects, define the total population and favourable group before calculating. If all objects are equally likely to be selected, the simple ratio applies. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"6.1 Exam focus: Cards and objects","text":"Exam focus for Cards and objects: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"7. Experimental versus theoretical","text":"Experimental probability comes from observed frequencies; classical probability comes from the mathematical model. They can differ in a finite experiment because random variation is expected. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"7.1 Exam focus: Experimental versus theoretical","text":"Exam focus for Experimental versus theoretical: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"8. Complement strategy","text":"If an event is awkward to count directly but its complement is simple, calculate P(E)=1−P(Ē). This is especially useful for “at least one” questions. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"8.1 Exam focus: Complement strategy","text":"Exam focus for Complement strategy: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"9. Board answer style","text":"Write the sample space or total outcomes, state the favourable outcomes, form the fraction, simplify, and check that the final probability lies between 0 and 1. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"9.1 Exam focus: Board answer style","text":"Exam focus for Board answer style: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"diagram","title":"Sample space for two coins","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Sample space for two coins\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Sample space for two coins</text>\n<circle cx=\"250\" cy=\"190\" r=\"48\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"225\" y=\"198\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">H</text><circle cx=\"250\" cy=\"320\" r=\"48\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"225\" y=\"328\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">T</text><line x1=\"300\" y1=\"190\" x2=\"500\" y2=\"190\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"300\" y1=\"190\" x2=\"500\" y2=\"320\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"300\" y1=\"320\" x2=\"500\" y2=\"190\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"300\" y1=\"320\" x2=\"500\" y2=\"320\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"520\" y=\"195\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">HH</text><text x=\"520\" y=\"245\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">HT</text><text x=\"520\" y=\"300\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">TH</text><text x=\"520\" y=\"350\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">TT</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">All ordered outcomes are listed once.</text>\n</svg>"},
-    {"type":"diagram","title":"Complement","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Complement\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Complement</text>\n<circle cx=\"300\" cy=\"270\" r=\"130\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 430 270 A 130 130 0 0 1 300 400 A 130 130 0 0 1 300 140\" fill=\"#f0fdf4\" stroke=\"#16a34a\" stroke-width=\"4\"/><text x=\"250\" y=\"265\" font-size=\"28\" font-weight=\"700\" fill=\"#1e293b\">E</text><text x=\"450\" y=\"275\" font-size=\"28\" font-weight=\"700\" fill=\"#1e293b\">Ē</text><text x=\"520\" y=\"390\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">P(E)+P(Ē)=1</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">Event E and its complement together cover the whole sample space.</text>\n</svg>"},
-    {"type":"example","title":"Worked example 1: Die: even number","question":"Die: even number","answer":"Favourable outcomes {2,4,6}; total 6; P(even)=3/6=1/2. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 2: Two coins: exactly one head","question":"Two coins: exactly one head","answer":"Favourable {HT,TH}; total 4; probability=2/4=1/2. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 3: Complement","question":"Complement","answer":"Probability of getting at least one 6 in one die throw is 1−P(no 6)=1−5/6=1/6. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 4: Cards","question":"Cards","answer":"From a standard 52-card deck, P(heart)=13/52=1/4. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 5: Number selection","question":"Number selection","answer":"Choose one integer from 1 to 20 at random. Probability of a multiple of 5 is 4/20=1/5. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 6: Two dice sum 7","question":"Two dice sum 7","answer":"Favourable ordered pairs: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1), six out of 36, so probability=1/6. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"boardQuestion","question":"What is probability range?","answer":"0≤P(E)≤1."},
-    {"type":"boardQuestion","question":"Probability of impossible event?","answer":"0."},
-    {"type":"boardQuestion","question":"Probability of certain event?","answer":"1."},
-    {"type":"boardQuestion","question":"P(E)=0.3; find P(Ē).","answer":"0.7."},
-    {"type":"boardQuestion","question":"Two coins: probability of two heads?","answer":"1/4."},
-    {"type":"boardQuestion","question":"Die: probability of prime number?","answer":"3/6=1/2, since 2,3,5 are prime."},
-    {"type":"information","title":"Mastery block 1: conceptual foundation — Random experiment","text":"For the conceptual foundation of Random experiment, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Random experiment, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 2: symbol-by-symbol reading — Sample space","text":"For the symbol-by-symbol reading of Sample space, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Sample space, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 3: worked-reasoning checkpoint — Probability range","text":"For the worked-reasoning checkpoint of Probability range, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Probability range, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 4: visual interpretation — Complementary event","text":"For the visual interpretation of Complementary event, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Complementary event, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 5: method selection — Counting outcomes","text":"For the method selection of Counting outcomes, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Counting outcomes, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 6: edge-case awareness — Cards and objects","text":"For the edge-case awareness of Cards and objects, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cards and objects, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 7: board proof language — Experimental versus theoretical","text":"For the board proof language of Experimental versus theoretical, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Experimental versus theoretical, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 8: calculation discipline — Complement strategy","text":"For the calculation discipline of Complement strategy, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Complement strategy, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 9: verification routine — Board answer style","text":"For the verification routine of Board answer style, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Board answer style, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 10: common misconception diagnosis — Random experiment","text":"For the common misconception diagnosis of Random experiment, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Random experiment, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 11: question decoding — Sample space","text":"For the question decoding of Sample space, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Sample space, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 12: formula reconstruction — Probability range","text":"For the formula reconstruction of Probability range, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Probability range, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 13: short-to-long answer conversion — Complementary event","text":"For the short-to-long answer conversion of Complementary event, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Complementary event, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 14: application thinking — Counting outcomes","text":"For the application thinking of Counting outcomes, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Counting outcomes, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 15: comparison of methods — Cards and objects","text":"For the comparison of methods of Cards and objects, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cards and objects, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 16: self-check challenge — Experimental versus theoretical","text":"For the self-check challenge of Experimental versus theoretical, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Experimental versus theoretical, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 17: exam-time strategy — Complement strategy","text":"For the exam-time strategy of Complement strategy, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Complement strategy, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 18: precision in notation — Board answer style","text":"For the precision in notation of Board answer style, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Board answer style, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 19: reasoning summary — Random experiment","text":"For the reasoning summary of Random experiment, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Random experiment, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 20: final mastery checkpoint — Sample space","text":"For the final mastery checkpoint of Sample space, begin with the exact mathematical object named in the question rather than a memorised pattern. In Probability, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Sample space, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"examMethod","title":"Board-ready solving method","text":"Read the question twice. Underline the quantities that are given and identify what must be found. Write the governing definition, formula or theorem before substitution. Keep exact values such as √3 or π until the final stage unless the question specifies an approximation. Show transformations in logical order, keep units on measurement answers, and perform a quick substitution or reasonableness check at the end. For geometry, label the figure before using a theorem; for algebra, preserve signs and brackets; for statistics and probability, define the total before the favourable part."},
-    {"type":"examMethod","title":"How to present a 5-mark answer","text":"A strong long answer normally contains four visible parts: Given/required, formula or theorem, substitution and working, final answer. For a proof, replace “formula” with a chain of statements and reasons. Do not hide the decisive step inside a sentence. If a diagram is necessary, label every point, side, angle or axis used in the calculation."},
-    {"type":"mistakes","title":"Common mistakes to avoid","items":["Copying a sign incorrectly, especially when coordinates, coefficients or a negative common difference are present.","Using a formula before identifying which quantities in the question correspond to its symbols.","Rounding intermediate values and then carrying the rounded result through several later calculations.","Giving only the final number when the question requires a proof or working steps.","Forgetting units for length, area or volume answers.","Using a geometric theorem without checking its hypotheses, such as parallel lines, a right angle, similarity or tangency.","In probability, counting outcomes that are not equally likely without adjusting the model.","In statistics, confusing class frequency with cumulative frequency or selecting the wrong median class."]},
-    {"type":"quickRevision","title":"Quick revision checklist","text":"Before the board exam, revise every definition, theorem condition, standard formula and worked example in this chapter. Then solve the board questions without looking at the answers. Finally, revisit only the steps where your method differed from the worked solution. The goal is not memorising isolated formulas; it is recognising which mathematical structure the question is describing."},
-    {"type":"information","title":"Extended revision note 1: Random experiment","text":"Revision bank 1 — Random experiment. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 2: Sample space","text":"Revision bank 2 — Sample space. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 3: Probability range","text":"Revision bank 3 — Probability range. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 4: Complementary event","text":"Revision bank 4 — Complementary event. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 5: Counting outcomes","text":"Revision bank 5 — Counting outcomes. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 6: Cards and objects","text":"Revision bank 6 — Cards and objects. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 7: Experimental versus theoretical","text":"Revision bank 7 — Experimental versus theoretical. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 8: Complement strategy","text":"Revision bank 8 — Complement strategy. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 9: Board answer style","text":"Revision bank 9 — Board answer style. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 10: Random experiment","text":"Revision bank 10 — Random experiment. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 11: Sample space","text":"Revision bank 11 — Sample space. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 12: Probability range","text":"Revision bank 12 — Probability range. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."}
+  "id": "class10-math-probability",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 14,
+  "title": "Probability",
+  "file": "js/notes/class10/math/probability.js",
+  "enabled": true,
+  "gradeLock": 10,
+  "curriculum": "Class 10 Mathematics",
+  "sourceFileId": "class10-math-probability",
+  "description": "Detailed Class 10 Mathematics notes for Probability. This file is grade-locked to Class 10 and is not a Class 9 chapter.",
+  "learningObjectives": [
+    "Random experiments",
+    "Sample space",
+    "Events",
+    "Theoretical probability",
+    "Complementary events"
+  ],
+  "prerequisiteCheck": [
+    "Algebraic manipulation",
+    "Fractions and signs",
+    "Basic geometry/graphs where relevant"
+  ],
+  "importantPoints": [
+    "Use the Class 10 treatment of Probability; do not substitute the Class 9 chapter with a similar title.",
+    "Show complete working in examination questions.",
+    "State conditions before applying a theorem or formula.",
+    "Verify important answers independently."
+  ],
+  "keyTerms": [
+    "Random experiments",
+    "Sample space",
+    "Events",
+    "Theoretical probability",
+    "Complementary events",
+    "Board-style reasoning",
+    "Verification",
+    "HOTS",
+    "Formula conditions"
+  ],
+  "formulaPropertyBank": [],
+  "sections": [
+    {
+      "type": "opening",
+      "title": "Chapter Overview",
+      "text": "This is the Class 10 Mathematics treatment of Probability. The chapter is kept completely separate from Class 9 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
+    },
+    {
+      "type": "information",
+      "title": "Learning Targets",
+      "text": "By the end of this chapter, you should be able to: Random experiments; Sample space; Events; Theoretical probability; Complementary events. Every formula should be accompanied by the condition under which it is valid."
+    },
+    {
+      "type": "figure",
+      "title": "Accurate labelled figure — Probability",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 300\" role=\"img\" aria-label=\"14. Probability — labelled figure\">\n<rect x=\"8\" y=\"8\" width=\"744\" height=\"284\" rx=\"22\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"30\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\">14. Probability — labelled figure</text>\n<circle cx=\"250\" cy=\"170\" r=\"90\" fill=\"#eef2ff\" stroke=\"#3730a3\" stroke-width=\"4\"/>\n<path d=\"M250 170 L250 80 A90 90 0 0 1 328 215 Z\" fill=\"#c4b5fd\" stroke=\"#6d28d9\" stroke-width=\"2\"/>\n<text x=\"205\" y=\"165\" font-size=\"19\">favourable</text><text x=\"465\" y=\"150\" font-size=\"20\">P(E) = favourable outcomes</text><text x=\"465\" y=\"185\" font-size=\"20\">÷ total equally likely outcomes</text>\n<text x=\"95\" y=\"55\" font-size=\"19\">0 ≤ P(E) ≤ 1; P(not E) = 1 − P(E).</text>\n</svg>",
+      "caption": "Original vector study figure created for these notes; labels are part of the diagram and are intended to support the mathematical explanation."
+    },
+    {
+      "type": "concept",
+      "title": "Random experiments",
+      "text": "Random experiments is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Random experiments before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 1: Random experiments",
+      "question": "A Class 10 board-style question tests Random experiments. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Random experiments applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Sample space",
+      "text": "Sample space is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Sample space before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 2: Sample space",
+      "question": "A Class 10 board-style question tests Sample space. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Sample space applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Events",
+      "text": "Events is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Events before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 3: Events",
+      "question": "A Class 10 board-style question tests Events. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Events applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Theoretical probability",
+      "text": "Theoretical probability is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Theoretical probability before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 4: Theoretical probability",
+      "question": "A Class 10 board-style question tests Theoretical probability. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Theoretical probability applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Complementary events",
+      "text": "Complementary events is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Complementary events before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 5: Complementary events",
+      "question": "A Class 10 board-style question tests Complementary events. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Complementary events applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Method-selection guide",
+      "headers": [
+        "Situation",
+        "Best first move",
+        "Verification"
+      ],
+      "rows": [
+        [
+          "A direct numerical question",
+          "Write givens → formula → substitution",
+          "Check units/signs"
+        ],
+        [
+          "A proof question",
+          "State theorem/condition → derive step by step",
+          "Reverse-check the conclusion"
+        ],
+        [
+          "A word problem",
+          "Define variables and translate the statements",
+          "Substitute back into the statements"
+        ],
+        [
+          "A graph/figure question",
+          "Label the figure and identify known relations",
+          "Check the geometry or coordinates"
+        ]
+      ]
+    },
+    {
+      "type": "formula-bank",
+      "title": "Formula & theorem bank",
+      "formulas": [
+        {
+          "title": "Formula 1",
+          "formula": "P(E)=number of favourable outcomes/total equally likely outcomes"
+        },
+        {
+          "title": "Formula 2",
+          "formula": "0≤P(E)≤1"
+        },
+        {
+          "title": "Formula 3",
+          "formula": "P(not E)=1−P(E)"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 1: Equally likely outcomes",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 2: Dice/coins/cards",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 3: Impossible and sure events",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 4: Complementary probability",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "common-mistakes",
+      "title": "Common mistakes to avoid",
+      "items": [
+        "Using a Class 9 definition or formula when the Class 10 chapter asks for a stronger result.",
+        "Skipping the condition of a theorem or formula.",
+        "Changing signs while transposing terms.",
+        "Rounding too early.",
+        "Giving a numerical answer without showing the method in a board-style question.",
+        "Failing to verify the answer against the original statement."
+      ]
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 1",
+      "question": "Write a complete, step-by-step Class 10 solution involving Random experiments. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 2",
+      "question": "Write a complete, step-by-step Class 10 solution involving Sample space. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 3",
+      "question": "Write a complete, step-by-step Class 10 solution involving Events. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 4",
+      "question": "Write a complete, step-by-step Class 10 solution involving Theoretical probability. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 5",
+      "question": "Write a complete, step-by-step Class 10 solution involving Complementary events. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "summary",
+      "title": "Rapid Revision",
+      "text": "Class 10 Probability: focus on Random experiments, Sample space, Events, Theoretical probability, Complementary events. Memorise formulas together with their conditions. Practise at least one direct problem, one reasoning problem, one word problem and one mixed/HOTS problem. Recheck every final answer."
+    },
+    {
+      "title": "Deep Practice Set 1",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 1, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 1",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 2",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 2, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 2",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 3",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 3, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 3",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 4",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 4, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 4",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 5",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 5, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 5",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 6",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 6, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 6",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 7",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 7, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 7",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 8",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 8, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 8",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 9",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 9, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 9",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 10",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 10, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 10",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 11",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 11, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 11",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 12",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Probability, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 12, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 12",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Probability.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Probability?",
+            "Which condition is easiest to forget in Probability?",
+            "Which alternative method can verify a numerical answer in Probability?",
+            "How would you explain the main idea of Probability to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 44",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 45",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 46",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 47",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 48",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 49",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 50",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 51",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 52",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 53",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 54",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 55",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 56",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 57",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 58",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 59",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 60",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 61",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 62",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 63",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Probability, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Probability?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Probability and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    }
   ]
 };
-
-

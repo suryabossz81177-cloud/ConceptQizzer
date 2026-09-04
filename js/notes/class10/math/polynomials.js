@@ -1,93 +1,1143 @@
-// Class 10 Mathematics — Chapter 2: Polynomials
-// Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
-// The content is self-contained and designed for a continuous chapter renderer.
+/* ConceptQizzer — Class 10 Mathematics — Grade-locked chapter package */
+/* This file intentionally contains ONLY Class 10 content and a unique chapter id. */
+"use strict";
+
 const ChapterData = {
-  id: "class10-math-polynomials",
-  class: 10,
-  subject: "Mathematics",
-  chapterNumber: 2,
-  title: "Polynomials",
-  fileVersion: "renderable-v3-detailed",
-  enabled: true,
-  sections: [
-    {"type":"intro","title":"Chapter overview","text":"Polynomials are algebraic expressions built from variables, coefficients and non-negative integer powers. This chapter focuses on zeros of polynomials, the relation between zeros and coefficients, and division and factorisation of quadratic and cubic expressions. The presentation is intentionally continuous: concept, explanation, method, worked example, visual figure, board question, common error and quick revision. Each answer below is a completed mathematical answer rather than a placeholder instruction."},
-    {"type":"information","title":"1. Meaning of a polynomial","text":"A polynomial in x has terms of the form aₙxⁿ where n is a non-negative integer and coefficients are real numbers. Expressions such as 3x²−5x+7 and x⁴−2 are polynomials; x⁻¹, √x and 1/(x+1) are not polynomials in x because the powers or denominator violate the definition. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"1.1 Exam focus: Meaning of a polynomial","text":"Exam focus for Meaning of a polynomial: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"2. Degree and coefficients","text":"The degree is the highest power of x having a non-zero coefficient. In 5x³−2x+9, degree is 3, leading coefficient is 5 and constant term is 9. The zero polynomial is treated separately because it has no highest non-zero power. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"2.1 Exam focus: Degree and coefficients","text":"Exam focus for Degree and coefficients: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"3. Zeros of a polynomial","text":"A zero of p(x) is a number α for which p(α)=0. Graphically, a zero is an x-coordinate where the graph of y=p(x) meets the x-axis. A polynomial can have as many real zeros as its degree, although it may have fewer real zeros. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"3.1 Exam focus: Zeros of a polynomial","text":"Exam focus for Zeros of a polynomial: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"4. Linear polynomial","text":"For p(x)=ax+b with a≠0, the zero is x=−b/a. Its graph is a straight line and it crosses the x-axis exactly once. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"4.1 Exam focus: Linear polynomial","text":"Exam focus for Linear polynomial: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"5. Quadratic polynomial and zeros","text":"For ax²+bx+c, if α and β are its zeros, then α+β=−b/a and αβ=c/a. These relations allow a polynomial to be reconstructed from its zeros and leading coefficient. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"5.1 Exam focus: Quadratic polynomial and zeros","text":"Exam focus for Quadratic polynomial and zeros: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"6. Cubic polynomial and zeros","text":"For ax³+bx²+cx+d with zeros α, β, γ: α+β+γ=−b/a, αβ+βγ+γα=c/a, and αβγ=−d/a. These identities are obtained by expanding a(x−α)(x−β)(x−γ). In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"6.1 Exam focus: Cubic polynomial and zeros","text":"Exam focus for Cubic polynomial and zeros: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"7. Factor theorem","text":"If p(k)=0, then (x−k) is a factor of p(x). Conversely, if (x−k) is a factor, p(k)=0. This theorem converts a zero into a factor and is especially useful for cubic factorisation. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"7.1 Exam focus: Factor theorem","text":"Exam focus for Factor theorem: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"8. Remainder theorem","text":"When p(x) is divided by x−a, the remainder is p(a). This provides a fast way to test divisibility and can reduce a long polynomial division to substitution. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"8.1 Exam focus: Remainder theorem","text":"Exam focus for Remainder theorem: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"9. Graphical interpretation","text":"The x-intercepts of y=p(x) are real zeros. A repeated zero touches the x-axis without crossing it in many familiar quadratic graphs, while a simple zero generally crosses. The algebraic multiplicity and graph behaviour should not be confused in every possible higher-degree situation. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"9.1 Exam focus: Graphical interpretation","text":"Exam focus for Graphical interpretation: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"10. Building a polynomial from zeros","text":"If α and β are zeros of a quadratic with leading coefficient a, then p(x)=a(x−α)(x−β). Expand only after setting up the factors; this reduces sign errors. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"10.1 Exam focus: Building a polynomial from zeros","text":"Exam focus for Building a polynomial from zeros: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"11. Sign discipline in factorisation","text":"When a factor is x−3, the corresponding zero is 3. When a factor is x+3, the zero is −3. A common error is to copy the factor number without reversing the sign when identifying the zero. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"11.1 Exam focus: Sign discipline in factorisation","text":"Exam focus for Sign discipline in factorisation: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"12. Board method for coefficient questions","text":"Write the standard polynomial, substitute the known zero relations, and compare coefficients. If the question asks for unknown constants, form equations from p(α)=0 or the sum/product relations and solve them systematically. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"12.1 Exam focus: Board method for coefficient questions","text":"Exam focus for Board method for coefficient questions: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"diagram","title":"Quadratic graph and zeros","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Quadratic graph and zeros\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Quadratic graph and zeros</text>\n<line x1=\"90\" y1=\"360\" x2=\"810\" y2=\"360\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"130\" y1=\"90\" x2=\"130\" y2=\"430\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 180 330 Q 450 80 720 330\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"300\" cy=\"360\" r=\"7\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"600\" cy=\"360\" r=\"7\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"280\" y=\"395\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">α</text><text x=\"580\" y=\"395\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">β</text><text x=\"760\" y=\"350\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">x</text><text x=\"118\" y=\"105\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">y</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">The x-axis intersections represent real zeros.</text>\n</svg>"},
-    {"type":"diagram","title":"Factor theorem flow","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Factor theorem flow\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Factor theorem flow</text>\n<text x=\"120\" y=\"180\" font-size=\"28\" font-weight=\"700\" fill=\"#1e293b\">p(a)=0</text><line x1=\"250\" y1=\"180\" x2=\"390\" y2=\"180\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"420\" y=\"180\" font-size=\"28\" font-weight=\"400\" fill=\"#1e293b\">⇒</text><text x=\"475\" y=\"180\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">(x−a) is a factor</text><text x=\"120\" y=\"250\" font-size=\"28\" font-weight=\"700\" fill=\"#1e293b\">p(a)≠0</text><line x1=\"250\" y1=\"250\" x2=\"390\" y2=\"250\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"420\" y=\"250\" font-size=\"28\" font-weight=\"400\" fill=\"#1e293b\">⇒</text><text x=\"475\" y=\"250\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">not divisible by x−a</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">Substitute the candidate zero; zero remainder means the linear factor exists.</text>\n</svg>"},
-    {"type":"example","title":"Worked example 1: Find zeros of x²−5x+6","question":"Find zeros of x²−5x+6","answer":"Factor: x²−5x+6=(x−2)(x−3). Therefore zeros are 2 and 3. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 2: Verify coefficient relations","question":"Verify coefficient relations","answer":"For 2x²−7x+3, zeros are 3 and 1/2. Sum=7/2=−(−7)/2; product=3/2=3/2. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 3: Remainder theorem","question":"Remainder theorem","answer":"For p(x)=2x³−3x²+x−5, remainder on division by x−2 is p(2)=16−12+2−5=1. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 4: Factor theorem","question":"Factor theorem","answer":"For p(x)=x³−6x²+11x−6, p(1)=0, so x−1 is a factor. Division gives x²−5x+6=(x−2)(x−3). Hence p(x)=(x−1)(x−2)(x−3). Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 5: Construct quadratic","question":"Construct quadratic","answer":"Zeros are −2 and 5, leading coefficient 3. p(x)=3(x+2)(x−5)=3x²−9x−30. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 6: Cubic relation","question":"Cubic relation","answer":"For x³−6x²+11x−6, sum of zeros=6, pairwise sum=11 and product=6. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 7: Find unknown k","question":"Find unknown k","answer":"If 2 is a zero of x²+kx−6, then 4+2k−6=0, so 2k=2 and k=1. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"boardQuestion","question":"What is a zero of p(x)?","answer":"A number α such that p(α)=0."},
-    {"type":"boardQuestion","question":"Find zeros of x²−7x+12.","answer":"Zeros are 3 and 4."},
-    {"type":"boardQuestion","question":"State the remainder theorem.","answer":"The remainder when p(x) is divided by x−a is p(a)."},
-    {"type":"boardQuestion","question":"State the factor theorem.","answer":"x−a is a factor of p(x) if and only if p(a)=0."},
-    {"type":"boardQuestion","question":"For 3x²−5x+2, find sum and product of zeros.","answer":"Sum=5/3; product=2/3."},
-    {"type":"boardQuestion","question":"Form a polynomial with zeros 4 and −1.","answer":"A monic polynomial is (x−4)(x+1)=x²−3x−4."},
-    {"type":"boardQuestion","question":"If p(−2)=0, name a factor.","answer":"x+2 is a factor."},
-    {"type":"information","title":"Mastery block 1: conceptual foundation — Meaning of a polynomial","text":"For the conceptual foundation of Meaning of a polynomial, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Meaning of a polynomial, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 2: symbol-by-symbol reading — Degree and coefficients","text":"For the symbol-by-symbol reading of Degree and coefficients, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Degree and coefficients, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 3: worked-reasoning checkpoint — Zeros of a polynomial","text":"For the worked-reasoning checkpoint of Zeros of a polynomial, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Zeros of a polynomial, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 4: visual interpretation — Linear polynomial","text":"For the visual interpretation of Linear polynomial, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Linear polynomial, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 5: method selection — Quadratic polynomial and zeros","text":"For the method selection of Quadratic polynomial and zeros, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadratic polynomial and zeros, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 6: edge-case awareness — Cubic polynomial and zeros","text":"For the edge-case awareness of Cubic polynomial and zeros, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cubic polynomial and zeros, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 7: board proof language — Factor theorem","text":"For the board proof language of Factor theorem, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Factor theorem, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 8: calculation discipline — Remainder theorem","text":"For the calculation discipline of Remainder theorem, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Remainder theorem, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 9: verification routine — Graphical interpretation","text":"For the verification routine of Graphical interpretation, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Graphical interpretation, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 10: common misconception diagnosis — Building a polynomial from zeros","text":"For the common misconception diagnosis of Building a polynomial from zeros, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Building a polynomial from zeros, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 11: question decoding — Sign discipline in factorisation","text":"For the question decoding of Sign discipline in factorisation, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Sign discipline in factorisation, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 12: formula reconstruction — Board method for coefficient questions","text":"For the formula reconstruction of Board method for coefficient questions, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Board method for coefficient questions, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 13: short-to-long answer conversion — Meaning of a polynomial","text":"For the short-to-long answer conversion of Meaning of a polynomial, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Meaning of a polynomial, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 14: application thinking — Degree and coefficients","text":"For the application thinking of Degree and coefficients, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Degree and coefficients, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 15: comparison of methods — Zeros of a polynomial","text":"For the comparison of methods of Zeros of a polynomial, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Zeros of a polynomial, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 16: self-check challenge — Linear polynomial","text":"For the self-check challenge of Linear polynomial, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Linear polynomial, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 17: exam-time strategy — Quadratic polynomial and zeros","text":"For the exam-time strategy of Quadratic polynomial and zeros, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadratic polynomial and zeros, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 18: precision in notation — Cubic polynomial and zeros","text":"For the precision in notation of Cubic polynomial and zeros, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Cubic polynomial and zeros, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 19: reasoning summary — Factor theorem","text":"For the reasoning summary of Factor theorem, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Factor theorem, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 20: final mastery checkpoint — Remainder theorem","text":"For the final mastery checkpoint of Remainder theorem, begin with the exact mathematical object named in the question rather than a memorised pattern. In Polynomials, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Remainder theorem, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"examMethod","title":"Board-ready solving method","text":"Read the question twice. Underline the quantities that are given and identify what must be found. Write the governing definition, formula or theorem before substitution. Keep exact values such as √3 or π until the final stage unless the question specifies an approximation. Show transformations in logical order, keep units on measurement answers, and perform a quick substitution or reasonableness check at the end. For geometry, label the figure before using a theorem; for algebra, preserve signs and brackets; for statistics and probability, define the total before the favourable part."},
-    {"type":"examMethod","title":"How to present a 5-mark answer","text":"A strong long answer normally contains four visible parts: Given/required, formula or theorem, substitution and working, final answer. For a proof, replace “formula” with a chain of statements and reasons. Do not hide the decisive step inside a sentence. If a diagram is necessary, label every point, side, angle or axis used in the calculation."},
-    {"type":"mistakes","title":"Common mistakes to avoid","items":["Copying a sign incorrectly, especially when coordinates, coefficients or a negative common difference are present.","Using a formula before identifying which quantities in the question correspond to its symbols.","Rounding intermediate values and then carrying the rounded result through several later calculations.","Giving only the final number when the question requires a proof or working steps.","Forgetting units for length, area or volume answers.","Using a geometric theorem without checking its hypotheses, such as parallel lines, a right angle, similarity or tangency.","In probability, counting outcomes that are not equally likely without adjusting the model.","In statistics, confusing class frequency with cumulative frequency or selecting the wrong median class."]},
-    {"type":"quickRevision","title":"Quick revision checklist","text":"Before the board exam, revise every definition, theorem condition, standard formula and worked example in this chapter. Then solve the board questions without looking at the answers. Finally, revisit only the steps where your method differed from the worked solution. The goal is not memorising isolated formulas; it is recognising which mathematical structure the question is describing."},
-    {"type":"information","title":"Extended revision note 1: Meaning of a polynomial","text":"Revision bank 1 — Meaning of a polynomial. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 2: Degree and coefficients","text":"Revision bank 2 — Degree and coefficients. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 3: Zeros of a polynomial","text":"Revision bank 3 — Zeros of a polynomial. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 4: Linear polynomial","text":"Revision bank 4 — Linear polynomial. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 5: Quadratic polynomial and zeros","text":"Revision bank 5 — Quadratic polynomial and zeros. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 6: Cubic polynomial and zeros","text":"Revision bank 6 — Cubic polynomial and zeros. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 7: Factor theorem","text":"Revision bank 7 — Factor theorem. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 8: Remainder theorem","text":"Revision bank 8 — Remainder theorem. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 9: Graphical interpretation","text":"Revision bank 9 — Graphical interpretation. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 10: Building a polynomial from zeros","text":"Revision bank 10 — Building a polynomial from zeros. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 11: Sign discipline in factorisation","text":"Revision bank 11 — Sign discipline in factorisation. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 12: Board method for coefficient questions","text":"Revision bank 12 — Board method for coefficient questions. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."}
+  "id": "class10-math-polynomials",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 2,
+  "title": "Polynomials",
+  "file": "js/notes/class10/math/polynomials.js",
+  "enabled": true,
+  "gradeLock": 10,
+  "curriculum": "Class 10 Mathematics",
+  "sourceFileId": "class10-math-polynomials",
+  "description": "Detailed Class 10 Mathematics notes for Polynomials. This file is grade-locked to Class 10 and is not a Class 9 chapter.",
+  "learningObjectives": [
+    "Zeroes of a polynomial",
+    "Geometrical meaning of zeroes",
+    "Relationship between zeroes and coefficients",
+    "Division algorithm for polynomials"
+  ],
+  "prerequisiteCheck": [
+    "Algebraic manipulation",
+    "Fractions and signs",
+    "Basic geometry/graphs where relevant"
+  ],
+  "importantPoints": [
+    "Use the Class 10 treatment of Polynomials; do not substitute the Class 9 chapter with a similar title.",
+    "Show complete working in examination questions.",
+    "State conditions before applying a theorem or formula.",
+    "Verify important answers independently."
+  ],
+  "keyTerms": [
+    "Zeroes of a polynomial",
+    "Geometrical meaning of zeroes",
+    "Relationship between zeroes and coefficients",
+    "Division algorithm for polynomials",
+    "Board-style reasoning",
+    "Verification",
+    "HOTS",
+    "Formula conditions"
+  ],
+  "formulaPropertyBank": [],
+  "sections": [
+    {
+      "type": "opening",
+      "title": "Chapter Overview",
+      "text": "This is the Class 10 Mathematics treatment of Polynomials. The chapter is kept completely separate from Class 9 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
+    },
+    {
+      "type": "information",
+      "title": "Learning Targets",
+      "text": "By the end of this chapter, you should be able to: Zeroes of a polynomial; Geometrical meaning of zeroes; Relationship between zeroes and coefficients; Division algorithm for polynomials. Every formula should be accompanied by the condition under which it is valid."
+    },
+    {
+      "type": "figure",
+      "title": "Accurate labelled figure — Polynomials",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 300\" role=\"img\" aria-label=\"2. Polynomials — labelled figure\">\n<rect x=\"8\" y=\"8\" width=\"744\" height=\"284\" rx=\"22\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"30\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\">2. Polynomials — labelled figure</text>\n<line x1=\"80\" y1=\"180\" x2=\"690\" y2=\"180\" stroke=\"#0f172a\" stroke-width=\"3\"/>\n<line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"275\" stroke=\"#0f172a\" stroke-width=\"3\"/>\n<path d=\"M100 95 C190 250, 300 250, 380 180 C460 110, 570 110, 670 250\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"5\"/>\n<circle cx=\"380\" cy=\"180\" r=\"7\" fill=\"#dc2626\"/><text x=\"392\" y=\"170\" font-size=\"19\">zero of p(x)</text>\n<text x=\"100\" y=\"55\" font-size=\"19\">A zero is an x-value where the graph meets the x-axis.</text>\n</svg>",
+      "caption": "Original vector study figure created for these notes; labels are part of the diagram and are intended to support the mathematical explanation."
+    },
+    {
+      "type": "concept",
+      "title": "Zeroes of a polynomial",
+      "text": "Zeroes of a polynomial is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Zeroes of a polynomial before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 1: Zeroes of a polynomial",
+      "question": "A Class 10 board-style question tests Zeroes of a polynomial. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Zeroes of a polynomial applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Geometrical meaning of zeroes",
+      "text": "Geometrical meaning of zeroes is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Geometrical meaning of zeroes before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 2: Geometrical meaning of zeroes",
+      "question": "A Class 10 board-style question tests Geometrical meaning of zeroes. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Geometrical meaning of zeroes applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Relationship between zeroes and coefficients",
+      "text": "Relationship between zeroes and coefficients is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Relationship between zeroes and coefficients before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 3: Relationship between zeroes and coefficients",
+      "question": "A Class 10 board-style question tests Relationship between zeroes and coefficients. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Relationship between zeroes and coefficients applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Division algorithm for polynomials",
+      "text": "Division algorithm for polynomials is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Division algorithm for polynomials before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 4: Division algorithm for polynomials",
+      "question": "A Class 10 board-style question tests Division algorithm for polynomials. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Division algorithm for polynomials applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Method-selection guide",
+      "headers": [
+        "Situation",
+        "Best first move",
+        "Verification"
+      ],
+      "rows": [
+        [
+          "A direct numerical question",
+          "Write givens → formula → substitution",
+          "Check units/signs"
+        ],
+        [
+          "A proof question",
+          "State theorem/condition → derive step by step",
+          "Reverse-check the conclusion"
+        ],
+        [
+          "A word problem",
+          "Define variables and translate the statements",
+          "Substitute back into the statements"
+        ],
+        [
+          "A graph/figure question",
+          "Label the figure and identify known relations",
+          "Check the geometry or coordinates"
+        ]
+      ]
+    },
+    {
+      "type": "formula-bank",
+      "title": "Formula & theorem bank",
+      "formulas": [
+        {
+          "title": "Formula 1",
+          "formula": "For ax²+bx+c: α+β = −b/a"
+        },
+        {
+          "title": "Formula 2",
+          "formula": "For ax²+bx+c: αβ = c/a"
+        },
+        {
+          "title": "Formula 3",
+          "formula": "p(x)=g(x)q(x)+r(x), degree r < degree g"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 1: Linear, quadratic and cubic polynomials",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 2: Factor theorem",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 3: Remainder theorem",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 4: Factorisation and verification",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "common-mistakes",
+      "title": "Common mistakes to avoid",
+      "items": [
+        "Using a Class 9 definition or formula when the Class 10 chapter asks for a stronger result.",
+        "Skipping the condition of a theorem or formula.",
+        "Changing signs while transposing terms.",
+        "Rounding too early.",
+        "Giving a numerical answer without showing the method in a board-style question.",
+        "Failing to verify the answer against the original statement."
+      ]
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 1",
+      "question": "Write a complete, step-by-step Class 10 solution involving Zeroes of a polynomial. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 2",
+      "question": "Write a complete, step-by-step Class 10 solution involving Geometrical meaning of zeroes. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 3",
+      "question": "Write a complete, step-by-step Class 10 solution involving Relationship between zeroes and coefficients. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 4",
+      "question": "Write a complete, step-by-step Class 10 solution involving Division algorithm for polynomials. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 5",
+      "question": "Write a complete, step-by-step Class 10 solution involving Zeroes of a polynomial. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "summary",
+      "title": "Rapid Revision",
+      "text": "Class 10 Polynomials: focus on Zeroes of a polynomial, Geometrical meaning of zeroes, Relationship between zeroes and coefficients, Division algorithm for polynomials. Memorise formulas together with their conditions. Practise at least one direct problem, one reasoning problem, one word problem and one mixed/HOTS problem. Recheck every final answer."
+    },
+    {
+      "title": "Deep Practice Set 1",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 1, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 1",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 2",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 2, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 2",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 3",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 3, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 3",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 4",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 4, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 4",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 5",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 5, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 5",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 6",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 6, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 6",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 7",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 7, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 7",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 8",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 8, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 8",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 9",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 9, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 9",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 10",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 10, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 10",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 11",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 11, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 11",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 12",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Polynomials, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 12, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 12",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Polynomials.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Polynomials?",
+            "Which condition is easiest to forget in Polynomials?",
+            "Which alternative method can verify a numerical answer in Polynomials?",
+            "How would you explain the main idea of Polynomials to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 41",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 42",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 43",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 44",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 45",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 46",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 47",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 48",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 49",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 50",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 51",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 52",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 53",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 54",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 55",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 56",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 57",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 58",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 59",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 60",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Polynomials, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Polynomials?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Polynomials and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    }
   ]
 };
-
-

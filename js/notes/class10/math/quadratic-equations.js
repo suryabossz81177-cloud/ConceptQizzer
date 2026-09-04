@@ -1,83 +1,1133 @@
-// Class 10 Mathematics — Chapter 4: Quadratic Equations
-// Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
-// The content is self-contained and designed for a continuous chapter renderer.
+/* ConceptQizzer — Class 10 Mathematics — Grade-locked chapter package */
+/* This file intentionally contains ONLY Class 10 content and a unique chapter id. */
+"use strict";
+
 const ChapterData = {
-  id: "class10-math-quadratic-equations",
-  class: 10,
-  subject: "Mathematics",
-  chapterNumber: 4,
-  title: "Quadratic Equations",
-  fileVersion: "renderable-v3-detailed",
-  enabled: true,
-  sections: [
-    {"type":"intro","title":"Chapter overview","text":"Quadratic equations are equations of degree two. The main tools are factorisation, completing the square and the quadratic formula, together with the discriminant and interpretation of the roots. The presentation is intentionally continuous: concept, explanation, method, worked example, visual figure, board question, common error and quick revision. Each answer below is a completed mathematical answer rather than a placeholder instruction."},
-    {"type":"information","title":"1. Standard form","text":"A quadratic equation is ax²+bx+c=0 with a≠0. The coefficients a, b and c must be identified with their signs exactly as they appear in the standard form. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"1.1 Exam focus: Standard form","text":"Exam focus for Standard form: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"2. Factorisation method","text":"Rewrite the equation in standard form, factor the quadratic, and use the zero-product property. If (px+q)(rx+s)=0, then px+q=0 or rx+s=0. Each branch gives one root. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"2.1 Exam focus: Factorisation method","text":"Exam focus for Factorisation method: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"3. Completing the square","text":"Move the constant term, divide by the coefficient of x² if necessary, add the square of half the x-coefficient to both sides, and write the left side as a perfect square. This method also leads naturally to the quadratic formula. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"3.1 Exam focus: Completing the square","text":"Exam focus for Completing the square: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"4. Quadratic formula","text":"For ax²+bx+c=0, x = [−b ± √(b²−4ac)]/(2a). The expression under the square root is the discriminant D=b²−4ac. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"4.1 Exam focus: Quadratic formula","text":"Exam focus for Quadratic formula: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"5. Discriminant and roots","text":"D>0 gives two distinct real roots; D=0 gives two equal real roots; D<0 gives no real roots. This classification is valid for real coefficients and is a standard board question. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"5.1 Exam focus: Discriminant and roots","text":"Exam focus for Discriminant and roots: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"6. Nature of roots","text":"If a,b,c are integers, a positive perfect-square discriminant can lead to rational roots; a positive non-square discriminant gives irrational real roots. This is a useful refinement after identifying D. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"6.1 Exam focus: Nature of roots","text":"Exam focus for Nature of roots: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"7. Word problems","text":"Choose a variable with a clear unit, translate the condition into a quadratic equation, solve, and reject values that violate the original context, such as a negative length or an impossible age. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"7.1 Exam focus: Word problems","text":"Exam focus for Word problems: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"8. Checking roots","text":"Substitute each root into the original quadratic, not merely a transformed equation, especially when fractions or square roots were involved. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"8.1 Exam focus: Checking roots","text":"Exam focus for Checking roots: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"diagram","title":"Quadratic parabola","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Quadratic parabola\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Quadratic parabola</text>\n<line x1=\"100\" y1=\"390\" x2=\"800\" y2=\"390\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"450\" y1=\"90\" x2=\"450\" y2=\"450\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 180 120 Q 450 470 720 120\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"465\" y=\"120\" font-size=\"18\" font-weight=\"400\" fill=\"#1e293b\">axis</text><text x=\"250\" y=\"375\" font-size=\"18\" font-weight=\"700\" fill=\"#1e293b\">root</text><text x=\"650\" y=\"375\" font-size=\"18\" font-weight=\"700\" fill=\"#1e293b\">root</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">The vertex and x-intercepts show the geometry behind roots.</text>\n</svg>"},
-    {"type":"diagram","title":"Discriminant decision tree","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Discriminant decision tree\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Discriminant decision tree</text>\n<text x=\"110\" y=\"180\" font-size=\"30\" font-weight=\"700\" fill=\"#1e293b\">D = b²−4ac</text><line x1=\"330\" y1=\"180\" x2=\"500\" y2=\"180\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"520\" y=\"175\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">> 0</text><text x=\"650\" y=\"175\" font-size=\"22\" font-weight=\"400\" fill=\"#1e293b\">two real roots</text><text x=\"520\" y=\"240\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">= 0</text><text x=\"650\" y=\"240\" font-size=\"22\" font-weight=\"400\" fill=\"#1e293b\">equal real roots</text><text x=\"520\" y=\"305\" font-size=\"22\" font-weight=\"700\" fill=\"#1e293b\">< 0</text><text x=\"650\" y=\"305\" font-size=\"22\" font-weight=\"400\" fill=\"#1e293b\">no real roots</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">D classifies the number of real roots.</text>\n</svg>"},
-    {"type":"example","title":"Worked example 1: Factorisation","question":"Factorisation","answer":"x²−5x+6=0 ⇒ (x−2)(x−3)=0 ⇒ x=2 or 3. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 2: Formula method","question":"Formula method","answer":"2x²−3x−2=0. D=9+16=25. x=(3±5)/4, so x=2 or −1/2. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 3: Equal roots","question":"Equal roots","answer":"x²−6x+9=0=(x−3)², so the repeated root is 3 and D=0. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 4: No real roots","question":"No real roots","answer":"x²+4x+8=0 has D=16−32=−16, so there are no real roots. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 5: Completing square","question":"Completing square","answer":"x²+6x+5=0 ⇒ x²+6x=−5 ⇒ (x+3)²=4 ⇒ x=−1 or −5. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 6: Area problem","question":"Area problem","answer":"A rectangle has area 48 cm² and length 2 cm more than breadth. Let breadth=x; then x(x+2)=48 ⇒ x²+2x−48=0 ⇒ (x+8)(x−6)=0. Positive breadth is 6 cm; length is 8 cm. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"boardQuestion","question":"Write the quadratic formula.","answer":"x=[−b±√(b²−4ac)]/(2a)."},
-    {"type":"boardQuestion","question":"Find roots of x²−7x+10=0.","answer":"x=5 and 2."},
-    {"type":"boardQuestion","question":"What does D=0 mean?","answer":"The equation has two equal real roots."},
-    {"type":"boardQuestion","question":"Find nature of roots of 3x²+2x+5=0.","answer":"D=4−60=−56, so there are no real roots."},
-    {"type":"boardQuestion","question":"Solve 4x²−12x+9=0.","answer":"(2x−3)²=0, so x=3/2 is a repeated root."},
-    {"type":"boardQuestion","question":"Why reject a negative length in a word problem?","answer":"Because length represents a physical magnitude and must satisfy the original context."},
-    {"type":"information","title":"Mastery block 1: conceptual foundation — Standard form","text":"For the conceptual foundation of Standard form, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Standard form, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 2: symbol-by-symbol reading — Factorisation method","text":"For the symbol-by-symbol reading of Factorisation method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Factorisation method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 3: worked-reasoning checkpoint — Completing the square","text":"For the worked-reasoning checkpoint of Completing the square, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Completing the square, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 4: visual interpretation — Quadratic formula","text":"For the visual interpretation of Quadratic formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadratic formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 5: method selection — Discriminant and roots","text":"For the method selection of Discriminant and roots, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Discriminant and roots, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 6: edge-case awareness — Nature of roots","text":"For the edge-case awareness of Nature of roots, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Nature of roots, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 7: board proof language — Word problems","text":"For the board proof language of Word problems, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Word problems, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 8: calculation discipline — Checking roots","text":"For the calculation discipline of Checking roots, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Checking roots, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 9: verification routine — Standard form","text":"For the verification routine of Standard form, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Standard form, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 10: common misconception diagnosis — Factorisation method","text":"For the common misconception diagnosis of Factorisation method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Factorisation method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 11: question decoding — Completing the square","text":"For the question decoding of Completing the square, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Completing the square, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 12: formula reconstruction — Quadratic formula","text":"For the formula reconstruction of Quadratic formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadratic formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 13: short-to-long answer conversion — Discriminant and roots","text":"For the short-to-long answer conversion of Discriminant and roots, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Discriminant and roots, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 14: application thinking — Nature of roots","text":"For the application thinking of Nature of roots, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Nature of roots, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 15: comparison of methods — Word problems","text":"For the comparison of methods of Word problems, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Word problems, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 16: self-check challenge — Checking roots","text":"For the self-check challenge of Checking roots, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Checking roots, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 17: exam-time strategy — Standard form","text":"For the exam-time strategy of Standard form, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Standard form, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 18: precision in notation — Factorisation method","text":"For the precision in notation of Factorisation method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Factorisation method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 19: reasoning summary — Completing the square","text":"For the reasoning summary of Completing the square, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Completing the square, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 20: final mastery checkpoint — Quadratic formula","text":"For the final mastery checkpoint of Quadratic formula, begin with the exact mathematical object named in the question rather than a memorised pattern. In Quadratic Equations, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Quadratic formula, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"examMethod","title":"Board-ready solving method","text":"Read the question twice. Underline the quantities that are given and identify what must be found. Write the governing definition, formula or theorem before substitution. Keep exact values such as √3 or π until the final stage unless the question specifies an approximation. Show transformations in logical order, keep units on measurement answers, and perform a quick substitution or reasonableness check at the end. For geometry, label the figure before using a theorem; for algebra, preserve signs and brackets; for statistics and probability, define the total before the favourable part."},
-    {"type":"examMethod","title":"How to present a 5-mark answer","text":"A strong long answer normally contains four visible parts: Given/required, formula or theorem, substitution and working, final answer. For a proof, replace “formula” with a chain of statements and reasons. Do not hide the decisive step inside a sentence. If a diagram is necessary, label every point, side, angle or axis used in the calculation."},
-    {"type":"mistakes","title":"Common mistakes to avoid","items":["Copying a sign incorrectly, especially when coordinates, coefficients or a negative common difference are present.","Using a formula before identifying which quantities in the question correspond to its symbols.","Rounding intermediate values and then carrying the rounded result through several later calculations.","Giving only the final number when the question requires a proof or working steps.","Forgetting units for length, area or volume answers.","Using a geometric theorem without checking its hypotheses, such as parallel lines, a right angle, similarity or tangency.","In probability, counting outcomes that are not equally likely without adjusting the model.","In statistics, confusing class frequency with cumulative frequency or selecting the wrong median class."]},
-    {"type":"quickRevision","title":"Quick revision checklist","text":"Before the board exam, revise every definition, theorem condition, standard formula and worked example in this chapter. Then solve the board questions without looking at the answers. Finally, revisit only the steps where your method differed from the worked solution. The goal is not memorising isolated formulas; it is recognising which mathematical structure the question is describing."},
-    {"type":"information","title":"Extended revision note 1: Standard form","text":"Revision bank 1 — Standard form. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 2: Factorisation method","text":"Revision bank 2 — Factorisation method. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 3: Completing the square","text":"Revision bank 3 — Completing the square. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 4: Quadratic formula","text":"Revision bank 4 — Quadratic formula. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 5: Discriminant and roots","text":"Revision bank 5 — Discriminant and roots. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 6: Nature of roots","text":"Revision bank 6 — Nature of roots. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 7: Word problems","text":"Revision bank 7 — Word problems. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 8: Checking roots","text":"Revision bank 8 — Checking roots. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 9: Standard form","text":"Revision bank 9 — Standard form. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 10: Factorisation method","text":"Revision bank 10 — Factorisation method. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 11: Completing the square","text":"Revision bank 11 — Completing the square. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 12: Quadratic formula","text":"Revision bank 12 — Quadratic formula. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."}
+  "id": "class10-math-quadratic-equations",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 4,
+  "title": "Quadratic Equations",
+  "file": "js/notes/class10/math/quadratic-equations.js",
+  "enabled": true,
+  "gradeLock": 10,
+  "curriculum": "Class 10 Mathematics",
+  "sourceFileId": "class10-math-quadratic-equations",
+  "description": "Detailed Class 10 Mathematics notes for Quadratic Equations. This file is grade-locked to Class 10 and is not a Class 9 chapter.",
+  "learningObjectives": [
+    "Standard form and roots",
+    "Factorisation method",
+    "Completing the square",
+    "Quadratic formula",
+    "Discriminant and nature of roots"
+  ],
+  "prerequisiteCheck": [
+    "Algebraic manipulation",
+    "Fractions and signs",
+    "Basic geometry/graphs where relevant"
+  ],
+  "importantPoints": [
+    "Use the Class 10 treatment of Quadratic Equations; do not substitute the Class 9 chapter with a similar title.",
+    "Show complete working in examination questions.",
+    "State conditions before applying a theorem or formula.",
+    "Verify important answers independently."
+  ],
+  "keyTerms": [
+    "Standard form and roots",
+    "Factorisation method",
+    "Completing the square",
+    "Quadratic formula",
+    "Discriminant and nature of roots",
+    "Board-style reasoning",
+    "Verification",
+    "HOTS",
+    "Formula conditions"
+  ],
+  "formulaPropertyBank": [],
+  "sections": [
+    {
+      "type": "opening",
+      "title": "Chapter Overview",
+      "text": "This is the Class 10 Mathematics treatment of Quadratic Equations. The chapter is kept completely separate from Class 9 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
+    },
+    {
+      "type": "information",
+      "title": "Learning Targets",
+      "text": "By the end of this chapter, you should be able to: Standard form and roots; Factorisation method; Completing the square; Quadratic formula; Discriminant and nature of roots. Every formula should be accompanied by the condition under which it is valid."
+    },
+    {
+      "type": "figure",
+      "title": "Accurate labelled figure — Quadratic Equations",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 300\" role=\"img\" aria-label=\"4. Quadratic Equations — labelled figure\">\n<rect x=\"8\" y=\"8\" width=\"744\" height=\"284\" rx=\"22\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"30\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\">4. Quadratic Equations — labelled figure</text>\n<line x1=\"80\" y1=\"235\" x2=\"690\" y2=\"235\" stroke=\"#0f172a\" stroke-width=\"3\"/>\n<line x1=\"380\" y1=\"65\" x2=\"380\" y2=\"275\" stroke=\"#0f172a\" stroke-width=\"3\"/>\n<path d=\"M150 90 Q380 300 610 90\" fill=\"none\" stroke=\"#7c3aed\" stroke-width=\"5\"/>\n<circle cx=\"250\" cy=\"235\" r=\"7\" fill=\"#dc2626\"/><circle cx=\"510\" cy=\"235\" r=\"7\" fill=\"#dc2626\"/>\n<text x=\"235\" y=\"265\" font-size=\"19\">α</text><text x=\"500\" y=\"265\" font-size=\"19\">β</text>\n<text x=\"95\" y=\"50\" font-size=\"19\">Two distinct real roots occur when the parabola cuts the x-axis twice.</text>\n</svg>",
+      "caption": "Original vector study figure created for these notes; labels are part of the diagram and are intended to support the mathematical explanation."
+    },
+    {
+      "type": "concept",
+      "title": "Standard form and roots",
+      "text": "Standard form and roots is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Standard form and roots before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 1: Standard form and roots",
+      "question": "A Class 10 board-style question tests Standard form and roots. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Standard form and roots applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Factorisation method",
+      "text": "Factorisation method is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Factorisation method before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 2: Factorisation method",
+      "question": "A Class 10 board-style question tests Factorisation method. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Factorisation method applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Completing the square",
+      "text": "Completing the square is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Completing the square before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 3: Completing the square",
+      "question": "A Class 10 board-style question tests Completing the square. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Completing the square applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Quadratic formula",
+      "text": "Quadratic formula is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Quadratic formula before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 4: Quadratic formula",
+      "question": "A Class 10 board-style question tests Quadratic formula. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Quadratic formula applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Discriminant and nature of roots",
+      "text": "Discriminant and nature of roots is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Discriminant and nature of roots before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 5: Discriminant and nature of roots",
+      "question": "A Class 10 board-style question tests Discriminant and nature of roots. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Discriminant and nature of roots applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Method-selection guide",
+      "headers": [
+        "Situation",
+        "Best first move",
+        "Verification"
+      ],
+      "rows": [
+        [
+          "A direct numerical question",
+          "Write givens → formula → substitution",
+          "Check units/signs"
+        ],
+        [
+          "A proof question",
+          "State theorem/condition → derive step by step",
+          "Reverse-check the conclusion"
+        ],
+        [
+          "A word problem",
+          "Define variables and translate the statements",
+          "Substitute back into the statements"
+        ],
+        [
+          "A graph/figure question",
+          "Label the figure and identify known relations",
+          "Check the geometry or coordinates"
+        ]
+      ]
+    },
+    {
+      "type": "formula-bank",
+      "title": "Formula & theorem bank",
+      "formulas": [
+        {
+          "title": "Formula 1",
+          "formula": "ax²+bx+c=0, a≠0"
+        },
+        {
+          "title": "Formula 2",
+          "formula": "x = (−b ± √(b²−4ac))/(2a)"
+        },
+        {
+          "title": "Formula 3",
+          "formula": "D=b²−4ac"
+        },
+        {
+          "title": "Formula 4",
+          "formula": "α+β=−b/a, αβ=c/a"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 1: Sum and product of roots",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 2: Word problems",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 3: Parameter conditions",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 4: Checking roots",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "common-mistakes",
+      "title": "Common mistakes to avoid",
+      "items": [
+        "Using a Class 9 definition or formula when the Class 10 chapter asks for a stronger result.",
+        "Skipping the condition of a theorem or formula.",
+        "Changing signs while transposing terms.",
+        "Rounding too early.",
+        "Giving a numerical answer without showing the method in a board-style question.",
+        "Failing to verify the answer against the original statement."
+      ]
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 1",
+      "question": "Write a complete, step-by-step Class 10 solution involving Standard form and roots. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 2",
+      "question": "Write a complete, step-by-step Class 10 solution involving Factorisation method. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 3",
+      "question": "Write a complete, step-by-step Class 10 solution involving Completing the square. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 4",
+      "question": "Write a complete, step-by-step Class 10 solution involving Quadratic formula. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 5",
+      "question": "Write a complete, step-by-step Class 10 solution involving Discriminant and nature of roots. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "summary",
+      "title": "Rapid Revision",
+      "text": "Class 10 Quadratic Equations: focus on Standard form and roots, Factorisation method, Completing the square, Quadratic formula, Discriminant and nature of roots. Memorise formulas together with their conditions. Practise at least one direct problem, one reasoning problem, one word problem and one mixed/HOTS problem. Recheck every final answer."
+    },
+    {
+      "title": "Deep Practice Set 1",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 1, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 1",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 2",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 2, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 2",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 3",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 3, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 3",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 4",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 4, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 4",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 5",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 5, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 5",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 6",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 6, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 6",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 7",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 7, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 7",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 8",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 8, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 8",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 9",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 9, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 9",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 10",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 10, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 10",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 11",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 11, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 11",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 12",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Quadratic Equations, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 12, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 12",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Quadratic Equations.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Quadratic Equations?",
+            "Which condition is easiest to forget in Quadratic Equations?",
+            "Which alternative method can verify a numerical answer in Quadratic Equations?",
+            "How would you explain the main idea of Quadratic Equations to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 44",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 45",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 46",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 47",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 48",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 49",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 50",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 51",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 52",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 53",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 54",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 55",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 56",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 57",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 58",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 59",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 60",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 61",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Quadratic Equations, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Quadratic Equations?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Quadratic Equations and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    }
   ]
 };
-
-

@@ -1,82 +1,1171 @@
-// Class 10 Mathematics — Chapter 13: Statistics
-// Detailed renderable edition. All figures are original inline SVG schematics; no external image dependency.
-// The content is self-contained and designed for a continuous chapter renderer.
+/* ConceptQizzer — Class 10 Mathematics — Grade-locked chapter package */
+/* This file intentionally contains ONLY Class 10 content and a unique chapter id. */
+"use strict";
+
 const ChapterData = {
-  id: "class10-math-statistics",
-  class: 10,
-  subject: "Mathematics",
-  chapterNumber: 13,
-  title: "Statistics",
-  fileVersion: "renderable-v3-detailed",
-  enabled: true,
-  sections: [
-    {"type":"intro","title":"Chapter overview","text":"Statistics organises grouped data and uses measures of central tendency. The chapter develops mean, median and mode for grouped data and explains how to interpret a frequency distribution. The presentation is intentionally continuous: concept, explanation, method, worked example, visual figure, board question, common error and quick revision. Each answer below is a completed mathematical answer rather than a placeholder instruction."},
-    {"type":"information","title":"1. Grouped data","text":"When observations are arranged into class intervals with frequencies, the raw values are not listed individually. Class marks, cumulative frequencies and frequency totals become essential. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"1.1 Exam focus: Grouped data","text":"Exam focus for Grouped data: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"2. Class mark","text":"For a class interval [l,u], class mark xᵢ=(l+u)/2. It represents the midpoint of the interval and is used in the direct and assumed-mean methods. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"2.1 Exam focus: Class mark","text":"Exam focus for Class mark: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"3. Mean by direct method","text":"For grouped data, mean x̄=Σfᵢxᵢ/Σfᵢ. Compute each class mark, multiply by frequency, add the products, and divide by total frequency. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"3.1 Exam focus: Mean by direct method","text":"Exam focus for Mean by direct method: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"4. Assumed mean method","text":"Choose a convenient assumed mean A. Let dᵢ=xᵢ−A. Then x̄=A+Σfᵢdᵢ/Σfᵢ. This reduces arithmetic when class marks are large. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"4.1 Exam focus: Assumed mean method","text":"Exam focus for Assumed mean method: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"5. Step-deviation method","text":"If class widths are equal and dᵢ=xᵢ−A, set uᵢ=dᵢ/h where h is class width. Then x̄=A+h(Σfᵢuᵢ/Σfᵢ). In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"5.1 Exam focus: Step-deviation method","text":"Exam focus for Step-deviation method: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"6. Median of grouped data","text":"First calculate N=Σf. Locate the class containing N/2 using cumulative frequency. Then median=l+[(N/2−cf)/f]h, where l is lower boundary of median class, cf is cumulative frequency before it, f is its frequency and h is class width. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"6.1 Exam focus: Median of grouped data","text":"Exam focus for Median of grouped data: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"7. Mode of grouped data","text":"The modal class has the greatest frequency. Mode=l+[(f₁−f₀)/(2f₁−f₀−f₂)]h, where f₁ is modal-class frequency and f₀,f₂ are the preceding and succeeding frequencies. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"7.1 Exam focus: Mode of grouped data","text":"Exam focus for Mode of grouped data: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"8. Class boundaries","text":"For continuous intervals such as 10–20 and 20–30, boundaries are already continuous if the notation is interpreted accordingly. For inclusive intervals such as 10–19 and 20–29, adjust by half the gap to obtain continuous boundaries. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"8.1 Exam focus: Class boundaries","text":"Exam focus for Class boundaries: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"information","title":"9. Interpretation","text":"Mean uses every frequency, median depends on cumulative position, and mode identifies the most frequent class. They answer different questions and should not be treated as interchangeable. In a board solution, connect this idea to the exact condition in the question and keep notation consistent from the first line to the final line. When a value is approximate, label it as approximate rather than silently replacing an exact expression."},
-    {"type":"information","title":"9.1 Exam focus: Interpretation","text":"Exam focus for Interpretation: identify the given quantities first, select the theorem or formula that directly matches them, and show enough intermediate work to make the reasoning checkable. If the question asks for a proof, do not replace the proof with a numerical example. If it asks for a numerical value, finish the calculation and state the final result clearly."},
-    {"type":"diagram","title":"Frequency distribution","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Frequency distribution\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Frequency distribution</text>\n<line x1=\"120\" y1=\"410\" x2=\"800\" y2=\"410\" stroke=\"#334155\" stroke-width=\"3\"/><line x1=\"120\" y1=\"100\" x2=\"120\" y2=\"410\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"80\" y=\"110\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">f</text><text x=\"770\" y=\"440\" font-size=\"20\" font-weight=\"700\" fill=\"#1e293b\">class</text><path d=\"M 170 410 L 170 350 L 260 350 L 260 410 Z\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 280 410 L 280 270 L 370 270 L 370 410 Z\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 390 410 L 390 190 L 480 190 L 480 410 Z\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 500 410 L 500 240 L 590 240 L 590 410 Z\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/><path d=\"M 610 410 L 610 300 L 700 300 L 700 410 Z\" fill=\"#eef2ff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">Bars represent class frequencies and class intervals cover the data range.</text>\n</svg>"},
-    {"type":"diagram","title":"Median position","svg":"<svg viewBox=\"0 0 900 520\" role=\"img\" aria-label=\"Median position\">\n<rect x=\"8\" y=\"8\" width=\"884\" height=\"504\" rx=\"28\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"36\" y=\"54\" font-size=\"26\" font-weight=\"700\" fill=\"#1e293b\">Median position</text>\n<line x1=\"120\" y1=\"280\" x2=\"800\" y2=\"280\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"250\" cy=\"280\" r=\"10\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"400\" cy=\"280\" r=\"10\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"550\" cy=\"280\" r=\"10\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"700\" cy=\"280\" r=\"10\" fill=\"#2563eb\" stroke=\"#334155\" stroke-width=\"3\"/><text x=\"225\" y=\"330\" font-size=\"18\" font-weight=\"400\" fill=\"#1e293b\">cf before</text><text x=\"520\" y=\"330\" font-size=\"18\" font-weight=\"700\" fill=\"#1e293b\">median position N/2</text>\n<text x=\"40\" y=\"466\" font-size=\"18\" fill=\"#475569\">N/2 identifies the central observation position in grouped data.</text>\n</svg>"},
-    {"type":"example","title":"Worked example 1: Direct mean","question":"Direct mean","answer":"Classes 0–10,10–20,20–30 with frequencies 2,3,5. Class marks 5,15,25; Σfx=10+45+125=180, N=10, mean=18. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 2: Assumed mean","question":"Assumed mean","answer":"Class marks 15,25,35 with frequencies 4,7,9. Take A=25. d=−10,0,10; Σfd=−40+0+90=50; N=20; mean=25+50/20=27.5. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 3: Median class","question":"Median class","answer":"If N=50, N/2=25 and cumulative frequencies are 8,20,31,45,50, the third class is the median class because it first reaches 25. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"example","title":"Worked example 4: Mode class","question":"Mode class","answer":"If frequencies are 5,9,14,10,6, the third class is modal because 14 is the largest frequency. Method: write the given data, choose the relevant relation, substitute with signs and brackets preserved, simplify one line at a time, and verify the result in the original condition whenever practical."},
-    {"type":"boardQuestion","question":"What is class mark?","answer":"The midpoint of a class interval."},
-    {"type":"boardQuestion","question":"Mean formula for grouped data?","answer":"x̄=Σfᵢxᵢ/Σfᵢ."},
-    {"type":"boardQuestion","question":"How locate median class?","answer":"Find N/2 and choose the class whose cumulative frequency first reaches or exceeds it."},
-    {"type":"boardQuestion","question":"What is modal class?","answer":"The class with the highest frequency."},
-    {"type":"boardQuestion","question":"Why use cumulative frequency?","answer":"It tracks the running number of observations and locates positional measures such as the median."},
-    {"type":"information","title":"Mastery block 1: conceptual foundation — Grouped data","text":"For the conceptual foundation of Grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 2: symbol-by-symbol reading — Class mark","text":"For the symbol-by-symbol reading of Class mark, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Class mark, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 3: worked-reasoning checkpoint — Mean by direct method","text":"For the worked-reasoning checkpoint of Mean by direct method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Mean by direct method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 4: visual interpretation — Assumed mean method","text":"For the visual interpretation of Assumed mean method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Assumed mean method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 5: method selection — Step-deviation method","text":"For the method selection of Step-deviation method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Step-deviation method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 6: edge-case awareness — Median of grouped data","text":"For the edge-case awareness of Median of grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Median of grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 7: board proof language — Mode of grouped data","text":"For the board proof language of Mode of grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Mode of grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 8: calculation discipline — Class boundaries","text":"For the calculation discipline of Class boundaries, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Class boundaries, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 9: verification routine — Interpretation","text":"For the verification routine of Interpretation, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Interpretation, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 10: common misconception diagnosis — Grouped data","text":"For the common misconception diagnosis of Grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 11: question decoding — Class mark","text":"For the question decoding of Class mark, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Class mark, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 12: formula reconstruction — Mean by direct method","text":"For the formula reconstruction of Mean by direct method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Mean by direct method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 13: short-to-long answer conversion — Assumed mean method","text":"For the short-to-long answer conversion of Assumed mean method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Assumed mean method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 14: application thinking — Step-deviation method","text":"For the application thinking of Step-deviation method, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Step-deviation method, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 15: comparison of methods — Median of grouped data","text":"For the comparison of methods of Median of grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Median of grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 16: self-check challenge — Mode of grouped data","text":"For the self-check challenge of Mode of grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Mode of grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 17: exam-time strategy — Class boundaries","text":"For the exam-time strategy of Class boundaries, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Class boundaries, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 18: precision in notation — Interpretation","text":"For the precision in notation of Interpretation, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Interpretation, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 19: reasoning summary — Grouped data","text":"For the reasoning summary of Grouped data, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Grouped data, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"information","title":"Mastery block 20: final mastery checkpoint — Class mark","text":"For the final mastery checkpoint of Class mark, begin with the exact mathematical object named in the question rather than a memorised pattern. In Statistics, this matters because the same-looking numbers can require different operations depending on the condition supplied. Write down what each symbol means before substituting values. Then use one transformation per line so that a teacher can see where the result came from. If a theorem is being used, mention the condition that makes the theorem applicable; if a formula is being used, identify the quantities that fill its symbols. For a geometry figure, label points and lengths before calculating; for an algebraic expression, preserve brackets and signs; for a data question, keep the frequency structure visible. After the main calculation, perform a targeted check: substitute an algebraic answer back, compare a geometric length with the diagram, check units for measurement, or check the permitted range for a probability or statistical quantity. A correct answer is therefore not just a number: it is a traceable chain of valid steps. Practice this block by taking a fresh board-style question on Class mark, writing the setup without looking at the formula, and only then carrying out the arithmetic. This builds recognition, which is more reliable under examination pressure than recalling an isolated rule without its conditions."},
-    {"type":"examMethod","title":"Board-ready solving method","text":"Read the question twice. Underline the quantities that are given and identify what must be found. Write the governing definition, formula or theorem before substitution. Keep exact values such as √3 or π until the final stage unless the question specifies an approximation. Show transformations in logical order, keep units on measurement answers, and perform a quick substitution or reasonableness check at the end. For geometry, label the figure before using a theorem; for algebra, preserve signs and brackets; for statistics and probability, define the total before the favourable part."},
-    {"type":"examMethod","title":"How to present a 5-mark answer","text":"A strong long answer normally contains four visible parts: Given/required, formula or theorem, substitution and working, final answer. For a proof, replace “formula” with a chain of statements and reasons. Do not hide the decisive step inside a sentence. If a diagram is necessary, label every point, side, angle or axis used in the calculation."},
-    {"type":"mistakes","title":"Common mistakes to avoid","items":["Copying a sign incorrectly, especially when coordinates, coefficients or a negative common difference are present.","Using a formula before identifying which quantities in the question correspond to its symbols.","Rounding intermediate values and then carrying the rounded result through several later calculations.","Giving only the final number when the question requires a proof or working steps.","Forgetting units for length, area or volume answers.","Using a geometric theorem without checking its hypotheses, such as parallel lines, a right angle, similarity or tangency.","In probability, counting outcomes that are not equally likely without adjusting the model.","In statistics, confusing class frequency with cumulative frequency or selecting the wrong median class."]},
-    {"type":"quickRevision","title":"Quick revision checklist","text":"Before the board exam, revise every definition, theorem condition, standard formula and worked example in this chapter. Then solve the board questions without looking at the answers. Finally, revisit only the steps where your method differed from the worked solution. The goal is not memorising isolated formulas; it is recognising which mathematical structure the question is describing."},
-    {"type":"information","title":"Extended revision note 1: Grouped data","text":"Revision bank 1 — Grouped data. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 2: Class mark","text":"Revision bank 2 — Class mark. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 3: Mean by direct method","text":"Revision bank 3 — Mean by direct method. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 4: Assumed mean method","text":"Revision bank 4 — Assumed mean method. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 5: Step-deviation method","text":"Revision bank 5 — Step-deviation method. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 6: Median of grouped data","text":"Revision bank 6 — Median of grouped data. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 7: Mode of grouped data","text":"Revision bank 7 — Mode of grouped data. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 8: Class boundaries","text":"Revision bank 8 — Class boundaries. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 9: Interpretation","text":"Revision bank 9 — Interpretation. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 10: Grouped data","text":"Revision bank 10 — Grouped data. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 11: Class mark","text":"Revision bank 11 — Class mark. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."},
-    {"type":"information","title":"Extended revision note 12: Mean by direct method","text":"Revision bank 12 — Mean by direct method. Start by naming the mathematical object or quantity involved. For this chapter, the reliable workflow is to translate the wording into mathematical notation, write the governing relation, substitute exact data, simplify carefully and interpret the result. When the question contains several conditions, record each condition separately before combining them. For proof-based work, state why each equality, proportionality, perpendicularity, factorisation or counting step is valid. For numerical work, keep fractions exact until the last line and use a calculator only as a check unless a decimal approximation is explicitly requested. After obtaining the answer, compare it with the scale of the original data: a distance should not become negative, an area should have square units, a probability must lie from 0 to 1, and an algebraic solution should satisfy the original equation. This checking habit is part of mathematical accuracy, not an optional extra."}
+  "id": "class10-math-statistics",
+  "class": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 13,
+  "title": "Statistics",
+  "file": "js/notes/class10/math/statistics.js",
+  "enabled": true,
+  "gradeLock": 10,
+  "curriculum": "Class 10 Mathematics",
+  "sourceFileId": "class10-math-statistics",
+  "description": "Detailed Class 10 Mathematics notes for Statistics. This file is grade-locked to Class 10 and is not a Class 9 chapter.",
+  "learningObjectives": [
+    "Grouped data",
+    "Mean",
+    "Median",
+    "Mode",
+    "Cumulative frequency"
+  ],
+  "prerequisiteCheck": [
+    "Algebraic manipulation",
+    "Fractions and signs",
+    "Basic geometry/graphs where relevant"
+  ],
+  "importantPoints": [
+    "Use the Class 10 treatment of Statistics; do not substitute the Class 9 chapter with a similar title.",
+    "Show complete working in examination questions.",
+    "State conditions before applying a theorem or formula.",
+    "Verify important answers independently."
+  ],
+  "keyTerms": [
+    "Grouped data",
+    "Mean",
+    "Median",
+    "Mode",
+    "Cumulative frequency",
+    "Board-style reasoning",
+    "Verification",
+    "HOTS",
+    "Formula conditions"
+  ],
+  "formulaPropertyBank": [],
+  "sections": [
+    {
+      "type": "opening",
+      "title": "Chapter Overview",
+      "text": "This is the Class 10 Mathematics treatment of Statistics. The chapter is kept completely separate from Class 9 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
+    },
+    {
+      "type": "information",
+      "title": "Learning Targets",
+      "text": "By the end of this chapter, you should be able to: Grouped data; Mean; Median; Mode; Cumulative frequency. Every formula should be accompanied by the condition under which it is valid."
+    },
+    {
+      "type": "figure",
+      "title": "Accurate labelled figure — Statistics",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 300\" role=\"img\" aria-label=\"13. Statistics — labelled figure\">\n<rect x=\"8\" y=\"8\" width=\"744\" height=\"284\" rx=\"22\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"3\"/>\n<text x=\"30\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#0f172a\">13. Statistics — labelled figure</text>\n<line x1=\"90\" y1=\"245\" x2=\"680\" y2=\"245\" stroke=\"#0f172a\" stroke-width=\"3\"/><line x1=\"90\" y1=\"70\" x2=\"90\" y2=\"245\" stroke=\"#0f172a\" stroke-width=\"3\"/>\n<rect x=\"130\" y=\"180\" width=\"80\" height=\"65\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"3\"/><rect x=\"250\" y=\"145\" width=\"80\" height=\"100\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"3\"/><rect x=\"370\" y=\"105\" width=\"80\" height=\"140\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"3\"/><rect x=\"490\" y=\"160\" width=\"80\" height=\"85\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"3\"/>\n<text x=\"115\" y=\"55\" font-size=\"19\">Histogram heights represent frequencies when class widths are equal.</text>\n</svg>",
+      "caption": "Original vector study figure created for these notes; labels are part of the diagram and are intended to support the mathematical explanation."
+    },
+    {
+      "type": "concept",
+      "title": "Grouped data",
+      "text": "Grouped data is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Grouped data before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 1: Grouped data",
+      "question": "A Class 10 board-style question tests Grouped data. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Grouped data applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Mean",
+      "text": "Mean is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Mean before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 2: Mean",
+      "question": "A Class 10 board-style question tests Mean. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Mean applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Median",
+      "text": "Median is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Median before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 3: Median",
+      "question": "A Class 10 board-style question tests Median. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Median applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Mode",
+      "text": "Mode is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Mode before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 4: Mode",
+      "question": "A Class 10 board-style question tests Mode. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Mode applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "concept",
+      "title": "Cumulative frequency",
+      "text": "Cumulative frequency is a core Class 10 idea. Start by writing the definition or governing statement, identify the quantities given in the question, select the relevant result, substitute carefully, and finish with a clearly stated answer. Do not jump from the question to the final value. For proof-based questions, write the reason beside each non-obvious step. Always check signs, units, domain restrictions and whether the final result satisfies the original condition."
+    },
+    {
+      "type": "keypoint",
+      "title": "What to remember",
+      "items": [
+        "State the definition of Cumulative frequency before applying it when the question is conceptual.",
+        "Write the given values separately from the required quantity.",
+        "Use exact forms such as fractions or radicals until the final step whenever practical.",
+        "Verify the result by substitution, a second method, or a geometric/graphical check where possible."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Worked Example 5: Cumulative frequency",
+      "question": "A Class 10 board-style question tests Cumulative frequency. Explain the method rather than giving only an answer.",
+      "steps": [
+        "Read the question twice and list the given information.",
+        "Identify which definition, theorem, formula or method from Cumulative frequency applies.",
+        "Substitute the known values with correct signs and brackets.",
+        "Simplify one algebraic step at a time.",
+        "Check the result against the original question and state the final answer clearly."
+      ],
+      "answer": "The final answer must satisfy the original conditions. In an examination, method marks depend on showing the logical steps, not only the final value."
+    },
+    {
+      "type": "comparison-table",
+      "title": "Method-selection guide",
+      "headers": [
+        "Situation",
+        "Best first move",
+        "Verification"
+      ],
+      "rows": [
+        [
+          "A direct numerical question",
+          "Write givens → formula → substitution",
+          "Check units/signs"
+        ],
+        [
+          "A proof question",
+          "State theorem/condition → derive step by step",
+          "Reverse-check the conclusion"
+        ],
+        [
+          "A word problem",
+          "Define variables and translate the statements",
+          "Substitute back into the statements"
+        ],
+        [
+          "A graph/figure question",
+          "Label the figure and identify known relations",
+          "Check the geometry or coordinates"
+        ]
+      ]
+    },
+    {
+      "type": "formula-bank",
+      "title": "Formula & theorem bank",
+      "formulas": [
+        {
+          "title": "Formula 1",
+          "formula": "Mean (direct)=Σfᵢxᵢ/Σfᵢ"
+        },
+        {
+          "title": "Formula 2",
+          "formula": "Mean (assumed mean)=a+Σfᵢdᵢ/Σfᵢ"
+        },
+        {
+          "title": "Formula 3",
+          "formula": "Mean (step deviation)=a+hΣfᵢuᵢ/Σfᵢ"
+        },
+        {
+          "title": "Formula 4",
+          "formula": "Median=l+[(n/2−cf)/f]h"
+        },
+        {
+          "title": "Formula 5",
+          "formula": "Mode=l+[(f₁−f₀)/(2f₁−f₀−f₂)]h"
+        }
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 1: Direct method",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 2: Assumed mean",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 3: Step-deviation",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 4: Median and mode formulas",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "Step-by-step method 5: Graphical interpretation",
+      "steps": [
+        "Write the known information and the quantity to be found.",
+        "Draw or label a supporting figure/table if the problem is geometric or data-based.",
+        "Choose the exact theorem/formula/method and write it before substituting.",
+        "Carry out the algebra carefully, preserving brackets and signs.",
+        "Verify by substitution, a second method, or an appropriate reasonableness check.",
+        "Present the final result with units or the requested form."
+      ]
+    },
+    {
+      "type": "common-mistakes",
+      "title": "Common mistakes to avoid",
+      "items": [
+        "Using a Class 9 definition or formula when the Class 10 chapter asks for a stronger result.",
+        "Skipping the condition of a theorem or formula.",
+        "Changing signs while transposing terms.",
+        "Rounding too early.",
+        "Giving a numerical answer without showing the method in a board-style question.",
+        "Failing to verify the answer against the original statement."
+      ]
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 1",
+      "question": "Write a complete, step-by-step Class 10 solution involving Grouped data. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 2",
+      "question": "Write a complete, step-by-step Class 10 solution involving Mean. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 3",
+      "question": "Write a complete, step-by-step Class 10 solution involving Median. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 4",
+      "question": "Write a complete, step-by-step Class 10 solution involving Mode. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "exam",
+      "title": "Board Drill 5",
+      "question": "Write a complete, step-by-step Class 10 solution involving Cumulative frequency. Include the relevant formula/theorem and a final verification.",
+      "answer": "A high-scoring solution should contain: Given/required information → relevant formula or theorem → substitution/derivation → simplification → final answer → verification where appropriate."
+    },
+    {
+      "type": "summary",
+      "title": "Rapid Revision",
+      "text": "Class 10 Statistics: focus on Grouped data, Mean, Median, Mode, Cumulative frequency. Memorise formulas together with their conditions. Practise at least one direct problem, one reasoning problem, one word problem and one mixed/HOTS problem. Recheck every final answer."
+    },
+    {
+      "title": "Deep Practice Set 1",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 1, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 1",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 2",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 2, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 2",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 3",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 3, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 3",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 4",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 4, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 4",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 5",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 5, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 5",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 6",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 6, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 6",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 7",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 7, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 7",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 8",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 8, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 8",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 9",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 9, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 9",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 10",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 10, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 10",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 11",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 11, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 11",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Deep Practice Set 12",
+      "blocks": [
+        {
+          "type": "concept",
+          "title": "Exam reasoning focus",
+          "text": "In Statistics, a complete answer is more reliable when the solver identifies the mathematical structure before calculating. In Deep Practice Set 12, practise changing between definition, symbolic form, diagram, table and verbal interpretation. Check every assumption and preserve exact values."
+        },
+        {
+          "type": "example",
+          "title": "Mixed Example 12",
+          "question": "Create and solve a mixed Class 10 problem that combines at least two ideas from Statistics.",
+          "steps": [
+            "Translate the question into mathematical statements.",
+            "Select the first relation and solve only as far as necessary.",
+            "Use the result in the second relation.",
+            "Check the final result against every original condition."
+          ],
+          "answer": "The final response should show all intermediate equations/relations and a verification statement."
+        },
+        {
+          "type": "practice",
+          "title": "Self-check questions",
+          "questions": [
+            "What definition is most important in Statistics?",
+            "Which condition is easiest to forget in Statistics?",
+            "Which alternative method can verify a numerical answer in Statistics?",
+            "How would you explain the main idea of Statistics to another Class 10 student?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 45",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 46",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 47",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 48",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 49",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 50",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 51",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 52",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 53",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 54",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 55",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 56",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 57",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 58",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 59",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 60",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 61",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 62",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    },
+    {
+      "title": "Board Mastery Notes 63",
+      "blocks": [
+        {
+          "type": "information",
+          "title": "Full-solution checklist",
+          "text": "For Statistics, read the problem, identify givens and unknowns, choose the correct Class 10 result, write the relation, substitute carefully, simplify line by line, state the answer, and verify. If the question is proof-based, every important inference needs a reason. If a diagram is present, label it before calculating."
+        },
+        {
+          "type": "reasoning",
+          "title": "Why the method works",
+          "question": "Why is it safer to write the governing relation before substitution in Statistics?",
+          "answer": "Writing the governing relation exposes the structure of the problem, reduces substitution errors, makes the solution auditable, and earns method marks in board-style work."
+        },
+        {
+          "type": "exam",
+          "title": "Exam-style application",
+          "question": "Solve a multi-step board-style problem from Statistics and show all working.",
+          "answer": "Use a complete chain of reasoning. Do not omit transformations, theorem conditions, units, or the final verification."
+        }
+      ]
+    }
   ]
 };
-
-
