@@ -1,6 +1,6 @@
 // Expanded Class 10 History chapter — board edition
 const ChapterData = {
-  "id": "class10-history-age-of-industrialisation",
+  "id": "class10-history-the-age-of-industrialisation",
   "class": 10,
   "subject": "History",
   "chapterNumber": 4,
