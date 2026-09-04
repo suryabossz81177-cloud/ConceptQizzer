@@ -13,7 +13,7 @@ const ChapterData = {
   "gradeLock": 10,
   "curriculum": "Class 10 Mathematics",
   "sourceFileId": "class10-math-triangles",
-  "description": "Detailed Class 10 Mathematics notes for Triangles. This file is grade-locked to Class 10 and is not a Class 9 chapter.",
+  "description": "Detailed Class 10 Mathematics notes for Triangles. This file is grade-locked to Class 10 and contains only Class 10 content.",
   "learningObjectives": [
     "Similarity of triangles",
     "Basic Proportionality Theorem",
@@ -27,7 +27,7 @@ const ChapterData = {
     "Basic geometry/graphs where relevant"
   ],
   "importantPoints": [
-    "Use the Class 10 treatment of Triangles; do not substitute the Class 9 chapter with a similar title.",
+    "Use the Class 10 treatment of Triangles; keep this chapter isolated from same-name chapters in other grades.",
     "Show complete working in examination questions.",
     "State conditions before applying a theorem or formula.",
     "Verify important answers independently."
@@ -48,7 +48,7 @@ const ChapterData = {
     {
       "type": "opening",
       "title": "Chapter Overview",
-      "text": "This is the Class 10 Mathematics treatment of Triangles. The chapter is kept completely separate from Class 9 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
+      "text": "This is the Class 10 Mathematics treatment of Triangles. The chapter is kept completely separate from Class 10 data. It is organised for concept clarity, step-by-step solving, board-style reasoning, verification and revision."
     },
     {
       "type": "information",
@@ -302,7 +302,7 @@ const ChapterData = {
       "type": "common-mistakes",
       "title": "Common mistakes to avoid",
       "items": [
-        "Using a Class 9 definition or formula when the Class 10 chapter asks for a stronger result.",
+        "Using a Class 10 definition or formula when the Class 10 chapter asks for a stronger result.",
         "Skipping the condition of a theorem or formula.",
         "Changing signs while transposing terms.",
         "Rounding too early.",
