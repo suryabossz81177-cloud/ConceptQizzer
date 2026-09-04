@@ -6,6 +6,61 @@
   =================================================*/
 window.ChapterRegistry = [
   {
+    id: "class10-history-rise-of-nationalism-in-europe",
+    class: 10,
+    subject: "History",
+    chapterNumber: 1,
+    title: "The Rise of Nationalism in Europe",
+    file: "js/notes/class10/history/rise-of-nationalism-in-europe.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "class10-history-nationalism-in-india",
+    class: 10,
+    subject: "History",
+    chapterNumber: 2,
+    title: "Nationalism in India",
+    file: "js/notes/class10/history/nationalism-in-india.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "class10-history-making-of-a-global-world",
+    class: 10,
+    subject: "History",
+    chapterNumber: 3,
+    title: "The Making of a Global World",
+    file: "js/notes/class10/history/making-of-a-global-world.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "class10-history-age-of-industrialisation",
+    class: 10,
+    subject: "History",
+    chapterNumber: 4,
+    title: "The Age of Industrialisation",
+    file: "js/notes/class10/history/age-of-industrialisation.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "class10-history-print-culture-and-the-modern-world",
+    class: 10,
+    subject: "History",
+    chapterNumber: 5,
+    title: "Print Culture and the Modern World",
+    file: "js/notes/class10/history/print-culture-and-the-modern-world.js",
+    enabled: true,
+    gradeLock: 10
+  },
+    
+  {
     id: "class10-math-real-numbers",
     class: 10,
     subject: "Mathematics",
@@ -15,6 +70,7 @@ window.ChapterRegistry = [
     enabled: true,
     gradeLock: 10
   },
+    
   {
     id: "class10-math-polynomials",
     class: 10,
