@@ -343,8 +343,7 @@ const ChapterData = {
       "Khilafat activists leading a procession.jpg",
       "https://commons.wikimedia.org/wiki/File:Khilafat_activists_leading_a_procession.jpg"
     ]
-  ]
-},
+  ],
   "extendedBoardToolkit": {
   "title": "Extended Board Toolkit",
   "blocks": [
@@ -559,4 +558,5 @@ const ChapterData = {
   "title": "Evidence-based answer",
   "text": "Use one concrete event as evidence for each major claim. For repression use Jallianwala Bagh; for religious-political cooperation use Khilafat; for mass boycott use Non-Cooperation; for law-breaking use the Salt March; for cultural nationalism use Bharat Mata. This prevents answers from becoming vague."
 }]
+  }
 };
