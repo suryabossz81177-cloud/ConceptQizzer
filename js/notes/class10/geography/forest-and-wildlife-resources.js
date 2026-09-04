@@ -1,4 +1,3 @@
-// Class 10 Geography — Board Ultra Expanded
 const ChapterData = {
   "id": "10-geography-forest-and-wildlife-resources",
   "class": 10,
@@ -14,17 +13,17 @@ const ChapterData = {
         {
           "type": "opening",
           "title": "Chapter roadmap",
-          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Forest and Wildlife Resources. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the official textbook chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at NCERT. "
+          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Forest and Wildlife Resources. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the prescribed chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at ."
         },
         {
           "type": "information",
           "title": "How to study this chapter",
-          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle."
+          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle. This point is applied specifically to Forest and Wildlife Resources through section 1, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "information",
           "title": "Visual study rule",
-          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration."
+          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration. This point is applied specifically to Forest and Wildlife Resources through section 1, so its geographical meaning should be read in this chapter's own context."
         }
       ]
     },
@@ -181,15 +180,6 @@ const ChapterData = {
           "text": "Conservation protects ecological diversity, life-support systems and genetic diversity. It also supports agriculture and fisheries because traditional crop varieties and aquatic biodiversity depend on healthy ecosystems."
         },
         {
-          "type": "figure",
-          "title": "Forest landscape",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Forest landscape",
-          "caption": "Use a real Indian landscape to discuss habitat, vegetation and human use.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A strong board answer gives at least three reasons: ecological balance, life-support systems and genetic diversity/economic value."
@@ -253,15 +243,6 @@ const ChapterData = {
           "text": "Wildlife declines when habitats shrink, species are hunted, trade creates pressure, pollution changes habitats, and development fragments ecosystems. The impact is not uniform: species with specialised habitats can be particularly vulnerable."
         },
         {
-          "type": "figure",
-          "title": "Bengal tiger in the Sundarbans",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundarban%20Tiger.jpg",
-          "alt": "Bengal tiger in the Sundarbans",
-          "caption": "A real photograph of a Bengal tiger in the Sundarbans, connecting species protection with mangrove habitat.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sundarban_Tiger.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Do not write “population growth alone” as the only cause. Human activities operate through habitat loss, extraction, pollution, hunting and land-use change."
@@ -323,15 +304,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Species categories",
           "text": "The textbook uses categories such as normal species, endangered species, vulnerable species, rare species, endemic species and extinct species to describe conservation status and distribution."
-        },
-        {
-          "type": "figure",
-          "title": "Royal Bengal Tiger in Sundarbans National Park",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Bengal%20Tiger%20in%20Sundarbans%20National%20Park.jpg",
-          "alt": "Royal Bengal Tiger in Sundarbans National Park",
-          "caption": "A real wildlife photograph from the Sundarbans.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Royal_Bengal_Tiger_in_Sundarbans_National_Park.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -433,15 +405,6 @@ const ChapterData = {
           "text": "The Wildlife (Protection) Act, 1972 created a legal framework for protection and regulation of wildlife. National parks, wildlife sanctuaries and other protected areas help conserve habitats and species."
         },
         {
-          "type": "figure",
-          "title": "Forest landscape",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Forest landscape",
-          "caption": "Use a real Indian landscape to discuss habitat, vegetation and human use.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "In an exam, mention the law, habitat protection, restrictions on hunting/trade and the role of protected areas."
@@ -503,15 +466,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Project Tiger",
           "text": "Project Tiger was launched in 1973 after serious concern about declining tiger populations. The programme focused on habitat protection, anti-poaching and conservation of an important species within the wider ecological web."
-        },
-        {
-          "type": "figure",
-          "title": "Bengal tiger in the Sundarbans",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundarban%20Tiger.jpg",
-          "alt": "Bengal tiger in the Sundarbans",
-          "caption": "A real photograph of a Bengal tiger in the Sundarbans, connecting species protection with mangrove habitat.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sundarban_Tiger.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -577,15 +531,6 @@ const ChapterData = {
           "text": "Government-managed forests are grouped into reserved forests, protected forests and unclassed forests. Reserved forests receive the highest importance for conservation; protected forests are safeguarded from further depletion; unclassed forests include other forests and wastelands under government, private or community control."
         },
         {
-          "type": "figure",
-          "title": "Royal Bengal Tiger in Sundarbans National Park",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Bengal%20Tiger%20in%20Sundarbans%20National%20Park.jpg",
-          "alt": "Royal Bengal Tiger in Sundarbans National Park",
-          "caption": "A real wildlife photograph from the Sundarbans.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Royal_Bengal_Tiger_in_Sundarbans_National_Park.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "For matching questions, learn the distinguishing phrase for each category. Also remember that state-wise proportions differ."
@@ -649,15 +594,6 @@ const ChapterData = {
           "text": "Local communities have often protected habitats because their livelihoods and cultural practices depend on forests. Examples include community protection in Alwar, the Chipko movement, Beej Bachao Andolan and traditional sacred groves."
         },
         {
-          "type": "figure",
-          "title": "Forest landscape",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Forest landscape",
-          "caption": "Use a real Indian landscape to discuss habitat, vegetation and human use.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The important idea is participation. Conservation becomes more durable when local knowledge, livelihood needs and ecological goals are considered together."
@@ -719,15 +655,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Joint Forest Management",
           "text": "Joint Forest Management involves local village institutions in protecting and restoring degraded forests managed by the forest department. Odisha passed the first formal resolution for JFM in 1988."
-        },
-        {
-          "type": "figure",
-          "title": "Bengal tiger in the Sundarbans",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundarban%20Tiger.jpg",
-          "alt": "Bengal tiger in the Sundarbans",
-          "caption": "A real photograph of a Bengal tiger in the Sundarbans, connecting species protection with mangrove habitat.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sundarban_Tiger.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -829,15 +756,6 @@ const ChapterData = {
           "text": "Sacred groves are patches of forest protected through traditional beliefs and social rules. They may preserve rare species and ecological diversity because local communities restrict interference."
         },
         {
-          "type": "figure",
-          "title": "Royal Bengal Tiger in Sundarbans National Park",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Bengal%20Tiger%20in%20Sundarbans%20National%20Park.jpg",
-          "alt": "Royal Bengal Tiger in Sundarbans National Park",
-          "caption": "A real wildlife photograph from the Sundarbans.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Royal_Bengal_Tiger_in_Sundarbans_National_Park.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Sacred groves show that conservation is not only a modern administrative activity; cultural institutions can also protect biodiversity."
@@ -899,15 +817,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Human development and conservation",
           "text": "Roads, mines, dams, agriculture and settlements can alter habitats. Conservation planning therefore asks where development should occur, what ecological costs are acceptable and how affected communities can participate."
-        },
-        {
-          "type": "figure",
-          "title": "Forest landscape",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Forest landscape",
-          "caption": "Use a real Indian landscape to discuss habitat, vegetation and human use.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -973,15 +882,6 @@ const ChapterData = {
           "text": "Conservation increasingly focuses on biodiversity rather than only a few charismatic species. Insects, plants and lesser-known organisms also contribute to ecosystem functioning."
         },
         {
-          "type": "figure",
-          "title": "Bengal tiger in the Sundarbans",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundarban%20Tiger.jpg",
-          "alt": "Bengal tiger in the Sundarbans",
-          "caption": "A real photograph of a Bengal tiger in the Sundarbans, connecting species protection with mangrove habitat.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sundarban_Tiger.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "This is a useful analytical point for five-mark answers: ecosystems are networks, so protecting only one visible animal cannot guarantee ecological stability."
@@ -1045,15 +945,6 @@ const ChapterData = {
           "text": "Forest communities may depend on fuel, fodder, fruits, fibres, medicinal plants and other non-timber forest produce. Policies that ignore these relationships can create conflict."
         },
         {
-          "type": "figure",
-          "title": "Royal Bengal Tiger in Sundarbans National Park",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Bengal%20Tiger%20in%20Sundarbans%20National%20Park.jpg",
-          "alt": "Royal Bengal Tiger in Sundarbans National Park",
-          "caption": "A real wildlife photograph from the Sundarbans.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Royal_Bengal_Tiger_in_Sundarbans_National_Park.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Link conservation with livelihoods. A balanced answer explains both ecological protection and the need for fair participation."
@@ -1115,15 +1006,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Deforestation and land pressure",
           "text": "Forest loss can increase soil erosion, disturb water cycles and reduce habitat. Mining, agriculture expansion, infrastructure and overuse can intensify pressure."
-        },
-        {
-          "type": "figure",
-          "title": "Forest landscape",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Forest landscape",
-          "caption": "Use a real Indian landscape to discuss habitat, vegetation and human use.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1225,15 +1107,6 @@ const ChapterData = {
           "text": "Chipko showed how community mobilisation could resist destructive tree felling. Beej Bachao Andolan and Navdanya illustrate interest in diversified crop production and ecological farming."
         },
         {
-          "type": "figure",
-          "title": "Bengal tiger in the Sundarbans",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundarban%20Tiger.jpg",
-          "alt": "Bengal tiger in the Sundarbans",
-          "caption": "A real photograph of a Bengal tiger in the Sundarbans, connecting species protection with mangrove habitat.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sundarban_Tiger.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "These examples are useful for application questions asking how people participate in conservation."
@@ -1295,15 +1168,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Wildlife habitats in India",
           "text": "Different habitats support different species: mangroves in the Sundarbans support the Bengal tiger; Kaziranga supports the one-horned rhinoceros; Himalayan landscapes support snow leopard and other mountain fauna."
-        },
-        {
-          "type": "figure",
-          "title": "Royal Bengal Tiger in Sundarbans National Park",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Bengal%20Tiger%20in%20Sundarbans%20National%20Park.jpg",
-          "alt": "Royal Bengal Tiger in Sundarbans National Park",
-          "caption": "A real wildlife photograph from the Sundarbans.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Royal_Bengal_Tiger_in_Sundarbans_National_Park.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1369,15 +1233,6 @@ const ChapterData = {
           "text": "Conservation works best when ecological, social and economic considerations are integrated. Economic activity should be people-centred, environmentally responsible and capable of providing durable benefits."
         },
         {
-          "type": "figure",
-          "title": "Forest landscape",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Forest landscape",
-          "caption": "Use a real Indian landscape to discuss habitat, vegetation and human use.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Use this as the concluding line of a long answer on community conservation or sustainable management."
@@ -1429,144 +1284,6 @@ const ChapterData = {
           "title": "📝 Board question with answer",
           "question": "Give a reasoned explanation related to this topic.",
           "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Conservation as sustainable resource management, the key reasoning is: Conservation works best when ecological, social and economic considerations are integrated. Economic activity should be people-centred, environmentally responsible and capable of providing durable benefits."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 1: Protected wildlife examples in India",
-      "content": [
-        {
-          "type": "map",
-          "title": "Protected wildlife examples in India",
-          "text": "Locate major conservation examples and read the note attached to each marker.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Kaziranga, Assam",
-              "lat": 26.6,
-              "lon": 93.4,
-              "description": "Known for the one-horned rhinoceros and important wetland-grassland habitats."
-            },
-            {
-              "label": "Sundarbans, West Bengal",
-              "lat": 21.95,
-              "lon": 88.75,
-              "description": "Mangrove ecosystem and habitat of the Bengal tiger."
-            },
-            {
-              "label": "Periyar, Kerala",
-              "lat": 9.46,
-              "lon": 77.16,
-              "description": "Protected forest landscape in the Western Ghats; link conservation with biodiversity."
-            },
-            {
-              "label": "Corbett, Uttarakhand",
-              "lat": 29.53,
-              "lon": 78.77,
-              "description": "Important tiger habitat in the Himalayan foothill region."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 2: Community conservation locations",
-      "content": [
-        {
-          "type": "map",
-          "title": "Community conservation locations",
-          "text": "Use the pins to connect local action with conservation ideas.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Alwar, Rajasthan",
-              "lat": 27.55,
-              "lon": 76.63,
-              "description": "Village protection in the Bhairodev Dakav Sonchuri area demonstrates community rules for conservation."
-            },
-            {
-              "label": "Chipko region, Uttarakhand",
-              "lat": 30.1,
-              "lon": 79.0,
-              "description": "The movement linked forests with livelihoods and community protection."
-            },
-            {
-              "label": "Tehri, Uttarakhand",
-              "lat": 30.38,
-              "lon": 78.48,
-              "description": "Beej Bachao Andolan is associated with crop diversity and ecological farming."
-            },
-            {
-              "label": "Odisha",
-              "lat": 20.3,
-              "lon": 85.8,
-              "description": "Odisha adopted the first formal Joint Forest Management resolution in 1988."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 3: Forest types and habitat revision map",
-      "content": [
-        {
-          "type": "map",
-          "title": "Forest types and habitat revision map",
-          "text": "Compare habitat, climate and species rather than memorising isolated names.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Western Ghats",
-              "lat": 11.5,
-              "lon": 76.0,
-              "description": "High biodiversity and evergreen/deciduous forest mosaics occur under varied rainfall and relief."
-            },
-            {
-              "label": "Northeast India",
-              "lat": 25.5,
-              "lon": 92.0,
-              "description": "High rainfall and complex terrain support rich biodiversity."
-            },
-            {
-              "label": "Himalayas",
-              "lat": 31.5,
-              "lon": 78.5,
-              "description": "Altitudinal variation creates different habitats and species communities."
-            },
-            {
-              "label": "Central Indian forests",
-              "lat": 22.5,
-              "lon": 79.5,
-              "description": "Large forest landscapes support diverse wildlife and are also important for local livelihoods."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
         }
       ]
     },
@@ -1707,13 +1424,398 @@ const ChapterData = {
         {
           "type": "information",
           "title": "🧠 Master answer framework",
-          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate."
+          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate. This point is applied specifically to Forest and Wildlife Resources through section 21, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "exam",
           "title": "🏆 Final 5-mark challenge",
           "question": "“Forest and Wildlife Resources is a connected geographical system, not a collection of facts.” Explain with suitable examples.",
           "answer": "A high-scoring answer should connect concepts, locations, causes and consequences. Use named Indian examples, explain the spatial pattern, and finish with a management or sustainability point. Do not merely list terms."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Distinct Board Reasoning Drills",
+      "content": [
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 1: 1. Biodiversity and ecological interdependence",
+          "question": "Using the ideas from “1. Biodiversity and ecological interdependence”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Biodiversity and ecological interdependence”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 2: 2. Flora and fauna",
+          "question": "Using the ideas from “2. Flora and fauna”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Flora and fauna”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 3: 3. Why conservation is necessary",
+          "question": "Using the ideas from “3. Why conservation is necessary”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Why conservation is necessary”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 4: 4. Decline of wildlife",
+          "question": "Using the ideas from “4. Decline of wildlife”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Decline of wildlife”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 5: 5. Species categories",
+          "question": "Using the ideas from “5. Species categories”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Species categories”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 6: 6. Wildlife Protection Act and protected areas",
+          "question": "Using the ideas from “6. Wildlife Protection Act and protected areas”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Wildlife Protection Act and protected areas”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 7: 7. Project Tiger",
+          "question": "Using the ideas from “7. Project Tiger”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Project Tiger”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 8: 8. Forest classification",
+          "question": "Using the ideas from “8. Forest classification”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Forest classification”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 9: 9. Community and conservation",
+          "question": "Using the ideas from “9. Community and conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Community and conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 10: 10. Joint Forest Management",
+          "question": "Using the ideas from “10. Joint Forest Management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Joint Forest Management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 11: 11. Sacred groves",
+          "question": "Using the ideas from “11. Sacred groves”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Sacred groves”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 12: 12. Human development and conservation",
+          "question": "Using the ideas from “12. Human development and conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Human development and conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 13: 13. Protected species and ecosystem thinking",
+          "question": "Using the ideas from “13. Protected species and ecosystem thinking”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Protected species and ecosystem thinking”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 14: 14. Forest resources and livelihoods",
+          "question": "Using the ideas from “14. Forest resources and livelihoods”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Forest resources and livelihoods”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 15: 15. Deforestation and land pressure",
+          "question": "Using the ideas from “15. Deforestation and land pressure”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Deforestation and land pressure”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 16: 16. Conservation movements",
+          "question": "Using the ideas from “16. Conservation movements”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Conservation movements”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 17: 17. Wildlife habitats in India",
+          "question": "Using the ideas from “17. Wildlife habitats in India”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Wildlife habitats in India”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 18: 18. Conservation as sustainable resource management",
+          "question": "Using the ideas from “18. Conservation as sustainable resource management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Conservation as sustainable resource management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 19: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 20: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 21: 1. Biodiversity and ecological interdependence",
+          "question": "Using the ideas from “1. Biodiversity and ecological interdependence”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Biodiversity and ecological interdependence”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 22: 2. Flora and fauna",
+          "question": "Using the ideas from “2. Flora and fauna”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Flora and fauna”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 23: 3. Why conservation is necessary",
+          "question": "Using the ideas from “3. Why conservation is necessary”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Why conservation is necessary”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 24: 4. Decline of wildlife",
+          "question": "Using the ideas from “4. Decline of wildlife”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Decline of wildlife”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 25: 5. Species categories",
+          "question": "Using the ideas from “5. Species categories”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Species categories”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 26: 6. Wildlife Protection Act and protected areas",
+          "question": "Using the ideas from “6. Wildlife Protection Act and protected areas”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Wildlife Protection Act and protected areas”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 27: 7. Project Tiger",
+          "question": "Using the ideas from “7. Project Tiger”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Project Tiger”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 28: 8. Forest classification",
+          "question": "Using the ideas from “8. Forest classification”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Forest classification”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 29: 9. Community and conservation",
+          "question": "Using the ideas from “9. Community and conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Community and conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 30: 10. Joint Forest Management",
+          "question": "Using the ideas from “10. Joint Forest Management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Joint Forest Management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 31: 11. Sacred groves",
+          "question": "Using the ideas from “11. Sacred groves”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Sacred groves”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 32: 12. Human development and conservation",
+          "question": "Using the ideas from “12. Human development and conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Human development and conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 33: 13. Protected species and ecosystem thinking",
+          "question": "Using the ideas from “13. Protected species and ecosystem thinking”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Protected species and ecosystem thinking”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 34: 14. Forest resources and livelihoods",
+          "question": "Using the ideas from “14. Forest resources and livelihoods”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Forest resources and livelihoods”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 35: 15. Deforestation and land pressure",
+          "question": "Using the ideas from “15. Deforestation and land pressure”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Deforestation and land pressure”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 36: 16. Conservation movements",
+          "question": "Using the ideas from “16. Conservation movements”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Conservation movements”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 37: 17. Wildlife habitats in India",
+          "question": "Using the ideas from “17. Wildlife habitats in India”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Wildlife habitats in India”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 38: 18. Conservation as sustainable resource management",
+          "question": "Using the ideas from “18. Conservation as sustainable resource management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Conservation as sustainable resource management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 39: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 40: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 41: 1. Biodiversity and ecological interdependence",
+          "question": "Using the ideas from “1. Biodiversity and ecological interdependence”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Biodiversity and ecological interdependence”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 42: 2. Flora and fauna",
+          "question": "Using the ideas from “2. Flora and fauna”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Flora and fauna”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 43: 3. Why conservation is necessary",
+          "question": "Using the ideas from “3. Why conservation is necessary”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Why conservation is necessary”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 44: 4. Decline of wildlife",
+          "question": "Using the ideas from “4. Decline of wildlife”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Decline of wildlife”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 45: 5. Species categories",
+          "question": "Using the ideas from “5. Species categories”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Species categories”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 46: 6. Wildlife Protection Act and protected areas",
+          "question": "Using the ideas from “6. Wildlife Protection Act and protected areas”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Wildlife Protection Act and protected areas”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 47: 7. Project Tiger",
+          "question": "Using the ideas from “7. Project Tiger”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Project Tiger”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 48: 8. Forest classification",
+          "question": "Using the ideas from “8. Forest classification”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Forest classification”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 49: 9. Community and conservation",
+          "question": "Using the ideas from “9. Community and conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Community and conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 50: 10. Joint Forest Management",
+          "question": "Using the ideas from “10. Joint Forest Management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Joint Forest Management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 51: 11. Sacred groves",
+          "question": "Using the ideas from “11. Sacred groves”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Sacred groves”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 52: 12. Human development and conservation",
+          "question": "Using the ideas from “12. Human development and conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Human development and conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 53: 13. Protected species and ecosystem thinking",
+          "question": "Using the ideas from “13. Protected species and ecosystem thinking”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Protected species and ecosystem thinking”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 54: 14. Forest resources and livelihoods",
+          "question": "Using the ideas from “14. Forest resources and livelihoods”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Forest resources and livelihoods”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 55: 15. Deforestation and land pressure",
+          "question": "Using the ideas from “15. Deforestation and land pressure”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Deforestation and land pressure”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 56: 16. Conservation movements",
+          "question": "Using the ideas from “16. Conservation movements”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Conservation movements”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 57: 17. Wildlife habitats in India",
+          "question": "Using the ideas from “17. Wildlife habitats in India”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Wildlife habitats in India”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 58: 18. Conservation as sustainable resource management",
+          "question": "Using the ideas from “18. Conservation as sustainable resource management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Conservation as sustainable resource management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 59: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 60: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Forest and Wildlife Resources and should use cause → location/pattern → result as its logical sequence."
+        }
+      ]
+    },
+    {
+      "title": "🗺️ Map Interpretation Method",
+      "content": [
+        {
+          "type": "information",
+          "title": "Map 1 reading strategy — Protected wildlife examples in India",
+          "text": "For Forest and Wildlife Resources, begin with the first embedded map at the exact point where the related topic appears. Open every pin and read its place-specific note. Then connect the mapped location to the chapter idea by explaining one cause, one spatial pattern and one consequence."
+        },
+        {
+          "type": "information",
+          "title": "Map 2 reading strategy — Community conservation locations",
+          "text": "The second map for Forest and Wildlife Resources is best used comparatively: choose two marked locations, identify their shared geographical feature, note one difference, and explain the physical or human condition responsible for that contrast. Record the comparison in complete sentences."
+        },
+        {
+          "type": "information",
+          "title": "Map 3 reading strategy — Forest types and habitat revision map",
+          "text": "Finish the spatial revision for Forest and Wildlife Resources with the third map. Read each marker note, locate the feature mentally, and write a short answer that links place to process. Treat every pin as geographical evidence rather than as an isolated label."
         }
       ]
     }

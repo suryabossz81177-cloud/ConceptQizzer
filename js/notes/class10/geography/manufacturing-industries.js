@@ -1,4 +1,3 @@
-// Class 10 Geography — Board Ultra Expanded
 const ChapterData = {
   "id": "10-geography-manufacturing-industries",
   "class": 10,
@@ -14,17 +13,17 @@ const ChapterData = {
         {
           "type": "opening",
           "title": "Chapter roadmap",
-          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Manufacturing Industries. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the official textbook chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at NCERT. "
+          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Manufacturing Industries. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the prescribed chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at ."
         },
         {
           "type": "information",
           "title": "How to study this chapter",
-          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle."
+          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle. This point is applied specifically to Manufacturing Industries through section 1, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "information",
           "title": "Visual study rule",
-          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration."
+          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration. This point is applied specifically to Manufacturing Industries through section 1, so its geographical meaning should be read in this chapter's own context."
         }
       ]
     },
@@ -107,15 +106,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Importance of manufacturing",
           "text": "A strong manufacturing sector can modernise agriculture, create jobs beyond farming, reduce dependence on imported goods, expand trade and raise the value of raw materials. Industrial growth can also accelerate urbanisation and infrastructure development."
-        },
-        {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real industrial photograph linking steel production with mineral resources.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -325,15 +315,6 @@ const ChapterData = {
           "text": "The cotton textile industry is one of India’s traditional industries and includes spinning, weaving, processing and garment production. Mumbai, Ahmedabad, Surat, Coimbatore and other centres developed due to combinations of cotton supply, markets, labour, transport and capital."
         },
         {
-          "type": "figure",
-          "title": "Cotton textile industry in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton%20textile%20industry%20in%20India.jpg",
-          "alt": "Cotton textile industry in India",
-          "caption": "Real photograph of cotton textile manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Cotton_textile_industry_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A location answer should explain why the industry became widespread rather than memorising only city names."
@@ -433,15 +414,6 @@ const ChapterData = {
           "text": "Jute mills are concentrated mainly along the Hugli River in West Bengal because of raw jute availability, water, transport, labour, port access and a long industrial tradition."
         },
         {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real industrial photograph linking steel production with mineral resources.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The Hugli belt is a classic case of multiple location factors operating together."
@@ -503,15 +475,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Sugar industry",
           "text": "Sugar mills are located close to sugarcane-growing regions because cane is bulky and perishable and loses weight after harvesting. Maharashtra, Uttar Pradesh and Karnataka are major producing regions."
-        },
-        {
-          "type": "figure",
-          "title": "Mumbai Port",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%20port.JPG",
-          "alt": "Mumbai Port",
-          "caption": "Real photograph showing a port that supports industrial supply chains and trade.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Mumbai_port.JPG",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -577,15 +540,6 @@ const ChapterData = {
           "text": "Iron and steel, cement and aluminium are mineral-based industries. They often depend on bulky raw materials, power, water and transport."
         },
         {
-          "type": "figure",
-          "title": "Indian railway heritage",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Railway%20heritage%20of%20India.jpg",
-          "alt": "Indian railway heritage",
-          "caption": "Real railway photograph for industrial transport linkages.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Indian_Railway_heritage_of_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Industrial location can shift as technology, transport and market factors change, so describe both traditional and modern considerations."
@@ -649,15 +603,6 @@ const ChapterData = {
           "text": "Iron and steel is a basic industry because its products feed many other sectors such as machinery, transport, construction and engineering. Major centres include Jamshedpur, Bhilai, Bokaro, Durgapur, Rourkela and Visakhapatnam."
         },
         {
-          "type": "figure",
-          "title": "Cotton textile industry in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton%20textile%20industry%20in%20India.jpg",
-          "alt": "Cotton textile industry in India",
-          "caption": "Real photograph of cotton textile manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Cotton_textile_industry_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A five-mark answer should include raw materials, power, water, transport and downstream linkages."
@@ -719,15 +664,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Aluminium industry",
           "text": "Aluminium production requires bauxite and large quantities of electricity. It is light, strong and resistant to corrosion, making it useful in transport, electrical goods and packaging."
-        },
-        {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real industrial photograph linking steel production with mineral resources.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -829,15 +765,6 @@ const ChapterData = {
           "text": "Cement is essential for construction and infrastructure. Limestone, power, fuel, transport and markets influence plant location. The industry has expanded with infrastructure and housing demand."
         },
         {
-          "type": "figure",
-          "title": "Mumbai Port",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%20port.JPG",
-          "alt": "Mumbai Port",
-          "caption": "Real photograph showing a port that supports industrial supply chains and trade.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Mumbai_port.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The raw material is bulky, so proximity to limestone and efficient transport can reduce costs."
@@ -899,15 +826,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Chemical industries",
           "text": "Chemical industries include inorganic and organic chemicals, fertilisers, synthetic fibres, plastics and pharmaceuticals. They support agriculture, manufacturing and consumer goods."
-        },
-        {
-          "type": "figure",
-          "title": "Indian railway heritage",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Railway%20heritage%20of%20India.jpg",
-          "alt": "Indian railway heritage",
-          "caption": "Real railway photograph for industrial transport linkages.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Indian_Railway_heritage_of_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -973,15 +891,6 @@ const ChapterData = {
           "text": "Automobile manufacturing includes assembly and a large network of component suppliers, logistics, services and markets. Major clusters developed around cities such as Chennai, Pune, Gurugram-Manesar, Bengaluru and Sanand."
         },
         {
-          "type": "figure",
-          "title": "Cotton textile industry in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton%20textile%20industry%20in%20India.jpg",
-          "alt": "Cotton textile industry in India",
-          "caption": "Real photograph of cotton textile manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Cotton_textile_industry_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Use the cluster concept: firms locate near suppliers, skilled labour, infrastructure and markets to reduce transaction costs."
@@ -1045,15 +954,6 @@ const ChapterData = {
           "text": "IT and electronics are knowledge-intensive activities where skilled labour, communication networks, infrastructure and urban services are crucial. Bengaluru, Hyderabad, Pune, Chennai and the National Capital Region are major centres."
         },
         {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real industrial photograph linking steel production with mineral resources.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "This illustrates changing industrial location: knowledge, connectivity and human capital can matter more than proximity to raw materials."
@@ -1115,15 +1015,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Industrial pollution",
           "text": "Industries can pollute air, water, land and create noise. Thermal power, chemical industries, textile processing, metal smelting and cement production can produce different pollutants."
-        },
-        {
-          "type": "figure",
-          "title": "Mumbai Port",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%20port.JPG",
-          "alt": "Mumbai Port",
-          "caption": "Real photograph showing a port that supports industrial supply chains and trade.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Mumbai_port.JPG",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1225,15 +1116,6 @@ const ChapterData = {
           "text": "Industries can reduce impacts through cleaner technology, recycling, energy efficiency, waste treatment, water reuse and proper disposal of hazardous materials."
         },
         {
-          "type": "figure",
-          "title": "Indian railway heritage",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Railway%20heritage%20of%20India.jpg",
-          "alt": "Indian railway heritage",
-          "caption": "Real railway photograph for industrial transport linkages.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Indian_Railway_heritage_of_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Sustainable industrialisation means maintaining productivity while reducing resource use and pollution per unit of output."
@@ -1295,15 +1177,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Industrial corridors and infrastructure",
           "text": "Industrial growth depends on roads, railways, ports, power, digital networks and urban services. Industrial corridors seek to integrate manufacturing with logistics and infrastructure."
-        },
-        {
-          "type": "figure",
-          "title": "Cotton textile industry in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton%20textile%20industry%20in%20India.jpg",
-          "alt": "Cotton textile industry in India",
-          "caption": "Real photograph of cotton textile manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Cotton_textile_industry_in_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1369,15 +1242,6 @@ const ChapterData = {
           "text": "Small industries can use local skills and raw materials, create employment and diversify regional economies. They may face constraints of finance, technology, marketing and competition."
         },
         {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real industrial photograph linking steel production with mineral resources.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A balanced answer explains both employment advantages and productivity/market challenges."
@@ -1439,15 +1303,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Manufacturing and globalisation",
           "text": "Global markets can expand exports and bring technology and investment, but industries also face competition, changing demand and global supply-chain disruptions."
-        },
-        {
-          "type": "figure",
-          "title": "Mumbai Port",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai%20port.JPG",
-          "alt": "Mumbai Port",
-          "caption": "Real photograph showing a port that supports industrial supply chains and trade.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Mumbai_port.JPG",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1513,15 +1368,6 @@ const ChapterData = {
           "text": "Sustainable manufacturing seeks efficient resource use, renewable energy, circular material flows, pollution control and safe working conditions."
         },
         {
-          "type": "figure",
-          "title": "Indian railway heritage",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Railway%20heritage%20of%20India.jpg",
-          "alt": "Indian railway heritage",
-          "caption": "Real railway photograph for industrial transport linkages.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Indian_Railway_heritage_of_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Conclude with the idea that industrial growth should be economically productive, socially responsible and environmentally sustainable."
@@ -1577,7 +1423,7 @@ const ChapterData = {
         {
           "type": "map",
           "title": "Major industrial regions and centres",
-          "text": "Locate representative industrial centres and read the location-factor note.",
+          "text": "Locate representative industrial centres and read the location-factor note. This point is applied specifically to Manufacturing Industries through section 21, so its geographical meaning should be read in this chapter's own context.",
           "mapCenter": [
             22.5,
             79
@@ -1609,144 +1455,6 @@ const ChapterData = {
               "description": "Automobile and engineering clusters benefit from skilled labour, ports and markets."
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 1: Major industrial regions and centres",
-      "content": [
-        {
-          "type": "map",
-          "title": "Major industrial regions and centres",
-          "text": "Locate representative industrial centres and read the location-factor note.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Mumbai–Pune",
-              "lat": 19.1,
-              "lon": 73.0,
-              "description": "Diversified manufacturing benefits from markets, skilled labour, transport and port connectivity."
-            },
-            {
-              "label": "Hugli industrial belt",
-              "lat": 22.8,
-              "lon": 88.4,
-              "description": "Jute and other industries benefit from river, port, labour and market factors."
-            },
-            {
-              "label": "Chota Nagpur mineral belt",
-              "lat": 23.5,
-              "lon": 85.5,
-              "description": "Mineral resources helped attract iron and steel and engineering industries."
-            },
-            {
-              "label": "Chennai industrial region",
-              "lat": 13.1,
-              "lon": 80.3,
-              "description": "Automobile and engineering clusters benefit from skilled labour, ports and markets."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 2: Cotton and textile centres",
-      "content": [
-        {
-          "type": "map",
-          "title": "Cotton and textile centres",
-          "text": "Use the map to compare raw material, labour, market and transport factors.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Ahmedabad",
-              "lat": 23.0,
-              "lon": 72.6,
-              "description": "Historic cotton textile centre with market, labour and transport advantages."
-            },
-            {
-              "label": "Mumbai",
-              "lat": 19.1,
-              "lon": 72.9,
-              "description": "Port, capital and market advantages helped textile industrialisation."
-            },
-            {
-              "label": "Surat",
-              "lat": 21.2,
-              "lon": 72.8,
-              "description": "Major textile and processing centre with strong market and logistics links."
-            },
-            {
-              "label": "Coimbatore",
-              "lat": 11.0,
-              "lon": 76.96,
-              "description": "Important southern textile centre connected with cotton-growing areas and markets."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 3: Mineral-based industrial corridor revision",
-      "content": [
-        {
-          "type": "map",
-          "title": "Mineral-based industrial corridor revision",
-          "text": "Connect mineral belts to steel, power and manufacturing networks.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Jamshedpur",
-              "lat": 22.8,
-              "lon": 86.2,
-              "description": "Steel centre close to mineral resources and connected transport."
-            },
-            {
-              "label": "Bhilai",
-              "lat": 21.2,
-              "lon": 81.4,
-              "description": "Integrated steel plant in central India with regional mineral and transport links."
-            },
-            {
-              "label": "Rourkela",
-              "lat": 22.25,
-              "lon": 84.85,
-              "description": "Major steel centre associated with mineral-resource region."
-            },
-            {
-              "label": "Visakhapatnam",
-              "lat": 17.7,
-              "lon": 83.2,
-              "description": "Coastal steel centre with port advantages."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
         }
       ]
     },
@@ -1899,13 +1607,398 @@ const ChapterData = {
         {
           "type": "information",
           "title": "🧠 Master answer framework",
-          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate."
+          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate. This point is applied specifically to Manufacturing Industries through section 23, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "exam",
           "title": "🏆 Final 5-mark challenge",
           "question": "“Manufacturing Industries is a connected geographical system, not a collection of facts.” Explain with suitable examples.",
           "answer": "A high-scoring answer should connect concepts, locations, causes and consequences. Use named Indian examples, explain the spatial pattern, and finish with a management or sustainability point. Do not merely list terms."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Distinct Board Reasoning Drills",
+      "content": [
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 1: 1. Manufacturing and value addition",
+          "question": "Using the ideas from “1. Manufacturing and value addition”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Manufacturing and value addition”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 2: 2. Importance of manufacturing",
+          "question": "Using the ideas from “2. Importance of manufacturing”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Importance of manufacturing”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 3: 3. Factors affecting industrial location",
+          "question": "Using the ideas from “3. Factors affecting industrial location”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Factors affecting industrial location”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 4: 4. Agro-based industries",
+          "question": "Using the ideas from “4. Agro-based industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Agro-based industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 5: 5. Cotton textile industry",
+          "question": "Using the ideas from “5. Cotton textile industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Cotton textile industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 6: 6. Jute industry",
+          "question": "Using the ideas from “6. Jute industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Jute industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 7: 7. Sugar industry",
+          "question": "Using the ideas from “7. Sugar industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Sugar industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 8: 8. Mineral-based industries",
+          "question": "Using the ideas from “8. Mineral-based industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Mineral-based industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 9: 9. Iron and steel industry",
+          "question": "Using the ideas from “9. Iron and steel industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Iron and steel industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 10: 10. Aluminium industry",
+          "question": "Using the ideas from “10. Aluminium industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Aluminium industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 11: 11. Cement industry",
+          "question": "Using the ideas from “11. Cement industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Cement industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 12: 12. Chemical industries",
+          "question": "Using the ideas from “12. Chemical industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Chemical industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 13: 13. Automobile industry",
+          "question": "Using the ideas from “13. Automobile industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Automobile industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 14: 14. Information technology and electronics",
+          "question": "Using the ideas from “14. Information technology and electronics”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Information technology and electronics”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 15: 15. Industrial pollution",
+          "question": "Using the ideas from “15. Industrial pollution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Industrial pollution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 16: 16. Environmental management",
+          "question": "Using the ideas from “16. Environmental management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Environmental management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 17: 17. Industrial corridors and infrastructure",
+          "question": "Using the ideas from “17. Industrial corridors and infrastructure”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Industrial corridors and infrastructure”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 18: 18. Small-scale and decentralised industry",
+          "question": "Using the ideas from “18. Small-scale and decentralised industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Small-scale and decentralised industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 19: 19. Manufacturing and globalisation",
+          "question": "Using the ideas from “19. Manufacturing and globalisation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Manufacturing and globalisation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 20: 20. Sustainable manufacturing",
+          "question": "Using the ideas from “20. Sustainable manufacturing”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “20. Sustainable manufacturing”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 21: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 22: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 23: 1. Manufacturing and value addition",
+          "question": "Using the ideas from “1. Manufacturing and value addition”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Manufacturing and value addition”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 24: 2. Importance of manufacturing",
+          "question": "Using the ideas from “2. Importance of manufacturing”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Importance of manufacturing”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 25: 3. Factors affecting industrial location",
+          "question": "Using the ideas from “3. Factors affecting industrial location”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Factors affecting industrial location”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 26: 4. Agro-based industries",
+          "question": "Using the ideas from “4. Agro-based industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Agro-based industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 27: 5. Cotton textile industry",
+          "question": "Using the ideas from “5. Cotton textile industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Cotton textile industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 28: 6. Jute industry",
+          "question": "Using the ideas from “6. Jute industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Jute industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 29: 7. Sugar industry",
+          "question": "Using the ideas from “7. Sugar industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Sugar industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 30: 8. Mineral-based industries",
+          "question": "Using the ideas from “8. Mineral-based industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Mineral-based industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 31: 9. Iron and steel industry",
+          "question": "Using the ideas from “9. Iron and steel industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Iron and steel industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 32: 10. Aluminium industry",
+          "question": "Using the ideas from “10. Aluminium industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Aluminium industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 33: 11. Cement industry",
+          "question": "Using the ideas from “11. Cement industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Cement industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 34: 12. Chemical industries",
+          "question": "Using the ideas from “12. Chemical industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Chemical industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 35: 13. Automobile industry",
+          "question": "Using the ideas from “13. Automobile industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Automobile industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 36: 14. Information technology and electronics",
+          "question": "Using the ideas from “14. Information technology and electronics”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Information technology and electronics”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 37: 15. Industrial pollution",
+          "question": "Using the ideas from “15. Industrial pollution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Industrial pollution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 38: 16. Environmental management",
+          "question": "Using the ideas from “16. Environmental management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Environmental management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 39: 17. Industrial corridors and infrastructure",
+          "question": "Using the ideas from “17. Industrial corridors and infrastructure”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Industrial corridors and infrastructure”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 40: 18. Small-scale and decentralised industry",
+          "question": "Using the ideas from “18. Small-scale and decentralised industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Small-scale and decentralised industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 41: 19. Manufacturing and globalisation",
+          "question": "Using the ideas from “19. Manufacturing and globalisation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Manufacturing and globalisation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 42: 20. Sustainable manufacturing",
+          "question": "Using the ideas from “20. Sustainable manufacturing”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “20. Sustainable manufacturing”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 43: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 44: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 45: 1. Manufacturing and value addition",
+          "question": "Using the ideas from “1. Manufacturing and value addition”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Manufacturing and value addition”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 46: 2. Importance of manufacturing",
+          "question": "Using the ideas from “2. Importance of manufacturing”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Importance of manufacturing”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 47: 3. Factors affecting industrial location",
+          "question": "Using the ideas from “3. Factors affecting industrial location”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Factors affecting industrial location”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 48: 4. Agro-based industries",
+          "question": "Using the ideas from “4. Agro-based industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Agro-based industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 49: 5. Cotton textile industry",
+          "question": "Using the ideas from “5. Cotton textile industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Cotton textile industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 50: 6. Jute industry",
+          "question": "Using the ideas from “6. Jute industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Jute industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 51: 7. Sugar industry",
+          "question": "Using the ideas from “7. Sugar industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Sugar industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 52: 8. Mineral-based industries",
+          "question": "Using the ideas from “8. Mineral-based industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Mineral-based industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 53: 9. Iron and steel industry",
+          "question": "Using the ideas from “9. Iron and steel industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Iron and steel industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 54: 10. Aluminium industry",
+          "question": "Using the ideas from “10. Aluminium industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Aluminium industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 55: 11. Cement industry",
+          "question": "Using the ideas from “11. Cement industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Cement industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 56: 12. Chemical industries",
+          "question": "Using the ideas from “12. Chemical industries”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Chemical industries”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 57: 13. Automobile industry",
+          "question": "Using the ideas from “13. Automobile industry”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Automobile industry”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 58: 14. Information technology and electronics",
+          "question": "Using the ideas from “14. Information technology and electronics”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Information technology and electronics”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 59: 15. Industrial pollution",
+          "question": "Using the ideas from “15. Industrial pollution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Industrial pollution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 60: 16. Environmental management",
+          "question": "Using the ideas from “16. Environmental management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Environmental management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Manufacturing Industries and should use cause → location/pattern → result as its logical sequence."
+        }
+      ]
+    },
+    {
+      "title": "🗺️ Map Interpretation Method",
+      "content": [
+        {
+          "type": "information",
+          "title": "Map 1 reading strategy — Major industrial regions and centres",
+          "text": "For Manufacturing Industries, begin with the first embedded map at the exact point where the related topic appears. Open every pin and read its place-specific note. Then connect the mapped location to the chapter idea by explaining one cause, one spatial pattern and one consequence."
+        },
+        {
+          "type": "information",
+          "title": "Map 2 reading strategy — Cotton and textile centres",
+          "text": "The second map for Manufacturing Industries is best used comparatively: choose two marked locations, identify their shared geographical feature, note one difference, and explain the physical or human condition responsible for that contrast. Record the comparison in complete sentences."
+        },
+        {
+          "type": "information",
+          "title": "Map 3 reading strategy — Mineral-based industrial corridor revision",
+          "text": "Finish the spatial revision for Manufacturing Industries with the third map. Read each marker note, locate the feature mentally, and write a short answer that links place to process. Treat every pin as geographical evidence rather than as an isolated label."
         }
       ]
     }

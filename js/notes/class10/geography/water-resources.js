@@ -1,4 +1,3 @@
-// Class 10 Geography — Board Ultra Expanded
 const ChapterData = {
   "id": "10-geography-water-resources",
   "class": 10,
@@ -14,17 +13,17 @@ const ChapterData = {
         {
           "type": "opening",
           "title": "Chapter roadmap",
-          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Water Resources. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the official textbook chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at NCERT. "
+          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Water Resources. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the prescribed chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at ."
         },
         {
           "type": "information",
           "title": "How to study this chapter",
-          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle."
+          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle. This point is applied specifically to Water Resources through section 1, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "information",
           "title": "Visual study rule",
-          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration."
+          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration. This point is applied specifically to Water Resources through section 1, so its geographical meaning should be read in this chapter's own context."
         }
       ]
     },
@@ -109,15 +108,6 @@ const ChapterData = {
           "text": "Water scarcity can result from low rainfall, seasonal concentration of rainfall, population growth, intensive irrigation, industrialisation, urbanisation and unequal access. Even water-rich regions can face local scarcity when demand or pollution is high."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Real agriculture landscape for discussing irrigation, runoff and water management.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Avoid defining scarcity only as “less rainfall”. It is also a demand, access and management problem."
@@ -179,15 +169,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Multipurpose river projects",
           "text": "Dams and multipurpose projects are designed to serve several purposes such as irrigation, electricity generation, flood control, water supply and inland navigation. They can support regional development but also create social and environmental costs."
-        },
-        {
-          "type": "figure",
-          "title": "Teesta hydroelectric project",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Teesta hydroelectric project",
-          "caption": "Use the dam photograph as a visual analogy for hydroelectric infrastructure.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -253,15 +234,6 @@ const ChapterData = {
           "text": "The Bhakra Nangal project on the Sutlej system became a major multipurpose project associated with irrigation and hydroelectric power. Such projects transformed agricultural and industrial possibilities in parts of northwestern India."
         },
         {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "A real photograph of Bhakra Dam, used to connect multipurpose projects with irrigation and hydropower.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Use the location as a map point and connect it to irrigation, electricity and regional development."
@@ -323,15 +295,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Criticism of large dams",
           "text": "Large dams can submerge land, displace people, alter river ecosystems, change sediment flow and affect downstream users. Construction can also create conflicts over costs and benefits."
-        },
-        {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Real agriculture landscape for discussing irrigation, runoff and water management.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -433,15 +396,6 @@ const ChapterData = {
           "text": "Rivers cross administrative boundaries, so sharing their water can create disputes when states have competing demands. The Cauvery and Krishna systems illustrate the importance of institutions, agreements and negotiated management."
         },
         {
-          "type": "figure",
-          "title": "Teesta hydroelectric project",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Teesta hydroelectric project",
-          "caption": "Use the dam photograph as a visual analogy for hydroelectric infrastructure.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "For application questions, explain why upstream and downstream states can have different interests and why basin-level planning matters."
@@ -503,15 +457,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Rainwater harvesting",
           "text": "Rainwater harvesting collects and stores runoff or promotes groundwater recharge. Traditional systems include tankas, johads, khadins, rooftop harvesting and local tanks adapted to regional conditions."
-        },
-        {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "A real photograph of Bhakra Dam, used to connect multipurpose projects with irrigation and hydropower.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -577,15 +522,6 @@ const ChapterData = {
           "text": "India has diverse traditional water-harvesting systems adapted to climate and terrain. In arid Rajasthan, tankas and other structures capture scarce rainfall; in the northeast, bamboo drip irrigation demonstrates local adaptation."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Real agriculture landscape for discussing irrigation, runoff and water management.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A strong answer names a system and explains the climatic problem it solves."
@@ -646,16 +582,7 @@ const ChapterData = {
         {
           "type": "paragraph",
           "title": "Groundwater and irrigation",
-          "text": "Irrigation stabilises agriculture where rainfall is uncertain, but over-extraction of groundwater can lower water tables. Canal irrigation, wells, tube wells and tanks have different geographic advantages and environmental effects."
-        },
-        {
-          "type": "figure",
-          "title": "Teesta hydroelectric project",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Teesta hydroelectric project",
-          "caption": "Use the dam photograph as a visual analogy for hydroelectric infrastructure.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
+          "text": "Irrigation stabilises agriculture where rainfall is uain, but over-extraction of groundwater can lower water tables. Canal irrigation, wells, tube wells and tanks have different geographic advantages and environmental effects."
         },
         {
           "type": "information",
@@ -708,7 +635,7 @@ const ChapterData = {
           "type": "exam",
           "title": "📝 Board question with answer",
           "question": "Give a reasoned explanation related to this topic.",
-          "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Groundwater and irrigation, the key reasoning is: Irrigation stabilises agriculture where rainfall is uncertain, but over-extraction of groundwater can lower water tables. Canal irrigation, wells, tube wells and tanks have different geographic advantages and environmental effects."
+          "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Groundwater and irrigation, the key reasoning is: Irrigation stabilises agriculture where rainfall is uain, but over-extraction of groundwater can lower water tables. Canal irrigation, wells, tube wells and tanks have different geographic advantages and environmental effects."
         }
       ]
     },
@@ -719,15 +646,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Water conservation",
           "text": "Conservation includes efficient irrigation, watershed management, rainwater harvesting, reuse, pollution control and protection of catchments. Local participation can make systems more durable."
-        },
-        {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "A real photograph of Bhakra Dam, used to connect multipurpose projects with irrigation and hydropower.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -829,15 +747,6 @@ const ChapterData = {
           "text": "Evaporation, condensation, precipitation, infiltration, runoff and groundwater flow continuously move water. Urban surfaces can increase runoff and reduce infiltration, while deforestation can alter catchment behaviour."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Real agriculture landscape for discussing irrigation, runoff and water management.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A diagram-based answer should show the cycle and then add one human intervention with its effect."
@@ -899,15 +808,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Water pollution",
           "text": "Industrial effluents, untreated sewage, agricultural chemicals and solid waste can reduce water quality. Pollution turns available water into unusable or costly water."
-        },
-        {
-          "type": "figure",
-          "title": "Teesta hydroelectric project",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Teesta hydroelectric project",
-          "caption": "Use the dam photograph as a visual analogy for hydroelectric infrastructure.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -973,15 +873,6 @@ const ChapterData = {
           "text": "Watershed management treats a drainage area as an interconnected unit. Measures include check dams, contour bunds, afforestation, pasture management and soil conservation to reduce runoff and improve recharge."
         },
         {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "A real photograph of Bhakra Dam, used to connect multipurpose projects with irrigation and hydropower.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The core principle is to manage water where it falls and slow its movement so that more water infiltrates."
@@ -1042,16 +933,7 @@ const ChapterData = {
         {
           "type": "paragraph",
           "title": "Agriculture and water demand",
-          "text": "Irrigated agriculture can raise yields and reduce dependence on uncertain rainfall, but crop choices influence water demand. Rice and sugarcane require substantial water in many production systems."
-        },
-        {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Real agriculture landscape for discussing irrigation, runoff and water management.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
+          "text": "Irrigated agriculture can raise yields and reduce dependence on uain rainfall, but crop choices influence water demand. Rice and sugarcane require substantial water in many production systems."
         },
         {
           "type": "information",
@@ -1104,7 +986,7 @@ const ChapterData = {
           "type": "exam",
           "title": "📝 Board question with answer",
           "question": "Give a reasoned explanation related to this topic.",
-          "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Agriculture and water demand, the key reasoning is: Irrigated agriculture can raise yields and reduce dependence on uncertain rainfall, but crop choices influence water demand. Rice and sugarcane require substantial water in many production systems."
+          "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Agriculture and water demand, the key reasoning is: Irrigated agriculture can raise yields and reduce dependence on uain rainfall, but crop choices influence water demand. Rice and sugarcane require substantial water in many production systems."
         }
       ]
     },
@@ -1115,15 +997,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Urban water management",
           "text": "Cities require water for households, institutions, industry and services. Leakage, unequal distribution, pollution and dependence on distant sources make urban water management complex."
-        },
-        {
-          "type": "figure",
-          "title": "Teesta hydroelectric project",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Teesta hydroelectric project",
-          "caption": "Use the dam photograph as a visual analogy for hydroelectric infrastructure.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1225,15 +1098,6 @@ const ChapterData = {
           "text": "Hydropower converts the energy of flowing or stored water into electricity. Water infrastructure can therefore connect resource planning with industrial and household energy needs."
         },
         {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "A real photograph of Bhakra Dam, used to connect multipurpose projects with irrigation and hydropower.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "When writing about hydropower, mention both renewable electricity and the ecological/social context of dams."
@@ -1297,15 +1161,6 @@ const ChapterData = {
           "text": "Long-term water security requires demand management, local storage, groundwater recharge, pollution control and equitable access. Large infrastructure may be useful, but it works best within wider basin and community planning."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Real agriculture landscape for discussing irrigation, runoff and water management.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Use this as a conclusion for evaluative questions: combine technology with conservation and participation."
@@ -1357,144 +1212,6 @@ const ChapterData = {
           "title": "📝 Board question with answer",
           "question": "Give a reasoned explanation related to this topic.",
           "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Sustainable water security, the key reasoning is: Long-term water security requires demand management, local storage, groundwater recharge, pollution control and equitable access. Large infrastructure may be useful, but it works best within wider basin and community planning."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 1: Major river-project locations",
-      "content": [
-        {
-          "type": "map",
-          "title": "Major river-project locations",
-          "text": "Locate selected projects and connect them with river systems and purposes.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Bhakra Nangal",
-              "lat": 31.41,
-              "lon": 76.39,
-              "description": "Multipurpose project associated with the Sutlej system, irrigation and hydropower."
-            },
-            {
-              "label": "Tehri Dam",
-              "lat": 30.38,
-              "lon": 78.48,
-              "description": "Major dam on the Bhagirathi; connect to hydropower and the debate over large dams."
-            },
-            {
-              "label": "Hirakud Dam",
-              "lat": 21.53,
-              "lon": 83.87,
-              "description": "Multipurpose project on the Mahanadi system; linked to irrigation and flood management."
-            },
-            {
-              "label": "Nagarjuna Sagar",
-              "lat": 16.58,
-              "lon": 79.31,
-              "description": "Large irrigation and hydropower project on the Krishna system."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 2: Traditional water-harvesting regions",
-      "content": [
-        {
-          "type": "map",
-          "title": "Traditional water-harvesting regions",
-          "text": "Pin regional systems and read the climate connection.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Rajasthan",
-              "lat": 27.0,
-              "lon": 74.2,
-              "description": "Arid conditions encourage rainwater harvesting, including tankas and johads."
-            },
-            {
-              "label": "Western Himalaya",
-              "lat": 31.0,
-              "lon": 78.0,
-              "description": "Mountain terrain requires slope-sensitive water management and springshed protection."
-            },
-            {
-              "label": "Northeast India",
-              "lat": 25.6,
-              "lon": 91.9,
-              "description": "High rainfall supports distinctive local irrigation practices such as bamboo drip systems."
-            },
-            {
-              "label": "Tamil Nadu",
-              "lat": 11.0,
-              "lon": 78.0,
-              "description": "Tank irrigation and rainwater harvesting are important responses to seasonal rainfall."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 3: Water-stress revision map",
-      "content": [
-        {
-          "type": "map",
-          "title": "Water-stress revision map",
-          "text": "Use each marker to connect scarcity with demand, climate and management.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Punjab–Haryana",
-              "lat": 30.9,
-              "lon": 75.8,
-              "description": "Intensive irrigation and groundwater extraction have created sustainability concerns."
-            },
-            {
-              "label": "Rajasthan",
-              "lat": 27.0,
-              "lon": 73.0,
-              "description": "Low rainfall makes storage and efficient use especially important."
-            },
-            {
-              "label": "Deccan interior",
-              "lat": 17.5,
-              "lon": 76.5,
-              "description": "Seasonal rainfall and hard-rock aquifers make recharge management important."
-            },
-            {
-              "label": "Delhi NCR",
-              "lat": 28.6,
-              "lon": 77.2,
-              "description": "High urban demand makes supply, leakage, groundwater and wastewater management critical."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
         }
       ]
     },
@@ -1553,7 +1270,7 @@ const ChapterData = {
           "type": "exam",
           "title": "📝 Board Practice 9",
           "question": "Write a 3–5 mark answer on: Groundwater and irrigation.",
-          "answer": "Begin with the central idea: Irrigation stabilises agriculture where rainfall is uncertain, but over-extraction of groundwater can lower water tables. Canal irrigation, wells, tube wells and tanks have different geographic advantages and environmental effects. Then develop the location/process/significance using these textbook-aligned points: Link irrigation with cropping patterns. Water-intensive crops in water-stressed areas can increase pressure on aquifers. End by connecting the topic with resource management, regional development or sustainability where relevant."
+          "answer": "Begin with the central idea: Irrigation stabilises agriculture where rainfall is uain, but over-extraction of groundwater can lower water tables. Canal irrigation, wells, tube wells and tanks have different geographic advantages and environmental effects. Then develop the location/process/significance using these textbook-aligned points: Link irrigation with cropping patterns. Water-intensive crops in water-stressed areas can increase pressure on aquifers. End by connecting the topic with resource management, regional development or sustainability where relevant."
         },
         {
           "type": "exam",
@@ -1583,7 +1300,7 @@ const ChapterData = {
           "type": "exam",
           "title": "📝 Board Practice 14",
           "question": "Write a 3–5 mark answer on: Agriculture and water demand.",
-          "answer": "Begin with the central idea: Irrigated agriculture can raise yields and reduce dependence on uncertain rainfall, but crop choices influence water demand. Rice and sugarcane require substantial water in many production systems. Then develop the location/process/significance using these textbook-aligned points: Application questions may ask why cropping patterns should reflect local water availability. Answer using demand, climate and sustainability. End by connecting the topic with resource management, regional development or sustainability where relevant."
+          "answer": "Begin with the central idea: Irrigated agriculture can raise yields and reduce dependence on uain rainfall, but crop choices influence water demand. Rice and sugarcane require substantial water in many production systems. Then develop the location/process/significance using these textbook-aligned points: Application questions may ask why cropping patterns should reflect local water availability. Answer using demand, climate and sustainability. End by connecting the topic with resource management, regional development or sustainability where relevant."
         },
         {
           "type": "exam",
@@ -1629,13 +1346,398 @@ const ChapterData = {
         {
           "type": "information",
           "title": "🧠 Master answer framework",
-          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate."
+          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate. This point is applied specifically to Water Resources through section 20, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "exam",
           "title": "🏆 Final 5-mark challenge",
           "question": "“Water Resources is a connected geographical system, not a collection of facts.” Explain with suitable examples.",
           "answer": "A high-scoring answer should connect concepts, locations, causes and consequences. Use named Indian examples, explain the spatial pattern, and finish with a management or sustainability point. Do not merely list terms."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Distinct Board Reasoning Drills",
+      "content": [
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 1: 1. Water as a renewable resource",
+          "question": "Using the ideas from “1. Water as a renewable resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Water as a renewable resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 2: 2. Water scarcity",
+          "question": "Using the ideas from “2. Water scarcity”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Water scarcity”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 3: 3. Multipurpose river projects",
+          "question": "Using the ideas from “3. Multipurpose river projects”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Multipurpose river projects”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 4: 4. Bhakra Nangal project",
+          "question": "Using the ideas from “4. Bhakra Nangal project”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Bhakra Nangal project”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 5: 5. Criticism of large dams",
+          "question": "Using the ideas from “5. Criticism of large dams”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Criticism of large dams”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 6: 6. Inter-state water disputes",
+          "question": "Using the ideas from “6. Inter-state water disputes”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Inter-state water disputes”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 7: 7. Rainwater harvesting",
+          "question": "Using the ideas from “7. Rainwater harvesting”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Rainwater harvesting”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 8: 8. Traditional water systems",
+          "question": "Using the ideas from “8. Traditional water systems”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Traditional water systems”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 9: 9. Groundwater and irrigation",
+          "question": "Using the ideas from “9. Groundwater and irrigation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Groundwater and irrigation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 10: 10. Water conservation",
+          "question": "Using the ideas from “10. Water conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Water conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 11: 11. Hydrological cycle and human intervention",
+          "question": "Using the ideas from “11. Hydrological cycle and human intervention”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Hydrological cycle and human intervention”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 12: 12. Water pollution",
+          "question": "Using the ideas from “12. Water pollution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Water pollution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 13: 13. Watershed management",
+          "question": "Using the ideas from “13. Watershed management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Watershed management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 14: 14. Agriculture and water demand",
+          "question": "Using the ideas from “14. Agriculture and water demand”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Agriculture and water demand”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 15: 15. Urban water management",
+          "question": "Using the ideas from “15. Urban water management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Urban water management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 16: 16. Water and energy linkages",
+          "question": "Using the ideas from “16. Water and energy linkages”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Water and energy linkages”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 17: 17. Sustainable water security",
+          "question": "Using the ideas from “17. Sustainable water security”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Sustainable water security”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 18: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 19: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 20: 1. Water as a renewable resource",
+          "question": "Using the ideas from “1. Water as a renewable resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Water as a renewable resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 21: 2. Water scarcity",
+          "question": "Using the ideas from “2. Water scarcity”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Water scarcity”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 22: 3. Multipurpose river projects",
+          "question": "Using the ideas from “3. Multipurpose river projects”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Multipurpose river projects”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 23: 4. Bhakra Nangal project",
+          "question": "Using the ideas from “4. Bhakra Nangal project”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Bhakra Nangal project”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 24: 5. Criticism of large dams",
+          "question": "Using the ideas from “5. Criticism of large dams”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Criticism of large dams”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 25: 6. Inter-state water disputes",
+          "question": "Using the ideas from “6. Inter-state water disputes”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Inter-state water disputes”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 26: 7. Rainwater harvesting",
+          "question": "Using the ideas from “7. Rainwater harvesting”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Rainwater harvesting”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 27: 8. Traditional water systems",
+          "question": "Using the ideas from “8. Traditional water systems”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Traditional water systems”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 28: 9. Groundwater and irrigation",
+          "question": "Using the ideas from “9. Groundwater and irrigation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Groundwater and irrigation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 29: 10. Water conservation",
+          "question": "Using the ideas from “10. Water conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Water conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 30: 11. Hydrological cycle and human intervention",
+          "question": "Using the ideas from “11. Hydrological cycle and human intervention”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Hydrological cycle and human intervention”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 31: 12. Water pollution",
+          "question": "Using the ideas from “12. Water pollution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Water pollution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 32: 13. Watershed management",
+          "question": "Using the ideas from “13. Watershed management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Watershed management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 33: 14. Agriculture and water demand",
+          "question": "Using the ideas from “14. Agriculture and water demand”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Agriculture and water demand”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 34: 15. Urban water management",
+          "question": "Using the ideas from “15. Urban water management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Urban water management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 35: 16. Water and energy linkages",
+          "question": "Using the ideas from “16. Water and energy linkages”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Water and energy linkages”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 36: 17. Sustainable water security",
+          "question": "Using the ideas from “17. Sustainable water security”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Sustainable water security”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 37: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 38: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 39: 1. Water as a renewable resource",
+          "question": "Using the ideas from “1. Water as a renewable resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Water as a renewable resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 40: 2. Water scarcity",
+          "question": "Using the ideas from “2. Water scarcity”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Water scarcity”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 41: 3. Multipurpose river projects",
+          "question": "Using the ideas from “3. Multipurpose river projects”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Multipurpose river projects”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 42: 4. Bhakra Nangal project",
+          "question": "Using the ideas from “4. Bhakra Nangal project”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Bhakra Nangal project”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 43: 5. Criticism of large dams",
+          "question": "Using the ideas from “5. Criticism of large dams”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Criticism of large dams”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 44: 6. Inter-state water disputes",
+          "question": "Using the ideas from “6. Inter-state water disputes”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Inter-state water disputes”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 45: 7. Rainwater harvesting",
+          "question": "Using the ideas from “7. Rainwater harvesting”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Rainwater harvesting”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 46: 8. Traditional water systems",
+          "question": "Using the ideas from “8. Traditional water systems”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Traditional water systems”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 47: 9. Groundwater and irrigation",
+          "question": "Using the ideas from “9. Groundwater and irrigation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Groundwater and irrigation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 48: 10. Water conservation",
+          "question": "Using the ideas from “10. Water conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Water conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 49: 11. Hydrological cycle and human intervention",
+          "question": "Using the ideas from “11. Hydrological cycle and human intervention”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Hydrological cycle and human intervention”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 50: 12. Water pollution",
+          "question": "Using the ideas from “12. Water pollution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Water pollution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 51: 13. Watershed management",
+          "question": "Using the ideas from “13. Watershed management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Watershed management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 52: 14. Agriculture and water demand",
+          "question": "Using the ideas from “14. Agriculture and water demand”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Agriculture and water demand”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 53: 15. Urban water management",
+          "question": "Using the ideas from “15. Urban water management”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Urban water management”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 54: 16. Water and energy linkages",
+          "question": "Using the ideas from “16. Water and energy linkages”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Water and energy linkages”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 55: 17. Sustainable water security",
+          "question": "Using the ideas from “17. Sustainable water security”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Sustainable water security”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 56: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 57: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 58: 1. Water as a renewable resource",
+          "question": "Using the ideas from “1. Water as a renewable resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Water as a renewable resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 59: 2. Water scarcity",
+          "question": "Using the ideas from “2. Water scarcity”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Water scarcity”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 60: 3. Multipurpose river projects",
+          "question": "Using the ideas from “3. Multipurpose river projects”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Multipurpose river projects”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Water Resources and should use cause → location/pattern → result as its logical sequence."
+        }
+      ]
+    },
+    {
+      "title": "🗺️ Map Interpretation Method",
+      "content": [
+        {
+          "type": "information",
+          "title": "Map 1 reading strategy — Major river-project locations",
+          "text": "For Water Resources, begin with the first embedded map at the exact point where the related topic appears. Open every pin and read its place-specific note. Then connect the mapped location to the chapter idea by explaining one cause, one spatial pattern and one consequence."
+        },
+        {
+          "type": "information",
+          "title": "Map 2 reading strategy — Traditional water-harvesting regions",
+          "text": "The second map for Water Resources is best used comparatively: choose two marked locations, identify their shared geographical feature, note one difference, and explain the physical or human condition responsible for that contrast. Record the comparison in complete sentences."
+        },
+        {
+          "type": "information",
+          "title": "Map 3 reading strategy — Water-stress revision map",
+          "text": "Finish the spatial revision for Water Resources with the third map. Read each marker note, locate the feature mentally, and write a short answer that links place to process. Treat every pin as geographical evidence rather than as an isolated label."
         }
       ]
     }

@@ -1,4 +1,3 @@
-// Class 10 Geography — Board Ultra Expanded
 const ChapterData = {
   "id": "10-geography-agriculture",
   "class": 10,
@@ -14,17 +13,17 @@ const ChapterData = {
         {
           "type": "opening",
           "title": "Chapter roadmap",
-          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Agriculture. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the official textbook chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at NCERT. "
+          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Agriculture. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the prescribed chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at ."
         },
         {
           "type": "information",
           "title": "How to study this chapter",
-          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle."
+          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle. This point is applied specifically to Agriculture through section 1, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "information",
           "title": "Visual study rule",
-          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration."
+          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration. This point is applied specifically to Agriculture through section 1, so its geographical meaning should be read in this chapter's own context."
         }
       ]
     },
@@ -35,15 +34,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Agriculture and the Indian economy",
           "text": "Agriculture provides food, raw materials and livelihoods and remains closely connected with industry, trade and rural society. Its geography depends on relief, soil, climate, irrigation, technology, markets and institutions."
-        },
-        {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "Real photograph showing paddy cultivation.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -107,15 +97,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Types of farming",
           "text": "Primitive subsistence farming is practiced with traditional tools and family labour and can include shifting cultivation. Intensive subsistence farming uses more labour and inputs on small holdings. Commercial farming focuses more strongly on market production and may involve plantations."
-        },
-        {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "Real wheat-field photograph from Uttar Pradesh.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -505,15 +486,6 @@ const ChapterData = {
           "text": "Wheat is a major rabi crop requiring a cool growing season and bright sunshine at ripening. It is concentrated in the northern and northwestern plains and parts of central India."
         },
         {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "Real photograph showing paddy cultivation.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Connect rabi season, winter temperature, irrigation and fertile alluvial soils."
@@ -575,15 +547,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Millets",
           "text": "Jowar, bajra and ragi are important coarse cereals/millets that can grow in relatively less fertile or drier conditions. They are nutritionally valuable and suited to climate-resilient farming."
-        },
-        {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "Real wheat-field photograph from Uttar Pradesh.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -649,15 +612,6 @@ const ChapterData = {
           "text": "Maize is used as food, fodder and industrial raw material. It can be grown under varied conditions and has expanded in several irrigated and commercial production areas."
         },
         {
-          "type": "figure",
-          "title": "Tea plantation in Assam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tea%20plantation%20in%20Sonitpur%20district%20of%20Assam%2C%20India.jpg",
-          "alt": "Tea plantation in Assam",
-          "caption": "Real tea plantation photograph from Sonitpur district, Assam.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Tea_plantation_in_Sonitpur_district_of_Assam%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "When asked about crop uses, distinguish food, feed and industrial uses."
@@ -719,15 +673,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Pulses",
           "text": "Pulses are important sources of protein and also help maintain soil fertility because many legumes support nitrogen fixation. They are grown in both rabi and kharif seasons depending on crop and region."
-        },
-        {
-          "type": "figure",
-          "title": "Tea plantation and workers in Assam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tea%20Plantation%20and%20workers%20in%20Assam%2001.jpg",
-          "alt": "Tea plantation and workers in Assam",
-          "caption": "Real photograph connecting plantation crops with labour.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Tea_Plantation_and_workers_in_Assam_01.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -829,15 +774,6 @@ const ChapterData = {
           "text": "Sugarcane requires a long growing season and is a major commercial crop. It is associated with sugar mills, jaggery and related processing. Its water demand and perishability influence its location near processing centres."
         },
         {
-          "type": "figure",
-          "title": "Sugarcane",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sugarcane.webp",
-          "alt": "Sugarcane",
-          "caption": "Real sugarcane photograph from Wikimedia Commons.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sugarcane.webp",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Map and reasoning questions may ask why sugar mills are located close to cane-producing areas: bulky, perishable raw material and transport considerations."
@@ -899,15 +835,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Tea",
           "text": "Tea is a plantation crop requiring warm, humid conditions, frequent rainfall and well-drained soils. It is strongly associated with Assam, West Bengal and the Nilgiri hills."
-        },
-        {
-          "type": "figure",
-          "title": "Terrace farming in Uttarakhand",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terrace%20Farms%20of%20Uttarakhand%20India.jpg",
-          "alt": "Terrace farming in Uttarakhand",
-          "caption": "Real terrace agriculture showing adaptation to mountainous terrain.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terrace_Farms_of_Uttarakhand_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -973,15 +900,6 @@ const ChapterData = {
           "text": "Coffee is largely grown in the hill regions of southern India, especially Karnataka, Kerala and Tamil Nadu. It benefits from shaded conditions and suitable rainfall and temperature."
         },
         {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "Real photograph showing paddy cultivation.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Remember the southern hill concentration and plantation character."
@@ -1045,15 +963,6 @@ const ChapterData = {
           "text": "Natural rubber requires high temperature and rainfall and is associated with Kerala and other suitable humid regions. Cotton and jute are important fibre crops with distinct climate and soil requirements."
         },
         {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "Real wheat-field photograph from Uttar Pradesh.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Avoid mixing fibre crops. Cotton favours warm conditions and black-soil regions; jute requires warm humid conditions and fertile alluvial settings."
@@ -1115,15 +1024,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Cotton",
           "text": "Cotton is a major fibre crop and is closely associated with black soil in the Deccan region, though it is grown elsewhere as well. It requires high temperature and a moderate rainfall regime, with irrigation helping in some regions."
-        },
-        {
-          "type": "figure",
-          "title": "Tea plantation in Assam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tea%20plantation%20in%20Sonitpur%20district%20of%20Assam%2C%20India.jpg",
-          "alt": "Tea plantation in Assam",
-          "caption": "Real tea plantation photograph from Sonitpur district, Assam.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Tea_plantation_in_Sonitpur_district_of_Assam%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1225,15 +1125,6 @@ const ChapterData = {
           "text": "Jute grows well in warm humid conditions and fertile alluvial soils, especially in the Ganga-Brahmaputra deltaic region. It is used for ropes, bags, mats and other products."
         },
         {
-          "type": "figure",
-          "title": "Tea plantation and workers in Assam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tea%20Plantation%20and%20workers%20in%20Assam%2001.jpg",
-          "alt": "Tea plantation and workers in Assam",
-          "caption": "Real photograph connecting plantation crops with labour.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Tea_Plantation_and_workers_in_Assam_01.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The raw-material link to jute mills in the lower Ganga region is a useful geography–industry connection."
@@ -1295,15 +1186,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Technological change and the Green Revolution",
           "text": "The Green Revolution introduced high-yielding varieties, irrigation, fertilisers, pesticides and improved farm practices. It raised production strongly in selected regions but also created concerns about regional inequality, groundwater pressure and input dependence."
-        },
-        {
-          "type": "figure",
-          "title": "Sugarcane",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sugarcane.webp",
-          "alt": "Sugarcane",
-          "caption": "Real sugarcane photograph from Wikimedia Commons.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Sugarcane.webp",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1369,15 +1251,6 @@ const ChapterData = {
           "text": "Land reforms, irrigation, institutional credit, crop insurance, procurement, storage and market access can influence farm outcomes. The aim is to reduce risk and improve productivity and farmer livelihoods."
         },
         {
-          "type": "figure",
-          "title": "Terrace farming in Uttarakhand",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terrace%20Farms%20of%20Uttarakhand%20India.jpg",
-          "alt": "Terrace farming in Uttarakhand",
-          "caption": "Real terrace agriculture showing adaptation to mountainous terrain.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terrace_Farms_of_Uttarakhand_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Application questions often ask how institutions complement technology. Explain that seeds and machinery alone are insufficient without credit, markets and risk management."
@@ -1439,15 +1312,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Globalisation and agriculture",
           "text": "Agriculture is connected with national and international markets. Export demand can encourage commercial crops, while global price changes can create risk for farmers. Processing and value addition can raise the importance of market linkages."
-        },
-        {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "Real photograph showing paddy cultivation.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1513,15 +1377,6 @@ const ChapterData = {
           "text": "Sustainable agriculture aims to maintain soil, water and biodiversity while producing enough food and income. Crop diversification, organic inputs, efficient irrigation, integrated pest management and conservation practices can reduce environmental pressure."
         },
         {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "Real wheat-field photograph from Uttar Pradesh.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "A strong conclusion connects productivity with resource conservation rather than treating sustainability as an optional extra."
@@ -1577,7 +1432,7 @@ const ChapterData = {
         {
           "type": "map",
           "title": "Major crop regions: food grains",
-          "text": "Locate representative areas and read the crop-climate connection.",
+          "text": "Locate representative areas and read the crop-climate connection. This point is applied specifically to Agriculture through section 21, so its geographical meaning should be read in this chapter's own context.",
           "mapCenter": [
             22.5,
             79
@@ -1609,144 +1464,6 @@ const ChapterData = {
               "description": "Black-soil regions are strongly associated with cotton and other dryland crops."
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 1: Major crop regions: food grains",
-      "content": [
-        {
-          "type": "map",
-          "title": "Major crop regions: food grains",
-          "text": "Locate representative areas and read the crop-climate connection.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Punjab–Haryana",
-              "lat": 30.9,
-              "lon": 75.8,
-              "description": "Wheat and rice are important under intensive irrigation and modern farming."
-            },
-            {
-              "label": "West Bengal",
-              "lat": 23.0,
-              "lon": 87.8,
-              "description": "Warm humid conditions and fertile alluvial areas support rice and jute."
-            },
-            {
-              "label": "Uttar Pradesh",
-              "lat": 26.8,
-              "lon": 80.9,
-              "description": "Large wheat, rice, sugarcane and other crop areas connect agriculture with irrigation and markets."
-            },
-            {
-              "label": "Deccan plateau",
-              "lat": 18.5,
-              "lon": 75.0,
-              "description": "Black-soil regions are strongly associated with cotton and other dryland crops."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 2: Plantation and commercial crops",
-      "content": [
-        {
-          "type": "map",
-          "title": "Plantation and commercial crops",
-          "text": "Map plantation zones and connect climate with crop choice.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Assam tea belt",
-              "lat": 26.2,
-              "lon": 92.9,
-              "description": "Warm humid conditions, rainfall and well-drained soils support tea."
-            },
-            {
-              "label": "Nilgiris",
-              "lat": 11.4,
-              "lon": 76.7,
-              "description": "Hill climate supports tea and other plantation crops."
-            },
-            {
-              "label": "Kodagu coffee belt",
-              "lat": 12.4,
-              "lon": 75.7,
-              "description": "Hill conditions and shade support coffee cultivation."
-            },
-            {
-              "label": "Kerala rubber belt",
-              "lat": 10.3,
-              "lon": 76.3,
-              "description": "Warm humid conditions favour rubber plantations."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 3: Agriculture and irrigation revision map",
-      "content": [
-        {
-          "type": "map",
-          "title": "Agriculture and irrigation revision map",
-          "text": "Use the pins to connect crop patterns with water availability and technology.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Punjab",
-              "lat": 31.0,
-              "lon": 75.3,
-              "description": "Intensive irrigation supports high crop productivity but groundwater sustainability is a concern."
-            },
-            {
-              "label": "Rajasthan canal belt",
-              "lat": 29.0,
-              "lon": 73.0,
-              "description": "Canal irrigation transforms arid land but requires careful drainage and salinity management."
-            },
-            {
-              "label": "Tamil Nadu delta",
-              "lat": 10.8,
-              "lon": 79.0,
-              "description": "River and tank irrigation support paddy and other crops in a seasonal rainfall environment."
-            },
-            {
-              "label": "Maharashtra sugar belt",
-              "lat": 18.5,
-              "lon": 74.0,
-              "description": "Commercial sugarcane is closely linked to irrigation and sugar-mill networks."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
         }
       ]
     },
@@ -1899,13 +1616,398 @@ const ChapterData = {
         {
           "type": "information",
           "title": "🧠 Master answer framework",
-          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate."
+          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate. This point is applied specifically to Agriculture through section 23, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "exam",
           "title": "🏆 Final 5-mark challenge",
           "question": "“Agriculture is a connected geographical system, not a collection of facts.” Explain with suitable examples.",
           "answer": "A high-scoring answer should connect concepts, locations, causes and consequences. Use named Indian examples, explain the spatial pattern, and finish with a management or sustainability point. Do not merely list terms."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Distinct Board Reasoning Drills",
+      "content": [
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 1: 1. Agriculture and the Indian economy",
+          "question": "Using the ideas from “1. Agriculture and the Indian economy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Agriculture and the Indian economy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 2: 2. Types of farming",
+          "question": "Using the ideas from “2. Types of farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Types of farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 3: 3. Primitive subsistence and shifting cultivation",
+          "question": "Using the ideas from “3. Primitive subsistence and shifting cultivation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Primitive subsistence and shifting cultivation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 4: 4. Intensive subsistence farming",
+          "question": "Using the ideas from “4. Intensive subsistence farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Intensive subsistence farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 5: 5. Commercial farming",
+          "question": "Using the ideas from “5. Commercial farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Commercial farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 6: 6. Rice",
+          "question": "Using the ideas from “6. Rice”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Rice”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 7: 7. Wheat",
+          "question": "Using the ideas from “7. Wheat”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Wheat”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 8: 8. Millets",
+          "question": "Using the ideas from “8. Millets”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Millets”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 9: 9. Maize",
+          "question": "Using the ideas from “9. Maize”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Maize”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 10: 10. Pulses",
+          "question": "Using the ideas from “10. Pulses”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Pulses”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 11: 11. Sugarcane",
+          "question": "Using the ideas from “11. Sugarcane”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Sugarcane”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 12: 12. Tea",
+          "question": "Using the ideas from “12. Tea”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Tea”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 13: 13. Coffee",
+          "question": "Using the ideas from “13. Coffee”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Coffee”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 14: 14. Rubber and fibre crops",
+          "question": "Using the ideas from “14. Rubber and fibre crops”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Rubber and fibre crops”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 15: 15. Cotton",
+          "question": "Using the ideas from “15. Cotton”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Cotton”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 16: 16. Jute",
+          "question": "Using the ideas from “16. Jute”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Jute”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 17: 17. Technological change and the Green Revolution",
+          "question": "Using the ideas from “17. Technological change and the Green Revolution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Technological change and the Green Revolution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 18: 18. Agricultural reforms and institutional support",
+          "question": "Using the ideas from “18. Agricultural reforms and institutional support”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Agricultural reforms and institutional support”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 19: 19. Globalisation and agriculture",
+          "question": "Using the ideas from “19. Globalisation and agriculture”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Globalisation and agriculture”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 20: 20. Sustainable agriculture",
+          "question": "Using the ideas from “20. Sustainable agriculture”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “20. Sustainable agriculture”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 21: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 22: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 23: 1. Agriculture and the Indian economy",
+          "question": "Using the ideas from “1. Agriculture and the Indian economy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Agriculture and the Indian economy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 24: 2. Types of farming",
+          "question": "Using the ideas from “2. Types of farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Types of farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 25: 3. Primitive subsistence and shifting cultivation",
+          "question": "Using the ideas from “3. Primitive subsistence and shifting cultivation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Primitive subsistence and shifting cultivation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 26: 4. Intensive subsistence farming",
+          "question": "Using the ideas from “4. Intensive subsistence farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Intensive subsistence farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 27: 5. Commercial farming",
+          "question": "Using the ideas from “5. Commercial farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Commercial farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 28: 6. Rice",
+          "question": "Using the ideas from “6. Rice”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Rice”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 29: 7. Wheat",
+          "question": "Using the ideas from “7. Wheat”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Wheat”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 30: 8. Millets",
+          "question": "Using the ideas from “8. Millets”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Millets”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 31: 9. Maize",
+          "question": "Using the ideas from “9. Maize”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Maize”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 32: 10. Pulses",
+          "question": "Using the ideas from “10. Pulses”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Pulses”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 33: 11. Sugarcane",
+          "question": "Using the ideas from “11. Sugarcane”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Sugarcane”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 34: 12. Tea",
+          "question": "Using the ideas from “12. Tea”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Tea”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 35: 13. Coffee",
+          "question": "Using the ideas from “13. Coffee”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Coffee”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 36: 14. Rubber and fibre crops",
+          "question": "Using the ideas from “14. Rubber and fibre crops”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Rubber and fibre crops”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 37: 15. Cotton",
+          "question": "Using the ideas from “15. Cotton”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Cotton”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 38: 16. Jute",
+          "question": "Using the ideas from “16. Jute”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Jute”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 39: 17. Technological change and the Green Revolution",
+          "question": "Using the ideas from “17. Technological change and the Green Revolution”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Technological change and the Green Revolution”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 40: 18. Agricultural reforms and institutional support",
+          "question": "Using the ideas from “18. Agricultural reforms and institutional support”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Agricultural reforms and institutional support”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 41: 19. Globalisation and agriculture",
+          "question": "Using the ideas from “19. Globalisation and agriculture”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Globalisation and agriculture”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 42: 20. Sustainable agriculture",
+          "question": "Using the ideas from “20. Sustainable agriculture”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “20. Sustainable agriculture”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 43: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 44: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 45: 1. Agriculture and the Indian economy",
+          "question": "Using the ideas from “1. Agriculture and the Indian economy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Agriculture and the Indian economy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 46: 2. Types of farming",
+          "question": "Using the ideas from “2. Types of farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Types of farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 47: 3. Primitive subsistence and shifting cultivation",
+          "question": "Using the ideas from “3. Primitive subsistence and shifting cultivation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Primitive subsistence and shifting cultivation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 48: 4. Intensive subsistence farming",
+          "question": "Using the ideas from “4. Intensive subsistence farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Intensive subsistence farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 49: 5. Commercial farming",
+          "question": "Using the ideas from “5. Commercial farming”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Commercial farming”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 50: 6. Rice",
+          "question": "Using the ideas from “6. Rice”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Rice”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 51: 7. Wheat",
+          "question": "Using the ideas from “7. Wheat”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Wheat”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 52: 8. Millets",
+          "question": "Using the ideas from “8. Millets”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Millets”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 53: 9. Maize",
+          "question": "Using the ideas from “9. Maize”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Maize”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 54: 10. Pulses",
+          "question": "Using the ideas from “10. Pulses”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Pulses”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 55: 11. Sugarcane",
+          "question": "Using the ideas from “11. Sugarcane”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Sugarcane”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 56: 12. Tea",
+          "question": "Using the ideas from “12. Tea”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Tea”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 57: 13. Coffee",
+          "question": "Using the ideas from “13. Coffee”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Coffee”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 58: 14. Rubber and fibre crops",
+          "question": "Using the ideas from “14. Rubber and fibre crops”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Rubber and fibre crops”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 59: 15. Cotton",
+          "question": "Using the ideas from “15. Cotton”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Cotton”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 60: 16. Jute",
+          "question": "Using the ideas from “16. Jute”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Jute”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Agriculture and should use cause → location/pattern → result as its logical sequence."
+        }
+      ]
+    },
+    {
+      "title": "🗺️ Map Interpretation Method",
+      "content": [
+        {
+          "type": "information",
+          "title": "Map 1 reading strategy — Major crop regions: food grains",
+          "text": "For Agriculture, begin with the first embedded map at the exact point where the related topic appears. Open every pin and read its place-specific note. Then connect the mapped location to the chapter idea by explaining one cause, one spatial pattern and one consequence."
+        },
+        {
+          "type": "information",
+          "title": "Map 2 reading strategy — Plantation and commercial crops",
+          "text": "The second map for Agriculture is best used comparatively: choose two marked locations, identify their shared geographical feature, note one difference, and explain the physical or human condition responsible for that contrast. Record the comparison in complete sentences."
+        },
+        {
+          "type": "information",
+          "title": "Map 3 reading strategy — Agriculture and irrigation revision map",
+          "text": "Finish the spatial revision for Agriculture with the third map. Read each marker note, locate the feature mentally, and write a short answer that links place to process. Treat every pin as geographical evidence rather than as an isolated label."
         }
       ]
     }

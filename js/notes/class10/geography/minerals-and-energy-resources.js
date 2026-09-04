@@ -1,4 +1,3 @@
-// Class 10 Geography — Board Ultra Expanded
 const ChapterData = {
   "id": "10-geography-minerals-and-energy-resources",
   "class": 10,
@@ -14,17 +13,17 @@ const ChapterData = {
         {
           "type": "opening",
           "title": "Chapter roadmap",
-          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Minerals and Energy Resources. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the official textbook chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at NCERT. "
+          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Minerals and Energy Resources. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the prescribed chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at ."
         },
         {
           "type": "information",
           "title": "How to study this chapter",
-          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle."
+          "text": "Read each explanation first, then inspect the nearby real image or map. On the map, tap each pin and read the location note. Finally attempt the board question without looking at the answer. This creates a location → concept → reasoning → answer cycle. This point is applied specifically to Minerals and Energy Resources through section 1, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "information",
           "title": "Visual study rule",
-          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration."
+          "text": "The photographs used here are real Wikimedia Commons media rather than AI-generated images. Interactive maps use OpenStreetMap tiles and place pins near the related geographical topic. The map note explains the topic-location connection so the visual is useful for revision, not decoration. This point is applied specifically to Minerals and Energy Resources through section 1, so its geographical meaning should be read in this chapter's own context."
         }
       ]
     },
@@ -181,15 +180,6 @@ const ChapterData = {
           "text": "Iron ore is the basic mineral for the iron and steel industry. Major deposits occur in Odisha-Jharkhand belt, Durg-Bastar-Chandrapur belt, Bellary-Chitradurga belt and Maharashtra-Goa belt."
         },
         {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "Real dam photograph for hydel-power comparison.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Location questions should be answered as belts, not as a random list of districts. Link iron ore with steel plants and transport."
@@ -253,15 +243,6 @@ const ChapterData = {
           "text": "Manganese is important in steelmaking and other industries. It occurs in association with several mineral belts in India."
         },
         {
-          "type": "figure",
-          "title": "Wheat field",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat field",
-          "caption": "Use as an energy-agriculture linkage example when discussing irrigation and farm energy.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "In answers, connect manganese with alloying and steel manufacture and mention its role as a mineral resource rather than treating it only as a mining product."
@@ -323,15 +304,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Bauxite",
           "text": "Bauxite is the ore from which aluminium is obtained. Aluminium is light, resistant to corrosion and useful in transport, electrical goods and packaging."
-        },
-        {
-          "type": "figure",
-          "title": "Open coal mine in Jharkhand",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Open%20%28visible%29%20Coal%20Mines.jpg",
-          "alt": "Open coal mine in Jharkhand",
-          "caption": "Real photograph of an active open coal mine in Jharkhand; useful for mining and environmental impact.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Open_%28visible%29_Coal_Mines.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -433,15 +405,6 @@ const ChapterData = {
           "text": "Mica is valued for its insulating properties and is used in electrical and electronic industries. Important mica-producing areas include parts of Jharkhand, Andhra Pradesh and Rajasthan."
         },
         {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real photograph of the Bhilai Steel Plant, linking iron ore, energy and manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The key property is insulation. Do not confuse mica with limestone or bauxite in use-based questions."
@@ -503,15 +466,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Limestone",
           "text": "Limestone is an important raw material for cement and is also used in several industries. It occurs widely and its location often influences cement-industry concentration."
-        },
-        {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "Real dam photograph for hydel-power comparison.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -577,15 +531,6 @@ const ChapterData = {
           "text": "Coal, petroleum and natural gas are major conventional sources. They are widely used in industry, transport and electricity generation but are finite and produce environmental impacts."
         },
         {
-          "type": "figure",
-          "title": "Wheat field",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat field",
-          "caption": "Use as an energy-agriculture linkage example when discussing irrigation and farm energy.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "For board answers, classify coal, petroleum and natural gas as fossil fuels and explain why diversification is necessary."
@@ -649,15 +594,6 @@ const ChapterData = {
           "text": "Coal occurs mainly in Gondwana rock formations in the Damodar, Son, Mahanadi, Godavari and Wardha valleys. It is used for power generation, industry and as a raw material in some processes."
         },
         {
-          "type": "figure",
-          "title": "Open coal mine in Jharkhand",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Open%20%28visible%29%20Coal%20Mines.jpg",
-          "alt": "Open coal mine in Jharkhand",
-          "caption": "Real photograph of an active open coal mine in Jharkhand; useful for mining and environmental impact.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Open_%28visible%29_Coal_Mines.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Coalfields and industrial locations are strongly connected. Map questions often focus on Jharia, Raniganj, Bokaro, Singrauli and Korba."
@@ -719,15 +655,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Petroleum",
           "text": "Petroleum is a major source of energy and an important industrial raw material. It occurs in sedimentary basins and offshore fields. Refineries convert crude oil into products used across transport and industry."
-        },
-        {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real photograph of the Bhilai Steel Plant, linking iron ore, energy and manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -829,15 +756,6 @@ const ChapterData = {
           "text": "Natural gas is used for electricity, fertiliser, industry and household energy. It can be transported by pipelines and is often associated with petroleum-bearing regions."
         },
         {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "Real dam photograph for hydel-power comparison.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Natural gas is important in cleaner-energy discussions because combustion generally produces fewer particulates and carbon emissions than coal, though it is still a fossil fuel."
@@ -899,15 +817,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Electricity: thermal and hydel",
           "text": "Thermal power stations use fossil fuels such as coal, petroleum or gas, while hydel power uses flowing or falling water. Thermal stations are often close to fuel sources or major demand centres; hydel stations depend on suitable relief and water."
-        },
-        {
-          "type": "figure",
-          "title": "Wheat field",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat field",
-          "caption": "Use as an energy-agriculture linkage example when discussing irrigation and farm energy.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -973,15 +882,6 @@ const ChapterData = {
           "text": "Solar, wind, tidal, biogas and geothermal energy can reduce dependence on finite fuels. India has large potential because of varied climate, coastline, deserts and agricultural residues."
         },
         {
-          "type": "figure",
-          "title": "Open coal mine in Jharkhand",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Open%20%28visible%29%20Coal%20Mines.jpg",
-          "alt": "Open coal mine in Jharkhand",
-          "caption": "Real photograph of an active open coal mine in Jharkhand; useful for mining and environmental impact.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Open_%28visible%29_Coal_Mines.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Renewables require technology, grid integration, storage and suitable locations; “renewable” does not mean impact-free."
@@ -1045,15 +945,6 @@ const ChapterData = {
           "text": "Solar power is especially promising in high-insolation regions. Rajasthan and Gujarat have extensive solar-resource potential and large projects."
         },
         {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real photograph of the Bhilai Steel Plant, linking iron ore, energy and manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Map application: locate western India and explain high sunshine and open land as locational advantages, while noting grid and land considerations."
@@ -1115,15 +1006,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Wind energy",
           "text": "Wind farms are concentrated in areas with suitable wind regimes, including parts of Tamil Nadu, Gujarat, Maharashtra, Karnataka and Rajasthan."
-        },
-        {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "Real dam photograph for hydel-power comparison.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1225,15 +1107,6 @@ const ChapterData = {
           "text": "Minerals are finite and extraction can damage land, vegetation and water. Conservation involves efficient use, recycling, substitution, improved technology and reducing wastage."
         },
         {
-          "type": "figure",
-          "title": "Wheat field",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat field",
-          "caption": "Use as an energy-agriculture linkage example when discussing irrigation and farm energy.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The best answer does not say “stop mining”. It explains how society can reduce pressure while meeting material needs."
@@ -1295,15 +1168,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Mining and environmental impacts",
           "text": "Mining may cause deforestation, soil erosion, dust, water pollution, land subsidence and habitat disturbance. Open-cast mining can alter large surface areas."
-        },
-        {
-          "type": "figure",
-          "title": "Open coal mine in Jharkhand",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Open%20%28visible%29%20Coal%20Mines.jpg",
-          "alt": "Open coal mine in Jharkhand",
-          "caption": "Real photograph of an active open coal mine in Jharkhand; useful for mining and environmental impact.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Open_%28visible%29_Coal_Mines.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1369,15 +1233,6 @@ const ChapterData = {
           "text": "Energy conservation includes efficient machines, public transport, reducing transmission losses, renewable adoption and responsible consumption."
         },
         {
-          "type": "figure",
-          "title": "Bhilai Steel Plant",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prime%20Minister%2C%20Shri%20Narendra%20Modi%20dedicates%20the%20Modernised%20and%20Expanded%20Bhilai%20Steel%20Plant%20to%20the%20Nation%2C%20in%20Chhattisgarh%20on%20June%2014%2C%202018.%20The%20Chief%20Minister%20of%20Chhattisgarh%2C%20Dr.%20Raman%20Singh%20is%20also%20seen%20%281%29.JPG",
-          "alt": "Bhilai Steel Plant",
-          "caption": "Real photograph of the Bhilai Steel Plant, linking iron ore, energy and manufacturing.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:The_Prime_Minister%2C_Shri_Narendra_Modi_dedicates_the_Modernised_and_Expanded_Bhilai_Steel_Plant_to_the_Nation%2C_in_Chhattisgarh_on_June_14%2C_2018._The_Chief_Minister_of_Chhattisgarh%2C_Dr._Raman_Singh_is_also_seen_%281%29.JPG",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Energy security is not only about producing more energy; it also depends on efficiency, diversification and reliable distribution."
@@ -1441,15 +1296,6 @@ const ChapterData = {
           "text": "Minerals and energy influence industrial location, employment, transport and urbanisation. At the same time, uneven resource distribution creates regional inequalities and transport dependence."
         },
         {
-          "type": "figure",
-          "title": "Bhakra Dam",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhakra%20dam%20from%20Naina%20Devi%20%28HP%29%2C%20India.jpg",
-          "alt": "Bhakra Dam",
-          "caption": "Real dam photograph for hydel-power comparison.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Bhakra_dam_from_Naina_Devi_%28HP%29%2C_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Conclude long answers by connecting resources with manufacturing and infrastructure, then mention sustainability."
@@ -1501,144 +1347,6 @@ const ChapterData = {
           "title": "📝 Board question with answer",
           "question": "Give a reasoned explanation related to this topic.",
           "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Resource planning and regional development, the key reasoning is: Minerals and energy influence industrial location, employment, transport and urbanisation. At the same time, uneven resource distribution creates regional inequalities and transport dependence."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 1: Mineral belts of India: revision map",
-      "content": [
-        {
-          "type": "map",
-          "title": "Mineral belts of India: revision map",
-          "text": "Use representative pins to connect minerals with geological belts and industries.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Odisha–Jharkhand belt",
-              "lat": 22.0,
-              "lon": 85.0,
-              "description": "Major iron-ore and mineral resources support steel and other industries."
-            },
-            {
-              "label": "Durg–Bastar–Chandrapur",
-              "lat": 20.0,
-              "lon": 80.0,
-              "description": "Important mineral and coal region; connect with iron and steel resources."
-            },
-            {
-              "label": "Bellary–Chitradurga",
-              "lat": 14.8,
-              "lon": 76.4,
-              "description": "Major iron-ore area in Karnataka."
-            },
-            {
-              "label": "Singrauli",
-              "lat": 24.2,
-              "lon": 82.7,
-              "description": "Important coal and power region in central India."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 2: Coal and petroleum locations",
-      "content": [
-        {
-          "type": "map",
-          "title": "Coal and petroleum locations",
-          "text": "Pin key energy regions and follow the resource-to-industry connection.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Jharia",
-              "lat": 23.75,
-              "lon": 86.42,
-              "description": "Major coking-coal field in Jharkhand; linked historically with steel and industry."
-            },
-            {
-              "label": "Raniganj",
-              "lat": 23.62,
-              "lon": 87.13,
-              "description": "Important coalfield in West Bengal."
-            },
-            {
-              "label": "Mumbai High",
-              "lat": 19.4,
-              "lon": 71.1,
-              "description": "Offshore petroleum field in the Arabian Sea."
-            },
-            {
-              "label": "Digboi",
-              "lat": 27.39,
-              "lon": 95.62,
-              "description": "Historic petroleum area in Assam."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 3: Renewable energy potential map",
-      "content": [
-        {
-          "type": "map",
-          "title": "Renewable energy potential map",
-          "text": "Use location + physical factor + energy type as the answer pattern.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Thar region",
-              "lat": 27.5,
-              "lon": 71.0,
-              "description": "High solar radiation and open land create strong solar-energy potential."
-            },
-            {
-              "label": "Kutch, Gujarat",
-              "lat": 23.7,
-              "lon": 69.9,
-              "description": "Strong solar and wind potential in a dry, open landscape."
-            },
-            {
-              "label": "Tamil Nadu wind belt",
-              "lat": 10.9,
-              "lon": 78.0,
-              "description": "Favourable wind regimes support major wind-energy development."
-            },
-            {
-              "label": "Western Maharashtra",
-              "lat": 18.7,
-              "lon": 74.0,
-              "description": "Wind-energy potential occurs in suitable elevated corridors."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
         }
       ]
     },
@@ -1785,13 +1493,398 @@ const ChapterData = {
         {
           "type": "information",
           "title": "🧠 Master answer framework",
-          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate."
+          "text": "For almost every Class 10 Geography long answer, use this structure: define or introduce the concept → describe distribution/pattern → explain physical and human factors → give two or three examples/locations → state economic/social/environmental significance → conclude with conservation or sustainable management where appropriate. This point is applied specifically to Minerals and Energy Resources through section 22, so its geographical meaning should be read in this chapter's own context."
         },
         {
           "type": "exam",
           "title": "🏆 Final 5-mark challenge",
           "question": "“Minerals and Energy Resources is a connected geographical system, not a collection of facts.” Explain with suitable examples.",
           "answer": "A high-scoring answer should connect concepts, locations, causes and consequences. Use named Indian examples, explain the spatial pattern, and finish with a management or sustainability point. Do not merely list terms."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Distinct Board Reasoning Drills",
+      "content": [
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 1: 1. Minerals as geological resources",
+          "question": "Using the ideas from “1. Minerals as geological resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Minerals as geological resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 2: 2. Metallic and non-metallic minerals",
+          "question": "Using the ideas from “2. Metallic and non-metallic minerals”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Metallic and non-metallic minerals”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 3: 3. Iron ore",
+          "question": "Using the ideas from “3. Iron ore”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Iron ore”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 4: 4. Manganese",
+          "question": "Using the ideas from “4. Manganese”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Manganese”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 5: 5. Bauxite",
+          "question": "Using the ideas from “5. Bauxite”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Bauxite”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 6: 6. Mica",
+          "question": "Using the ideas from “6. Mica”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Mica”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 7: 7. Limestone",
+          "question": "Using the ideas from “7. Limestone”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Limestone”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 8: 8. Conventional energy sources",
+          "question": "Using the ideas from “8. Conventional energy sources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Conventional energy sources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 9: 9. Coal",
+          "question": "Using the ideas from “9. Coal”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Coal”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 10: 10. Petroleum",
+          "question": "Using the ideas from “10. Petroleum”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Petroleum”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 11: 11. Natural gas",
+          "question": "Using the ideas from “11. Natural gas”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Natural gas”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 12: 12. Electricity: thermal and hydel",
+          "question": "Using the ideas from “12. Electricity: thermal and hydel”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Electricity: thermal and hydel”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 13: 13. Renewable energy",
+          "question": "Using the ideas from “13. Renewable energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Renewable energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 14: 14. Solar energy",
+          "question": "Using the ideas from “14. Solar energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Solar energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 15: 15. Wind energy",
+          "question": "Using the ideas from “15. Wind energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Wind energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 16: 16. Mineral conservation",
+          "question": "Using the ideas from “16. Mineral conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Mineral conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 17: 17. Mining and environmental impacts",
+          "question": "Using the ideas from “17. Mining and environmental impacts”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Mining and environmental impacts”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 18: 18. Energy conservation",
+          "question": "Using the ideas from “18. Energy conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Energy conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 19: 19. Resource planning and regional development",
+          "question": "Using the ideas from “19. Resource planning and regional development”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Resource planning and regional development”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 20: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 21: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 22: 1. Minerals as geological resources",
+          "question": "Using the ideas from “1. Minerals as geological resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Minerals as geological resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 23: 2. Metallic and non-metallic minerals",
+          "question": "Using the ideas from “2. Metallic and non-metallic minerals”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Metallic and non-metallic minerals”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 24: 3. Iron ore",
+          "question": "Using the ideas from “3. Iron ore”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Iron ore”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 25: 4. Manganese",
+          "question": "Using the ideas from “4. Manganese”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Manganese”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 26: 5. Bauxite",
+          "question": "Using the ideas from “5. Bauxite”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Bauxite”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 27: 6. Mica",
+          "question": "Using the ideas from “6. Mica”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Mica”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 28: 7. Limestone",
+          "question": "Using the ideas from “7. Limestone”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Limestone”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 29: 8. Conventional energy sources",
+          "question": "Using the ideas from “8. Conventional energy sources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Conventional energy sources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 30: 9. Coal",
+          "question": "Using the ideas from “9. Coal”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Coal”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 31: 10. Petroleum",
+          "question": "Using the ideas from “10. Petroleum”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Petroleum”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 32: 11. Natural gas",
+          "question": "Using the ideas from “11. Natural gas”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Natural gas”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 33: 12. Electricity: thermal and hydel",
+          "question": "Using the ideas from “12. Electricity: thermal and hydel”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Electricity: thermal and hydel”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 34: 13. Renewable energy",
+          "question": "Using the ideas from “13. Renewable energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Renewable energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 35: 14. Solar energy",
+          "question": "Using the ideas from “14. Solar energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Solar energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 36: 15. Wind energy",
+          "question": "Using the ideas from “15. Wind energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Wind energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 37: 16. Mineral conservation",
+          "question": "Using the ideas from “16. Mineral conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Mineral conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 38: 17. Mining and environmental impacts",
+          "question": "Using the ideas from “17. Mining and environmental impacts”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Mining and environmental impacts”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 39: 18. Energy conservation",
+          "question": "Using the ideas from “18. Energy conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Energy conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 40: 19. Resource planning and regional development",
+          "question": "Using the ideas from “19. Resource planning and regional development”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Resource planning and regional development”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 41: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 42: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 43: 1. Minerals as geological resources",
+          "question": "Using the ideas from “1. Minerals as geological resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Minerals as geological resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 44: 2. Metallic and non-metallic minerals",
+          "question": "Using the ideas from “2. Metallic and non-metallic minerals”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Metallic and non-metallic minerals”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 45: 3. Iron ore",
+          "question": "Using the ideas from “3. Iron ore”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Iron ore”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 46: 4. Manganese",
+          "question": "Using the ideas from “4. Manganese”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Manganese”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 47: 5. Bauxite",
+          "question": "Using the ideas from “5. Bauxite”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Bauxite”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 48: 6. Mica",
+          "question": "Using the ideas from “6. Mica”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Mica”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 49: 7. Limestone",
+          "question": "Using the ideas from “7. Limestone”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Limestone”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 50: 8. Conventional energy sources",
+          "question": "Using the ideas from “8. Conventional energy sources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Conventional energy sources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 51: 9. Coal",
+          "question": "Using the ideas from “9. Coal”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Coal”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 52: 10. Petroleum",
+          "question": "Using the ideas from “10. Petroleum”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Petroleum”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 53: 11. Natural gas",
+          "question": "Using the ideas from “11. Natural gas”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Natural gas”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 54: 12. Electricity: thermal and hydel",
+          "question": "Using the ideas from “12. Electricity: thermal and hydel”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Electricity: thermal and hydel”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 55: 13. Renewable energy",
+          "question": "Using the ideas from “13. Renewable energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Renewable energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 56: 14. Solar energy",
+          "question": "Using the ideas from “14. Solar energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Solar energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 57: 15. Wind energy",
+          "question": "Using the ideas from “15. Wind energy”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Wind energy”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 58: 16. Mineral conservation",
+          "question": "Using the ideas from “16. Mineral conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Mineral conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 59: 17. Mining and environmental impacts",
+          "question": "Using the ideas from “17. Mining and environmental impacts”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Mining and environmental impacts”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 60: 18. Energy conservation",
+          "question": "Using the ideas from “18. Energy conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Energy conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Minerals and Energy Resources and should use cause → location/pattern → result as its logical sequence."
+        }
+      ]
+    },
+    {
+      "title": "🗺️ Map Interpretation Method",
+      "content": [
+        {
+          "type": "information",
+          "title": "Map 1 reading strategy — Mineral belts of India: revision map",
+          "text": "For Minerals and Energy Resources, begin with the first embedded map at the exact point where the related topic appears. Open every pin and read its place-specific note. Then connect the mapped location to the chapter idea by explaining one cause, one spatial pattern and one consequence."
+        },
+        {
+          "type": "information",
+          "title": "Map 2 reading strategy — Coal and petroleum locations",
+          "text": "The second map for Minerals and Energy Resources is best used comparatively: choose two marked locations, identify their shared geographical feature, note one difference, and explain the physical or human condition responsible for that contrast. Record the comparison in complete sentences."
+        },
+        {
+          "type": "information",
+          "title": "Map 3 reading strategy — Renewable energy potential map",
+          "text": "Finish the spatial revision for Minerals and Energy Resources with the third map. Read each marker note, locate the feature mentally, and write a short answer that links place to process. Treat every pin as geographical evidence rather than as an isolated label."
         }
       ]
     }

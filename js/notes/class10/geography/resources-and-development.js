@@ -1,4 +1,3 @@
-// Class 10 Geography — Board Ultra Expanded
 const ChapterData = {
   "id": "10-geography-resources-and-development",
   "class": 10,
@@ -14,7 +13,7 @@ const ChapterData = {
         {
           "type": "opening",
           "title": "Chapter roadmap",
-          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Resources and Development. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the official textbook chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at NCERT. "
+          "text": "This board-oriented chapter is an expanded study guide for Class 10 Geography: Resources and Development. It follows the chapter sequence, expands the geographical reasoning behind each idea, and adds real visual evidence, interactive OpenStreetMap-based maps, board-style practice and revision tools. The source framework is aligned with the prescribed chapter sequence; the current official contents list these seven chapters in Contemporary India – II. See the official textbook listing at ."
         },
         {
           "type": "information",
@@ -325,15 +324,6 @@ const ChapterData = {
           "text": "A potential resource exists in a region but has not been fully utilised. A developed resource has been surveyed, measured and is being used. Stock refers to material that can satisfy human needs but cannot currently be used because appropriate technology is unavailable. Reserves are part of stock that can be used with existing technology but are kept for meeting future requirements."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Terraced paddy fields demonstrate how cultivation can adapt to slopes.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "The terms are often confused. In a board answer, explain them as stages or conditions of knowledge, technology and use rather than as four unrelated definitions."
@@ -433,15 +423,6 @@ const ChapterData = {
           "text": "Human development has historically increased the scale of resource use. Industrialisation, urbanisation, transport and modern agriculture can improve living standards, but uncontrolled extraction may cause depletion, pollution, land degradation and social conflict. Resource development therefore has to balance present needs with the needs of future generations."
         },
         {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "A real field landscape illustrating agricultural use of land and soil.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Sustainable development is not “no development”. It means using resources efficiently while maintaining ecological functions and the long-term ability of society to meet its needs."
@@ -503,15 +484,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Resource planning in India",
           "text": "Resource planning involves identification and inventory of resources, surveying and mapping, qualitative and quantitative estimation, planning structures and matching resource development with national priorities. Because resources are unevenly distributed, planning must consider regional differences and technology."
-        },
-        {
-          "type": "figure",
-          "title": "Terraced rice fields of Sikkim",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20rice%20fields%20of%20Sikkim%20India.jpg",
-          "alt": "Terraced rice fields of Sikkim",
-          "caption": "A real Sikkim landscape showing terrace agriculture.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_rice_fields_of_Sikkim_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -577,15 +549,6 @@ const ChapterData = {
           "text": "Land supports agriculture, forests, settlements, transport and industries. Land-use patterns vary with physical factors such as relief, climate and soil as well as human factors such as population density, technology and institutional arrangements."
         },
         {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "A real wheat field illustrating soil–crop relationships.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Land is finite, so competing uses create pressure. Changes in land use can also affect soil erosion, water recharge, biodiversity and food security."
@@ -649,15 +612,6 @@ const ChapterData = {
           "text": "Land degradation means decline in the quality and productive capacity of land. Major causes include deforestation, overgrazing, mining, excessive irrigation, industrial effluents and inappropriate agricultural practices. Measures include afforestation, controlled grazing, proper irrigation, shelter belts, soil conservation and reclamation of mined land."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Terraced paddy fields demonstrate how cultivation can adapt to slopes.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Board answers score better when each cause is paired with a suitable measure. For example, overgrazing can be addressed through controlled grazing; mining areas require reclamation and ecological restoration."
@@ -719,15 +673,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Soil as a resource",
           "text": "Soil is a living natural system formed through the interaction of parent rock, relief, climate, vegetation, organisms and time. It supports crops, stores water and nutrients and provides a base for ecosystems and settlements. Soil formation is slow, so erosion can remove in a short period what took a very long time to form."
-        },
-        {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "A real field landscape illustrating agricultural use of land and soil.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -829,15 +774,6 @@ const ChapterData = {
           "text": "Alluvial soil is widely distributed in the northern plains and river valleys. It is formed by deposits brought by rivers and is generally very fertile. Newer alluvium is called khadar and older alluvium is called bangar. It supports crops such as rice, wheat, sugarcane and pulses in suitable regions."
         },
         {
-          "type": "figure",
-          "title": "Terraced rice fields of Sikkim",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20rice%20fields%20of%20Sikkim%20India.jpg",
-          "alt": "Terraced rice fields of Sikkim",
-          "caption": "A real Sikkim landscape showing terrace agriculture.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_rice_fields_of_Sikkim_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Khadar and bangar are high-value terms. Remember that khadar is newer and is renewed more frequently by floods, while bangar is older alluvium, often lying above floodplains."
@@ -899,15 +835,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Black soil",
           "text": "Black soil is associated mainly with the Deccan Trap region and is well suited to cotton. It is clayey, holds moisture well and develops cracks when dry, which helps in self-aeration. Its colour and properties are related to the parent material and clay content."
-        },
-        {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "A real wheat field illustrating soil–crop relationships.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -973,15 +900,6 @@ const ChapterData = {
           "text": "Red and yellow soils develop on crystalline igneous rocks in areas of low rainfall in the eastern and southern parts of the Deccan plateau. Their colour is often associated with diffusion of iron in crystalline and metamorphic rocks."
         },
         {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Terraced paddy fields demonstrate how cultivation can adapt to slopes.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Do not confuse red and yellow soils with laterite soil. Mention the broad plateau distribution and the role of iron compounds in colour."
@@ -1045,15 +963,6 @@ const ChapterData = {
           "text": "Laterite soil develops under conditions of high temperature and heavy rainfall with alternate wet and dry periods. Intense leaching removes soluble nutrients. With suitable manuring and management, laterite areas can support crops such as tea and coffee in some regions."
         },
         {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "A real field landscape illustrating agricultural use of land and soil.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Leaching is the key process. Link high rainfall to washing out of nutrients and then explain why soil management becomes important."
@@ -1115,15 +1024,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Arid soil",
           "text": "Arid soils occur in dry western regions and are generally sandy to gravelly, with low moisture and often high salt content. In some areas, proper irrigation and soil management can improve agricultural use."
-        },
-        {
-          "type": "figure",
-          "title": "Terraced rice fields of Sikkim",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20rice%20fields%20of%20Sikkim%20India.jpg",
-          "alt": "Terraced rice fields of Sikkim",
-          "caption": "A real Sikkim landscape showing terrace agriculture.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_rice_fields_of_Sikkim_India.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1225,15 +1125,6 @@ const ChapterData = {
           "text": "Forest and mountain soils vary with altitude, slope, vegetation and parent material. They may be fertile in valley areas and shallow on steep slopes. Organic matter can be important under forest cover."
         },
         {
-          "type": "figure",
-          "title": "Wheat Field in India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_Field_in_India.jpg",
-          "alt": "Wheat Field in India",
-          "caption": "A real wheat field illustrating soil–crop relationships.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Wheat_Field_in_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Steep slopes increase erosion risk, so terracing, contour farming and maintaining vegetation are important conservation ideas."
@@ -1295,15 +1186,6 @@ const ChapterData = {
           "type": "paragraph",
           "title": "Soil erosion",
           "text": "Soil erosion is the removal of the upper fertile layer by agents such as running water and wind. It may occur as gully erosion, sheet erosion or wind erosion. Human activities can accelerate natural erosion."
-        },
-        {
-          "type": "figure",
-          "title": "Terraced paddy fields",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20paddy%20fields.jpg",
-          "alt": "Terraced paddy fields",
-          "caption": "Terraced paddy fields demonstrate how cultivation can adapt to slopes.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_paddy_fields.jpg",
-          "license": "CC BY-SA / see source"
         },
         {
           "type": "information",
@@ -1369,15 +1251,6 @@ const ChapterData = {
           "text": "Conservation methods include contour ploughing, terrace farming, strip cropping, shelter belts, contour barriers, afforestation and controlled grazing. The method should match the local terrain and erosion agent."
         },
         {
-          "type": "figure",
-          "title": "Rice fields in rural India",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice%20fields%20in%20rural%20India.jpg",
-          "alt": "Rice fields in rural India",
-          "caption": "A real field landscape illustrating agricultural use of land and soil.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Rice_fields_in_rural_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "Always connect method to condition: contour ploughing on slopes, terraces in steep mountainous areas, strip cropping in broad cultivated fields, shelter belts in windy dry regions."
@@ -1441,15 +1314,6 @@ const ChapterData = {
           "text": "Resources are interconnected. Soil, water, vegetation, minerals and energy support agriculture and industry, while poor management of one resource can damage others. For example, deforestation may increase runoff and erosion, while mining can disturb land and water."
         },
         {
-          "type": "figure",
-          "title": "Terraced rice fields of Sikkim",
-          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Terraced%20rice%20fields%20of%20Sikkim%20India.jpg",
-          "alt": "Terraced rice fields of Sikkim",
-          "caption": "A real Sikkim landscape showing terrace agriculture.",
-          "source": "https://commons.wikimedia.org/wiki/wiki/File:Terraced_rice_fields_of_Sikkim_India.jpg",
-          "license": "CC BY-SA / see source"
-        },
-        {
           "type": "information",
           "title": "🔎 Detailed board explanation",
           "text": "This is a powerful conclusion for long answers because it shows geographical reasoning instead of memorised definitions."
@@ -1501,144 +1365,6 @@ const ChapterData = {
           "title": "📝 Board question with answer",
           "question": "Give a reasoned explanation related to this topic.",
           "answer": "A reasoned answer should begin with the relevant geographical condition, explain the process or location factor and finish with its effect. For Integrated resource thinking, the key reasoning is: Resources are interconnected. Soil, water, vegetation, minerals and energy support agriculture and industry, while poor management of one resource can damage others. For example, deforestation may increase runoff and erosion, while mining can disturb land and water."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 1: India: major soil-resource regions",
-      "content": [
-        {
-          "type": "map",
-          "title": "India: major soil-resource regions",
-          "text": "Use the interactive map to connect soil regions with relief and agriculture.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Punjab–Haryana alluvial plain",
-              "lat": 30.9,
-              "lon": 75.8,
-              "description": "Alluvial soils support intensive farming; connect the location with wheat and rice cultivation."
-            },
-            {
-              "label": "Deccan black-soil belt",
-              "lat": 18.5,
-              "lon": 75.0,
-              "description": "Black soil is strongly associated with the Deccan Trap and cotton cultivation."
-            },
-            {
-              "label": "Rajasthan arid belt",
-              "lat": 27.0,
-              "lon": 72.5,
-              "description": "Dry conditions favour arid soils; irrigation and salinity management matter."
-            },
-            {
-              "label": "Assam–Northeast",
-              "lat": 26.2,
-              "lon": 92.9,
-              "description": "High rainfall and varied relief create distinct soil and land-management conditions."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 2: India: soil conservation examples",
-      "content": [
-        {
-          "type": "map",
-          "title": "India: soil conservation examples",
-          "text": "Pin these places to revise why the conservation method changes with relief and climate.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Uttarakhand terraces",
-              "lat": 30.3,
-              "lon": 79.1,
-              "description": "Terracing slows runoff on steep slopes and creates level cultivation surfaces."
-            },
-            {
-              "label": "Rajasthan shelter belts",
-              "lat": 27.0,
-              "lon": 74.0,
-              "description": "Shelter belts reduce wind velocity and help control wind erosion."
-            },
-            {
-              "label": "Chambal ravines",
-              "lat": 26.6,
-              "lon": 77.9,
-              "description": "Gully erosion creates ravines; vegetation and runoff control are important."
-            },
-            {
-              "label": "Deccan plateau",
-              "lat": 17.7,
-              "lon": 75.9,
-              "description": "Contour methods and maintaining vegetation can reduce runoff and soil loss."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
-        }
-      ]
-    },
-    {
-      "title": "🗺️ Map Lab 3: India: resource-planning hotspots",
-      "content": [
-        {
-          "type": "map",
-          "title": "India: resource-planning hotspots",
-          "text": "Use this map as a revision tool linking resource availability, population and economic activity.",
-          "mapCenter": [
-            22.5,
-            79
-          ],
-          "zoom": 4.5,
-          "markers": [
-            {
-              "label": "Chhattisgarh",
-              "lat": 21.3,
-              "lon": 82.0,
-              "description": "Minerals and forests make resource planning especially important; balance extraction with conservation."
-            },
-            {
-              "label": "Jharkhand",
-              "lat": 23.6,
-              "lon": 85.3,
-              "description": "Mineral resources support industry but can also create land and environmental pressures."
-            },
-            {
-              "label": "Punjab",
-              "lat": 31.1,
-              "lon": 75.3,
-              "description": "Intensive agriculture shows how technology can transform resource use while creating sustainability challenges."
-            },
-            {
-              "label": "Rajasthan",
-              "lat": 27.0,
-              "lon": 74.2,
-              "description": "Large renewable-energy potential coexists with arid-land constraints."
-            }
-          ]
-        },
-        {
-          "type": "information",
-          "title": "How to use this map in the board exam",
-          "text": "First identify the marked place, then state the associated resource, crop, industry, wildlife habitat or transport feature. Finally explain one geographical reason for its location. This turns map pointing into a complete answer rather than a memorised label."
         }
       ]
     },
@@ -1792,6 +1518,391 @@ const ChapterData = {
           "title": "🏆 Final 5-mark challenge",
           "question": "“Resources and Development is a connected geographical system, not a collection of facts.” Explain with suitable examples.",
           "answer": "A high-scoring answer should connect concepts, locations, causes and consequences. Use named Indian examples, explain the spatial pattern, and finish with a management or sustainability point. Do not merely list terms."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Distinct Board Reasoning Drills",
+      "content": [
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 1: 1. Meaning and classification of resources",
+          "question": "Using the ideas from “1. Meaning and classification of resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Meaning and classification of resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 2: 2. Biotic and abiotic resources",
+          "question": "Using the ideas from “2. Biotic and abiotic resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Biotic and abiotic resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 3: 3. Renewable and non-renewable resources",
+          "question": "Using the ideas from “3. Renewable and non-renewable resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Renewable and non-renewable resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 4: 4. Individual, community, national and international resources",
+          "question": "Using the ideas from “4. Individual, community, national and international resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Individual, community, national and international resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 5: 5. Potential, developed, stock and reserves",
+          "question": "Using the ideas from “5. Potential, developed, stock and reserves”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Potential, developed, stock and reserves”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 6: 6. Development of resources and sustainability",
+          "question": "Using the ideas from “6. Development of resources and sustainability”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Development of resources and sustainability”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 7: 7. Resource planning in India",
+          "question": "Using the ideas from “7. Resource planning in India”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Resource planning in India”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 8: 8. Land resources and land use",
+          "question": "Using the ideas from “8. Land resources and land use”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Land resources and land use”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 9: 9. Land degradation",
+          "question": "Using the ideas from “9. Land degradation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Land degradation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 10: 10. Soil as a resource",
+          "question": "Using the ideas from “10. Soil as a resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Soil as a resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 11: 11. Alluvial soil",
+          "question": "Using the ideas from “11. Alluvial soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Alluvial soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 12: 12. Black soil",
+          "question": "Using the ideas from “12. Black soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Black soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 13: 13. Red and yellow soil",
+          "question": "Using the ideas from “13. Red and yellow soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Red and yellow soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 14: 14. Laterite soil",
+          "question": "Using the ideas from “14. Laterite soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Laterite soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 15: 15. Arid soil",
+          "question": "Using the ideas from “15. Arid soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Arid soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 16: 16. Forest and mountain soil",
+          "question": "Using the ideas from “16. Forest and mountain soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Forest and mountain soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 17: 17. Soil erosion",
+          "question": "Using the ideas from “17. Soil erosion”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Soil erosion”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 18: 18. Soil conservation",
+          "question": "Using the ideas from “18. Soil conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Soil conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 19: 19. Integrated resource thinking",
+          "question": "Using the ideas from “19. Integrated resource thinking”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Integrated resource thinking”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 20: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 21: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 22: 1. Meaning and classification of resources",
+          "question": "Using the ideas from “1. Meaning and classification of resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Meaning and classification of resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 23: 2. Biotic and abiotic resources",
+          "question": "Using the ideas from “2. Biotic and abiotic resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Biotic and abiotic resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 24: 3. Renewable and non-renewable resources",
+          "question": "Using the ideas from “3. Renewable and non-renewable resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Renewable and non-renewable resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 25: 4. Individual, community, national and international resources",
+          "question": "Using the ideas from “4. Individual, community, national and international resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Individual, community, national and international resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 26: 5. Potential, developed, stock and reserves",
+          "question": "Using the ideas from “5. Potential, developed, stock and reserves”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Potential, developed, stock and reserves”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 27: 6. Development of resources and sustainability",
+          "question": "Using the ideas from “6. Development of resources and sustainability”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Development of resources and sustainability”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 28: 7. Resource planning in India",
+          "question": "Using the ideas from “7. Resource planning in India”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Resource planning in India”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 29: 8. Land resources and land use",
+          "question": "Using the ideas from “8. Land resources and land use”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Land resources and land use”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 30: 9. Land degradation",
+          "question": "Using the ideas from “9. Land degradation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Land degradation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 31: 10. Soil as a resource",
+          "question": "Using the ideas from “10. Soil as a resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Soil as a resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 32: 11. Alluvial soil",
+          "question": "Using the ideas from “11. Alluvial soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Alluvial soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 33: 12. Black soil",
+          "question": "Using the ideas from “12. Black soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Black soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 34: 13. Red and yellow soil",
+          "question": "Using the ideas from “13. Red and yellow soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Red and yellow soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 35: 14. Laterite soil",
+          "question": "Using the ideas from “14. Laterite soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Laterite soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 36: 15. Arid soil",
+          "question": "Using the ideas from “15. Arid soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Arid soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 37: 16. Forest and mountain soil",
+          "question": "Using the ideas from “16. Forest and mountain soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Forest and mountain soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 38: 17. Soil erosion",
+          "question": "Using the ideas from “17. Soil erosion”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Soil erosion”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 39: 18. Soil conservation",
+          "question": "Using the ideas from “18. Soil conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Soil conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 40: 19. Integrated resource thinking",
+          "question": "Using the ideas from “19. Integrated resource thinking”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “19. Integrated resource thinking”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 41: 🎯 Full Board Practice Bank",
+          "question": "Using the ideas from “🎯 Full Board Practice Bank”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “🎯 Full Board Practice Bank”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 42: ⚡ Final Revision",
+          "question": "Using the ideas from “⚡ Final Revision”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “⚡ Final Revision”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 43: 1. Meaning and classification of resources",
+          "question": "Using the ideas from “1. Meaning and classification of resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “1. Meaning and classification of resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 44: 2. Biotic and abiotic resources",
+          "question": "Using the ideas from “2. Biotic and abiotic resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “2. Biotic and abiotic resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 45: 3. Renewable and non-renewable resources",
+          "question": "Using the ideas from “3. Renewable and non-renewable resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “3. Renewable and non-renewable resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 46: 4. Individual, community, national and international resources",
+          "question": "Using the ideas from “4. Individual, community, national and international resources”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “4. Individual, community, national and international resources”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 47: 5. Potential, developed, stock and reserves",
+          "question": "Using the ideas from “5. Potential, developed, stock and reserves”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “5. Potential, developed, stock and reserves”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 48: 6. Development of resources and sustainability",
+          "question": "Using the ideas from “6. Development of resources and sustainability”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “6. Development of resources and sustainability”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 49: 7. Resource planning in India",
+          "question": "Using the ideas from “7. Resource planning in India”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “7. Resource planning in India”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 50: 8. Land resources and land use",
+          "question": "Using the ideas from “8. Land resources and land use”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “8. Land resources and land use”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 51: 9. Land degradation",
+          "question": "Using the ideas from “9. Land degradation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “9. Land degradation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 52: 10. Soil as a resource",
+          "question": "Using the ideas from “10. Soil as a resource”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “10. Soil as a resource”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 53: 11. Alluvial soil",
+          "question": "Using the ideas from “11. Alluvial soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “11. Alluvial soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 54: 12. Black soil",
+          "question": "Using the ideas from “12. Black soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “12. Black soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 55: 13. Red and yellow soil",
+          "question": "Using the ideas from “13. Red and yellow soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “13. Red and yellow soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 56: 14. Laterite soil",
+          "question": "Using the ideas from “14. Laterite soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “14. Laterite soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 57: 15. Arid soil",
+          "question": "Using the ideas from “15. Arid soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “15. Arid soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 58: 16. Forest and mountain soil",
+          "question": "Using the ideas from “16. Forest and mountain soil”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “16. Forest and mountain soil”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 59: 17. Soil erosion",
+          "question": "Using the ideas from “17. Soil erosion”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “17. Soil erosion”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        },
+        {
+          "type": "exam",
+          "title": "Board reasoning drill 60: 18. Soil conservation",
+          "question": "Using the ideas from “18. Soil conservation”, explain one geographical relationship that a student should be able to justify in a board answer. Include the relevant factor, the spatial effect, and one consequence instead of writing a list of disconnected facts.",
+          "answer": "A strong answer for this drill should identify the central geographical factor in “18. Soil conservation”, show how that factor influences the distribution or process being studied, and finish with a concrete consequence for people, production, environment, transport or regional development. The response should remain focused on Resources and Development and should use cause → location/pattern → result as its logical sequence."
+        }
+      ]
+    },
+    {
+      "title": "🗺️ Map Interpretation Method",
+      "content": [
+        {
+          "type": "information",
+          "title": "Map 1 reading strategy — India: major soil-resource regions",
+          "text": "For Resources and Development, begin with the first embedded map at the exact point where the related topic appears. Open every pin and read its place-specific note. Then connect the mapped location to the chapter idea by explaining one cause, one spatial pattern and one consequence."
+        },
+        {
+          "type": "information",
+          "title": "Map 2 reading strategy — India: soil conservation examples",
+          "text": "The second map for Resources and Development is best used comparatively: choose two marked locations, identify their shared geographical feature, note one difference, and explain the physical or human condition responsible for that contrast. Record the comparison in complete sentences."
+        },
+        {
+          "type": "information",
+          "title": "Map 3 reading strategy — India: resource-planning hotspots",
+          "text": "Finish the spatial revision for Resources and Development with the third map. Read each marker note, locate the feature mentally, and write a short answer that links place to process. Treat every pin as geographical evidence rather than as an isolated label."
         }
       ]
     }
