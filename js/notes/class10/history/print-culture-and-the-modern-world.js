@@ -350,8 +350,7 @@ const ChapterData = {
       "Robinson Crusoe Chapbook.png",
       "https://commons.wikimedia.org/wiki/File:Robinson_Crusoe_Chapbook.png"
     ]
-  ]
-},
+  ],
   "extendedBoardToolkit": {
   "title": "Extended Board Toolkit",
   "blocks": [
@@ -586,4 +585,5 @@ const ChapterData = {
   "title": "Evidence-based answer",
   "text": "Use the Gutenberg Bible when discussing early European print; Luther when discussing religious debate; chapbooks when discussing popular reading; newspapers when discussing public opinion; and press controls when discussing censorship. The strongest answers combine one technological example with one social or political consequence."
 }]
+  }
 };

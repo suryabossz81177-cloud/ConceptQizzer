@@ -345,8 +345,7 @@ const ChapterData = {
       "Workers in the Nokomis Cotton Mill, Lexington, N.C. The smallest boy said he was 11 years old and makes 50 cents a day. Been doffing there for some months. The Band Boy who seems much LOC nclc.02643.jpg",
       "https://commons.wikimedia.org/wiki/File:Workers_in_the_Nokomis_Cotton_Mill,_Lexington,_N.C._The_smallest_boy_said_he_was_11_years_old_and_makes_50_cents_a_day._Been_doffing_there_for_some_months._The_Band_Boy_who_seems_much_LOC_nclc.02643.jpg"
     ]
-  ]
-},
+  ],
   "extendedBoardToolkit": {
   "title": "Extended Board Toolkit",
   "blocks": [
@@ -551,4 +550,5 @@ const ChapterData = {
   "title": "Indian perspective",
   "text": "Indian industrialisation included mills, entrepreneurs and new cities, but it also included the survival of handlooms and workshops. Colonial trade patterns shaped what could be produced profitably and where markets were available."
 }]
+  }
 };

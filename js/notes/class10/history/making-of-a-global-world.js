@@ -310,8 +310,7 @@ const ChapterData = {
       "Below deck on the emigrant ship St Vincent (1829) in 1844.jpg",
       "https://commons.wikimedia.org/wiki/File:Below_deck_on_the_emigrant_ship_St_Vincent_(1829)_in_1844.jpg"
     ]
-  ]
-},
+  ],
   "extendedBoardToolkit": {
   "title": "Extended Board Toolkit",
   "blocks": [
@@ -541,4 +540,5 @@ const ChapterData = {
   "title": "Evidence-based answer",
   "text": "For a trade-network answer use the Silk Routes; for migration use emigrant ships or indentured labour; for imperial trade use East India Company shipping; for crisis use commodity prices and the Great Depression; for reconstruction use Bretton Woods and its institutions. Concrete evidence turns a general explanation into a board-quality response."
 }]
+  }
 };

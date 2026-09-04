@@ -348,8 +348,7 @@ const ChapterData = {
       "1871 Proclamation of the German Empire.jpg",
       "https://commons.wikimedia.org/wiki/File:1871_Proclamation_of_the_German_Empire.jpg"
     ]
-  ]
-},
+  ],
   "extendedBoardToolkit": {
   "title": "Extended Board Toolkit",
   "blocks": [
@@ -534,4 +533,5 @@ const ChapterData = {
   "title": "Rapid recall 12",
   "text": "The best conclusion is analytical: nationalism transformed political belonging and helped create nation-states, but competing nationalisms could also deepen rivalry and conflict."
 }]
+  }
 };
