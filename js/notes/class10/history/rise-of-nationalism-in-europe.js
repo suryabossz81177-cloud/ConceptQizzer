@@ -1,6 +1,6 @@
 // Expanded Class 10 History chapter — detailed continuous notes
 const ChapterData = {
-  "id": "class10-history-rise-of-nationalism-in-europe",
+  "id": "10-history-rise-of-nationalism-in-europe",
   "class": 10,
   "subject": "History",
   "chapterNumber": 1,
