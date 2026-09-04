@@ -1,5 +1,5 @@
 const ChapterData = {
-  "id": "10-geography-lifelines-of-national-economy",
+  "id": "10-geography-life-lines-of-national-economy",
   "class": 10,
   "subject": "Geography",
   "chapterNumber": 7,
