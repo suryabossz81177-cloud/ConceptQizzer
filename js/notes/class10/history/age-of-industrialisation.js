@@ -1,5 +1,4 @@
-// Class 10 History — The Age of Industrialisation
-// Detailed board-oriented chapter package. Historical visuals are real Wikimedia Commons files.
+// Expanded Class 10 History chapter — detailed continuous notes
 const ChapterData = {
   "id": "class10-history-age-of-industrialisation",
   "class": 10,
@@ -7,7 +6,7 @@ const ChapterData = {
   "chapterNumber": 4,
   "title": "The Age of Industrialisation",
   "gradeLock": 10,
-  "description": "A detailed Class 10 board-oriented continuous study of industrialisation in Britain and India, workers, factories, hand production, technology and mass production.",
+  "description": "A detailed Class 10 board-oriented continuous study of industrialisation in Britain and India, workers, factories, hand production, technology and mass production. The expanded edition adds connected explanation blocks, cause-effect links, exam interpretation and revision insights throughout every section.",
   "sections": [
     {
       "title": "1. What is industrialisation?",
@@ -21,6 +20,26 @@ const ChapterData = {
           "type": "info",
           "title": "Board definition",
           "text": "Industrialisation is best understood as a transformation in the scale, technology, organisation and location of production, rather than simply the invention of one machine."
+        },
+        {
+          "type": "paragraph",
+          "title": "Industrialisation as a process",
+          "text": "Industrialisation was not simply the moment when factories appeared. It involved changes in technology, energy, labour organisation, transport, markets and investment. These changes occurred at different speeds in different places."
+        },
+        {
+          "type": "paragraph",
+          "title": "Before factories",
+          "text": "Much production was carried out by families, artisans and small workshops. Merchants often supplied raw materials and collected finished goods. This system could produce large quantities even without a modern factory."
+        },
+        {
+          "type": "paragraph",
+          "title": "Exam distinction",
+          "text": "Industrialisation and factory production are related but not identical. A strong answer explains that factories expanded alongside older forms of hand production rather than instantly replacing them."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -45,6 +64,26 @@ const ChapterData = {
           "caption": "A real public-domain historical image showing a large cotton-mill environment. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:Manchester_Cotton_Mill.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Britain’s industrial advantage",
+          "text": "Britain had access to coal, capital, commercial networks and expanding markets. Its agricultural and commercial changes also supported a larger market economy. These conditions helped industrial production grow."
+        },
+        {
+          "type": "paragraph",
+          "title": "Factories and discipline",
+          "text": "Factory production brought workers together under supervision and fixed schedules. Employers could control working hours and production more directly than in many household systems."
+        },
+        {
+          "type": "paragraph",
+          "title": "Urban growth",
+          "text": "Industrial towns expanded as people moved toward employment opportunities. Rapid urbanisation created new economic opportunities but also produced overcrowding, poor sanitation and difficult working conditions."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -78,6 +117,26 @@ const ChapterData = {
           "caption": "A public-domain historical illustration of the spinning jenny. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:Havgreaves%27_Spinning_Jenny.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Textile innovation",
+          "text": "The textile industry experienced a sequence of inventions that increased spinning and weaving capacity. Machines such as the spinning jenny changed the scale of production, while later developments improved power and speed."
+        },
+        {
+          "type": "paragraph",
+          "title": "Why inventions mattered",
+          "text": "An invention becomes historically important when it can be used economically. Machinery had to be financed, operated, supplied with raw materials and connected to markets. Industrial change was therefore a system, not a collection of isolated machines."
+        },
+        {
+          "type": "paragraph",
+          "title": "Continuity with hand labour",
+          "text": "Even when machines spread, hand workers continued to perform tasks that machines could not easily replace or that remained cheaper by hand. This explains the coexistence of factories and workshops."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -111,6 +170,26 @@ const ChapterData = {
           "caption": "A real public-domain technical drawing of the Boulton and Watt engine. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:SteamEngine_Boulton%26Watt_1784.png",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Steam power",
+          "text": "Steam engines provided a powerful and flexible source of energy for industry and transport. Improvements associated with James Watt helped make steam power more practical, although industrialisation depended on many inventors and engineers."
+        },
+        {
+          "type": "paragraph",
+          "title": "Coal and energy",
+          "text": "Coal became crucial because it supplied energy for steam engines and iron production. Industrial growth therefore connected manufacturing with mining and transport."
+        },
+        {
+          "type": "paragraph",
+          "title": "Transport links",
+          "text": "Canals, railways and steamships reduced transport costs and connected factories with raw materials and markets. Better transport reinforced industrial growth by making larger-scale production more practical."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -135,6 +214,26 @@ const ChapterData = {
           "caption": "A real public-domain Library of Congress photograph preserved on Wikimedia Commons. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:Workers_in_the_Nokomis_Cotton_Mill,_Lexington,_N.C._The_smallest_boy_said_he_was_11_years_old_and_makes_50_cents_a_day._Been_doffing_there_for_some_months._The_Band_Boy_who_seems_much_LOC_nclc.02643.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Factory discipline",
+          "text": "Factory workers had to follow fixed hours and rules. Employers could impose fines or dismiss workers, while workers had less control over the pace of production than many independent artisans."
+        },
+        {
+          "type": "paragraph",
+          "title": "Women and children",
+          "text": "Women and children were employed in several industrial settings, often for lower wages. Their presence reflected both household economic needs and employers’ search for inexpensive labour."
+        },
+        {
+          "type": "paragraph",
+          "title": "Living conditions",
+          "text": "Industrial towns could suffer from overcrowding, inadequate drainage and disease. Industrialisation increased productive capacity but did not automatically produce better living standards for every worker."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -155,6 +254,26 @@ const ChapterData = {
           "type": "info",
           "title": "Important distinction",
           "text": "Do not write that Indian handicrafts simply vanished. Handloom production survived and adapted in many regions. Industrialisation in India developed alongside older forms of production rather than replacing them instantly."
+        },
+        {
+          "type": "paragraph",
+          "title": "Indian textiles before colonial dominance",
+          "text": "India had a strong tradition of hand-produced textiles with skilled weavers and established export markets. Indian cloth was valued in international trade before British industrial goods expanded their presence."
+        },
+        {
+          "type": "paragraph",
+          "title": "Colonial pressure",
+          "text": "British manufactured textiles entered Indian markets while colonial policies affected Indian producers. Competition, changing trade arrangements and access to raw materials altered the conditions under which Indian artisans worked."
+        },
+        {
+          "type": "paragraph",
+          "title": "Deindustrialisation debate",
+          "text": "The decline of some traditional industries should be understood through multiple causes: competition from machine-made goods, changing markets and colonial economic policies. Avoid reducing the process to a single cause."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -179,6 +298,26 @@ const ChapterData = {
           "caption": "A real public-domain historical image depicting a jute-mill setting in colonial India. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:*%22An_Indian_rival_to_a_Scottish_industry_the_German_Crown_Prince_visiting_a_Calcutta_jute_mill,%22_from_The_Graphic,_1911*.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Cotton mills in India",
+          "text": "Indian entrepreneurs established modern mills, particularly in Bombay and other industrial centres. The growth of mills created new employment and linked Indian industry to both domestic and international markets."
+        },
+        {
+          "type": "paragraph",
+          "title": "Jute and other industries",
+          "text": "Jute mills in Bengal became an important part of industrial production. Different regions developed different industrial specialisations based on raw materials, transport and markets."
+        },
+        {
+          "type": "paragraph",
+          "title": "Industrial workforce",
+          "text": "Indian industrial workers came from diverse rural and urban backgrounds. Recruitment networks, migration and seasonal movement shaped the workforce, making industrial labour a complex social group."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -204,6 +343,26 @@ const ChapterData = {
             "Give an Indian textile example.",
             "Conclude that industrialisation created coexistence as well as competition."
           ]
+        },
+        {
+          "type": "paragraph",
+          "title": "Handloom resilience",
+          "text": "Handloom production survived because machines could not always reproduce specialised designs, fine textures or flexible small-batch production cheaply. Weavers also adapted by changing products and using improved tools."
+        },
+        {
+          "type": "paragraph",
+          "title": "Markets and fashion",
+          "text": "Demand for particular fabrics and designs influenced which forms of production survived. Indian producers could compete in niches where machine-made cloth had disadvantages."
+        },
+        {
+          "type": "paragraph",
+          "title": "Technology and adaptation",
+          "text": "Industrialisation did not create a simple machine-versus-hand conflict. Producers often combined traditional skills with new tools. This is a key reason why hand production remained important."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -237,6 +396,26 @@ const ChapterData = {
           "caption": "A real public-domain historical photograph of assembly-line production. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Ford and the assembly line",
+          "text": "Mass production reorganised manufacturing by dividing complex work into repeated tasks. The assembly line reduced the time required to build each product and helped standardise output."
+        },
+        {
+          "type": "paragraph",
+          "title": "Standardisation",
+          "text": "Mass production depended on standardised parts, reliable machinery and large markets. It could lower unit costs when production reached sufficient scale."
+        },
+        {
+          "type": "paragraph",
+          "title": "Consumer society",
+          "text": "Industrial mass production encouraged wider consumption of manufactured goods. The relationship between production and consumption became increasingly important in twentieth-century economies."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -299,6 +478,26 @@ const ChapterData = {
               "event": "Ford assembly-line production becomes a famous example of mass production."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "title": "Industrial change and society",
+          "text": "Industrialisation transformed class relations, urban life, working patterns and family economies. It also changed how people experienced time, discipline and employment."
+        },
+        {
+          "type": "paragraph",
+          "title": "Technology is social",
+          "text": "Machines do not act independently. Their effects depend on who owns them, who operates them and how production is organised. The same technology can create opportunities for some groups and insecurity for others."
+        },
+        {
+          "type": "paragraph",
+          "title": "Final board takeaway",
+          "text": "The history of industrialisation is a story of technology plus labour, markets, capital and institutions. Britain pioneered major changes, India developed modern industries within a colonial economy, and older forms of production continued alongside factories."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     }
@@ -347,208 +546,208 @@ const ChapterData = {
     ]
   ],
   "extendedBoardToolkit": {
-  "title": "Extended Board Toolkit",
-  "blocks": [
-    {
-      "type": "concept",
-      "title": "How to build a 5-mark answer",
-      "text": "Begin with the change in production, then name the technology or organisation involved, explain its effect on workers or markets, and end with a balanced consequence."
-    },
-    {
-      "type": "concept",
-      "title": "Industrialisation is a process",
-      "text": "Industrialisation included machines, factories, energy sources, wage labour, transport, finance and markets. A single invention did not create industrial society by itself."
-    },
-    {
-      "type": "concept",
-      "title": "Why Britain industrialised early",
-      "text": "Coal and iron resources, commercial networks, capital, ports, a growing market and a changing labour supply supported industrial expansion. Agricultural change and population growth also influenced demand and labour."
-    },
-    {
-      "type": "concept",
-      "title": "Textile sequence",
-      "text": "Spinning and weaving were interdependent. When one process became faster, pressure arose to improve the other. This helps explain why industrialisation involved a chain of innovations rather than one isolated invention."
-    },
-    {
-      "type": "concept",
-      "title": "Steam power",
-      "text": "Steam engines provided mechanical power independent of a flowing river. Improvements associated with Watt made steam more useful. Coal supplied fuel and iron supplied machinery, rails and structures."
-    },
-    {
-      "type": "concept",
-      "title": "Factory discipline",
-      "text": "Factories imposed regular hours, supervision and repetitive work. The worker increasingly depended on wages rather than controlling the entire production process."
-    },
-    {
-      "type": "concept",
-      "title": "Child labour",
-      "text": "Children were employed because they could be paid less and were considered suitable for certain repetitive tasks. Reformers later pushed for restrictions. Historical photographs are useful evidence because they make the age and conditions of workers visible."
-    },
-    {
-      "type": "concept",
-      "title": "Indian handicrafts",
-      "text": "Indian textile production had skilled artisans and long-distance markets before large modern factories. Colonial competition from machine-made imports damaged many craft producers, but handloom work did not disappear."
-    },
-    {
-      "type": "concept",
-      "title": "Indian mills",
-      "text": "Cotton mills grew in Bombay and other centres; jute mills expanded around Calcutta. Indian entrepreneurs invested in modern industry while operating inside a colonial economy."
-    },
-    {
-      "type": "concept",
-      "title": "Why hand production survived",
-      "text": "Small orders, changing designs, fine skills and specialised products could favour hand production. Machines were efficient for standardised large-volume goods but not automatically superior for every market."
-    },
-    {
-      "type": "concept",
-      "title": "Mass production",
-      "text": "Assembly lines divided work into specialised repeated tasks and increased output. Standardised parts made large-scale production possible and supported consumer markets."
-    },
-    {
-      "type": "concept",
-      "title": "Balanced evaluation",
-      "text": "Industrialisation increased output, transport and technological capacity while also producing harsh working conditions, unequal bargaining power and environmental and social costs."
-    },
-    {
-      "type": "concept",
-      "title": "Chronology revision",
-      "text": "Eighteenth-century textile mechanisation → steam power expands → nineteenth-century factories and transport → Indian mills grow → twentieth-century mass production and assembly lines."
-    },
-    {
-      "type": "concept",
-      "title": "Common mistakes",
-      "text": "Do not say all artisans disappeared. Do not treat the spinning jenny as a complete factory. Do not confuse mechanisation with the total elimination of hand labour."
-    }
-  ,
-{
-  "type": "concept",
-  "title": "Industrialisation and urbanisation",
-  "text": "Factories attracted workers and encouraged the growth of industrial towns. Urbanisation changed housing, transport, sanitation and patterns of everyday life."
-},
-{
-  "type": "concept",
-  "title": "Division of labour",
-  "text": "Factories divided complex production into specialised tasks. This could increase speed and output but could also make work repetitive and reduce workers' control over the production process."
-},
-{
-  "type": "concept",
-  "title": "Machine versus worker skill",
-  "text": "Mechanisation did not eliminate skill. Workers still needed technical knowledge, maintenance skills and craft abilities, while employers sometimes preferred machines for standardised tasks."
-},
-{
-  "type": "concept",
-  "title": "Industrial capitalism",
-  "text": "Industrial growth required investment, wage labour and markets. Owners controlled factories and machinery while workers depended on wages, creating unequal bargaining power."
-},
-{
-  "type": "concept",
-  "title": "Why cotton mattered",
-  "text": "Cotton textiles were highly suitable for mechanisation because spinning and weaving could be broken into repeatable processes. The sector therefore became a major driver of industrial change."
-},
-{
-  "type": "concept",
-  "title": "Indian textile history",
-  "text": "Indian textiles had strong reputations in world markets before colonial industrial competition. The later story includes both decline in some artisanal sectors and adaptation and survival in handloom production."
-},
-{
-  "type": "concept",
-  "title": "Colonial market structure",
-  "text": "India exported raw materials and imported manufactured goods within a colonial trading system. Indian industrialists later developed mills, but their businesses operated within this unequal economic structure."
-},
-{
-  "type": "concept",
-  "title": "Technology and transport",
-  "text": "Railways reduced the cost and time of moving coal, cotton and finished goods. Ports connected factories to overseas markets, making transport a central part of industrialisation."
-},
-{
-  "type": "concept",
-  "title": "Mass production and standardisation",
-  "text": "Assembly-line systems worked best when parts and tasks were standardised. Standardisation reduced production time and supported large consumer markets."
-},
-{
-  "type": "concept",
-  "title": "Balanced conclusion",
-  "text": "Industrialisation increased productivity and created new industries, but it also generated difficult labour conditions and unequal control over resources. Its history is therefore both technological and social."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 1",
-  "text": "Industrialisation changed production through machines, factories, new energy sources, wage labour, transport and markets."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 2",
-  "text": "Britain's early industrial growth was supported by coal, iron, capital, commercial networks, ports and a changing labour force."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 3",
-  "text": "Textile mechanisation involved linked stages. Faster spinning created pressure for improvements in weaving and related processes."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 4",
-  "text": "The spinning jenny increased the number of threads that could be spun at one time, illustrating the movement toward mechanised production."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 5",
-  "text": "Steam engines made mechanical power more flexible. Coal and iron became increasingly important parts of the industrial system."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 6",
-  "text": "Factories imposed discipline through fixed hours, supervision and repetitive tasks, changing workers' relationship with production."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 7",
-  "text": "Child labour is an important social dimension of industrialisation. Historical photographs provide evidence of the ages and working conditions of young workers."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 8",
-  "text": "Indian handicrafts had deep traditions and international markets. Colonial competition from machine-made imports damaged many artisans but did not eliminate hand production."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 9",
-  "text": "Indian cotton and jute mills expanded in the nineteenth century. Indian entrepreneurs participated in modern industry despite the constraints of colonial economic structures."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 10",
-  "text": "Hand production survived because specialised goods, small orders and changing designs could favour skilled manual work."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 11",
-  "text": "Mass production used standardised parts and specialised tasks. Assembly lines increased output and reduced the time needed for repetitive production."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 12",
-  "text": "Industrialisation must be evaluated as both a technological and social transformation: it increased productivity while also producing difficult labour conditions and unequal power."
-},
-{
-  "type": "concept",
-  "title": "Model conclusion",
-  "text": "Industrialisation was not a simple replacement of hand work by machines. It was a long transformation in which factories, machines, skilled artisans, wage workers, transport, finance and markets interacted. Britain experienced early industrial growth, while India developed modern industry within a colonial economic system."
-},
-{
-  "type": "concept",
-  "title": "Technology chain",
-  "text": "Textile machinery increased productivity; steam power provided flexible energy; coal supplied fuel; iron supplied machinery and transport infrastructure. These technologies reinforced one another."
-},
-{
-  "type": "concept",
-  "title": "Worker perspective",
-  "text": "From the worker's viewpoint, industrialisation could mean regular wages but also long hours, supervision, repetitive work and insecurity. From the owner's viewpoint, machinery could raise output and standardise production. A good answer can show both perspectives."
-},
-{
-  "type": "concept",
-  "title": "Indian perspective",
-  "text": "Indian industrialisation included mills, entrepreneurs and new cities, but it also included the survival of handlooms and workshops. Colonial trade patterns shaped what could be produced profitably and where markets were available."
-}]
+    "title": "Extended Board Toolkit",
+    "blocks": [
+      {
+        "type": "concept",
+        "title": "How to build a 5-mark answer",
+        "text": "Begin with the change in production, then name the technology or organisation involved, explain its effect on workers or markets, and end with a balanced consequence."
+      },
+      {
+        "type": "concept",
+        "title": "Industrialisation is a process",
+        "text": "Industrialisation included machines, factories, energy sources, wage labour, transport, finance and markets. A single invention did not create industrial society by itself."
+      },
+      {
+        "type": "concept",
+        "title": "Why Britain industrialised early",
+        "text": "Coal and iron resources, commercial networks, capital, ports, a growing market and a changing labour supply supported industrial expansion. Agricultural change and population growth also influenced demand and labour."
+      },
+      {
+        "type": "concept",
+        "title": "Textile sequence",
+        "text": "Spinning and weaving were interdependent. When one process became faster, pressure arose to improve the other. This helps explain why industrialisation involved a chain of innovations rather than one isolated invention."
+      },
+      {
+        "type": "concept",
+        "title": "Steam power",
+        "text": "Steam engines provided mechanical power independent of a flowing river. Improvements associated with Watt made steam more useful. Coal supplied fuel and iron supplied machinery, rails and structures."
+      },
+      {
+        "type": "concept",
+        "title": "Factory discipline",
+        "text": "Factories imposed regular hours, supervision and repetitive work. The worker increasingly depended on wages rather than controlling the entire production process."
+      },
+      {
+        "type": "concept",
+        "title": "Child labour",
+        "text": "Children were employed because they could be paid less and were considered suitable for certain repetitive tasks. Reformers later pushed for restrictions. Historical photographs are useful evidence because they make the age and conditions of workers visible."
+      },
+      {
+        "type": "concept",
+        "title": "Indian handicrafts",
+        "text": "Indian textile production had skilled artisans and long-distance markets before large modern factories. Colonial competition from machine-made imports damaged many craft producers, but handloom work did not disappear."
+      },
+      {
+        "type": "concept",
+        "title": "Indian mills",
+        "text": "Cotton mills grew in Bombay and other centres; jute mills expanded around Calcutta. Indian entrepreneurs invested in modern industry while operating inside a colonial economy."
+      },
+      {
+        "type": "concept",
+        "title": "Why hand production survived",
+        "text": "Small orders, changing designs, fine skills and specialised products could favour hand production. Machines were efficient for standardised large-volume goods but not automatically superior for every market."
+      },
+      {
+        "type": "concept",
+        "title": "Mass production",
+        "text": "Assembly lines divided work into specialised repeated tasks and increased output. Standardised parts made large-scale production possible and supported consumer markets."
+      },
+      {
+        "type": "concept",
+        "title": "Balanced evaluation",
+        "text": "Industrialisation increased output, transport and technological capacity while also producing harsh working conditions, unequal bargaining power and environmental and social costs."
+      },
+      {
+        "type": "concept",
+        "title": "Chronology revision",
+        "text": "Eighteenth-century textile mechanisation → steam power expands → nineteenth-century factories and transport → Indian mills grow → twentieth-century mass production and assembly lines."
+      },
+      {
+        "type": "concept",
+        "title": "Common mistakes",
+        "text": "Do not say all artisans disappeared. Do not treat the spinning jenny as a complete factory. Do not confuse mechanisation with the total elimination of hand labour."
+      },
+      {
+        "type": "concept",
+        "title": "Industrialisation and urbanisation",
+        "text": "Factories attracted workers and encouraged the growth of industrial towns. Urbanisation changed housing, transport, sanitation and patterns of everyday life."
+      },
+      {
+        "type": "concept",
+        "title": "Division of labour",
+        "text": "Factories divided complex production into specialised tasks. This could increase speed and output but could also make work repetitive and reduce workers' control over the production process."
+      },
+      {
+        "type": "concept",
+        "title": "Machine versus worker skill",
+        "text": "Mechanisation did not eliminate skill. Workers still needed technical knowledge, maintenance skills and craft abilities, while employers sometimes preferred machines for standardised tasks."
+      },
+      {
+        "type": "concept",
+        "title": "Industrial capitalism",
+        "text": "Industrial growth required investment, wage labour and markets. Owners controlled factories and machinery while workers depended on wages, creating unequal bargaining power."
+      },
+      {
+        "type": "concept",
+        "title": "Why cotton mattered",
+        "text": "Cotton textiles were highly suitable for mechanisation because spinning and weaving could be broken into repeatable processes. The sector therefore became a major driver of industrial change."
+      },
+      {
+        "type": "concept",
+        "title": "Indian textile history",
+        "text": "Indian textiles had strong reputations in world markets before colonial industrial competition. The later story includes both decline in some artisanal sectors and adaptation and survival in handloom production."
+      },
+      {
+        "type": "concept",
+        "title": "Colonial market structure",
+        "text": "India exported raw materials and imported manufactured goods within a colonial trading system. Indian industrialists later developed mills, but their businesses operated within this unequal economic structure."
+      },
+      {
+        "type": "concept",
+        "title": "Technology and transport",
+        "text": "Railways reduced the cost and time of moving coal, cotton and finished goods. Ports connected factories to overseas markets, making transport a central part of industrialisation."
+      },
+      {
+        "type": "concept",
+        "title": "Mass production and standardisation",
+        "text": "Assembly-line systems worked best when parts and tasks were standardised. Standardisation reduced production time and supported large consumer markets."
+      },
+      {
+        "type": "concept",
+        "title": "Balanced conclusion",
+        "text": "Industrialisation increased productivity and created new industries, but it also generated difficult labour conditions and unequal control over resources. Its history is therefore both technological and social."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 1",
+        "text": "Industrialisation changed production through machines, factories, new energy sources, wage labour, transport and markets."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 2",
+        "text": "Britain's early industrial growth was supported by coal, iron, capital, commercial networks, ports and a changing labour force."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 3",
+        "text": "Textile mechanisation involved linked stages. Faster spinning created pressure for improvements in weaving and related processes."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 4",
+        "text": "The spinning jenny increased the number of threads that could be spun at one time, illustrating the movement toward mechanised production."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 5",
+        "text": "Steam engines made mechanical power more flexible. Coal and iron became increasingly important parts of the industrial system."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 6",
+        "text": "Factories imposed discipline through fixed hours, supervision and repetitive tasks, changing workers' relationship with production."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 7",
+        "text": "Child labour is an important social dimension of industrialisation. Historical photographs provide evidence of the ages and working conditions of young workers."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 8",
+        "text": "Indian handicrafts had deep traditions and international markets. Colonial competition from machine-made imports damaged many artisans but did not eliminate hand production."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 9",
+        "text": "Indian cotton and jute mills expanded in the nineteenth century. Indian entrepreneurs participated in modern industry despite the constraints of colonial economic structures."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 10",
+        "text": "Hand production survived because specialised goods, small orders and changing designs could favour skilled manual work."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 11",
+        "text": "Mass production used standardised parts and specialised tasks. Assembly lines increased output and reduced the time needed for repetitive production."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 12",
+        "text": "Industrialisation must be evaluated as both a technological and social transformation: it increased productivity while also producing difficult labour conditions and unequal power."
+      },
+      {
+        "type": "concept",
+        "title": "Model conclusion",
+        "text": "Industrialisation was not a simple replacement of hand work by machines. It was a long transformation in which factories, machines, skilled artisans, wage workers, transport, finance and markets interacted. Britain experienced early industrial growth, while India developed modern industry within a colonial economic system."
+      },
+      {
+        "type": "concept",
+        "title": "Technology chain",
+        "text": "Textile machinery increased productivity; steam power provided flexible energy; coal supplied fuel; iron supplied machinery and transport infrastructure. These technologies reinforced one another."
+      },
+      {
+        "type": "concept",
+        "title": "Worker perspective",
+        "text": "From the worker's viewpoint, industrialisation could mean regular wages but also long hours, supervision, repetitive work and insecurity. From the owner's viewpoint, machinery could raise output and standardise production. A good answer can show both perspectives."
+      },
+      {
+        "type": "concept",
+        "title": "Indian perspective",
+        "text": "Indian industrialisation included mills, entrepreneurs and new cities, but it also included the survival of handlooms and workshops. Colonial trade patterns shaped what could be produced profitably and where markets were available."
+      }
+    ]
   }
 };

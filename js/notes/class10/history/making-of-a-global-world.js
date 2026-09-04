@@ -1,5 +1,4 @@
-// Class 10 History — The Making of a Global World
-// Detailed board-oriented chapter package. Historical visuals are real Wikimedia Commons files.
+// Expanded Class 10 History chapter — detailed continuous notes
 const ChapterData = {
   "id": "class10-history-making-of-a-global-world",
   "class": 10,
@@ -7,7 +6,7 @@ const ChapterData = {
   "chapterNumber": 3,
   "title": "The Making of a Global World",
   "gradeLock": 10,
-  "description": "A board-focused continuous chapter on premodern trade, nineteenth-century globalisation, migration, indentured labour, war, the Great Depression and post-war economic institutions.",
+  "description": "A board-focused continuous chapter on premodern trade, nineteenth-century globalisation, migration, indentured labour, war, the Great Depression and post-war economic institutions. The expanded edition adds connected explanation blocks, cause-effect links, exam interpretation and revision insights throughout every section.",
   "sections": [
     {
       "title": "1. A connected world existed long before modern globalisation",
@@ -30,6 +29,26 @@ const ChapterData = {
           "caption": "A real historical map/visual of the Silk Road network, released into the public domain. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:SilkRoad.png",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Premodern connections",
+          "text": "Long-distance trade connected distant regions before modern transport. Merchants, pilgrims and travellers moved goods and ideas along land and sea routes. These networks show that global connections have a long history and were not created suddenly by nineteenth-century industrialisation."
+        },
+        {
+          "type": "paragraph",
+          "title": "Silk Routes",
+          "text": "The Silk Routes linked Asia with Europe and North Africa through multiple routes. Silk was important, but so were textiles, spices, precious metals, knowledge and religious ideas. The routes therefore carried both commodities and culture."
+        },
+        {
+          "type": "paragraph",
+          "title": "Historical perspective",
+          "text": "A useful way to study globalisation is to ask what moved, who benefited, who controlled the routes and what risks travellers faced. This prevents the history of global connections from becoming merely a list of trade routes."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -45,6 +64,26 @@ const ChapterData = {
           "type": "info",
           "title": "Exam connection",
           "text": "Globalisation is not only about trade in luxury goods. Food, disease, people, ideas and technologies are also part of global connections. In long answers, include at least one example of a biological or cultural exchange."
+        },
+        {
+          "type": "paragraph",
+          "title": "Food and migration",
+          "text": "Food travelled with merchants, migrants and armies. Crops that became important in one region could have originated far away. Such exchanges changed diets, agriculture and population patterns over long periods."
+        },
+        {
+          "type": "paragraph",
+          "title": "Potato and population",
+          "text": "The spread of the potato in Europe contributed to changes in diets and agricultural productivity. Food history demonstrates that global connections can have consequences far beyond trade itself."
+        },
+        {
+          "type": "paragraph",
+          "title": "Exam link",
+          "text": "If asked how food connected the world, explain the chain: movement of crops → changes in cultivation and diet → effects on population and society. This is stronger than simply naming a crop."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -60,6 +99,26 @@ const ChapterData = {
           "type": "paragraph",
           "title": "The Columbian exchange",
           "text": "The transfer of plants, animals, people and pathogens across the Atlantic transformed economies and diets. These changes were uneven: some regions gained new crops while others experienced demographic disaster and coercive labour systems."
+        },
+        {
+          "type": "paragraph",
+          "title": "Conquest and ecology",
+          "text": "European conquest of the Americas transformed the Atlantic world. Along with precious metals and commodities, Europeans and indigenous peoples experienced the movement of plants, animals and diseases. Ecological change became an important part of global history."
+        },
+        {
+          "type": "paragraph",
+          "title": "Disease and demographic change",
+          "text": "Diseases to which indigenous populations had limited immunity caused catastrophic population decline in many areas. This weakened communities and altered labour systems and political power."
+        },
+        {
+          "type": "paragraph",
+          "title": "Atlantic economy",
+          "text": "The Atlantic world connected Europe, Africa and the Americas through trade, forced migration and plantation production. Global connections therefore developed alongside extreme inequality and coercion."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -93,6 +152,26 @@ const ChapterData = {
           "caption": "A real public-domain historical artwork of an East India Company steamship. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:The_East_India_Company_Steam_Ship_of_War_'Berenice'_standing_out_of_Bombay_Harbour_RMG_PY8849.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Three major flows",
+          "text": "Nineteenth-century globalisation involved flows of goods, labour and capital. Industrial production increased demand for raw materials and markets, while investors moved money across borders and workers migrated in search of employment."
+        },
+        {
+          "type": "paragraph",
+          "title": "Transport revolution",
+          "text": "Railways, steamships and improved communication reduced travel time and made long-distance trade more predictable. Falling transport costs helped integrate markets, although access to these benefits remained unequal."
+        },
+        {
+          "type": "paragraph",
+          "title": "Uneven integration",
+          "text": "Global integration did not mean equal development. Industrial powers often controlled finance, shipping and trade rules, while colonies supplied raw materials and labour. The global economy therefore contained strong power imbalances."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -126,6 +205,26 @@ const ChapterData = {
           "caption": "A public-domain historical artwork showing conditions associated with ocean migration. License: Public domain.",
           "source": "https://commons.wikimedia.org/wiki/File:Below_deck_on_the_emigrant_ship_St_Vincent_(1829)_in_1844.jpg",
           "license": "Public domain"
+        },
+        {
+          "type": "paragraph",
+          "title": "Corn Laws",
+          "text": "The Corn Laws protected British landowners by restricting imports of cheaper grain. Their repeal made it easier for Britain to import food. This linked British consumers more closely with agricultural producers in other parts of the world."
+        },
+        {
+          "type": "paragraph",
+          "title": "Food imports and migration",
+          "text": "When imported food became cheaper, some European agriculture faced pressure and rural workers sought opportunities elsewhere. Migration and trade therefore interacted: changes in food markets could influence where people lived and worked."
+        },
+        {
+          "type": "paragraph",
+          "title": "Board explanation",
+          "text": "To explain the importance of the Corn Laws, connect policy with prices, food imports, agriculture and migration. The historical significance lies in the wider transformation of the nineteenth-century global economy."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -146,6 +245,26 @@ const ChapterData = {
           "type": "info",
           "title": "Do not confuse these systems",
           "text": "Indentured labour was contract-based and differed legally from chattel slavery, but the lived conditions of many labourers could involve coercion, debt, poor treatment and restricted mobility. Board answers should describe both the legal difference and the exploitative realities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Indentured labour",
+          "text": "Indentured workers signed contracts to work for a specified period, often under harsh conditions and with limited freedom. Large numbers were transported from India and other regions to plantations, mines and construction sites."
+        },
+        {
+          "type": "paragraph",
+          "title": "Why people migrated",
+          "text": "Poverty, debt, lack of employment and hopes of better earnings could push people to accept contracts. Recruitment networks and misleading promises also played a role. Migration decisions therefore combined economic pressure with limited choices."
+        },
+        {
+          "type": "paragraph",
+          "title": "After indenture",
+          "text": "Indentured workers contributed to the economies and cultures of many colonies. Their experiences also produced new communities and cultural forms. The history of migration is therefore about both exploitation and the creation of new social worlds."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -161,6 +280,26 @@ const ChapterData = {
           "type": "paragraph",
           "title": "A wider economic network",
           "text": "The war demonstrated how deeply linked economies had become. Financial problems in one major centre could affect trade, employment and prices elsewhere. These connections became even more visible during the interwar crisis."
+        },
+        {
+          "type": "paragraph",
+          "title": "War and trade disruption",
+          "text": "The First World War disrupted international trade and finance. Governments redirected resources to military production, shipping was threatened, and European economies faced debt and destruction."
+        },
+        {
+          "type": "paragraph",
+          "title": "Rise of new economic powers",
+          "text": "The war altered the balance of the world economy. The United States strengthened its position as a creditor, while European powers faced financial difficulties. This shift became important in the interwar period."
+        },
+        {
+          "type": "paragraph",
+          "title": "Global consequences",
+          "text": "Although the war was fought mainly through military alliances and battlefields, its economic effects were global. Trade networks, currencies, employment and commodity markets were all affected."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -181,6 +320,26 @@ const ChapterData = {
           "type": "info",
           "title": "Cause → effect chain",
           "text": "Financial collapse → reduced investment and demand → falling production and employment → lower trade → falling commodity prices → pressure on agricultural and colonial economies."
+        },
+        {
+          "type": "paragraph",
+          "title": "Causes of the Great Depression",
+          "text": "The Great Depression was associated with falling demand, agricultural overproduction, financial instability and the collapse of credit. The crisis began in the United States but spread through international trade and finance."
+        },
+        {
+          "type": "paragraph",
+          "title": "Agricultural producers",
+          "text": "Farmers were badly affected when agricultural prices collapsed. Falling incomes reduced their ability to purchase goods, while debts became harder to repay. Rural distress therefore became a major social consequence of the depression."
+        },
+        {
+          "type": "paragraph",
+          "title": "India and the depression",
+          "text": "India was deeply connected to the world economy through agricultural exports. Falling prices harmed peasants and producers even though the country was not the centre of the financial crisis. This illustrates how global shocks can travel through commodity markets."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -206,6 +365,26 @@ const ChapterData = {
             "The Great Depression exposed the vulnerability of global markets.",
             "Post-war institutions attempted to manage international economic relations."
           ]
+        },
+        {
+          "type": "paragraph",
+          "title": "Need for new institutions",
+          "text": "The destruction of the Second World War encouraged governments to seek a more stable international economic system. They wanted to avoid a return to the competitive devaluations, trade barriers and financial instability associated with the interwar period."
+        },
+        {
+          "type": "paragraph",
+          "title": "Bretton Woods",
+          "text": "The Bretton Woods conference of 1944 helped create the framework for the International Monetary Fund and the World Bank. The institutions were designed to support monetary stability, reconstruction and development."
+        },
+        {
+          "type": "paragraph",
+          "title": "Post-war decolonisation",
+          "text": "After the Second World War, many Asian and African countries became independent. Economic reconstruction therefore increasingly involved questions of development, sovereignty and unequal global relationships."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     },
@@ -268,6 +447,26 @@ const ChapterData = {
               "event": "Bretton Woods conference establishes the basis for post-war economic institutions."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "title": "Globalisation is not neutral",
+          "text": "Global integration can create opportunities for trade, investment and cultural exchange, but its benefits depend on power, technology and access to resources. Some groups gain strongly while others may face displacement or insecurity."
+        },
+        {
+          "type": "paragraph",
+          "title": "From empire to markets",
+          "text": "Colonial rule shaped many global economic relationships. Even after formal empire declined, patterns of trade, finance and production could continue to reflect earlier inequalities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Final board takeaway",
+          "text": "The making of a global world was a long process involving trade, migration, conquest, industrialisation, war and international institutions. Its history must be read as both increasing connection and unequal power."
+        },
+        {
+          "type": "info",
+          "title": "Board-ready insight",
+          "text": "Use this section as a connected explanation, not as isolated facts. Link the main idea, the historical evidence and its significance. The strongest answers explain why the development mattered and how it connects to the wider chapter."
         }
       ]
     }
@@ -312,233 +511,233 @@ const ChapterData = {
     ]
   ],
   "extendedBoardToolkit": {
-  "title": "Extended Board Toolkit",
-  "blocks": [
-    {
-      "type": "concept",
-      "title": "How to build a 5-mark answer",
-      "text": "Define the relevant global connection, identify the people or commodities involved, explain the technology or institution that enabled the connection, and finish with an impact on at least two regions."
-    },
-    {
-      "type": "concept",
-      "title": "Premodern global connections",
-      "text": "Trade routes carried more than commodities. Along the Silk Routes moved religious beliefs, artistic forms, technologies and cultural practices. The key lesson is that global interconnection has a long history."
-    },
-    {
-      "type": "concept",
-      "title": "Food and migration",
-      "text": "The movement of crops changed diets and sometimes population patterns. Later, migration moved workers and families across continents. Global history therefore includes both material objects and human movement."
-    },
-    {
-      "type": "concept",
-      "title": "Atlantic expansion",
-      "text": "European conquest connected the Americas to global trade in new ways. Silver, plantation crops and enslaved labour became part of an expanding world economy. Disease also travelled across the Atlantic and had catastrophic consequences for indigenous communities."
-    },
-    {
-      "type": "concept",
-      "title": "Three flows of nineteenth-century globalisation",
-      "text": "Remember goods, capital and labour. Goods moved through expanding markets; capital funded railways, mines and plantations; labour moved toward places where wages or employment were available."
-    },
-    {
-      "type": "concept",
-      "title": "Technology and distance",
-      "text": "Railways connected ports to inland production. Steamships reduced travel time and increased carrying capacity. Telegraphs allowed information to travel far faster than ships. Together they made markets more integrated."
-    },
-    {
-      "type": "concept",
-      "title": "Corn Laws",
-      "text": "The Corn Laws protected British grain producers by restricting imports. Their repeal allowed cheaper grain to enter Britain. This linked British food prices with overseas agriculture and helped support an expanding urban industrial population."
-    },
-    {
-      "type": "concept",
-      "title": "Migration and inequality",
-      "text": "European migration could be voluntary, but economic pressure shaped many decisions. Migrants could gain access to land or employment while also facing discrimination and insecurity. Migration changed both sending and receiving societies."
-    },
-    {
-      "type": "concept",
-      "title": "Indentured labour",
-      "text": "Indenture was based on a contract for a fixed period, but the recruitment and plantation environment could be coercive. Indian labourers carried cultural practices across the world, producing new communities in the Caribbean, Africa, Southeast Asia and the Pacific."
-    },
-    {
-      "type": "concept",
-      "title": "World War I",
-      "text": "The war redirected factories, shipping and labour toward military needs. European powers drew heavily on colonial resources and manpower. The post-war world inherited debts and financial instability."
-    },
-    {
-      "type": "concept",
-      "title": "Great Depression",
-      "text": "The Depression was not simply an American stock-market event. Falling investment and demand reduced industrial production and trade. Commodity-exporting regions were hit by falling prices and incomes, making a distant financial crisis a local rural problem."
-    },
-    {
-      "type": "concept",
-      "title": "Bretton Woods",
-      "text": "The post-war system sought greater international economic stability. The IMF and World Bank became central institutions. The broad historical movement was from unregulated crisis-prone interdependence toward attempts at managed international cooperation."
-    },
-    {
-      "type": "concept",
-      "title": "Cause-effect revision chain",
-      "text": "Technology + capital + labour + trade → integrated markets → war disruption → financial instability → Great Depression → post-war reconstruction and new institutions."
-    },
-    {
-      "type": "concept",
-      "title": "Common mistakes",
-      "text": "Do not define globalisation only as modern digital communication. Do not confuse indentured labour with chattel slavery. Do not describe the Great Depression only through the United States; show its impact on agricultural and colonial economies."
-    }
-  ,
-{
-  "type": "concept",
-  "title": "Globalisation before capitalism",
-  "text": "Long-distance networks existed before industrial capitalism. What changed in the nineteenth century was the speed, scale and integration of these connections through industrial production, finance, transport and empire."
-},
-{
-  "type": "concept",
-  "title": "Why ports mattered",
-  "text": "Ports linked inland production with oceanic markets. Steamships and improved harbour facilities made the movement of raw materials and manufactured goods more predictable and faster."
-},
-{
-  "type": "concept",
-  "title": "Raw materials and markets",
-  "text": "Industrial economies needed cotton, jute, minerals, food and other resources. Colonies were often drawn into export-oriented production, linking local agriculture to distant industrial demand."
-},
-{
-  "type": "concept",
-  "title": "Capital and infrastructure",
-  "text": "Investors financed railways, mines, plantations and shipping. Infrastructure could increase market integration while also serving imperial economic interests."
-},
-{
-  "type": "concept",
-  "title": "Labour mobility",
-  "text": "Labour moved through voluntary migration, contract systems and coercive arrangements. The history of migration must therefore be studied through both opportunity and power."
-},
-{
-  "type": "concept",
-  "title": "Indenture and memory",
-  "text": "Indentured migrants created communities abroad and preserved language, religion, food and cultural practices. Their descendants became part of the social history of many countries."
-},
-{
-  "type": "concept",
-  "title": "War and global trade",
-  "text": "World War I interrupted shipping, redirected production and increased government control over economies. It also changed the financial position of European powers."
-},
-{
-  "type": "concept",
-  "title": "Depression and farmers",
-  "text": "When commodity prices fell, farmers who had borrowed money could face debt and distress. Export-oriented regions were especially vulnerable because their incomes depended on world markets."
-},
-{
-  "type": "concept",
-  "title": "Managed globalisation after 1945",
-  "text": "The post-war order attempted to combine international trade with financial stability. The creation of major international institutions reflected lessons learned from the interwar crisis."
-},
-{
-  "type": "concept",
-  "title": "Answer with comparison",
-  "text": "Compare a nineteenth-century global connection with a twentieth-century crisis. For example, explain how steam transport integrated markets and how the Depression later showed the risks of that integration."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 1",
-  "text": "Global connections existed before modern industry through trade routes, migration, pilgrimage and cultural exchange."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 2",
-  "text": "The Silk Routes carried goods as well as religions, ideas, technologies and cultural practices across regions."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 3",
-  "text": "The movement of food crops between continents changed diets and sometimes affected population growth and survival."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 4",
-  "text": "European conquest of the Americas linked extraction, plantation economies, migration, disease and intercontinental trade."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 5",
-  "text": "Nineteenth-century globalisation can be remembered through three flows: goods, capital and labour."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 6",
-  "text": "Railways, steamships and telegraphs reduced the practical distance between markets and production regions."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 7",
-  "text": "Corn Law repeal in Britain formed part of the movement toward freer grain trade and connected British food prices more closely with overseas agriculture."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 8",
-  "text": "Indentured labour moved workers under fixed contracts to plantations and other workplaces. The system was legally distinct from slavery but could be coercive in practice."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 9",
-  "text": "The First World War disrupted trade, shipping, production and finance and left a fragile post-war economy."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 10",
-  "text": "The Great Depression spread through falling investment, production, employment, trade and commodity prices, affecting colonial and agricultural economies."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 11",
-  "text": "Bretton Woods represented an attempt to create post-war financial cooperation and reconstruction. The IMF and World Bank became central institutions."
-},
-{
-  "type": "concept",
-  "title": "Rapid recall 12",
-  "text": "Globalisation should be analysed as uneven: it creates connections and opportunities while distributing risks and benefits unequally."
-},
-{
-  "type": "concept",
-  "title": "Model conclusion",
-  "text": "The making of the global world was a long process. Earlier trade networks created connections; nineteenth-century technology and capitalism intensified them; migration and empire redistributed labour and resources; wars and depression exposed their vulnerabilities; post-war institutions tried to stabilise the system."
-},
-{
-  "type": "concept",
-  "title": "Technology chain",
-  "text": "Railways connected farms and mines to ports; steamships connected ports across oceans; telegraphs connected decision-makers and markets through faster communication. Together they changed the speed at which economic decisions could travel."
-},
-{
-  "type": "concept",
-  "title": "Human side of globalisation",
-  "text": "Migration can be studied through both movement and identity. People carried languages, food, religion and social practices with them, while receiving societies changed through the arrival of new workers and communities."
-},
-{
-  "type": "concept",
-  "title": "Exam comparison",
-  "text": "When comparing the nineteenth century with the post-1945 period, emphasise that both involved international economic connections but used different institutions and technologies to manage them."
-},
-{
-  "type": "concept",
-  "title": "High-value distinction",
-  "text": "Trade connects markets; migration moves people; capital finances production; empire can impose political power over economic connections. These processes often overlap, but they are not interchangeable terms."
-},
-{
-  "type": "concept",
-  "title": "Local effect of a world crisis",
-  "text": "To explain how a global crisis reaches ordinary people, trace the chain: world demand falls → export prices fall → producer income falls → debt becomes harder to repay → employment and consumption decline."
-},
-{
-  "type": "concept",
-  "title": "Why global history is about power",
-  "text": "The ability to control shipping, finance, colonies, labour contracts and markets affected who gained from global connections. Globalisation therefore has an economic dimension and a political dimension."
-},
-{
-  "type": "concept",
-  "title": "Exam-ready synthesis",
-  "text": "The global economy developed through overlapping networks rather than a single event. Older trade routes created long-distance exchange; Atlantic conquest transformed trade and demography; nineteenth-century industry accelerated goods, capital and labour flows; empire shaped the distribution of resources; war disrupted the system; depression exposed its weaknesses; and post-war institutions attempted to stabilise international economic relations."
-},
-{
-  "type": "concept",
-  "title": "Evidence-based answer",
-  "text": "For a trade-network answer use the Silk Routes; for migration use emigrant ships or indentured labour; for imperial trade use East India Company shipping; for crisis use commodity prices and the Great Depression; for reconstruction use Bretton Woods and its institutions. Concrete evidence turns a general explanation into a board-quality response."
-}]
+    "title": "Extended Board Toolkit",
+    "blocks": [
+      {
+        "type": "concept",
+        "title": "How to build a 5-mark answer",
+        "text": "Define the relevant global connection, identify the people or commodities involved, explain the technology or institution that enabled the connection, and finish with an impact on at least two regions."
+      },
+      {
+        "type": "concept",
+        "title": "Premodern global connections",
+        "text": "Trade routes carried more than commodities. Along the Silk Routes moved religious beliefs, artistic forms, technologies and cultural practices. The key lesson is that global interconnection has a long history."
+      },
+      {
+        "type": "concept",
+        "title": "Food and migration",
+        "text": "The movement of crops changed diets and sometimes population patterns. Later, migration moved workers and families across continents. Global history therefore includes both material objects and human movement."
+      },
+      {
+        "type": "concept",
+        "title": "Atlantic expansion",
+        "text": "European conquest connected the Americas to global trade in new ways. Silver, plantation crops and enslaved labour became part of an expanding world economy. Disease also travelled across the Atlantic and had catastrophic consequences for indigenous communities."
+      },
+      {
+        "type": "concept",
+        "title": "Three flows of nineteenth-century globalisation",
+        "text": "Remember goods, capital and labour. Goods moved through expanding markets; capital funded railways, mines and plantations; labour moved toward places where wages or employment were available."
+      },
+      {
+        "type": "concept",
+        "title": "Technology and distance",
+        "text": "Railways connected ports to inland production. Steamships reduced travel time and increased carrying capacity. Telegraphs allowed information to travel far faster than ships. Together they made markets more integrated."
+      },
+      {
+        "type": "concept",
+        "title": "Corn Laws",
+        "text": "The Corn Laws protected British grain producers by restricting imports. Their repeal allowed cheaper grain to enter Britain. This linked British food prices with overseas agriculture and helped support an expanding urban industrial population."
+      },
+      {
+        "type": "concept",
+        "title": "Migration and inequality",
+        "text": "European migration could be voluntary, but economic pressure shaped many decisions. Migrants could gain access to land or employment while also facing discrimination and insecurity. Migration changed both sending and receiving societies."
+      },
+      {
+        "type": "concept",
+        "title": "Indentured labour",
+        "text": "Indenture was based on a contract for a fixed period, but the recruitment and plantation environment could be coercive. Indian labourers carried cultural practices across the world, producing new communities in the Caribbean, Africa, Southeast Asia and the Pacific."
+      },
+      {
+        "type": "concept",
+        "title": "World War I",
+        "text": "The war redirected factories, shipping and labour toward military needs. European powers drew heavily on colonial resources and manpower. The post-war world inherited debts and financial instability."
+      },
+      {
+        "type": "concept",
+        "title": "Great Depression",
+        "text": "The Depression was not simply an American stock-market event. Falling investment and demand reduced industrial production and trade. Commodity-exporting regions were hit by falling prices and incomes, making a distant financial crisis a local rural problem."
+      },
+      {
+        "type": "concept",
+        "title": "Bretton Woods",
+        "text": "The post-war system sought greater international economic stability. The IMF and World Bank became central institutions. The broad historical movement was from unregulated crisis-prone interdependence toward attempts at managed international cooperation."
+      },
+      {
+        "type": "concept",
+        "title": "Cause-effect revision chain",
+        "text": "Technology + capital + labour + trade → integrated markets → war disruption → financial instability → Great Depression → post-war reconstruction and new institutions."
+      },
+      {
+        "type": "concept",
+        "title": "Common mistakes",
+        "text": "Do not define globalisation only as modern digital communication. Do not confuse indentured labour with chattel slavery. Do not describe the Great Depression only through the United States; show its impact on agricultural and colonial economies."
+      },
+      {
+        "type": "concept",
+        "title": "Globalisation before capitalism",
+        "text": "Long-distance networks existed before industrial capitalism. What changed in the nineteenth century was the speed, scale and integration of these connections through industrial production, finance, transport and empire."
+      },
+      {
+        "type": "concept",
+        "title": "Why ports mattered",
+        "text": "Ports linked inland production with oceanic markets. Steamships and improved harbour facilities made the movement of raw materials and manufactured goods more predictable and faster."
+      },
+      {
+        "type": "concept",
+        "title": "Raw materials and markets",
+        "text": "Industrial economies needed cotton, jute, minerals, food and other resources. Colonies were often drawn into export-oriented production, linking local agriculture to distant industrial demand."
+      },
+      {
+        "type": "concept",
+        "title": "Capital and infrastructure",
+        "text": "Investors financed railways, mines, plantations and shipping. Infrastructure could increase market integration while also serving imperial economic interests."
+      },
+      {
+        "type": "concept",
+        "title": "Labour mobility",
+        "text": "Labour moved through voluntary migration, contract systems and coercive arrangements. The history of migration must therefore be studied through both opportunity and power."
+      },
+      {
+        "type": "concept",
+        "title": "Indenture and memory",
+        "text": "Indentured migrants created communities abroad and preserved language, religion, food and cultural practices. Their descendants became part of the social history of many countries."
+      },
+      {
+        "type": "concept",
+        "title": "War and global trade",
+        "text": "World War I interrupted shipping, redirected production and increased government control over economies. It also changed the financial position of European powers."
+      },
+      {
+        "type": "concept",
+        "title": "Depression and farmers",
+        "text": "When commodity prices fell, farmers who had borrowed money could face debt and distress. Export-oriented regions were especially vulnerable because their incomes depended on world markets."
+      },
+      {
+        "type": "concept",
+        "title": "Managed globalisation after 1945",
+        "text": "The post-war order attempted to combine international trade with financial stability. The creation of major international institutions reflected lessons learned from the interwar crisis."
+      },
+      {
+        "type": "concept",
+        "title": "Answer with comparison",
+        "text": "Compare a nineteenth-century global connection with a twentieth-century crisis. For example, explain how steam transport integrated markets and how the Depression later showed the risks of that integration."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 1",
+        "text": "Global connections existed before modern industry through trade routes, migration, pilgrimage and cultural exchange."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 2",
+        "text": "The Silk Routes carried goods as well as religions, ideas, technologies and cultural practices across regions."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 3",
+        "text": "The movement of food crops between continents changed diets and sometimes affected population growth and survival."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 4",
+        "text": "European conquest of the Americas linked extraction, plantation economies, migration, disease and intercontinental trade."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 5",
+        "text": "Nineteenth-century globalisation can be remembered through three flows: goods, capital and labour."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 6",
+        "text": "Railways, steamships and telegraphs reduced the practical distance between markets and production regions."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 7",
+        "text": "Corn Law repeal in Britain formed part of the movement toward freer grain trade and connected British food prices more closely with overseas agriculture."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 8",
+        "text": "Indentured labour moved workers under fixed contracts to plantations and other workplaces. The system was legally distinct from slavery but could be coercive in practice."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 9",
+        "text": "The First World War disrupted trade, shipping, production and finance and left a fragile post-war economy."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 10",
+        "text": "The Great Depression spread through falling investment, production, employment, trade and commodity prices, affecting colonial and agricultural economies."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 11",
+        "text": "Bretton Woods represented an attempt to create post-war financial cooperation and reconstruction. The IMF and World Bank became central institutions."
+      },
+      {
+        "type": "concept",
+        "title": "Rapid recall 12",
+        "text": "Globalisation should be analysed as uneven: it creates connections and opportunities while distributing risks and benefits unequally."
+      },
+      {
+        "type": "concept",
+        "title": "Model conclusion",
+        "text": "The making of the global world was a long process. Earlier trade networks created connections; nineteenth-century technology and capitalism intensified them; migration and empire redistributed labour and resources; wars and depression exposed their vulnerabilities; post-war institutions tried to stabilise the system."
+      },
+      {
+        "type": "concept",
+        "title": "Technology chain",
+        "text": "Railways connected farms and mines to ports; steamships connected ports across oceans; telegraphs connected decision-makers and markets through faster communication. Together they changed the speed at which economic decisions could travel."
+      },
+      {
+        "type": "concept",
+        "title": "Human side of globalisation",
+        "text": "Migration can be studied through both movement and identity. People carried languages, food, religion and social practices with them, while receiving societies changed through the arrival of new workers and communities."
+      },
+      {
+        "type": "concept",
+        "title": "Exam comparison",
+        "text": "When comparing the nineteenth century with the post-1945 period, emphasise that both involved international economic connections but used different institutions and technologies to manage them."
+      },
+      {
+        "type": "concept",
+        "title": "High-value distinction",
+        "text": "Trade connects markets; migration moves people; capital finances production; empire can impose political power over economic connections. These processes often overlap, but they are not interchangeable terms."
+      },
+      {
+        "type": "concept",
+        "title": "Local effect of a world crisis",
+        "text": "To explain how a global crisis reaches ordinary people, trace the chain: world demand falls → export prices fall → producer income falls → debt becomes harder to repay → employment and consumption decline."
+      },
+      {
+        "type": "concept",
+        "title": "Why global history is about power",
+        "text": "The ability to control shipping, finance, colonies, labour contracts and markets affected who gained from global connections. Globalisation therefore has an economic dimension and a political dimension."
+      },
+      {
+        "type": "concept",
+        "title": "Exam-ready synthesis",
+        "text": "The global economy developed through overlapping networks rather than a single event. Older trade routes created long-distance exchange; Atlantic conquest transformed trade and demography; nineteenth-century industry accelerated goods, capital and labour flows; empire shaped the distribution of resources; war disrupted the system; depression exposed its weaknesses; and post-war institutions attempted to stabilise international economic relations."
+      },
+      {
+        "type": "concept",
+        "title": "Evidence-based answer",
+        "text": "For a trade-network answer use the Silk Routes; for migration use emigrant ships or indentured labour; for imperial trade use East India Company shipping; for crisis use commodity prices and the Great Depression; for reconstruction use Bretton Woods and its institutions. Concrete evidence turns a general explanation into a board-quality response."
+      }
+    ]
   }
 };
