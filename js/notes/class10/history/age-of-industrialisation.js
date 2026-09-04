@@ -1,6 +1,6 @@
 // Expanded Class 10 History chapter — detailed continuous notes
 const ChapterData = {
-  "id": "class10-history-age-of-industrialisation",
+  "id": "10-history-age-of-industrialisation",
   "class": 10,
   "subject": "History",
   "chapterNumber": 4,
