@@ -1,6 +1,6 @@
 // Expanded Class 10 History chapter — board edition
 const ChapterData = {
-  "id": "10-history-the-making-of-a-global-world",
+  "id": "class10-history-making-of-a-global-world",
   "class": 10,
   "subject": "History",
   "chapterNumber": 3,
