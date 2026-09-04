@@ -1,6 +1,6 @@
 window.ChapterRegistry = [
   {
-    id: "class10-history-rise-of-nationalism-in-europe",
+    id: "10-history-rise-of-nationalism-in-europe",
     aliases: [
       "10-history-rise-of-nationalism-in-europe"
     ],
@@ -28,7 +28,7 @@ window.ChapterRegistry = [
   },
 
   {
-    id: "class10-history-making-of-a-global-world",
+    id: "10-history-making-of-a-global-world",
     aliases: [
       "10-history-making-of-a-global-world"
     ],
@@ -42,7 +42,7 @@ window.ChapterRegistry = [
   },
 
   {
-    id: "class10-history-age-of-industrialisation",
+    id: "10-history-age-of-industrialisation",
     aliases: [
       "10-history-age-of-industrialisation"
     ],
