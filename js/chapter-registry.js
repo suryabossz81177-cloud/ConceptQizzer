@@ -68,7 +68,6 @@ window.ChapterRegistry = [
     enabled: true,
     gradeLock: 10
   },
-
   {
     id: "10-geography-manufacturing-industries",
     aliases: [
