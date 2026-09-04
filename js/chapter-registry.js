@@ -84,7 +84,7 @@ window.ChapterRegistry = [
   },
 
   {
-    id: "10-geography-lifelines-of-national-economy",
+    id: "10-geography-life-lines-of-national-economy",
     aliases: [
       "class10-geography-lifelines-of-national-economy"
     ],
