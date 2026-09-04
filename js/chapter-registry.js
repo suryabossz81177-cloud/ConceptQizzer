@@ -1,12 +1,9 @@
-/*=================================================
-  CONCEPT QUIZZER
-  UNIVERSAL CHAPTER REGISTRY
-  Package 12.5 — Step 6.4A
-  Designed for 300+ Chapters
-  =================================================*/
 window.ChapterRegistry = [
   {
     id: "class10-history-rise-of-nationalism-in-europe",
+    aliases: [
+      "10-history-rise-of-nationalism-in-europe"
+    ],
     class: 10,
     subject: "History",
     chapterNumber: 1,
@@ -18,6 +15,9 @@ window.ChapterRegistry = [
 
   {
     id: "class10-history-nationalism-in-india",
+    aliases: [
+      "10-history-nationalism-in-india"
+    ],
     class: 10,
     subject: "History",
     chapterNumber: 2,
@@ -29,6 +29,9 @@ window.ChapterRegistry = [
 
   {
     id: "class10-history-making-of-a-global-world",
+    aliases: [
+      "10-history-making-of-a-global-world"
+    ],
     class: 10,
     subject: "History",
     chapterNumber: 3,
@@ -40,6 +43,9 @@ window.ChapterRegistry = [
 
   {
     id: "class10-history-age-of-industrialisation",
+    aliases: [
+      "10-history-age-of-industrialisation"
+    ],
     class: 10,
     subject: "History",
     chapterNumber: 4,
@@ -51,6 +57,9 @@ window.ChapterRegistry = [
 
   {
     id: "class10-history-print-culture-and-the-modern-world",
+    aliases: [
+      "10-history-print-culture-and-the-modern-world"
+    ],
     class: 10,
     subject: "History",
     chapterNumber: 5,
