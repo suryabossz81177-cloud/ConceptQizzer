@@ -8,7 +8,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 1,
     title: "Resources and Development",
-    file: "js/notes/10/geography/resources-and-development.js",
+    file: "js/notes/class10/geography/resources-and-development.js",
     enabled: true,
     gradeLock: 10
   },
@@ -22,7 +22,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 2,
     title: "Forest and Wildlife Resources",
-    file: "js/notes/10/geography/forest-and-wildlife-resources.js",
+    file: "js/notes/class10/geography/forest-and-wildlife-resources.js",
     enabled: true,
     gradeLock: 10
   },
@@ -36,7 +36,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 3,
     title: "Water Resources",
-    file: "js/notes/10/geography/water-resources.js",
+    file: "js/notes/class10/geography/water-resources.js",
     enabled: true,
     gradeLock: 10
   },
@@ -50,7 +50,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 4,
     title: "Agriculture",
-    file: "js/notes/10/geography/agriculture.js",
+    file: "js/notes/class10/geography/agriculture.js",
     enabled: true,
     gradeLock: 10
   },
@@ -64,7 +64,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 5,
     title: "Minerals and Energy Resources",
-    file: "js/notes/10/geography/minerals-and-energy-resources.js",
+    file: "js/notes/class10/geography/minerals-and-energy-resources.js",
     enabled: true,
     gradeLock: 10
   },
@@ -78,7 +78,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 6,
     title: "Manufacturing Industries",
-    file: "js/notes/10/geography/manufacturing-industries.js",
+    file: "js/notes/class10/geography/manufacturing-industries.js",
     enabled: true,
     gradeLock: 10
   },
@@ -92,7 +92,7 @@ window.ChapterRegistry = [
     subject: "Geography",
     chapterNumber: 7,
     title: "Lifelines of National Economy",
-    file: "js/notes/10/geography/lifelines-of-national-economy.js",
+    file: "js/notes/class10/geography/lifelines-of-national-economy.js",
     enabled: true,
     gradeLock: 10
   },
