@@ -1,5 +1,65 @@
 window.ChapterRegistry = [
   {
+    id: "10-politicalscience-power-sharing",
+    aliases: ["class10-political-science-power-sharing"],
+    class: 10,
+    subject: "Political Science",
+    chapterNumber: 1,
+    title: "Power Sharing",
+    file: "js/notes/class10/political-science/power-sharing.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "10-politicalscience-federalism",
+    aliases: ["class10-political-science-federalism"],
+    class: 10,
+    subject: "Political Science",
+    chapterNumber: 2,
+    title: "Federalism",
+    file: "js/notes/class10/political-science/federalism.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "10-politicalscience-gender-religion-and-caste",
+    aliases: ["class10-political-science-gender-religion-and-caste"],
+    class: 10,
+    subject: "Political Science",
+    chapterNumber: 3,
+    title: "Gender, Religion and Caste",
+    file: "js/notes/class10/political-science/gender-religion-and-caste.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "10-politicalscience-political-parties",
+    aliases: ["class10-political-science-political-parties"],
+    class: 10,
+    subject: "Political Science",
+    chapterNumber: 4,
+    title: "Political Parties",
+    file: "js/notes/class10/political-science/political-parties.js",
+    enabled: true,
+    gradeLock: 10
+  },
+
+  {
+    id: "10-politicalscience-outcomes-of-democracy",
+    aliases: ["class10-political-science-outcomes-of-democracy"],
+    class: 10,
+    subject: "Political Science",
+    chapterNumber: 5,
+    title: "Outcomes of Democracy",
+    file: "js/notes/class10/political-science/outcomes-of-democracy.js",
+    enabled: true,
+    gradeLock: 10
+  },
+  
+  {
     id: "10-geography-resources-and-development",
     aliases: [
       "class10-geography-resources-and-development"
