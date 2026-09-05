@@ -1,18 +1,23 @@
-// Class 10 Political Science — Power Sharing
-// Renderable ChapterData for ConceptQizzer notes renderer.
-
+// Class 10 Political Science — ultra detailed expanded renderable chapter
 const ChapterData = {
   "id": "10-politicalscience-power-sharing",
   "class": 10,
   "subject": "Political Science",
   "chapterNumber": 1,
   "title": "Power Sharing",
-  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice.",
+  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice. Expanded with additional original explanations, integrated comic stories, exact-answer questions and labelled Wikimedia Commons visuals. This edition removes the earlier comic stories and replaces them with new character-based stories distributed beside the relevant concepts, plus additional exact-answer practice and extended explanations.",
   "summary": "How democratic systems distribute political authority, accommodate social diversity, reduce conflict and strengthen legitimacy through multiple forms of power-sharing.",
   "sections": [
     {
       "title": "1. The central question: who should exercise power?",
       "blocks": [
+        {
+          "type": "figure",
+          "title": "Real-world visual",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Federal%20Parliament%20of%20Belgium%2C%20Brussels.jpg",
+          "caption": "Belgian Federal Parliament in Brussels — a visual example for institutional accommodation and shared authority.",
+          "source": "Wikimedia Commons: Federal Parliament of Belgium, Brussels"
+        },
         {
           "type": "paragraph",
           "title": "Starting point",
@@ -29,33 +34,87 @@ const ChapterData = {
           "text": "Power-sharing is desirable for both prudential and moral reasons. Prudentially, it can reduce conflict and political instability. Morally, democratic participation gives citizens and communities a legitimate claim to be consulted and represented."
         },
         {
-          "type": "comic",
-          "title": "Comic: The school council decision",
-          "dialogues": [
-            {
-              "character": "Aarav",
-              "dialogue": "Our class won the sports competition, so we should decide everything for the next month."
-            },
-            {
-              "character": "Meera",
-              "dialogue": "Winning one vote does not mean every other classmate loses their voice."
-            },
-            {
-              "character": "Kabir",
-              "dialogue": "Let us give the captain responsibility, but let the team and teacher also have a say."
-            },
-            {
-              "character": "Aarav",
-              "dialogue": "So sharing authority can make the decision stronger, not weaker."
-            }
-          ],
-          "result": "The class chooses a committee, keeps the captain responsible for routine decisions, and creates a rule that major decisions require wider consultation."
-        },
-        {
           "type": "exam",
           "title": "3-Mark Board Question",
           "question": "Why is power-sharing considered important in a democracy?",
           "answer": "It prevents excessive concentration of authority, accommodates diverse interests, reduces the possibility of social conflict and makes government more legitimate because affected groups have a role in decisions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democratic power has several dimensions. Citizens authorise representatives through elections, but elected representatives operate inside a constitutional framework. Courts, legislatures and executives have different functions; national and subnational governments have different responsibilities; and citizens remain entitled to participate, criticise and organise. Power-sharing therefore concerns the architecture of authority as well as the political culture surrounding it."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "A useful way to analyse a political arrangement is to ask four questions: who makes the decision, who can review it, who is affected by it, and who has a recognised route to influence or challenge it? If all four answers point to a single centre of power, the system risks excessive concentration. If authority is divided with clear rules, the possibility of arbitrary control is reduced."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Power-sharing is not identical to giving every group a veto over every decision. Effective government still needs the ability to act. The democratic task is to design institutions that balance decision-making capacity with participation, protection of minorities and accountability."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 1. The class captain learns the first lesson",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "If our team wins the class vote, can we make every decision ourselves?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Winning a vote gives authority, but democracy also requires institutions and rules that protect participation."
+            },
+            {
+              "character": "Ansh",
+              "dialogue": "So the majority can govern without treating the minority as invisible?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly. Power-sharing makes the winning side responsible for governing with others, not simply over others."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Define power-sharing.",
+          "answer": "Power-sharing is an arrangement in which political authority is distributed among different organs, levels, social groups or political actors so that power is not concentrated in one place."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "State two reasons why power-sharing is desirable.",
+          "answer": "Power-sharing reduces the possibility of conflict and political instability, and it gives different groups and citizens a legitimate role in decision-making."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 1",
+          "question": "Why is power-sharing not the same as giving every group a veto?",
+          "answer": "Power-sharing distributes authority while preserving the ability of institutions to make decisions according to established rules; it does not require every group to approve every decision."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 7",
+          "question": "Why does power-sharing have a moral reason?",
+          "answer": "It respects democratic equality by recognising that citizens and communities affected by public decisions have a legitimate claim to participation and representation."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of legitimacy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that legitimacy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of community representation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that community representation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of constitutional compromise should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that constitutional compromise is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -89,6 +148,83 @@ const ChapterData = {
           "title": "5-Mark Board Question",
           "question": "Explain how Belgium attempted to avoid domination by one linguistic community.",
           "answer": "It used balanced representation in the central government, strengthened regional governments, gave Brussels a special power-sharing arrangement and created community-level institutions for language and cultural matters."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Belgium demonstrates how constitutional engineering can respond to social and linguistic diversity. The central idea was not to erase differences but to make them politically manageable. Equal representation of major language communities in the central cabinet reduced the fear that one linguistic group would permanently dominate national executive power."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Belgium also used regional and community-level institutions. Regional governments could exercise authority over matters assigned to them, while community governments dealt with language, culture and education-related concerns. This created multiple channels through which citizens could see their identity reflected in public decision-making."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The lesson is broader than Belgium itself: when social divisions are deep, a political system can either intensify competition for total control or create rules that distribute authority. Accommodation requires negotiation and institutional restraint, but it can make a diverse state more stable."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 2. Belgium becomes a classroom puzzle",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Suppose our class has two large language groups. What happens if one group controls every notice and announcement?"
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "The smaller group may feel that the class belongs only to the larger group."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Belgium faced a comparable political challenge and developed arrangements that gave both major language communities a meaningful share in authority."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Then accommodation is a practical way to keep diversity from becoming conflict."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Name the three major linguistic communities of Belgium.",
+          "answer": "The three major linguistic communities are Dutch-speaking, French-speaking and German-speaking communities."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "How did Belgium reduce the danger of linguistic domination?",
+          "answer": "Belgium used constitutional arrangements that shared authority between Dutch- and French-speaking communities, strengthened regional governments and created community-level institutions for language, culture and education."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 2",
+          "question": "How can power-sharing reduce political instability?",
+          "answer": "It gives different groups institutional opportunities to participate, reducing the incentive to treat political competition as a struggle for total control."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 8",
+          "question": "Why does power-sharing have a prudential reason?",
+          "answer": "It can reduce conflict and political instability by ensuring that competing groups have institutional ways to share authority and negotiate differences."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of constitutional design should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that constitutional design is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of political stability should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political stability is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of conflict prevention should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that conflict prevention is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -118,33 +254,87 @@ const ChapterData = {
           "text": "Majority rule means that decisions are often made according to the preferences of more voters. Majoritarianism goes further: it treats the majority community as entitled to dominate the political system and can disregard minority rights."
         },
         {
-          "type": "comic",
-          "title": "Comic: Two neighbourhoods",
-          "dialogues": [
-            {
-              "character": "Nila",
-              "dialogue": "Our group is larger, so the park rules should always follow us."
-            },
-            {
-              "character": "Rohan",
-              "dialogue": "But the park belongs to everyone. If one group controls every rule, others may stop trusting the committee."
-            },
-            {
-              "character": "Nila",
-              "dialogue": "Then we need rules that protect everyone while still allowing majority decisions."
-            },
-            {
-              "character": "Rohan",
-              "dialogue": "Exactly. Majority rule needs democratic limits and minority protection."
-            }
-          ],
-          "result": "The neighbourhood creates common rules, minority safeguards and a committee with representation from both groups."
-        },
-        {
           "type": "exam",
           "title": "5-Mark Board Question",
           "question": "Distinguish between the Belgian and Sri Lankan approaches to diversity.",
           "answer": "Belgium adopted accommodation and institutional power-sharing, while Sri Lanka followed majoritarian policies that privileged the majority community and contributed to alienation and conflict among minorities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Sri Lanka illustrates the consequences of majoritarian politics when a numerical majority attempts to use the state to establish cultural and political dominance. Policies associated with the Sinhala-speaking majority contributed to grievances among Tamil communities, particularly when language, education, employment and political recognition were perceived as unequal."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The central concept is majoritarianism: the belief that the majority community should be able to rule according to its preferences with limited obligation to accommodate minorities. In a diverse society, this can transform ordinary political competition into an identity conflict because elections become connected to questions of security, status and belonging."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The comparison with Belgium is important because both cases involve linguistic communities but follow different political paths. The contrast shows that diversity itself does not automatically produce conflict; institutions and political choices influence whether differences are accommodated or weaponised."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 3. Sri Lanka: when one side dominates",
+          "dialogues": [
+            {
+              "character": "Prince",
+              "dialogue": "Why not simply make the majority language the only official language?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Because a rule can be legal and still make a minority feel excluded."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That is the danger of majoritarianism when majority power is used without adequate accommodation."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "So stability depends not only on who is larger, but also on whether others feel respected."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What is majoritarianism?",
+          "answer": "Majoritarianism is the belief that the majority community should be able to rule according to its preferences with limited obligation to accommodate minority communities."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why can majoritarianism create conflict in a diverse society?",
+          "answer": "It can make minority communities feel politically excluded and culturally threatened, turning ordinary political competition into deeper conflict over language, rights, recognition and security."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 3",
+          "question": "Why is the Belgium example an example of accommodation?",
+          "answer": "Belgium created constitutional arrangements that shared authority among linguistic communities and levels of government instead of allowing one community to dominate the others."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 9",
+          "question": "How can coalition governments illustrate power-sharing?",
+          "answer": "When multiple parties jointly form a government and divide responsibilities or agree on a common programme, political authority is shared among those parties."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of minority protection should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that minority protection is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of social accommodation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that social accommodation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of accountability should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that accountability is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -181,6 +371,83 @@ const ChapterData = {
           "title": "5-Mark Board Question",
           "question": "Describe four forms of power-sharing with examples.",
           "answer": "Horizontal sharing operates among legislature, executive and judiciary; vertical sharing divides authority among national, state and local governments; social-group sharing provides representation to different communities; political sharing occurs through parties, coalitions, pressure groups and movements."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Horizontal power-sharing operates among organs of government. Legislative bodies make laws, executives implement policy and independent courts interpret law and review state action. This arrangement creates checks and balances because no single organ is supposed to exercise every public function without restraint."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Vertical power-sharing distributes authority among levels of government. In a federal arrangement, constitutional rules allocate powers to national and regional governments. Social power-sharing can include representation or safeguards for communities that might otherwise be excluded. Political power-sharing can occur through coalitions, alliances and participation by parties, pressure groups and movements."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "These forms can overlap. A federal democracy may combine several levels of government with independent courts, representative legislatures, community safeguards and coalition politics. The result is a network of shared authority rather than a single ladder of command."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 4. Four places where power can be shared",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Can power-sharing happen only between communities?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "No. It can occur among organs of government, among levels of government, among social groups, and among political parties or pressure groups."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "So a democracy can distribute authority both vertically and horizontally."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Correct. Different arrangements solve different problems of concentration and exclusion."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Name four forms of power-sharing.",
+          "answer": "The four forms are sharing power among organs of government, among different levels of government, among social groups, and among political parties, pressure groups and movements."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "How is power shared among organs of government?",
+          "answer": "The legislature makes laws, the executive implements policy and the judiciary interprets laws and can review state action, creating checks and balances among organs."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 4",
+          "question": "What is the main contrast between Belgium and Sri Lanka in the chapter?",
+          "answer": "Belgium developed power-sharing and accommodation, whereas majoritarian policies in Sri Lanka contributed to minority grievances and intensified conflict."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 10",
+          "question": "State one danger of excessive concentration of power.",
+          "answer": "Excessive concentration can weaken checks, reduce minority influence and increase the possibility of arbitrary or unaccountable decisions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of majority rule should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that majority rule is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of coalition practice should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that coalition practice is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of democratic restraint should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that democratic restraint is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -203,338 +470,382 @@ const ChapterData = {
           "text": "The aim is not to make every decision unanimous. Democracy still needs decision-making. The important point is that those who disagree must have lawful routes to express opposition, organise, negotiate and compete in future elections."
         },
         {
-          "type": "comic",
-          "title": "Comic: The committee vote",
-          "dialogues": [
-            {
-              "character": "Sana",
-              "dialogue": "We lost the vote. Does that mean we should leave the committee?"
-            },
-            {
-              "character": "Dev",
-              "dialogue": "No. We can record our disagreement, explain our alternative and try again next time."
-            },
-            {
-              "character": "Sana",
-              "dialogue": "So sharing power also means protecting the right to disagree."
-            },
-            {
-              "character": "Dev",
-              "dialogue": "Yes. Democracy needs both decision and dissent."
-            }
-          ],
-          "result": "The committee adopts the majority proposal while formally recording the minority position and setting a review date."
-        },
-        {
           "type": "exam",
           "title": "3-Mark Board Question",
           "question": "Why can power-sharing be called both a prudential and a moral necessity?",
           "answer": "It is prudential because it reduces conflict and political instability, and moral because democratic government is expected to respect the participation, dignity and interests of different citizens and communities."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Power-sharing has a prudential value because it can lower the cost of political conflict. When groups know that they will have an institutional route to representation, they have less reason to treat every election as a winner-takes-all struggle. This can support political stability and encourage negotiation."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "It also has a moral value. Democracy rests on the idea that citizens are not merely subjects of decisions but participants in public authority. Sharing power recognises political equality by creating mechanisms through which different interests can be heard and considered."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "However, power-sharing must be accompanied by accountability. Institutions can become ineffective if every disagreement blocks action. The strongest arrangements therefore combine inclusion with clear responsibilities, transparent procedures and constitutional rules for resolving disputes."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 5. The decision that everyone can live with",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Our committee has different opinions. Should we just follow the largest group?"
+            },
+            {
+              "character": "Divya",
+              "dialogue": "First ask whether the smaller group has a legitimate concern."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "And then design a decision where responsibility is shared?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Yes. A workable compromise can protect both effective government and democratic inclusion."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
           "type": "practice",
-          "question": "A majority wins every election and changes every institution without consulting minorities. Is this healthy democracy? Explain.",
-          "answer": "No. Electoral victory gives authority to govern, but democracy also requires constitutional limits, minority rights, institutional checks and opportunities for peaceful participation."
+          "title": "Check your understanding — Question 1",
+          "question": "Give one prudential reason for power-sharing.",
+          "answer": "Power-sharing reduces the likelihood of conflict by giving different groups institutional routes to representation and participation."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Give one moral reason for power-sharing.",
+          "answer": "Power-sharing respects democratic equality by recognising that citizens and communities have a legitimate claim to participate in decisions that affect them."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 5",
+          "question": "What is horizontal power-sharing?",
+          "answer": "Horizontal power-sharing distributes authority among organs of government such as the legislature, executive and judiciary so that each has defined functions and can check excessive concentration of power."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of institutional checks should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that institutional checks is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of citizen participation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that citizen participation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of shared responsibility should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that shared responsibility is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Deep-Dive Understanding",
+      "title": "Comparative lens: Belgium and Sri Lanka",
       "blocks": [
         {
           "type": "paragraph",
-          "title": "Deep Dive 1: Power Sharing",
-          "text": "Power-sharing can be understood as a design principle: political authority should be distributed so that no single institution, community or political organisation can permanently control every route to decision-making. This principle does not remove disagreement. Instead, it turns disagreement into negotiation within rules. In a diverse society, the durability of a political system often depends on whether losing groups believe that they can participate again, influence institutions and protect their basic interests without abandoning democratic procedures."
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Power Sharing, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 2: Power Sharing",
-          "text": "A useful way to analyse a power-sharing arrangement is to ask four questions. Who receives authority? Over which subjects? What constitutional or legal rule protects that authority? What happens when two actors disagree? These questions help distinguish genuine sharing from symbolic consultation. A committee may hear everyone but still leave all final authority with one person; a stronger arrangement gives multiple actors a recognised role in decisions and creates procedures for resolving disputes."
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 3: Power Sharing",
-          "text": "The Belgian experience shows that accommodation can involve several layers at once. National institutions can be balanced, regional governments can receive authority, the capital can receive special arrangements, and community institutions can handle language and cultural matters. The important lesson is not that every country must copy Belgium. Rather, institutional design should respond to the specific social divisions of a country and create incentives for cooperation instead of permanent domination."
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
+        },
+        {
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 6. The committee protects a minority voice",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Our committee has five members. Four agree and one disagrees."
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "Before voting, let us ask whether the disagreement concerns a basic right or only a preference."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That distinction helps a democracy combine majority decision-making with protection against unfair exclusion."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "So a majority decision still operates inside democratic limits."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 7. The court checks the rule",
+          "dialogues": [
+            {
+              "character": "Ansh",
+              "dialogue": "If the executive makes a decision, who can examine whether it follows the law?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "An independent judiciary can interpret the law and constitutional limits."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "That means power is shared horizontally."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Yes, and review prevents one institution from becoming the final unchecked authority."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 8. Coalition after the election",
+          "dialogues": [
+            {
+              "character": "Prince",
+              "dialogue": "Two parties have different programmes, but neither can form a government alone."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "They can negotiate a common minimum programme."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "That is a political form of power-sharing in which parties cooperate to exercise governing authority."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "The election decides representation, while negotiation decides how representation is converted into government."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 9. Representation is not domination",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "If our group has the largest number, should every committee chair go to us?"
+            },
+            {
+              "character": "Divya",
+              "dialogue": "Not necessarily. Fair representation can include other groups in leadership and consultation."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly. Representation should not be confused with permanent domination."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "That makes the institution more acceptable to everyone."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 10. Surya explains the whole chapter",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Power-sharing can be horizontal, vertical, social or political."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "And why is it useful?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Because it can reduce conflict, recognise diversity, prevent concentration and strengthen democratic legitimacy."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Excellent. That is the chapter as one connected argument."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 6",
+          "question": "What is vertical power-sharing?",
+          "answer": "Vertical power-sharing distributes authority among different levels of government, such as national, regional and local levels, according to constitutional or legal rules."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 4: Power Sharing",
-          "text": "The Sri Lankan experience demonstrates why majority rule needs democratic safeguards. If a majority repeatedly uses its electoral strength to define the state mainly in its own cultural terms, minority citizens may conclude that normal elections cannot protect their interests. Once political exclusion becomes associated with language, religion, education or employment, conflict can become deeper than an ordinary disagreement about policy. Accommodation can therefore be a preventive democratic strategy, not merely a compromise made after conflict begins."
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of negotiation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that negotiation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 5: Power Sharing",
-          "text": "Power-sharing within government also supports accountability. When different institutions have distinct responsibilities, each can question or constrain the others. A legislature can scrutinise executive action; courts can interpret constitutional limits; opposition parties can challenge government proposals; and citizens can organise outside formal institutions. These relationships create several routes through which power can be questioned rather than leaving accountability dependent on one office."
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of regional authority should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that regional authority is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 6: Power Sharing",
-          "text": "Power-sharing among social groups should not be reduced to permanent division. The aim is to make participation possible while maintaining a common political framework. Representation mechanisms are strongest when they are combined with shared constitutional values, common citizenship and opportunities for cooperation. A system that protects groups but prevents interaction may freeze divisions; a system that ignores groups may encourage domination. Democratic design seeks a workable balance between recognition and common institutions."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 7: Power Sharing",
-          "text": "Coalition governments illustrate another form of political power-sharing. Parties may disagree strongly on some questions but still cooperate around a common programme. Coalition agreements often require negotiation over priorities, ministries and legislative plans. This can slow decisions because partners must bargain, yet it can also broaden the range of interests represented in government. The democratic value lies in converting electoral fragmentation into structured cooperation rather than treating every disagreement as a reason for political paralysis."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 8: Power Sharing",
-          "text": "For examination answers, distinguish between the existence of a majority and the legitimacy of domination. A majority is a numerical fact in a particular decision. Domination is a continuing political relationship in which one group uses its superior numbers or institutional control to deny meaningful participation to others. A high-scoring answer explains that democracy requires both effective majority decision-making and constitutional respect for minority rights, institutional checks and peaceful avenues for disagreement."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 9: Power Sharing",
-          "text": "Power-sharing is especially important when social identities overlap with political geography. If one linguistic or ethnic group controls both the national government and most regional institutions, another group may feel permanently excluded. Federal arrangements can reduce this problem by giving regional communities authority over matters close to them. Conversely, if political institutions are designed so that groups must cooperate to form national decisions, leaders have incentives to seek support beyond their own community."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 10: Power Sharing",
-          "text": "An effective democratic arrangement therefore has both a vertical and horizontal dimension. Vertical sharing asks how authority is divided between levels such as national, state and local governments. Horizontal sharing asks how authority is distributed among institutions operating at the same constitutional level. Together they create a network of checks, responsibilities and participation. This network can make government more complex, but complexity is not necessarily a weakness when it prevents arbitrary concentration of power."
+          "title": "Extended concept note",
+          "text": "In the context of Power Sharing, the idea of inclusive institutions should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that inclusive institutions is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Board Practice and Deep Revision",
+      "title": "Power-sharing vocabulary map",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Application Question 1: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Power Sharing, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Application Question 2: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Application Question 3: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Application Question 4: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 5: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 6: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 7: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 8: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 9: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 10: Explain one important idea from Power Sharing using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Key Concepts — Quick Mastery",
+      "title": "Answer-writing framework",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Key Term 1",
-          "text": "Power-sharing: distribution of authority so that multiple actors participate in decisions."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Power Sharing, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "concept",
-          "title": "Key Term 2",
-          "text": "Majoritarianism: a form of majority domination that can disregard minority interests."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "concept",
-          "title": "Key Term 3",
-          "text": "Federalism: constitutionally divided authority among levels of government."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "concept",
-          "title": "Key Term 4",
-          "text": "Decentralisation: transfer of responsibilities toward lower levels of government."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 5",
-          "text": "Communalism: politicisation of religious identity in ways that can produce antagonism or exclusion."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 6",
-          "text": "Political party: organised group seeking political power through elections."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 7",
-          "text": "Accountability: the obligation of rulers and institutions to explain and justify actions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 8",
-          "text": "Legitimacy: acceptance of political authority as rightful and lawful."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 9",
-          "text": "Representation: presence of people or interests in decision-making institutions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 10",
-          "text": "Dignity: recognition that every citizen deserves equal respect and status."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Scenario Workshop",
+      "title": "Integrated case analysis",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Scenario 1: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 1 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Power Sharing, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Scenario 2: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 2 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Scenario 3: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 3 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Scenario 4: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 4 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 5: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 5 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 6: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 6 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 7: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 7 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 8: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 8 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 9: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 9 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 10: A student encounters a real democratic disagreement connected with Power Sharing. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 10 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Extended Concept Notes",
+      "title": "Final mixed board practice — exact answers",
       "blocks": [
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 1",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 1, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 1",
+          "question": "Define power-sharing.",
+          "answer": "Power-sharing is an arrangement in which political authority is distributed among different organs, levels, social groups or political actors so that power is not concentrated in one place."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 2",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 2, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 2",
+          "question": "State two reasons why power-sharing is desirable.",
+          "answer": "Power-sharing reduces the possibility of conflict and political instability, and it gives different groups and citizens a legitimate role in decision-making."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 3",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 3, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 3",
+          "question": "Name the three major linguistic communities of Belgium.",
+          "answer": "The three major linguistic communities are Dutch-speaking, French-speaking and German-speaking communities."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 4",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 4, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 4",
+          "question": "How did Belgium reduce the danger of linguistic domination?",
+          "answer": "Belgium used constitutional arrangements that shared authority between Dutch- and French-speaking communities, strengthened regional governments and created community-level institutions for language, culture and education."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 5",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 5, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 5",
+          "question": "What is majoritarianism?",
+          "answer": "Majoritarianism is the belief that the majority community should be able to rule according to its preferences with limited obligation to accommodate minority communities."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 6",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 6, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 6",
+          "question": "Why can majoritarianism create conflict in a diverse society?",
+          "answer": "It can make minority communities feel politically excluded and culturally threatened, turning ordinary political competition into deeper conflict over language, rights, recognition and security."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 7",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 7, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 7",
+          "question": "Name four forms of power-sharing.",
+          "answer": "The four forms are sharing power among organs of government, among different levels of government, among social groups, and among political parties, pressure groups and movements."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 8",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 8, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 8",
+          "question": "How is power shared among organs of government?",
+          "answer": "The legislature makes laws, the executive implements policy and the judiciary interprets laws and can review state action, creating checks and balances among organs."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 9",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 9, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 9",
+          "question": "Give one prudential reason for power-sharing.",
+          "answer": "Power-sharing reduces the likelihood of conflict by giving different groups institutional routes to representation and participation."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 10",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 10, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 11",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 11, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 12",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 12, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 13",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 13, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 14",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 14, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 15",
-          "text": "Political arrangements are durable when participants see institutions as fair enough to justify continued participation. Fairness does not mean that every decision gives every group an equal share of every resource. It means that procedures are predictable, rights are protected, and groups have lawful opportunities to argue for change. This distinction is useful in exam answers because power-sharing is about the design of authority, not a promise that all political actors will always receive identical outcomes. This is extension note 15, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 10",
+          "question": "Give one moral reason for power-sharing.",
+          "answer": "Power-sharing respects democratic equality by recognising that citizens and communities have a legitimate claim to participate in decisions that affect them."
         }
       ]
     }

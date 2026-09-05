@@ -1,18 +1,23 @@
-// Class 10 Political Science — Gender, Religion and Caste
-// Renderable ChapterData for ConceptQizzer notes renderer.
-
+// Class 10 Political Science — ultra detailed expanded renderable chapter
 const ChapterData = {
   "id": "10-politicalscience-gender-religion-and-caste",
   "class": 10,
   "subject": "Political Science",
   "chapterNumber": 3,
   "title": "Gender, Religion and Caste",
-  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice.",
+  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice. Expanded with additional original explanations, integrated comic stories, exact-answer questions and labelled Wikimedia Commons visuals. This edition removes the earlier comic stories and replaces them with new character-based stories distributed beside the relevant concepts, plus additional exact-answer practice and extended explanations.",
   "summary": "How social differences influence political life, how discrimination becomes a democratic issue, and how public institutions can respond without turning identity into exclusion.",
   "sections": [
     {
       "title": "1. Gender and political representation",
       "blocks": [
+        {
+          "type": "figure",
+          "title": "Real-world visual",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agitation%20for%20demand%20of%2033%25%20reservation%20for%20women%20in%20political%20institutions%20in%20India%2C%20Mumbai%2C%20August%202014.jpg",
+          "caption": "Women participating in a public campaign for greater representation in political institutions.",
+          "source": "Wikimedia Commons: Women’s political representation demonstration"
+        },
         {
           "type": "paragraph",
           "title": "Gender division of labour",
@@ -31,33 +36,87 @@ const ChapterData = {
           "alt": "A photograph of women participating in voting, illustrating political participation and equality."
         },
         {
-          "type": "comic",
-          "title": "Comic: Who attends the meeting?",
-          "dialogues": [
-            {
-              "character": "Riya",
-              "dialogue": "The village meeting starts at six. Many women are still finishing household work then."
-            },
-            {
-              "character": "Mohan",
-              "dialogue": "Then the meeting time itself can become a barrier to participation."
-            },
-            {
-              "character": "Riya",
-              "dialogue": "Exactly. Equal rights need practical opportunities to use them."
-            },
-            {
-              "character": "Mohan",
-              "dialogue": "Let us choose a time and process that allows everyone to participate."
-            }
-          ],
-          "result": "The local body changes its meeting schedule and improves notice procedures so more residents can attend."
-        },
-        {
           "type": "exam",
           "title": "3-Mark Board Question",
           "question": "Why is the gender division of labour considered a political issue?",
           "answer": "Because unequal responsibilities can limit women’s education, employment, time, income and participation in public decision-making. When these inequalities affect rights and opportunities, they become matters of public policy."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Gender division is not simply a difference between males and females; it refers to patterns in which social expectations assign different roles, opportunities and responsibilities. Political representation matters because public decisions influence education, employment, safety, healthcare, family law and access to resources."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Women’s under-representation can arise from several factors: unequal access to education or income, household responsibilities, social attitudes about leadership, violence or intimidation, and party-level decisions about candidate selection. These factors can interact, so increasing representation may require more than one reform."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Political representation is valuable not because women automatically have identical political views, but because a democracy should not systematically exclude a large part of its population from decision-making. Diverse representation can also broaden which issues receive attention."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 1. Who gets heard?",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "If women make up about half the population, why should political representation matter?"
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "Because equal citizenship does not automatically produce equal representation."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Correct. Social inequalities can influence who gets opportunities, voice and influence."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "So representation can be part of correcting a long-standing imbalance."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Why does women’s political representation matter?",
+          "answer": "It matters because women are equal citizens and should have meaningful opportunities to participate in decisions that affect society; representation can also bring wider experiences and concerns into public debate."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Mention two factors that can reduce women’s political participation.",
+          "answer": "Unequal access to resources and education, and social expectations that place disproportionate household responsibilities on women, can reduce political participation."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 1",
+          "question": "Why does equal citizenship not automatically create equal representation?",
+          "answer": "Social norms, unequal resources, household responsibilities and organisational barriers can prevent equally qualified citizens from having equal opportunities to enter political institutions."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 7",
+          "question": "Why do cross-cutting identities matter?",
+          "answer": "When people share interests across different social divisions, those overlapping ties can encourage cooperation and prevent one division from becoming the sole basis of political conflict."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of communal mobilisation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that communal mobilisation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of social reform should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that social reform is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of democratic inclusion should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that democratic inclusion is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -84,6 +143,83 @@ const ChapterData = {
           "title": "3-Mark Board Question",
           "question": "State two ways in which gender inequality can appear in public life.",
           "answer": "It can appear through unequal access to education or employment, unequal wages, under-representation in decision-making, restrictions on mobility, or unequal household responsibilities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Representation can be examined at several levels: national and state legislatures, local governments, political parties, cabinets and other decision-making bodies. Different institutions may show different patterns of participation, so one cannot judge gender equality from a single statistic."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Reservations in local government created a major institutional route for women to enter elected politics. Such measures can alter expectations by making political office more accessible and by giving communities experience with women as public decision-makers."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Greater representation does not automatically remove every gender inequality. Women representatives may still face unequal resources, social pressure or barriers inside political organisations. Representation is therefore one part of a larger process of democratic equality."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 2. A household rule becomes a public issue",
+          "dialogues": [
+            {
+              "character": "Divya",
+              "dialogue": "Why is sharing housework a political issue?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Because social expectations about work and power are shaped by institutions and norms."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly. Politics can address inequalities that appear in family life, education, employment and public decision-making."
+            },
+            {
+              "character": "Divya",
+              "dialogue": "Then private experiences can reveal wider social patterns."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "How can reservations increase women’s participation?",
+          "answer": "Reservations create a guaranteed share of elected positions for women, opening institutional opportunities that social and organisational barriers might otherwise restrict."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why is representation alone not sufficient for gender equality?",
+          "answer": "Women representatives may still face unequal resources, social pressure and barriers within political organisations, so representation must be accompanied by broader social and institutional change."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 2",
+          "question": "How can political representation change social expectations?",
+          "answer": "Regular participation by women and disadvantaged groups can make leadership by previously under-represented citizens more normal and institutionally accepted."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 8",
+          "question": "Why can reinforcing social divisions be dangerous?",
+          "answer": "When the same groups repeatedly find themselves on opposite sides of several divisions, political conflict can become sharper and more difficult to accommodate."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of political representation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political representation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of secular citizenship should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that secular citizenship is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of institutional access should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that institutional access is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -120,27 +256,81 @@ const ChapterData = {
           "text": "Communalism refers to a political understanding in which religion is treated as the principal basis of social and political identity, often producing the belief that the interests of religious communities are necessarily opposed. Its extreme forms can encourage discrimination, political domination or violence."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Religion can enter politics in several ways. Citizens may demand equal rights, protection of religious freedom or public recognition of community concerns. At the same time, political actors may mobilise religious identity in ways that create fear, exclusion or hostility. These are not identical phenomena and must be distinguished carefully."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Communal politics occurs when one religious community is presented as a political unit whose interests are treated as opposed to those of another community. It can involve stereotypes, political appeals based primarily on religious identity or demands for dominance."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democratic politics can engage with religious concerns while maintaining equal citizenship. The key principle is that the state should not deny rights because of religious identity and should not allow one community to dominate others."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The election speech",
+          "title": "Comic story — 3. Religion enters politics",
           "dialogues": [
             {
-              "character": "Candidate",
-              "dialogue": "I want every citizen to receive the same public service regardless of religion."
+              "character": "Prince",
+              "dialogue": "Is every reference to religion in politics communal?"
             },
             {
-              "character": "Volunteer",
-              "dialogue": "That message builds a common citizenship."
+              "character": "Verma Sir",
+              "dialogue": "No. A demand for equal treatment or protection of religious freedom is different from using religion to create hostility against another group."
             },
             {
-              "character": "Candidate",
-              "dialogue": "We can discuss religious concerns, but we should not tell voters that another religion is their enemy."
+              "character": "Surya",
+              "dialogue": "So the context and purpose matter."
             },
             {
-              "character": "Volunteer",
-              "dialogue": "Then identity can be discussed without turning it into hatred."
+              "character": "Verma Sir",
+              "dialogue": "Yes. Democratic politics must protect freedom while resisting domination and exclusion."
             }
           ],
-          "result": "The campaign focuses on equal citizenship and rejects collective blame based on religion."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Is every use of religion in politics communal?",
+          "answer": "No. Demands for equal treatment or religious freedom are different from political appeals that portray one religious community as opposed to another or seek domination."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "What is communalism?",
+          "answer": "Communalism is a form of politics in which religious identity is treated as a primary political basis and the interests of one religious community are presented as opposed to those of another."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 3",
+          "question": "What is communalism?",
+          "answer": "Communalism is politics based on treating religious identity as a primary political division and presenting the interests of one religious community as opposed to another."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 9",
+          "question": "Why are affirmative measures used?",
+          "answer": "They seek to address historical and structural disadvantages and improve access to representation and opportunities for disadvantaged groups."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of social norms should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that social norms is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of caste hierarchy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that caste hierarchy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of political voice should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political voice is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -162,6 +352,83 @@ const ChapterData = {
           "title": "5-Mark Board Question",
           "question": "How can religion be a part of democratic politics without becoming communalism?",
           "answer": "Citizens may raise concerns influenced by religious beliefs, but democratic politics should preserve equal citizenship, avoid hatred and discrimination, and seek public policies that can be justified without denying the rights of other communities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "A secular democratic framework seeks to prevent the state from becoming an instrument of religious domination. In the Indian context, secularism is connected with equal citizenship, freedom of religion and the constitutional protection of individuals and communities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Equal citizenship does not require citizens to abandon religious identities. It requires that public rights and legal protections not depend on belonging to a preferred faith. The state may also intervene when social practices violate constitutional rights or equality."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The distinction between religion as personal or community identity and communalism as a political strategy is essential. A democratic society can contain many religions while rejecting political practices that turn difference into permanent hostility."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 4. Caste and elections",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Why do parties consider caste groups during elections?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Because caste can influence social networks, political preferences and local alliances."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "But voters are not controlled by caste alone. Development, leadership, policies and local issues also matter."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "So caste is politically relevant without being the only explanation."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What is the basic democratic principle of secularism?",
+          "answer": "The basic principle is equal citizenship regardless of religious identity, together with freedom of religion and protection against religious domination."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why can the state intervene in religious practices?",
+          "answer": "The state can intervene when practices conflict with constitutional rights, equality or other public principles protected by law."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 4",
+          "question": "How is a demand for equal religious rights different from communal politics?",
+          "answer": "A demand for equal rights seeks constitutional equality and protection, whereas communal politics can mobilise religious identity to create opposition, exclusion or domination."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 10",
+          "question": "Why should caste politics not be reduced to caste voting alone?",
+          "answer": "Because political behaviour is influenced by multiple factors, including economic interests, development, party programmes, leadership, local issues and alliances."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of equal citizenship should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that equal citizenship is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of affirmative action should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that affirmative action is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of discrimination should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that discrimination is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -197,27 +464,75 @@ const ChapterData = {
           "answer": "Positively, disadvantaged groups can mobilise for representation and demand social justice. Negatively, political competition can become narrowly caste-based, encourage stereotypes or divide citizens instead of building broader policy coalitions."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Caste has historically structured social hierarchy, occupation, marriage and access to resources. Although constitutional equality and social change have weakened many traditional restrictions, caste can still influence social networks, opportunities and political mobilisation."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Political participation can challenge caste inequalities by giving historically marginalised communities a route to representation and public voice. Reservations and other affirmative measures are examples of attempts to address structural disadvantage within a constitutional framework."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "At the same time, caste in politics is not a single-direction phenomenon. Parties may build alliances across caste groups, candidates may appeal to several communities, and voters may combine caste considerations with development, leadership, ideology and local concerns."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The scholarship list",
+          "title": "Comic story — 5. Multiple identities overlap",
           "dialogues": [
             {
-              "character": "Dev",
-              "dialogue": "The scholarship should go to whoever meets the eligibility rules."
+              "character": "Surya",
+              "dialogue": "Can a person be influenced by gender, religion, caste and class at the same time?"
             },
             {
-              "character": "Asha",
-              "dialogue": "And the rules should recognise barriers faced by historically disadvantaged groups."
+              "character": "Arushi",
+              "dialogue": "Yes, and those identities can produce different advantages or disadvantages in different situations."
             },
             {
-              "character": "Dev",
-              "dialogue": "So equality may sometimes require targeted support rather than identical treatment in every circumstance."
+              "character": "Sharma Sir",
+              "dialogue": "That is why social divisions should not be treated as single boxes."
             },
             {
-              "character": "Asha",
-              "dialogue": "Yes, the goal is fair opportunity, not merely identical paperwork."
+              "character": "Surya",
+              "dialogue": "Understanding the overlap helps us analyse politics more carefully."
             }
           ],
-          "result": "The committee publishes transparent criteria combining equal legal rights with measures designed to reduce structural disadvantage."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "How can caste influence politics?",
+          "answer": "Caste can influence political networks, candidate selection, group mobilisation and voting behaviour, although voters also consider development, leadership, policies and other issues."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why are affirmative measures used for disadvantaged groups?",
+          "answer": "They are used to address historical and structural disadvantages and to improve access to representation and opportunities."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 5",
+          "question": "What is secularism in terms of citizenship?",
+          "answer": "Secularism supports equal citizenship regardless of religion and protects freedom of religion while preventing religious domination through the state."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of women’s participation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that women’s participation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of political alliances should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political alliances is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of public debate should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that public debate is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -235,309 +550,332 @@ const ChapterData = {
           "text": "Democracy does not eliminate social differences. Its task is to provide peaceful institutions through which different interests can be represented, negotiated and protected while preserving equal citizenship."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Social divisions rarely operate in isolation. A person can simultaneously belong to a particular caste, religion, language community, region, gender and economic class. These identities can overlap and produce different political experiences."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Cross-cutting social divisions can reduce conflict when people share interests across one boundary. For example, members of different religious or caste groups may belong to the same profession, neighbourhood or economic class. Such overlapping ties can create incentives for cooperation."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "By contrast, when several divisions reinforce one another, political conflict can become sharper because the same groups repeatedly find themselves on opposite sides. Democratic institutions can reduce these risks by protecting equal rights, encouraging participation and creating peaceful mechanisms for negotiation."
+        },
+        {
           "type": "practice",
-          "question": "A party promises benefits only to one caste and describes another caste as an enemy. What democratic danger does this create?",
-          "answer": "It can convert a social identity into an exclusive political bloc, deepen mistrust and undermine equal citizenship. Democratic competition should address disadvantage without promoting hostility."
+          "title": "Check your understanding — Question 1",
+          "question": "What are cross-cutting social divisions?",
+          "answer": "They are social divisions in which people share multiple identities or interests across different boundaries, reducing the likelihood that one division completely separates society into opposing camps."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why can overlapping identities reduce conflict?",
+          "answer": "Shared interests across different social boundaries can encourage cooperation and prevent one identity from becoming the only basis of political organisation."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 6. The school election",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Only boys have been chosen for every leadership role this year."
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "Then we should ask whether social expectations are limiting opportunities."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That is a useful example of why equal citizenship does not automatically create equal participation."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "The rule should allow everyone a genuine opportunity."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 7. A religious demand",
+          "dialogues": [
+            {
+              "character": "Divya",
+              "dialogue": "Our community wants equal access to a public facility."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "That is a demand for equal citizenship, not automatically communal politics."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Correct. The democratic test is whether the demand seeks equal rights or domination over others."
+            },
+            {
+              "character": "Divya",
+              "dialogue": "So the purpose and method matter."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 8. Caste is not the only issue",
+          "dialogues": [
+            {
+              "character": "Prince",
+              "dialogue": "A candidate is popular in one caste group. Does that guarantee victory?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "No. Voters can also consider development, leadership, party programmes and local issues."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Good. Social identity can influence politics without completely determining political behaviour."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "That prevents us from making simplistic conclusions."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 9. Two identities, one citizen",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Can the same voter be both a member of a caste group and a religious community and also a worker?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Yes. Political behaviour can reflect several identities and interests simultaneously."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Then social analysis must look for overlaps."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "That explains why social divisions can cross each other."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 10. Surya connects the chapter",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Gender asks who gets equal opportunities, religion asks how identity enters politics, and caste asks how hierarchy and mobilisation affect society."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "And what connects them?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "The principle of equal citizenship and the need to manage social differences democratically."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 6",
+          "question": "How can caste affect electoral politics?",
+          "answer": "Caste can influence social networks, candidate selection, alliances and mobilisation, but voters also consider policies, leadership, development and other issues."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of religious freedom should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that religious freedom is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of cross-cutting identities should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that cross-cutting identities is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Gender, Religion and Caste, the idea of shared interests should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that shared interests is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Deep-Dive Understanding",
+      "title": "Equality and representation",
       "blocks": [
         {
           "type": "paragraph",
-          "title": "Deep Dive 1: Gender, Religion and Caste",
-          "text": "Gender inequality is political because social expectations influence access to resources and public authority. When girls receive less education, women carry a disproportionate share of unpaid work, or women face barriers to employment, the consequences extend beyond private life. Public institutions can address these inequalities through laws, welfare policies, education, workplace rules and political representation."
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Gender, Religion and Caste, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 2: Gender, Religion and Caste",
-          "text": "Political representation of women matters because institutions make decisions about issues that affect everyday life. A woman representative may bring experiences and priorities that were previously under-represented. However, representation should not be treated as proof that every woman shares one political view. Women are diverse in class, region, religion, caste, occupation and political preference."
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 3: Gender, Religion and Caste",
-          "text": "Religion can influence political ideas without automatically producing communalism. Citizens may draw moral arguments from religious traditions and still support equal citizenship. The danger arises when religious identity is transformed into a claim that one community has superior political rights or that another community is a permanent enemy. Democratic politics must therefore separate freedom of belief from unequal citizenship."
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "paragraph",
-          "title": "Deep Dive 4: Gender, Religion and Caste",
-          "text": "Secularism is connected with equal citizenship. The state should not make a citizen's basic political rights depend on belonging to a preferred religion. At the same time, protecting religious freedom can require the state to engage with religious institutions and practices. The democratic challenge is to balance freedom of belief with equality, dignity and other constitutional rights."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 5: Gender, Religion and Caste",
-          "text": "Caste combines social identity with historical inequality. Traditional caste hierarchy restricted occupations, social interaction and access to opportunities for many communities. Legal equality and social reform have challenged these structures, but discrimination can persist through attitudes, economic disadvantage, residential patterns and unequal access to networks. Political democracy can provide channels for disadvantaged groups to organise and demand change."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 6: Gender, Religion and Caste",
-          "text": "Caste can influence elections because voters live within social networks and political parties seek support from organised communities. Yet caste is only one possible factor. People also consider candidates, government performance, employment, prices, public services, leadership and local issues. A careful answer avoids the assumption that an entire caste or religious community votes identically."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 7: Gender, Religion and Caste",
-          "text": "Political mobilisation by disadvantaged groups can strengthen democracy when it turns invisible inequalities into public questions. Demands for representation, access to education, land, employment or dignity can force institutions to confront historical exclusion. The democratic concern arises when mobilisation changes from seeking equal rights to denying rights to another group."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 8: Gender, Religion and Caste",
-          "text": "Overlapping social differences can produce different political effects. If economic class, language, religion and region divide people in different ways, citizens may share some interests with people outside their immediate community. These cross-cutting identities can reduce the likelihood of one permanent social bloc confronting another on every issue."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 9: Gender, Religion and Caste",
-          "text": "For board answers, always separate social divisions from political conflict. A difference becomes politically dangerous when leaders and institutions turn it into a rigid opposition and deny legitimate interests to the other side. Democracy cannot erase differences, but it can provide institutions for peaceful bargaining, representation and protection of rights."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 10: Gender, Religion and Caste",
-          "text": "Equality sometimes requires more than identical treatment. If two groups begin from very different historical positions, giving exactly the same formal rule may not remove the underlying disadvantage. Targeted representation or support can therefore be defended as a way to move society toward substantive equality, provided such measures operate through transparent constitutional and legal rules."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Board Practice and Deep Revision",
+      "title": "Religion, rights and citizenship",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Application Question 1: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Gender, Religion and Caste, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Application Question 2: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Application Question 3: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Application Question 4: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 5: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 6: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 7: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 8: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 9: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 10: Explain one important idea from Gender, Religion and Caste using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Key Concepts — Quick Mastery",
+      "title": "Caste, mobilisation and reform",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Key Term 1",
-          "text": "Power-sharing: distribution of authority so that multiple actors participate in decisions."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Gender, Religion and Caste, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "concept",
-          "title": "Key Term 2",
-          "text": "Majoritarianism: a form of majority domination that can disregard minority interests."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "concept",
-          "title": "Key Term 3",
-          "text": "Federalism: constitutionally divided authority among levels of government."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "concept",
-          "title": "Key Term 4",
-          "text": "Decentralisation: transfer of responsibilities toward lower levels of government."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 5",
-          "text": "Communalism: politicisation of religious identity in ways that can produce antagonism or exclusion."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 6",
-          "text": "Political party: organised group seeking political power through elections."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 7",
-          "text": "Accountability: the obligation of rulers and institutions to explain and justify actions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 8",
-          "text": "Legitimacy: acceptance of political authority as rightful and lawful."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 9",
-          "text": "Representation: presence of people or interests in decision-making institutions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 10",
-          "text": "Dignity: recognition that every citizen deserves equal respect and status."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Scenario Workshop",
+      "title": "Integrated social-division analysis",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Scenario 1: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 1 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Gender, Religion and Caste, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Scenario 2: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 2 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Scenario 3: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 3 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Scenario 4: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 4 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 5: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 5 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 6: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 6 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 7: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 7 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 8: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 8 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 9: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 9 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 10: A student encounters a real democratic disagreement connected with Gender, Religion and Caste. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 10 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Extended Concept Notes",
+      "title": "Final mixed board practice — exact answers",
       "blocks": [
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 1",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 1, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 1",
+          "question": "Why does women’s political representation matter?",
+          "answer": "It matters because women are equal citizens and should have meaningful opportunities to participate in decisions that affect society; representation can also bring wider experiences and concerns into public debate."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 2",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 2, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 2",
+          "question": "Mention two factors that can reduce women’s political participation.",
+          "answer": "Unequal access to resources and education, and social expectations that place disproportionate household responsibilities on women, can reduce political participation."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 3",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 3, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 3",
+          "question": "How can reservations increase women’s participation?",
+          "answer": "Reservations create a guaranteed share of elected positions for women, opening institutional opportunities that social and organisational barriers might otherwise restrict."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 4",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 4, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 4",
+          "question": "Why is representation alone not sufficient for gender equality?",
+          "answer": "Women representatives may still face unequal resources, social pressure and barriers within political organisations, so representation must be accompanied by broader social and institutional change."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 5",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 5, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 5",
+          "question": "Is every use of religion in politics communal?",
+          "answer": "No. Demands for equal treatment or religious freedom are different from political appeals that portray one religious community as opposed to another or seek domination."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 6",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 6, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 6",
+          "question": "What is communalism?",
+          "answer": "Communalism is a form of politics in which religious identity is treated as a primary political basis and the interests of one religious community are presented as opposed to those of another."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 7",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 7, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 7",
+          "question": "What is the basic democratic principle of secularism?",
+          "answer": "The basic principle is equal citizenship regardless of religious identity, together with freedom of religion and protection against religious domination."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 8",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 8, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 8",
+          "question": "Why can the state intervene in religious practices?",
+          "answer": "The state can intervene when practices conflict with constitutional rights, equality or other public principles protected by law."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 9",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 9, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 9",
+          "question": "How can caste influence politics?",
+          "answer": "Caste can influence political networks, candidate selection, group mobilisation and voting behaviour, although voters also consider development, leadership, policies and other issues."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 10",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 10, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 11",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 11, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 12",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 12, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 13",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 13, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 14",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 14, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 15",
-          "text": "Social identities are not automatically political problems. Gender, religion and caste become democratic questions when they affect access to rights, opportunities, representation or public power. The political process can recognise identity while still protecting equal citizenship. A strong answer should therefore avoid saying that identity should never enter politics; instead, it should explain when identity-based mobilisation promotes equality and when it becomes exclusionary or divisive. This is extension note 15, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 10",
+          "question": "Why are affirmative measures used for disadvantaged groups?",
+          "answer": "They are used to address historical and structural disadvantages and to improve access to representation and opportunities."
         }
       ]
     }

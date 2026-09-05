@@ -1,18 +1,23 @@
-// Class 10 Political Science — Outcomes of Democracy
-// Renderable ChapterData for ConceptQizzer notes renderer.
-
+// Class 10 Political Science — ultra detailed expanded renderable chapter
 const ChapterData = {
   "id": "10-politicalscience-outcomes-of-democracy",
   "class": 10,
   "subject": "Political Science",
   "chapterNumber": 5,
   "title": "Outcomes of Democracy",
-  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice.",
+  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice. Expanded with additional original explanations, integrated comic stories, exact-answer questions and labelled Wikimedia Commons visuals. This edition removes the earlier comic stories and replaces them with new character-based stories distributed beside the relevant concepts, plus additional exact-answer practice and extended explanations.",
   "summary": "Democracy is judged not only by elections but also by accountable government, responsiveness, legitimate decision-making, social diversity, rights and the possibility of improving citizens’ lives.",
   "sections": [
     {
       "title": "1. How should democracy be evaluated?",
       "blocks": [
+        {
+          "type": "figure",
+          "title": "Real-world visual",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/India%20Protest%20%281%29.jpg",
+          "caption": "Citizens participating in a public protest — illustrating political participation and the ability to express demands.",
+          "source": "Wikimedia Commons: India Protest (1)"
+        },
         {
           "type": "paragraph",
           "title": "Beyond elections",
@@ -31,27 +36,81 @@ const ChapterData = {
           "alt": "India's present parliamentary complex, illustrating representative institutions."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democracy should be evaluated through both procedures and outcomes. Procedures include regular elections, constitutional rules, participation and accountability mechanisms. Outcomes include the quality of government, protection of rights, social accommodation and the extent to which citizens can influence public decisions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "It is useful to distinguish ideal expectations from guaranteed results. Democracy creates mechanisms for citizens to demand better outcomes, but it does not promise that every government will eliminate poverty, end inequality or satisfy every group immediately."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "A careful evaluation therefore asks not only whether institutions exist, but whether they function: Are decisions open to scrutiny? Can citizens replace rulers? Are minorities protected? Can people criticise government without arbitrary punishment? These questions reveal democratic quality more clearly than a single indicator."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The report card",
+          "title": "Comic story — 1. Democracy must be judged by outcomes",
           "dialogues": [
             {
-              "character": "Teacher",
-              "dialogue": "Your government held elections. Is that the whole report?"
+              "character": "Surya",
+              "dialogue": "Is holding elections enough to prove that a democracy works well?"
             },
             {
-              "character": "Student",
-              "dialogue": "No. We should also ask whether decisions were transparent, citizens could question leaders, rights were respected and institutions worked."
+              "character": "Verma Sir",
+              "dialogue": "Elections are essential, but citizens also judge whether government is accountable, responsive, legitimate and respectful of rights."
             },
             {
-              "character": "Teacher",
-              "dialogue": "Good. Democracy is a system of continuous accountability, not a five-year event."
+              "character": "Ansh",
+              "dialogue": "So democratic quality is wider than voting day."
             },
             {
-              "character": "Student",
-              "dialogue": "So elections are the beginning of evaluation, not the end."
+              "character": "Verma Sir",
+              "dialogue": "Exactly."
             }
           ],
-          "result": "The class creates a democracy report card covering elections, accountability, responsiveness, rights and participation."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Name three dimensions used to evaluate democratic government.",
+          "answer": "Three important dimensions are accountability, responsiveness and legitimacy."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why should democracy be evaluated beyond elections?",
+          "answer": "Because regular elections are necessary but do not by themselves show whether government is accountable, responsive, legitimate, rights-respecting and inclusive."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 1",
+          "question": "Why is accountability important in democracy?",
+          "answer": "It requires public authorities to explain and justify decisions and allows institutions and citizens to question, review or challenge the exercise of power."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 7",
+          "question": "Why is dignity a democratic outcome?",
+          "answer": "Democracy recognises citizens as political equals and creates space for participation, expression and claims to equal treatment rather than arbitrary domination."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of poverty reduction should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that poverty reduction is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of policy responsiveness should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that policy responsiveness is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of democratic expectations should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that democratic expectations is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -85,6 +144,83 @@ const ChapterData = {
           "title": "3-Mark Board Question",
           "question": "Distinguish accountability, responsiveness and legitimacy.",
           "answer": "Accountability concerns answerability and checks on rulers; responsiveness concerns the capacity to address public needs and demands; legitimacy concerns the public acceptance of government authority as lawful and rightful."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "An accountable government must explain and justify its actions and can be questioned through legislatures, courts, elections, audits, media and citizens. Accountability connects public power with reasons and responsibility."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Responsiveness means that government takes public needs seriously and adjusts policies through lawful decision-making. A government can be responsive without accepting every demand because public policy often requires balancing competing interests and available resources."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Legitimacy refers to the belief that political authority is rightful and should be obeyed. Democratic legitimacy grows when citizens have meaningful participation, procedures are predictable, rights are respected and leaders can be replaced peacefully."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 2. The unanswered application",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Suppose a citizen asks the government for information. Why does accountability matter?"
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "Because public authorities should be answerable for decisions and the use of public resources."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Institutions such as legislatures, courts, media and citizens can create pressure for accountability."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Then accountability connects power with responsibility."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What is an accountable government?",
+          "answer": "An accountable government is one that must explain and justify its decisions and can be questioned or checked through democratic institutions and citizens."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "What makes a government legitimate?",
+          "answer": "A government gains legitimacy when authority is exercised through accepted democratic procedures, rights are respected and citizens can participate and replace rulers peacefully."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 2",
+          "question": "What is responsiveness?",
+          "answer": "Responsiveness means that government takes public needs and demands seriously and adjusts policies through lawful decision-making while balancing competing interests."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 8",
+          "question": "How do freedoms support democracy?",
+          "answer": "Freedoms of expression, association and belief allow citizens to participate, organise, criticise government and contribute to public debate."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of accountability should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that accountability is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of social diversity should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that social diversity is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of political equality should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political equality is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -114,27 +250,81 @@ const ChapterData = {
           "alt": "A view of the road leading to Parliament, illustrating the concentration of national decision-making institutions."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democracy does not automatically produce the fastest economic growth. Economic performance depends on many factors, including resources, technology, institutions, global conditions, policy choices and historical circumstances."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democratic government is nevertheless judged by how it handles economic demands. Citizens can debate budgets, public services, employment, taxation and welfare, and opposition parties can challenge economic policy. This creates pressure for governments to justify choices."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Growth and distribution must be considered separately. An economy may grow while gains are distributed unevenly. Democratic institutions can provide channels for demands for redistribution and social protection, but outcomes depend on policy and political bargaining."
+        },
+        {
           "type": "comic",
-          "title": "Comic: Two scorecards",
+          "title": "Comic story — 3. Growth is not the whole story",
           "dialogues": [
             {
-              "character": "Neel",
-              "dialogue": "GDP growth increased, so everything must be successful."
+              "character": "Prince",
+              "dialogue": "If an economy grows, does that automatically mean everyone benefits equally?"
             },
             {
-              "character": "Maya",
-              "dialogue": "Growth matters, but what happened to jobs, public services, inequality and access to opportunities?"
+              "character": "Surya",
+              "dialogue": "No. Growth can coexist with unequal incomes and unequal access to opportunities."
             },
             {
-              "character": "Neel",
-              "dialogue": "So economic success has more than one measure."
+              "character": "Sharma Sir",
+              "dialogue": "Democracy creates mechanisms for public demands, but it does not guarantee instant economic equality."
             },
             {
-              "character": "Maya",
-              "dialogue": "Exactly. Democratic evaluation looks at both aggregate performance and distribution."
+              "character": "Prince",
+              "dialogue": "So economic outcomes must be evaluated with distribution as well as growth."
             }
           ],
-          "result": "The students add employment, public health, education and inequality indicators to their economic scorecard."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Does democracy guarantee the fastest economic growth?",
+          "answer": "No. Economic growth depends on many factors, including resources, technology, institutions, policies and global conditions."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why should economic growth and distribution be considered separately?",
+          "answer": "Because an economy can grow while income and opportunities remain unequally distributed; growth alone does not show how benefits are shared."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 3",
+          "question": "What is legitimacy?",
+          "answer": "Legitimacy is the acceptance of political authority as rightful, strengthened when government follows accepted democratic procedures and respects citizens’ rights."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 9",
+          "question": "Why is poverty reduction a democratic concern?",
+          "answer": "Citizens expect governments to address economic hardship, and democratic competition provides mechanisms for debating policies and replacing governments that fail to respond."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of responsiveness should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that responsiveness is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of dignity should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that dignity is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of economic inequality should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that economic inequality is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -161,6 +351,83 @@ const ChapterData = {
           "title": "3-Mark Board Question",
           "question": "Why does democracy not automatically guarantee economic equality?",
           "answer": "Democracy guarantees political equality more directly than economic equality. Wealth and resources may remain unevenly distributed, and reducing inequality requires sustained public policy, implementation and social mobilisation."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Political equality does not automatically create economic equality. Citizens may have equal votes while having very different incomes, assets, education and access to services."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Poverty reduction and inequality involve difficult policy choices about employment, education, healthcare, taxation, social security and public investment. Democracy allows these choices to become subjects of public debate and electoral competition."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The limitation is important: democratic procedures cannot guarantee that every government will rapidly remove poverty. The democratic advantage is the availability of peaceful mechanisms through which citizens can demand change, organise collectively and replace governments that fail to meet expectations."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 4. Diversity needs accommodation",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Why does democracy need to manage social differences?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Because people have different languages, religions, regions, classes and identities. Democratic institutions must provide peaceful ways to negotiate those differences."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "That turns diversity from a source of conflict into something politics can manage."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Precisely."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Why does political equality not guarantee economic equality?",
+          "answer": "Citizens may have equal voting rights while possessing very different incomes, assets, education, employment opportunities and access to services."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "What democratic advantage exists when governments fail to reduce poverty?",
+          "answer": "Citizens can organise, debate policies, demand change and peacefully replace governments through elections and other democratic mechanisms."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 4",
+          "question": "Why does democracy not guarantee immediate economic equality?",
+          "answer": "Economic inequality depends on many factors and can persist even when citizens have equal political rights; democratic procedures provide channels to demand change but do not automatically produce equal incomes."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 10",
+          "question": "What is one major limitation of evaluating democracy only by government efficiency?",
+          "answer": "Efficiency alone does not show whether power is accountable, rights are protected, minorities are included or citizens can participate meaningfully."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of legitimacy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that legitimacy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of freedom should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that freedom is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of social accommodation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that social accommodation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -183,27 +450,75 @@ const ChapterData = {
           "text": "Institutions give competing groups lawful ways to express demands. This makes disagreement normal rather than automatically dangerous. Power-sharing, federalism and representation become tools for managing diversity."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democracy must manage differences because societies contain multiple identities and interests. Accommodation does not mean that every demand is accepted; it means that differences are addressed through constitutional rules, negotiation and equal citizenship rather than violence or permanent exclusion."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Power-sharing, federalism, minority protections, political parties and independent institutions can all contribute to accommodation. These arrangements create routes for groups to express grievances without turning every disagreement into a struggle for total control."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The success of accommodation depends on democratic political culture as well as formal rules. Leaders and citizens need to accept that opponents are legitimate participants in the same political community."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The school festival",
+          "title": "Comic story — 5. Dignity in everyday life",
           "dialogues": [
             {
-              "character": "Farah",
-              "dialogue": "Our group wants a cultural stall."
+              "character": "Surya",
+              "dialogue": "Can democracy affect how a person is treated at school, work or in public life?"
             },
             {
-              "character": "Arjun",
-              "dialogue": "So does ours. We cannot give every group the entire hall."
+              "character": "Divya",
+              "dialogue": "Yes. Democratic ideals support equal citizenship, freedom and respect for individual dignity."
             },
             {
-              "character": "Farah",
-              "dialogue": "Then let us divide time and space fairly."
+              "character": "Verma Sir",
+              "dialogue": "The political system is judged partly by whether people can live without arbitrary domination."
             },
             {
-              "character": "Arjun",
-              "dialogue": "And make a common schedule so everyone can participate."
+              "character": "Surya",
+              "dialogue": "Then democracy has a social and ethical dimension too."
             }
           ],
-          "result": "The festival committee creates a shared schedule and allocates space through transparent rules rather than letting the largest group dominate."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What does accommodation of social diversity mean?",
+          "answer": "It means addressing differences through equal rights, constitutional rules, negotiation and peaceful political institutions rather than permanent exclusion or violence."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why is democratic political culture important for accommodation?",
+          "answer": "Because formal rules work better when leaders and citizens accept opponents as legitimate participants and are willing to negotiate disagreements peacefully."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 5",
+          "question": "Why must economic growth be distinguished from distribution?",
+          "answer": "Growth measures an increase in economic output or income, while distribution concerns how the benefits of that growth are shared among people and groups."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of economic performance should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that economic performance is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of public participation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that public participation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of citizen rights should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that citizen rights is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -239,309 +554,332 @@ const ChapterData = {
           "answer": "It treats citizens as political equals, protects rights and freedoms, permits public criticism and organisation, and provides institutions through which disadvantaged groups can demand recognition and fair treatment."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Democracy is closely connected with the dignity of individuals because it treats citizens as political equals rather than as subjects who must simply obey rulers. Fundamental rights, freedom of expression, association and belief give citizens space to shape their own lives and public debate."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Dignity also concerns groups that have historically faced discrimination. Democratic equality is tested when marginalised citizens demand recognition, equal treatment and opportunities to participate in public institutions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Freedom is not unlimited: democratic societies balance individual liberty with laws designed to protect the rights and safety of others. The important principle is that restrictions should operate through publicly known laws and accountable institutions rather than arbitrary personal power."
+        },
+        {
           "type": "practice",
-          "question": "Write a balanced conclusion on the outcomes of democracy.",
-          "answer": "Democracy performs strongly in political accountability, legitimacy, participation, rights and peaceful management of diversity, but it does not automatically eliminate poverty, inequality or every form of corruption. Its strength lies partly in giving citizens peaceful mechanisms to demand improvement."
+          "title": "Check your understanding — Question 1",
+          "question": "How does democracy promote dignity?",
+          "answer": "Democracy treats citizens as political equals and protects opportunities to participate, express opinions and claim equal treatment under law."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why are freedoms important in a democracy?",
+          "answer": "Freedoms such as expression, association and belief allow citizens to participate in public life, criticise government and develop their own views and identities."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 6. The public hearing",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Citizens have asked why a public project was delayed."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "A responsive government should provide an explanation and address the concern through lawful procedures."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "So responsiveness is more than simply listening."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Yes. It involves taking public needs seriously in decision-making."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 7. The budget debate",
+          "dialogues": [
+            {
+              "character": "Prince",
+              "dialogue": "Why do citizens argue about how public money should be spent?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Because budgets reflect priorities and distribute resources among competing needs."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "Democracy allows those priorities to be debated and challenged."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Exactly."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 8. Equality question",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Two citizens have the same vote but very different incomes. Are they economically equal?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "No. Political equality does not automatically produce economic equality."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That distinction is central to evaluating democratic outcomes."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "So we must examine both political rights and social-economic conditions."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 9. The minority joins the discussion",
+          "dialogues": [
+            {
+              "character": "Arushi",
+              "dialogue": "Our group disagrees with the majority, but we have a lawful way to express our concern."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "That is accommodation through democratic institutions."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "A healthy democracy allows disagreement without treating opponents as enemies who have no rights."
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "Participation makes disagreement manageable."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 10. Surya gives the final test",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "I will judge democracy by accountability, responsiveness, legitimacy, social accommodation, dignity, freedom and the handling of inequality."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That is a much stronger test than asking only whether elections were held."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Because democracy is a continuing system of public accountability."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 6",
+          "question": "How can democracy accommodate social diversity?",
+          "answer": "It provides constitutional rights, representation, negotiation, power-sharing and peaceful institutions through which different groups can express and manage disagreements."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of distribution should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that distribution is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of institutional scrutiny should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that institutional scrutiny is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Outcomes of Democracy, the idea of government transparency should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that government transparency is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Deep-Dive Understanding",
+      "title": "Measuring democratic quality",
       "blocks": [
         {
           "type": "paragraph",
-          "title": "Deep Dive 1: Outcomes of Democracy",
-          "text": "Democracy should be evaluated as a system of public reasoning and accountability rather than only as a method for selecting rulers. Elections identify representatives, but citizens also expect those representatives to explain decisions, follow constitutional rules and respond to legitimate demands. The quality of institutions between elections is therefore as important as the act of voting itself."
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Outcomes of Democracy, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 2: Outcomes of Democracy",
-          "text": "Accountability works through several channels. Legislatures can question ministers, courts can review legal questions, auditors can examine public spending, journalists can investigate, opposition parties can challenge government claims, and citizens can protest or organise. No single mechanism is perfect, but together they create multiple opportunities to detect mistakes and misuse of authority."
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 3: Outcomes of Democracy",
-          "text": "Responsiveness does not mean that government should obey every demand instantly. Public demands can conflict with one another, resources are limited and some decisions require long-term planning. A responsive government listens, evaluates evidence, explains choices and changes direction when democratic and constitutional reasons justify doing so."
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "paragraph",
-          "title": "Deep Dive 4: Outcomes of Democracy",
-          "text": "Legitimacy is strengthened when citizens believe that political authority is obtained and exercised according to accepted rules. Free and fair elections are important, but legitimacy also depends on constitutional procedures, rights, transparency and the peaceful transfer of power. A government can be electorally successful yet lose legitimacy if it repeatedly violates the rules that make its authority acceptable."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 5: Outcomes of Democracy",
-          "text": "Democracy does not guarantee rapid economic growth. Economic performance is affected by education, infrastructure, technology, investment, global markets, natural resources and policy choices. The democratic advantage is that citizens can debate economic priorities, replace governments and demand explanations for outcomes without needing to overthrow the political system."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 6: Outcomes of Democracy",
-          "text": "Political equality and economic equality are different. Democracy generally gives citizens equal formal political status, but wealth and income may remain unequal. Wealth can influence access to education, networks, information and political influence. Therefore a democratic society may need deliberate public policies to reduce severe inequality and expand substantive opportunities."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 7: Outcomes of Democracy",
-          "text": "One important democratic outcome is the peaceful management of social differences. Institutions such as federal governments, legislatures, courts, elections and local bodies allow competing interests to organise without making violence the only route to change. The success of this process depends on whether minorities can participate and whether majorities accept constitutional limits."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 8: Outcomes of Democracy",
-          "text": "Dignity is a democratic outcome because citizenship changes how individuals are viewed by public authority. A person who can vote, speak, organise and seek legal protection is not merely a subject of government. Democratic rights recognise the person as an equal participant in the political community, even when social status and economic power remain unequal."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 9: Outcomes of Democracy",
-          "text": "Democratic systems can make mistakes, and their value partly lies in the ability to correct mistakes peacefully. Governments can be replaced, laws can be challenged, policies can be revised and institutions can learn from public criticism. This capacity for correction distinguishes a self-governing political system from one in which rulers cannot be questioned."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 10: Outcomes of Democracy",
-          "text": "A balanced examination answer should avoid both extreme praise and extreme criticism. Democracy has clear strengths in accountability, legitimacy, participation, rights and peaceful conflict management. At the same time, corruption, inequality, poverty, delays and weak implementation can persist. The strongest conclusion explains that democracy creates mechanisms for citizens to demand improvement, but institutions and public participation determine how well those mechanisms work."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Board Practice and Deep Revision",
+      "title": "Limits and expectations",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Application Question 1: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Outcomes of Democracy, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Application Question 2: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Application Question 3: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Application Question 4: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 5: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 6: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 7: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 8: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 9: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 10: Explain one important idea from Outcomes of Democracy using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Key Concepts — Quick Mastery",
+      "title": "Rights, equality and participation",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Key Term 1",
-          "text": "Power-sharing: distribution of authority so that multiple actors participate in decisions."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Outcomes of Democracy, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "concept",
-          "title": "Key Term 2",
-          "text": "Majoritarianism: a form of majority domination that can disregard minority interests."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "concept",
-          "title": "Key Term 3",
-          "text": "Federalism: constitutionally divided authority among levels of government."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "concept",
-          "title": "Key Term 4",
-          "text": "Decentralisation: transfer of responsibilities toward lower levels of government."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 5",
-          "text": "Communalism: politicisation of religious identity in ways that can produce antagonism or exclusion."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 6",
-          "text": "Political party: organised group seeking political power through elections."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 7",
-          "text": "Accountability: the obligation of rulers and institutions to explain and justify actions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 8",
-          "text": "Legitimacy: acceptance of political authority as rightful and lawful."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 9",
-          "text": "Representation: presence of people or interests in decision-making institutions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 10",
-          "text": "Dignity: recognition that every citizen deserves equal respect and status."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Scenario Workshop",
+      "title": "Integrated outcome analysis",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Scenario 1: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 1 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Outcomes of Democracy, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Scenario 2: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 2 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Scenario 3: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 3 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Scenario 4: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 4 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 5: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 5 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 6: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 6 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 7: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 7 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 8: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 8 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 9: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 9 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 10: A student encounters a real democratic disagreement connected with Outcomes of Democracy. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 10 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Extended Concept Notes",
+      "title": "Final mixed board practice — exact answers",
       "blocks": [
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 1",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 1, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 1",
+          "question": "Name three dimensions used to evaluate democratic government.",
+          "answer": "Three important dimensions are accountability, responsiveness and legitimacy."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 2",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 2, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 2",
+          "question": "Why should democracy be evaluated beyond elections?",
+          "answer": "Because regular elections are necessary but do not by themselves show whether government is accountable, responsive, legitimate, rights-respecting and inclusive."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 3",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 3, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 3",
+          "question": "What is an accountable government?",
+          "answer": "An accountable government is one that must explain and justify its decisions and can be questioned or checked through democratic institutions and citizens."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 4",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 4, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 4",
+          "question": "What makes a government legitimate?",
+          "answer": "A government gains legitimacy when authority is exercised through accepted democratic procedures, rights are respected and citizens can participate and replace rulers peacefully."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 5",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 5, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 5",
+          "question": "Does democracy guarantee the fastest economic growth?",
+          "answer": "No. Economic growth depends on many factors, including resources, technology, institutions, policies and global conditions."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 6",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 6, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 6",
+          "question": "Why should economic growth and distribution be considered separately?",
+          "answer": "Because an economy can grow while income and opportunities remain unequally distributed; growth alone does not show how benefits are shared."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 7",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 7, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 7",
+          "question": "Why does political equality not guarantee economic equality?",
+          "answer": "Citizens may have equal voting rights while possessing very different incomes, assets, education, employment opportunities and access to services."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 8",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 8, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 8",
+          "question": "What democratic advantage exists when governments fail to reduce poverty?",
+          "answer": "Citizens can organise, debate policies, demand change and peacefully replace governments through elections and other democratic mechanisms."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 9",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 9, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 9",
+          "question": "What does accommodation of social diversity mean?",
+          "answer": "It means addressing differences through equal rights, constitutional rules, negotiation and peaceful political institutions rather than permanent exclusion or violence."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 10",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 10, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 11",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 11, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 12",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 12, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 13",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 13, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 14",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 14, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 15",
-          "text": "The outcomes of democracy should be judged comparatively and realistically. Democratic institutions may be slower than authoritarian commands because they require consultation, debate and procedural checks. That apparent slowness can also protect citizens from arbitrary decisions. The appropriate question is therefore not whether democracy always produces the fastest decision, but whether it provides legitimate, accountable and correctable decision-making while protecting rights and allowing citizens to influence public affairs. This is extension note 15, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 10",
+          "question": "Why is democratic political culture important for accommodation?",
+          "answer": "Because formal rules work better when leaders and citizens accept opponents as legitimate participants and are willing to negotiate disagreements peacefully."
         }
       ]
     }

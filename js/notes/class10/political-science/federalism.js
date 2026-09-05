@@ -1,18 +1,23 @@
-// Class 10 Political Science — Federalism
-// Renderable ChapterData for ConceptQizzer notes renderer.
-
+// Class 10 Political Science — ultra detailed expanded renderable chapter
 const ChapterData = {
   "id": "10-politicalscience-federalism",
   "class": 10,
   "subject": "Political Science",
   "chapterNumber": 2,
   "title": "Federalism",
-  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice.",
+  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice. Expanded with additional original explanations, integrated comic stories, exact-answer questions and labelled Wikimedia Commons visuals. This edition removes the earlier comic stories and replaces them with new character-based stories distributed beside the relevant concepts, plus additional exact-answer practice and extended explanations.",
   "summary": "Federalism explains how constitutional authority is divided between different levels of government while maintaining a common political system.",
   "sections": [
     {
       "title": "1. Meaning and key features",
       "blocks": [
+        {
+          "type": "figure",
+          "title": "Real-world visual",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/State%20Legislature%20of%20India.png",
+          "caption": "Indian states with bicameral and unicameral legislatures — illustrating variation within a federal political system.",
+          "source": "Wikimedia Commons: State Legislature of India"
+        },
         {
           "type": "paragraph",
           "title": "What is federalism?",
@@ -36,27 +41,81 @@ const ChapterData = {
           "alt": "A labelled map showing India's states and union territories."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Federalism is a system in which constitutional authority is divided between at least two levels of government, with each level having some autonomous powers. The division is not simply administrative convenience: it is protected by constitutional rules, and disputes about jurisdiction can be settled through courts or other constitutionally recognised mechanisms."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Federations usually have more than one level of elected government, a written or otherwise authoritative constitutional framework, clearly specified areas of jurisdiction, financial arrangements, and institutions that help resolve centre–region disputes. The exact design differs across countries because federations respond to different histories and social conditions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Federalism can help a large and diverse country combine unity with regional autonomy. The national government can handle matters requiring common standards, while regional governments can respond to local conditions. The balance between the levels is therefore a continuing political question."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The city, state and Union",
+          "title": "Comic story — 1. One country, several levels",
           "dialogues": [
             {
-              "character": "Tara",
-              "dialogue": "Our city needs better streetlights."
+              "character": "Surya",
+              "dialogue": "Why does a country need more than one level of government?"
             },
             {
-              "character": "State Officer",
-              "dialogue": "That is mainly a local responsibility, so the municipal body should act."
+              "character": "Verma Sir",
+              "dialogue": "Because some matters affect the whole country while others are better handled close to the people."
             },
             {
-              "character": "Union Officer",
-              "dialogue": "National defence is handled at the national level; it would be inefficient for every city to maintain its own army."
+              "character": "Ansh",
+              "dialogue": "So division of power is built into the structure itself."
             },
             {
-              "character": "Tara",
-              "dialogue": "So different levels can have different responsibilities while remaining part of one country."
+              "character": "Verma Sir",
+              "dialogue": "That is the basic idea of federalism."
             }
           ],
-          "result": "The three levels identify their respective responsibilities and coordinate where a problem crosses administrative boundaries."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Define federalism.",
+          "answer": "Federalism is a system of government in which constitutional powers are divided between at least two levels of government, with each level having some autonomous authority."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "State two key features of a federation.",
+          "answer": "A federation has constitutionally divided powers between levels of government and a constitutional mechanism for resolving disputes about those powers."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 1",
+          "question": "What makes federalism constitutional rather than merely administrative?",
+          "answer": "The division of powers between levels of government is constitutionally recognised and protected, rather than being a temporary delegation that a higher authority can freely withdraw."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 7",
+          "question": "Why can language policy affect national unity?",
+          "answer": "Language is closely tied to identity, so coercive language policies can create alienation, while accommodation can strengthen participation and belonging."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of linguistic identity should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that linguistic identity is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of constitutional supremacy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that constitutional supremacy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of multilevel governance should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that multilevel governance is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -90,6 +149,83 @@ const ChapterData = {
           "title": "3-Mark Board Question",
           "question": "What is meant by the division of powers in a federal system?",
           "answer": "It means that the constitution assigns specified subjects and responsibilities to different levels of government so that each level can exercise authority within its sphere."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "India combines a strong Union government with constitutionally recognised state governments. Subjects are distributed through the Union List, State List and Concurrent List, while some matters are assigned through other constitutional provisions. This creates a structured division of responsibilities rather than a purely informal arrangement."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "India’s federal design also includes institutions that connect the two levels. The Council of States represents the states in Parliament, while constitutional courts can adjudicate disputes involving legislative and executive powers. Financial relations, centrally sponsored programmes and administrative coordination create additional links between levels."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The Indian model is often described as having federal and unitary features. In ordinary conditions, states have constitutionally protected responsibilities, but the Union has significant powers, particularly in areas where national coordination is considered necessary. Understanding Indian federalism therefore requires looking at both autonomy and interdependence."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 2. The state wants a different solution",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "If every state has different local needs, should every decision come from the national capital?"
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "That could make government slow and less responsive to local conditions."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Federal arrangements allow states to exercise constitutionally protected authority in their own fields."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "So unity does not require uniformity."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Name the three legislative lists in the Indian constitutional division of powers.",
+          "answer": "The three lists are the Union List, State List and Concurrent List."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why are courts important in a federal system?",
+          "answer": "Courts can interpret the Constitution and settle disputes about the powers and responsibilities of different levels of government."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 2",
+          "question": "Why do federations need an independent mechanism for resolving disputes?",
+          "answer": "Because national and regional governments may disagree about their powers, and an authoritative dispute-resolution mechanism is needed to interpret the constitutional division."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 8",
+          "question": "How can different political parties at different levels affect federalism?",
+          "answer": "They can increase the need for negotiation and consultation, making respect for constitutional boundaries and cooperative relations especially important."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of constitutional division should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that constitutional division is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of state reorganisation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that state reorganisation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of intergovernmental negotiation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that intergovernmental negotiation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -112,23 +248,81 @@ const ChapterData = {
           "text": "The Indian federal arrangement has changed over time. New states and adjustments to boundaries have been made in response to administrative, linguistic, cultural and political demands. Federalism therefore functions as an evolving method of managing diversity."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "After independence, the organisation of states became closely connected with language and regional identity. Early fears that linguistic states might encourage separatism gradually gave way to the recognition that ignoring strong linguistic identities could create greater political tension."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Reorganisation on linguistic lines allowed many people to conduct public administration and political participation in a language widely understood in the region. It also created political units in which regional identities could receive institutional recognition while remaining within the Union."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The broader lesson is that federalism can be used to manage diversity by giving regional communities democratic space. State boundaries do not eliminate cultural differences, but they can provide peaceful constitutional channels for expressing and negotiating them."
+        },
+        {
           "type": "comic",
-          "title": "Comic: Language at the office",
+          "title": "Comic story — 3. Language and state boundaries",
           "dialogues": [
             {
-              "character": "Leela",
-              "dialogue": "If government forms are available in the language people use every day, more citizens can understand them."
+              "character": "Prince",
+              "dialogue": "Would reorganising states around language weaken the country?"
             },
             {
-              "character": "Officer",
-              "dialogue": "And when a matter affects the whole country, national coordination is still necessary."
+              "character": "Surya",
+              "dialogue": "It could have caused conflict if handled badly, but recognising language identities also gave people a stronger sense of participation."
             },
             {
-              "character": "Leela",
-              "dialogue": "So recognising regional language does not require rejecting national cooperation."
+              "character": "Verma Sir",
+              "dialogue": "India used linguistic reorganisation as an important part of accommodating diversity."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "Then recognising identity can strengthen, rather than automatically threaten, national unity."
             }
           ],
-          "result": "The office introduces multilingual communication while maintaining common national procedures for inter-state and Union matters."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Why were linguistic states created?",
+          "answer": "Linguistic states were created to recognise strong linguistic identities and make administration and political participation more responsive to regional language communities."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "How did linguistic reorganisation strengthen national unity?",
+          "answer": "It gave linguistic communities constitutional political space within the Union, reducing the need to treat regional identity as a threat to national belonging."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 3",
+          "question": "What are the three legislative lists in India?",
+          "answer": "The Union List, State List and Concurrent List."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 9",
+          "question": "What is the role of local governments in a federal structure?",
+          "answer": "Local governments provide a lower level of elected decision-making for community and municipal matters and bring governance closer to citizens."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of jurisdiction should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that jurisdiction is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of cooperative relations should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that cooperative relations is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of citizen access should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that citizen access is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -169,6 +363,83 @@ const ChapterData = {
           "title": "3-Mark Board Question",
           "question": "How does decentralisation deepen federalism?",
           "answer": "It adds a constitutionally recognised local level, gives communities opportunities to participate in local decisions and distributes responsibilities closer to citizens."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Federalism is not complete when powers are divided on paper; the political relationship between levels of government matters as well. When different parties govern at the Centre and in states, consultation, negotiation and respect for constitutional boundaries become especially important."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Decentralisation takes the logic further by transferring authority and responsibilities to elected local governments. The constitutional recognition of panchayats and municipalities strengthened local democracy and created a third level of governance. Local bodies can address matters such as community infrastructure, local development and public services within their assigned responsibilities."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Local democracy works best when elected bodies have clear functions, predictable finances, trained personnel and genuine opportunities to make decisions. Without these, decentralisation may exist formally but remain weak in practice."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 4. Power moves closer to citizens",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Why create panchayats and municipalities if states already exist?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Because many local problems are best understood and managed locally."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "So decentralisation adds another layer of participation."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly. Federalism becomes deeper when decision-making reaches the grassroots."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What is decentralisation?",
+          "answer": "Decentralisation is the transfer of power and responsibility from higher levels of government to elected bodies at lower levels, especially local governments."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why are local governments important?",
+          "answer": "Local governments bring decision-making closer to citizens and can address local development and public-service issues with greater knowledge of local conditions."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 4",
+          "question": "Why did linguistic reorganisation become politically important?",
+          "answer": "It recognised strong linguistic identities and allowed administration and political participation to operate more effectively in regions where a particular language was widely used."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 10",
+          "question": "Why does federalism not mean complete independence of each level?",
+          "answer": "All levels remain part of one constitutional political system, and their powers and relationships are defined by common constitutional rules."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of fiscal coordination should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that fiscal coordination is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of dispute resolution should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that dispute resolution is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of regional diversity should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that regional diversity is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -191,327 +462,376 @@ const ChapterData = {
           "text": "Federalism is not merely administrative decentralisation. In a genuine federation, the division of authority has constitutional protection and each level has a recognised sphere of action."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Language policy in a multilingual country must balance communication with recognition. A single language imposed without consultation can become a symbol of domination, while complete fragmentation can create administrative difficulties. Democratic language policy therefore often depends on accommodation and flexibility."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "India’s constitutional language framework recognises multiple languages and provides space for linguistic diversity. The continuing use of English for many official and higher-level purposes, alongside the spread of Hindi and the recognition of other Indian languages, reflects a negotiated rather than purely uniform approach."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "The federal spirit appears when language is treated as a democratic question rather than merely an administrative one. Respecting linguistic identities can strengthen citizens’ sense that the Union belongs to all regions rather than to a single linguistic community."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The festival notice",
+          "title": "Comic story — 5. A language policy compromise",
           "dialogues": [
             {
-              "character": "Imran",
-              "dialogue": "The town festival notice should be available in the languages residents understand."
+              "character": "Surya",
+              "dialogue": "Should one language be forced on everyone to create unity?"
             },
             {
-              "character": "Anika",
-              "dialogue": "Yes, and the national safety instructions can remain standard across the country."
+              "character": "Divya",
+              "dialogue": "Unity can also come from respecting several languages."
             },
             {
-              "character": "Imran",
-              "dialogue": "Different languages, shared rules."
+              "character": "Sharma Sir",
+              "dialogue": "India’s language policy combined recognition of multiple languages with a continuing role for a link language."
             },
             {
-              "character": "Anika",
-              "dialogue": "That is a good way to describe cooperative federalism."
+              "character": "Surya",
+              "dialogue": "That is accommodation again, but applied to language."
             }
           ],
-          "result": "The organisers publish local-language notices and keep common safety standards for everyone."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Why is language policy important in a federal democracy?",
+          "answer": "Language is closely connected with identity and participation, so a flexible language policy can reduce feelings of domination and accommodate linguistic diversity."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "What is the federal lesson of India’s language policy?",
+          "answer": "The lesson is that unity can be maintained through recognition and accommodation of multiple languages rather than through forced linguistic uniformity."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 5",
+          "question": "What is the purpose of decentralisation?",
+          "answer": "Its purpose is to transfer authority and responsibilities closer to citizens through elected local governments so that local matters can be addressed with greater participation and knowledge."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of regional autonomy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that regional autonomy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of administrative scale should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that administrative scale is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of common national framework should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that common national framework is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Deep-Dive Understanding",
+      "title": "Federalism as a living arrangement",
       "blocks": [
         {
           "type": "paragraph",
-          "title": "Deep Dive 1: Federalism",
-          "text": "Federalism begins with a practical problem: a large and diverse country needs common rules for matters that cross regional boundaries, but it also needs space for local and regional priorities. A federal constitution attempts to solve both problems by assigning different responsibilities to different levels. The national level can handle matters requiring uniformity, while states and local bodies can respond to conditions that vary from one region to another."
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Federalism, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 2: Federalism",
-          "text": "A key feature of federalism is constitutional division rather than ordinary administrative delegation. If a national ministry simply gives an office some responsibility, the higher authority can usually take that responsibility back. In a federation, the powers of each level are protected by constitutional rules. Courts can therefore be called upon when governments disagree about the boundaries of their authority."
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 3: Federalism",
-          "text": "India combines a strong Union with substantial state responsibilities. The constitutional division of legislative subjects, financial arrangements, courts and elected governments creates a federal framework. At the same time, certain features strengthen the Union, including residuary powers and special provisions for national emergencies. Understanding this balance is more accurate than describing the system as either completely centralised or completely decentralised."
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
+        },
+        {
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 6. The local road question",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "A village road is mainly a local problem. Why should every detail be decided nationally?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Local governments can understand local priorities more directly."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "But they still operate within state and constitutional rules."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly. Different levels can cooperate without becoming identical."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 7. Two governments, one citizen",
+          "dialogues": [
+            {
+              "character": "Arushi",
+              "dialogue": "I am governed by national laws and state laws at the same time."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "That sounds confusing."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "It becomes clearer when each level has defined responsibilities and citizens know which authority handles which matter."
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "So federalism creates multiple but organised channels of government."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 8. The state legislature lesson",
+          "dialogues": [
+            {
+              "character": "Prince",
+              "dialogue": "Why can state legislatures have different structures?"
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "The constitutional framework allows variation in state legislative arrangements."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "So federalism can accommodate differences among states while keeping a common national framework."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Correct."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 9. Language without conflict",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "What if a state wants administration in its own language?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "That can be accommodated if constitutional rules and citizens’ rights are respected."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Language recognition can strengthen participation when it is handled democratically."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "So diversity can be managed through institutions."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 10. Surya builds the federal map",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Union, state and local governments form connected layers."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "What keeps the layers from becoming completely independent countries?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "The Constitution defines their relationship and the Union remains one political community."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly: autonomy exists within a common constitutional order."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 6",
+          "question": "Why is federalism useful in a diverse country?",
+          "answer": "It allows national unity to coexist with regional autonomy by giving different regions constitutionally recognised space to govern matters assigned to them."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 4: Federalism",
-          "text": "Linguistic reorganisation of states illustrates how federalism can absorb identity demands. Rather than assuming that regional language is a threat to national unity, democratic institutions can recognise linguistic identities within the larger Union. When citizens can use familiar languages in administration and public life, they may feel more secure about their place in the country while continuing to share national institutions."
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of local democracy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that local democracy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 5: Federalism",
-          "text": "Language policy demonstrates the difference between uniformity and unity. Uniformity tries to make institutions operate in the same way everywhere. Unity allows diversity to exist within a common political framework. A federal democracy can maintain common constitutional principles while permitting different states to use regional languages, develop local policies and organise administration according to their circumstances."
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of political decentralisation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political decentralisation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 6: Federalism",
-          "text": "Decentralisation extends federal ideas downward. Rural and urban local bodies give residents opportunities to influence decisions about sanitation, local roads, water, planning and other community concerns. The success of decentralisation depends on more than elections: local institutions also need clear responsibilities, financial resources, trained personnel and transparent procedures."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 7: Federalism",
-          "text": "Political parties influence the working of federalism because the constitutional division operates inside a competitive political system. When different parties govern at different levels, negotiations over funds, policies and responsibilities become common. Regional parties can also raise state-specific issues at the national level. Coalition governments may further increase the importance of bargaining among national and regional actors."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 8: Federalism",
-          "text": "Federalism is therefore both a constitutional structure and a political practice. A constitution can assign powers, but cooperation determines how those powers are used. Governments need mechanisms for consultation, dispute resolution and coordinated action when problems cross boundaries. Rivers, transport networks, public health emergencies and economic regulation can all create issues that no single level can solve effectively on its own."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 9: Federalism",
-          "text": "An exam answer on federalism should distinguish coming-together federations from holding-together federations. In a coming-together federation, previously independent units agree to form a larger union while retaining substantial autonomy. In a holding-together federation, a large country divides authority internally to accommodate regional diversity. The distinction helps explain why different federations have different balances between national and regional power."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 10: Federalism",
-          "text": "Federalism also encourages democratic participation because it creates several arenas of political action. A citizen may vote in national, state and local elections, approach different representatives and raise issues at different levels. This can improve responsiveness because not every public problem has to travel through one distant national institution before being considered."
+          "title": "Extended concept note",
+          "text": "In the context of Federalism, the idea of local accountability should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that local accountability is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Board Practice and Deep Revision",
+      "title": "Centre–state–local connections",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Application Question 1: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Federalism, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Application Question 2: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Application Question 3: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Application Question 4: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 5: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 6: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 7: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 8: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 9: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 10: Explain one important idea from Federalism using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Key Concepts — Quick Mastery",
+      "title": "Language and identity",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Key Term 1",
-          "text": "Power-sharing: distribution of authority so that multiple actors participate in decisions."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Federalism, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "concept",
-          "title": "Key Term 2",
-          "text": "Majoritarianism: a form of majority domination that can disregard minority interests."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "concept",
-          "title": "Key Term 3",
-          "text": "Federalism: constitutionally divided authority among levels of government."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "concept",
-          "title": "Key Term 4",
-          "text": "Decentralisation: transfer of responsibilities toward lower levels of government."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 5",
-          "text": "Communalism: politicisation of religious identity in ways that can produce antagonism or exclusion."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 6",
-          "text": "Political party: organised group seeking political power through elections."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 7",
-          "text": "Accountability: the obligation of rulers and institutions to explain and justify actions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 8",
-          "text": "Legitimacy: acceptance of political authority as rightful and lawful."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 9",
-          "text": "Representation: presence of people or interests in decision-making institutions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 10",
-          "text": "Dignity: recognition that every citizen deserves equal respect and status."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Scenario Workshop",
+      "title": "Integrated case analysis",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Scenario 1: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 1 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Federalism, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Scenario 2: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 2 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Scenario 3: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 3 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Scenario 4: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 4 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 5: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 5 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 6: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 6 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 7: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 7 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 8: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 8 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 9: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 9 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 10: A student encounters a real democratic disagreement connected with Federalism. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 10 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Extended Concept Notes",
+      "title": "Final mixed board practice — exact answers",
       "blocks": [
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 1",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 1, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 1",
+          "question": "Define federalism.",
+          "answer": "Federalism is a system of government in which constitutional powers are divided between at least two levels of government, with each level having some autonomous authority."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 2",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 2, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 2",
+          "question": "State two key features of a federation.",
+          "answer": "A federation has constitutionally divided powers between levels of government and a constitutional mechanism for resolving disputes about those powers."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 3",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 3, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 3",
+          "question": "Name the three legislative lists in the Indian constitutional division of powers.",
+          "answer": "The three lists are the Union List, State List and Concurrent List."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 4",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 4, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 4",
+          "question": "Why are courts important in a federal system?",
+          "answer": "Courts can interpret the Constitution and settle disputes about the powers and responsibilities of different levels of government."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 5",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 5, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 5",
+          "question": "Why were linguistic states created?",
+          "answer": "Linguistic states were created to recognise strong linguistic identities and make administration and political participation more responsive to regional language communities."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 6",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 6, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 6",
+          "question": "How did linguistic reorganisation strengthen national unity?",
+          "answer": "It gave linguistic communities constitutional political space within the Union, reducing the need to treat regional identity as a threat to national belonging."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 7",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 7, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 7",
+          "question": "What is decentralisation?",
+          "answer": "Decentralisation is the transfer of power and responsibility from higher levels of government to elected bodies at lower levels, especially local governments."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 8",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 8, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 8",
+          "question": "Why are local governments important?",
+          "answer": "Local governments bring decision-making closer to citizens and can address local development and public-service issues with greater knowledge of local conditions."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 9",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 9, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 9",
+          "question": "Why is language policy important in a federal democracy?",
+          "answer": "Language is closely connected with identity and participation, so a flexible language policy can reduce feelings of domination and accommodate linguistic diversity."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 10",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 10, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 11",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 11, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 12",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 12, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 13",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 13, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 14",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 14, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 15",
-          "text": "Federalism becomes meaningful when regional governments can make decisions that affect their people without requiring permission for every ordinary matter. At the same time, national institutions remain necessary for subjects that require common standards. The challenge is coordination: too little national authority can make common action difficult, while excessive central control can make regional autonomy merely symbolic. Federal practice therefore involves both autonomy and cooperation. This is extension note 15, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 10",
+          "question": "What is the federal lesson of India’s language policy?",
+          "answer": "The lesson is that unity can be maintained through recognition and accommodation of multiple languages rather than through forced linguistic uniformity."
         }
       ]
     }

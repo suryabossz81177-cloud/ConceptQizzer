@@ -1,18 +1,23 @@
-// Class 10 Political Science — Political Parties
-// Renderable ChapterData for ConceptQizzer notes renderer.
-
+// Class 10 Political Science — ultra detailed expanded renderable chapter
 const ChapterData = {
   "id": "10-politicalscience-political-parties",
   "class": 10,
   "subject": "Political Science",
   "chapterNumber": 4,
   "title": "Political Parties",
-  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice.",
+  "description": "Very detailed continuous-flow study notes with integrated comic stories, real Wikimedia Commons visuals, definitions, examples and board-style practice. Expanded with additional original explanations, integrated comic stories, exact-answer questions and labelled Wikimedia Commons visuals. This edition removes the earlier comic stories and replaces them with new character-based stories distributed beside the relevant concepts, plus additional exact-answer practice and extended explanations.",
   "summary": "Political parties organise political competition, connect citizens with government, contest elections, form governments, shape policies and provide organised opposition.",
   "sections": [
     {
       "title": "1. Why political parties are necessary",
       "blocks": [
+        {
+          "type": "figure",
+          "title": "Real-world visual",
+          "image": "https://commons.wikimedia.org/wiki/Special:FilePath/India%20state%20ruling%20parties.png",
+          "caption": "Map showing ruling parties across Indian state legislatures — useful for understanding multi-party competition and state-level diversity.",
+          "source": "Wikimedia Commons: India state ruling parties map"
+        },
         {
           "type": "paragraph",
           "title": "From individuals to organised choices",
@@ -36,27 +41,81 @@ const ChapterData = {
           "alt": "A historical group photograph connected with the development of organised political activity."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "A political party is an organised group that seeks to gain political power through elections and uses that power to pursue a programme. Parties usually contain leaders, active members, supporters and organisational structures. They connect citizens to institutions by turning broad preferences into candidates and policy choices."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Without parties, elected representatives might still exist, but coordination would be harder. Legislatures require groups to organise support for bills, governments need coherent programmes, and voters need meaningful alternatives. Parties provide a structure for all three tasks."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Parties also aggregate interests. Farmers, workers, businesses, students, regions and communities may have different demands; a party tries to combine some of them into a wider programme that can appeal beyond a single interest."
+        },
+        {
           "type": "comic",
-          "title": "Comic: The neighbourhood election",
+          "title": "Comic story — 1. Why parties are needed",
           "dialogues": [
             {
-              "character": "Kabir",
-              "dialogue": "I agree with five different proposals from five people."
+              "character": "Surya",
+              "dialogue": "Could every candidate contest alone without political parties?"
             },
             {
-              "character": "Nisha",
-              "dialogue": "A party can combine related proposals into a programme so voters can compare broader choices."
+              "character": "Verma Sir",
+              "dialogue": "People could contest, but voters would find it harder to compare organised policy programmes and governments would struggle to coordinate legislation."
             },
             {
-              "character": "Kabir",
-              "dialogue": "And after the election, the party can be held responsible for what it promised."
+              "character": "Ansh",
+              "dialogue": "So parties organise choices for voters and action for elected representatives."
             },
             {
-              "character": "Nisha",
-              "dialogue": "Exactly. Organisation makes political accountability easier."
+              "character": "Verma Sir",
+              "dialogue": "Exactly."
             }
           ],
-          "result": "The neighbourhood creates two competing programmes and asks candidates to explain how they will implement them."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What is a political party?",
+          "answer": "A political party is an organised group that seeks political power through elections and pursues a programme of public policies."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why are parties necessary in representative democracy?",
+          "answer": "They organise candidates, aggregate interests, offer policy alternatives, coordinate legislative action and help form governments."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 1",
+          "question": "What is the basic purpose of a political party?",
+          "answer": "Its basic purpose is to seek political power through elections and use that power to pursue a programme of policies."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 7",
+          "question": "Why is dynastic succession considered a challenge?",
+          "answer": "Repeated concentration of leadership within families can restrict wider opportunities for political recruitment and make party organisation dependent on personal networks."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of multi-party competition should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that multi-party competition is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of citizen participation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that citizen participation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of institutional transparency should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that institutional transparency is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -103,6 +162,83 @@ const ChapterData = {
           "title": "5-Mark Board Question",
           "question": "Explain any five functions of political parties.",
           "answer": "Parties contest elections, form governments, formulate policies, participate in law-making, shape public opinion and connect citizens with government. Any five explained with examples earn full credit."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Parties contest elections by selecting candidates, organising campaigns and communicating programmes. They offer voters alternatives and help turn individual preferences into collective electoral choices."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "When parties win office, they form governments and organise legislative work. The party or coalition in government proposes policies, while opposition parties scrutinise decisions, criticise failures and present alternatives. This government–opposition relationship is central to democratic accountability."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Parties also shape public opinion through speeches, meetings, media communication and political education. They recruit and train political leaders and create channels through which citizens can participate beyond casting a ballot."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 2. A promise becomes a programme",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "A candidate promises many things. What turns those promises into a political programme?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "A party groups proposals into policies, priorities and a broader vision of government."
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "Then voters can judge a package rather than isolated promises."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "That is one reason organised parties matter."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "State four functions of political parties.",
+          "answer": "Political parties contest elections, formulate policies and programmes, form and run governments, and act as opposition; they also shape public opinion and recruit leaders."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "How do opposition parties contribute to democracy?",
+          "answer": "Opposition parties scrutinise the government, highlight failures, raise alternative proposals and provide voters with an alternative at elections."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 2",
+          "question": "Why do parties aggregate interests?",
+          "answer": "They combine demands from different groups and regions into broader programmes that can be presented to voters and used to organise government action."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 8",
+          "question": "How can money power affect party competition?",
+          "answer": "Large financial resources can influence campaigning, candidate selection and access to political communication, creating unequal competitive conditions."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of interest aggregation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that interest aggregation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of regional parties should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that regional parties is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of party organisation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that party organisation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -132,27 +268,81 @@ const ChapterData = {
           "text": "When no single party has sufficient legislative support to govern alone, multiple parties may join together. Coalition politics can broaden representation, though it also requires negotiation and compromise."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Party systems vary according to how many parties compete seriously and how power changes hands. A one-party system differs fundamentally from a two-party system, while a multi-party system can produce coalition governments and a larger range of political alternatives."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "India has a multi-party system in which national and state-level parties compete. State parties can be especially important because regional issues, language, identity and local development priorities influence electoral competition."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Political competition can improve accountability because parties must persuade voters and defend their record. But competition can also become unhealthy if parties rely on misinformation, personal attacks or divisive identity appeals instead of substantive policy debate."
+        },
+        {
           "type": "comic",
-          "title": "Comic: Building a coalition",
+          "title": "Comic story — 3. Coalition arithmetic",
           "dialogues": [
             {
-              "character": "Party A",
-              "dialogue": "Our economic policy is different from yours."
+              "character": "Prince",
+              "dialogue": "If no party gets a majority, is democracy finished?"
             },
             {
-              "character": "Party B",
-              "dialogue": "But we agree on improving local transport and strengthening parliamentary accountability."
+              "character": "Surya",
+              "dialogue": "No. Parties can negotiate and form a coalition if they can agree on a workable government."
             },
             {
-              "character": "Party A",
-              "dialogue": "Then let us write a common programme limited to areas of agreement."
+              "character": "Verma Sir",
+              "dialogue": "Coalition politics can make compromise necessary."
             },
             {
-              "character": "Party B",
-              "dialogue": "And publicly state where we disagree."
+              "character": "Prince",
+              "dialogue": "So electoral competition can produce cooperation after the election."
             }
           ],
-          "result": "The coalition creates a written common programme and keeps separate identities while cooperating in government."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "What is a multi-party system?",
+          "answer": "A multi-party system is a system in which several parties have a realistic opportunity to compete for political power and more than two parties may play important roles in government formation."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why are state parties important in India?",
+          "answer": "State parties represent regional interests and can strongly influence state politics and, in some situations, national coalition formation."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 3",
+          "question": "How do parties help voters make choices?",
+          "answer": "They present candidates, policies and programmes, allowing voters to compare organised political alternatives rather than only individual candidates."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 9",
+          "question": "Why is political choice important?",
+          "answer": "Voters need meaningful alternatives so that elections provide a real opportunity to compare programmes and hold governments accountable."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of candidate selection should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that candidate selection is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of internal democracy should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that internal democracy is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of electoral accountability should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that electoral accountability is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -191,6 +381,83 @@ const ChapterData = {
           "title": "5-Mark Board Question",
           "question": "Explain three major challenges to political parties.",
           "answer": "Internal democracy can be weak, leadership may become concentrated through dynastic succession, money and criminal influence can distort elections, and parties may sometimes fail to offer meaningful policy choices."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "One challenge is lack of internal democracy. If decisions about leadership and candidates are concentrated among a small group, ordinary members and supporters may have limited influence."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "A second challenge is dynastic succession, where political leadership is repeatedly concentrated within families. Family connections do not by themselves prove poor leadership, but repeated dependence on personal networks can restrict opportunities for wider recruitment."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "A third challenge is the growing role of money and muscle power. Campaigns require resources, and unequal access to money can influence who gets nominated, how campaigns are conducted and which interests receive attention. Parties also face the challenge of offering meaningful choices when their programmes appear similar on some issues."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 4. The challenge inside the party",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "Can a party be democratic outside but undemocratic inside?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Yes, if leadership is concentrated and ordinary members have little say."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That is why internal democracy, transparency and fair procedures are important reforms."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "Democratic values must exist within organisations too."
+            }
+          ],
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
+        },
+        {
+          "type": "practice",
+          "title": "Check your understanding — Question 1",
+          "question": "Name three major challenges faced by political parties.",
+          "answer": "Major challenges include lack of internal democracy, dynastic succession, the influence of money and muscle power, and limited meaningful choice in some political contests."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "Why is internal democracy important in a party?",
+          "answer": "It gives ordinary members a voice in organisational decisions, leadership selection and candidate selection instead of concentrating power in a small group."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 4",
+          "question": "What is the role of opposition parties?",
+          "answer": "They scrutinise government actions, raise alternative policies, identify failures and provide voters with alternatives in future elections."
+        },
+        {
+          "type": "exam",
+          "title": "Exact-answer practice 10",
+          "question": "Name two ways citizens can improve party accountability.",
+          "answer": "Citizens can compare party programmes and candidate information, and they can question elected representatives and monitor their performance between elections."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of policy programmes should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that policy programmes is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of dynastic succession should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that dynastic succession is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of coalition politics should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that coalition politics is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
@@ -220,332 +487,376 @@ const ChapterData = {
           "text": "Political parties respond to incentives created by voters, activists, media and institutions. Laws matter, but public demand for transparency and internal participation also affects party behaviour."
         },
         {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Political reforms can include stronger internal elections, transparent party finances, better candidate disclosure, fairer organisational procedures and measures that increase opportunities for women and under-represented groups. Reforms work best when rules are enforceable and citizens can monitor compliance."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "Citizens can strengthen party democracy by comparing manifestos, checking candidate information, attending public meetings, questioning representatives and evaluating performance between elections. Media literacy is also important because political claims should be checked against evidence rather than accepted automatically."
+        },
+        {
+          "type": "paragraph",
+          "title": "Detailed understanding",
+          "text": "No single reform can solve every party-system problem. Democracy improves when institutions, parties, election rules, media organisations and citizens all reinforce transparency, accountability and meaningful competition."
+        },
+        {
           "type": "comic",
-          "title": "Comic: Choosing a candidate",
+          "title": "Comic story — 5. The voter is part of the system",
           "dialogues": [
             {
-              "character": "Ishita",
-              "dialogue": "This candidate has spent the most money, so perhaps they are strongest."
+              "character": "Surya",
+              "dialogue": "Are party reforms only the responsibility of party leaders?"
             },
             {
-              "character": "Rahul",
-              "dialogue": "Or perhaps we should compare their work, programme, public record and answers."
+              "character": "Divya",
+              "dialogue": "No. Citizens can compare candidates, question promises, participate in public discussion and demand transparency."
             },
             {
-              "character": "Ishita",
-              "dialogue": "Then elections become a choice about performance, not just resources."
+              "character": "Verma Sir",
+              "dialogue": "Exactly. Democracy is strengthened by active citizens, not only by institutions."
             },
             {
-              "character": "Rahul",
-              "dialogue": "Exactly. Citizens also shape the quality of party politics."
+              "character": "Surya",
+              "dialogue": "So voting is the beginning of participation, not the end."
             }
           ],
-          "result": "The voters create a comparison sheet covering policies, local work, public record and transparency before making their choice."
+          "result": "The characters connect the classroom situation to the democratic concept explained in this section."
         },
         {
           "type": "practice",
-          "question": "Why are political parties considered necessary even though they are often criticised?",
-          "answer": "They are necessary because large-scale representative democracy needs organised programmes, candidates, government formation and opposition. Criticism should encourage reform rather than assume that democracy can function effectively without political organisation."
+          "title": "Check your understanding — Question 1",
+          "question": "Mention two measures that can improve party transparency.",
+          "answer": "Parties can disclose financial information and provide transparent information about candidates, leadership procedures and organisational decisions."
+        },
+        {
+          "type": "exam",
+          "title": "Check your understanding — Question 2",
+          "question": "How can citizens strengthen political accountability?",
+          "answer": "Citizens can compare programmes, question candidates, verify political claims, participate in public discussion, monitor elected representatives and evaluate their performance between elections."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 5",
+          "question": "Why can a multi-party system represent regional interests?",
+          "answer": "It allows state-level and regional parties to organise around issues and identities that may receive less emphasis in nationally oriented parties."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of government formation should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that government formation is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of campaign finance should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that campaign finance is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
+        },
+        {
+          "type": "paragraph",
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of public opinion should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that public opinion is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Deep-Dive Understanding",
+      "title": "Parties as democratic infrastructure",
       "blocks": [
         {
           "type": "paragraph",
-          "title": "Deep Dive 1: Political Parties",
-          "text": "Political parties solve a coordination problem in representative democracy. Millions of voters cannot negotiate a separate policy package with every candidate, and legislatures cannot function if every representative acts without any organised programme. Parties bundle issues together, nominate candidates and give voters a way to compare broad political alternatives."
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Political Parties, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 2: Political Parties",
-          "text": "Party competition also creates responsibility. If a party forms a government, citizens can evaluate its performance against promises, decisions and outcomes. If it loses, an opposition party can present an alternative programme. This makes politics more structured than a collection of unrelated individual candidacies."
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 3: Political Parties",
-          "text": "A manifesto is useful because it communicates priorities, but voters should not treat a manifesto as the only evidence for judging a party. They can also examine previous performance, candidate records, legislative behaviour, local work, transparency and the credibility of proposed policies. Democratic choice improves when citizens compare evidence rather than relying only on slogans."
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
+        },
+        {
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 6. The manifesto comparison",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "Party A promises one set of policies and Party B promises another."
+            },
+            {
+              "character": "Ansh",
+              "dialogue": "A voter can compare those programmes instead of choosing only by personality."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "That is one way parties structure political choice."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "A programme makes accountability easier because promises can later be evaluated."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 7. Government and opposition",
+          "dialogues": [
+            {
+              "character": "Prince",
+              "dialogue": "Why does the opposition keep questioning the government?"
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Because scrutiny is necessary for accountability and public debate."
+            },
+            {
+              "character": "Prince",
+              "dialogue": "So opposition is not simply an obstacle."
+            },
+            {
+              "character": "Sharma Sir",
+              "dialogue": "Correct. A legitimate opposition is part of democratic competition."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 8. A party membership meeting",
+          "dialogues": [
+            {
+              "character": "Shashank",
+              "dialogue": "What if only the top leaders decide every candidate?"
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Then ordinary members have little influence over the organisation."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Internal democracy requires meaningful participation and transparent procedures."
+            },
+            {
+              "character": "Shashank",
+              "dialogue": "The party itself should practise the values it promotes publicly."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 9. Regional voice",
+          "dialogues": [
+            {
+              "character": "Arushi",
+              "dialogue": "Our region has a specific issue that national parties do not emphasise."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "A state-level party may bring that regional concern into electoral politics."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "Exactly. Multi-party competition can provide space for regional interests."
+            },
+            {
+              "character": "Arushi",
+              "dialogue": "That can also affect coalition formation at higher levels."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "comic",
+          "title": "Comic story — 10. Surya becomes the voter",
+          "dialogues": [
+            {
+              "character": "Surya",
+              "dialogue": "I will compare policies, examine candidates, question claims and evaluate performance."
+            },
+            {
+              "character": "Divya",
+              "dialogue": "Then voting becomes an informed democratic choice."
+            },
+            {
+              "character": "Verma Sir",
+              "dialogue": "And citizens can strengthen parties by demanding transparency and accountability."
+            },
+            {
+              "character": "Surya",
+              "dialogue": "Political parties and citizens depend on each other in a representative democracy."
+            }
+          ],
+          "result": "The story reinforces the exact political concept discussed immediately around it."
+        },
+        {
+          "type": "practice",
+          "title": "Exact-answer practice 6",
+          "question": "What is internal party democracy?",
+          "answer": "It is meaningful participation by party members in organisational decisions, leadership selection, candidate selection and other major party processes through fair procedures."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 4: Political Parties",
-          "text": "Internal democracy matters because parties are themselves political organisations. If members cannot question leaders, participate in candidate selection or influence important decisions, the party may reproduce the very concentration of power that democratic institutions are supposed to control. Internal elections, transparent membership rules and open discussion can improve party accountability."
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of opposition scrutiny should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that opposition scrutiny is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 5: Political Parties",
-          "text": "Dynastic succession becomes a challenge when family connections substitute for open competition. A relative of a political leader may be fully capable of public service, but democracy is weakened if nomination opportunities are systematically restricted to a small set of families. The key issue is whether ordinary members and qualified outsiders have genuine opportunities to rise within the organisation."
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of political choice should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that political choice is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         },
         {
           "type": "paragraph",
-          "title": "Deep Dive 6: Political Parties",
-          "text": "Money can influence political competition by making campaigning, advertising and organisation easier for wealthy candidates and donors. Rules requiring disclosure and transparency seek to reduce hidden influence. Yet formal rules are only one part of the solution; voters, journalists, civil society groups and party members also create pressure for cleaner politics."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 7: Political Parties",
-          "text": "Criminal influence is another challenge because intimidation and serious criminal activity can undermine equal political competition. Voters need reliable information about candidates, while institutions need effective enforcement of election and criminal laws. A democratic system cannot rely solely on moral appeals if rules are not consistently implemented."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 8: Political Parties",
-          "text": "Multiparty politics can broaden representation because regional and issue-based parties may bring concerns that large national parties cannot fully absorb. The same diversity can make government formation more complicated. Coalition politics therefore requires negotiation, common programmes and mechanisms for resolving disagreements among partners."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 9: Political Parties",
-          "text": "Opposition parties are not simply waiting governments. They perform a constitutional and political function by questioning policies, exposing weaknesses, proposing alternatives and representing citizens who did not vote for the governing group. A healthy democracy needs an opposition that can operate without intimidation and has meaningful access to legislative procedures."
-        },
-        {
-          "type": "paragraph",
-          "title": "Deep Dive 10: Political Parties",
-          "text": "Citizens influence party reform through choices made before, during and between elections. Joining parties, attending public meetings, contacting representatives, supporting transparent candidates, questioning promises and demanding public information can all change the incentives under which parties operate. Party reform is therefore not only a task for party leaders or election authorities."
+          "title": "Extended concept note",
+          "text": "In the context of Political Parties, the idea of leadership recruitment should be understood as part of a larger democratic process. Citizens do not experience this concept in isolation: institutions make rules, political actors interpret them, social groups respond to them, and public debate can alter priorities. The exam value of this point lies in explaining the mechanism. Instead of writing only that leadership recruitment is “important”, explain who participates, what authority is involved, what problem the arrangement addresses, and what consequence follows. This approach turns a definition into a complete explanation and helps distinguish closely related concepts when a question asks for comparison or application."
         }
       ]
     },
     {
-      "title": "Board Practice and Deep Revision",
+      "title": "Competition and representation",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Application Question 1: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Political Parties, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Application Question 2: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Application Question 3: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Application Question 4: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 5: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 6: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 7: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 8: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 9: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
-        },
-        {
-          "type": "practice",
-          "question": "Application Question 10: Explain one important idea from Political Parties using a real-life democratic situation.",
-          "answer": "A strong answer should define the concept, connect it to democratic institutions or social life, provide a specific example, and conclude by explaining why the idea matters for citizens. This question is designed for concept application rather than memorisation."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Key Concepts — Quick Mastery",
+      "title": "Reform and accountability",
       "blocks": [
         {
-          "type": "concept",
-          "title": "Key Term 1",
-          "text": "Power-sharing: distribution of authority so that multiple actors participate in decisions."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Political Parties, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "concept",
-          "title": "Key Term 2",
-          "text": "Majoritarianism: a form of majority domination that can disregard minority interests."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "concept",
-          "title": "Key Term 3",
-          "text": "Federalism: constitutionally divided authority among levels of government."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "concept",
-          "title": "Key Term 4",
-          "text": "Decentralisation: transfer of responsibilities toward lower levels of government."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 5",
-          "text": "Communalism: politicisation of religious identity in ways that can produce antagonism or exclusion."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 6",
-          "text": "Political party: organised group seeking political power through elections."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 7",
-          "text": "Accountability: the obligation of rulers and institutions to explain and justify actions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 8",
-          "text": "Legitimacy: acceptance of political authority as rightful and lawful."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 9",
-          "text": "Representation: presence of people or interests in decision-making institutions."
-        },
-        {
-          "type": "concept",
-          "title": "Key Term 10",
-          "text": "Dignity: recognition that every citizen deserves equal respect and status."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Scenario Workshop",
+      "title": "Integrated party-system analysis",
       "blocks": [
         {
-          "type": "practice",
-          "question": "Scenario 1: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 1 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Deep explanation",
+          "text": "This section connects the earlier ideas into one continuous argument. In Political Parties, the key is not to memorise isolated definitions but to understand how institutions, citizens, social groups and political decisions affect one another."
         },
         {
-          "type": "practice",
-          "question": "Scenario 2: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 2 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Exam-focused reasoning",
+          "text": "A high-quality answer should identify the concept, explain the mechanism, use a precise example and state the consequence. Avoid vague phrases such as “it is important” without explaining why it matters. Each claim should be linked to a constitutional, institutional or social process."
         },
         {
-          "type": "practice",
-          "question": "Scenario 3: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 3 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "paragraph",
+          "title": "Concept connection",
+          "text": "The chapter becomes easier when concepts are treated as a chain: a social or political problem creates a demand; institutions provide a channel; political actors negotiate or compete; decisions produce effects; and citizens evaluate those effects through participation, criticism and elections."
         },
         {
-          "type": "practice",
-          "question": "Scenario 4: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 4 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 5: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 5 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 6: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 6 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 7: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 7 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 8: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 8 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 9: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 9 should be answered in your own words and supported with a specific situation rather than a slogan."
-        },
-        {
-          "type": "practice",
-          "question": "Scenario 10: A student encounters a real democratic disagreement connected with Political Parties. What should the student examine before forming a conclusion?",
-          "answer": "First identify the institution or social process involved, then define the relevant concept, identify the competing interests, check the constitutional or democratic principle at stake, consider a concrete example, and finally explain a balanced conclusion. Scenario 10 should be answered in your own words and supported with a specific situation rather than a slogan."
+          "type": "keypoint",
+          "title": "Master point",
+          "text": "Remember the mechanism, not merely the label: identify who has power, who is affected, which institution acts, what rule applies, and how citizens can influence or review the decision."
         }
       ]
     },
     {
-      "title": "Extended Concept Notes",
+      "title": "Final mixed board practice — exact answers",
       "blocks": [
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 1",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 1, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 1",
+          "question": "What is a political party?",
+          "answer": "A political party is an organised group that seeks political power through elections and pursues a programme of public policies."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 2",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 2, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 2",
+          "question": "Why are parties necessary in representative democracy?",
+          "answer": "They organise candidates, aggregate interests, offer policy alternatives, coordinate legislative action and help form governments."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 3",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 3, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 3",
+          "question": "State four functions of political parties.",
+          "answer": "Political parties contest elections, formulate policies and programmes, form and run governments, and act as opposition; they also shape public opinion and recruit leaders."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 4",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 4, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 4",
+          "question": "How do opposition parties contribute to democracy?",
+          "answer": "Opposition parties scrutinise the government, highlight failures, raise alternative proposals and provide voters with an alternative at elections."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 5",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 5, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 5",
+          "question": "What is a multi-party system?",
+          "answer": "A multi-party system is a system in which several parties have a realistic opportunity to compete for political power and more than two parties may play important roles in government formation."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 6",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 6, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 6",
+          "question": "Why are state parties important in India?",
+          "answer": "State parties represent regional interests and can strongly influence state politics and, in some situations, national coalition formation."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 7",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 7, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 7",
+          "question": "Name three major challenges faced by political parties.",
+          "answer": "Major challenges include lack of internal democracy, dynastic succession, the influence of money and muscle power, and limited meaningful choice in some political contests."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 8",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 8, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 8",
+          "question": "Why is internal democracy important in a party?",
+          "answer": "It gives ordinary members a voice in organisational decisions, leadership selection and candidate selection instead of concentrating power in a small group."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 9",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 9, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 9",
+          "question": "Mention two measures that can improve party transparency.",
+          "answer": "Parties can disclose financial information and provide transparent information about candidates, leadership procedures and organisational decisions."
         },
         {
-          "type": "paragraph",
-          "title": "Extended Concept Note 10",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 10, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 11",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 11, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 12",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 12, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 13",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 13, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 14",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 14, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
-        },
-        {
-          "type": "paragraph",
-          "title": "Extended Concept Note 15",
-          "text": "Political parties are permanent organisations rather than temporary election slogans. They recruit workers, select candidates, develop policy positions, raise resources, communicate with citizens and coordinate representatives. Their internal structure affects the quality of democratic competition. If ordinary members can participate and leaders can be questioned, parties are more likely to reflect democratic practices; if decision-making is closed, party competition may remain electoral while internal democracy stays weak. This is extension note 15, focusing on a different angle: definition, institutional design, citizen participation, conflict management, accountability, representation, implementation, comparison, evidence, evaluation, limitation, example, counter-example, exam structure or conclusion. The learner should connect this angle to the chapter rather than memorising it as an isolated sentence."
+          "type": "practice",
+          "title": "Board Question 10",
+          "question": "How can citizens strengthen political accountability?",
+          "answer": "Citizens can compare programmes, question candidates, verify political claims, participate in public discussion, monitor elected representatives and evaluate their performance between elections."
         }
       ]
     }
